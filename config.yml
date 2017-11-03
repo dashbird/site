@@ -3,6 +3,7 @@
   baseURL: 'https://dashbird.io/'
   languageCode: 'en-us'
   title: 'Dashbird'
+  disqusShortName: 'dashbird'
   menu:
     main:
         - Name: 'Features'

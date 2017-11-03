@@ -12,5 +12,11 @@
     {{ .Content }}
     </div>
   </div>
+
+  <div class="row justify-content-center lato lh-3">
+    <div class="col-6 mt-4 mb-5">
+      {{ partial "disqus" . }}
+    </div>
+  </div>
 </section>
 {{ end }}
