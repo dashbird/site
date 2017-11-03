@@ -7,7 +7,7 @@ date: 2017-10-29T17:50:03+02:00
   <div class="row">
     <div class="col text-center mt-5 mb-5">
       <p class="h1">Better Lambda functions for everyone</p>
-      <p class="h4 mt-4 mb-5 lato">Start with 14 days for free</p>
+      <p class="h4 mt-4 mb-5 lato">First 14 days are free</p>
       <div class="toggle lato text-white d-inline">
         <span class="d-inline-block"><i class="fa fa-check text-green mr-2"></i>MONTHLY</span>
         <span class="active d-inline-block">ANNUAL<i class="fa fa-check text-green ml-2"></i></span>
