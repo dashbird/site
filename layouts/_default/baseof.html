@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ .Site.Title }}{{ block "title" . }}{{ end }}</title>
+    {{ partial "meta.html" }}
+    {{ partial "stylesheets.html" }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" }}
+    {{ partial "scripts.html" }}
+  </body>
+</html>

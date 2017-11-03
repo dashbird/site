@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="container-fluid dark-bg">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <h1 class="text-center mt-5 mb-1">{{ .Title }}</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center lato lh-3">
+    <div class="col-6 mt-4 mb-5 bg-white imgs-fluid">
+      <img src="/images/blog/{{ .Params.frontImage  }}" class=" mb-4">
+    {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}

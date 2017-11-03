@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashbird</title>
+    <link>https://dashbird.io/</link>
+    <description>Recent content on Dashbird</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Oct 2017 17:50:03 +0200</lastBuildDate>
+    
+	<atom:link href="https://dashbird.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://dashbird.io/features/</link>
+      <pubDate>Sun, 29 Oct 2017 17:50:03 +0200</pubDate>
+      
+      <guid>https://dashbird.io/features/</guid>
+      <description>Deliver high quality Lambda functions Dashbird works by collecting logs through your AWS Cloudwatch API.  How it works?    Quickly find and fix production errors Tracking and alerting errors from all your Lambda functions.
+Stacktraces and context helps you troubleshoot errors quickly and easily.
+     Get closer to your code while developing it Real time insights after each deploy.
+Execution data and logs let you iterate quicky after deploys.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dashbird.io/pricing/</link>
+      <pubDate>Sun, 29 Oct 2017 17:50:03 +0200</pubDate>
+      
+      <guid>https://dashbird.io/pricing/</guid>
+      <description>Better Lambda functions for everyone
+Start with 14 days for free
+MONTHLY ANNUAL    Enterprise $599 per month / billed yearly
+30 million invocations
+ Unlimited functions
+Start free trial   Pro $299 per month / billed yearly
+10 million invocations
+ Unlimited functions
+Start free trial   Startup $99 per month / billed yearly
+5 million invocations
+ 50 functions
+Start free trial   Basic $0 Free</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dashbird.io/signup/</link>
+      <pubDate>Sun, 29 Oct 2017 17:50:03 +0200</pubDate>
+      
+      <guid>https://dashbird.io/signup/</guid>
+      <description>Start improving your Lambdas today! Start Free Trial   No credit card required
+       </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dashbird.io/team/</link>
+      <pubDate>Sun, 29 Oct 2017 17:50:03 +0200</pubDate>
+      
+      <guid>https://dashbird.io/team/</guid>
+      <description>Behind the scenes We&#39;re a small group of developers from Estonia. Passionate about all
+things Serverless, we want to make functions better for everybody.
+   Mikk Kirstein FOUNDER &amp; CTO Mikk is a kick-ass developer who, among other things, built the entire back-end of Dashbird.
+He&#39;s also an aspiring kite-surfer and a father to a miniature bull terrier pup. Next time you talk to him, ask him anything about Node.</description>
+    </item>
+    
+    <item>
+      <title> askdajwd</title>
+      <link>https://dashbird.io/blog/page1/</link>
+      <pubDate>Sun, 29 Oct 2017 17:50:03 +0200</pubDate>
+      
+      <guid>https://dashbird.io/blog/page1/</guid>
+      <description> testiiiing </description>
+    </item>
+    
+  </channel>
+</rss>

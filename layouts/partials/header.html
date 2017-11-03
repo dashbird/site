@@ -1,0 +1,28 @@
+<nav class="navbar navbar-light navbar-expand-md pl-5 pr-5">
+  <a class="navbar-brand" href="/">
+    <img src="/images/logo.png" class="logo-image">
+    <span class="align-middle">DASHBIRD</span>
+  </a>
+  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navigation">
+    <span> </span>
+    <span> </span>
+    <span> </span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navigation">
+    <ul class="nav navbar-nav mt-3 mt-md-0 ml-md-auto">
+      <li class="nav-item d-flex d-md-none">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      {{ $currentNode := .  }}
+			{{ range .Site.Menus.main }}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+      <li class="nav-item btn-blue p-0 pr-2 pl-2 ml-3">
+          <span class='align-middle text-white pr-2 effect-u'><img src="/images/ic-arrow.svg" class="ic-arrow pb-1">Sign in</span>
+      </li>
+    </ul>
+  </div>
+</nav>
