@@ -4,6 +4,7 @@ description: Working with serverless is great when you find the right tools that
 date: 2017-06-12
 frontImage: "gray-cover.jpg"
 ---
+_This post was originally published in the [Serverless blog](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/) ._
 
 The Serverless Framework offers one of the fastest and cheapest ways to produce scalable and modern backend applications.
 However, building these event based systems differs quite a lot from traditional applications both by development workflow and production infrastructure.
@@ -94,5 +95,3 @@ Here are some of the plugins to use:
 
 ## Conlusion
 Working with serverless systems is great when you find the right tools that work for you. With these tools, you can fix errors faster and be more connected to your serverless applications.
-
-_PS! Write in the comments if you think anything is missing!_

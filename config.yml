@@ -11,9 +11,9 @@
         - Name: 'Pricing'
           URL: '/pricing'
           Weight: 200
-        # - Name: 'Blog'
-        #   URL: '/blog'
-        #   Weight: 300
+        - Name: 'Blog'
+          URL: '/blog'
+          Weight: 300
         - Name: 'Team'
           URL: '/team'
           Weight: 400
