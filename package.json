@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Dashbird.io public web",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo -D server",
+    "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashbird/site.git"
+  },
+  "keywords": [
+    "dashbird",
+    "public",
+    "web",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashbird/site/issues"
+  },
+  "homepage": "https://github.com/dashbird/site#readme"
+}
