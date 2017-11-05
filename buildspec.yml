@@ -11,6 +11,11 @@ phases:
       - tar xf /tmp/hugo.tar.gz -C /tmp
       - mv /tmp/hugo /usr/bin/hugo
       - rm -rf /tmp/hugo
+
+  pre_build:
+    commands:
+      - aws configure set preview.cloudfront true
+
   build:
     commands:
       - cat buildspec.yml
