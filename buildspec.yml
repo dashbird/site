@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    - apt-get update -y
+    - apt-get install -y hugo
+  build:
+    - hugo
+
+artifacts:
+  files:
+    - public/*
