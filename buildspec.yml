@@ -13,9 +13,10 @@ phases:
       - rm -rf /tmp/hugo
   build:
     commands:
+      - cat buildspec.yml
       - hugo
 
 artifacts:
   files:
     - 'public/**/*'
-   discard-paths: yes
+   # discard-paths: yes
