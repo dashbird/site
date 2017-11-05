@@ -3,14 +3,13 @@ version: 0.2
 environment_variables:
   plaintext:
     AWS_DEFAULT_REGION: "us-east-1"
-    HUGO_VERSION: "0.30.2"
 
 phases:
   install:
     commands:
-      - curl -Ls https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
+      - curl -Ls https://github.com/spf13/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
       - tar xf /tmp/hugo.tar.gz -C /tmp
-      - mv /tmp/hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo
+      - mv /tmp/hugo_0.30.2_linux_amd64/hugo_0.30.2_linux_amd64 /usr/bin/hugo
       - rm -rf /tmp/hugo*
   build:
     commands:
