@@ -17,4 +17,5 @@ phases:
 
 artifacts:
   files:
-    - public/*
+    - public/**/*
+   discard-paths: yes
