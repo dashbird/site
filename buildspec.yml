@@ -19,4 +19,4 @@ phases:
 artifacts:
   files:
     - 'public/**/*'
-  discard-paths: yes
+   # discard-paths: yes
