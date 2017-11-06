@@ -1,16 +1,51 @@
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93410800-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-93410800-1');
 </script>
 
+<title>{{ .Title }}</title>
 
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon"/>
+<meta name="description" content="{{ .Description }}">
+ <meta name="keywords" content="lambda monitoring, aws lambda, error tracking, alerting, serverless">
 
+ <!-- Facebook OG -->
+ <meta property="og:title" content="{{ .Title }}">
+ {{ if .IsPage }}
+ <meta property="og:type" content="article">
+ <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+ {{ else }}
+ <meta property="og:type" content="website">
+ {{ end }}
+ <meta property="og:description" content="{{ .Description }}">
+ <meta property="og:url" content="{{ .Permalink }}">
+ <meta property="og:site_name" content="{{ .Site.Title }}">
+ {{ if .Params.thumbnail }}
+ <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+ {{ end }}
+ {{ range .Params.tags }}
+ <meta property="og:tags" content="{{ . }}">
+ {{ end }}
+
+ <!-- Start of Twitter -->
+ {{ if .Site.Params.twitter_card_whitelisted }}
+ {{ if .Params.twitter_summary }}
+ <meta property="twitter:card" content="{{ .Params.twitter_summary }}">
+ {{ else if .Description }}
+ <meta property="twitter:card" content="{{ .Description }}">
+ {{ else }}
+ <meta property="twitter:card" content="{{ .Title }}">
+ {{ end }}
+ {{ end }}
+ <meta property="twitter:description" content="{{ .Description }}">
+ <meta property="twitter:title" content="{{ .Title }}">
+ {{ if .Params.thumbnail }}
+ <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+ {{ end }}
+ <!-- End of Twitter -->
+
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon"/>

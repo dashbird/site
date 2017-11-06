@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ .Site.Title }}{{ block "title" . }}{{ end }}</title>
-    {{ partial "meta.html" }}
+    {{ partial "meta.html" . }}
     {{ partial "stylesheets.html" }}
   </head>
   <body>

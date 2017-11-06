@@ -1,12 +1,13 @@
 ---
-title: ""
+title: "Dashbird pricing - Free, Startup, Pro and Enterprise plans"
+description: "Half a million Lambda invocations is free in Dashbird. Pick the best powerful metrics and analytics package for your needs."
 date: 2017-10-29T17:50:03+02:00
 ---
 
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5 mb-5">
-      <p class="h1">Better Lambda functions for everyone</p>
+      <h1>Pay for how much you use </h1>
       <p class="h4 mt-4 mb-5 lato">First 14 days are free</p>
       <div class="toggle lato text-white d-inline">
         <span class="d-inline-block"><i class="fa fa-check text-green mr-2"></i>MONTHLY</span>

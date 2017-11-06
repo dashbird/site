@@ -1,6 +1,7 @@
 ---
-title: ""
-date: 2017-10-29T17:50:03+02:00
+title: "Dashbird Features - error alerting, monitoring, logs, search"
+description: "Best tool for finding problems and debugging in your AWS Lambda functions. Useful for tracking system performance and memory usage and searching through logs."
+date: 2017-11-06T10:50:03+02:00
 ---
 
 <section class="container-fluid dark-bg">
