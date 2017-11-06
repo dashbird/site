@@ -3,7 +3,7 @@
   <div class="row justify-content-center">
     <div class="col-6">
       <h1 class="text-center mt-5 mb-4">{{ .Title }}</h1>
-      <p class="text-left small mb-0">{{ .Params.author }} at {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p class="text-right small mb-0">{{ .Params.author }} at {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
     </div>
   </div>
   <div class="row justify-content-center lato lh-3">
@@ -19,4 +19,5 @@
     </div>
   </div>
 </section>
+{{ partial "opengraph" . }}
 {{ end }}
