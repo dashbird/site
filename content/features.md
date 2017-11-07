@@ -1,6 +1,7 @@
 ---
 title: "Dashbird Features - error alerting, monitoring, logs, search"
 description: "Best tool for finding problems and debugging in your AWS Lambda functions. Useful for tracking system performance and memory usage and searching through logs."
+image-twitter: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---
 

@@ -26,19 +26,7 @@ dated: 2017-10-29T17:50:03+02:00
 
 </section>
 
-<section class="container social" style="margin-top: 70px;">
-  <div class="row justify-content-center">
-    <div class="col-auto mr-md-3" style="margin-top: 19px;"><img class="w-150 mx-auto" src="/images/socialproof/nuviad.png"></div>
-    <div class="col-auto mr-md-2 mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/volta.png"></div>
-    <div class="col-auto mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/teamweek.png"></div>
-  </div>
-  <div class="row justify-content-md-center mt-5 subtle">
-    <div class="col-md-6 gray">
-      <p class="text-center slab">“Dashbird is great for detecting issues in large scale Serverless systems. We use it for troubleshooting and optimising our applications daily. ”</p>
-      <p class="quote text-center">- Mario Tosso, Software Developer</p>
-    </div>
-  </div>
-</section>
+
 
 <section class="container-fluid dark-bg mt-5">
 
@@ -92,9 +80,23 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 </section>
 
+<section class="container social" style="margin-top: 30px;">
+  <div class="row justify-content-center">
+    <div class="col-auto mr-md-3" style="margin-top: 19px;"><img class="w-150 mx-auto" src="/images/socialproof/nuviad.png"></div>
+    <div class="col-auto mr-md-2 mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/volta.png"></div>
+    <div class="col-auto mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/teamweek.png"></div>
+  </div>
+  <div class="row justify-content-md-center mt-5 subtle">
+    <div class="col-md-6 gray">
+      <p class="text-center slab">“Dashbird is great for detecting issues in large scale Serverless systems. We use it for troubleshooting and optimising our applications daily. ”</p>
+      <p class="quote text-center">- Mario Tosso, Software Developer</p>
+    </div>
+  </div>
+</section>
+
 <section class="container-fluid">
   <div class="row justify-content-md-center">
-    <div class="col justify-content-md-center text-center bg-cta br-7 mb-8 mt-8 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
+    <div class="col justify-content-md-center text-center bg-cta br-7 mb-8 mt-3 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
       <span class="h1 pt-5">Results in 5min, no re-deploys!</span>
       <h3 class="mt-3">Provide the best user-experience with your Serverless system.</h3>
       <div class="row justify-content-md-center">
