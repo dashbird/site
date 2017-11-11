@@ -16,3 +16,5 @@
         - Name: 'Blog'
           URL: '/blog'
           Weight: 300
+  params:
+    thumbnail: "images/screens/preview.png"

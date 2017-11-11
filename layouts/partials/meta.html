@@ -12,7 +12,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="{{ .Description }}">
  <meta name="keywords" content="lambda monitoring, aws lambda, error tracking, alerting, serverless">
-
  <!-- Facebook OG -->
  <meta property="og:title" content="{{ .Title }}">
  {{ if .IsPage }}
@@ -26,6 +25,8 @@
  <meta property="og:site_name" content="{{ .Site.Title }}">
  {{ if .Params.thumbnail }}
  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+ {{ else }}
+ <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}">
  {{ end }}
  {{ range .Params.tags }}
  <meta property="og:tags" content="{{ . }}">
