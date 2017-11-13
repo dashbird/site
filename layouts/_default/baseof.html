@@ -5,6 +5,7 @@
     {{ partial "stylesheets.html" }}
   </head>
   <body>
+    {{ partial "inline-scripts.html" }}
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" }}
