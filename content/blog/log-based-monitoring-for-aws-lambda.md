@@ -2,7 +2,7 @@
 title: Log based monitoring for AWS Lambda
 description: Dashbird is a service that approaches monitoring and error-tracking by collecting and analyzing CloudWatch logs.
 date: 2017-11-13
-frontImage: "/13-11-2017/kotkas.jpg"
+frontImage: "13-11-2017/kotkas.jpg"
 author: Taavi Rehemägi
 ---
 
