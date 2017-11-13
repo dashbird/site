@@ -1,16 +1,14 @@
 {{ define "main" }}
 <section class="container-fluid dark-bg">
   <div class="row justify-content-center">
-    <div class="col-6">
+    <div class="col col-md-6">
       <h1 class="text-center mt-5 mb-4">{{ .Title }}</h1>
         <p class="text-right small mb-0">{{ .Params.author }} at {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
     </div>
   </div>
 
-
-
   <div class="row justify-content-center lato blog-font lh-3">
-    <div class="col-1 text-center">
+    <div class="col-1 text-center d-none d-md-flex">
       <div class="sticky-top pt-5">
         <span class="h4">share</span>
         <div class="col-12 mb-3 mt-3">
@@ -39,11 +37,33 @@
       </div>
     </div>
 
-    <div class="col-6 mt-4 mb-5 bg-white imgs-fluid">
+    <div class="col col-md-6 mt-4 mb-5 bg-white imgs-fluid">
       <img src="/images/blog/{{ .Params.frontImage  }}" class=" mb-4">
-    {{ .Content }}
+      {{ .Content }}
+      <div class="row">
+        <div class="col d-block d-md-none">
+        <span class="h4">share on:</span>
+          <a rel="nofollow"
+             class="h1 ml-3 mr-3"
+             title="Share to Twitter"
+             href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
+             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
+          <a rel="nofollow"
+             class="h1 mr-3"
+             title="Share to Facebook"
+             href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
+             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
+
+          <a rel="nofollow"
+             class="h1"
+             href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
+             title="Share to LinkedIn"
+             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="col-1 text-right"></div>
+  </div>
+  <div class="col-1 text-right d-none d-md-flex"></div>
   </div>
 
   </div>
