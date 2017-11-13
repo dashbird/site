@@ -14,7 +14,7 @@ With servers you could view stats that indicate the system health and attach an 
 The service takes advantage of the fact that Lambda functions emit logs with a lot of useful, pre-formatted, information. With smart parsing, it provides time-series metrics for invocations, memory usage, durations, while also sorting displaying invocation separately. Every piece of data is then culminated into a single Dashboard, that offers a
 bird's eye-view to the entire system, and points out problematic areas. It also acts like an error-alerting system, by recognizing exceptions, runtime errors, configuration problems and timeouts. 
 
-[Dashbird](https://dashbird.io/monitor-aws-lambda) requires minimal effort to set up and has no cost effect to your AWS bill. Onboarding requires a delegation{{link}} to your AWS account, that allows the service to get basic data about Lambda functions and collect their logs from CloudWatch.
+[Dashbird](https://dashbird.io/monitor-aws-lambda) requires minimal effort to set up and has no cost effect to your AWS bill. Onboarding requires a delegation to your AWS account, that allows the service to get basic data about Lambda functions and collect their logs from CloudWatch.
 
 ## Monitoring
 ![Main dashboard](/images/blog/13-11-2017/dashboard.png)
