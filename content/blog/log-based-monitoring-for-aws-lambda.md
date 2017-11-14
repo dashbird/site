@@ -2,14 +2,13 @@
 title: Log based monitoring for AWS Lambda
 description: Dashbird is a service that approaches monitoring and error-tracking by collecting and analyzing CloudWatch logs.
 date: 2017-11-13
-frontImage: "13-11-2017/kotkas.jpg"
+frontImage: "13-11-2017/dashboard.png"
 author: Taavi Rehemägi
 ---
 
-With servers you could view stats that indicate the system health and attach an error-alerting service to the runtime that notifies you on Slack or e-mail. However when logic is distributed over large amounts of logical units, traditional monitoring tools run into trouble. Understanding Serverless systems requires a different approach. Wrappers and third-party telemetry services add to duration and cost, and are also an overhead to work with.
-
+Monitoring and analytics has been an issue for Serverless systems since they were invented. While it's easy to attach an agent like NewRelic or DataDog to a server or container, function monitoring requires a different approach. Serverless applications, where logic is distributed over a large amount of functions, attaching  agents or wrappers leads to cost increase and development overhead. To provide insights into FaaS architectures, Dashbird collects all your CloudWatch logs and extracts meaningful and actionable metrics from that. 
+ 
 ### [Dashbird](https://dashbird.io/monitor-aws-lambda) is a service that approaches monitoring and error-tracking by collecting and analyzing CloudWatch logs.
-
 
 The service takes advantage of the fact that Lambda functions emit logs with a lot of useful, pre-formatted, information. With smart parsing, it provides time-series metrics for invocations, memory usage, durations, while also sorting displaying invocation separately. Every piece of data is then culminated into a single Dashboard, that offers a
 bird's eye-view to the entire system, and points out problematic areas. It also acts like an error-alerting system, by recognizing exceptions, runtime errors, configuration problems and timeouts. 
@@ -38,6 +37,8 @@ Dashbird also aggregates error data, so that you can track the relevance and mag
 ## Set up and cost
 Creating the delegation takes about two minutes, and the setup screen guides you through it with a few simple steps. After that, the data will start pouring in and you will learn stuff about your system in a matter of minutes. 
 
+Dashbird requires the following privileges to your AWS account.
+
 ```
 {
   "Version": "2012-10-17",
@@ -61,7 +62,9 @@ Creating the delegation takes about two minutes, and the setup screen guides you
 }
 ```
 
-The free tier tracks 10 lambda functions with a sum total of  500k requests per month. In the first 14 days, Dashbird offers unlimited amount of data for unlimited amount of functions.
+The free tier tracks 10 lambda functions with a sum total of  500k requests per month. In the first 14 days, Dashbird offers unlimited amount of data for unlimited amount of functions. [Here are the full pricing details.](https://dashbird.io/pricing)
 
 ## Conclusion
 If your application logic is distributed over large amounts of functions, it makes a lot more sense to collect info from the logs rather than sending telemetry at the execution time. Dashbird introduces what will one day be the _de facto_ standard for Serverless monitoring. If you're building on AWS Lambda, Dashbird is one of the best tools to monitor and improve your Serverless architecture.
+
+### [Try out Dashbird for free](https://dashbird.io/signup) 
