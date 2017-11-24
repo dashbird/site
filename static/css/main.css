@@ -444,3 +444,40 @@ pre {
   font-size: .8rem;
   padding: 10px;
 }
+.clickable:hover {
+  cursor: pointer;
+  /* background: red !important; */
+
+}
+.clickable:hover  h3 {
+  text-decoration: underline;
+}
+.clickable a {
+  visibility: hidden;
+}
+.clickable:hover a {
+  visibility: visible;
+}
+.clickable a:hover {
+  text-decoration: none;
+}
+
+.cloudwatch-imitation {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.cloudwatch-imitation .h3 {
+  padding: 5px 0 5px 10px;
+}
+.cloudwatch-imitation pre {
+  border: none;
+  font-size: 0.9em;
+  background: none;
+  line-height: 1.7rem;
+}
+.error-line{
+  background-color: #FAAB9A;
+  margin: 0 !important;
+  line-height: 1.3rem;
+}

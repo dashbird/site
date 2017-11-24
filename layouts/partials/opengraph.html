@@ -30,5 +30,6 @@
  <meta property="twitter:title" content="{{ .Title }}">
  {{ if .Params.thumbnail }}
  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+ <meta name="twitter:card" content="summary_large_image">
  {{ end }}
  <!-- End of Twitter -->

@@ -3,6 +3,7 @@ title: "Monitor AWS Lambda Performance And Errors"
 description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
 thumbnail: "images/screens/twitter.png"
 dated: 2017-11-07T17:50:03+02:00
+twitter_summary: 'summary_large_image'
 ---
 <section class="container slogan">
   <div class="row justify-content-md-end">

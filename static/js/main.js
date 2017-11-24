@@ -20,4 +20,8 @@ $(document).ready(function(){
     $(this).addClass('active');
     renderPrices($(this).text());
   });
+
+  $('.clickable').on('click', function () {
+    window.open($(this).find("a:first").attr("href"), "_self");
+  });
 });

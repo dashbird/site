@@ -8,7 +8,7 @@ author: Taavi Rehemägi
 
 Monitoring and analytics has been an issue for Serverless systems since they were invented. While it's easy to attach an agent like NewRelic or DataDog to a server or container, function monitoring requires a different approach. Serverless applications, where logic is distributed over a large amount of functions, attaching  agents or wrappers leads to cost increase and development overhead. To provide insights into FaaS architectures, Dashbird collects all your CloudWatch logs and extracts meaningful and actionable metrics from that. 
  
-### [Dashbird](https://dashbird.io/monitor-aws-lambda) is a service that approaches monitoring and error-tracking by collecting and analyzing CloudWatch logs.
+### [Dashbird](https://dashbird.io/monitor-aws-lambda) is a service that approaches monitoring and error alerting by collecting and analysing CloudWatch logs.
 
 The service takes advantage of the fact that Lambda functions emit logs with a lot of useful, pre-formatted, information. With smart parsing, it provides time-series metrics for invocations, memory usage, durations, while also sorting displaying invocation separately. Every piece of data is then culminated into a single Dashboard, that offers a
 bird's eye-view to the entire system, and points out problematic areas. It also acts like an error-alerting system, by recognizing exceptions, runtime errors, configuration problems and timeouts. 

@@ -18,14 +18,20 @@ date: 2017-11-06T10:50:03+02:00
   </div>
 
   <div class="row justify-content-md-center align-items-center">
-    <div class="col bg-white p-3 mb-4 mt-5 mx-auto" style="max-width: 800px;">
+    <div class="col bg-white p-3 mb-4 mt-5 mx-auto clickable" style="max-width: 800px;">
       <div class="row align-items-center">
         <div class="col-md-2 text-center">
           <img src="/images/magnifier.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
-          <h3>Quickly find and fix production errors</h3>
-          <p class="lato">Tracking and alerting errors from all your Lambda functions.<br> Stacktraces and context helps you troubleshoot errors quickly and easily.</p>
+          <h3>
+            Debug and fix errors
+            <span class='float-right'><a href='/features/lambda-error-tracking'>read more</a></span>
+          </h3>
+          <p class="lato">Tracking and alerting errors from all your Lambda functions.<br> Stacktraces and context helps you troubleshoot errors quickly and easily.
+  
+          </p>
+          
         </div>
       </div>
     </div>
@@ -38,7 +44,7 @@ date: 2017-11-06T10:50:03+02:00
           <img src="/images/tag.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
-          <h3>Get closer to your code while developing it</h3>
+          <h3>Optimise performance and cost</h3>
           <p class="lato">Real time insights after each deploy.<br> Execution data and logs let you iterate quicky after deploys.</p>
         </div>
       </div>
@@ -52,7 +58,7 @@ date: 2017-11-06T10:50:03+02:00
           <img src="/images/graph.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
-          <h3>Understand the bigger picture</h3>
+          <h3>Account wide analytics</h3>
           <p class="lato">Dashbird keeps an eye on account and function level<br> metrics as well as durations and memory usage. See exactly what's working and what's not.</p>
         </div>
       </div>
