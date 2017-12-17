@@ -1,0 +1,12 @@
+[
+{{ range $index, $page := where .Site.Pages "Section" "==" "help" }}
+{{ if and $index (gt $index 0) }},{{ end }}
+    {{ if (ne $page.Section "") }}
+    {
+        "url":      "{{ $page.RelPermalink }}",
+        "title":    "{{ $page.Title }}",
+        "content":  "{{ $page.PlainWords }}"
+    }
+    {{ end }}
+{{ end }}
+]

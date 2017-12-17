@@ -5,6 +5,8 @@
   title: 'Dashbird'
   disqusShortName: 'dashbird'
   twitter_card_whitelisted: true
+  outputs:
+    home: ['HTML', 'JSON']
   menu:
     main:
         - Name: 'Features'

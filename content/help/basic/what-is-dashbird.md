@@ -3,6 +3,9 @@ date: 2017-06-05
 title: What is Dashbird?
 description: What is Dashbird?
 kbSeries: ["Basic"]
+outputs:
+- html
+- json
 ---
 
 _Dashbird is a service to monitor, debug and improve your lambda functions._

@@ -1,9 +1,9 @@
-var lunrIndex,
+let lunrIndex,
 $results,
 pagesIndex;
 
 function initLunr() {
-  $.getJSON("/searchindex/kb.json")
+  $.getJSON("/index.json")
   .done(function(index) {
     pagesIndex = index;
     console.log("index:", pagesIndex);
@@ -12,7 +12,7 @@ function initLunr() {
       this.field("title");
       this.field("tags");
       this.field("content");
-      this.ref("uri");
+      this.ref("url");
       const that = this;
       pagesIndex.forEach(function(page) {
         that.add(page);
@@ -22,7 +22,7 @@ function initLunr() {
   })
   .fail(function(jqxhr, textStatus, error) {
     var err = textStatus + ", " + error;
-    console.error("Error getting Hugo index flie:", err);
+    console.error("Error getting Hugo index file:", err);
   });
 }
 
@@ -30,12 +30,12 @@ function initUI() {
   $results = $("#results");
   $("#search").keyup(function() {
     $results.empty();
-    var query = $(this).val();
+    const query = $(this).val();
     if (query.length < 2) {
       return;
     }
 
-    var results = search(query);
+    const results = search(query);
     console.log(results);
 
     renderResults(results);
@@ -43,10 +43,9 @@ function initUI() {
 }
 
 function search(query) {
-  console.log('e');
   return lunrIndex.search(query).map(function(result) {
     return pagesIndex.filter(function(page) {
-      return page.uri === result.ref;
+      return page.url === result.ref;
     })[0];
   });
 }

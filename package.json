@@ -4,9 +4,8 @@
   "description": "Dashbird.io public web",
   "main": "index.js",
   "scripts": {
-    "start": "yarn index-help && hugo -D server",
-    "index-help": "hugo-lunr -i \"content/help/**\" -o static/searchindex/kb.json",
-    "deploy": "yarn index-help && hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'"
+    "start": "hugo -D server",
+    "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,5 @@
     "url": "https://github.com/dashbird/site/issues"
   },
   "homepage": "https://github.com/dashbird/site#readme",
-  "dependencies": {
-    "hugo-lunr": "^0.0.4"
-  }
+  "dependencies": {}
 }
