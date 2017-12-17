@@ -10,7 +10,7 @@ In this article:
 
 ## Lambda function filtering
 1. Navigate to [clients page](https://app.dashbird.io/clients).
-![](../../images/settings.png)
+![](/images/help/settings.png)
 
 2. By default, all lambdas are imported (*)
 ![](/images/filtering.png)
@@ -19,7 +19,7 @@ In this article:
 Filters are [glob patterns](https://en.wikipedia.org/wiki/Glob_(programming)), meaning you can specify which lambdas you want to import by matching a string and a wildcard(*).
 For instance, filter `*-prod-*` matches all function names like 'service-prod-functionName'
 
-![](../../images/filtering2.png)
+![](/images/help/filtering2.png)
 
 _Note that you can test any filter before adding with the 'Test' button._
 

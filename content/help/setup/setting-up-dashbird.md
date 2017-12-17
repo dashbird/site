@@ -6,7 +6,7 @@ kbSeries: ["Setup"]
 ---
 
 
-_If you haven't already, [sign up for dashbird here](https://dashbird.io) to access the onboarding screen._
+_If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
 
 Open the link to the onboarding screen from your e-mail.
 
@@ -61,14 +61,14 @@ Open the link to the onboarding screen from your e-mail.
  - Click **Next step**
 - Find the created role in the list and open it.
 - If you have done everything  correctly, the screen will look the following:
-![Correct result](../../images/result.png 'Role')
+![Correct result](/images/help/result.png 'Role')
 - Copy the ARN of the role
 
 ### 3. Setup Dashbird with the created role
 - Insert your (Company) name
 - Select your target region.
 - Insert the Role ARN from the previous step.
-![Correct result](../../images/onboarding.png 'Role')
+![Correct result](/images/help/onboarding.png 'Role')
 <!-- <img src=''  width='500' /> -->
 
 **Click Finish!**
