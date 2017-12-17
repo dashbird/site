@@ -26,10 +26,15 @@ function initLunr() {
 }
 
 function initUI() {
-  $results = $("#search-results");
-  $('#submit-search').on('click', function() {
+  $results = $('#search-results');
+  $searchText = $('#search-text');
+  $searchButton = $('#submit-search');
+  $searchText.keyup(function(event) {
+    if (event.keyCode === 13) $searchButton.click();
+  });
+  $searchButton.on('click', function() {
     $results.empty();
-    const query = $('#search-text').val();
+    const query = $searchText.val();
     if (query.length < 2) {
       return;
     }
@@ -49,13 +54,10 @@ function search(query) {
 }
 
 function renderOneResult(result) {
-  return `
-    <div class='text-left mb-2'>
+  return `<div class='text-left mb-2'>
        <span class="h5"><a href='${result.url}'>${result.title}</a></span>
        <p>${result.content.substr(1, 100).trim()}...</p>
-    </div>
-  `;
-
+    </div> `;
 }
 
 function renderResults(results) {

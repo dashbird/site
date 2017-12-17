@@ -24,13 +24,13 @@
 
 </section>
 
-<section class="container-fluid ">
+<section class="container-fluid dark-bg">
   <div class="row justify-content-center mt-5 p-5">
-      {{ range $key, $taxonomy := .Site.Taxonomies.kbSeries }}
-        <div class='col-3 dark-bg p-2 ml-2 mr-2'>
-          <h3>{{ $key }}</h3>
+      {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
+        <div class='col-3 dark-bg p-4 ml-2 mr-2 bg-white'>
+          <h3 class='text-center mb-4'>{{ $subject }}</h3>
           {{ range $taxonomy }}
-            <p><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></p>
+            <p class='text-center p-0 m-2'><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></p>
           {{ end}}
         </div>
       {{ end }}
