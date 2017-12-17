@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/dashbird/site/issues"
   },
-  "homepage": "https://github.com/dashbird/site#readme"
+  "homepage": "https://github.com/dashbird/site#readme",
+  "dependencies": {}
 }

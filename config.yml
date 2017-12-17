@@ -5,6 +5,8 @@
   title: 'Dashbird'
   disqusShortName: 'dashbird'
   twitter_card_whitelisted: true
+  outputs:
+    home: ['HTML', 'JSON']
   menu:
     main:
         - Name: 'Features'
@@ -18,3 +20,8 @@
           Weight: 300
   params:
     thumbnail: "images/screens/preview.png"
+  taxonomies:
+    tag: "tags"
+    category: "categories"
+    kbSeries: "kbSeries"
+  preserveTaxonomyNames: true
