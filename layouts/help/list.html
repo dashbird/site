@@ -1,11 +1,33 @@
 {{ define "main" }}
 
-<input type="text" id="search"/>
-<div id="results"></div>
-<section class="container-fluid dark-bg">
+<section class="container-fluid">
+
   <div class="row justify-content-center">
+    <div class='col text-center mt-5 mb-4'>
+      <span class='h1 text-center'>Knowledge base</span>
+      <p class='text-center mt-1'>Everything you need to know about Dashbird</span>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class='col-5 text-center'>
+          <label class="input-group">
+              <input type="text" class="form-control" placeholder='Search...' id='search-text'>
+              <button class="input-group-addon" id='submit-search'>Search</button>
+          </label>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class='col-7 text-center mt-5' id='search-results'></div>
+  </div>
+
+</section>
+
+<section class="container-fluid ">
+  <div class="row justify-content-center mt-5 p-5">
       {{ range $key, $taxonomy := .Site.Taxonomies.kbSeries }}
-        <div class='col-3'>
+        <div class='col-3 dark-bg p-2 ml-2 mr-2'>
           <h3>{{ $key }}</h3>
           {{ range $taxonomy }}
             <p><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></p>
@@ -13,4 +35,5 @@
         </div>
       {{ end }}
   </div>
+</section>
 {{ end }}

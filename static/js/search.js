@@ -6,7 +6,6 @@ function initLunr() {
   $.getJSON("/index.json")
   .done(function(index) {
     pagesIndex = index;
-    console.log("index:", pagesIndex);
 
     lunrIndex = lunr(function() {
       this.field("title");
@@ -21,46 +20,53 @@ function initLunr() {
 
   })
   .fail(function(jqxhr, textStatus, error) {
-    var err = textStatus + ", " + error;
+    let err = textStatus + ", " + error;
     console.error("Error getting Hugo index file:", err);
   });
 }
 
 function initUI() {
-  $results = $("#results");
-  $("#search").keyup(function() {
+  $results = $("#search-results");
+  $('#submit-search').on('click', function() {
     $results.empty();
-    const query = $(this).val();
+    const query = $('#search-text').val();
     if (query.length < 2) {
       return;
     }
-
     const results = search(query);
-    console.log(results);
-
     renderResults(results);
   });
 }
 
 function search(query) {
   return lunrIndex.search(query).map(function(result) {
+    console.log(result);
     return pagesIndex.filter(function(page) {
+      console.log(page);
       return page.url === result.ref;
     })[0];
   });
+}
+
+function renderOneResult(result) {
+  return `
+    <div class='text-left mb-2'>
+       <span class="h5"><a href='${result.url}'>${result.title}</a></span>
+       <p>${result.content.substr(1, 100).trim()}...</p>
+    </div>
+  `;
+
 }
 
 function renderResults(results) {
   if (!results.length) {
     return;
   }
-  results.slice(0, 10).forEach(function(result) {
-    var $result = $("<li>");
-    console.log(result);
-    $result.append($("<a>", {
-      href: result.uri,
-      text: "» " + result.title
-    }));
+  const matches = results.slice(0, 10);
+  $results.append(`<p>Found ${matches.length} results.</p>`);
+  matches.forEach(function(result) {
+    let $result = $('<div class="text-left">');
+    $result.append(renderOneResult(result));
     $results.append($result);
   });
 }
