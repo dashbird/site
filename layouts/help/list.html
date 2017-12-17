@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<input type="text" id="search"/>
+<div id="results"></div>
+<section class="container-fluid dark-bg">
+  <div class="row justify-content-center">
+      {{ range $key, $taxonomy := .Site.Taxonomies.kbSeries }}
+        <div class='col-3'>
+          <h3>{{ $key }}</h3>
+          {{ range $taxonomy }}
+            <p><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></p>
+          {{ end}}
+        </div>
+      {{ end }}
+  </div>
+{{ end }}
