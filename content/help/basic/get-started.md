@@ -74,8 +74,6 @@ Open the link to the onboarding screen from your e-mail.
 - Insert your (Company) name
 - Select your target region.
 - Insert the Role ARN from the previous step.
-![Correct result](/images/help/onboarding.png 'Role')
-<!-- <img src=''  width='500' /> -->
 
 **Click Finish!**
 

@@ -16,18 +16,22 @@ Dashbird provides users an overview of all lambda executions across the entire a
 
 ### Service view
 Dashbird allows you to group functions any way you like. This allows you to construct a dashboard for a service, outlining its load, problems, cost and other important metrics.
+
 <a href='/images/help/serviceview.png'><img alt='Service dashboard' src='/images/help/serviceview.png' width=600></a>
 
 ### Function view
 Shows health, cost and other meaningful statistics of a lambda function. You can also see the history of last invocations and separate errors at a glance.
+
 <a href='/images/help/functionview.png'><img alt='Function dashboard' src='/images/help/functionview.png' width=600></a>
 
 ### Invocation view
 An overview and logs for each invocation.
+
 <a href='/images/help/invocation.png'><img alt='Invocation view' src='/images/help/invocation.png' width=600></a>
 
 ### Erro tracking
 <a href='/images/help/errorview.png'><img alt='Error view' src='/images/help/errorview.png' width=600></a>
+
 The service also **detects errored code executions** so you can track immediately if something is wrong and fix it.
 
 To get started with Dashbird, [click here](/help/basic/get-started)!

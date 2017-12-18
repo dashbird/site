@@ -31,12 +31,12 @@ It normally takes about 1-2 minutes from execution data to be visible in Dashbir
 
 ## 5. How do I change my password?
 To change your password:
-_Click your name on the top right corner -> Preferences -> change password -> insert new password_
+_User menu -> Preferences -> change password -> insert new password_
 
 ## 6. How to invite team members?
 You can invite as many team members to Dashbird as you like.
 
-_Click your name on the top right corner -> Invite users -> Add +_
+_User menu -> Invite users -> Add +_
 
 Fill in the form:
 ![Invite user](/images/help/inviteuser.png 'Invite user')
@@ -50,7 +50,7 @@ Navigate to _User menu -> Importer settings_
 
 Filters are <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>.
 
-Use some-service-* to include and !some-service-prod-* to exclude lambda functions.
+Use <code>some-service-*</code> to include and <code>!some-service-prod-*</code> to exclude lambda functions.
 
 By default, all lambdas are imported to Dashbird.
 

@@ -424,6 +424,13 @@ input[type=text].form-control::placeholder {
 .blog-font {
   font-size: 1.2rem;
 }
+.blog-font p { text-align: justify; }
+
+.blog-font img {
+  -webkit-box-shadow: 2px 0px 5px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 2px 0px 5px 0px rgba(204,204,204,1);
+  box-shadow: 2px 0px 5px 0px rgba(204,204,204,1);
+}
 
 .blog-font h2 {
   font-weight: bold;
@@ -435,6 +442,10 @@ input[type=text].form-control::placeholder {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.mw-900 {
+  max-width: 900px;
 }
 
 pre {
@@ -464,7 +475,6 @@ pre {
   border: 2px solid black;
   border-radius: 4px;
 }
-
 .cloudwatch-imitation .h3 {
   padding: 5px 0 5px 10px;
 }
