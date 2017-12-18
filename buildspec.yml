@@ -20,7 +20,6 @@ phases:
     commands:
       - cat buildspec.yml
       - hugo
-      - [ "$(ls -A ./public-xx)" ]
 
   post_build:
     commands:
