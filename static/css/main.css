@@ -447,7 +447,7 @@ input[type=text].form-control::placeholder {
 .mw-900 {
   max-width: 900px;
 }
-
+.box { box-shadow: inset 0 0.7px 0 0 #f0f0f0; }
 pre {
   background: #efefef;
   border-radius: 4px;
