@@ -1,28 +1,30 @@
 {{ define "main" }}
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
+  <div class='col col-md-11'>
+    <div class="row">
+      <div class='col-md-4 w-75 pt-5 d-none d-md-block'>
+        {{ $currentSubject := index .Params.kbSeries 0 }}
+        <ul class='sidemenu lato'>
+          {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
+          <li class='{{ if eq $subject $currentSubject }}current-subject{{end}}'>
+            <a href='javascript:;'>{{ $subject }}</a>
+            <ol>
+              {{ range $taxonomy }}
+                <li><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></li>
+              {{ end }}
+            </ol>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
 
-    <div class='col-md-4 pt-5'>
-      {{ $currentSubject := index .Params.kbSeries 0 }}
-      <ul class='sidemenu lato'>
-        {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
-        <li class='{{ if eq $subject $currentSubject }}current-subject{{end}}'>
-          <a href='javascript:;'>{{ $subject }}</a>
-          <ol>
-            {{ range $taxonomy }}
-              <li><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></li>
-            {{ end }}
-          </ol>
-        </li>
-        {{ end }}  
-      </ul>
+      <div class="col text-left mt-4 mb-5  imgs-fluid">
+        <h1 class="text-center mt-3 mb-5">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+
     </div>
-
-    <div class="col mt-4 mb-5  imgs-fluid">
-      <h1 class="text-center mt-3 mb-5">{{ .Title }}</h1>
-      {{ .Content }}
-    </div>
-
   </div>
 </section>
 {{ end }}
