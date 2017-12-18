@@ -1,6 +1,6 @@
 ---
 title: "Track Performance and Errors of a Serverless project"
-description: A quick walkthrough for setting up monitorign your AWS Lambdas.
+description: List of benefits and a quick walkthrough for setting up a monitoring dashboard for your Serverless project.
 date: 2017-12-18
 frontImage: "18-12-2017/thumb.png"
 thumbnail: "/images/blog/18-12-2017/thumb.png"
