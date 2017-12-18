@@ -1,7 +1,8 @@
 ---
 date: 2017-06-05
 title: How it works
-kbSeries: ["Basic"]
+kbSeries: ["ABasic"]
+kbSeries_weight: 300
 ---
 
 Dashbird collects data from your AWS account and produces actionable metrics and detailed data from it.
@@ -9,9 +10,8 @@ For that, Dashbird requires a delegation to your AWS account to function. [You c
 
 ### Importer
 
-Dashbird periodically(about every 3 minutes) polls your AWS API with the following requests:
+Dashbird periodically(interval <1 minute) polls your AWS account with the following requests:
 
-- Lambda.listFunctions
 - CloudWatch.filterLogEvents
 - CloudWatch.describeLogStreams
 - CloudWatch.describeLogGroups

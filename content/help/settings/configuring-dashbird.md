@@ -2,7 +2,8 @@
 date: 2017-06-05
 title: Configuring Dashbird
 description: Configuration
-kbSeries: ["Usage"]
+kbSeries: ["ASettings"]
+kbSeries_weight: 100
 ---
 
 In this article:

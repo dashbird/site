@@ -2,11 +2,17 @@
 date: 2017-06-05
 title: Setting up Dashbird
 description: Setup
-kbSeries: ["Setup"]
+kbSeries: ["ABasic"]
+kbSeries_weight: 200
 ---
 
-
 _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
+
+## Requirements for setting up Dashbird
+
+To set up Dashbird you need to have the following.
+
+- Administrator access to AWS account
 
 Open the link to the onboarding screen from your e-mail.
 

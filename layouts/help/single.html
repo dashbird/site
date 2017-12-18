@@ -1,4 +1,28 @@
 {{ define "main" }}
+<section class="container-fluid dark-bg">
+
+  <div class="row justify-content-center">
+    <div class='col text-center mt-5'>
+      <span class='h1 text-center'>Knowledge base</span>
+      <p class='text-center mt-1'>Everything you need to know about Dashbird</span>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class='col-5 text-center'>
+      <label class="input-group">
+        <input type="text" class="form-control" placeholder='Search...' id='search-text'>
+        <button class="input-group-addon" id='submit-search'>Search</button>
+      </label>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class='col-7 text-center mt-5' id='search-results'></div>
+  </div>
+
+</section>
+
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
   <div class='col col-md-11'>
@@ -8,7 +32,7 @@
         <ul class='sidemenu lato'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
           <li class='{{ if eq $subject $currentSubject }}current-subject{{end}}'>
-            <a href='javascript:;'>{{ $subject }}</a>
+            <a href='javascript:;'>{{ substr $subject 1 }}</a>
             <ol>
               {{ range $taxonomy }}
                 <li><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></li>
@@ -19,7 +43,7 @@
         </ul>
       </div>
 
-      <div class="col text-left mt-4 mb-5  imgs-fluid">
+      <div class="col text-left mt-4 mb-5 imgs-fluid lato kb">
         <h1 class="text-center mt-3 mb-5">{{ .Title }}</h1>
         {{ .Content }}
       </div>
