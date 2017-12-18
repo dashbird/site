@@ -24,4 +24,8 @@ $(document).ready(function(){
   $('.clickable').on('click', function () {
     window.open($(this).find("a:first").attr("href"), "_self");
   });
+
+  $('ul.sidemenu li a').on('click', function(){
+    $(this).parent('li').toggleClass('active');
+  });
 });
