@@ -2,7 +2,7 @@
 title: "AWS Lambda calculator - get function cost"
 description: "Calculate the estimated cost of a lambda function for a month."
 thumbnail: "/images/screens/twitter.png"
-date: 2017-11-06T10:50:03+02:00
+date: 2017-12-18T10:50:03+02:00
 scripts: 
  - '/js/cost-calculator.js'
 ---
