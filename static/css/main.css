@@ -144,13 +144,14 @@ h2 {
 .input-group-addon:hover {
   background-color: #2f359f;
 }
-input[type=text].form-control {
+input[type=text].form-control, select.form-control {
   border: solid 0.5px #4046ad;
 }
 input[type=text].form-control::placeholder {
   color: #4046ad;
   opacity: 0.48;
 }
+
 .gray {
   color: #9b9b9b;
 }
