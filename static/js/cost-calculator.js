@@ -12,9 +12,9 @@ $(function() {
   function _round(x) { return Math.round(x*1000)/1000; }
 
   function renderCosts(costs) {
-    $requestsCost.html(`$${_round(costs[0])}`);
-    $executionsCost.html(`$${_round(costs[1])}`);
-    $totalCost.html(`$${_round(costs[0] + costs[1])}`);
+    $requestsCost.html(`$${_round(costs[0])}/month`);
+    $executionsCost.html(`$${_round(costs[1])}/month`);
+    $totalCost.html(`$${_round(costs[0] + costs[1])}/month`);
   }
 
   function updateCosts() {

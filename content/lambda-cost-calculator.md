@@ -75,10 +75,10 @@ scripts:
   <div class="row justify-content-center mt-4">
     <div class="col-8 text-left mt-5 d-none d-md-block mb-5">
       <h3>Results</h3>
-      <h5>Request costs: <span id='requests-cost' class='float-right'>$0</span></h5>
-      <h5>Execution costs: <span id='executions-cost' class='float-right'>$0</span></h5>
+      <h5>Request costs: <span id='requests-cost' class='float-right'>$0/month</span></h5>
+      <h5>Execution costs: <span id='executions-cost' class='float-right'>$0/month</span></h5>
       <hr/>
-      <h5>Total costs: <span id='total-cost' class='float-right text-green'>$0</span></h5>
+      <h5>Total costs: <span id='total-cost' class='float-right text-green'>$0/month</span></h5>
 
     </div>
   </div>
