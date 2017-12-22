@@ -512,3 +512,8 @@ ul.sidemenu li.active > a { color: #29D391; }
 ul.sidemenu li.active ol > a { padding-left: 30px; }
 
 .kb h2 { margin-top: 40px; }
+
+.campaign-offer {
+  height: 40px;
+  background: blue;
+}

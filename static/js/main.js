@@ -10,9 +10,9 @@ $(document).ready(function(){
 
   function renderPrices(period) {
     console.log('period', period);
-    $('#pro').text(period === 'ANNUAL' ? '$299' : '$350');
-    $('#enterprise').text(period === 'ANNUAL' ? '$599' : '$700');
-    $('#startup').text(period === 'ANNUAL' ? '$99' : '$115');
+    $('#pro').text(period === 'ANNUAL' ? '$239' : '$350');
+    $('#enterprise').text(period === 'ANNUAL' ? '$479' : '$700');
+    $('#startup').text(period === 'ANNUAL' ? '$79' : '$115');
     $('.condition').text(period === 'ANNUAL' ? 'per month / billed yearly' : 'per month');
   }
   $('.toggle span').on('click', function() {
