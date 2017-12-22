@@ -1,5 +1,5 @@
 ---
-title: "Dashbird pricing - Free, Startup, Pro and Enterprise plans"
+title: "Free AWS Lambda monitoring | Dashbird"
 description: "Half a million Lambda invocations is free in Dashbird. Pick the best powerful metrics and analytics package for your needs."
 date: 2017-10-29T17:50:03+02:00
 ---
