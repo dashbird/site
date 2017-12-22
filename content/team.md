@@ -64,7 +64,7 @@ things Serverless, we want to make functions better for everybody.</p>
 
         <div class="col-md-6 bg-md-white team-text pl-5 pt-5">
           <h1 class="">Annika Helendi</h1>
-          <span class="text-muted">ADVISOR</span>
+          <span class="text-muted">CMO</span>
 
           <p class="lato h4 pt-4">Annika is the CEO of <a href="https://teamweek.com" target="_blank">Teamweek</a> and a marketing mastermind.</p>
           <p class="lato h4 mt-4">When she thinks we're not looking, she listens to 50 cent at full volume.</p>
