@@ -1,5 +1,5 @@
 ---
-title: "Minds behind Dashbird"
+title: "Dashbird Team - Lambda Activity Monitoring & Troubleshooting"
 date: 2017-10-29T17:50:03+02:00
 ---
 

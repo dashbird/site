@@ -1,5 +1,5 @@
 ---
-title: "Alerting and Monitoring For AWS Lambda | Dashbird"
+title: "Dashbird - Node.js, Python, Java & AWS Lambda Performance Analytics"
 description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
 dated: 2017-10-29T17:50:03+02:00
 ---
