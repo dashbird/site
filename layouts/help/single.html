@@ -3,7 +3,7 @@
 
   <div class="row justify-content-center">
     <div class='col text-center mt-5'>
-      <span class='h1 text-center'>Knowledge base</span>
+      <a href='/help' class='h1 text-center no-decoration'>Knowledge base</a>
       <p class='text-center mt-1'>Everything you need to know about Dashbird</span>
     </div>
   </div>
@@ -25,9 +25,9 @@
 
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
-  <div class='col col-md-11'>
+  <div class='col col-md-11 text-justify'>
     <div class="row">
-      <div class='col-md-4 w-75 pt-5 d-none d-md-block'>
+      <div class='col-md-4 w-75 pt-5 d-none d-md-block w-300'>
         {{ $currentSubject := index .Params.kbSeries 0 }}
         <ul class='sidemenu lato'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
@@ -43,8 +43,8 @@
         </ul>
       </div>
 
-      <div class="col text-left mt-4 mb-5 imgs-fluid lato kb">
-        <h1 class="text-center mt-3 mb-5">{{ .Title }}</h1>
+      <div class='col text-left mb-5 imgs-fluid lato kb m-w-900'>
+        <h1 class='text-center mt-3 mb-5'>{{ .Title }}</h1>
         {{ .Content }}
       </div>
 

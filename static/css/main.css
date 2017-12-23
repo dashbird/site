@@ -511,9 +511,17 @@ ul.sidemenu li ol li { padding-left: 10px; padding-bottom: 5px; }
 ul.sidemenu li.active > a { color: #29D391; }
 ul.sidemenu li.active ol > a { padding-left: 30px; }
 
-.kb h2 { margin-top: 40px; }
-
+.kb :first-child  h2 { margin-top: 40px; }
 .campaign-offer {
   height: 40px;
   background: blue;
 }
+a.no-decoration:hover {
+  text-decoration: none;
+  color: black;
+}
+.w-300 {
+  min-width: 300px;
+  max-width: 300px;
+}
+.m-w-900 { max-width: 900px; }
