@@ -1,31 +1,20 @@
 {{ define "main" }}
-<section class="container-fluid dark-bg" >
-    <div class='col m-w-1200 m-auto'>
-      <div class='row'>
-      {{ range .Data.Pages.ByDate.Reverse }}
-        <div class="col-6  p-5">
-          <div class="row">
+<section class="container-fluid dark-bg">
+  <div class="row justify-content-center">
+    {{ range .Data.Pages.ByDate.Reverse }}
+      <div class="col-7 mt-3 bg-white p-2 box">
+        <div class="row">
+          <div class="col-auto">
+            <img src="/images/blog/{{.Params.frontImage}}" width='200'>
+          </div>
 
-            <div class='col p-0 m-0' style='
-            background: linear-gradient(
-               rgba(20,20,20, .5), 
-               rgba(20,20,20, .5)
-            ),
-            url("/images/blog/{{.Params.frontImage}}");
-                height: 300px;
-                background-repeat: no-repeat;
-                background-size: 100%;'>
-
-              <div class='text-white z-100'>
-                <h2><a href="{{ .Permalink  }}" class='text-white'>{{ .Title }}</a></h2>
-                <p class="lato">{{ .Description }}</p>
-                <p class="text-right small m-0 p-0">{{ .Params.author }} at {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-              </div>
-
-            </div>
+          <div class="col-8">
+            <h2><a href="{{ .Permalink  }}">{{ .Title }}</a></h2>
+            <p class="lato">{{ .Description }}</p>
+            <p class="text-right text-secondary small m-0 p-0">{{ .Params.author }} at {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
           </div>
         </div>
-      {{ end }}
-    </div>
+      </div>
+    {{ end }}
   </div>
 {{ end }}
