@@ -525,3 +525,17 @@ a.no-decoration:hover {
   max-width: 300px;
 }
 .m-w-900 { max-width: 900px; }
+.m-w-1200 { max-width: 1200px; }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* display: table-cell; */
+  vertical-align: middle;
+  background-color: black;
+  opacity: .3;
+  z-index: 10;
+}
+.z-100 { z-index: 100; opacity: 1; }

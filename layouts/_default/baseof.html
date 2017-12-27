@@ -3,9 +3,9 @@
   <head>
     {{ partial "meta.html" . }}
     {{ partial "stylesheets.html" }}
+    {{ partial "inline-scripts.html" }}
   </head>
   <body>
-    {{ partial "inline-scripts.html" }}
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" }}
