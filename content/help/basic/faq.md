@@ -54,7 +54,7 @@ Use <code>some-service-*</code> to include and <code>!some-service-prod-*</code>
 
 By default, all lambdas are imported to Dashbird.
 
-Read more from [here](/settings/configuring-dashbird).
+Read more from [here](/help/settings/configuring-dashbird/).
 
 ## 8. How do I delete my account?
 You can disable Dashbird from accessing your AWS by deleting the Role and Policy created on signup.

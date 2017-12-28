@@ -6,7 +6,7 @@ kbSeries_weight: 300
 ---
 
 Dashbird collects data from your AWS account and produces actionable metrics and detailed data from it.
-For that, Dashbird requires a delegation to your AWS account to function. [You can find setup instructions here.](/help/setup/setting-up-dashbird)
+For that, Dashbird requires a delegation to your AWS account to function. [You can find setup instructions here.](/help/basic/get-started)
 
 ### Importer
 
