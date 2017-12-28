@@ -14,7 +14,7 @@ twitter_summary: 'summary_large_image'
       <div class="pt-5 pr-5">
         <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
-              <input type="text" class="form-control" placeholder='Email' name="email" required>
+              <input type="email" class="form-control" placeholder='Email' name="email" required>
               <button class="input-group-addon">Monitor all Lambdas</button>
           </label>
         </form>
@@ -83,10 +83,11 @@ twitter_summary: 'summary_large_image'
 </section>
 
 <section class="container social" style="margin-top: 30px;">
+
   <div class="row justify-content-center">
-    <div class="col-auto mr-md-3" style="margin-top: 19px;"><img class="w-150 mx-auto" src="/images/socialproof/nuviad.png"></div>
-    <div class="col-auto mr-md-2 mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/volta.png"></div>
-    <div class="col-auto mt-4 d-flex align-items-center"><img class="w-150 mx-auto" src="/images/socialproof/teamweek.png"></div>
+    <div class="col-auto mr-md-3" style="margin-top: 19px;"><img class="w-130 mx-auto" src="/images/socialproof/nuviad.png"></div>
+    <div class="col-auto mr-md-2 mt-4 d-flex align-items-center"><img class="w-130 mx-auto" src="/images/socialproof/volta.png"></div>
+    <div class="col-auto mt-4 d-flex align-items-center"><img class="w-130 mx-auto" src="/images/socialproof/teamweek.png"></div>
   </div>
   <div class="row justify-content-md-center mt-5 subtle">
     <div class="col-md-6 gray">
@@ -105,7 +106,7 @@ twitter_summary: 'summary_large_image'
         <div class="pt-5 pr-5 col-lg-7 mx-auto">
           <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
-            <input type="text" class="form-control" placeholder='Email' name="email" required>
+            <input type="email" class="form-control" placeholder='Email' name="email" required>
             <button class="input-group-addon">Start Free Trial</button>
           </label>
           </form>

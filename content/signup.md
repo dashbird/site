@@ -13,7 +13,7 @@ date: 2017-10-29T17:50:03+02:00
           <div class="pt-2 pr-5">
             <form method="post" action="https://app.dashbird.io/auth/register">
               <label class="input-group">
-                  <input type="text" class="form-control" placeholder='Email' name="email" required>
+                  <input type="email" class="form-control" placeholder='Email' name="email" required>
                   <button class="input-group-addon">Start Free Trial</button>
               </label>
             </form>
