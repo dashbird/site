@@ -513,7 +513,6 @@ ul.sidemenu li.active ol > a { padding-left: 30px; }
 
 .kb :first-child  h2 { margin-top: 40px; }
 .campaign-offer {
-  height: 40px;
   background-color: #646be0;
 }
 a.no-decoration:hover {
