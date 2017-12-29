@@ -5,7 +5,7 @@ thumbnail: "images/twitter/pretty-lady-dashbird-lambda-monitoring.jpg"
 dated: 2017-10-29T17:50:03+02:00
 ---
 
-<div class='container-fluid text-white' style='background-image: url("/images/jefferson.jpg"); background-size: cover'>
+<div class='container-fluid text-white' style='background-image: url("/images/aws-lambda-monitoring.jpg"); background-size: cover'>
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center">
