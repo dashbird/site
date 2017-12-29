@@ -3,6 +3,7 @@ title: What Is AWS Lambda And Why You Need It In 2018
 description: In short, AWS Lambda is a Serverless computing platform that Amazon introduced in 2014 and that has been gaining a lot of traction over recent years - and for a good reason!
 date: 2017-12-29
 frontImage: "29-12-2017/women-coding-aws-lambda.jpg"
+thumbnail: "images/blog/29-12-2017/women-coding-aws-lambda.jpg"
 author: 'Annika Helendi'
 ---
 
