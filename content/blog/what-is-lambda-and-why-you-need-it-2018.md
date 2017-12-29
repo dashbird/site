@@ -25,7 +25,7 @@ Why didn’t anyone think about this before? Only paying when the code is used m
 Since you only pay for functions that are getting used by your end-users, you can be sure that your infra costs won’t get out of hands before you even have any customers on your service/product/application. The infra costs will run in line with the actual usage and that’s very important for new startups that are trying to get off the ground with limited funds. 
 
 ## Sleep well at nights
-When using AWS Lambda, you are responsible only for your own code and you don’t have to worry about anything else. Of course, shit happens and your code is never perfect, but we’ve got you covered with that as well - use Dashbird to monitor your Lambda functions and to spot (and fix) possible errors in your code. 
+When using AWS Lambda, you are responsible only for your own code and you don’t have to worry about anything else. Of course, shit happens and your code is never perfect, but we’ve got you covered with that as well - <a href='https://dashbird.io' target='_blank'>use Dashbird</a> to monitor your Lambda functions and to spot (and fix) possible errors in your code. 
 
 
 In conclusion, AWS Lambda is starting to become the new industry standard for the way backend architecture is handled in software development. If you want to have a competitive edge, you really should consider using it!
