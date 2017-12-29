@@ -183,16 +183,9 @@ input[type=text].form-control::placeholder {
 .br-7 {
   border-radius: 7px;
 }
-.cta-black {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #ffffff;
-}
-
-.cta-blue {
-  background-color: #4046ad;
-  color: #ffffff;
-}
-
+.bg-cta { color: #ffffff; }
+.cta-black { background-color: rgba(0, 0, 0, 0.7); }
+.cta-blue { background-color: #4046ad; }
 .bg-cta .input-group-addon {
   background-color: #ed85a8;
   border: 1px solid #ed85a8;

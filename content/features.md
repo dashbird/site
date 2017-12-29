@@ -119,7 +119,7 @@ date: 2017-11-06T10:50:03+02:00
 
 <section class="container-fluid">
   <div class="row justify-content-md-center">
-    <div class="col justify-content-md-center text-center bg-cta br-7 mb-8 mt-5 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
+    <div class="col justify-content-md-center text-center cta-blue bg-cta br-7 mb-8 mt-5 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
       <span class="h1 pt-5">No code changes, no re-deploys.</span>
       <h3 class="mt-3">Catch errors before your users do, always.</h3>
       <div class="row justify-content-md-center">
