@@ -11,7 +11,7 @@ dated: 2017-10-29T17:50:03+02:00
       <div class="col-lg-6 center">
         <h1 class="text-center text-md-left">Optimize AWS Lambda<br>Performance & Cost</h1>
         <h2 class="mt-4 text-center text-md-left lato">Serverless insights, alerting and debugging.</h2>
-        <h2 class="lato text-center text-md-left">2-min setup, no code changes required!</h2>
+        <h2 class="lato text-center text-md-left">2-min setup, no code changes!</h2>
         <div class="pt-5 pr-5" style='width: 600px;'>
           <form method="post" action="https://app.dashbird.io/auth/register">
             <label class="input-group">
@@ -118,8 +118,8 @@ dated: 2017-10-29T17:50:03+02:00
   
   <div class="row justify-content-md-center">
     <div class="col justify-content-md-center text-center bg-cta br-7 mx-auto" style='padding: 170px 0;'>
-      <span class="h1 pt-5">Start your free 14-day trial</span>
-      <h3 class="mt-3">Make your serverless apps provide the best user-experience.</h3>
+      <span class="h1 pt-5">Start your free 14-day trial!</span>
+      <h3 class="mt-3">Get better overview of your Serverless with 2-minute setup.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pr-5 col-lg-5 mx-auto">
           <form method="post" action="https://app.dashbird.io/auth/register">

@@ -8,17 +8,17 @@ twitter_summary: 'summary_large_image'
 <section class="container slogan">
   <div class="row justify-content-md-end">
     <div class="col-lg-6">
-      <h1 class="text-center text-md-left">Monitor Lambda performance and errors</h1>
+      <h1 class="text-center text-md-left">Lambda Performance Monitoring and Error Alerting</h1>
       <h2 class="mt-4 text-center text-md-left lato">Real-time data of errors, latency and memory usage.</h2>
       <h2 class="lato text-center text-md-left">Detect problems with alerts and reporting.</h2>
       <div class="pt-5 pr-5">
         <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
               <input type="email" class="form-control" placeholder='Email' name="email" required>
-              <button class="input-group-addon">Monitor all Lambdas</button>
+              <button class="input-group-addon">Monitor All Lambdas</button>
           </label>
         </form>
-        <p class="text-center gray small">No code changes. Results in 5 minutes.</p>
+        <p class="text-center gray small">No code changes. Results in 2 minutes.</p>
       </div>
     </div>
     <div class="col-md-4 d-none d-md-block mr-4">
@@ -46,7 +46,7 @@ twitter_summary: 'summary_large_image'
         </div>
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Real-time insights</h3>
-          <p class="lato h4 lh-2">Metrics of errors, invocations, durations, memory usage. Troubleshoot and analyes each invocation with log and runtime data.</p>
+          <p class="lato h4 lh-2">Metrics of errors, invocations, durations, memory usage. Troubleshoot and analyzes each invocation with log and runtime data.</p>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ twitter_summary: 'summary_large_image'
 
 <section class="container-fluid">
   <div class="row justify-content-md-center">
-    <div class="col justify-content-md-center text-center bg-cta br-7 mb-8 mt-3 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
+    <div class="col justify-content-md-center text-center bg-cta cta-blue br-7 mb-8 mt-3 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
       <span class="h1 pt-5">Results in 5min, no re-deploys!</span>
       <h3 class="mt-3">Provide the best user-experience with your Serverless system.</h3>
       <div class="row justify-content-md-center">
