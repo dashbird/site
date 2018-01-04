@@ -461,12 +461,12 @@ pre {
 .clickable:hover  h3 {
   text-decoration: underline;
 }
-.clickable a {
-  visibility: hidden;
-}
-.clickable:hover a {
-  visibility: visible;
-}
+/* .clickable a { */
+/*   visibility: hidden; */
+/* } */
+/* .clickable:hover a { */
+/*   visibility: visible; */
+/* } */
 .clickable a:hover {
   text-decoration: none;
 }

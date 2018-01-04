@@ -7,15 +7,15 @@ thumbnail: "images/blog/04-01-2018/python-error-handling-aws-lambda.png"
 author: Taavi Rehemägi
 ---
 
-Python, used in around 53% of all Lambda functions, is the most popular language for Serverless. So, in the following weeks I'm going to introduce to you and share the best practices for building Serverless applications in Python. First of, an overview of the need-to-knows and best practices for error handling your Python code in AWS Lambda.
+Python, used in around 53% of all Lambda functions, is the most popular language for doing Serverless. Because of that, in the following weeks, I'm going to introduce you to the facts and best practices in building Lambda functions with Python. First up in the series is an overview of the need-to-knows for error handling Python in AWS Lambda.
 
-### Lambda failure types
+### Failure types
 There are a lot of different things that can go wrong in your Lambda so let's break each of them down.
 
 ![Python error handling](/images/blog/04-01-2018/python-error-handling-aws-lambda.png)
 
-#### Python syntax errors
-Syntax errors, also known as **parsing errors**, are perhaps the most common kind of complaint. They get detected before the code execution starts.  Here's how one looks like: 
+#### Syntax Errors
+Syntax errors, also known as **parsing errors**, are perhaps the most common kind of failure. They get thrown before the code execution starts. Here's how one looks like: 
 
 ```
 >>> while True print('Hello world')
@@ -25,7 +25,7 @@ Syntax errors, also known as **parsing errors**, are perhaps the most common kin
 SyntaxError: invalid syntax
 ```
 
-#### Python exceptions
+#### Exceptions
 **Exceptions** occur if a statement or expression is syntatically correct but an error is caused when executing it. As a developer, you can handle exceptions and make them non-fatal to your program. However, most execptions are not handled and result in an error message like this:
 
 ```
@@ -43,7 +43,7 @@ Traceback (most recent call last):
 TypeError: Can't convert 'int' object to str implicitly
 ```
 
-
+#### failed to import module
 Worth noting separetely is the import module exception. In essence, this is an exception as every other, yet it requires some special attention in Lambdas. **It is raised before the execution reaches the function handler**, meaning it does not reach the execution wrapped by the function handler. This usually prevents this type of failure to be reported by error alerting agents.
 
 ```
@@ -66,7 +66,7 @@ REPORT RequestId: 41a10717-e9af-11e7-892c-5bb1a4054ed6  Duration: 300085.71 ms  
 ```
 
 #### Resource constraint: OUT OF MEMORY
-Lambda executions can ran into memory limits. You can recognise the failure when both the `Max Memory Used` and `Memory Size` values in the REPORT line are identical.
+Lambda executions can run into memory limits. You can recognise the failure when both the `Max Memory Used` and `Memory Size` values in the REPORT line are identical.
 
 Example:
 ```
@@ -100,14 +100,14 @@ In this case, Lambda returns a 429 error to the invoking application, which is r
 
 **Asynchronous invocations:** (AWS SNS, AWS SES, AWS CloudWatch, etc)
 
-These events are queued before they are invoked and if the execution fails, **they are retried twice** with delays between each invocation. You can optionally specify a <a href='https://docs.aws.amazon.com/lambda/latest/dg/dlq.html' target='_blank'>Dead Letter Queue</a> for you function and have the failed event sent to AWS SQS or SNS. If you do not specify a DLQ, the event is discarded after two retries.
+These events are queued before they are invoked and if the execution fails, **they are retried twice** with delays between invocations. Optionally, you can specify a <a href='https://docs.aws.amazon.com/lambda/latest/dg/dlq.html' target='_blank'>Dead Letter Queue</a> for you function and have the failed events go to AWS SQS or SNS. However, if you do not specify a DLQ, the event is discarded after two retries.
 
 ##### **Stream-based event sources** (Amazon Kinesis Data Streams and DynamoDB streams):
-In this case, AWS Lambda polls your stream and invokes a Lambda function. If the invocation fails, Lambda will try to process the batch again until the data expires.
+In this case, Lambda polls your stream and invokes a Lambda function. If the invocation fails, Lambda will try to process the batch again until the data expires.
 To ensure that stream events are processed in order, the exception is blocking and the function will not read any new records until the failed batch is either successfully processed or expired.
 
 ### Idempotent functions
-Depending on the flow of your system, retries can be harmful. For instance, lets imagine a function that is responsible adding user row to the database and sending a welcome email. If the function fails after creating the user, and gets retried, you will have a duplicate row in the database.
+Depending on the flow of your system, retries can be harmful. For instance, lets imagine a function that is responsible for adding user row to the database and sending a welcome email. If the function fails after creating the user, and gets retried, you will have a duplicate row in the database.
 
 A good way to overcome this is to design your functions to be <a href='http://www.restapitutorial.com/lessons/idempotency.html' target='_blank'>idempotent</a>.
 
@@ -125,4 +125,4 @@ using <a href='https://dashbird.io' target='_blank'>Dashbird</a> - an easy to se
 
 ### Conclusion
 
-This covers much of what you need to know about error handling in AWS Lambdas. Let me know in the comments if I missed anything.
+This covers much of what you need to know about error handling in AWS Lambdas. Let me know in the comments if I missed anything. In the next article, I'm going to go over how to optimise python for peformance and cost. Stay tuned!
