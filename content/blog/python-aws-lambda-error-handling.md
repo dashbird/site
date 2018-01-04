@@ -15,7 +15,7 @@ There are a lot of different things that can go wrong in your Lambda so let's br
 ![Python error handling](/images/blog/04-01-2018/python-error-handling-aws-lambda.png)
 
 #### Syntax Errors
-Syntax errors, also known as **parsing errors**, are perhaps the most common kind of failure. They get thrown before the code execution starts. Here's how one looks like: 
+Syntax errors, also known as **parsing errors**, are perhaps the most common kind of failure. They get thrown before any program command is executed. Here's how one looks like: 
 
 ```
 >>> while True print('Hello world')
@@ -43,8 +43,8 @@ Traceback (most recent call last):
 TypeError: Can't convert 'int' object to str implicitly
 ```
 
-#### failed to import module
-Worth noting separetely is the import module exception. In essence, this is an exception as every other, yet it requires some special attention in Lambdas. **It is raised before the execution reaches the function handler**, meaning it does not reach the execution wrapped by the function handler. This usually prevents this type of failure to be reported by error alerting agents.
+#### Failed to import module
+Worth noting separately is the import module exception. In essence, this is an exception as every other, yet it requires some special attention in Lambdas. **It is raised before the execution reaches the function handler**, meaning it does not reach the execution wrapped by the function handler. This usually prevents this type of failure to be reported by error alerting agents.
 
 ```
 START RequestId: db1e9421-724a-11e7-a121-63fe49a029e8 Version: $LATEST
@@ -116,11 +116,11 @@ A good way to overcome this is to design your functions to be <a href='http://ww
 
 ### Improved logging
 
-For later ease of debugging, I reccommend logging out useful information like the **event object** (mind not logging out passwords etc.), fishy db and network requests and other possible points of failures. Also, make sure if you handle a critical exception, to log the trace out. This makes it possible for log based monitoring solutions like <a href='https://dashbird.io' target='_blank'>Dashbird</a> to catch and process.
+For later ease of debugging, I recommend logging out useful information like the **event object** (mind not logging out passwords etc.), fishy db and network requests and other possible points of failures. Also, make sure if you handle a critical exception, to log the trace out. This makes it possible for log based monitoring solutions like <a href='https://dashbird.io' target='_blank'>Dashbird</a> to catch and process.
 
 ### Log based monitoring & alerting
 
-It's important to note here, that most of these errors don't get reported by default. In the best case scenario, you will notice them in the CloudWatch metrics dashboard, if you happen to have it open. Also, failures that happen outside the program execution are difficult or impossible to be picked up by agents, since the execution is halted before it reaches the handler or from an upper level. A good solution to that problem is detecting these problems from CloudWatch logs. I reccommend
+It's important to note here, that most of these errors don't get reported by default. In the best case scenario, you will notice them in the CloudWatch metrics dashboard, if you happen to have it open. Also, failures that happen outside the program execution are difficult or impossible to be picked up by agents, since the execution is halted before it reaches the handler or from an upper level. A good solution to that problem is detecting these problems from CloudWatch logs. I recommend
 using <a href='https://dashbird.io' target='_blank'>Dashbird</a> - an easy to set up Serverless monitoring tool. The good thing about Dashbird is that it has zero effect to your Lambda performance or AWS cost. It also integrates with your Slack account, which brings alerting right to your development chat.
 
 ### Conclusion
