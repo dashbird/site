@@ -3,7 +3,7 @@ title: Python Error Handling in AWS Lambda
 description: Best Practices and need-to-knows for error handling in Python AWS Lambdas.
 date: 2018-01-04
 frontImage: "04-01-2018/python-error-handling-aws-lambda.png"
-thumbnail: "/images/blog/04-01-2018/python-error-handling-aws-lambda.png"
+thumbnail: "images/blog/04-01-2018/python-error-handling-aws-lambda.png"
 author: Taavi Rehemägi
 ---
 
