@@ -8,7 +8,7 @@ twitter_summary: 'summary_large_image'
 <section class="container slogan">
   <div class="row justify-content-md-end">
     <div class="col-lg-6">
-      <h1 class="text-center text-md-left">Lambda Performance Monitoring and Error Alerting</h1>
+      <h1 class="text-center text-md-left">AWS Lambda Performance Monitoring and Error Alerting</h1>
       <h2 class="mt-4 text-center text-md-left lato">Real-time data of errors, latency and memory usage.</h2>
       <h2 class="lato text-center text-md-left">Detect problems with alerts and reporting.</h2>
       <div class="pt-5 pr-5">

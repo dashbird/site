@@ -9,7 +9,7 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center">
-        <h1 class="text-center text-md-left">Optimize AWS Lambda<br>Performance & Cost</h1>
+        <h1 class="text-center text-md-left">AWS Lambda Alerts & Performance Tracking </h1>
         <h2 class="mt-4 text-center text-md-left lato">Serverless insights, alerting and debugging.</h2>
         <h2 class="lato text-center text-md-left">2-min setup, no code changes!</h2>
         <div class="pt-5 pr-5" style='width: 600px;'>
@@ -43,7 +43,7 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
 
     <div class='col-auto m-3'>
-      <span class='h1'>20K</span>
+      <span class='h1'>20K+</span>
       <span class='ml-3 text-center pull-right'>functions<br>tracked</span>
     </div>
 

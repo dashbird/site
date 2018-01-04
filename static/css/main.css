@@ -468,7 +468,7 @@ pre {
 /*   visibility: visible; */
 /* } */
 .clickable a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .cloudwatch-imitation {
