@@ -56,17 +56,19 @@ REPORT RequestId: db1e9421-724a-11e7-a121-63fe49a029e8  Duration: 15.11 ms Bille
 
 Read more about <a href='https://docs.python.org/3.3/tutorial/errors.html' target='_blank'>how to handle exceptions in Python.</a>
 
+### AWS Lambda errors
 
-
-#### Resource constraint: timeout
-when you are using <a href='https://serverless.com/framework/docs/providers/aws/guide/functions/' target='_blank'>The Serverless Framework</a> the default timeout is 6 seconds, but you can configure it up to 5 minutes. Here's how a timeout error looks in CloudWatch.
+#### Resource constraint: TIMEOUT
+When you are using <a href='https://serverless.com/framework/docs/providers/aws/guide/functions/' target='_blank'>The Serverless Framework</a> the default timeout is 6 seconds, but you can configure it up to 5 minutes. Here's how a timeout error looks in CloudWatch.
 ```
 REPORT RequestId: 41a10717-e9af-11e7-892c-5bb1a4054ed6  Duration: 300085.71 ms  Billed Duration: 300000 ms Memory Size: 128 MB Max Memory Used: 92 MB
 2017-12-25T20:12:38.950Z 41a10717-e9af-11e7-892c-5bb1a4054ed6 Task timed out after 300.09 seconds
 ```
 
-#### Resource constraint: Out of memory
-A lambda execution can ran out of memory. You can notice by seeing that both the `Max Memory Used` and `Memory Size` values in the report are identical.
+#### Resource constraint: OUT OF MEMORY
+Lambda executions can ran into memory limits. You can recognise the failure when both the `Max Memory Used` and `Memory Size` values in the REPORT line are identical.
+
+Example:
 ```
 START RequestId: b86c93c6-e1d0-11e7-955b-539d8b965ff9 Version: $LATEST
 
