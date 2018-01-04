@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and alerting for AWS Lambda"
+title: Error Tracking and Debugging AWS Lambda
 description: "Best tool for finding problems and debugging in your AWS Lambda functions. Useful for tracking system performance and memory usage and searching through logs."
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
@@ -8,7 +8,7 @@ date: 2017-11-06T10:50:03+02:00
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5 d-none d-md-block">
-      <h1>Debug and fix errors</h1>
+      <h1>AWS Lambda Error Tracking and Debugging</h1>
     </div>
 
     <div class="col text-center mt-5 d-md-none">
