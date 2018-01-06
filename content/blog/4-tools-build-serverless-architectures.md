@@ -3,6 +3,7 @@ title: 4 Tools For Building Production Serverless Architectures with Lambda
 description: Working with serverless is great when you find the right tools that work for you. Check out these tools to take your lambdas to the next level!
 date: 2017-11-03
 frontImage: "gray-cover.jpg"
+canonical: https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/ 
 author: 'Taavi Rehemägi'
 ---
 _This post was originally published in the [Serverless blog](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/) ._

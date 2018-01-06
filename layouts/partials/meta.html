@@ -51,3 +51,7 @@
  <!-- End of Twitter -->
 
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon"/>
+
+{{ if .Params.canonical }}
+ <link rel="canonical" href="{{ .Params.canonical }}">
+{{ end  }}
