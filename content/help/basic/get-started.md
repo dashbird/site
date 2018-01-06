@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
-title: Setting up Dashbird
+title: AWS Lambda Monitoring Setup - Dashbird Help
+linktitle: Setting up Dashbird
 description: Setup
 kbSeries: ["ABasic"]
 kbSeries_weight: 200

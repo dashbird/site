@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
 title: AWS Lambda Montoring Configuration With Dashbird - Dashbird Help
+linktitle: Configuring Dashbird
 description: Configuration
 kbSeries: ["DSettings"]
 kbSeries_weight: 100

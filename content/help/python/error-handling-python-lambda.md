@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
 title: Error Handling In Python Lambda
+linktitle: Error Handling In Python Lambda
 description: Catching and troubleshooting Python AWS Lambda errors.
 kbSeries: ["BPython"]
 kbSeries_weight: 100

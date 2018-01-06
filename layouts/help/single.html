@@ -35,7 +35,7 @@
             <a href='javascript:;'>{{ substr $subject 1 }}</a>
             <ol>
               {{ range $taxonomy }}
-                <li><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></li>
+                <li><a href='{{ .Page.Permalink }}'>{{ .Params.LinkTitle }}</a></li>
               {{ end }}
             </ol>
           </li>

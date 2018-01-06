@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
 title: AWS Lambda Monitoring Working Principles - Dashbird Help
+linktitle: How it works
 kbSeries: ["ABasic"]
 kbSeries_weight: 300
 ---

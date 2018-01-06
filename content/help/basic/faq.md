@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
 title: FAQ For AWS Lambda Performance Monitoring With Dashbird - Dashbird Help
+linktitle: FAQ
 description: Frequently Asked Questions
 kbSeries: ["ABasic"]
 kbSeries_weight: 400

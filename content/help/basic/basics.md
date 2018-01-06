@@ -1,6 +1,7 @@
 ---
 date: 2017-06-05
 title: Core Features & Benefits - Dashbird Help
+linktitle: Basics
 description: Dashbird is taylor made for Serverless
 kbSeries: ["ABasic"]
 kbSeries_weight: 100

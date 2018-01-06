@@ -31,7 +31,7 @@
           <h3 class='text-center mb-4'>{{ substr $subject 1 }}</h3>
           <ol>
           {{ range $taxonomy }}
-            <li class='p-0 text-left m-2'><a href='{{ .Page.Permalink }}'>{{ .Page.Title }}</a></li>
+            <li class='p-0 text-left m-2'><a href='{{ .Page.Permalink }}'>{{ .Page.LinkTitle }}</a></li>
           {{ end}}
           </ol>
         </div>
