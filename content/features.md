@@ -8,7 +8,7 @@ date: 2017-11-06T10:50:03+02:00
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5 d-none d-md-block">
-      <h1>Deliver quality AWS Lambda functions</h1>
+      <h1>Deliver Quality AWS Lambda Functions</h1>
       <h5>Dashbird works by collecting logs through your AWS Cloudwatch API.</h5>
     </div>
 
@@ -24,7 +24,7 @@ date: 2017-11-06T10:50:03+02:00
           <img src="/images/graph.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
-          <h3>End-to-end Serverless Monitoring</h3>
+          <h3>AWS Lambda Architecture Monitoring</h3>
           <p class='lato'>Keep an eye on executions and failures and react quickly to negative trends. Locate the most problematic functions and services quickly and evaluate the scope of issues.</p>
           <span class='float-right'><a href='/features/aws-lambda-serverless-monitoring'>read more</a></span>
         </div>

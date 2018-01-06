@@ -8,7 +8,7 @@ date: 2017-11-06T10:50:03+02:00
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5 d-none d-md-block">
-      <h1>End-to-end Serverless Monitoring</h1>
+      <h1>AWS Lambda Architecture Monitoring</h1>
     </div>
 
     <div class="col text-center mt-5 d-md-none">
