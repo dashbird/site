@@ -1,7 +1,7 @@
 ---
-title: "AWS Lambda calculator - estimate function cost"
-description: "Calculate the estimated cost of a lambda function for a month."
-thumbnail: "/images/screens/twitter.png"
+title: AWS Lambda Cost Calculator, Pricing Estimation - Dashbird
+description: AWS Lambda Cost Calculator
+thumbnail: images/lambda-cost-calculator.png
 date: 2017-12-18T10:50:03+02:00
 scripts: 
  - '/js/cost-calculator.js'
@@ -11,7 +11,7 @@ scripts:
 <section class="container-fluid dark-bg justify-content-center">
   <div class="row">
     <div class="col text-center mt-5 d-none d-md-block">
-      <h1>Lambda Cost Calculator</h1>
+      <h1>AWS Lambda Cost Calculator</h1>
     </div>
   </div>
 

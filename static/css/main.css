@@ -537,3 +537,7 @@ a.no-decoration:hover {
   z-index: 10;
 }
 .z-100 { z-index: 100; opacity: 1; }
+
+q {
+  color: gray;
+}

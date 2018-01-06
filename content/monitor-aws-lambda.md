@@ -1,5 +1,5 @@
 ---
-title: "Monitor AWS Lambda Performance And Errors"
+title: AWS Lambda Performance Monitoring and Error Alerting - Dashbird
 description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
 thumbnail: "images/twitter/people-using-dashbird-lambda-serverless.jpg"
 dated: 2017-11-07T17:50:03+02:00
@@ -15,7 +15,7 @@ twitter_summary: 'summary_large_image'
         <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
               <input type="email" class="form-control" placeholder='Email' name="email" required>
-              <button class="input-group-addon">Monitor All Lambdas</button>
+              <button class="input-group-addon">Sign up for free</button>
           </label>
         </form>
         <p class="text-center gray small">No code changes. Results in 2 minutes.</p>
@@ -83,14 +83,23 @@ twitter_summary: 'summary_large_image'
 </section>
 
 <section class="container social" style="margin-top: 30px;">
+  <div class="row justify-content-center mt-3">
+    <div class='col-auto m-3'>
+      <span class='h1'>5B+</span>
+      <span class='ml-3 text-center pull-right'>requests<br>per month</span>
+    </div>
 
-  <div class="row justify-content-center">
-    <div class="col-auto mr-md-3" style="margin-top: 19px;"><img class="w-130 mx-auto" src="/images/socialproof/nuviad.png"></div>
-    <div class="col-auto mr-md-2 mt-4 d-flex align-items-center"><img class="w-130 mx-auto" src="/images/socialproof/volta.png"></div>
-    <div class="col-auto mt-4 d-flex align-items-center"><img class="w-130 mx-auto" src="/images/socialproof/teamweek.png"></div>
-  </div>
-  <div class="row justify-content-md-center mt-5 subtle">
-    <div class="col-md-6 gray">
+    <div class='col-auto m-3'>
+      <span class='h1'>20K+</span>
+      <span class='ml-3 text-center pull-right'>functions<br>tracked</span>
+    </div>
+
+    <div class='col-auto m-3'>
+      <span class='h1'>300+</span>
+      <span class='ml-3 text-center pull-right'>AWS<br>accounts</span>
+    </div>
+
+    <div class="col-md-6 gray pt-5">
       <p class="text-center slab">“Dashbird is great for detecting issues in large scale Serverless systems. We use it for troubleshooting and optimising our applications daily. ”</p>
       <p class="quote text-center">- Mario Tosso, Software Developer</p>
     </div>
@@ -107,7 +116,7 @@ twitter_summary: 'summary_large_image'
           <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
             <input type="email" class="form-control" placeholder='Email' name="email" required>
-            <button class="input-group-addon">Start Free Trial</button>
+            <button class="input-group-addon">Sign up for free</button>
           </label>
           </form>
           <p class="text-center small">No credit card required</p>
