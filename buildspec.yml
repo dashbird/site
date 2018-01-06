@@ -22,8 +22,8 @@ phases:
     commands:
       - cat buildspec.yml
       - hugo
-      - jpegoptim './public/**/*.jpg'
-      - optipng './public/**/*.png'
+      - jpegoptim ./public/**/*.jpg
+      - optipng ./public/**/*.png
 
   post_build:
     commands:
