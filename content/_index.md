@@ -12,7 +12,7 @@ dated: 2017-10-29T17:50:03+02:00
         <h1 class="text-center">AWS Lambda Error & Performance Tracking </h1>
         <h2 class="mt-4 text-center lato">Serverless insights, alerting and debugging.</h2>
         <h2 class="lato text-center">2-min setup, no code changes!</h2>
-        <div class="pt-5 pr-5">
+        <div class="pt-5">
           <form method="post" action="https://app.dashbird.io/auth/register">
             <label class="input-group">
                 <input type="email" class="form-control" placeholder='Email' name="email" required>
@@ -121,7 +121,7 @@ dated: 2017-10-29T17:50:03+02:00
       <span class="h1 pt-5">Start your free 14-day trial!</span>
       <h3 class="mt-3">Get better overview of your Serverless with 2-minute setup.</h3>
       <div class="row justify-content-md-center">
-        <div class="pt-5 pr-5 col-lg-5 mx-auto">
+        <div class="pt-5 pl-5 pr-5 col-lg-5 mx-auto">
           <form method="post" action="https://app.dashbird.io/auth/register">
           <label class="input-group">
             <input type="email" class="form-control" placeholder='Email' name="email" required>
