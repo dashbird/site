@@ -119,7 +119,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row justify-content-md-center">
     <div class="col justify-content-md-center text-center cta-black bg-cta br-7 mx-auto" style='padding: 170px 0;'>
       <span class="h1 pt-5">Start your free 14-day trial!</span>
-      <h3 class="mt-3">Get better overview of your Serverless with 2-minute setup.</h3>
+      <h3 class="mt-3">Get a better overview of your Serverless after just a 2-minute setup.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pl-5 pr-5 col-lg-5 mx-auto">
           <form method="post" action="https://app.dashbird.io/auth/register">
