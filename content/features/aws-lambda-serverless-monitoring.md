@@ -20,7 +20,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 mt-3 mx-auto">
       <div class='row'>
         <div class='col text-center pb-3 pt-5'>
-        <h2>Account level metrics and observability</h2>
+          <h2>Account level metrics and observability</h2>
         </div>
       </div>
       <div class="row">
@@ -41,7 +41,6 @@ date: 2017-11-06T10:50:03+02:00
         </div>
       </div>
     </div>
-  </div>
   </div>
 
   <div class="row justify-content-md-center align-items-center">
@@ -64,7 +63,6 @@ date: 2017-11-06T10:50:03+02:00
             <li class='list-group-item'>Error rates</li>
             <li class='list-group-item'>Resource allocation</li>
          </ul>
-
         </div>
       </div>
     </div>
@@ -85,7 +83,7 @@ date: 2017-11-06T10:50:03+02:00
             <li class='list-group-item'>Invocation timeline</li>
             <li class='list-group-item'>Spot retries</li>
             <li class='list-group-item'>Live tailing</li>
-            <li class='list-group-item'>Log searcing</li>
+            <li class='list-group-item'>Log searching</li>
             <li class='list-group-item'>Function error breakdowns</li>
             <li class='list-group-item'>Cost control</li>
          </ul>
