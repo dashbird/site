@@ -7,17 +7,30 @@ thumbnail: images/blog/10-01-2018/optimize-lambda-production.jpeg
 author: Taavi Rehemägi
 ---
 
-AWS Lambda was the MVP of 2017 and it's going to be even bigger in 2018!
-
-Last year, I focused most of my time building apps on Serverless technologies and today I'd like to share some of the best practices I've come to use when optimizing Lambda functions that must perform fast (or cheap) in production.
-
 ![Optimizing AWS Lambda for Production](/images/blog/10-01-2018/optimize-lambda-production.jpeg)
 
-To start, you should pay the most attention to functions that are either **behind API endpoints** or have **a high volume of executions**. The reason is pretty obvious: API endpoints need to be fast for a good user experience and high volume functions yield the biggest cost optimization opportunity.
+Serverless was the MVP of last year and I'm betting it's going to play a bigger role next year in backend development.
 
-_So, let's dive in the different ways to turbocharge your functions..._
+AWS Lambda is the most used and mature product in the Serverless space today and that's why I'm going to share some tips and best practices for building production-ready Lambdas with optimal performance and cost.
 
-### 1. Optimal memory provisioning
+_By the end of this article, you will have a workflow of continuously monitoring and improving your Lambda functions and getting alerts on failures._
+
+### 1. Tracking Performance & Cost
+
+Before making any changes to your functions, I recommend setting up performance tracking for your functions. Monitoring invocation counts, durations, memory usage and cost of your Lambda functions allows you to pinpoint issues and make effective decisions. I recommend using <a href='https://dashbird.io' target='_blank'>Dashbird</a>, since it's easy to set up and the relies only on CloudWatch logs, meaning the service itself won't slow down your functions (or up your AWS cost).
+
+![Optimizing AWS Lambda for Production](/images/blog/10-01-2018/project-overview.png)
+
+In the above image, we can instantly notice some quickwins:
+
+  1. **alpha-prod-client-error-processor** has the most invocations, meaning it has the highest potential of optimization.
+  2. The same function has the most errors, so it's reliability can be improved.
+  3. **alpha-prod-ping** and **alpha-prod-client-metrics** have memory overprovisioned and can be optimized towards cost.
+  4. Some of the functions have invocation times over 20 seconds. This is slow and probably yields and optimization opportunity.
+
+_So, let's dive in the different strategies to turbocharge your functions..._
+
+### 2. Optimal memory provisioning
 The amount of CPU allocated to your Lambda function is relative to the memory provisioned for that function. A function with 256 MB of memory will have roughly twice the CPU from a 128 MB function. Memory size also affects cold start time linearly.
 
 Taking into account the cost increase of more memory, developers have a choice to optimize either for speed or cost.
@@ -61,7 +74,7 @@ Here's a good example of from <a href='https://serverless.com/blog/aws-lambda-po
 
 <q>In terms of cost, the 128MB configuration would be the cheapest (but very slow!). Interestingly, using the 1536MB configuration would be both faster and cheaper than using 1024MB. This happens because the 1536MB configuration is 1.5 times more expensive, but we'll pay for half the time, which means we'd roughly save 25% of the cost overall.</q>
 
-### 2. Re-use Lambda containers
+### 3. Re-use Lambda containers
 AWS reuses Lambda containers for subsequent calls if the next call is within 5 minutes. This allows developers to, for instance, cache resources and implement connection pooling.
 
 **Below is a checklist that you can go through when thinking in that direction:**
@@ -76,7 +89,7 @@ AWS reuses Lambda containers for subsequent calls if the next call is within 5 m
 
 Avoid using recursive code in your Lambda function, wherein the function automatically calls itself until some arbitrary criteria is met. This could lead to unintended volume of function invocations and escalated costs.
 
-### 3. Log-based monitoring and error handling
+### 4. Log-based monitoring and error handling
 
 With servers, collecting performance metrics and tracking failed executions is normally done by an agent that collects telemetry and error information and sends it over HTTP. With Lambdas, this approach can slow down functions and over time add quite a bit of cost. Not to mention the extra overhead that comes from adding (and maintaining) third-party agents over possibly large amounts of Lambda functions.
 
