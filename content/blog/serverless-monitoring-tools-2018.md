@@ -1,6 +1,6 @@
 ---
 title: Serverless Monitoring Tools 2018
-description: 'Tutorial: getting your Lambda functions in line to behave their best in production environments.'
+description: Here are your options to monitor your AWS Lambda functions in 2018.
 date: 2018-01-09
 frontImage: 11-01-2018/dashbird-project.png
 thumbnail: images/blog/11-01-2018/dashbird-project.png

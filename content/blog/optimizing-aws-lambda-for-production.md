@@ -1,6 +1,6 @@
 ---
 title: Optimizing AWS Lambda for Production
-description: 'Tutorial: getting your Lambda functions in line to behave their best in production environments.'
+description: Here's how I get my Lambda functions in line to behave their best in production environments.
 date: 2018-01-10
 frontImage: 10-01-2018/optimize-lambda-production.jpeg
 thumbnail: images/blog/10-01-2018/optimize-lambda-production.jpeg
