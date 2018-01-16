@@ -25,3 +25,7 @@
     category: "categories"
     kbSeries: "kbSeries"
   preserveTaxonomyNames: true
+  sitemap:
+    changefreq: "monthly"
+    priority: 1
+    filename: "sitemap.xml"
