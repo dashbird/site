@@ -1,6 +1,6 @@
 ---
 title: Python Lambda Log Based Monitoring & Alerts - Dashbird
-description: Troubleshooting and error handling for AWS Lambda functions written in Python. Easiest setup and completely log-based data collection.
+description: Developing Lambda functions in Python? Dashbird gives you detailed overview and error alerting by analyzing CloudWatch logs.
 thumbnail: "images/twitter/people-using-dashbird-lambda-serverless.jpg"
 dated: 2017-11-07T17:50:03+02:00
 twitter_summary: 'summary_large_image'
