@@ -1,7 +1,7 @@
 ---
 title: Top 3 Tools For Monitoring Python AWS Lambda
 description: Here are your options to monitor your AWS Lambda functions in 2018.
-date: 2018-01-18
+date: 2018-01-21
 frontImage: 21-01-2018/serverless-monitoring-python.jpeg
 thumbnail: images/blog/21-01-2018/serverless-monitoring-python.jpeg
 author: Andrei Popescu
