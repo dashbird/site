@@ -39,7 +39,7 @@ Pro-active alerts is another one of its features. Simply put, you can set up ema
   - About 1 minute of delay
 
 
-<h3><a href='https://iopipe.com' target='_blank'>IOPipe</a></h3>
+<h3><a href='https://iopipe.com' target='_blank' rel='nofollow'>IOPipe</a></h3>
 
 ![IOPipe](/images/blog/11-01-2018/iopipe.png)
 
