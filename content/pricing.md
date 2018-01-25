@@ -24,7 +24,7 @@ date: 2017-10-29T17:50:03+02:00
               <h4 class="mt-3">Enterprise</h4>
               <h5 class="lato mt-4 mb-2" id="enterprise">$599</h5>
               <p class="small gray condition">per month / billed yearly</p>
-              <p class="lato m-0 p-0 h6">30 million invocations</p>
+              <p class="lato m-0 p-0 h6">100 million invocations</p>
               <hr>
               <p class="lato h6">Unlimited functions</p>
               <p class="mt-5">
