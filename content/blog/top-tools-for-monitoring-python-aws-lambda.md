@@ -75,7 +75,7 @@ Dashbird provides detailed views for:
 
   - <a href='https://dashbird.io/python-lambda-performance-tracking/' target='_blank'>performance tracking</a>
   - <a href='https://dashbird.io/free-python-lambda-troubleshooting-tool/' target='_blank'>troubleshooting</a>
-  - <a href='https://dashbird.io/python-lambda-activity-tracking-error-monitoring/activity' target='_blank'>tracking and error monitoring</a>
+  - <a href='https://dashbird.io/python-lambda-activity-tracking-error-monitoring/' target='_blank'>tracking and error monitoring</a>
   - <a href='https://dashbird.io/python-lambda-optimization-error-handling/' target='_blank'>optimization and error handling</a>
 
 If your application logic is distributed over large amounts of functions, it makes a lot more sense to collect info from the logs rather than sending telemetry at the execution time and this is exactly where Dashbird shines.
@@ -91,7 +91,7 @@ Dashbird includes a time-series view to provide developers with information reg
 
 A nice feature baked in Dashbird is failure recognition in logs. Dashbird detects all types of failures for Python, Node.js and Java. This includes crashes, early exits, timeouts and configuration errors. Dashbird detects errors in your Lambda functions and alerts you via Slack or email. Each error includes detailed stack-traces, logs and is linked to similar errors for easier debugging efforts.
 
-<a href='/featues' target="_blank">Read more about the features of Dashbird</a>
+<a href='/features' target="_blank">Read more about the features of Dashbird</a>
 
 ### <a href='https://www.iopipe.com/' target='_blank' rel='nofollow'>IOPipe</a>
 
