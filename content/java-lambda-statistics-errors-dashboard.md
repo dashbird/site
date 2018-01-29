@@ -10,7 +10,7 @@ twitter_summary: 'summary_large_image'
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center">
-        <h1 class="text-center">Track Performance & Debug Java AWS Lambda functions</h1>
+        <h1 class="text-center">Track Performance & Debug Java AWS Lambda Functions</h1>
         <h2 class="mt-4 text-center lato">We'll draw a dashboard from your CloudWatch logs.</h2>
         <h2 class="lato text-center">Alerts and monitoring to all functions in 96 seconds!</h2>
         <div class="pt-5">
