@@ -24,5 +24,5 @@ We launched project views in December. With project views, you can break down yo
 
 ### What's coming?
 
-For the next months, we have a ton of interesting features coming, like **custom metrics, custom alerting, API GateWay support** and more.
+For the next months, we have a ton of interesting features coming, like **custom metrics, custom alerting, API Gateway support** and more.
 Also there's going to be a push for even bigger limits. We're also working towards supporting volumes into billions of requests, which will require a different approach on importing (think sampling).
