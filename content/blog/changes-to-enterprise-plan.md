@@ -1,5 +1,5 @@
 ---
-title: Changes to Dashbird Enterprise Plan.
+title: Changes to Dashbird Enterprise Plan
 description: We just raised our enterprise invocation level limit to 100 million requests and are focusing on monitoring large Serverless architectures.
 date: 2018-01-29
 frontImage: "29-01-2018/enterprise-serverless-monitoring.jpeg"
