@@ -5,6 +5,9 @@ linktitle: Setting up Dashbird
 description: Setup
 kbSeries: ["ABasic"]
 kbSeries_weight: 200
+aliases:
+ - /setup
+ - /help/getting-started/setting-up-dashbird/
 ---
 
 _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
