@@ -70,7 +70,7 @@ date: 2017-10-29T17:50:03+02:00
             <hr>
             <p class="lato h6">10 functions</p>
             <p class="mt-5">
-              <a href="/signup" class="text-white p-25 btn-blue">Start free trial</a>
+              <a href="/signup" class="text-white p-25 btn-blue">Start now</a>
             </p>
           </div>
         </div>
@@ -78,10 +78,25 @@ date: 2017-10-29T17:50:03+02:00
     </div>
 
     <div class="row">
-      <div class="col-md-12 mb-5 mt-5">
-      <p class="lato h5 p-3 text-center">All plans include the greatest support! <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
+      <div class="col-md-12 mb-4 mt-3">
+      <p class="lato h5 p-3 text-center">We aim for less than 24 hours response time for all support requests. <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12 mb-5 mt-3">
+      <h3>Support for non-profits and startups</h3>
+      <p class="lato h5 p-3">Please write to <a href='mailto:support@dashbird.io'>support@dashbird.com</a> answering the questions below and we’d be happy to discuss this further.</p>
+      <ul class=''>
+        <li>Share something about your organisation – who you are and what do you do?</li>
+        <li>How did you find Dashbird?</li>
+        <li>How could you introduce Dashbird to others?</li>
+        <li>Would you link us from your website (or write a blog post about Dashbird)?</li>
+        <li>What kind of support are you looking for?</li>
+      </ul>
+      </div>
+    </div>
+
   </div>
 
 </section>

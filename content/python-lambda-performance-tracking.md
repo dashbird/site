@@ -168,10 +168,28 @@ twitter_summary: 'summary_large_image'
       <span class='h1'>300+</span>
       <span class='ml-3 text-center pull-right'>AWS<br>accounts</span>
     </div>
+  </div>
 
-    <div class="col-md-6 gray pt-5">
-      <p class="text-center slab">“Dashbird is great for detecting issues in large scale Serverless systems. We use it for troubleshooting and optimising our applications daily. ”</p>
-      <p class="quote text-center">- Mario Tosso, Software Developer</p>
+   <div class="row justify-content-md-center pt-5">
+    <div class="col-md-6 align-middle pb-5">
+      <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="text-center slab">“Between the Overview page and Slack integration, Dashbird has given Volta increased transparency and confidence in our infrastructure. It is also the easiest tool out there for diving into logs for a specific invocation, which has decreased our time to diagnosis drastically.”</p>
+            <p class="quote text-center">- Caleb Brewer, Lead Software Engineer</p>
+          </div>
+
+          <div class="carousel-item">
+            <p class="text-center slab">Such well-crafted Serverless Monitoring - <a href='https://twitter.com/thedashbird' target='_blank'>@thedashbird</a> - *tears of joy*</p>
+            <p class="quote text-center">- <a href='https://twitter.com/vladholubiev'>@vladholubiev</a>, Software Developer</p>
+          </div>
+
+          <div class="carousel-item">
+            <p class="text-center slab">“Dashbird is great for detecting issues in large scale Serverless systems. We use it every day for troubleshooting and optimising our services.”</p>
+            <p class="quote text-center">- Mario Tosso, Software Developer</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
