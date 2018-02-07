@@ -1,7 +1,7 @@
 ---
 title: Top Serverless Conferences and Events in 2018
 description: Check out all the Serverless conferences in 2018. There are so many interesting meetups across the world to choose from. Just see which location and topic are best suited for you.
-date: 2018-02-06
+date: 2018-02-07
 frontImage: "07-02-2018/serverless-conferences.jpeg"
 thumbnail: "images/blog/07-02-2018/serverless-conferences.jpeg"
 authorlink: http://highlightcontent.com/'
