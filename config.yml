@@ -24,6 +24,7 @@
     tag: "tags"
     category: "categories"
     kbSeries: "kbSeries"
+  disableKinds: ["categories", "kbSeries"]
   preserveTaxonomyNames: true
   sitemap:
     changefreq: "monthly"
