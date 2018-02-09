@@ -11,8 +11,13 @@ author: Ali Raza
 
 Abstraction is a developer’s dreamland, where no one needs to work through the art of IT Ops processes such as infrastructure resource planning and management throughout the application lifecycle. Fortunately, AWS came up with an answer in 2014 by introducing the Lambda compute service that transformed the way backend infrastructure is managed in response to changing in-app events and code execution processes. 
 
+
 Instead of defining, planning, provisioning and managing the underlying infrastructure to execute app requests, Lambda lets developers upload their code to AWS and automatically takes care of the infrastructure management processes. The resources are provisioned only in response to the app execution requests and terminated when the request is served – and users are typically charged for the compute time consumed or the number of compute requests.
-In simple terms, developers write the application logic without thinking about the servers – hence the serverless architecture. On the surface, serverless computing drastically reduces the cost, complexity and efforts in managing applications. Developers can work to write the best software products, focus on innovation and improve time to market. At the same time, going serverless has its limitations and doesn’t eliminate the need to observe the application development lifecycle from a holistic perspective. Here are a few pointers to get you thinking:
+
+
+In simple terms, developers write the application logic without thinking about the servers – hence the serverless architecture. On the surface, serverless computing drastically reduces the cost, complexity and efforts in managing applications. Developers can work to write the best software products, focus on innovation and improve time to market. At the same time, going serverless has its limitations and doesn’t eliminate the need to observe the application development lifecycle from a holistic perspective. To overcome these limitations, developer tools such as <a href='https://dashbird.io' target='_blank'>Dashbird</a> have emerged.
+
+Here are a few pointers to get you thinking:
 
 ## Opportunities:
 
