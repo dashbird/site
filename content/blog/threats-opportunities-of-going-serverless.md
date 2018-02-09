@@ -1,6 +1,6 @@
 ---
 title: The Threats and Opportunities of Going Serverless
-description: You can now set webhooks to events in Dashbird and integrate Dashbird with different platforms.
+description: There are a lot of opportunitis but also certain threats when going Serverless. Here's a breakdown of what you should keep in mind.
 date: 2018-02-09
 frontImage: "09-02-2018/threats-of-going-serverless.jpg"
 thumbnail: "images/blog/09-02-2018/threats-of-going-serverless.jpg"
