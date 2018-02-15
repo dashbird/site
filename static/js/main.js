@@ -13,6 +13,7 @@ $(document).ready(function(){
     $('#pro').text(period === 'ANNUAL' ? '$299' : '$350');
     $('#enterprise').text(period === 'ANNUAL' ? '$599' : '$700');
     $('#startup').text(period === 'ANNUAL' ? '$99' : '$115');
+    $('#basic').text(period === 'ANNUAL' ? '$24' : '$29');
     $('.condition').text(period === 'ANNUAL' ? 'per month / billed yearly' : 'per month');
   }
   $('.toggle span').on('click', function() {
