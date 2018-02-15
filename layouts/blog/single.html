@@ -2,20 +2,11 @@
 <section class="container-fluid dark-bg">
   <div class="row justify-content-center">
     <div class="col col-md-9 mw-900">
-      <h1 class="text-center mt-5 mb-4">{{ .Title }}</h1>
-      <p class="text-right m-0 p-0">
-      {{ if isset .Params "authorlink" }}
-        <a href='{{ .Params.authorlink }}' target='_blank'>{{ .Params.author }}</a>
-      {{ else }}
-        {{ .Params.author }}
-      {{ end }}
-      at {{ .Date.Format "Mon, Jan 2, 2006" }}
-      </p>
     </div>
   </div>
 
   <div class="row justify-content-center lato blog-font lh-3">
-    <div class="col-1 text-center d-none d-md-block">
+    <div class="col-1 text-center d-none d-md-block" style='margin-top: 140px;'>
       <div class="sticky-top pt-5">
         <span class="h4">share</span>
         <div class="col-12 mb-3 mt-3">
@@ -44,8 +35,17 @@
       </div>
     </div>
 
-    <div class="col col-md-9 mt-2 pt-4 mb-5 bg-white imgs-fluid mw-900">
-      {{ .Content }}
+    <div class="col col-md-9 mt-2 pt-4 mb-5 imgs-fluid mw-900">
+      <h1 class="text-center mt-5 mb-4">{{ .Title }}</h1>
+      <p class="text-right m-0 p-0">
+      {{ if isset .Params "authorlink" }}
+        <a href='{{ .Params.authorlink }}' target='_blank'>{{ .Params.author }}</a>
+      {{ else }}
+        {{ .Params.author }}
+      {{ end }}
+      at {{ .Date.Format "Mon, Jan 2, 2006" }}
+      </p>
+      <div class='bg-white'>{{ .Content }}</div>
       <div class="row">
         <div class="col d-block d-md-none">
         <span class="h4">share on:</span>
@@ -68,12 +68,13 @@
         </div>
       </div>
     </div>
-    <div class="col-1 d-none d-md-block">
-      <div class="sticky-top pt-5">
-      <img src="/images/logo.png">
-      <p><small>Monitor performance and track errors of AWS Lambda</small></p>
+    <div class="col-2 pt-3 d-none d-md-block" style='margin-top: 160px;'>
+      <div class="sticky-top pt-4">
+        <div class="pt-4 border rounded text-center">
+        <img src="/images/logo.png" class='align-center' style='border: 0; box-shadow: none; width: 80px;'>
+        <p class='m-3 mt-4 mb-4' style='font-size: 10pt;'>Agentless AWS Lambda monitoring and error reporting.</p>
+        <a href='https://dashbird.io' class='btn btn-primary btn-sm mb-3' role='button' >Dashbird</a>
       </div>
-     
     </div>
   </div>
   </div>
