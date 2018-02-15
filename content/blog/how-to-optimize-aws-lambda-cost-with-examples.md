@@ -1,6 +1,6 @@
 ---
 title: How to Optimize AWS Lambda Costs (With Examples)
-description: Here's how you can trakc and optimize you're AWS Lambda costs
+description: Here's how you can track and optimize you're AWS Lambda costs
 date: 2018-02-14
 frontImage: "14-02-2018/optimize-lambda-cost.jpg"
 thumbnail: "images/blog/14-02-2018/optimize-lambda-cost.jpg"
