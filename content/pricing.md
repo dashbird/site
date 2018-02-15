@@ -19,67 +19,89 @@ date: 2017-10-29T17:50:03+02:00
   <div class="row justify-content-md-center align-items-center mt-3">  
     <div class="col-sm-11">
       <div class="row">
-        <div class="col mw-250">
-          <div class="pricing-box bg-white top-black text-center p-4">
-              <h4 class="mt-3">Enterprise</h4>
-              <h5 class="lato mt-4 mb-2" id="enterprise">$599</h5>
-              <p class="small gray condition">per month / billed yearly</p>
-              <p class="lato m-0 p-0 h6">100 million invocations</p>
-              <hr>
-              <p class="lato h6">Unlimited functions</p>
-              <p class="mt-5">
-                <a href="/signup" class="text-white p-25 btn-blue">Start free trial</a>
-              </p>
-          </div>
-        </div>
 
         <div class="col mw-250">
-          <div class="pricing-box bg-white top-green text-center p-4">
-            <h4 class="mt-3">Pro</h4>
-            <h5 class="lato mt-4 mb-2" id="pro">$299</h5>
-            <p class="small gray condition">per month / billed yearly</p>
-            <p class="lato m-0 p-0 h6">10 million invocations</p>
-            <hr>
-            <p class="lato h6">Unlimited functions</p>
-            <p class="mt-5">
-              <a href="/signup" class="text-white p-25 btn-blue">Start free trial</a>
-            </p>
-          </div>
+          <div class="pricing-box bg-white top-gray text-center p-4">
+            <h4 class="mt-2 mb-3">Basic</h4>
+            <span class="h1 lato mt-5 mb-5" id="basic">$24</span>
+            <p class="small gray condition pt-3">per month / billed yearly</p>
+
+            <p class="lato h6">&nbsp;</p>
+            <p class="lato h6">&nbsp;</p>
+            <p class="lato h6">1 mil invocations / month</p>
+            <p class="lato m-0 p-0 h6">20 functions</p>
+            <p class="lato h6">&nbsp;</p>
+           </div>
         </div>
 
         <div class="col mw-250">
           <div class="pricing-box bg-white top-yellow text-center p-4">
-            <h4 class="mt-3">Startup</h4>
-            <h5 class="lato mt-4 mb-2" id="startup">$99</h5>
-            <p class="small gray condition">per month / billed yearly</p>
-            <p class="lato m-0 p-0 h6">5 million invocations</p>
+            <h4 class="mt-2 mb-3">Startup</h4>
+            <span class="h1 lato mt-5 mb-5" id="startup">$99</span>
+            <p class="small gray condition pt-3">per month / billed yearly</p>
+
+            <p class="lato h6">5 mil invocations / month</p>
+            <p class="lato m-0 p-6 h6">50 functions</p>
             <hr>
-            <p class="lato h6">50 functions</p>
-            <p class="mt-5">
-              <a href="/signup" class="text-white p-25 btn-blue">Start free trial</a>
-            </p>
-          </div>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
+         </div>
+        </div>
+
+       <div class="col mw-250">
+          <div class="pricing-box bg-white top-green text-center p-4">
+            <h4 class="mt-2 mb-3">Pro</h4>
+            <span class="h1 lato mt-5 mb-5" id="pro">$299</span>
+            <p class="small gray condition pt-3">per month / billed yearly</p>
+
+            <p class="lato h6">10 mil invocations / month</p>
+            <p class="lato m-0 p-6 h6">unlimited functions</p>
+            <hr>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
+
+         </div>
         </div>
 
         <div class="col mw-250">
-          <div class="pricing-box bg-white top-gray text-center p-4">
-            <h4 class="mt-3">Basic</h4>
-            <h5 class="lato mt-4 mb-2" id="basic">$24</h5>
-            <p class="small gray condition">per month / billed yearly</p>
-            <p class="lato m-0 p-0 h6">1 million invocations</p>
-            <hr>
-            <p class="lato h6">20 functions</p>
-            <p class="mt-5">
-              <a href="/signup" class="text-white p-25 btn-blue">Start free trial</a>
-            </p>
+          <div class="pricing-box bg-white top-black text-center p-4">
+              <h4 class="mt-2 mb-3">Enterprise</h4>
+              <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
+              <p class="small gray condition pt-3">per month / billed yearly</p>
+
+              <p class="lato h6">100 mil invocations / month</p>
+              <p class="lato m-0 p-6 h6">unlimited functions</p>
+              <hr>
+              <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
+              <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
           </div>
         </div>
+ 
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12 mb-4 mt-3">
-      <p class="lato h5 p-3 text-center">We aim for less than 24 hours response time for all support requests. <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
+
+  <div class="row justify-content-md-center">
+    <div class="col justify-content-md-center text-center cta-blue bg-cta br-7 mb-8 mt-5 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
+      <span class="h1 pt-5">No code changes, no re-deploys.</span>
+      <h3 class="mt-3">Catch errors before your users do, always.</h3>
+      <div class="row justify-content-md-center">
+        <div class="pt-5 pr-5 col-lg-9 mx-auto">
+          <form method="post" action="https://app.dashbird.io/auth/register">
+            <label class="input-group">
+              <input type="email" class="form-control" placeholder='Email' name='email' required>
+              <button class="input-group-addon">Start Free Trial</button>
+            </label>
+          </form>
+          <p class="text-center small">No credit card required</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="row">
+      <div class="col-md-12 mb-4">
+        <p class="lato h5 p-3 text-center">We aim for less than 24 hours response time for all support requests. <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
       </div>
     </div>
 
