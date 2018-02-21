@@ -95,7 +95,7 @@ twitter_summary: 'summary_large_image'
     </div>
 
     <div class='col-auto m-3'>
-      <span class='h1'>300+</span>
+      <span class='h1'>400+</span>
       <span class='ml-3 text-center pull-right'>AWS<br>accounts</span>
     </div>
   </div>
