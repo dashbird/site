@@ -17,4 +17,4 @@ We have overprovisioned our importer stacks to a point that if half of our serve
 
 ### What if I have a question or a problem?
 
-You can write to us from the app (there's a little Crisp chatbox on the bottom-right corner) or via email (<a href='mailto: support@dashbird.io'>support@dashbird.io</a>). We are very dedicated to supporting our users and aim to always respond in less than an hour.
+You can write to us from the app (there's a little chatbox on the bottom-right corner) or via email (<a href='mailto: support@dashbird.io'>support@dashbird.io</a>). We are very dedicated to supporting our users and aim to always respond in less than an hour.
