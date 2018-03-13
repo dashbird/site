@@ -129,7 +129,7 @@ dated: 2017-10-29T17:50:03+02:00
 
 
 <section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover; '>
-  
+
   <div class="row justify-content-md-center">
     <div class="col justify-content-md-center text-center cta-black bg-cta br-7 mx-auto" style='padding: 170px 0;'>
       <span class="h1 pt-5">Start your free 14-day trial!</span>
