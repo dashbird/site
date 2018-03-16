@@ -1,26 +1,4 @@
 $(document).ready(function(){
-  function buildMemArr() {
-    var res = [128]
-    var last = res[0]
-    while ((last + 64) < 3008) {
-      last += 64
-      res.push(last + 64)
-    }
-    return res;
-  }
-
-  function addMem() {
-    var arr = buildMemArr()
-    var mapped = arr.map(function(item) {
-      var opt = $('<option />')
-      opt.attr({ 'value': item }).text(item + ' MB');
-      return opt
-    })
-    $('#lambda-memory').append(mapped)
-  }
-
-  addMem()
-
   $('#navigation').on('show.bs.collapse', function() {
     $('nav').addClass('collapsedfully');
     $('html, body').css({ overflow: 'hidden', height: '100%' });
