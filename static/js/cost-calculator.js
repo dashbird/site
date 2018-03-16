@@ -12,7 +12,7 @@ $(function() {
 
   function addMem() {
     var arr = buildMemArr()
-    var mapped = arr.map(function(item) {
+    var mapped = $.map(arr, function(item) {
       var opt = $('<option />')
       opt.attr({ 'value': item }).text(item + ' MB');
       return opt
