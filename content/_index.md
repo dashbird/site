@@ -9,7 +9,7 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center">
-        <h1 class="text-center">End-to-end Serverless Monitoring</h1>
+        <h1 class="text-center">Actionable Serverless Monitoring</h1>
         <h2 class="mt-4 text-center lato">Observability, alerting and debugging into AWS Lambda</h2>
         <h2 class="lato text-center">2-min setup, no code changes!</h2>
         <div class="pt-5">
