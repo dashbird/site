@@ -25,11 +25,11 @@ date: 2018-03-12T11:50:03+02:00
               <li>Freedom of remote work</li>
               <li>Team meetups 2x per year</li>
             </ul>
-            <a class='btn btn-primary' href='https://app.hundred5.com'>Take the test</a>
+            <a class='btn btn-primary' href='https://app.hundred5.com/3EEDKO5YVZQKLYYCM6Y'>Take the test</a>
         </div>
 
         <div class="col-5 p-0">
-            <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
+          <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
     </div>
