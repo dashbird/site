@@ -304,6 +304,11 @@ input[type=text].form-control::placeholder {
   margin-left: -18px;
   float: left;
 }
+.img-jobs {
+  width: 400px;
+  height: 400px;
+}
+
 .pattern-blue {
   position: absolute;
   bottom: -12px;
@@ -385,6 +390,18 @@ input[type=text].form-control::placeholder {
   .team-text {
     text-align: center;
   }
+  .img-jobs{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: auto;
+    float: unset;
+    width: unset;
+    height: unset;
+    max-width: 90%;
+    max-height: 90%;
+  }
+
   .img-blue-border {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
