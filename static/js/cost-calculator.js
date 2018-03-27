@@ -25,7 +25,7 @@ $(function() {
   const $executions = $('[name="executions"]');
   const $memory = $('[name="memory"]');
   const $durations = $('[name="duration"]');
-  const $freeTier = $('#freetier-checked');
+  const $freeTier = $('[name="freeTier"]');
 
   const $requestsCost = $('#requests-cost');
   const $executionsCost = $('#executions-cost');
