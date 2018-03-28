@@ -50,11 +50,11 @@ def lambda_handler(event, context):
 
 You can introduce an error to the code above and upon testing the function they immediately show up on Dashbird console.
 
-![Error Log](site/content/blog/Images/Errors1.PNG)
+![errors1](https://user-images.githubusercontent.com/11016565/38022853-510d23fa-329e-11e8-866f-fd274d04b179.PNG)
 
 It even gives a detailed error message with the line number where the error was encountered.
 
-![Error Report](site/content/blog/Images/ErrorReport.PNG)
+![errorreport](https://user-images.githubusercontent.com/11016565/38022852-50d53972-329e-11e8-89a2-dec0664eed53.PNG)
 
 The error says it is a crash, and it gives you an explicit reason as to why the crash occurred. Here, it was the line number 7 of the lambda_function.py, where, I intentionally removed a colon.
 
@@ -63,7 +63,7 @@ That's great! Now you can go to that location and correct the error. But there's
 This is where the Live Tailing feature from Dashbird comes in. It shows lambda invocation in near real-time. This makes monitoring easy helps you debug before it's too late.
 You can open the Live Tail menu and select the function(s) you want to see in action.
 
-![LiveTail1](site/content/blog/Images/LiveTailing1.PNG)
+![livetailing1](https://user-images.githubusercontent.com/11016565/38022854-5148aea2-329e-11e8-8df2-89e9d7f1b9e6.PNG)
 
 To start testing we set the baseline with an input of 1000, notice the duration of the lambda function:
 ```
@@ -88,13 +88,13 @@ REPORT RequestId: 4babf5b6-3260-11e8-b19b-c1f179a5100a	Duration: 1756.28 ms	Bill
 
 All this inefficiency would stay hidden if the inputs aren't large. However, they will have a significant impact on your AWS bills. The problem will only become apparent for larger inputs (like 8000) where the lambda function will timeout.
 
-![Timed out](site/content/blog/Images/timeout.PNG)
+![timeout](https://user-images.githubusercontent.com/11016565/38022855-517f6208-329e-11e8-9306-ab0c5e83da26.PNG)
 
 Only at this point would the alerts go off telling you that something is wrong. But not exactly what's wrong. This is dangerous, because you might consider increasing the maximum compute time from 3000ms to a larger value, further increasing your AWS bills.
 
 Of course, in Dashbird's logs, you can clearly see the trend increasing steeply as you keep giving larger and larger inputs.
 
-![Usage Stats](https://github.com/ranvo/site/blob/master/content/blog/Images/timeout.PNG)
+![usage_stats](https://user-images.githubusercontent.com/11016565/38022856-51b398d4-329e-11e8-8106-16ad7f46c59f.PNG)
 
 In this example the data points are too few to plot a graph, but if your function gets invoked much more often than that, you will have a much more visually intuitive graph to infer from (we will see one of these, shortly).
 
@@ -118,7 +118,7 @@ def lambda_handler(event, context):
     return [i for i in primes if primes[i]==True]
 ```
 Now we have a satisfyingly efficient solution which doesn't go beyond 300ms even when the input is as large as 8000. Here's the graph showing how the resource utilization decreased after the changes were made.
-![Efficiency Improves](site/content/blog/Images/efficient_solution.PNG)
+![efficient_solution](https://user-images.githubusercontent.com/11016565/38022851-508f202c-329e-11e8-874c-7c2b68fa30d2.PNG)
 
 Over time, you can expect the function's health to improve as well, since it would timeout less often than before.
 
