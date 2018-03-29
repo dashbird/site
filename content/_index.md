@@ -125,6 +125,34 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
+      <div class="row align-items-center">
+        <div class="col-md-7 text-center">
+          <h1 class='lato'>Find bottlenecks with Traces</h1>
+          <p class="lato h5 mt-4">Dashbird has a seamless integration with X-ray. Just click on a invocation and see where your time went! </p>
+        </div>
+        <div class="col-md-5 text-center imgs-fluid">
+          <img src="/images/features/x-ray.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
+      <div class="row align-items-center">
+        <div class="col-md-5 text-center imgs-fluid">
+          <img src="/images/features/global-search.png">
+        </div>
+        <div class="col-md-7 text-center">
+          <h1 class='lato'>Search through all of your invocations</h1>
+          <p class="lato h5 mt-4">Need to find something? Dashbird supports blazingly fast search throughout all your invocation logs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </section>
 
 
