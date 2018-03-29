@@ -73,7 +73,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/screens/invocations.png">
+          <img src="/images/features/function-monitoring.png">
         </div>
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Real-Time Lambda Insights</h3>
@@ -101,13 +101,47 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row ">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/screens/overview.png">
+          <img src="/images/features/lambdas-view.png">
         </div>
 
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Overview of All Functions</h3>
           <p class="lato h4">Metrics that show you where you have the most traffic and how your system is performing across the board.</p>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
+      <div class="row ">
+
+        <div class="col-md-7 text-center text-md-left pt-4">
+          <h3>Global and Local Search</h3>
+          <p class="lato h4">Quickly and painlessly search through the logs of from one or multiple lambdas.</p>
+        </div>
+
+        <div class="col-md-5 imgs-fluid">
+          <img src="/images/features/global-search.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
+      <div class="row ">
+        <div class="col-md-5 imgs-fluid">
+          <img src="/images/features/x-ray.png">
+        </div>
+
+        <div class="col-md-7 text-center text-md-left pt-4">
+          <h3>Seamless Tracing of Invocations</h3>
+          <p class="lato h4">Dashbird seamlessi integrates with X-ray, giving you great insights of what your invocation actually does.</p>
+        </div>
+
+
       </div>
     </div>
   </div>
