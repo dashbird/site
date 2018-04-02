@@ -36,7 +36,7 @@ dated: 2017-10-29T17:50:03+02:00
 </div>
 
 <section class="container-fluid">
-  <div class="row justify-content-center pt-5">
+  <div class="row justify-content-center pt-5 pb-5">
     <div class='col-auto m-3'>
       <span class='h1'>5B+</span>
       <span class='ml-3 text-center pull-right'>requests<br>per month</span>
@@ -52,7 +52,47 @@ dated: 2017-10-29T17:50:03+02:00
       <span class='ml-3 text-center pull-right'>AWS<br>accounts</span>
     </div>
   </div>
+</section>
 
+<section class="container-fluid dark-bg">
+  <div class="row">
+    <div class="col text-center mt-5">
+      <span class="h2 underlined">Core Benefits</span>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col bg-white p-3 mt-5 mb-4 mx-auto" style="max-width: 1200px;">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center imgs-fluid">
+          <img src="/images/features/main.png">
+        </div>
+        <div class="col-md-6 text-center">
+          <h1 class='lato'>Instant overview, in <u>real time</u>!</h1>
+          <p class="lato h5 mt-4">Dashbird keeps an eye on both account and function level<br> metrics as well as duration and memory usage.<br> See exactly what's working and what's not.</p>
+          <!-- <p class="lato">Tracking and alerting errors from all your Lambda functions.<br> Stacktraces and context helps you troubleshoot errors quickly and easily.</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
+      <div class="row align-items-center">
+        <div class="col-md-7 text-center">
+          <h1 class='lato'>Improve speed, health and cost efficiency</h1>
+          <p class="lato h5 mt-4">Dashbird visualizes all your AWS Lambda metrics like<br> memory utilization, invocation count, and execution duration. </p>
+        </div>
+        <div class="col-md-5 text-center imgs-fluid">
+          <img src="/images/features/serverless-tracking.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="container-fluid">
   <div class="row justify-content-md-center pt-5 pb-5">
     <div class="col-md-6 align-middle" style='height: 150px;'>
       <div class="carousel slide" data-ride="carousel">
@@ -78,20 +118,19 @@ dated: 2017-10-29T17:50:03+02:00
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5">
-      <span class="h2 underlined">Core Benefits</span>
+      <span class="h2 underlined">Features</span>
     </div>
   </div>
 
-  <div class="row justify-content-md-center align-items-center">
-    <div class="col bg-white p-3 mt-5 mb-4 mx-auto" style="max-width: 1200px;">
+  <div class="row justify-content-md-center align-items-center mt-5">
+    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
       <div class="row align-items-center">
-        <div class="col-md-6 text-center imgs-fluid">
-          <img src="/images/features/main.png">
+        <div class="col-md-7 text-center">
+          <h1 class='lato'>Search through all your invocations</h1>
+          <p class="lato h5 mt-4">Need to find something? <br> Dashbird supports lightning fast search across all your invocation logs.</p>
         </div>
-        <div class="col-md-6 text-center">
-          <h1 class='lato'>Get instant AWS Lambda overview</h1>
-          <p class="lato h5 mt-4">Dashbird keeps an eye on account and function level<br> metrics as well as durations and memory usage. See exactly what's working and what's not.</p>
-          <!-- <p class="lato">Tracking and alerting errors from all your Lambda functions.<br> Stacktraces and context helps you troubleshoot errors quickly and easily.</p> -->
+        <div class="col-md-5 text-center imgs-fluid">
+          <img src="/images/features/global-search.png">
         </div>
       </div>
     </div>
@@ -100,9 +139,23 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row justify-content-md-center align-items-center">
     <div class="col bg-white p-3 mb-4 mx-auto" style="max-width: 1200px;">
       <div class="row align-items-center">
+        <div class="col-md-6 text-center imgs-fluid">
+          <img src="/images/features/error-handling-dashbird-lambda-serverless.png">
+        </div>
        <div class="col-md-6 text-center">
-          <h1 class='lato'>Get alerts and debug errors</h1>
-          <p class="lato h5 mt-4">Dashbird alerts on code failures and provides context for easy fixes. The service lets you understand the scope of the issues and pinpoints the date they were introduced.</p>
+          <h1 class='lato'>Receive proper alerts</h1>
+          <p class="lato h5 mt-4">Dashbird alerts on code failures and provides context for easy fixes. Yes, we have <u>Slack integration</u>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col bg-white p-3 mb-4 mx-auto" style="max-width: 1200px;">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+          <h1 class='lato'>Easy debugging</h1>
+          <p class="lato h5 mt-4">Dashbird helps you understand the scope of the issues with understandable logs and pinpoints the date they were introduced.</p>
         </div>
         <div class="col-md-6 text-center imgs-fluid">
           <img src="/images/features/error-handling-dashbird-lambda-serverless.png">
@@ -111,43 +164,17 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-  <div class="row justify-content-md-center align-items-center">
-    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
-      <div class="row align-items-center">
-        <div class="col-md-5 text-center imgs-fluid">
-          <img src="/images/features/serverless-tracking.png">
-        </div>
-        <div class="col-md-7 text-center">
-          <h1 class='lato'>Improve speed, health and cost efficiency</h1>
-          <p class="lato h5 mt-4">Dashbird visualizes actionable Lambda metrics like memory utilization invocation counts and execution durations. </p>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="row justify-content-md-center align-items-center">
     <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
       <div class="row align-items-center">
-        <div class="col-md-7 text-center">
-          <h1 class='lato'>Find bottlenecks with Traces</h1>
-          <p class="lato h5 mt-4">Dashbird has a seamless integration with X-ray. Just click on a invocation and see where your time went! </p>
-        </div>
         <div class="col-md-5 text-center imgs-fluid">
           <img src="/images/features/x-ray.png">
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center align-items-center">
-    <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
-      <div class="row align-items-center">
-        <div class="col-md-5 text-center imgs-fluid">
-          <img src="/images/features/global-search.png">
-        </div>
         <div class="col-md-7 text-center">
-          <h1 class='lato'>Search through all of your invocations</h1>
-          <p class="lato h5 mt-4">Need to find something? Dashbird supports blazingly fast search throughout all your invocation logs.</p>
+          <h1 class='lato'>Find bottlenecks with Traces</h1>
+          <p class="lato h5 mt-4">Dashbird is seamlessly integrated with <u>AWS X-Ray</u>.<br> Just click on a invocation and see where your time went! </p>
         </div>
       </div>
     </div>
