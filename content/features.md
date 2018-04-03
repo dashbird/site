@@ -40,8 +40,7 @@ date: 2017-11-06T10:50:03+02:00
         </div>
         <div class="col-md-10 text-center text-md-left">
           <h3>Error Tracking and Debugging</h3>
-          <p class="lato">Error tracking and alerting errors for all Lambda functions.
-            <br> Stacktraces and context help you troubleshoot errors quickly.</p>
+          <p class="lato">Error tracking and alerting errors for all Lambda functions.<br> Stack traces and context help you troubleshoot errors quickly.</p>
           <span class='float-right'><a href='/features/lambda-error-tracking'>read more</a></span>
         </div>
       </div>
@@ -88,7 +87,7 @@ date: 2017-11-06T10:50:03+02:00
       <div class="row">
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Error Alerting and Debugging</h3>
-          <p class="lato h4 lh-2">Get alerts of errors across all your Lambda functions. Stacktraces and context helps you troubleshoot errors quickly and easily.</p>
+          <p class="lato h4 lh-2">Get alerts of errors across all your Lambda functions.<br> Stack traces and context helps you troubleshoot errors quickly and easily.</p>
         </div>
         <div class="col-md-5 text-right imgs-fluid">
           <img src="/images/screens/error.png">
@@ -114,7 +113,7 @@ date: 2017-11-06T10:50:03+02:00
 
   <div class="row justify-content-md-center align-items-center">
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
-      <div class="row ">
+      <div class="row">
 
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Global and Local Search</h3>
@@ -141,6 +140,23 @@ date: 2017-11-06T10:50:03+02:00
           <p class="lato h4">Dashbird seamlessi integrates with X-ray, giving you great insights of what your invocation actually does.</p>
         </div>
 
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
+      <div class="row">
+
+        <div class="col-md-7 text-center text-md-left pt-4">
+          <h3>Live Function Tailing</h3>
+          <p class="lato h4">Dashbird makes debugging easy. Receive logs for your functions in real-time.</p>
+        </div>
+
+        <div class="col-md-5 imgs-fluid">
+          <img src="/images/features/live-tailing.png">
+        </div>
 
       </div>
     </div>
