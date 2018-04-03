@@ -10,8 +10,8 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="row justify-content-center">
       <div class="col-lg-6 center">
         <h1 class="text-center">Actionable Serverless Monitoring</h1>
-        <h2 class="mt-4 text-center lato">Observability, alerting and debugging into AWS Lambda</h2>
-        <h2 class="lato text-center">2-min setup, no code changes!</h2>
+        <h2 class="mt-4 text-center lato">AWS Lambda monitoring, alerting and debugging made easy.</h2>
+        <h2 class="lato text-center">2-min setup, <b>no code changes</b>!</h2>
         <div class="pt-5">
           <form method="post" action="https://app.dashbird.io/auth/register">
             <label class="input-group">
@@ -93,6 +93,11 @@ dated: 2017-10-29T17:50:03+02:00
 </section>
 
 <section class="container-fluid">
+  <div class="row">
+    <div class="col text-center mt-5">
+      <span class="h2 underlined">What others say about us <3</span>
+    </div>
+  </div>
   <div class="row justify-content-md-center pt-5 pb-5">
     <div class="col-md-6 align-middle" style='height: 150px;'>
       <div class="carousel slide" data-ride="carousel">
