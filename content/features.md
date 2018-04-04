@@ -137,7 +137,7 @@ date: 2017-11-06T10:50:03+02:00
 
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Seamless Tracing of Invocations</h3>
-          <p class="lato h4">Dashbird seamlessi integrates with X-ray, giving you great insights of what your invocation actually does.</p>
+          <p class="lato h4">Dashbird seamlessly integrates with X-ray, giving you great insights of what your invocation actually does.</p>
         </div>
 
 
@@ -157,6 +157,23 @@ date: 2017-11-06T10:50:03+02:00
         <div class="col-md-5 imgs-fluid">
           <img src="/images/features/live-tailing.png">
         </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center align-items-center">
+    <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
+      <div class="row ">
+        <div class="col-md-5 imgs-fluid">
+          <img src="/images/features/project-overview.png">
+        </div>
+
+        <div class="col-md-7 text-center text-md-left pt-4">
+          <h3>Monitor Limited Sets of Functions</h3>
+          <p class="lato h4">Dashbird let's you create projects of hand-picked Lambdas to monitor. Want a <u>dedicated</u> dashboard only showing the functions you have in production? Easy, <u>create a project</u>.</p>
+        </div>
+
 
       </div>
     </div>
