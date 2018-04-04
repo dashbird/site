@@ -1,0 +1,35 @@
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.38
+    steps:
+      - checkout
+      - run:
+          name: "Build Website"
+          command: hugo
+      - run:
+          name: "Test Website"
+          command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+
+  deploy:
+    docker:
+      - image: cibuilds/hugo:0.38
+    steps:
+     - run:
+         name: "Deploy"
+         command: yarn deploy
+
