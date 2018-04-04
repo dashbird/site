@@ -23,5 +23,8 @@
     "url": "https://github.com/dashbird/site/issues"
   },
   "homepage": "https://github.com/dashbird/site#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "hugo-cli": "^0.5.4"
+  }
 }
