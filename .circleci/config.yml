@@ -29,10 +29,18 @@ jobs:
     docker:
       - image: cibuilds/hugo:0.38
     steps:
-     - run:
-         name: "Deploy"
-         command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'
-            fi
+      - checkout
+      - run:
+          name: "Installing aws"
+          command: |
+            apk add --update python python-dev py-pip build-base
+            pip install awscli
+      - run:
+          name: "Build Website"
+          command: hugo
+      - run:
+          name: "Deploy"
+          command: |
+            aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul
+            aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'
 
