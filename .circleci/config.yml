@@ -21,9 +21,9 @@ jobs:
       - run:
           name: "Build Website"
           command: hugo
-      - run:
-          name: "Test Website"
-          command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      # - run:
+      #     name: "Test Website"
+      #     command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
 
   deploy:
     docker:
