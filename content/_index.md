@@ -145,7 +145,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col bg-white p-3 mb-4 mx-auto" style="max-width: 1200px;">
       <div class="row align-items-center">
         <div class="col-md-6 text-center imgs-fluid">
-          <img src="/images/features/error-handling-dashbird-lambda-serverless.png">
+          <img src="/images/features/alert-per-lambda-error.png">
         </div>
        <div class="col-md-6 text-center">
           <h1 class='lato'>Receive proper alerts</h1>
@@ -163,7 +163,7 @@ dated: 2017-10-29T17:50:03+02:00
           <p class="lato h5 mt-4">Dashbird helps you understand the scope of the issues with understandable logs and pinpoints the date they were introduced.</p>
         </div>
         <div class="col-md-6 text-center imgs-fluid">
-          <img src="/images/features/error-handling-dashbird-lambda-serverless.png">
+          <img src="/images/features/live-tailing.png">
         </div>
       </div>
     </div>
