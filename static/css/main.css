@@ -38,7 +38,7 @@ nav {
   transition: transform .35s ease-in-out;
 }
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute:
+  position: absolute;
   left: 12px;
   top: 10px;
   -webkit-transform: rotate(135deg);
