@@ -3,8 +3,8 @@
 
   <div class="row justify-content-center">
     <div class='col text-center mt-5'>
-      <a href='/help' class='h1 text-center no-decoration'>Help Center</a>
-      <p class='text-center mt-1'>Everything you need to know about Dashbird</span>
+      <a href='/docs' class='h1 text-center no-decoration'>Documentation</a>
+      <p class='text-center mt-1'>Get started with Dashbird</span>
     </div>
   </div>
 
@@ -29,7 +29,7 @@
     <div class="row">
       <div class='col-md-4 w-75 pt-5 d-none d-md-block w-300'>
         {{ $currentSubject := index .Params.kbSeries 0 }}
-        <ul class='sidemenu lato'>
+        <ul class='sidemenu lato sticky-top'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
           <li class='{{ if eq $subject $currentSubject }}current-subject{{end}}'>
             <a href='javascript:;'>{{ substr $subject 1 }}</a>

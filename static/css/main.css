@@ -463,6 +463,10 @@ input[type=text].form-control::placeholder {
   text-align: center;
 }
 
+.bold {
+  font-weight: 500;
+}
+
 .mw-900 {
   max-width: 900px;
 }

@@ -3,6 +3,8 @@ title: "Dashbird - Monitoring And Error Tracking For AWS Lambda"
 description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
 dated: 2017-10-29T17:50:03+02:00
 section: usage
+aliases:
+ - /help/
 ---
 <section class="container slogan">
   <div class="row justify-content-md-end">

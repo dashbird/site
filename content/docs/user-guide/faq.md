@@ -3,16 +3,18 @@ date: 2017-06-05
 title: FAQ For AWS Lambda Performance Monitoring With Dashbird - Dashbird Help
 linktitle: FAQ
 description: Frequently Asked Questions
-kbSeries: ["ABasic"]
+kbSeries: ["AUser Guide"]
 kbSeries_weight: 400
+aliases:
+ - /help/basic/faq/
 ---
 
 ## 1. How to set up Dashbird?
 Setting up Dashbird takes under 5 minutes and requires no code changes.
 
-To start, [sign up](/signup) and follow the on-screen instructions linking your AWS account with Dashbirds.
+To start, [sign up](/signup) and follow the on-screen instructions to link your AWS account with Dashbird.
 
-Full instructions can be found [here](/help/basic/get-started).
+Full instructions can be found [here](/docs/user-guide/get-started).
 
 ## 2. Is there any overhead?
 **Dashbird does not affect the performance of your Lambda functions.**
@@ -40,14 +42,14 @@ You can invite as many team members to Dashbird as you like.
 _User menu -> Invite users -> Add +_
 
 Fill in the form:
-![Invite user](/images/help/inviteuser.png 'Invite user')
+![Invite user](/images/docs/inviteuser.png 'Invite user')
 
 ## 7. Can I choose which Lambda functions get monitored?
 **Yes.**
 
 You can control our log importer by specifying filters.
 Navigate to _User menu -> Importer settings_
-![Lambda filtering](/images/help/filtering.png 'Lambda filtering')
+![Lambda filtering](/images/docs/filtering.png 'Lambda filtering')
 
 Filters are <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>.
 
@@ -55,7 +57,7 @@ Use <code>some-service-*</code> to include and <code>!some-service-prod-*</code>
 
 By default, all lambdas are imported to Dashbird.
 
-Read more from [here](/help/settings/configuring-dashbird/).
+Read more from [here](/docs/settings/configuring-dashbird/).
 
 ## 8. How do I delete my account?
 You can disable Dashbird from accessing your AWS by deleting the Role and Policy created on signup.
