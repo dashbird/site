@@ -9,15 +9,18 @@
     home: ['HTML', 'JSON']
   menu:
     main:
+        - Name: 'Docs'
+          URL: '/docs/'
+          Weight: 100
         - Name: 'Features'
           URL: '/features/'
-          Weight: 100
+          Weight: 200
         - Name: 'Pricing'
           URL: '/pricing'
-          Weight: 200
+          Weight: 300
         - Name: 'Blog'
           URL: '/blog'
-          Weight: 300
+          Weight: 400
   params:
     thumbnail: "images/screens/preview.png"
   taxonomies:
