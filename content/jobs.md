@@ -15,21 +15,20 @@ date: 2018-03-12T11:50:03+02:00
     <div class="col-9 text-black mb-4" style='background-color:rgba(255, 255, 255, 0.7);'>
       <div class="row">
         <div class="col-7">
-            <h2 class="mt-3 mb-3">Work With Annika on Marketing</h2>
-            <p class=''>We are looking for a unicorn. A true renaissance person who knows a lot about software development, enjoys writing and is familiar with the latest marketing trends like content marketing, SEO and community building.</p>
-            <h5>What we offer:</h5>
-            <ul class=''>
-              <li>Starting salary: $48 000 year</li>
-              <li>Career growth potential as one of the first hires</li>
-              <li>Stock options</li>
-              <li>Freedom of remote work</li>
-              <li>Team meetups 2x per year</li>
-            </ul>
-            <a class='btn btn-primary' href='https://app.hundred5.com/3EEDKO5YVZQKLYYCM6Y'>Take the test</a>
+          <h2 class="mt-3 mb-3">Work on Dashbird app with Mikk</h2>
+          <p>We are looking for an ambitious full stack developer who is excited about serverless and wants to be the first employee in a future unicorn. You would have lots of opportunities to guide the product and the vision.</p>
+          <h5>What we offer:</h5>
+          <ul>
+            <li>Starting salary: $60 000 - $64 800 year</li>
+            <li>Career growth potential as one of the first hires</li>
+            <li>Stock options</li>
+            <li>Freedom of remote work</li>
+            <li>Team meetups 2x per year</li>
+          </ul>
+          <p><a href='mailto: jobs@dashbird.io'>Send us</a> your LinkedIn and Github/Bitbucket links and tell us what motivates you to work with us and if you have previous remote work experience.</p>
         </div>
-
         <div class="col-5 p-0">
-          <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
+          <img src="/images/team/mikk.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
     </div>
@@ -41,21 +40,21 @@ date: 2018-03-12T11:50:03+02:00
      <div class="col-9 text-black mb-4 mt-5">
       <div class="row">
         <div class="col-7">
-            <h2 class="mt-3 mb-3">Work on Dashbird app with Mikk</h2>
-            <p class=''>We are looking for an ambitious full stack developer who is excited about serverless and wants to be the first employee in a potential unicorn startup. You would have lots of opportunities to guide the product and the company by your vision, while working in a family-like professional team.</p>
-            <h5>What we offer:</h5>
-            <ul class=''>
-              <li>Starting salary: $60 000 - $64 800 year</li>
-              <li>Career growth potential as one of the first hires</li>
-              <li>Stock options</li>
-              <li>Freedom of remote work</li>
-              <li>Team meetups 2x per year</li>
-            </ul>
-            <p><a href='mailto: jobs@dashbird.io'>Send us</a> your LinkedIn and Github/Bitbucket links and tell us where do you think serverless is going in the coming years, what motivates you to work with us and if you have previous remote work experience.</p>
+          <h2 class="mt-3 mb-3">Work With Annika on Marketing</h2>
+          <p>We are looking for a unicorn. A true renaissance person who knows a lot about software development, enjoys writing and is familiar with the latest marketing trends like content marketing, SEO and community building.</p>
+          <h5>What we offer:</h5>
+          <ul>
+            <li>Starting salary: $48 000 year</li>
+            <li>Career growth potential as one of the first hires</li>
+            <li>Stock options</li>
+            <li>Freedom of remote work</li>
+            <li>Team meetups 2x per year</li>
+          </ul>
+          <a class='btn btn-primary' href='https://app.hundred5.com/3EEDKO5YVZQKLYYCM6Y'>Take the test</a>
         </div>
 
         <div class="col-5 p-0">
-          <img src="/images/team/mikk.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
+          <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
     </div>
