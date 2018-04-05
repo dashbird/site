@@ -533,6 +533,10 @@ ul.sidemenu li.active ol > a { padding-left: 30px; }
 .campaign-offer {
   background-color: #646be0;
 }
+.campaign-offer a {
+  color: white;
+  text-decoration: underline;
+}
 a.no-decoration:hover {
   text-decoration: none;
   color: black;
