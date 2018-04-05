@@ -2,12 +2,14 @@
 date: 2017-06-05
 title: AWS Lambda Monitoring Working Principles - Dashbird Help
 linktitle: How it works
-kbSeries: ["ABasic"]
+kbSeries: ["AUser Guide"]
 kbSeries_weight: 300
+aliases:
+ - /help/basic/how-it-works/
 ---
 
 Dashbird collects data from your AWS account and produces actionable metrics and detailed data from it.
-For that, Dashbird requires a delegation to your AWS account to function. [You can find setup instructions here.](/help/basic/get-started)
+For that, Dashbird requires a delegation to your AWS account to function. [You can find setup instructions here.](/docs/user-guide/get-started)
 
 ### Importer
 

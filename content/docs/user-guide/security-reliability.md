@@ -3,8 +3,10 @@ date: 2017-06-05
 title: Security and reliability
 linktitle: Security & Reliability
 description: Overview of reliability and security
-kbSeries: ["ABasic"]
+kbSeries: ["AUser Guide"]
 kbSeries_weight: 350
+aliases:
+ - /help/basic/security-reliability/
 ---
 
 ### How is my data stored in Dashbird?

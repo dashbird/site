@@ -5,6 +5,8 @@ linktitle: Configuring webhooks
 description: Integrations
 kbSeries: ["DIntegrations"]
 kbSeries_weight: 100
+alias:
+  - /help/integrations/managing-webhooks/
 ---
 
 Webhooks are the foundation for all integrations out of Dashbird. To create an integration with other services, we recommend first integrating Dashbird with Zapier and then using an integration from Zapier to other services.
