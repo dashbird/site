@@ -38,7 +38,7 @@ nav {
   transition: transform .35s ease-in-out;
 }
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute:
+  position: absolute;
   left: 12px;
   top: 10px;
   -webkit-transform: rotate(135deg);
@@ -536,6 +536,10 @@ ul.sidemenu li.active ol > a { padding-left: 30px; }
 .kb :first-child  h2 { margin-top: 40px; }
 .campaign-offer {
   background-color: #646be0;
+}
+.campaign-offer a {
+  color: white;
+  text-decoration: underline;
 }
 a.no-decoration:hover {
   text-decoration: none;
