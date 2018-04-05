@@ -25,7 +25,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 <br>
 
 <h2>
-  <span class="h2 underlined">1. Create a new policy for Dashbird</span>
+  <span class="h2 underlined">1. Create a new <b>AWS policy</b> for Dashbird</span>
 </h2>
 
 - Open your [AWS console](https://console.aws.amazon.com).
@@ -61,7 +61,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 <br>
 
 <h2>
-  <span class="h2 underlined">2. Add a new AWS role for Dashbird:</span>
+  <span class="h2 underlined">2. Add a new <b>AWS role</b> for Dashbird</span>
 </h2>
 
 
@@ -89,7 +89,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 
 ### 
 <h2>
-  <span class="h2 underlined">3. Setup Dashbird with the created role:</span>
+  <span class="h2 underlined">3. Setup Dashbird with the created role</span>
 </h2>
 
 Back on the onboarding screen:
