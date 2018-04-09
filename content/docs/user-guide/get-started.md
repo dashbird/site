@@ -28,12 +28,9 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
   <span class="h2 underlined">1. Create a new <b>AWS policy</b> for Dashbird</span>
 </h2>
 
-- Open your [AWS console](https://console.aws.amazon.com).
+- Open your <a href="https://console.aws.amazon.com" target="_blank">AWS console</a>.
 - Navigate to `IAM` → `Policies` → `Create Policy`.
-- Select `Create your own policy`
-- Fill the form:
-  - Policy name: `dashbird-policy`.
-  - Policy Document:
+- Choose the **JSON** tab and paste the snippet below into the editor
 
 ```json
 {
@@ -57,6 +54,13 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
     ]
 }
 ```
+
+- Press **Review Policy** and move on to add a name and description
+  - Name: `dashbird-policy`
+  - Description: `Allow Dashbird to read CloudWatch logs.`
+- Move on and press **Create Policy**
+
+Great! You've created an access policy. Now you need to add an AWS role.
   
 <br>
 
@@ -67,21 +71,21 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 
 - Navigate to `IAM` → `Roles` → `Create New Role`.
 - Select
-  - `Role for cross-account access`
-- Select
-  - `Provide access between your AWS account and a 3rd party AWS account`
+  - `Another AWS account`
 - Fill out the following:
- - Account ID (Dashbird): `458024764010`
+ - Account ID: `458024764010` - This is Dashbird's AWS account.
+ - Check the `Require external ID` checkbox
  - External ID: **copy from the onboarding app**
  - Require MFA: `false`
- - Click **Next step**
+ - Click **Next: Permissions**
 - Select previously created `dashbird-policy` from the policies list.
-- Click **Next step**
-- Fill out the following for role name and review
- - Insert role name: `dashbird-delegation-role`
- - Click **Next step**
+- Click **Next: Review**
+- Fill out the following for role name and description
+ - Role name: `dashbird-delegation-role`
+ - Role description: `Access role for Dashbird to read CloudWatch logs.`
+ - Click **Create role**
 - Find the created role in the list and open it.
-- If you have done everything  correctly, the screen will look the following:
+- If you have done everything correctly, the screen will look something like this.
 ![Correct result](/images/docs/result.png 'Role')
 - **Copy the ARN** of the role
 

@@ -11,13 +11,19 @@ aliases:
 
 You can connect multiple AWS accounts to your Dashbird account. This will allow you to track your Lambda functions across multiple accounts.
 
-## Setting up
+<h2>
+  <span class="h2 underlined">Setting up</span>
+</h2>
 
 To start, click on your organization on the top right corner, and choose `Add new organization`. The rest of the onboarding process is the same as the <a href='/docs/user-guide/get-started/'>initial onboarding</a>.
 
-## User management
+<h2>
+  <span class="h2 underlined">User management</span>
+</h2>
 
 Users are managed per connected AWS account. This means that if you connect another AWS account, you must re-invite users to that account as well.
 
-## Pricing
+<h2>
+  <span class="h2 underlined">Pricing</span>
+</h2>
 Dashbird's pricing is per AWS account. In certain situations, we offer discounts to multiple account setups.
