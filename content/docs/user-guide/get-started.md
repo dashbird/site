@@ -30,7 +30,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 
 - Open your <a href="https://console.aws.amazon.com" target="_blank">AWS console</a>.
 - Navigate to `IAM` → `Policies` → `Create Policy`.
-- Choose the **JSON** tab and pase this into the editor
+- Choose the **JSON** tab and paste the snippet below into the editor
 
 ```json
 {
@@ -56,7 +56,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 ```
 
 - Press **Review Policy** and move on to add a name and description
-  - Name*: `dashbird-policy`
+  - Name: `dashbird-policy`
   - Description: `Allow Dashbird to read CloudWatch logs.`
 - Move on and press **Create Policy**
 
