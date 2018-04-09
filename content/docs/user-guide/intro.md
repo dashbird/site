@@ -27,18 +27,18 @@ Dashbird provides an overview of all Lambda executions across your entire accoun
 <br>
 
 <h2>
-  <span class="h2 underlined bold">Service view</span>
+  <span class="h2 underlined bold">Project view</span>
 </h2>
-Dashbird allows you to group Lambda Functions any way you like. This allows you to construct a dashboard for a service, outlining its load, problems, cost and other important metrics.
+Dashbird allows you to group Lambda Functions any way you like. This allows you to construct a dashboard for a service or set of functions. It will outline the load, any problems you might face, the cost and other important metrics.
 
-<a href='/images/docs/serviceview.png' target="_blank"><img alt='Service dashboard' src='/images/docs/serviceview.png'></a>
+<a href='/images/docs/serviceview.png' target="_blank"><img alt='Project dashboard' src='/images/docs/project-view.png'></a>
 
 <br>
 
 <h2>
   <span class="h2 underlined bold">Function view</span>
 </h2>
-Shows health, cost and other meaningful statistics of a Lambda Function. You can also see the invocation history and pinpoint errors at a glance.
+This dashboard shows health, cost and other meaningful statistics of a single Lambda Function. You can also see the invocation history and pinpoint errors at a glance.
 
 <a href='/images/docs/functionview.png' target="_blank"><img alt='Function dashboard' src='/images/docs/functionview.png'></a>
 
