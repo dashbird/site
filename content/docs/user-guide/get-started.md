@@ -14,7 +14,7 @@ aliases:
 _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
 
 <h2>
-  <span class="h2 underlined">Requirements for setting up Dashbird</span>
+  <span class="h2 underlined bold">Requirements for setting up Dashbird</span>
 </h2>
 
 ##### **To set up Dashbird you need to have the following:**
@@ -25,7 +25,7 @@ _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup)
 <br>
 
 <h2>
-  <span class="h2 underlined">1. Create a new <b>AWS policy</b> for Dashbird</span>
+  <span class="h2 underlined bold">1. Create a new <b>AWS policy</b> for Dashbird</span>
 </h2>
 
 - Open your <a href="https://console.aws.amazon.com" target="_blank">AWS console</a>.
@@ -65,7 +65,7 @@ Great! You've created an access policy. Now you need to add an AWS role.
 <br>
 
 <h2>
-  <span class="h2 underlined">2. Add a new <b>AWS role</b> for Dashbird</span>
+  <span class="h2 underlined bold">2. Add a new <b>AWS role</b> for Dashbird</span>
 </h2>
 
 
@@ -93,7 +93,7 @@ Great! You've created an access policy. Now you need to add an AWS role.
 
 ### 
 <h2>
-  <span class="h2 underlined">3. Setup Dashbird with the created role</span>
+  <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
 </h2>
 
 Back on the onboarding screen:
