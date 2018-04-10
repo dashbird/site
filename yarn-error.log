@@ -21,7 +21,7 @@ npm manifest:
     "main": "index.js",
     "scripts": {
       "start": "hugo -D server",
-      "indexHelp": ""hugo-lunr -i \"content/docs/**\" -o public/my-index.json",
+      "indexHelp": "hugo-lunr -i \"content/docs/**\" -o public/my-index.json",
       "deploy": "yarn index-help && hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'"
     },
     "repository": {
