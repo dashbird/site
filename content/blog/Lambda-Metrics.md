@@ -2,7 +2,7 @@
 ___
 
 Your application does not need to be huge for it to have plenty of functions, and abstraction for you to get lost in it.
-As a DevOps engineer you can't cover of every single factor out there. Showing **relevant** facts and asking the right questions is crucial! So when there's a fire, you can troubleshoot in no time.
+As a DevOps engineer you can't cover every single factor out there. Showing **relevant** facts and asking the right questions is crucial! So when there's a fire, you can troubleshoot in no time.
 
 Every organization is unique and every workload has its own utility.
 That said, we can still have a generalized approach and start by listing a few desirable qualities that you may want
