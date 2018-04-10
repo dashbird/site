@@ -24,7 +24,7 @@ Independent of the number of requests, you also pay for the memory allocated to 
 Suppose your function runs for 2000ms (2 seconds) and has been allocated 512MB of memory then you will be billed for
 2 * 512MB = 1GB/s of utilization. This is called GB/s billing, where you pay for the compute time based on the memory allocation and time. If your function has 1GB of memory allocated, and runs for 1000ms (1 second) you pay for 1GB/s.
 
-The first 400,000 GB-seconds are free, every month. After this limit is reached you pay $0.00001667 per GB-second (so totally not worth scratching your head over, use our <a href="example.com" target="_blank">cost calculator</a> instead ) for the rest of that month. On top of this you may get some additional charges for resources like an AWS S3 bucket, VPC or DynamoDB, etc.
+The first 400,000 GB-seconds are free, every month. After this limit is reached you pay $0.00001667 per GB-second (so totally not worth scratching your head over, use our <a href="https://dashbird.io/lambda-cost-calculator/" target="_blank">cost calculator</a> instead ) for the rest of that month. On top of this you may get some additional charges for resources like an AWS S3 bucket, VPC or DynamoDB, etc.
 
 Amazon's <a href="https://aws.amazon.com/lambda/pricing/" target="_blank">Pay-for-what-you-use</a> business model does not rely on your needs, but on the success of your business. If your apps are accessed more often, your organization benefits more, along with a slightly greater AWS bill. This, in turn, benefits Amazon.  
 
