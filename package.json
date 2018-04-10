@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "hugo -D server --disableFastRender",
+    "indexDocs": "hugo-lunr -i \"content/docs/**/*\" -o static/js/docs.json",
     "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'"
   },
   "repository": {
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/dashbird/site#readme",
   "dependencies": {},
   "devDependencies": {
-    "hugo-cli": "^0.5.4"
+    "hugo-cli": "^0.5.4",
+    "hugo-lunr": "0.0.4"
   }
 }
