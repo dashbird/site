@@ -1,6 +1,6 @@
 # Lambda Metrics -- Monitoring what matters
 ___
-Even in the simplest of applications the number of events and function calls are many. As a DevOp you can't take care
+Even in the simplest of applications the number of events and function calls are many. As a DevOps engineer you can't take care
 of every single factor out there, you need to constrain the number of *relevant* facts and ask the right questions
 from your system. So that when the situation is less than ideal you can troubleshoot in no time.
 
@@ -15,7 +15,7 @@ from your AWS application.
 The pricing is very straight-forward. The billable factors include:  
   * Number of requests
   * Compute time
-  * Amount of memory used  
+  * Amount of memory provisioned  
 
 The compute time and memory and coupled together and we will come to them in a moment. The first 1 million requests are
 free, every month, and after that you will be charged $0.20 per million requests for the remainder of that month.
@@ -25,11 +25,10 @@ that function. The memory allocation is decided by you when you deploy a functio
 Suppose, your function runs for 2000ms (2 seconds) and has been allocated 512MB of memory then you will be billed for
 2 * 512MB = 1GB-s of utilization.  
 
-The first 400,000 GB-seconds are free, every month. After this limit is reached you pay $0.00001667 per GB-second (roughly $1.7
-per 100,000GB-seconds) for the rest of that month. On top of this you may incur additional charges for resources like S3 bucket,
+The first 400,000 GB-seconds are free, every month. After this limit is reached you pay $0.00001667 per GB-second (so totally not worth scratching your head over, use our <a href="example.com" target="_blank">cost calculator</a> instead ) for the rest of that month. On top of this you may incur additional charges for resources like S3 bucket,
 VPC or DynamoDB, etc.
 
-Amazon's *Pay-for-what-you-use* business model relies not on your needs but on the success of your business. If your apps are
+Amazon's <a href="https://aws.amazon.com/lambda/pricing/" target="_blank">Pay-for-what-you-use</a> business model relies not on your needs but on the success of your business. If your apps are
 accessed more often, your organization benefits more, along with a slightly greater AWS bill. This, in turn, benefits Amazon.  
 
 But its not all sunshine and roses...
@@ -44,12 +43,10 @@ Think of it as accessing files that are within a high-speed cache, when the file
 flushed out of the cache and when you go back for those file it takes longer to open them.
 
 
->Dashbird has recently introduced the cold start monitoring feature which tells you which invocations involved a cold start and
-which were the subsequent calls.
+> <a href="https://dashbird.io/" target="_blank">Dashbird</a> has recently introduced the cold start monitoring feature which tells you which invocations were cold starts and which were the subsequent calls.
 
 The period for which the function stays warm is speculated to be between 5 and 30 minutes but there's not much said by Amazon
-on this regard. Also functions that try to talk to other services like a VPC may suffer additional latencies because now AWS has
-to establish networking between the function and the VM.
+on this regard. Also, if the function relies on <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html" target="_blank">ENI</a> to talk to other services then that adds another layer of latency.
 
 There's one additional complicacy and that's the concurrency issue,
 wherein, if you receive a burst of traffic simultaneously AWS scales the function by spinning up more containers to handle all
@@ -57,39 +54,25 @@ the requests. This gives rise to a whole different sequence of cold starts which
 idle for too long.
 
 ## Optimizing the right resource
-Amazon's "Pay for what you use policy" involves two factors (other than the number of requests) the time and the memory.
-With Dashbird you can not only see how often do you encounter these cold starts but all the toll they take on your resource.
-
-
-Okay, so we have listed quite a few problems, now let's solve them one after another. Some combination of the following solutions
-can help you with this annoying problem at a lower cost:
+Okay, so we have listed quite a few problems, now let's solve a few of them. Some combination of the following solutions
+can help you with achieve a desirable balance between responsive applications and lower bills. 
 
 ###  1. Increase your memory resource
-Increasing the memory usage may result in faster execution of your function, and that may reduce the time of execution significantly
-enough to accommodate for the latencies caused by cold starts. This results in a happier user experience. Moreover, this is the
-easiest hypothesis to test. The first line of defense for your DevOps team. It may sound counter-intuitive but it can also reduce your
-AWS bill.
+Increasing the memory allocation is accompanied by an implicit increase in CPU allocation as well. This may very well result in <a href="https://github.com/epsagon/lambda-memory-performance-benchmark" target="_blank">faster execution</a> of your function and that can reduce the time of execution quite enough to accommodate for the latencies caused by cold starts. This directly improves the user experience. Moreover, this is the easiest hypothesis to test, in case of higher latencies. 
+The first line of defense for your DevOps team.
 
->Increasing the amount of memory allocated may reduce the billable time of the function. The trade off between memory and time can
-be beneficial despite many cold starts, simply because the main execution is a lot quicker. It can result in both lower bills and
-lower latencies.
+>AWS allocates more CPU power, if you allocate more memory to your Lambda function.
 
 ### 2. Keep the functions warm
-You can have a cron job running, whose only task would be to invoke many instances of your function just before the time of expected
-bursts in traffic. For example, you can analyse your Dashbird metrics to infer such periodic bursts for a particular function.
-That gives you enough information to configure a simple cron job that'd warm up the functions beforehand. It also solves the
-concurrency issue because if you artificially invoke a many instances of the function when the real users arrive they won't repeat
-the same.
+Another way to tackle this issue is to artificially and periodically cold start your lambda containers, so when the real-world work load comes in, there are hundereds of tiny little lambda instances prepared for a mighty battle. There's a <a href="https://github.com/FidelLimited/serverless-plugin-warmup" target="_blank">plugin</a> that'd automate this for you.  
 
-
->Dashbird can help you see the patterns hiding in the users' behavior. Use it to accurately time your warm up calls and you will save
-significant amount on your bills, since making numerous requests is often cheaper than increasing memory.
+>Dashbird can help you see patterns hiding in users' behavior. Use it to time your warm up calls. Making numerous requests is often cheaper than increasing memory.
 
 ### 3. Optimize your code
 Possibly the cruelest option would be to ask your developers to optimize their code. This doesn't necessarily involve making changes
 in the actual logic or functionality but one can often trim down the dependencies and make the function a bit more lightweight.
 
-If possible, you should stick to languages like Node.js, Go or Python since they have significantly lower cold start time than their
+If possible, you should stick to languages like <a href="https://read.acloud.guru/comparing-aws-lambda-performance-of-node-js-python-java-c-and-go-29c1163c2581" target="_blank">Node.js and Python</a> since they have significantly lower cold start time than their
 C# or Java counter-parts.
 
 > If possible stick to Python or Node.js for your Lambda functions.
@@ -97,9 +80,9 @@ C# or Java counter-parts.
 
 ## Conclusion
 
-To make anyone of the above inferences plausible you need to know the specific pathology of your misbehaving and cost-inefficient function.
+To make any of the above inferences plausible you need to know the specific pathology of your misbehaving and cost-inefficient function.
 That is then followed by asking the right questions and then making an educated guess about the solution.
 
 Dashbird helps you on every step of the way, from keeping track of subtleties like cold start to knowing whether or not a new solution makes
 any difference. Of course, there are more parameters to consider. Concurrency and synchrony would need a much deeper dive.
-Sign up to know more.
+[Sign up](https://dashbird.io/signup/) to know more.
