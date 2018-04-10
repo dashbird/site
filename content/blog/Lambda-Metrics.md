@@ -68,6 +68,6 @@ If possible, you should stick to languages like <a href="https://read.acloud.gur
 To make any of the above inferences plausible you need to know the specific pathology of your misbehaving and cost-inefficient function.
 This is then followed by asking the right questions and then making an educated guess about the solution.
 
-Dashbird helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. Of course, there are more parameters to consider like concurrency and synchrony. They would need a much deeper dive. More about that in one of my next articles!
+[Dashbird](https://dashbird.io) helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. Of course, there are more parameters to consider like concurrency and synchrony. They would need a much deeper dive. More about that in one of my next articles!
 
 Stay tuned and feel free to [Sign up](https://dashbird.io/signup/) to learn more.
