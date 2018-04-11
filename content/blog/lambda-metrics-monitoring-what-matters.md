@@ -1,5 +1,5 @@
 ---
-title: "Lambda Metrics - Monitoring what matters"
+title: "Lambda Metrics That You Should Be Monitoring"
 description: Your application does not need to be huge for it to have plenty of functions, and abstraction for you to get lost in it.
 date: 2018-04-11
 frontImage: "11-04-2018/dashbird-debugging.jpg"
@@ -15,15 +15,17 @@ As a DevOps engineer you can't cover every single factor out there. Showing **re
 Every organization is unique and every workload has its own utility.
 That said, we can still have a generalized approach and start by listing a few desirable qualities that you may want
 from your AWS application.  
-  * Performance
-  * Responsiveness
-  * Lower bills
+
+- Performance
+- Responsiveness
+- Lower bills
 
 ## AWS Lambda Pricing  
 Lambda pricing is very straightforward, and the billable factors include:  
-  * Number of requests
-  * Compute time
-  * Amount of memory provisioned  
+
+- Number of requests
+- Compute time
+- Amount of memory provisioned  
 
 Compute time and memory provision are coupled together. We'll mention this in more detail further below. But, let's start with the number of requests. The first 1 million requests are free, every month. After that you will be charged $0.20 per million requests for the remainder of that month. That's stupid cheap.
 
@@ -51,8 +53,8 @@ The period for which the function stays warm is speculated to be between 5 and 3
 There's one additional complication and that's the concurrency issue. If you receive a burst of traffic simultaneously, AWS scales the function by spinning up more containers to handle all the new requests. This causes a whole different sequence of cold starts which has nothing to do with resources being left idle for too long.
 
 ## Optimizing the right resource
-Okay, so we have listed quite a few problems, now let's solve a few of them. We hope that some combination of the following strategies 
-can help you achieve a desirable balance between responsive applications and lower bills. 
+Okay, so we have listed quite a few problems, now let's solve a few of them. We hope that some combination of the following strategies
+can help you achieve a desirable balance between responsive applications and lower bills.
 
 ###  1. Increase your memory resource
 Increasing the memory allocation is accompanied by an implicit increase in CPU allocation. This may very well result in <a href="https://github.com/epsagon/lambda-memory-performance-benchmark" target="_blank">faster execution</a> of your function. Reducing the time of actual execution to accommodate for the latencies caused by cold starts can directly improve the user experience. Moreover, this is the easiest hypothesis to test, in case of higher latencies. The first line of defense for your DevOps team.
