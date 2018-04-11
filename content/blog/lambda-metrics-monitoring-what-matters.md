@@ -1,5 +1,13 @@
-# Lambda Metrics -- Monitoring what matters
-___
+---
+title: "Lambda Metrics - Monitoring what matters"
+description: Your application does not need to be huge for it to have plenty of functions, and abstraction for you to get lost in it.
+date: 2018-04-11
+frontImage: "11-04-2018/dashbird-debugging.jpg"
+thumbnail: "images/blog/11-04-2018/dashbird-debugging.jpg"
+author: Ranvir Singh
+---
+
+![AWS Lambda monitoring](/images/blog/11-04-2018/dashbird-debugging.jpg)
 
 Your application does not need to be huge for it to have plenty of functions, and abstraction for you to get lost in it.
 As a DevOps engineer you can't cover every single factor out there. Showing **relevant** facts and asking the right questions is crucial! So when there's a fire, you can troubleshoot in no time.
