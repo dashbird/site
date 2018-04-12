@@ -3,7 +3,7 @@ date: 2017-06-05
 title: Set up your Dashbird Account
 linktitle: Setting up your account
 description: Setting up your account
-kbSeries: ["BGetting Started"]
+kbSeries: ["BGet Started"]
 kbSeries_weight: 200
 alias:
   - /help/settings/configuring-dashbird/

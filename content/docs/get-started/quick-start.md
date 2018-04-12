@@ -3,7 +3,7 @@ date: 2017-06-05
 title: AWS Lambda Monitoring quick start with Dashbird
 linktitle: Quick Start
 description: Quick start
-kbSeries: ["BGetting Started"]
+kbSeries: ["BGet Started"]
 kbSeries_weight: 200
 aliases:
  - /setup
