@@ -3,10 +3,11 @@ date: 2017-06-05
 title: Multiple AWS Accounts
 linktitle: Multiple AWS Accounts
 description: Configuration
-kbSeries: ["AUser Guide"]
-kbSeries_weight: 250
+kbSeries: ["CUser Guide"]
+kbSeries_weight: 600
 aliases:
  - /help/basic/adding-aws-account/
+ - /docs/user-guide/adding-aws-account/
 ---
 
 You can connect multiple AWS accounts to your Dashbird account. This will allow you to track your Lambda functions across multiple accounts.

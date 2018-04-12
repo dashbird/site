@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="container-fluid dark-bg">
+<section class="container-fluid">
   <div class="row justify-content-center">
     <div class="col col-md-9 mw-900">
     </div>
@@ -92,13 +92,11 @@
         </label>
       </form>
     </div>
-      </div>
+  </div>
+  <div class="row justify-content-center lato lh-3">
+    <div class="col-6 mt-4 mb-5">
+      {{ partial "disqus" . }}
     </div>
-
-    <div class="row justify-content-center lato lh-3">
-      <div class="col-6 mt-4 mb-5">
-        {{ partial "disqus" . }}
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 {{ end }}
