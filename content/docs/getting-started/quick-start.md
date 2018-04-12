@@ -1,17 +1,18 @@
 ---
 date: 2017-06-05
-title: AWS Lambda Monitoring Setup - Dashbird Help
-linktitle: Setting up Dashbird
-description: Setup
-kbSeries: ["AUser Guide"]
+title: AWS Lambda Monitoring quick start with Dashbird
+linktitle: Quick Start
+description: Quick start
+kbSeries: ["BGetting Started"]
 kbSeries_weight: 200
 aliases:
  - /setup
  - /docs/getting-started/setting-up-dashbird/
+ - /docs/getting-started/get-started/
  - /help/basic/get-started
 ---
 
-_If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
+### _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
 
 <h2>
   <span class="h2 underlined bold">Requirements for setting up Dashbird</span>

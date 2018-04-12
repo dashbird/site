@@ -1,12 +1,13 @@
 ---
 date: 2017-06-05
-title: Error Handling In Python Lambda
-linktitle: Error Handling In Python Lambda
+title: Error Handling With AWS Lambda and Python
+linktitle: Error Handling With AWS Lambda and Python
 description: Catching and troubleshooting Python AWS Lambda errors.
-kbSeries: ["BPython"]
+kbSeries: ["EBest practices and common use cases"]
 kbSeries_weight: 100
 aliases:
  - /help/python/error-handling-python-lambda/
+ - /docs/python/error-handling-python-lambda/
 ---
 
 If you are running Python on AWS Lambda, you can catch and get alerted for all errors with Dashbird.

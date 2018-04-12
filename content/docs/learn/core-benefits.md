@@ -1,12 +1,13 @@
 ---
 date: 2017-06-05
-title: Core Features & Benefits - Dashbird Help
-linktitle: Intro
+title: Core Benefits
+linktitle: Core Benefits
 description: Dashbird is tailor made for Serverless
-kbSeries: ["AUser Guide"]
+kbSeries: ["ALearn"]
 kbSeries_weight: 100
 aliases:
  - /help/basic/basics/
+ - /docs/user-guide/intro/
 ---
 
 #### Dashbird is a service to **monitor**, **debug** and **improve** your Lambda Functions. 

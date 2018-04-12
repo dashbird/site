@@ -1,11 +1,12 @@
 ---
 date: 2017-06-05
-title: How AWS Lambda Monitoring Works - Dashbird Help
+title: How AWS Lambda Monitoring Works with Dashbird
 linktitle: How it works
-kbSeries: ["AUser Guide"]
+kbSeries: ["ALearn"]
 kbSeries_weight: 300
 aliases:
  - /help/basic/how-it-works/
+ - /docs/user-guide/how-it-works/
 ---
 
 Dashbird <u>collects data from your AWS account</u> and produces actionable metrics and detailed data **without the need of editing your existing code!**
