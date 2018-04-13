@@ -1,11 +1,13 @@
 ---
 date: 2017-06-05
-title: Security
+title: Security with Dashbird
 linktitle: Security
 description: Overview of Dashbird security
 kbSeries: ["ALearn"]
 kbSeries_weight: 400
 ---
+
+#### _We at Dashbird take your security seriously. We keep your data on <u>encrypted</u> drives._
 
 <h2>
   <span class="h2 underlined bold">
