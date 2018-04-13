@@ -12,7 +12,7 @@ aliases:
  - /help/basic/get-started
 ---
 
-### _If you haven't already, [sign up for dashbird here](https://dashbird.io/signup) to access the onboarding screen._
+#### _If you haven't already, [**sign up for Dashbird here**](https://dashbird.io/signup) to access the onboarding screen._
 
 <h2>
   <span class="h2 underlined bold">Requirements for setting up Dashbird</span>
