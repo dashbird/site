@@ -62,7 +62,7 @@ jobs:
             pip install awscli
       - run:
           name: "Build Website"
-          command: hugo
+          command: hugo -b https://staging.dashbird.io
       - run:
           name: "Deploy Staging"
           command: |
