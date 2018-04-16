@@ -9,7 +9,8 @@ aliases:
  - /docs/user-guide/how-it-works/
 ---
 
-Dashbird <u>collects data from your AWS account</u> and produces actionable metrics and detailed data **without the need of editing your existing code!**
+#### Dashbird <u>collects data from your AWS account</u> and produces actionable metrics and detailed data **without the need of editing your existing code!**
+
 But, Dashbird does need <u>limited</u> read access to your AWS account to collect the data. You give Dashbird access by using built-in tools on AWS to create policies and roles. [You can find setup instructions here.](/docs/user-guide/get-started)
 
 <h2>

@@ -7,7 +7,8 @@ kbSeries: ["ALearn"]
 kbSeries_weight: 500
 ---
 
-#### _We at Dashbird <u>care</u> about your experience using our services. <br>Hosted on <u>state-of-the-art AWS servers</u>, uptime is guaranteed!_
+#### _We at Dashbird <u>care</u> about your user experience._
+Dashbird is hosted on <u>state-of-the-art AWS servers</u>, uptime is guaranteed!
 
 <h2>
   <span class="h2 underlined bold">
