@@ -2,8 +2,8 @@
 title: "Concurrency and Synchrony in AWS Lambda"
 description: The consequences of not thinking about concurrency. Data loss and inconsistencies.
 date: 2018-04-16
-frontImage: "11-04-2018/dashbird-debugging.jpg"
-thumbnail: "11-04-2018/dashbird-debugging.jpg"
+frontImage: "16-04-2018/dashbird-concurrency.jpg"
+thumbnail: "16-04-2018/dashbird-concurrency-thumbnail.jpg"
 author: Ranvir Singh
 ---
 
