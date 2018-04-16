@@ -13,7 +13,6 @@ Dashbird uses AWS public APIs to fetch data from your AWS account and produces a
 
 For this, Dashbird does need <u>limited</u> read access to your AWS account to collect the data.  
 You give Dashbird access by using built-in tools on AWS to create policies and roles. [Click here to find detailed instructions.](/docs/user-guide/get-started)
-
 <h2>
   <span class="h2 underlined bold">What lambdas we are importing</span>
 </h2>
