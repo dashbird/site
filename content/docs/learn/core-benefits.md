@@ -1,12 +1,13 @@
 ---
 date: 2017-06-05
-title: Core Features & Benefits - Dashbird Help
-linktitle: Intro
+title: Dashbird is tailor made for monitoring your Serverless application
+linktitle: Core Benefits
 description: Dashbird is tailor made for Serverless
-kbSeries: ["AUser Guide"]
+kbSeries: ["ALearn"]
 kbSeries_weight: 100
 aliases:
  - /help/basic/basics/
+ - /docs/user-guide/intro/
 ---
 
 #### Dashbird is a service to **monitor**, **debug** and **improve** your Lambda Functions. 
@@ -15,7 +16,7 @@ aliases:
 Using Serverless architectures is one of the fastest and cheapest ways of building scalable and cheap back end applications. Yet, with large architectures, they can sometimes be hard to monitor and debug.
 
 **To understand the core benefits of using Dashbird go ahead and continue reading.**
-<br>**Or, [click here to jump into our Quick Start!](/docs/user-guide/get-started)**
+<br>**Or, [click here to jump into our Quick Start!](/docs/get-started/quick-start)**
 
 <h2>
   <span class="h2 underlined bold">Core Benefits</span>
@@ -62,5 +63,5 @@ Track your Lambdas in real time and debug errors with stack traces, just like yo
 <h2>
   <span class="h2 underlined bold">Next steps...</span>
 </h2>
-##### [**Click here**](/docs/user-guide/get-started) to **get started** with Dashbird!
-##### If you're curious, and want to read about how Dashbird works, [check this out](/docs/user-guide/how-it-works)!
+##### [**Click here**](/docs/get-started/quick-start) to **get started** with Dashbird!
+##### If you're curious, and want to read about how Dashbird works, [check this out](/docs/learn/how-it-works)!
