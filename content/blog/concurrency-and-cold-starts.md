@@ -11,7 +11,9 @@ author: Ranvir Singh
 
 One of the many useful abstractions that AWS offers is scalability. Your function automatically scales up and scales down depending on the amount of workload that it
 has to deal with. This is not only cost effective but now developers don't have to think about scaling. Because, of course, that's one of the nastiest
-problems to think about. Thankfully, AWS takes care of that, if the traffic increases by ten-folds, then your function starts running in ten times
+problems to think about. 
+
+Thankfully, AWS takes care of that, if the traffic increases by ten-folds, then your function starts running in ten times
 as many containers as before. The containers divide the workload among themselves and work together like numerous little ants lifting a heavy sugar cube.  
 
 This is known as concurrency. By default, AWS throttles the number of concurrent executions to 1000 across all your functions, in a given region.
@@ -32,7 +34,7 @@ The **state** of the database.
 Throw concurrency into the mix and we have a bunch of edge cases to handle. Going back to the database example, if one user tries to read a particular record and another user tries to modify it then we can't do both the operations concurrently. Only after one user is done with the record does the other get to have their turn at it. The operations need to happen in sequence, one after the other. Even if processes are running concurrently we are still stuck waiting. The
 benefits of concurrency are still there, but are limited by the design of your software. We have to take everything into account, including the sequence in which requests arrive and which kind of requests we receive. As you can see, there are too many moving parts.
 
->AWS tries to resolve this by segregating different types of event sources among different AWS services.
+> AWS tries to resolve this by segregating different types of event sources among different AWS services.
 
 ## Event source mapping
 To get to the bottom of this, a short digression about event source mapping is needed. A Lambda function can be invoked by an event. For things to work out there must be an event source, and a mapping which connects this event source to your function. There are basically two approaches to this problem:
