@@ -7,6 +7,8 @@ thumbnail: "16-04-2018/dashbird-concurrency-thumbnail.jpg"
 author: Ranvir Singh
 ---
 
+![Concurrency in AWS Lambda](/images/blog/16-04-2018/dashbird-concurrency.jpg)
+
 One of the many useful abstractions that AWS offers is scalability. Your function automatically scales up and scales down depending on the amount of workload that it
 has to deal with. This is not only cost effective but now developers don't have to think about scaling. Because, of course, that's one of the nastiest
 problems to think about. Thankfully, AWS takes care of that, if the traffic increases by ten-folds, then your function starts running in ten times
@@ -20,7 +22,7 @@ Essentially, the reason behind a certain function's throttle could come out of l
 
 Throttling aside, this kind of scaling, where you scale linearly as your workload increases or decreases, is what we desire. This gets difficult when considering stateful applications.
 
-## The Stateful conundrum
+## The stateful conundrum
 
 Before we get into statefulness, let's begin with a simpler stateless scenario. Loosely speaking, a stateless application or service means that there is no persistent or changeable data stored somewhere in our infrastructure. The function is invoked by a trigger event and responds to that event in a predictable manner. If the exact same event happens twice, the response would be the same for both the cases. Any piece of information that your service might need is provided by the event itself.
 
@@ -49,7 +51,7 @@ To get to the bottom of this, a short digression about event source mapping is n
   Lambda functions may get throttled on a particular shard, where the new records will keep getting queued up until the older records either get processed or expire. In the meantime, it can continue consuming data on other shards where no records are being queued up. The throttled batch of records may wait for up to 7 days, in case of Kinesis, before they expire.  
 
 
-## Problems with Concurrency
+## Problems with concurrency
 Unless you are fortunate enough to have an asynchronous and stateless model for your app, concurrency limitations are going to haunt you. Not only do they trigger many cold starts crippling the responsiveness of your application, but they are also a serious threat due to blocked sessions and expired data. Issues like these can be potentially fatal to your business.
 
 To make matters simple, people try to use **asynchronous execution** to their advantage. Services like S3 buckets are perfectly capable of invoking resources in async mode, letting you scale easily, despite having a lot of states to take into account.
@@ -58,4 +60,4 @@ Another important approach that you can adopt is to never modify data in place. 
 
 [Sign up](https://dashbird.io/signup/) to monitor your function's health. [Dashbird](https://dashbird.io) helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. It sure makes debugging easy.
 
-Stay tuned, have fun, and stick around to read more about Serverless Architecture in one of my next articles!.
+Stay tuned, have fun, and stick around to read more about Serverless Architecture in one of my next articles!
