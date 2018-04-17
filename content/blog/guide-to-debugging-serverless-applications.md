@@ -87,7 +87,7 @@ Dashbird again has exception monitoring built in. All that's needed  Use an exce
 
 **Test and staging environments.** Set up staging environments and populate data there to see how it runs in AWS without the risk of affecting customer experience.
 
-## 4. Latency
+## 4. Latency/Slowness
 
 Latency, although not a fatal mistake by any means, is a frequent problem with Serverless APIs that service frontend applications.
 
@@ -110,16 +110,24 @@ target='_blank'>here</a>.
 
 **Keep Lambdas "warm".** Not a big fan of this as I think that cold starts are widely overdramatized but you can reduce the amount of cold-starts by making dummy requests against your Lambda functions to keep them "warm".
 
-### API GW
+## 5. Insufficient/Wrong IAM Roles
 
-## 5. Misconfigured API Gateway
+Depending on the architecture and the purpose of your Lambda function, this can be quite a complex subject. At a minimum, your functions should have permissions to create AWS CloudWatch log groups. Depending on the resources your function will need, you might have to allow DynamoDB or S3 access, for example.
 
-## 6. API GW timeout
+#### Detection
+
+#### Prevention
+
+### API Gateway problems
+
+## 6. Misconfigured API GW
+
+## 7. API GW timeout
 Maximum duration of a API GW endpoint is 30 seconds. Any Lambda that takes more than that results in an error.
 
 ### DynamoDB
 link reference
 
-## 7. Read/Write capacity exceeded
+## 8. Read/Write capacity exceeded
 
-## 8. Query error
+## 9. Query error
