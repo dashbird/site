@@ -22,7 +22,7 @@ date: 2017-10-29T17:50:03+02:00
 
         <div class="col mw-250">
           <div class="pricing-box bg-white top-gray text-center p-4">
-            <h4 class="mt-2 mb-3">Basic</h4>
+            <h4 class="mt-2 mb-3">Developer</h4>
             <span class="h1 lato mt-5 mb-5" id="basic">$24</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
 
@@ -65,7 +65,7 @@ date: 2017-10-29T17:50:03+02:00
 
         <div class="col mw-250">
           <div class="pricing-box bg-white top-black text-center p-4">
-              <h4 class="mt-2 mb-3">Enterprise</h4>
+              <h4 class="mt-2 mb-3">Business</h4>
               <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
               <p class="small gray condition pt-3">per month / billed yearly</p>
 
@@ -76,7 +76,15 @@ date: 2017-10-29T17:50:03+02:00
               <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
           </div>
         </div>
- 
+
+        <div class="col mw-250 mt-3">
+          <div class="pricing-box bg-white top-black text-center p-4">
+            <h4 class="mt-2 mb-3">Enterprise</h4>
+            <span>Unlimited volumes, SLAs and priority support</span>
+            <p class='mt-3'><a href='mailto:sales@dashbird.io' class='btn btn-primary'>Contact us</a></p>
+          </div>
+        </div>
+
       </div>
     </div>
 
