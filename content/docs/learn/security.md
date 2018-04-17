@@ -7,7 +7,8 @@ kbSeries: ["ALearn"]
 kbSeries_weight: 400
 ---
 
-#### _We at Dashbird take your security seriously. We keep your data on <u>encrypted</u> drives._
+#### _We at Dashbird take your security seriously, by keeping your data on <u>encrypted</u> drives._
+By using encrypted AWS S3 buckets to store your data, we uphold maximum security so you don't need to worry.
 
 <h2>
   <span class="h2 underlined bold">
