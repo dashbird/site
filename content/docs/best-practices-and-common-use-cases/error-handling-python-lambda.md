@@ -1,14 +1,20 @@
 ---
 date: 2017-06-05
-title: Error Handling With AWS Lambda and Python
-linktitle: Error Handling With AWS Lambda and Python
-description: Catching and troubleshooting Python AWS Lambda errors.
-kbSeries: ["EBest practices"]
+title: Best Practices
+linktitle: Python
+description: Catching and troubleshooting AWS Lambda errors.
+kbSeries: ["EBest Practices"]
 kbSeries_weight: 100
 aliases:
  - /help/python/error-handling-python-lambda/
  - /docs/python/error-handling-python-lambda/
 ---
+
+<h2>
+  <span class="h2 underlined bold">
+    Error Handling With AWS Lambda and Python
+  </span>
+</h2>
 
 If you are running Python on AWS Lambda, you can catch and get alerted for all errors with Dashbird.
 
@@ -26,7 +32,8 @@ In addition, with each error, you get the context. Logs of the whole invocation,
 On top of that, Dashbird groups similar errors, making it possible to estimate the scope of the problem and make debugging easier. For example, it might help to better observe the problem if you find some commonalities in the executions.
 
 Here's how a Python error looks like in Dashbird.
-![Python Error Dashbird](/images/docs/python-error.png 'Python Error')
+<!-- <img src="/images/docs/python-error.png" alt="Python Error"> -->
+<!-- ![Python Error Dashbird](/images/docs/python-error.png 'Python Error') -->
 
 
 ## Exceptions
