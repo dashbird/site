@@ -537,6 +537,7 @@ ul.sidemenu li.active ol > a { padding-left: 30px; }
 .kb :first-child  h2 { margin-top: 40px; }
 .campaign-offer {
   background-color: #646be0;
+  z-index: 9999;
 }
 .campaign-offer a {
   color: white;
