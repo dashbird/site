@@ -1,14 +1,13 @@
 ---
 date: 2017-06-05
-title: Dashbird cares about Reliability
+title: Learn | Reliability with Dashbird
 linktitle: Reliability
 description: Overview of Dashbird reliability
 kbSeries: ["ALearn"]
 kbSeries_weight: 500
 ---
 
-#### _We at Dashbird <u>care</u> about your user experience._
-Dashbird is hosted on <u>state-of-the-art AWS servers</u>, uptime is guaranteed!
+##### We at Dashbird <u>care</u> about your user experience. Dashbird is hosted on <u>state-of-the-art AWS servers</u>, uptime is guaranteed!
 
 <h2>
   <span class="h2 underlined bold">
