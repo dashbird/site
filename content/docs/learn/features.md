@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Dashbird makes sure your application works at all times
+title: Learn | Features
 linktitle: Features
 description: Deliver Quality AWS Lambda Functions
 kbSeries: ["ALearn"]
@@ -8,7 +8,7 @@ kbSeries_weight: 200
 ---
 
 
-#### Dashbird works by collecting logs through your AWS Cloudwatch API.
+#### Dashbird makes sure your application works at all times. It works by collecting logs through your AWS Cloudwatch API.
 
 By fetching existing logs from your AWS account, Dashbird helps you have a bird's eye perspective on all Lambda Functions, resources, and services. 
 

@@ -1,13 +1,14 @@
 ---
 date: 2017-06-05
-title: Dashbird is tailor made for monitoring your Serverless application
-linktitle: Core Benefits
+title: Learn | What's Dashbird?
+linktitle: What's Dashbird?
 description: Dashbird is tailor made for Serverless
 kbSeries: ["ALearn"]
 kbSeries_weight: 100
 aliases:
  - /help/basic/basics/
  - /docs/user-guide/intro/
+ - /docs/learn/core-benefits/
 ---
 
 #### Dashbird is a service to **monitor**, **debug** and **improve** your Lambda Functions. 
