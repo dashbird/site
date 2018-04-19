@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Creating and managing Integrations with Dashbird
+title: User Guide | Creating Integrations with Dashbird
 linktitle: Integrations
 description: Integrations
 kbSeries: ["CUser Guide"]
@@ -10,6 +10,12 @@ alias:
   - /docs/integrations/managing-webhooks/
 ---
 
+- list all available integrations
+- explain what they all do -> potential cost/time/stress savings
+- simple guides for adding webhooks for slack, mail, or other 3rd party services
+
+<br>
+# already great content below -> make it more readable
 Webhooks are the foundation for all integrations out of Dashbird. To create an integration with other services, we recommend first integrating Dashbird with Zapier and then using an integration from Zapier to other services.
 
 ### Setting up webhooks
