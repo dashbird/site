@@ -2,11 +2,18 @@
 ---
   baseURL: 'https://dashbird.io/'
   languageCode: 'en-us'
+  copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  author:
+    name: "Dashbird"
+    email: "info@dashbird.io"
   title: 'Dashbird'
   disqusShortName: 'dashbird'
   twitter_card_whitelisted: true
   outputs:
-    home: ['HTML', 'JSON']
+    home: ['HTML', 'JSON', 'RSS']
+  mediaTypes:
+    application/rss:
+      suffix: xml
   menu:
     main:
         - Name: 'Docs'
