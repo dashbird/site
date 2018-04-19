@@ -10,7 +10,7 @@
   disqusShortName: 'dashbird'
   twitter_card_whitelisted: true
   outputs:
-    home: ['HTML', 'JSON', 'RSS']
+    home: ['HTML', 'RSS']
   mediaTypes:
     application/rss:
       suffix: xml
