@@ -23,6 +23,10 @@
  <meta property="og:tags" content="{{ . }}">
  {{ end }}
 
+{{ range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+{{ end -}} 
+
  <!-- Start of Twitter -->
  {{ if .Site.Params.twitter_card_whitelisted }}
  {{ if .Params.twitter_summary }}
