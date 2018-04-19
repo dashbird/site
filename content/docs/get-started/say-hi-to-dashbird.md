@@ -14,6 +14,8 @@ kbSeries_weight: 300
 - explain organizations dropdown menu - what is an organization? -> mention add an organization but link to another page where it is explained.
 - `/client/alerts` configuration overview - how do Dashbird alerts work?
 - `/client` importer settings overview - explain default settings and how to filter in/out your functions with a real-life use case such as only filter in production functions
+- `/client/subscription/setup/tier` - mention where the user's current subscription is defined and how to change subscription
+- `/client/invites` - how to invite more users (aws accounts) to your Dashbird account
 - explain the left navbar and where all the buttons navigate to
 - wrap up with a fun but engaging sentence to move on to the user guide for detailed explanations
 
