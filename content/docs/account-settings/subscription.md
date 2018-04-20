@@ -16,12 +16,6 @@ You will automatically start your 14-day trial once you sign up for a new Dashbi
 
 You will have unlimited access to all the Dashbird plans and features during the trial period. After the trial period ends, you are asked to add your credit card information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page in order to subscribe to a specific plan and to keep using Dashbird.
 
-## Prorating ##
-Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, the next charge will be prorated based on the unused time on last plan type.
-
-## Annual vs monthly subscription ##
-
-You get 10% discount on all plans when you choose annual billing cycle on your subscription. The amount will be charged in advance and there will be no refunds based on your account activity.
 
 ## Support for non-profits and startups ##
 
@@ -29,8 +23,12 @@ We are helping out startups with special discounts. In order to get it, please [
 
 - How did you find Dashbird?
 - How could you introduce Dashbird to others?
-- Blog post topic that you would be willing to write and that would feature Dashbird too.
+- Blog post topic ideas that you would be willing to write and that would feature Dashbird.
 - Your account info and what what kind of support are you looking for?
+
+## Discounts for content contributors ##
+
+We are giving special discounts or extended trial time in return of content contributions (either in our blog or as a guest post). Specific deals are agreed upon case-by-case. [Get in touch to learn more!](mailto:info@dashbird.io)
 
 ## Special features ##
 

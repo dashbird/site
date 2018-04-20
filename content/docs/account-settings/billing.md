@@ -1,15 +1,36 @@
 ---
 date: 2017-06-05
-title: Account Settings | Billing With Dashbird
+title: Dashbird Billing
 linktitle: Billing
-description: Figure out your best billing system.
+description: Dashbird is a subscription based service that is billed monthly or yearly. The fee depends on the subscription type.
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 200
 ---
+Dashbird is subscription based service that is billed monthly or yearly. All the prices are in USD. You can edit your billing information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page.
 
-- how the user will be billed
-- return policies
-- trial periods
-- after trial ends
-- startup deals for free trials
-- mutual interest deals - blog contributions for extended trials
+
+## Annual vs monthly billing ##
+
+You get 10% discount on all plans when you choose annual billing cycle on your subscription. The amount will be charged in advance and there will be no refunds based on your account activity.
+
+## Prorating ##
+Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, the next charge will be prorated based on the unused time on last plan type.
+
+## Invoices ##
+
+You will receive automatic invoices to the email that is connected with your account.
+
+## 14-day trial ##
+
+You will automatically start your 14-day trial once you sign up for a new Dashbird account. Each organization has a separate subscription and trial period.
+
+Once your trial has expired, system will attempt to charge you. If no billing info has been entered, your organization account will be suspended.
+
+## Ending subscription ##
+
+You can end your subscription any time from your [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page and you will not be charged again by the next billing cycle.
+
+*NB: there will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
+
+---
+Check out what [features Dashbird offers](http://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
