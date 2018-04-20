@@ -1,5 +1,5 @@
 html, body {
-font-family: 'Roboto Mono', monospace;
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -128,9 +128,9 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
-.lato {
-  font-family: 'Lato', sans-serif;
-}
+/* .lato { */
+/*   font-family: 'Lato', sans-serif; */
+/* } */
 .primary-cta {
 }
 .mw-250 {
@@ -158,7 +158,7 @@ input[type=text].form-control::placeholder {
   color: #9b9b9b;
 }
 .slab {
-  font-family: 'Roboto Slab', sans-serif;
+  /* font-family: 'Roboto Slab', sans-serif; */
   font-weight: 300;
   font-size: 1.2rem;
   color: #6d6f7b;
@@ -200,7 +200,7 @@ input[type=text].form-control::placeholder {
   border: 1px solid #ffffff;
 }
 .bg-cta h3 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-weight: 300;
   font-size: 1.6rem;
 }
