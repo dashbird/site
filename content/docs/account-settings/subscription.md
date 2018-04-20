@@ -1,12 +1,47 @@
 ---
 date: 2017-06-05
-title: Account Settings | Dashbird Subscription
+title: Dashbird Subscription
 linktitle: Subscription
-description: Figure your best subscription model.
+description: Dashbird subscriptions are based on your lambda and invocations count. Dashbird subscriptions are billed monthly or yearly in advance.
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 300
 ---
+Dashbird subscriptions are based on your lambda and invocations count. Dashbird usage is billed in advance per organization monthly or yearly.
 
-- detailed explanation of the available subscriptions
-- compare monthly / annual -> cost saving and that stuff
-- link to `/docs/get-started/say-hi-to-dashbird/`
+![Different Dashbird subscriptions](/images/docs/dashbird-subscriptions.png)
+
+## 14-day trial ##
+
+You will automatically start your 14-day trial once you sign up for a new Dashbird account. Each organization has a separate subscription and trial period.
+
+You will have unlimited access to all the Dashbird plans and features during the trial period. After the trial period ends, you are asked to add your credit card information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page in order to subscribe to a specific plan and to keep using Dashbird.
+
+## Prorating ##
+Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, the next charge will be prorated based on the unused time on last plan type.
+
+## Annual vs monthly subscription ##
+
+You get 10% discount on all plans when you choose annual billing cycle on your subscription. The amount will be charged in advance and there will be no refunds based on your account activity.
+
+## Support for non-profits and startups ##
+
+We are helping out startups with special discounts. In order to get it, please [write to us](mailto:info@dashbird.io) and answer following questions:
+
+- How did you find Dashbird?
+- How could you introduce Dashbird to others?
+- Blog post topic that you would be willing to write and that would feature Dashbird too.
+- Your account info and what what kind of support are you looking for?
+
+## Special features ##
+
+- *Startup, Pro and Business* plans all have extra features that are not included in the *Developer* plan. These features are [Log Search](http://dashbird.io/docs/user-guide/log-analytics/) and [Webhooks](http://dashbird.io/docs/user-guide/integrations/).
+- all plan types include customer support
+
+## Ending subscription ##
+
+You can end your subscription any time from your [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page and you will not be charged again by the next billing cycle.
+
+*NB: there will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
+
+---
+Check out what [features Dashbird offers](http://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
