@@ -24,7 +24,7 @@ By pressing the [Project Views](https://app.dashbird.io/projects) button on the 
 <div class="row">
     <div class="col-md-6 col-sm-12 col-xs-12 text-md-left pt-3">
         <p class="lato">By pressing the big green button at the top right part of the <b>Project Page</b> you'll open up a popup for creating a new Project.</p>
-        <p class="lato">The way to add Functions is through a filtering process. By using glob patterns you choose which Functions to add.</p>
+        <p class="lato">The way to add Functions is through a filtering process. By using <a href="https://en.wikipedia.org/wiki/Glob_(programming)">glob patterns</a> you choose which Functions to add.</p>
         <p>Use <code>some-service-</code> to <b>include</b> and <code>!some-service-prod-</code> to <b>exclude</b> Lambda Functions.</p>
     </div>
     <div class="col-md-6 col-sm-12 col-xs-12 imgs-fluid">

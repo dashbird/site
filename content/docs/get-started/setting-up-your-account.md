@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Get Started | Set up your Dashbird Account
+title: Set up your Dashbird Account
 linktitle: Setting up your account
 description: Setting up your account
 kbSeries: ["BGet Started"]
@@ -14,3 +14,5 @@ alias:
 - `/profile` settings overview with guides and screenshots
 - `/profile` session history overview and explanation with screenshots
 - explain start auto reload button
+
+
