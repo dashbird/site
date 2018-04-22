@@ -31,7 +31,7 @@ By pressing the **alerts button** on the left navigation panel you can reach the
 
 
 ## Troubleshooting
-All the data you need to troubleshoot errors are at your disposal. Stacktraces, previous occurences, logs and trends for each and every error are available and presented to you in human friendly manner! By pressing the `More info` button regarding a particular error, you will see the error page with all the info you need to debug the issue.
+All the data you need to troubleshoot errors are at your disposal. Stacktraces, previous occurences, logs and trends for each and every error are available and presented to you in a human friendly manner! By pressing the `More info` button regarding a particular error, you will see the error page with all the info you need to debug the issue.
 
 ![Error](/images/docs/error.png)
 
