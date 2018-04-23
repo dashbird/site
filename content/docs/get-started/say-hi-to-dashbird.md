@@ -48,6 +48,23 @@ On the **Invite users** tab you can see which users are connected to the organiz
 
 <br>
 
+## Left Side Navigation
+ <div class="row">
+  <div class="col-md-5 col-sm-12 col-xs-12 imgs-fluid">
+    <img src='/images/docs/left-side-nav.png'>
+  </div>
+  <div class="col-md-7 col-sm-12 col-xs-12 text-md-left pt-3">
+    <p class="lato">The side navigation is your primary means of navigating between Dashbird's main features. You can:</p>
+    <ul>
+      <li>**List** all Lambda Functions</li>
+      <li>Debug Functions with **Live Tailing**</li>
+      <li>Check your **Alerts**</li>
+      <li>**List** all Projects</li>
+      <li>Do an **account-wide search**</li>
+    </ul>
+  </div>
+</div>
+
 ---
 
-(add explanation about the left side navigation)
+This wraps up the **Get Started** section, go ahead and move on to the [**User Guide**](/docs/user-guide/monitoring/) for more hands-on tutorials on how to get the best out of Dashbird!
