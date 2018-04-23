@@ -2,7 +2,8 @@ html, body {
   font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif; 
 }
 nav {
   box-shadow: inset 0 -0.5px 0 0 #f0f0f0;
