@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | Security with Dashbird
+title: Security with Dashbird
 linktitle: Security
 description: Overview of Dashbird security
 kbSeries: ["ALearn"]

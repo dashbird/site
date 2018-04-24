@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | Dashbird has NO Overhead!
+title: Dashbird has NO Overhead!
 linktitle: Overhead
 description: Overview of the overhead while using Dashbird
 kbSeries: ["ALearn"]

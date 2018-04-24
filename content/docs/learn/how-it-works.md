@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | AWS Lambda Monitoring with Dashbird
+title: AWS Lambda Monitoring with Dashbird
 linktitle: How it works
 kbSeries: ["ALearn"]
 kbSeries_weight: 300

@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | What's Dashbird?
+title: What's Dashbird?
 linktitle: What's Dashbird?
 description: Dashbird is tailor made for Serverless
 kbSeries: ["ALearn"]
