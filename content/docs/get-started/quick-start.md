@@ -1,11 +1,7 @@
 ---
 date: 2017-06-05
 title: Quick Start with Dashbird
-<<<<<<< HEAD
 linktitle: Quick start
-=======
-linktitle: Quick Start
->>>>>>> f6b62016e2f3ac98b710f135f0bc66f8fe44a7b6
 description: Quick start
 kbSeries: ["BGet Started"]
 kbSeries_weight: 200
