@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | Does Dashbird have any Latency? 
+title: Does Dashbird have any Latency? 
 linktitle: Latency
 description: Overview of the latency while using Dashbird
 kbSeries: ["ALearn"]
@@ -14,4 +14,5 @@ kbSeries_weight: 600
     What is the latency of Dashbird?
   </span>
 </h2>
+
 It usually takes about <u>**60 seconds**</u> for execution data to be visible in Dashbird.

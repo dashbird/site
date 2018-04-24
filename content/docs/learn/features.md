@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | Features
+title: Features
 linktitle: Features
 description: Deliver Quality AWS Lambda Functions
 kbSeries: ["ALearn"]

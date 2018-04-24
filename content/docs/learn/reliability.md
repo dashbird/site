@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Learn | Reliability with Dashbird
+title: Reliability with Dashbird
 linktitle: Reliability
 description: Overview of Dashbird reliability
 kbSeries: ["ALearn"]
