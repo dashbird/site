@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Say Hi to Dashbird!
-linktitle: Say Hi to Dashbird
-description: Say Hi to Dashbird
+title: Dashbird Step by Step Guide
+linktitle: Step by step guide
+description: Step by step guide
 kbSeries: ["BGet Started"]
 kbSeries_weight: 300
 ---
@@ -48,6 +48,8 @@ On the **Invite users** tab you can see which users are connected to the organiz
 
 <br>
 
+The **Organization settings** make a lot more sense now. Moving on let's check out the general layout of the Dashbird app!
+
 ## Left Side Navigation
  <div class="row">
   <div class="col-md-5 col-sm-12 col-xs-12 imgs-fluid">
@@ -64,6 +66,17 @@ On the **Invite users** tab you can see which users are connected to the organiz
     </ul>
   </div>
 </div>
+
+<br>
+
+## Main Dashboard
+The [main dashboard](https://app.dashbird.io/) is what you'll see once you sign in to your Dashbird account. It's where your most important metrics are, and where you have a bird's eye perspective on your whole system! Of course, you can navigate back to the main dashboard by clicking the Dashbird logo in the top left corner of your screen.
+
+![Main Dashboard](/images/docs/overview.png)
+
+You can quickly filter metrics based on when they occurred. Last 24h, yesterday, this week or this month are the quick settings which are available.
+
+The main dashboard is also where you can have a glimpse at your **errors** and **alerts**. All of them are readily available to see in more detail through hot links in the UI.
 
 ---
 

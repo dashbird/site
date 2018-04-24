@@ -49,4 +49,4 @@ By toggling this to `on`, you'll have enabled the auto reload feature for all gr
 
 ---
 
-Learn more about account configuration by checking out the [next section](/docs/get-started/say-hi-to-dashbird/), or take a look at the [account overview](/docs/account-settings/overview/) for a complete guide.
+Learn more about account configuration by checking out the [next section](/docs/get-started/step-by-step-guide/), or take a look at the [account overview](/docs/account-settings/overview/) for a complete guide.
