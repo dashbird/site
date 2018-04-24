@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: User Guide | Tracing Lambda Functions with Dashbird
+title: Tracing Lambda Functions with Dashbird
 linktitle: Tracing
 description: Tracing
 kbSeries: ["CUser Guide"]

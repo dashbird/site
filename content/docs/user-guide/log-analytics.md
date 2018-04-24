@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: User Guide | Analyze Logs with Dashbird
+title: Analyze Logs with Dashbird
 linktitle: Log Analytics
 description: Log Analytics
 kbSeries: ["CUser Guide"]

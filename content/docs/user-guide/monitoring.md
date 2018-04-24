@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: User Guide | Monitor Lambda Functions with Dashbird
+title: Monitor Lambda Functions with Dashbird
 linktitle: Monitoring
 description: Monitoring
 kbSeries: ["CUser Guide"]

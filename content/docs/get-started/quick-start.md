@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Get Started | Quick Start with Dashbird
+title: Quick Start with Dashbird
 linktitle: Quick Start
 description: Quick start
 kbSeries: ["BGet Started"]
