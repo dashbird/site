@@ -19,9 +19,9 @@ To start, [sign up](/signup) and follow the on-screen instructions to link your 
 
 Full instructions can be found [here](/docs/get-started/quick-start).
 
-- talk about ease of use and good UX
+<!-- - talk about ease of use and good UX
 - very fast to set up
 - easy to use
 - no code changes
 - easy integrations
-- add links to `get-started` section
+- add links to `get-started` section -->

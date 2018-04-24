@@ -19,9 +19,10 @@ _**Menu -> Users -> Add +**_
 Fill in the form:
 ![Invite user](/images/docs/inviteuser.png 'Invite user')
 
+Check out the detailed explanation [in our step by step guide](/docs/get-started/step-by-step-guide/).
 
-- explain the what "organizations' are
+<!-- - explain the what "organizations' are
 - explain the principle of how Dashbird views adding team members as positive - or some motivational crap :)
 - explain how you add team members
 - add screenshot and concrete ste-by-step guide
-- link to `/docs/get-started/say-hi-to-dashbird/`
+- link to `/docs/get-started/say-hi-to-dashbird/` -->

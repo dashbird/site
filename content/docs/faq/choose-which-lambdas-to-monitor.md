@@ -24,8 +24,11 @@ Use <code>some-service-*</code> to include and <code>!some-service-prod-*</code>
 
 By default, all Lambda Functions are imported to Dashbird.
 
-Read more from [here](/docs/get-started/say-hi-to-dashbird/).
+---
 
-- this is already good :)
+Check out our [**step by step guide**](/docs/get-started-step-by-step-guide) to read about it in more detail!
+
+
+<!-- - this is already good :)
 - add more stylish writing
-- link to `/docs/get-started/say-hi-to-dashbird/`
+- link to `/docs/get-started/say-hi-to-dashbird/` -->

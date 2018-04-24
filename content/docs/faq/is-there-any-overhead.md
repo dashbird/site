@@ -16,8 +16,10 @@ kbSeries_weight: 200
 
 Dashbird gets all of the information from logs when they reach AWS CloudWatch, meaning that the service has no effect on the execution itself.
 
-- what is overhead?
+Read more about **overhead** and how Dashbird avoids it [here](/docs/learn/overhead/).
+
+<!-- - what is overhead?
 - explain why Dashbird is fast
 - explain how it does not affect performance
 - very small to no impact on AWS bill -> segway to next FAQ
-- link to `/docs/learn/overhead/`
+- link to `/docs/learn/overhead/` -->
