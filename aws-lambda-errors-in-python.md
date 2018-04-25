@@ -82,8 +82,7 @@ while True:
     print("The password must have at least one number in it. Try again")
 ```
 Of course, the function passwordCheck() must be implemented in a way to recognize exceptions like PasswordTooSmall and PasswordWithNoNumerics and throw them
-accordingly. You can learn more about user defined exceptions <a href="https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions" target="\_blank"> here.</a>  
----
+accordingly. You can learn more about user defined exceptions <a href="https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions" target="\_blank"> here.</a> 
 
 # AWS Specific Errors
 
