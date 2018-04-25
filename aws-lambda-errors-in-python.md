@@ -89,7 +89,7 @@ accordingly. You can learn more about user defined exceptions <a href="https://d
 
 ## Handler Function
 Function handlers are AWS Lambda's way of telling where to start.
-![Handler](C:\Users\WitchKing\Documents\GitHub\site\static\images\docs\Python_Error\handler.PNG)
+![Handler](images/docs/Python_Error/handler.PNG)
 The handler itself has two parts. The file name (in this case named lambda_function) and then inside that file we defined a function lambda_handler().
 In the screenshot, you can see that the Handler section has an entry *lambda_function.lambda_handler* and it is this function that receives the event
 and context parameters as we invoke the lambda instance.  
