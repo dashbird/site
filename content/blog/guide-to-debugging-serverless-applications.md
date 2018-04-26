@@ -9,7 +9,7 @@ author: Taavi Rehemägi
 
 ### introduction (lose title later)
 
-We recently did a survey targeting close to 500 serverless companies and asking about the main obstacles of adopting serverless technologies. "Steep learning curve" ranked as the third highest.
+We recently did a survey targeting serverless companies and asking about the main obstacles of adopting serverless technologies. "Steep learning curve" ranked as the third highest. Here's a shot of listing the most common problems and solutions that we as a monitoring and debbuging company see the most.
 
 ## AWS Lambda failures
 
@@ -112,7 +112,7 @@ target='_blank'>here</a>.
 
 ## 5. Insufficient/Wrong IAM Roles
 
-Depending on the architecture and the purpose of your Lambda function, this can be quite a complex subject. At a minimum, your functions should have permissions to create AWS CloudWatch log groups. Depending on the resources your function will need, you might have to allow DynamoDB or S3 access, for example.
+Depending on the architecture and the purpose of your Lambda function, this can be quite a complex subject. At a minimum, your functions should have permissions to create AWS CloudWatch log groups. Depending on the resources your function will need, you might have to allow DynamoDB or S3 access, for example. Here's an <a href='https://serverless.com/framework/docs/providers/aws/guide/iam/' target='_blank'>indepth guide to IAM roles for Lambda functions</a>.
 
 #### Detection
 
@@ -120,14 +120,19 @@ Depending on the architecture and the purpose of your Lambda function, this can 
 
 ### API Gateway problems
 
-## 6. Misconfigured API GW
+The tricky thing about API Gateway errors is that the execution and errors do not reach Lambda CloudWatch logs, making them harder to detect with Dashbird. Here are some of the most commmon problems.
 
-## 7. API GW timeout
-Maximum duration of a API GW endpoint is 30 seconds. Any Lambda that takes more than that results in an error.
+## 6.Bad Gateway Exception Misconfigured API GW
+
+Usually for an incompatible output returned from a Lambda proxy integration backend and occasionally for out-of-order invocations due to heavy loads.
+
+## 7. Endpoint Request Timed-out Exception
+
+Maximum duration of a API GW endpoint is 30 seconds. Any Lambda that takes more than that results in an error. 
 
 ### DynamoDB
-link reference
 
-## 8. Read/Write capacity exceeded
 
-## 9. Query error
+## 8. ProvisionedThroughputExceededException
+
+Your request rate is too high. The AWS SDKs for DynamoDB automatically retries requests that receive this exception. Your request is eventually successful, unless your retry queue is too large to finish. Reduce the frequency of requests and use exponential backoff, also consider enabling autoscaling for you DynamoDB table. 
