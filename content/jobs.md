@@ -54,7 +54,7 @@ date: 2018-03-12T11:50:03+02:00
         </div>
 
         <div class="col-5 p-0">
-          <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
+          <img src="/images/team/annika1.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
     </div>
