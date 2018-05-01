@@ -26,7 +26,7 @@ By default, all Lambda Functions are imported to Dashbird.
 
 ---
 
-Check out our [**step by step guide**](/docs/get-started-step-by-step-guide) to read about it in more detail!
+Check out our [**step by step guide**](/docs/get-started/step-by-step-guide) to read about it in more detail!
 
 
 <!-- - this is already good :)
