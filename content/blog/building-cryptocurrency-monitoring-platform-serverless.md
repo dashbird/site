@@ -18,7 +18,7 @@ In this article I will explain how I built [COINDATAX](https://coindatax.com/?ut
 
 ## Why serverless
 
-When my co-founder and I decided to build a cryptocurrency web application, we immediately decided to use AWS Lambda for our integrations. After all, since we were a small team trying to create a new product, we didn't want to spend too much time managing AWS servers. Having to select the ideal instance type, configure auto scaling policies and create a deployment pipeline takes a significant amount of work, which we simply could not afford.
+When my co-founder and I decided to build a cryptocurrency web application, we immediately thought about using AWS Lambda for our integrations. After all, since we were a small team trying to create a new product, we didn't want to spend too much time managing AWS servers. Having to select the ideal instance type, configure auto scaling policies and create a deployment pipeline takes a significant amount of work, which we simply could not afford.
 
 In addition, since we would like to add as much integrations as possible to our dashboards, we wanted our application to scale linearly with product usage. With traditional server-based architectures, your environment scales more like a "step" function -- if, say, each instance can handle 100 clients, when you reach 101 visitors you need to spawn a new machine that will be idle most of the time. With serverless architecture, your application scales, up or down, accordingly to each request.
 
