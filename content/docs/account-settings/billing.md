@@ -11,10 +11,10 @@ Dashbird is subscription based service that is billed monthly or yearly. All the
 
 ## Annual vs monthly billing ##
 
-You get 10% discount on all plans when you choose annual billing cycle on your subscription. The amount will be charged in advance and there will be no refunds based on your account activity.
+You get 10% discount on all plans when you choose annual billing cycle on your subscription. The amount will be charged in advance and there will be no refunds based on your account activity. <a href='/pricing' target='_blank'>Get detailed quotes on the plans here.</a>
 
 ## Prorating ##
-Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, the next charge will be prorated based on the unused time on last plan type.
+Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will charged the new plans price at that time for the rest of the month.
 
 ## Invoices ##
 
