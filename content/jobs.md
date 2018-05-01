@@ -40,7 +40,7 @@ date: 2018-03-12T11:50:03+02:00
      <div class="col-9 text-black mb-4 mt-5">
       <div class="row">
         <div class="col-7">
-          <h2 class="mt-3 mb-3">Work With Annika on Marketing</h2>
+          <h2 class="mt-3 mb-3">Work With Annika on Growth</h2>
           <p>We are looking for a unicorn. A true renaissance person who knows a lot about software development, enjoys writing and is familiar with the latest marketing trends like content marketing, SEO and community building.</p>
           <h5>What we offer:</h5>
           <ul>
@@ -50,7 +50,7 @@ date: 2018-03-12T11:50:03+02:00
             <li>Freedom of remote work</li>
             <li>Team meetups 2x per year</li>
           </ul>
-          <a class='btn btn-primary' href='https://app.hundred5.com/3EEDKO5YVZQKLYYCM6Y'>Take the test</a>
+          <a class='btn btn-primary' href='mailto:jobs@dashbird.io'>Send your info!</a>
         </div>
 
         <div class="col-5 p-0">

@@ -23,7 +23,7 @@ author: 'Annika Helendi'
 ### Developer Advocate Who Loves Blogging
   We are looking for a unicorn, a true renaissance person - someone who knows about software development, enjoys writing about it all the time, is familiar with latest marketing and SEO trends and is also passionate about building and growing a community of developers.
 
-[Join our team by taking the skills test!](https://app.hundred5.com/3EEDKO5YVZQKLYYCM6Y)
+[Send your info!](mailto:jobs@dashbird.io)
 
   Starting salary: **$48 000 per year**
 
