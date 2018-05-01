@@ -10,8 +10,6 @@ authorlink: 'https://twitter.com/agfviggiano'
 author: Antonio Viggiano
 ---
 
-# TODO
-
 ## Introduction
 
 ![Trading graphs](/images/blog/2018-05-01/cryptocurrency-monitoring.jpg)
