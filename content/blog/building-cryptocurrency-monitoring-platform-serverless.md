@@ -20,15 +20,17 @@ In this article I will explain how I built [COINDATAX](https://coindatax.com/?ut
 
 When my co-founder and I decided to build a cryptocurrency web application, we immediately thought about using AWS Lambda for our integrations. After all, since we were a small team trying to create a new product, we didn't want to spend too much time managing AWS servers. Having to select the ideal instance type, configure auto scaling policies and create a deployment pipeline takes a significant amount of work, which we simply could not afford.
 
-In addition, since we would like to add as much integrations as possible to our dashboards, we wanted our application to scale linearly with product usage. With traditional server-based architectures, your environment scales more like a "step" function — if, say, each instance can handle 100 clients, when you reach 101 visitors you need to spawn a new machine that will be idle most of the time. With serverless architecture, your application scales, up or down, accordingly to each request.
+In addition, since we would like to add as much integrations as possible to our dashboards, we wanted our application to scale linearly with product usage. With traditional server-based architectures, your environment scales more like a "step" function — if, say, each instance can handle 100 clients, when you reach 101 visitors you need to spawn a new machine that will be idle most of the time. With serverless architecture, your application scales, up or down, according to each request.
 
-Another benefit of Lambda, or more specifically of the [serverless framework](https://serverless.com/), is infrastructure as code. With serverless, you know exactly what is going on with your infrastructure simply by looking at a configuration file. Although you can do this for regular server-based architectures, using tools such as [terraform](https://www.terraform.io/), you usually need to think of it as something extra to your infrastructure design, while most complex AWS applications built on top of AWS Lambda will use serverless since the beginning.
+Another benefit of Lambda, or more specifically of the [serverless framework](https://serverless.com/), is infrastructure as code. With serverless, you know exactly what is going on with your infrastructure simply by looking at a configuration file. Although you can do this for regular server-based architectures, using tools such as [Terraform](https://www.terraform.io/), you usually need to think of it as something extra to your infrastructure design, while most AWS applications built on top of Lambda will use serverless from the beginning.
 
 Now speaking about some of the drawbacks:
 
 First of all, AWS Lambda has some inherent limitations. You can't have, for example, a long running running or expensive process. If your functions last longer than 5 minutes or if they need more than 1 MB of RAM, you need to rework your architecture in order to use serverless. It might be necessary to use step functions, or to break your lambdas into smaller functions so that you can pass the processed output from one to the other.
 
 Secondly, Lambda functions are indisputably harder to debug. Since you don't have direct access to the instance where your code is running and since AWS CloudWatch is somewhat limited in its monitoring capabilities, sometimes things break and you have no idea of what happened. This is where Dashbird comes into play, but I'll talk more about that in a moment.
+
+Taking all that into consideration, we decided to move forward with Serverless, as we believed these limitations could be managed.
 
 <br>
 
@@ -75,7 +77,7 @@ functions:
 
 ### 2\. Development of the API integration
 
-Our Lambda function will be very simple. The first step of a monitoring platform is to extract data from external APIs. Here we connect to CoinMarketCap's JSON API and get the ticker information of the the top coins for that period.
+Our Lambda function is also simple, as the first step of a monitoring platform is to extract data from external APIs. Here we connect our function to CoinMarketCap's API and get the ticker information of the the top coins for that period.
 
 ```javascript
 // functions/coinmarketcap.js
@@ -100,7 +102,7 @@ module.exports = {
 
 <br>
 
-### 3\. Development of the API integration
+### 3\. Deployment of the application
 
 To deploy a serverless application, simply run
 
@@ -159,15 +161,15 @@ ServerlessDeploymentBucketName: coindataxdashdashbirddashdemo-dev-serverlessdepl
 
 ### 4\. Monitoring of the Lambda functions with Dashbird
 
-After you have successfully deployed your Lambda function, you quickly realize that AWS CloudWatch does not offer that many monitoring features for you to be in full control of your application. Dashbird helps a lot with that, with a dashboard that groups all your Lambdas in a single place, a live tailing of your application logs and more.
+After you have successfully deployed your Lambda function, you quickly realize that AWS CloudWatch does not offer that many monitoring features for you to be in full control of your application. Dashbird tries to fill that gap, with a dashboard that groups all your Lambdas in a single place, a live tailing of your application logs and more.
 
 ![Dashbird overview Dashboard](/images/blog/2018-05-01/dashbird-dashboard.png)
 
 What I love the most about Dashbird is that it was pretty easy to set it up, and at the same time it provided some very useful insights to our team. I literally spent less than 5 minutes configuring it, and we were able to have a much better understanding of our architecture.
 
-## Learning outcomes
+## Learning outcome
 
-Because of Dashbird, we noticed that all our Lambdas were running with a third of the allocated memory size, and that we could confidently reduce that threshold in order to reduce costs. The change was very simple to implement, as it sufficed to update the `memorySize` default parameter of serverless:
+Because of Dashbird, we noticed that all our Lambdas were running with a third of the allocated memory size, and that we could confidently reduce that threshold in order to reduce costs. The change was very simple to implement, as all we did was to update the `memorySize` default parameter of serverless:
 
 ```yml
 provider:
@@ -180,4 +182,4 @@ With one line of code we reduced our billing by 50%, and we are constantly monit
 
 ## Conclusion
 
-Serverless architecture has undoubtedly many advantages both small and big companies. Nevertheless, you should always take into account the unexpected debugging/monitoring time that you usually don't have in traditional server-based systems. With Dashbird, some of that can be reduced and maybe even eliminated, so that you end up with only the benefits.
+Serverless architecture has undoubtedly many advantages to both small and big companies. Nevertheless, you should always take into account the unexpected debugging/monitoring time that you wouldn't have with traditional server-based systems. By using Dashbird, some of that hurdle can be reduced and maybe even eliminated, so that you end up with only the benefits of serverless and AWS Lambda.
