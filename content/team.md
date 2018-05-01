@@ -58,7 +58,7 @@ things Serverless, we want to make functions better for everybody.</p>
     <div class="col-md-9" style="margin-bottom: 10%; margin-top: 4%;">
       <div class="row">
         <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center">
-          <img src="/images/team/annika.jpg" class="img-blue-border">
+          <img src="/images/team/annika1.jpg" class="img-blue-border">
           <img src="/images/pattern-blue.svg" class="pattern-blue">
         </div>
 

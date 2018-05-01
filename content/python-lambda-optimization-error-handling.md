@@ -1,7 +1,7 @@
 ---
 title: Python AWS Lambda Optimization & Error Handling Software - Dashbird
 description: Optimize your AWS Lambda functions for performance and cost while handling errors. No code changes required.
-thumbnail: "images/twitter/people-using-dashbird-lambda-serverless.jpg"
+thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00
 twitter_summary: 'summary_large_image'
 ---

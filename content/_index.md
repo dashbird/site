@@ -1,7 +1,7 @@
 ---
 title: AWS Lambda Monitoring, Debugging and Alerting - Dashbird
 description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
-thumbnail: "images/twitter/pretty-lady-dashbird-lambda-monitoring.jpg"
+thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-10-29T17:50:03+02:00
 ---
 
@@ -169,7 +169,7 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-  
+
 
   <div class="row justify-content-md-center align-items-center">
     <div class="col bg-white p-3 mb-5 mx-auto" style="max-width: 1200px;">
