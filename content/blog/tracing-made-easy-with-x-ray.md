@@ -8,51 +8,69 @@ authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
 ---
 
-![Dashbird Product Updates](/images/blog/02-05-2018/x-ray-update.jpg)
+![Dashbird Product Update - X-Ray](/images/blog/02-05-2018/x-ray-update.jpg)
 
-X-ray itself collects traces from apps. With traces its possible to see in a quick and low effort way whats happening to your app. 
-In terms of lambdas x-ray will be added automatically IF one checks the "enable monitoring" button in lambdas settings view. Enabling x-ray for lambda essentially means that all (unless sampling is available) lambda invocations from that lambda contain a information about the active trace. For lambda invocations the active trace will be added to lambda env and will be automatically picked up by x-ray.
+<i class="quote pull-left"><a href="https://aws.amazon.com/xray/">AWS X-Ray</a> helps developers analyze and debug production, distributed applications such as those built using a microservices architecture. <br> <span class="pull-right">- <a href="https://aws.amazon.com/xray/">AWS X-Ray</a> documentation<span></i>
+
+## What does it really mean?
+
+X-ray is a new service AWS offers which can collects traces from apps. But not just any apps. X-Ray covers the most sensitive types of infrastructure, your Serverless and distributed resources.
+
+What does tracing actually mean? It gives you the ability to have insight into the whole process of execution your application goes through. By using traces it's possible to quickly, without any additional effort, see what's happening to your software.
 
 
+## Get started
+In terms of AWS Lambda, X-Ray will be added automatically if you check the **enable monitoring** button in the Lambdas settings view. Enabling X-Ray for a Lambda Function essentially means that all invocations of that particular function contains information about the active trace (unless sampling is available). For all the Lambda invocations the **active trace** will be added to the Lambda environment and automatically picked up by X-Ray.
 
-When just enabling monitoring you will see a really - really high level overview of your function invocations. This is what you can see from AWS:
+Once you've enabled monitoring you will see a high level overview of your function invocations. Here's is what it looks like on AWS.
 
-![](/images/blog/02-05-2018/trace-1.png) 
+![](/images/blog/02-05-2018/trace-1.png)
 
-As you can see from here x-ray allows you to show the timing of lambda container as well. The dwell time measure there is the time spent waiting for the invocation etc. A lambda that contains only the basic one is this: 
+Check this out now! As you can see here, X-Ray allows you to see the timing of Lambda containers as well! How cool is that!? 
+
+_Note: The **dwell time** measure is the **time spent waiting for the invocation**._
+
+We at Dashbird gone a step further, and removed all the nonsense from AWS, only showing you the essential info you need. We are dedicated to making everything much easier to understand.
 
 ![](/images/blog/02-05-2018/trace-2-dashbirdapp.png)
 
-With Dashbird we try to make sense of that AWS graph shit by removing the nonsense, so it would make a bit more sense and would be easier to understand.
+## Unleash the real power of X-Ray
 
-The real power of x-ray however comes when you tie it to different aws services or send custom segments to that. For instance if you tie X-ray to dynamodb you can also see how much time it takes to contact dynamodb with all requests and all the errors + metadata for that (for added debugging).
+X-Ray shows its real power when you tie it to different AWS services or send them custom segments. Here's an example, if you tie X-Ray to DynamoDB you can see how much time it takes to get a response from DynamoDB, including all requests, all errors, with metadata included! The added bonus for debugging is incredible. Now you see why we're excited.
 
-A good example of this is function. 
+Check out this is function. 
 
 ![](/images/blog/02-05-2018/trace-3-dashbirdapp.png)
 
 
 The function does the following things:
 
-- it pushes random string to dynamodb
-- it fetches the random string from dynamodb
-- it triggers lambda invoke on another lambda
-- it triggers sns trigger to invoke another lambda.
+- Pushes a random string to DynamoDB
+- Fetches that same random string from DynamoDB
+- Triggers a Lambda invoke on another Lambda
+- Triggers an SNS trigger to invoke a Lambda
 
-As you can see there then everything aside from the sns trigger we can track just fine. This is how its showin in the AWS x-ray console. 
+As you can see we can track everything aside from the SNS trigger. Once again let's see the two images side by side to compare the overview. To the left is the default AWS Console, while the right image is Dashbird.
 
-![](/images/blog/02-05-2018/trace-4-aws-console.png)
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <img src="/images/blog/02-05-2018/trace-4-aws-console.png">
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <img src="/images/blog/02-05-2018/trace-5-dashbirdapp.png">
+  </div>
+</div>
 
-Like the simple example from above we try to clean up the traces a bit and this is our results.
+<br>
+From simple example from above you can see we try to clean up the traces and make the most important info clearly visible. This is our result.
 
-What's also really cool about this is the fact that you can see all the other resources touched by that Lambda
-when looking at the X-Ray logs.
+Another really cool fact about this is that you can see all the resources touched by that Lambda Function when looking at the X-Ray logs.
 
-![](/images/blog/02-05-2018/trace-5-dashbirdapp.png)
+Regarding the example from above we can actually see that it's also touching the `alpha-dev-push-receiver` function.
+It allows you to navigate to sub requests made from that Lambda, giving you an incredibly easy and cool way to see what's going on within the actual function invocation.
 
-
-We can actually see that it's also touching the `alpha-dev-push-receiver` function.
-It allows you to navigate to sub requests made from that Lambda. (we currently dont have a UI for that, but im hoping to finish that today), giving you a super easy and cool way to check whats going on within the actual function invocation
+## Conclusion
+With the addition of X-Ray, the family of monitoring services on AWS has reached an amazing growth. The tracing capabilities which make debugging so much easier are a welcome sight to Serverless Architectures. We have done our best to give you the ability to use X-Ray for tracing your Lambda Functions with Dashbird. Hope you liked reading this short product update. Feel free to let me know in the comments below if you have any questions or remarks!
 
 ---
 
