@@ -24,7 +24,7 @@ In terms of AWS Lambda, X-Ray will be added automatically if you check the **ena
 
 Once you've enabled monitoring you will see a high level overview of your function invocations. Here's is what it looks like on AWS.
 
-![](/images/blog/02-05-2018/trace-1.png)
+![AWS X-Ray tracing](/images/blog/02-05-2018/trace-1.png)
 
 Check this out now! As you can see here, X-Ray allows you to see the timing of Lambda containers as well! How cool is that!? 
 
@@ -32,7 +32,7 @@ _Note: The **dwell time** measure is the **time spent waiting for the invocation
 
 We at [Dashbird](htttps://dashbird.io/) gone a step further, and removed all the nonsense from AWS, only showing you the essential info you need. We are dedicated to making everything much easier to understand.
 
-![](/images/blog/02-05-2018/trace-2-dashbirdapp.png)
+![Dashbird X-Ray tracing](/images/blog/02-05-2018/trace-2-dashbirdapp.png)
 
 ## Unleash the real power of X-Ray
 
@@ -40,7 +40,7 @@ X-Ray shows its real power when you tie it to different AWS services or send the
 
 Check out this is function. 
 
-![](/images/blog/02-05-2018/trace-3-dashbirdapp.png)
+![Dashbird X-Ray tracing](/images/blog/02-05-2018/trace-3-dashbirdapp.png)
 
 
 The function does the following things:
@@ -54,10 +54,10 @@ As you can see we can track everything aside from the SNS trigger. Once again le
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
-    <img src="/images/blog/02-05-2018/trace-4-aws-console.png">
+    <img src="/images/blog/02-05-2018/trace-4-aws-console.png" alt="AWS X-Ray tracing">
   </div>
   <div class="col-xs-12 col-sm-6">
-    <img src="/images/blog/02-05-2018/trace-5-dashbirdapp.png">
+    <img src="/images/blog/02-05-2018/trace-5-dashbirdapp.png" alt="Dashbird X-Ray tracing">
   </div>
 </div>
 
