@@ -87,6 +87,7 @@ date: 2017-10-29T17:50:03+02:00
 
       </div>
     </div>
+  </div>
 
 
   <div class="row justify-content-md-center">
@@ -108,14 +109,14 @@ date: 2017-10-29T17:50:03+02:00
   </div>
 
    <div class="row">
-      <div class="col-md-12 mb-4">
-        <p class="lato h5 p-3 text-center">We aim for less than 24 hours response time for all support requests. <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
+      <div class="col-md-9 mb-4 m-auto">
+        <p class="lato h5 p-5">We aim for less than 24 hours response time for all support requests. <wbr> Need more? <a href='mailto:sales@dashbird.io'>Get in touch for Enterprise options.</a></p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-12 mb-5 mt-3">
-      <h3>Support for non-profits and startups</h3>
+      <div class="col-md-9 mb-5 m-auto">
+      <h3 class='text-center'>Support for non-profits and startups</h3>
       <p class="lato h5 p-3">Please write to <a href='mailto:support@dashbird.io'>support@dashbird.com</a> answering the questions below and we’d be happy to discuss this further.</p>
       <ul class=''>
         <li>Share something about your organisation – who you are and what do you do?</li>
