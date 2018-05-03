@@ -33,4 +33,4 @@ You can end your subscription any time from your [Subscription](https://app.dash
 *NB: there will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
 
 ---
-Check out what [features Dashbird offers](http://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
+Check out what [features Dashbird offers](https://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
