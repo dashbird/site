@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: FAQ - Changing Dashbird Password
 linktitle: How do I change my password?
-description: Frequently Asked Questions
+description: Do you need to change your Dashbird account password? You can do that on your profile page. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 500
 ---

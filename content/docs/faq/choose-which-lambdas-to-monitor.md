@@ -1,15 +1,15 @@
 ---
 date: 2017-06-05
 title: FAQ - Picking Specific AWS Lambda Functions To Monitor
-linktitle: Can I choose which Lambda Functions to monitor?
-description: Frequently Asked Questions
+linktitle: Can I choose which lambda functions to monitor?
+description: Can you pick and choose which specific lambda functions you want to track and monitor? Yes, you can filter the functions in Dashbird.
 kbSeries: ["FFAQ"]
 kbSeries_weight: 700
 ---
 
 <h2>
   <span class="h2 underlined bold">
-    Can I choose which Lambda Functions to monitor?
+    Can I choose which lambda functions to monitor?
   </span>
 </h2>
 **Yes!**
@@ -22,7 +22,7 @@ Filters are <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_
 
 Use <code>some-service-*</code> to include and <code>!some-service-prod-*</code> to exclude lambda functions. You can also use the `name includes` or `name excludes` to filter functions.
 
-By default, all Lambda Functions are imported to Dashbird.
+By default, all lambda functions are imported to Dashbird.
 
 ---
 

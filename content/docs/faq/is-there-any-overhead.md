@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: FAQ - AWS Lambda Performance Monitoring Overhead
 linktitle: Is there any overhead?
-description: Frequently Asked Questions
+description: Worried about your monitoring tool affecting your lambda functions? Worry not, Dashbird gets all the necessary data out of CloutWatch logs and doesn't affect the performance of your functions at all.
 kbSeries: ["FFAQ"]
 kbSeries_weight: 200
 ---
@@ -12,7 +12,7 @@ kbSeries_weight: 200
     Is there any overhead?
   </span>
 </h2>
-**Dashbird does <u>not</u> affect the performance of your Lambda functions.**
+**Dashbird does <u>not</u> affect the performance of your lambda functions.**
 
 Dashbird gets all of the information from logs when they reach AWS CloudWatch, meaning that the service has no effect on the execution itself.
 
