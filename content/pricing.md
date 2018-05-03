@@ -1,6 +1,6 @@
 ---
-title: "Dashbird Pricing - Lambda Functions Overview & Statistics"
-description: "Half a million Lambda invocations is free in Dashbird. Pick the best powerful metrics and analytics package for your needs."
+title: Dashbird Pricing - Affordable Serverless Observability Platform
+description: Dashbird plans are priced by the number of lambda functions and invocations. Premium features include webhooks and advanced log search. Get in touch for enterprise deals!
 date: 2017-10-29T17:50:03+02:00
 ---
 

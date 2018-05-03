@@ -1,6 +1,6 @@
 ---
-title: "AWS Lambda Performance Tracking - Dashbird"
-description: "Lambda performance tracking and optimization tool. Improve your Serverless cost and resource usage."
+title: AWS Lambda Performance And Cost Tracking - Dashbird
+description: Amazon lambda performance tracking and optimization platform. Account, microservice and function level monitoring based on CloudWatch logs. 
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---

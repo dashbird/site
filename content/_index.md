@@ -1,7 +1,6 @@
 ---
-title: AWS Lambda Monitoring, Debugging and Alerting - Dashbird
-description: "Real-time alerting and debugging tool Serverless for developers to build and fix Lambda functions quickly. Node.js, Python, Java and more."
-thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
+title: AWS Lambda Performance Monitoring & Debugging - Dashbird
+description: Get instant overview of all your lambda functions and save money by optimising your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
 dated: 2017-10-29T17:50:03+02:00
 ---
 

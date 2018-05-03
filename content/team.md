@@ -1,5 +1,6 @@
 ---
-title: "Dashbird Team - Lambda Activity Monitoring & Troubleshooting"
+title: Dashbird Team - Remote Team Behind Serverless APM Platform
+description: Dashbird team is leading the serverless revolution by helping software engineers to build better FaaS apps. We're hiring!
 date: 2017-10-29T17:50:03+02:00
 ---
 
