@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Best Practices
+title: Best Practices - Error Handling With AWS Lambda And Java
 linktitle: Java
-description: Catching and troubleshooting AWS Lambda errors.
+description: Catching and troubleshooting AWS Lambda errors when using Java. 
 kbSeries: ["EBest Practices"]
 kbSeries_weight: 300
 ---

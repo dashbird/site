@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Setting Up AWS Lambda Monitoring With Dashbird
 linktitle: How do I set up Dashbird?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]

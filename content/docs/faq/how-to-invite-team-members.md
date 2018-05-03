@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Inviting Team Members To Dashbird 
 linktitle: How do I invite my team members?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]

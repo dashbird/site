@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Picking Specific AWS Lambda Functions To Monitor
 linktitle: Can I choose which Lambda Functions to monitor?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]

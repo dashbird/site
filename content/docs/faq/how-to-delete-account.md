@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ 
+title: FAQ - How To Delete Account
 linktitle: How do I delete my account?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]

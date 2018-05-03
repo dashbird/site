@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Best Practices
+title: Best Practices - Error Handling With AWS Lambda And Node.js
 linktitle: Node.js
-description: Catching and troubleshooting AWS Lambda errors.
+description: Catching and troubleshooting AWS Lambda errors when using AWS Lambda with Node.js. 
 kbSeries: ["EBest Practices"]
 kbSeries_weight: 200
 ---

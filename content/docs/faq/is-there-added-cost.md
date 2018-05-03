@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Additional Cost To AWS Bill
 linktitle: Is there added cost to my AWS bill?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]

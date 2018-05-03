@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - AWS Lambda Monitoring Latency
 linktitle: Does Dashbird have latency?
 description: Frequently Asked Questions
 kbSeries: ["FFAQ"]
