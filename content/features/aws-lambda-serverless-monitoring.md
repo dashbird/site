@@ -1,6 +1,6 @@
 ---
-title: AWS Lambda Architecture Monitoring - Dashbird
-description: Get observability into AWS Lambda account, microservice, function and invocation level. 
+title: AWS Lambda Architecture Performance Monitoring - Dashbird
+description: AWS Lambda function, microservice and account level dashboards for actionable performance monitoring and debugging. 
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---

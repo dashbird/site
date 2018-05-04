@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Inviting Team Members To Dashbird
 linktitle: How do I invite my team members?
-description: Frequently Asked Questions
+description: Want to use Dashbird platform with your whole company? There are no additional costs for it and you can invite team members to join from the Users page. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 600
 ---

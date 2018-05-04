@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Best Practices
+title: Best Practices - Error Handling With AWS Lambda And Python
 linktitle: Python
-description: Catching and troubleshooting AWS Lambda errors.
+description: Catching and troubleshooting AWS Lambda errors when using AWS Lambda with Python. 
 kbSeries: ["EBest Practices"]
 kbSeries_weight: 100
 aliases:
@@ -46,7 +46,7 @@ Exceptions are parsed out automatically in Dashbird, and include a rundown of tr
 
 All calls made to AWS Lambda must complete execution within 300 seconds. The default timeout is 3 seconds, but you can set the timeout to any value between 1 and 300 seconds.
 
-Normally, error handling agents are unable to catch timeout errors, because the execution is halted on an upper level. Dashbird, however, reports timeouts like any other type of error. 
+Normally, error handling agents are unable to catch timeout errors, because the execution is halted on an upper level. Dashbird, however, reports timeouts like any other type of error.
 
 Timeouts are expressed in Lambda logs in the following way.
 

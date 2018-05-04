@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: FAQ 
+title: FAQ - How To Delete Account
 linktitle: How do I delete my account?
-description: Frequently Asked Questions
+description: If you need to delete your Dashbird account and revoke it's access to your AWS accounts, contact our support team. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 800
 ---

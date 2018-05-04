@@ -1,6 +1,6 @@
 ---
-title: "Dashbird Features - Performance & Cost Optimization, Error Tracking & Troubleshooting"
-description: "Best tool for finding problems and debugging in your AWS Lambda functions. Useful for tracking system performance and memory usage and searching through logs."
+title: Dashbird Features - FaaS Performance Stats, Error Tracking & Alerts
+description: Track your serverless system performance, memory usage and AWS costs. Real-time function tracing and live tailing make troubleshooting your lambdas truly effortless.
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---

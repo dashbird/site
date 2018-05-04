@@ -1,6 +1,6 @@
 ---
-title: "Dashbird Signup - Node, Python, Java Lambda Functions Monitoring & Debugging"
-description: "Start now - find problems in your AWS Lambdas and fix them today. The setup only takes 5 minutes and applies to all functions. No code changes necessary."
+title: Dashbird Signup - AWS Lambda Functions Monitoring Based On CloudWatch Logs
+description: Get instant overview of your serverless architecture performance, find problems in your lambda functions and fix them in real-time. 
 date: 2017-10-29T17:50:03+02:00
 ---
 

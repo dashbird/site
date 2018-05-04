@@ -32,7 +32,7 @@ We are giving special discounts or extended trial time in return of content cont
 
 ## Special features ##
 
-- *Startup, Pro and Business* plans all have extra features that are not included in the *Developer* plan. These features are [Log Search](http://dashbird.io/docs/user-guide/log-analytics/) and [Webhooks](http://dashbird.io/docs/user-guide/integrations/).
+- *Startup, Pro and Business* plans all have extra features that are not included in the *Developer* plan. These features are [Log Search](https://dashbird.io/docs/user-guide/log-analytics/) and [Webhooks](https://dashbird.io/docs/user-guide/integrations/).
 - all plan types include customer support
 
 ## Ending subscription ##
@@ -42,4 +42,4 @@ You can end your subscription any time from your [Subscription](https://app.dash
 *NB: there will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
 
 ---
-Check out what [features Dashbird offers](http://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
+Check out what [features Dashbird offers](https://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!

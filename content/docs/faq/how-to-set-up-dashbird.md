@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Setting Up AWS Lambda Monitoring With Dashbird
 linktitle: How do I set up Dashbird?
-description: Frequently Asked Questions
+description: Having trouble setting up Dashbird for serverless monitoring? It's very easy and takes only a couple of minutes. You need to link it to your AWS account. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 100
 ---

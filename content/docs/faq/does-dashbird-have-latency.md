@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - AWS Lambda Monitoring Latency
 linktitle: Does Dashbird have latency?
-description: Frequently Asked Questions
+description: Does Dashbird data have any delays? It usually takes only 1-2 minutes to see your execution data. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 400
 ---

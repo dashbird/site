@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: FAQ
+title: FAQ - Additional Costs For Using Log Based Monitoring
 linktitle: Is there added cost to my AWS bill?
-description: Frequently Asked Questions
+description: There is almost no additional cost to your AWS bill when you are using log based monitoring tools like Dashbird. 
 kbSeries: ["FFAQ"]
 kbSeries_weight: 300
 ---

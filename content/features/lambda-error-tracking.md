@@ -1,6 +1,6 @@
 ---
-title: Error Tracking and Debugging AWS Lambda
-description: "Best tool for finding problems and debugging in your AWS Lambda functions. Useful for tracking system performance and memory usage and searching through logs."
+title: AWS Lambda Failure Diagnostics, Error Alerts & Debugging - Dashbird
+description: Track your FaaS system performance, memory usage, estimated costs and error logs. Real-time debugging, tracing, live tailing and Slack error alerts.
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---
