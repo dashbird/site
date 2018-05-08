@@ -40,6 +40,15 @@ Now you can make your lambda function `async` and `await` every particular async
 
 That is so sexy! Finally a reason to use `try catch` blocks in JavaScript! I haven't seen one of those since 2015 when I last tortured myself with C#. Good times. Hope to forget them as soon as possible.
 
+**Re-write**:
+Another great advantage of async/await is better error handling. You can use a try/catch block inside the scope of an async function. Even though the function awaits an asynchronous operation, any errors end up in the catch block.
+
+**Re-write**:
+You may port your existing Node.js 4.3 and 6.10 functions over to Node.js 8.10 by updating the runtime. Node.js 8.10 does include numerous breaking changes from previous Node versions.
+Make sure to review the API changes between Node.js 4.3, 6.10, and Node.js 8.10 to see if there are other changes that might affect your code. We recommend testing that your Lambda function passes internal validation for its behavior when upgrading to the new runtime version.
+You can use Lambda versions/aliases to safely test that your function runs as expected on Node 8.10, before routing production traffic to it.
+
+
 ## Make sure to specify the new version
 While configuring the [Serverless Framework](https://serverless.com/) for local development, like every other sane human being, you need to specify the runtime underneath the `provider` section. Like this.
 
@@ -60,10 +69,12 @@ We at [Dashbird](https://dashbird.io/) have done our best to give you the abilit
 
 ![Dashbird Lambdas showing Node.js versions](/images/blog/08-05-2018/app-node-versions.png)
 
-
-___ 
-
-## New node features
+## Why would you want the new runtime?
+**Re-write**:
 You can now get better performance when compared to the previous LTS version 6.x (up to 20%). The new V8 6.0 engine comes with Turbofan and the Ignition pipeline, which leads to lower memory consumption and faster startup time across Node.js applications.
 
 HTTP/2, which is subject to future changes, allows developers to use the new protocol to speed application development and undo many of HTTP/1.1 workarounds to make applications faster, simpler, and more powerful.
+
+___
+
+_We aim to improve [Dashbird](https://dashbird.io/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about these improvements and new features! We would really appreciate it!_
