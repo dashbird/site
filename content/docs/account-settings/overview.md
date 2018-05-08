@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: Dashbird Central Account Overview
 linktitle: Overview
-description: This is where you can configure your Dashbird account settings: add new organization, configure importer settings, invite users, set up alerts and more.
+description: This is where you can configure your Dashbird account settings, add new organizations, configure importer settings, invite users, set up alerts and more.
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 100
 ---
