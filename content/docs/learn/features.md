@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Features
+title: Dashbird Serverless Monitoring & Debugging Features
 linktitle: Features
-description: Deliver Quality AWS Lambda Functions
+description: Launch great serverless software and websites with the help of Dashbird. See central lambda functions overview, get error notifications and much more.
 kbSeries: ["ALearn"]
 kbSeries_weight: 200
 ---
@@ -10,7 +10,7 @@ kbSeries_weight: 200
 
 #### Dashbird makes sure your application works at all times. It works by collecting logs through your AWS Cloudwatch API.
 
-By fetching existing logs from your AWS account, Dashbird helps you have a bird's eye perspective on all Lambda Functions, resources, and services. 
+By fetching existing logs from your AWS account, Dashbird helps you have a bird's eye perspective on all Lambda Functions, resources, and services.
 
 **Keep reading to get detailed insight into what Dashbird has to offer.**
 <br>**Or, [click here to jump into our Quick Start!](/docs/get-started/quick-start)**

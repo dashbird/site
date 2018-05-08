@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Dashbird Billing
+title: Dashbird Billing Is Based On Invocations And Functions Count
 linktitle: Billing
 description: Dashbird is a subscription based service that is billed monthly or yearly. The fee depends on the subscription type.
 kbSeries: ["EAccount Settings"]

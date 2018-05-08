@@ -1,7 +1,8 @@
 ---
 date: 2017-06-05
-title: AWS Lambda Monitoring with Dashbird
-linktitle: How it works
+title: Dashbird Works By Using AWS Public APIs
+linktitle: How it works?
+description: Dashbird connects with AWS public APIs and collects logs from CloudWatch. We turn these logs into actionable metrics that can be used for monitoring serverless functions. 
 kbSeries: ["ALearn"]
 kbSeries_weight: 300
 aliases:

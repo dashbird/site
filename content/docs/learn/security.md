@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Security with Dashbird
+title: Dashbird Security Overview
 linktitle: Security
-description: Overview of Dashbird security
+description: Dashbird is taking security very seriously. Our clients' data is encrypted and stored in AWS S3 buckets.
 kbSeries: ["ALearn"]
 kbSeries_weight: 400
 ---
