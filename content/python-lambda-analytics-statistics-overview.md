@@ -1,5 +1,5 @@
 ---
-title: Python Lambda Analytics, Statistics & Overview - Dashbird
+title: Serverless Python Analytics, Statistics & Overview - Dashbird
 description: Analyze Lambda function performance and make optimization decisions with log-based monitoring. Get up and running in 96 seconds!
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00

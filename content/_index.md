@@ -1,6 +1,6 @@
 ---
-title: AWS Lambda Performance Monitoring & Debugging - Dashbird
-description: Get instant overview of all your lambda functions and save money by optimising your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
+title: Serverless Performance Monitoring & Debugging Tool - Dashbird
+description: Get instant overview of all your AWS Lambda functions and save money by optimising your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
 dated: 2017-10-29T17:50:03+02:00
 ---
 

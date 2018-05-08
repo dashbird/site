@@ -1,5 +1,5 @@
 ---
-title: AWS Lambda Failure Diagnostics, Error Alerts & Debugging - Dashbird
+title: AWS Lambda Failure Diagnostics, Error Alerts & Debugger - Dashbird
 description: Track your FaaS system performance, memory usage, estimated costs and error logs. Real-time debugging, tracing, live tailing and Slack error alerts.
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00

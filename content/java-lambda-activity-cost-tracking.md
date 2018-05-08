@@ -1,5 +1,5 @@
 ---
-title: Java 8 Lambda Activity & Cost Tracking Software - Dashbird
+title: Java 8 AWS Lambda Activity & Cost Tracking Software - Dashbird
 description: Optimize AWS Lambda functions in Java 8 towards performance or cost. Set up in 96 seconds, no code changes required.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00
