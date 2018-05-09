@@ -1,7 +1,7 @@
 ---
 title: AWS Lambda Now Supports Node.js Version 8.10!
 description: A best practices walkthrough of how to write efficient Node.js 8.10 code on AWS Lambda. This is packed with examples of how to re-write your existing Node.js 6.10 code as well!
-date: 2018-05-08
+date: 2018-05-09T01:00:00.000Z
 frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
 thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'

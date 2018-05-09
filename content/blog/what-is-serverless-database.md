@@ -1,7 +1,7 @@
 ---
 title: What Is a Serverless Database? (Overview of Providers, Pros & Cons)
 description: These systems of databases expand the serverless execution model to a Relational Database Management System (RDBMS), which eliminates the need for the physical or even virtual database hardware.
-date: 2018-05-07T00:00:00.000Z
+date: 2018-05-09T00:00:00.000Z
 frontImage: 2018-05-07/sysadmin.jpg
 thumbnail: /images/blog/2018-05-07/sysadmin.jpg
 author: Nemanja Novkovic
