@@ -1,6 +1,6 @@
 ---
 title: AWS Lambda Now Supports Node.js Version 8.10!
-description: A best practices walkthrough of how to write efficient Node.js v.8.10 code on AWS Lambda. This is packed with examples of how to re-write your existing Node.js v.6.10 code as well!
+description: A best practices walkthrough of how to write efficient Node.js 8.10 code on AWS Lambda. This is packed with examples of how to re-write your existing Node.js 6.10 code as well!
 date: 2018-05-08
 frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
 thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
@@ -32,7 +32,7 @@ How amazing is this!? No more fiddling with annoying callbacks. Using `Promises`
 
 My life has just become **40% more joyful**, just by starting to use `Promises` in my lambda functions. If you want to know why exactly 40%, hit me with a comment below. I may be joking, just a bit. **\*wink\* \*wink\***
 
-## What about the fancy new ES6+ syntax sugar?
+## What about the fancy new ES6+ syntax?
 Okay, so using `Promises` is amazing, but that's not all. You know about my good friend `async` and his twin brother `await`? Yeah, I had a chat with them a while back and to be honest, they're thrilled to finally be invited aboard the serverless hype train. **\*crowd cheers\***
 
 Now you can make your lambda function `async` and `await` every particular asynchronous piece of code within the lambda itself! Have a look below.
