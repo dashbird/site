@@ -12,10 +12,10 @@ _Image shows my happiness after AWS stated they would support Node.js version 8.
 
 ___
 
-With the state of serverless growing at an exponential rate during the last year, it's no surprise developers across the globe have flocked to use **AWS Lambda as their main serverless compute engine**. AWS has a steady track record of covering all the main needs of developers, devops engineers and even C-level tech executives. Hell, I've been using it for a couple of years, and still haven't come close to check out even half of their offering. 
+With the state of serverless growing at an exponential rate during the last year, it's no surprise developers across the globe have flocked to use **AWS Lambda as their main serverless compute engine**. AWS has a steady track record of covering all the main needs of developers, DevOps engineers and even C-level tech executives. Hell, I've been using it for a couple of years, and still haven't come close to check out even half of their offering. 
 
 ## Disappointment turned to joy 
-So, after all that, tell me, why haven't we had the joy of using the newest version of Node.js on AWS Lambda? Strange indeed. The _de facto_ go to compute service for serverless has limited Node.js developers to use outdated versions of their favorite language **\*sad face\***. All that changes now, **with the [public release](https://aws.amazon.com/blogs/compute/node-js-8-10-runtime-now-available-in-aws-lambda/) of a new supported version of Node.js. To be more precise, it's version `8.10`. We now finally have beloved features at our disposal running natively in the AWS Lambda runtime.** Praise all things holy!
+So, after all that, tell me, why haven't we had the joy of using the newest version of Node.js on AWS Lambda? Strange indeed. The _de facto_ go-to compute service for serverless has limited Node.js developers to use outdated versions of their favorite language **\*sad face\***. All that changes now, **with the [public release](https://aws.amazon.com/blogs/compute/node-js-8-10-runtime-now-available-in-aws-lambda/) of a new supported version of Node.js. To be more precise, it's version `8.10`. We now finally have beloved features at our disposal running natively in the AWS Lambda runtime.** Praise all things holy!
 
 ## Out with the old, in with the new
 Remember that clunky `callback` parameter every lambda function has? Here's some pseudo code showing a generic login function.
@@ -41,7 +41,7 @@ Now you can make your lambda function `async` and `await` every particular async
 
 That is so sexy! Finally a reason to use `try/catch` blocks in JavaScript! I haven't seen one of those since 2015 when I last tortured myself with C#. Good times. Hope to forget them as soon as possible.
 
-With synchronous looking code you get much better error handling and general visibility. The code is _flat_ without any excessive indents. Using the `try/catch` block inside an `async` function will make sure all errors are handled even if the scope of the function is awaiting asynchronous operations.
+With synchronous-looking code you get much better error handling and general visibility. The code is _flat_ without any excessive indents. Using the `try/catch` block inside an `async` function will make sure all errors are handled even if the scope of the function is awaiting asynchronous operations.
 
 Porting your existing functions from **Version `6.10` to `8.10`** can cause some issues, but for the most generic use cases you'll be just fine. But to be safe, make sure to test your ported functions first, before you start routing production traffic to them. It also helps to write tests cases and even test things locally. Once you're confident, and deploy it all, [Dashbird](https://dashbird.io/) will help you get a bird's eye perspective of all your functions. You can rest assured we've got your back.
 
