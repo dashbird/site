@@ -58,6 +58,8 @@ We at [Dashbird](https://dashbird.io/) have done our best to give you the abilit
 ![Dashbird Lambdas showing Node.js versions](/images/blog/08-05-2018/app-node-versions.png)
 _With a clear overview of all your functions you can see key info including the runtime._
 
+___
+
 Another cool thing you can do is to deploy the same functions but with different runtimes. This will let you monitor their execution ([even in real-time](/docs/user-guide/debugging/)) and see where they fail because of differences in the runtime! Call me a nerd, but this is so cool.
 
 ## Why would you want the new runtime?
