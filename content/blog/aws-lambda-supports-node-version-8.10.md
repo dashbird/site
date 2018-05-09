@@ -24,7 +24,7 @@ _**Note**: Examples are written in Node.js using the Serverless Framework._
 
 <script src="https://gist.github.com/adnanrahic/693516c84cdb318b6335a1dd82a51a2e.js"></script>
 
-Yeah, well now you don't need `callback`s anymore! Because `Promises` are totally native in the new Node.js version, we can now just return the whole `Promise` chain instead! Don't believe me? Check it!
+Yeah, well now you don't need `callback`s anymore! With this new Node.js version the Gods of AWS have given us the possibility to leverage `Promise` chains for lambda handlers. Remember those wrappers you used to write to handle promises? Yes, those... Well, you can throw them out and just return a `Promise` chain now. Don't believe me? Check it!
 
 <script src="https://gist.github.com/adnanrahic/e8b45fb452f5ce53d3907b9f184b22c8.js"></script>
 
@@ -65,7 +65,7 @@ Another cool thing you can do is to deploy the same functions but with different
 ## Why would you want the new runtime?
 The key reasons are simple. New things are shiny and better. That would be the layman's explanation. But in all honesty, it often is the case. Compared to the **previous Node.js LTS version, Version 6.x, performance has been boosted by `~20%`**. Even [AWS themselves claim](https://aws.amazon.com/blogs/compute/node-js-8-10-runtime-now-available-in-aws-lambda/) the new V8 6.0 engine will lower memory consumption and guarantee a faster startup time across Node.js lambda functions! 
 
-Apart from the engine itself, HTTP/2 has been introduced, making the web as a whole so much better. The new protocol fixes a vast number of workarounds and issues HTTP/1.1 had. We can now be confident our apps running on AWS Lambda will be simpler, and much faster!
+Apart from the engine itself, HTTP/2 has been introduced, making the web as a whole so much better. The new protocol fixes a vast number of workarounds and issues HTTP/1.1 had. We can now be confident our apps running on AWS Lambda will be simpler, and much faster! Unfortunately we still have to wait for AWS to provide us with HTTP/2 support for AWS API Gateway to fully leverage this feature.
 
 I can't wait to start building with Node.js Version 8.10! My gut tells me you're eager too.
 
