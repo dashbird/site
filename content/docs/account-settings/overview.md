@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Dashbird account Overview
+title: Dashbird Central Account Overview
 linktitle: Overview
-description: Figure out your best billing system.
+description: This is where you can configure your Dashbird account settings, add new organizations, configure importer settings, invite users, set up alerts and more.
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 100
 ---
@@ -50,7 +50,7 @@ To read more about [Alerting](/docs/user-guide/alerting/) jump over to that sect
 The **Subscriptions** tab defines which subscription you are currently using, with the options of upgrading to other plans.
 
 ## Invite users
-If you wish, you can go ahead and invite users to your organization. This way all your team members can have access to the same **Organization** in your Dashbird account. 
+If you wish, you can go ahead and invite users to your organization. This way all your team members can have access to the same **Organization** in your Dashbird account.
 
 ![Invite Users](/images/docs/client-invite-user.png)
 

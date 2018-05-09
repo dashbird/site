@@ -1,5 +1,5 @@
 ---
-title: Python AWS Lambda Performance Tracking Software - Dashbird
+title: Python FaaS Monitoring & Troubleshooting Software - Dashbird
 description: Monitor the performance and cost of your Python AWS Lambda functions.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00

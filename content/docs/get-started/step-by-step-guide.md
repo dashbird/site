@@ -1,13 +1,13 @@
 ---
 date: 2017-06-05
-title: Dashbird Step by Step Guide
+title: Dashbird Serverless Monitoring Step By Step Guide
 linktitle: Step by step guide
-description: Step by step guide
+description: Step by step guide that gives software engineers and CTOs the most comprehensive overview of Dashbird's monitoring and debugging features. 
 kbSeries: ["BGet Started"]
 kbSeries_weight: 300
 ---
 
-Dashbird's goal is to give you an easy way to monitor your AWS Lambda Functions. We manage this through the concept of using **Organizations**, where one organization is one connected **AWS Account**. [Check this out](/docs/user-guide/organizations/)  for a more detailed explanation! 
+Dashbird's goal is to give you an easy way to monitor your AWS Lambda Functions. We manage this through the concept of using **Organizations**, where one organization is one connected **AWS Account**. [Check this out](/docs/user-guide/organizations/)  for a more detailed explanation!
 
 But for now, let's jump into explaining the **Organization settings**.
 
@@ -38,7 +38,7 @@ The **Alerting** tab let's you enable company-wide alerts if your Lambda Functio
 The **Subscriptions** tab defines which subscription you are currently using, with the options of upgrading to other plans.
 
 ## Invite users
-If you wish, you can go ahead and invite users to your organization. This way all your team members can have access to the same **Organization** in your Dashbird account. 
+If you wish, you can go ahead and invite users to your organization. This way all your team members can have access to the same **Organization** in your Dashbird account.
 
 ![Invite Users](/images/docs/client-invite-user.png)
 

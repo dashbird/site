@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: Quick Start with Dashbird
+title: Quick Start Tutorial For Dashbird Serverless Monitoring
 linktitle: Quick start
 description: Quick start
 kbSeries: ["BGet Started"]
@@ -62,7 +62,7 @@ aliases:
 - Move on and press **Create Policy**
 
 Great! You've created an access policy. Now you need to add an AWS role.
-  
+
 <br>
 
 <h2>
@@ -92,7 +92,7 @@ Great! You've created an access policy. Now you need to add an AWS role.
 
 <br>
 
-### 
+###
 <h2>
   <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
 </h2>

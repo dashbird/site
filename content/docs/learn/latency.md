@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Does Dashbird have any Latency? 
+title: Does Dashbird Have Any Latency?
 linktitle: Latency
-description: Overview of the latency while using Dashbird
+description: It typically takes close to 60 seconds for Dashbird to visualise your data.
 kbSeries: ["ALearn"]
 kbSeries_weight: 600
 ---

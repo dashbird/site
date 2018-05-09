@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Dashbird Subscription
+title: Dashbird Free Trial & Subscriptions
 linktitle: Subscription
-description: Dashbird subscriptions are based on your lambda and invocations count. Dashbird subscriptions are billed monthly or yearly in advance.
+description: Dashbird subscriptions are based on your lambda functions and invocations count. Dashbird subscriptions are billed monthly or yearly in advance.
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 300
 ---

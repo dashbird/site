@@ -1,5 +1,5 @@
 ---
-title: Java Lambda Alerts & Debugging Dashboard Tool - Dashbird
+title: Java Serverless Monitoring & Debugging Dashboard Tool - Dashbird
 description: Developing Lambda functions in Java? Dashbird shows you the big picture and details by analyzing CloudWatch logs.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00

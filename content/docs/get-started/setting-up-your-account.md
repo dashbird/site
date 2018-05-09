@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Set up your Dashbird Account
+title: Dashbird Account Setup In 2 Minutes
 linktitle: Setting up your account
-description: Setting up your account
+description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented. 
 kbSeries: ["BGet Started"]
 kbSeries_weight: 200
 alias:
@@ -10,7 +10,7 @@ alias:
   - /docs/settings/configuring-dashbird/
 ---
 
-Once you've configured your AWS account to connect to Dashbird, get ready to find out the basics about your account settings. 
+Once you've configured your AWS account to connect to Dashbird, get ready to find out the basics about your account settings.
 
 ## User settings
 
