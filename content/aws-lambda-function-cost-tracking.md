@@ -49,7 +49,7 @@ twitter_summary: 'summary_large_image'
           <p class="lato h4 lh-2">Get detailed overview of your lambda functions and see how much money each one is costing you.
           <br />
           <br />
-          In addition to cost tracking, you can also check how many times your function has been invoked and keep an eye on it's overall health. </p>
+          In addition to cost tracking, you can also check how many times your function has been invoked and keep an eye on its overall health. </p>
         </div>
       </div>
     </div>
@@ -60,10 +60,10 @@ twitter_summary: 'summary_large_image'
       <div class="row">
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Improve code with function-level error analytics</h3>
-          <p class="lato h4 lh-2">Deliver better code by analysing all the errors for specific lambda function.
+          <p class="lato h4 lh-2">Deliver better code by analysing all the errors for specific lambda functions.
           <br/>
           <br/>
-          See exactly how many times, when and where the errors occurred and fix the functions with an ease.</p>
+          See exactly how many times, when and where the errors occurred, and fix the functions with ease.</p>
         </div>
         <div class="col-md-5 text-right imgs-fluid">
           <img src="/images/screens/lambda-function-error.png">
@@ -80,8 +80,8 @@ twitter_summary: 'summary_large_image'
         </div>
 
         <div class="col-md-7 text-center text-md-left pt-4">
-          <h3>Get bird's-eye view of all your functions</h3>
-          <p class="lato h4">Get comprehensive overview of all the metrics that show you where you have the most traffic and how your system is performing across the board.
+          <h3>Get a bird's-eye view of all your functions</h3>
+          <p class="lato h4">Get a comprehensive overview of all the metrics that show you where you have the most traffic and how your system is performing across the board.
           <br/>
           <br/>
           Sleep better at night, knowing that all of your lambda functions are being monitored and tracked for possible errors.
