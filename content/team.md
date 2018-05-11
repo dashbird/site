@@ -32,10 +32,10 @@ things Serverless, we want to make functions better for everybody.</p>
   </div>
 
   <div class="row justify-content-md-center align-items-center mt-5">
-    <div class="col-md-9">
+    <div class="col-md-9 mb-5">
       <div class="row">
 
-        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-md-none" style="max-height: 485px;">
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-md-none">
           <img src="/images/team/taavi.jpg" class="img-green-border">
           <img src="/images/pattern-green.svg" class="pattern-green">
         </div>
@@ -47,7 +47,7 @@ things Serverless, we want to make functions better for everybody.</p>
           <p class="lato h4 mt-4">Taavi is a skydiver and a godfather to Mikk's puppy. In addition, he occasionally coaches kitesurfing, just to be sure the back-end guy stays alive.</p>
         </div>
 
-        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block" style="max-height: 485px;">
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block">
           <img src="/images/team/taavi.jpg" class="img-green-border">
           <img src="/images/pattern-green.svg" class="pattern-green">
         </div>
@@ -56,7 +56,7 @@ things Serverless, we want to make functions better for everybody.</p>
   </div>
 
   <div class="row justify-content-md-center align-items-center mt-5">
-    <div class="col-md-9" style="margin-bottom: 10%; margin-top: 4%;">
+    <div class="col-md-9 mb-5">
       <div class="row">
         <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center">
           <img src="/images/team/annika1.jpg" class="img-blue-border">
@@ -75,5 +75,28 @@ things Serverless, we want to make functions better for everybody.</p>
     </div>
   </div>
 
+  <div class="row justify-content-md-center align-items-center mt-5">
+    <div class="col-md-9 mb-5">
+      <div class="row">
+
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-md-none">
+          <img src="/images/team/adnan.png" class="img-green-border">
+          <img src="/images/pattern-green.svg" class="pattern-green">
+        </div>
+
+        <div class="col-md-6 bg-md-white team-text pt-5">
+          <h1 class="">Adnan Rahić</h1>
+          <span class="text-muted">DEVELOPER & ADVOCATE</span>
+          <p class="lato h4 mt-4">Adnan is a unicorn. He's a developer, teacher and author with experience in Serverless, and DevOps.</p>
+          <p class="lato h4 pt-4">He talks way too much for being a developer, and practices magic when nobody is around. Not strange at all.</p>
+        </div>
+
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block">
+          <img src="/images/team/adnan.png" class="img-green-border">
+          <img src="/images/pattern-green.svg" class="pattern-green">
+        </div>
+      </div>
+    </div>
+  </div>
 
 </section>
