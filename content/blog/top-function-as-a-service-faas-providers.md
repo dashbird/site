@@ -1,7 +1,7 @@
 ---
 title: Top Function As A Service (Faas) Providers
 description: Check out all the FaaS providers developers have at their disposal when going serverless!
-date: 2018-05-13T00:00:00.000Z
+date: 2018-05-14T00:00:00.000Z
 frontImage: "14-05-2018/faas-providers.jpeg"
 thumbnail: "images/blog/14-05-2018/faas-providers.jpeg"
 author: Nemanja Novkovic
@@ -11,7 +11,7 @@ author: Nemanja Novkovic
 
 ## What Is FaaS?
 
-**Function as a Service (FaaS)** is a relatively new service of cloud computing. It provides a platform that helps users develop, manage and run functionalities of their applications without the complexities of building the infrastructure and maintaining it which always follows launching an app. FaaS in a brand-new development in cloud computing and it was presented in the world in October 2014 by the hook.io website. Since then, numerous FaaS providers came along like AWS, Google Cloud, Microsoft Azure, IBM/Apache’s Open Whisk which is open source from 2016 and Oracle Cloud in 2017 also being open source.
+**Function as a Service (FaaS)** is a relatively new service of cloud computing. It provides a platform that helps users develop, manage and run functionalities of their applications without the complexities of building the infrastructure and maintaining it which always follows launching an app. [FaaS](https://en.wikipedia.org/wiki/Function_as_a_service) in a brand-new development in cloud computing and it was presented in the world in October 2014 by the [hook.io](http://hook.io/) website. Since then, numerous FaaS providers came along like AWS, Google Cloud, Microsoft Azure, IBM/Apache’s Open Whisk which is open source from 2016 and Oracle Cloud in 2017 also being open source.
 
 ## Advantages And Disadvantages Of Using FaaS
 Let's quickly run through all the awesomeness and pain points fo FaaS.
@@ -29,7 +29,7 @@ Let's quickly run through all the awesomeness and pain points fo FaaS.
 1. **Latency** – It’s not a good idea to use FaaS for Fintech high-performance applications since FaaS will add more latency.
 2. **Limits** – Execution time is 300s on AWS and 500s on Google, while memory on AWS is 1500MB.
 3. **No local data storage** – For most of your data this is a good thing. Your application needs to be stateless nevertheless, and that can be a serious limitation.
-4. **Debugging and monitoring** – There are [growing solutions for the issue on how to debug or test](https://dashbird.io/) locally and offline, but it’s still not perfected. The guys at [Dashbird](https://dashbird.io/) are busting their butts to make this segment amazing!
+4. **Debugging and monitoring** – There are [growing solutions for the issue on how to debug or test](/blog/4-tools-build-serverless-architectures/) locally and offline, but it’s still not perfected. The guys at [Dashbird](https://dashbird.io/) are busting their butts to make this segment amazing!
 5. **There are always risks when using new technologies.** Lousy stability and frameworks, lack of tools, libraries and so on.
 6. **Vendor lock-in** – If anything happens to your FaaS providers, maybe the company shuts down or even goes bankrupt, you will have a severe problem.
 
