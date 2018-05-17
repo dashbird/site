@@ -13,7 +13,6 @@ Serverless adoption has become a popular topic of discussion and the methodology
 
 A growing community of enthusiasts has emerged and we wanted to find out what these serverless evangelists predict for the future - when will serverless computing become the norm, who are the biggest winners/losers and  how to get more people to try it out?
 
-_These are unedited interviews, if you want to read a summary of it - go read this article! (link)_
 ___
 
 
