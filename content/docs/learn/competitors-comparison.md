@@ -19,6 +19,8 @@ Currently Dashbird uses logs for everything. This gives a real-life overview of 
 
 Taking this approach, Dashbird experience can be really **low friction and high granularity, with a price of slight delay.** Users don't need to make any code changes but still get a really good overview, with the possibility to go very deep into a function, seeing all the need data.
 
+_NB: we recently <a href="https://dashbird.io/blog/tracing-lambda-functions-with-aws-x-ray/ targte="blank"> added AWS X-Ray support<a/> that brings more value to tracing and debugging._
+
 ## PROS:
 * low cost
 * high granularity
@@ -39,7 +41,7 @@ Learn more about all the <a href="https://dashbird.io/docs/learn/features/ targe
   </span>
 </h2>
 
-Datadog uses StatsD protocol and metrics to capture information about lambdas. StatsD (or DogStatsD) is a time series metrics protocol where you can push custom events (like tasks added N) and then show data in Datadog environment. Using Statsd protocol means that you have to use Datadog library in your code and push the metrics manually.
+Datadog uses StatsD protocol and metrics to capture information about lambdas. StatsD (or DogStatsD) is a time series metrics protocol where you can push custom events (like tasks added N) and then show data in Datadog environment. Using StatsD protocol means that you have to use Datadog library in your code and push the metrics manually.
 
 Datadog is doing monitoring that is based on metrics and that means they are fetching all the required metrics for lambda functions and then showing them on their dashboard. This approach is also **low friction, but has a really low granularity** (metrics are gathered and aggregated to 1 minute intervals). It's a really good way to get a nice overview of your lambda functions, but you won't see the real problems.
 
@@ -55,7 +57,6 @@ Datadog is doing monitoring that is based on metrics and that means they are fet
 * relatively high cost when dealing with large lambda services
 * really low granularity
 * not possible to dive into request specifics
-* no logs
 
 <h2>
   <span class="h2 underlined bold">
@@ -71,7 +72,7 @@ IOpipe does not automatically fetch lambda invocation logs, however they have a 
 
 That being said, their approach of sending you data means that they have no potential max amount of data they can receive. The approach that IOpipe has taken, can be used with unlimited amount of invocations, assuming that their backend can handle the load.
 
-IOpipe's approach also means that they **can only support a few languages**, currently they only support Node and are working on JVM based languages and that can be a huge disadvantage.
+IOpipe's approach also means that they **can only support a few languages**, currently they support Node, Python and Java.
 
 
 ## PROS:
@@ -79,7 +80,7 @@ IOpipe's approach also means that they **can only support a few languages**, cur
 * high technical insights of function performance (can drill down to request overhead etc)
 * depends on the implementation, but potentially realtime debugging possibilities
 * user does not need to give access to their AWS
-* hard to off-board (changing all lambda functions is a headache)
+
 
 
 ## CONS:
@@ -89,8 +90,7 @@ IOpipe's approach also means that they **can only support a few languages**, cur
 * overhead to lambda invocation execution times
 * dependent on IOpipe's platform (if there is a bug in the wrapper your lambda might fail because of that)
 * only supports a few languages
-* really hard to add new languages
-
+* hard to off-board (changing all lambda functions is a headache)
 
 
 ---

@@ -51,6 +51,21 @@ aliases:
             "Effect": "Allow",
             "Action": "lambda:listFunctions",
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "lambda:listTags",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "xray:Get*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "xray:BatchGet*",
+            "Resource": "*"
         }
     ]
 }
