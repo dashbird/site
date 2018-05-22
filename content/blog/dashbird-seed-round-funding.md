@@ -14,7 +14,7 @@ We are very excited to announce that we have officially closed the seed round fu
 
 ## What are we doing with the money?
 
-We aim to <a href="https://dashird.io/jobs" target="blank"> hire up to 10 new people<a/> in order to widen our product offering and to educate the general public about the benefits of Dashbird and serverless computing in general. **We are planning to build out integrations for event sources and to cover all major cloud providers by the end of 2018.**
+We aim to <a href="https://dashbird.io/jobs" target="blank"> hire up to 10 new people<a/> in order to widen our product offering and to educate the general public about the benefits of Dashbird and serverless computing in general. **We are planning to build out integrations for event sources and to cover all major cloud providers.**
 
 
 Our ambition is to be the best serverless monitoring and debugging platform that offers a lot of value to all the companies that are building serverless systems. We also want to push the serverless movement forward because we believe it will be the <a href="https://hackernoon.com/serverless-survey-77-delivery-speed-4-dev-workdays-mo-saved-26-aws-monthly-bill-d99174f70663" target="blank"> next major paradigm shift<a/> in cloud computing.
