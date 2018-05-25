@@ -4,6 +4,7 @@ description: A quick walkthrough of how to create a lambda functions with Node.j
 date: 2018-05-21T01:00:00.000Z
 frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
 thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
+canonical: https://dev.to/adnanrahic/getting-started-with-aws-lambda-and-nodejs-1kcf
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 ---
