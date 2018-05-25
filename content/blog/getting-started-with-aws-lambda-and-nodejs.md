@@ -1,9 +1,9 @@
 ---
 title: Getting Started with AWS Lambda and Node.js
-description: A quick walkthrough of how to create a lambda functions with Node.js
-date: 2018-05-21T01:00:00.000Z
-frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
-thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
+description: ...Little did I know what AWS Lambda was, and how incredibly awesome it is. If you're intrigued, stick around. I'll only take a few minutes out of your already busy day, and you surely won't mind...
+date: 2018-05-31T00:00:00.000Z
+frontImage: "26-05-2018/getting-started-lambda-node.jpg"
+thumbnail: "images/blog/26-05-2018/getting-started-lambda-node.jpg"
 canonical: https://dev.to/adnanrahic/getting-started-with-aws-lambda-and-nodejs-1kcf
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
