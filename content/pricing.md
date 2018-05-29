@@ -91,7 +91,7 @@ date: 2017-10-29T17:50:03+02:00
 
 
   <div class="row justify-content-md-center">
-    <div class="col justify-content-md-center text-center cta-blue bg-cta br-7 mb-8 mt-5 pt-5 pb-5 mx-auto" style="max-width: 832px;" >
+    <div class="col justify-content-md-center text-center cta-blue bg-cta br-7 mb-3 mt-5 pt-5 pb-3 mx-auto" style="max-width: 832px;" >
       <span class="h1 pt-5">No code changes, no re-deploys.</span>
       <h3 class="mt-3">Catch errors before your users do, always.</h3>
       <div class="row justify-content-md-center">
@@ -115,7 +115,7 @@ date: 2017-10-29T17:50:03+02:00
     </div>
 
     <div class="row">
-      <div class="col-md-9 mb-5 m-auto">
+      <div class="col-md-9 pb-5 m-auto">
       <h3 class='text-center'>Support for non-profits and startups</h3>
       <p class="lato h5 p-3">Please write to <a href='mailto:support@dashbird.io'>support@dashbird.com</a> answering the questions below and we’d be happy to discuss this further.</p>
       <ul class=''>
