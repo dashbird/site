@@ -1,9 +1,10 @@
 ---
 title: Running an e-commerce website on serverless
-description: Getting started with serverless for ecommerce with a tutorial
-date: 2018-05-29
+description: Getting started with serverless for e-commerce with a quick tutorial!
+date: 2018-05-29T01:00:00.000Z
 frontImage: "14-02-2018/optimize-lambda-cost.jpg"
 thumbnail: "https://images.pexels.com/photos/1005767/pexels-photo-1005767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+authorlink: 'https://medium.com/@adnanrahic'
 author: John Demian
 ---
 
