@@ -6,6 +6,7 @@ frontImage: "14-02-2018/optimize-lambda-cost.jpg"
 thumbnail: "https://images.pexels.com/photos/1005767/pexels-photo-1005767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+# canonical: https://addcanonicalurlhere
 ---
 
 ![E-commerce store on a serverless platofrm](https://images.pexels.com/photos/1005767/pexels-photo-1005767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
