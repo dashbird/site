@@ -149,7 +149,9 @@ nav {
   border: solid 0.5px #ed85a8;
 }
 .cta-pink:hover {
-  background-color: #2f359f;
+  background-color: #ed8ead;
+  color: white;
+  border: solid 0.5px #ed8ead;
 }
 
 input[type=text].form-control, select.form-control {
