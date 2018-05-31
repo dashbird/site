@@ -1,6 +1,6 @@
 ---
 title: Getting Started with AWS Lambda and Node.js
-description: ...Little did I know what AWS Lambda was, and how incredibly awesome it is. If you're intrigued, stick around. I'll only take a few minutes out of your already busy day, and you surely won't mind...
+description: ...Little did I know what AWS Lambda was, and how incredibly awesome it is. If you're intrigued, stick around. I'll only take a few minutes out of your already busy day, and you surely won't mind.
 date: 2018-05-31T00:00:00.000Z
 frontImage: "26-05-2018/getting-started-lambda-node.jpg"
 thumbnail: "images/blog/26-05-2018/getting-started-lambda-node.jpg"
@@ -196,3 +196,7 @@ We at [Dashbird](https://dashbird.io/) want to create a more welcoming environme
 If you missed any of the steps above, <a rel="nofollow" target="_blank" href="https://github.com/adnanrahic/getting-started-with-aws-lambda-and-nodejs">here's the repository</a> with all the code.
 
 _Hope you guys and girls enjoyed reading this as much as I enjoyed writing it. Until next time, be curious and have fun._
+
+___
+
+_Feel free to join our newsletter, to stay up to date regarding all things serverless!_
