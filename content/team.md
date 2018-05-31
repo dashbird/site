@@ -110,7 +110,7 @@ things Serverless, we want to make functions better for everybody.</p>
           <h1 class="">Reigo Hein</h1>
           <span class="text-muted">SOFTWARE DEVELOPER</span>
 
-          <p class="lato h4 pt-4">Reigo is a GDPR activist, a social justice warrior with an heavy metal upbringing. He constantly hustles the rest of us to move to Linux and makes screeching noises towards servers as a profession.</p>
+          <p class="lato h4 pt-4">Reigo is a GDPR activist, a social justice warrior and a heavy metal fan. He constantly hustles the rest of us to use Linux and makes screeching noises towards servers as a profession.</p>
           <p class="lato h4 mt-4">We’re glad he’s on our side.</p>
 
         </div>
