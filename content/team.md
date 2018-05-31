@@ -67,9 +67,8 @@ things Serverless, we want to make functions better for everybody.</p>
           <h1 class="">Annika Helendi</h1>
           <span class="text-muted">FOUNDER & CMO</span>
 
-          <p class="lato h4 pt-4">Annika is the former CEO of <a href="https://teamweek.com" target="_blank">Teamweek</a> and a marketing mastermind.</p>
-          <p class="lato h4 mt-4">When she thinks we're not looking, she listens to 50 cent at full volume.</p>
-
+          <p class="lato h4 pt-4">Annika has no development background what-so-ever and thinks Lambdas are engine parts for old automobiles. Nobody has had the heart to tell her otherwise which has resulted in unusually high rates of traffic from car enthusiasts due to misdirected marketing efforts.</p>
+          <p class='lato h4 pt-4'>She steals our lunch money when we try to make fun of her.</p>
         </div>
       </div>
     </div>
@@ -99,4 +98,23 @@ things Serverless, we want to make functions better for everybody.</p>
     </div>
   </div>
 
+  <div class="row justify-content-md-center align-items-center mt-5">
+    <div class="col-md-9 mb-5">
+      <div class="row">
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center">
+          <img src="/images/team/reigo.jpg" class="img-blue-border">
+          <img src="/images/pattern-blue.svg" class="pattern-blue">
+        </div>
+
+        <div class="col-md-6 bg-md-white team-text pl-5 pt-5">
+          <h1 class="">Reigo Hein</h1>
+          <span class="text-muted">SOFTWARE DEVELOPER</span>
+
+          <p class="lato h4 pt-4">Reigo is a GDPR activist, a social justice warrior and a heavy metal fan. He constantly hustles the rest of us to use Linux and makes screeching noises towards servers as a profession.</p>
+          <p class="lato h4 mt-4">We’re glad he’s on our side.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

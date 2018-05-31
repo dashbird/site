@@ -4,9 +4,9 @@ description: "Dashbird is a platform that makes sense of all parts of Serverless
 date: 2018-03-12T11:50:03+02:00
 ---
 
-<section class='container-fluid' style='background-image: url("/images/dashbird-team.jpeg"); background-size: cover'>
+<section class='container-fluid dark-bg'> 
   <div class="row justify-content-md-center align-items-center">
-    <div class="col-sm-10 text-center mt-5 text-white">
+    <div class="col-sm-10 text-center mt-5">
       <h1>Join <a href='/team' target='_blank'>The Team</a> & Start </br>a Serverless Revolution</h1>
 
       <p class="h4 mt-4 mb-5 lato lh-2">We hire remotely to find the best people on the planet.<br> Together we will re-invent how monitoring and observability is done for Serverless.</p>
@@ -29,32 +29,6 @@ date: 2018-03-12T11:50:03+02:00
         </div>
         <div class="col-5 p-0">
           <img src="/images/team/mikk.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid dark-bg">
-  <div class="row justify-content-center pt-5">
-     <div class="col-9 text-black mb-4 mt-5">
-      <div class="row">
-        <div class="col-7">
-          <h2 class="mt-3 mb-3">Work With Annika on Growth</h2>
-          <p>We are looking for a unicorn. A true renaissance person who knows a lot about software development, enjoys writing and is familiar with the latest marketing trends like content marketing, SEO and community building.</p>
-          <h5>What we offer:</h5>
-          <ul>
-            <li>Starting salary: $48 000 year</li>
-            <li>Career growth potential as one of the first hires</li>
-            <li>Stock options</li>
-            <li>Freedom of remote work</li>
-            <li>Team meetups 2x per year</li>
-          </ul>
-          <a class='btn btn-primary' href='mailto:jobs@dashbird.io'>Send your info!</a>
-        </div>
-
-        <div class="col-5 p-0">
-          <img src="/images/team/annika1.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
     </div>

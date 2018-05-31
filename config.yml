@@ -16,20 +16,14 @@
       suffix: xml
   menu:
     main:
-        - Name: 'Docs'
-          URL: '/docs/'
-          Weight: 100
-        - Name: 'Features'
+        - Name: 'Product'
           URL: '/features/'
-          Weight: 200
+          Weight: 100
         - Name: 'Pricing'
           URL: '/pricing'
-          Weight: 300
-        - Name: 'Blog'
-          URL: '/blog'
-          Weight: 400
+          Weight: 200
   params:
-    thumbnail: "images/screens/preview.png"
+    thumbnail: "/images/screens/slogan.jpg"
   taxonomies:
     tag: "tags"
     category: "categories"

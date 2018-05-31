@@ -1,11 +1,7 @@
-<div class='campaign-offer text-center text-white lato pt-1 pb-1 sticky-top'>
-  We are hiring! <a href='/jobs'>Check out open positions.</a>
-</div>
-
-<nav class="navbar navbar-light navbar-expand-md pl-5 pr-5">
+<nav class="navbar navbar-light navbar-expand-md m-0 p-0">
   <a class="navbar-brand" href="/">
     <img src="/images/dashbird-logo.png" class="logo-image">
-    <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: -10px;' class='align-bottom pb-1'>
+    <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: 0px;' class='align-bottom pb-1'>
   </a>
   <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navigation">
     <span> </span>
@@ -25,13 +21,15 @@
       </li>
       {{ end }}
       <li class="nav-item">
-        <a class="nav-link" href="https://app.dashbird.io">Sign in</a>
+        <a class="nav-link" href="https://app.dashbird.io">Log in</a>
       </li>
-      <li class="nav-item btn-blue p-0 pr-2 pl-2 ml-3">
-        <a href="/signup">
-          <span class='align-middle text-white pr-2 effect-u'><img src="/images/ic-arrow.svg" class="ic-arrow pb-1">Sign up</span>
-        </a>
+      <li class="nav-item btn-blue p-0 ml-3 d-block d-md-none">
+        <a class="nav-link" href="/signup">Sign up</a>
       </li>
     </ul>
   </div>
+  <a href="/signup" class='corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block'>
+      Sign up <img src="/images/ic-arrow.svg" class="ic-arrow">
+  </a>
+
 </nav>
