@@ -23,7 +23,7 @@
           URL: '/pricing'
           Weight: 200
   params:
-    thumbnail: "/images/screens/slogan.jpg"
+    thumbnail: "images/screens/slogan.jpg"
   taxonomies:
     tag: "tags"
     category: "categories"
