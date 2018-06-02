@@ -18,13 +18,13 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </section>
 
-  <section class="container social p-0 pt-md-80 pb-md-60 mt-5 pb-5">
-    <div class="row justify-content-center">
-      <div class="col-auto mr-md-5 mt-4 d-flex align-items-center"><img class="mx-auto" style="width: 74px;" src="/images/socialproof/logo-volta@2x.png"></div>
-      <div class="col-auto mr-md-5 mt-4 d-flex align-items-center"><img class="mx-auto" style="width: 95px;" src="/images/socialproof/logo-shelf@2x.png"></div>
-      <div class="col-auto mr-md-5 mt-4 d-flex align-items-center"><img class="mx-auto" style="width: 120px;" src="/images/socialproof/logo-nuviad@2x.png"></div>
-      <div class="col-auto mr-md-5 mt-4 d-flex align-items-center"><img class="mx-auto" style="width: 129px;" src="/images/socialproof/logo-autopilot@2x.png"></div>
-      <div class="col-auto mr-md-5 mt-4 d-flex align-items-center"><img class="mx-auto" style="width: 127px;" src="/images/socialproof/logo-blowout&go@2x.png"></div>
+  <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
+    <div class="row justify-content-center socialproof-icons align-items-end">
+      <img src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
+      <img src="/images/socialproof/logo-shelf@2x.png">
+      <img src="/images/socialproof/logo-nuviad@2x.png">
+      <img src="/images/socialproof/logo-autopilot@2x.png">
+      <img src="/images/socialproof/logo-blowout&go@2x.png">
     </div>
   </section>
 </div>
