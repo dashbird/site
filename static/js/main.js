@@ -26,6 +26,11 @@ $(document).ready(function(){
     window.open($(this).find("a:first").attr("href"), "_self");
   });
 
+  $('.clickable-blank').on('click', function () {
+    event.preventDefault();
+    window.open($(this).find("a:first").attr("href"), "_blank");
+  });
+
   $('ul.sidemenu li a').on('click', function(){
     $(this).parent('li').toggleClass('active');
   });

@@ -347,6 +347,11 @@ input[type=text].form-control::placeholder {
 .bg-md-white {
   background-color: #ffffff;
 }
+.footer-blog-item { border-radius: 2px; }
+.footer-blog-item a { color: #A4B0C3; }
+.footer-blog-item:hover { background-color: #3D4659; }
+.footer-blog-item:hover a { text-decoration: none; color: white;}
+
 .footer-icon {
   color: #4046ad;
   font-size: 1.2rem;
@@ -370,10 +375,12 @@ input[type=text].form-control::placeholder {
 .pt-md-80 { padding-top: 80px; }
 .pt-md-100 { padding-top: 80px; }
 .pb-md-60 { padding-top: 60px; }
+.w-md-75 { width: 75% }
 @media (max-width: 768px) {
   h1, .h1 { font-size: 2rem; }
   h2, .h2 { font-size: 1.1rem; }
   .mp-md-80 { margin-top: 0; }
+  .w-md-75 { width: 100% }
   nav > .collapse.show{
     position: absolute;
     top: 10%;
@@ -488,10 +495,10 @@ pre {
   font-size: .8rem;
   padding: 10px;
 }
-.clickable:hover {
+.clickable:hover, .clickable-blank:hover {
   cursor: pointer;
 }
-.clickable:hover  h3 {
+.clickable:hover h3 {
   text-decoration: underline;
 }
 /* .clickable a { */
@@ -579,3 +586,8 @@ a.no-decoration:hover {
 q { color: gray; }
 .h-200 { height: 200px; }
 
+.languages-icons img{
+  margin: 15px;
+  max-height: 35px;
+  vertical-align: middle
+}
