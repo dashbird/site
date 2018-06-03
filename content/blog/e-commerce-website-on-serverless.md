@@ -3,13 +3,16 @@ title: Running an e-commerce website on serverless
 description: Getting started with serverless for e-commerce with a quick tutorial!
 date: 2018-05-29T01:00:00.000Z
 frontImage: "14-02-2018/optimize-lambda-cost.jpg"
-thumbnail: "https://images.pexels.com/photos/1005767/pexels-photo-1005767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+thumbnail: "images/blog/14-02-2018/e-commerce.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-# canonical: https://addcanonicalurlhere
 ---
 
-![E-commerce store on a serverless platofrm](https://images.pexels.com/photos/1005767/pexels-photo-1005767.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+<!-- add this above the ---
+# canonical: https://addcanonicalurlhere
+-->
+
+![E-commerce store on a serverless platofrm](/images/blog/14-02-2018/e-commerce.jpeg)
 
 Yessiree Bob, you heard that right. The next big step towards the future of e-commerce is serverless technology. The e-commerce space has, for years, been in need of an alternative to the regular hosts as they are really not really viable passed a certain point, mainly because of this two reason:
 
