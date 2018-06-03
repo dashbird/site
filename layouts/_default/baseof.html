@@ -8,7 +8,7 @@
   <body>
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" }}
+    {{ partial "footer.html" . }}
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
       <script async src="{{ .  }}" type="text/javascript"></script>
