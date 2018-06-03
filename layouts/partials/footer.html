@@ -1,12 +1,26 @@
-<section class="container-fluid footer">
+<section class="container-fluid footer pt-md-5">
   <div class="row p-4">
-    <div class="col-10 mx-md-auto">
+    <div class="col-12 col-md-10 mx-md-auto">
       <div class="row">
-        <div class="col-12 col-md-6 d-none">
-          <span class='bold text-white roboto-mono'>Popular this week</span>
+        <div class="col-12 col-md-6 text-white mb-5 mb-md-0 mt-5 mt-md-0">
+          <span class='bold text-white roboto-mono mb-4 d-block'>Popular this week</span>
+          <div class='w-md-75'>
+          {{ range where .Site.Pages.ByDate.Reverse ".Section" "blog" | first 5 }}
+            <div class="row pt-2 pb-2 mt-1 mb-1 clickable-blank footer-blog-item">
+              <div class="col-auto d-flex align-items-center" width=70>
+                <img src="/images/blog/{{.Params.frontImage}}" width='60'>
+              </div>
+              <div class="col p-0 d-flex align-items-center">
+                <span class='small'>
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </span>
+              </div>
+            </div>
+          {{ end }}
+        </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 col-md-6">
           <div class="row">
             <div class="col-6 col-md-4">
               <span class='bold roboto-mono text-white'>Product</span>
