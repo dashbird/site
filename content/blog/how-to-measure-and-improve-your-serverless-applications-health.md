@@ -1,10 +1,9 @@
 ---
-title: How To Measure And Improve Your Serverless Application's Health With Dashbird 
+title: How To Measure And Improve Your Serverless Application's Health
 description: Technology and their implementation methodology evolves with time very rapidly. Cost efficiency and productivity are the key drivers of technological evolution these days.
 date: 2018-06-04
 frontImage: "2018-06-04/manage-health.jpeg"
 thumbnail: "images/blog/2018-06-04/manage-health.jpeg"
-authorlink: ''
 author: Mahendra Batra
 ---
 
