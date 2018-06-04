@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="container-fluid">
- <div class="row justify-content-center">
+  <div class="row justify-content-center">
     <div class="col-7 mt-3 p-2">
       <h1 class='mt-4 mb-5 text-center'>Dashbird Serverless Blog</h1>
       {{ range .Data.Pages.ByDate.Reverse }}
@@ -30,6 +30,7 @@
       </div>
     </div>
   </div>
+</section>
 {{ end }}
 
 
