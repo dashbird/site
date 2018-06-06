@@ -4,7 +4,7 @@ description: Since being launched in 2014, AWS Lambda service has spread fast am
 date: 2018-06-06
 frontImage: "2018-06-06/pexels-photo-886521.jpeg"
 thumbnail: "images/blog/2018-06-06/pexels-photo-886521.jpeg"
-authorlink: 'https://twitter.com/@johndemian'
+authorlink: 'https://www.mojotech.com/'
 author: Joshua Harding
 ---
 ![Origin of Serverless Software](/images/blog/2018-06-06/pexels-photo-886521.jpeg)  
