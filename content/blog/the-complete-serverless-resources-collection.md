@@ -21,12 +21,12 @@ They say pictures are worth 1000 words. Well, here's a little snapshot of what s
 [![Serverless infographic](/images/blog/2018-06-06/serverless-stats-promo.jpg)](/images/blog/2018-06-06/Serverless-infographic-2018.jpg)
 Click the image to open the infographic
 
-#Ok, I'll bite! Where do I start?#
+# Ok, I'll bite! Where do I start? #
 
 I'm glad you asked. There's a ton of information on the interwebs about the wonders that is serverless so much information that it might seem hard to know where to start. Well, that's what this article is all about. I'll make a list of the most important information on serverless and the best tutorials updated regularly.
 
 
-##1. Getting started with Serverless##
+## 1. Getting started with Serverless ##
 
 Below you'll find a list of tutorials meant for the newcomers. The ones looking to take their first journey into serverless and need a place to start.
 
@@ -56,7 +56,7 @@ Below you'll find a list of tutorials meant for the newcomers. The ones looking 
 12. [How to Build Your First Serverless Website♡Aws](https://dev.to/saigowthamr/how-to-build-your-first-serverless-webpage-using-aws-lambda-31de) 
 
 
-##2. Serverless Privacy and Security  ##
+## 2. Serverless Privacy and Security  ##
 
 Security and privacy has always been a concern to site owners, regardless of the technology behind the website. Here's a list of the best tutorials and articles on this very subject.
 
@@ -68,7 +68,7 @@ Security and privacy has always been a concern to site owners, regardless of the
 https://serverless.com/blog/serverless-secrets-api-keys/)
 
 
-##3. Advanced serverless tutorials##
+## 3. Advanced serverless tutorials ##
 
 Once you get familiarised with serverless you'll find yourself wanting more. Below you'll find a list of articles that should quench your thirst for serverless knowledge. You'll find that not every article in here will solve a difficult problem but I still added them to this list because they are comprehensive.
 
@@ -83,7 +83,7 @@ Once you get familiarised with serverless you'll find yourself wanting more. Bel
 5. [Creating Serverless Functions with Python and AWS Lambda](https://dev.to/dangolant/creating-serverless-functions-with-python-and-aws-lambda-dli) 
 
 
-##4. Serverless tools ##
+## 4. Serverless tools ##
 
 1. [Serverless monitoring — the good, the bad and the ugly](https://hackernoon.com/serverless-monitoring-the-good-the-bad-and-the-ugly-2b06e7ffd843) - Monitoring tools for Serverless
 
@@ -91,7 +91,7 @@ Once you get familiarised with serverless you'll find yourself wanting more. Bel
 2. [How to Test Serverless Applications](https://serverless.com/blog/how-test-serverless-applications/) - Serverless applications are quickly gaining in complexity—testing is key
 
 
-##5. Noteworthy code repositories for serverless ##
+## 5. Noteworthy code repositories for serverless ##
 
 1. [Serverless Examples](https://github.com/serverless/examples) - A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda
 
