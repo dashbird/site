@@ -4,6 +4,7 @@ description: Everything you needed to know about serverless
 date: 2018-06-06
 frontImage: "/images/blog/serverless-resources-header.jpg"
 thumbnail: "/images/blog/serverless-resources-header.jpg"
+authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 ---
 ![The complete serverless resources collection](/images/blog/serverless-resources-header.jpg)
