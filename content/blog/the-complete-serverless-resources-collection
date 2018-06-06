@@ -2,11 +2,11 @@
 title: The Best Serverless Resources
 description: Everything you needed to know about serverless
 date: 2018-06-06
-frontImage: "blog/Images/serverless-resources-header.jpg"
-thumbnail: "blog/Images/serverless-resources-header.jpg"
+frontImage: "/images/blog/serverless-resources-header.jpg"
+thumbnail: "/images/blog/serverless-resources-header.jpg"
 author: John Demian
 ---
-![The complete serverless resources collection](blog/Images/serverless-resources-header.jpg)
+![The complete serverless resources collection](/images/blog/serverless-resources-header.jpg)
 
 Serverless is by all means one of the fastest growing trends amongst developers and with good reason. It solves a lot of problems that traditional servers face, problems like the scalability or the ever-growing problem of high hosting bills.
 
@@ -17,7 +17,7 @@ While there a lot of benefits to switching to serverless technology I think that
 They say pictures are worth 1000 words. Well, here's a little snapshot of what serverless is all about. And remember kids, sharing is caring.
 
 
-[![Serverless infographic](blog/Images/serverless-stats-promo.jpg)](blog/Images/Serverless-infographic-2018.jpg)
+[![Serverless infographic](/images/blog/serverless-stats-promo.jpg)](/images/blog/Serverless-infographic-2018.jpg)
 Click the image to open the infographic
 
 #Ok, I'll bite! Where do I start?#
@@ -95,5 +95,8 @@ Once you get familiarised with serverless you'll find yourself wanting more. Bel
 1. [Serverless Examples](https://github.com/serverless/examples) - A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda
 
 2. [AWS Serverless CRUD](https://github.com/aws-samples/aws-serverless-crud-sample) - An example implementation of a mobile backend for a movies database using AWS Lambda, API Gateway and DynamoDb 
+
+2. [Cordova Serverless example](https://github.com/wparad/cordova-serverless-example) - This is the backend AWS lambdas to handle the front end cordova-angular-example 
+
 
 I pledge to keep this list updated as much as I can but I welcome anyone wanting to lend a helping hand by sending an email to john@dashbird.io
