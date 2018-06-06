@@ -2,12 +2,12 @@
 title: The Best Serverless Resources
 description: Everything you needed to know about serverless
 date: 2018-06-06
-frontImage: "/images/blog/serverless-resources-header.jpg"
-thumbnail: "/images/blog/serverless-resources-header.jpg"
+frontImage: "2018-06-06/serverless-resources-header.jpg"
+thumbnail: "images/blog/2018-06-06/serverless-resources-header.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 ---
-![The complete serverless resources collection](/images/blog/serverless-resources-header.jpg)
+![The complete serverless resources collection](/images/blog/2018-06-06/serverless-resources-header.jpg)
 
 Serverless is by all means one of the fastest growing trends amongst developers and with good reason. It solves a lot of problems that traditional servers face, problems like the scalability or the ever-growing problem of high hosting bills.
 
@@ -18,7 +18,7 @@ While there a lot of benefits to switching to serverless technology I think that
 They say pictures are worth 1000 words. Well, here's a little snapshot of what serverless is all about. And remember kids, sharing is caring.
 
 
-[![Serverless infographic](/images/blog/serverless-stats-promo.jpg)](/images/blog/Serverless-infographic-2018.jpg)
+[![Serverless infographic](/images/blog/2018-06-06/serverless-stats-promo.jpg)](/images/blog/2018-06-06/Serverless-infographic-2018.jpg)
 Click the image to open the infographic
 
 #Ok, I'll bite! Where do I start?#
