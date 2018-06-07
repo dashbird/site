@@ -71,7 +71,9 @@ $(function () {
   }
 
   $executions.on('keyup', updateCosts)
+  $executions.on('change', updateCosts)
   $memory.on('change', updateCosts)
   $freeTier.on('change', updateCosts)
   $durations.on('keyup', updateCosts)
+  $durations.on('change', updateCosts)
 })
