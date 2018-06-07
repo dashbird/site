@@ -25,7 +25,10 @@
     "url": "https://github.com/dashbird/site/issues"
   },
   "homepage": "https://github.com/dashbird/site#readme",
-  "dependencies": {},
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
   "devDependencies": {
     "hugo-cli": "^0.5.4",
     "hugo-lunr": "0.0.4"

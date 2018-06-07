@@ -1,3 +1,19 @@
+install_deps: &install_deps
+  name: "Installing dependencies"
+  command: |
+    sudo apt-get update
+    sudo apt-get install -y jpegoptim optipng
+    apk add --update python python-dev py-pip build-base
+    pip install awscli
+    npm install
+
+post_build: &post_build
+  name: "Post build step"
+  command: |
+    jpegoptim ./public/**/*.jpg
+    optipng ./public/**/*.png
+    find public -type f -name '*.js' -exec $(npm bin)/babel {} -o {}.out \; -exec mv {}.out {} \;
+
 workflows:
   version: 2
   main:
@@ -37,32 +53,30 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Installing aws"
-          command: |
-            apk add --update python python-dev py-pip build-base
-            pip install awscli
+          <<: *install_deps
       - run:
           name: "Build Website"
           command: hugo
+      - run:
+          <<: *post_build
       - run:
           name: "Deploy Production"
           command: |
             aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul
             aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'
-    
+
   deploy-staging:
     docker:
       - image: cibuilds/hugo:0.38
     steps:
       - checkout
       - run:
-          name: "Installing aws"
-          command: |
-            apk add --update python python-dev py-pip build-base
-            pip install awscli
+          <<: *install_deps
       - run:
           name: "Build Website"
           command: hugo -b https://staging.dashbird.io
+      - run:
+          <<: *post_build
       - run:
           name: "Deploy Staging"
           command: |
