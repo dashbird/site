@@ -64,6 +64,11 @@ jobs:
       - run:
           <<: *post_build
       - run:
+          name: "Disallow robots"
+          command: |
+            echo "User-agent: *" >> public/robots.txt
+            echo "Disallow: /" >> public/robots.txt
+      - run:
           name: "Deploy Staging"
           command: |
             aws s3 sync --acl public-read --sse --delete public/  s3://staging.dashbird.io
