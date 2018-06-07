@@ -4,7 +4,7 @@ title: Quick Start Tutorial For Dashbird Serverless Monitoring
 linktitle: Quick start
 description: Quick start
 kbSeries: ["BGet Started"]
-kbSeries_weight: 200
+kbSeries_weight: 100
 aliases:
  - /setup
  - /docs/getting-started/setting-up-dashbird/
@@ -107,7 +107,6 @@ Great! You've created an access policy. Now you need to add an AWS role.
 
 <br>
 
-###
 <h2>
   <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
 </h2>
@@ -122,3 +121,7 @@ Back on the onboarding screen:
 Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app.
 
 **It should take approximately 3-4 minutes for the data to start coming in.**
+
+---
+
+Learn more about account configuration by checking out the [next section](/docs/get-started/setting-up-your-account/), or take a look at the [account overview](/docs/account-settings/overview/) for a complete guide.

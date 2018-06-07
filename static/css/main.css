@@ -133,7 +133,7 @@ nav {
 }
 .cta-input {
   padding: 13px 17px;
-  border-radius: 5px;
+  border-radius: 5px !important;
   border: solid 0.5px #66758D;
   min-width: 400px;
 }
