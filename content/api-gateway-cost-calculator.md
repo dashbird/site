@@ -10,13 +10,13 @@ scripts:
 
 <section class="container-fluid dark-bg justify-content-center">
   <div class="row">
-    <div class="col text-center mt-5 d-none d-md-block">
+    <div class="col text-center mt-5 d-md-block">
       <h1>AWS API Gateway Cost Calculator</h1>
     </div>
   </div>
 
   <div class="row justify-content-center mt-4">
-    <div class="col-4 mt-5 d-none d-md-block">
+    <div class="col-xs-12 col-sm-5 col-md-4 mt-5 d-md-block">
 
       <select class="form-control mt-4" name='api-gw-region' id='api-gw-region'>
         <option value="0" disabled selected>Choose region</option>
@@ -50,19 +50,20 @@ scripts:
         </label>
       </div>
     </div>
-    <div class="col-md-4 d-none d-md-block mr-4 mt-3 text-right">
+
+    <div class="col-sm-5 col-md-4 d-none d-md-block mr-4 mt-3 text-right">
       <img src="/images/dashbird-illustration.svg">
     </div>
 
   </div>
 
   <div class="row justify-content-center mt-4">
-    <div class="col-8 text-left mt-5 d-none d-md-block mb-5">
+    <div class="col-xs-12 col-sm-10 col-md-8 text-left mt-5 d-md-block mb-5">
       <h3>Results</h3>
       <h5>API calls costs: <span id='api-calls-cost' class='float-right'>$0/month</span></h5>
       <h5>Payload costs: <span id='payload-cost' class='float-right'>$0/month</span></h5>
       <hr/>
-      <h5>Total costs: <span id='total-cost' class='float-right text-green'>$0/month</span></h5>
+      <h5>Total AWS API Gateway Costs: <span id='total-cost' class='float-right text-green'>$0/month</span></h5>
 
     </div>
   </div>
