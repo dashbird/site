@@ -14,7 +14,7 @@ post_build: &post_build
   name: "Post build step"
   command: |
     jpegoptim ./public/**/*.jpg
-    optipng ./public/**/*.png
+    # optipng ./public/**/*.png
     ./compile.sh
 
 workflows:
