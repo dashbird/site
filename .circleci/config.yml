@@ -20,16 +20,11 @@ workflows:
   version: 2
   main:
     jobs:
-      - build
       - deploy-prod:
-          requires:
-            - build
           filters:
             branches:
               only: master
       - deploy-staging:
-          requires:
-            - build
           filters:
             branches:
               only: develop
@@ -37,18 +32,6 @@ workflows:
 
 version: 2
 jobs:
-  build:
-    docker:
-      - image: circleci/node:carbon
-    steps:
-      - checkout
-      - run:
-          name: "Build Website"
-          command: hugo
-      # - run:
-      #     name: "Test Website"
-      #     command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
-
   deploy-prod:
     docker:
       - image: circleci/node:carbon
@@ -69,7 +52,7 @@ jobs:
 
   deploy-staging:
     docker:
-      - image: cibuilds/hugo:0.38
+      - image: circleci/node:carbon
     steps:
       - checkout
       - run:
