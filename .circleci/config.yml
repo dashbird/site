@@ -1,17 +1,31 @@
+install_deps: &install_deps
+  name: "Installing dependencies"
+  command: |
+    wget https://github.com/gohugoio/hugo/releases/download/v0.38.2/hugo_0.38.2_Linux-64bit.deb
+    sudo dpkg -i hugo*.deb
+    sudo apt-get update
+    sudo apt-get install -y jpegoptim optipng
+    sudo apt install python-pip python-dev
+    sudo pip install awscli
+    aws --version
+    npm install
+
+post_build: &post_build
+  name: "Post build step"
+  command: |
+    jpegoptim ./public/**/*.jpg
+    optipng ./public/**/*.png
+    ./compile.sh
+
 workflows:
   version: 2
   main:
     jobs:
-      - build
       - deploy-prod:
-          requires:
-            - build
           filters:
             branches:
               only: master
       - deploy-staging:
-          requires:
-            - build
           filters:
             branches:
               only: develop
@@ -19,50 +33,36 @@ workflows:
 
 version: 2
 jobs:
-  build:
-    docker:
-      - image: cibuilds/hugo:0.38
-    steps:
-      - checkout
-      - run:
-          name: "Build Website"
-          command: hugo
-      # - run:
-      #     name: "Test Website"
-      #     command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
-
   deploy-prod:
     docker:
-      - image: cibuilds/hugo:0.38
+      - image: circleci/node:carbon
     steps:
       - checkout
       - run:
-          name: "Installing aws"
-          command: |
-            apk add --update python python-dev py-pip build-base
-            pip install awscli
+          <<: *install_deps
       - run:
           name: "Build Website"
           command: hugo
+      - run:
+          <<: *post_build
       - run:
           name: "Deploy Production"
           command: |
             aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul
             aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'
-    
+
   deploy-staging:
     docker:
-      - image: cibuilds/hugo:0.38
+      - image: circleci/node:carbon
     steps:
       - checkout
       - run:
-          name: "Installing aws"
-          command: |
-            apk add --update python python-dev py-pip build-base
-            pip install awscli
+          <<: *install_deps
       - run:
           name: "Build Website"
           command: hugo -b https://staging.dashbird.io
+      - run:
+          <<: *post_build
       - run:
           name: "Deploy Staging"
           command: |

@@ -7,7 +7,9 @@
     "start": "hugo -D server --disableFastRender",
     "indexDocs": "hugo-lunr -i \"content/docs/**/*\" -o static/js/docs.json",
     "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'",
-    "deploy-staging": "hugo -b https://staging.dashbird.io/ && aws s3 sync --profile='dashbird' --acl public-read --sse --delete public/  s3://staging.dashbird.io && aws cloudfront create-invalidation --profile='dashbird' --distribution-id E2B9Q1NEUTU80 --paths '/*'"
+    "deploy-staging": "hugo -b https://staging.dashbird.io/ && aws s3 sync --acl public-read --sse --delete public/  s3://staging.dashbird.io && aws cloudfront create-invalidation --distribution-id E2B9Q1NEUTU80 --paths '/*'",
+    "compile": "./compile.sh",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,11 @@
     "url": "https://github.com/dashbird/site/issues"
   },
   "homepage": "https://github.com/dashbird/site#readme",
-  "dependencies": {},
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3"
+  },
   "devDependencies": {
     "hugo-cli": "^0.5.4",
     "hugo-lunr": "0.0.4"
