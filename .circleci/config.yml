@@ -15,7 +15,7 @@ post_build: &post_build
   command: |
     find public -type f -name '*.jpg' -exec jpegoptim {} \;
     find public -type f -name '*.png' -exec optipng {} \;
-    find public/blog -type f -name '*.jpg' -exec conver {} -define jpeg:extent=50KB {} \;
+    find public/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
     ./compile.sh
 
 workflows:
