@@ -13,9 +13,9 @@ install_deps: &install_deps
 post_build: &post_build
   name: "Post build step"
   command: |
-    find public -type f -name '*.jpg' -exec jpegoptim {} \; & 
-    find public -type f -name '*.png' -exec optipng {} \; &
-    find public/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \; &
+    find public -type f -name '*.jpg' -exec jpegoptim {} \;
+    find public -type f -name '*.png' -exec optipng {} \;
+    find public/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
     ./compile.sh
 
 workflows:
