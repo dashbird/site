@@ -1,4 +1,5 @@
 /* eslint-env jquery */
+/* global lunr */
 
 let lunrIndex, $results, pagesIndex, $searchText, $searchButton
 

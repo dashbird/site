@@ -15,7 +15,7 @@ post_build: &post_build
   command: |
     jpegoptim ./public/**/*.jpg
     optipng ./public/**/*.png
-    find public -type f -name '*.js' -exec $(npm bin)/babel {} -o {}.out \; -exec mv {}.out {} \;
+    ./compile.sh
 
 workflows:
   version: 2
