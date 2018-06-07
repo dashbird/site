@@ -21,7 +21,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col bg-white p-3 mb-4 mt-5 mx-auto clickable" style="max-width: 800px;">
       <div class="row align-items-md-center">
         <div class="col-md-2 text-center">
-          <img src="/images/graph.svg">
+          <img data-src="/images/graph.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
           <h3>AWS Lambda Architecture Monitoring</h3>
@@ -36,7 +36,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col bg-white p-3 mb-4 mx-auto clickable" style="max-width: 800px;">
       <div class="row align-items-center">
         <div class="col-md-2 text-center">
-          <img src="/images/magnifier.svg">
+          <img data-src="/images/magnifier.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
           <h3>Error Tracking and Debugging</h3>
@@ -51,7 +51,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col bg-white p-3 mb-4 mx-auto clickable" style="max-width: 800px;">
       <div class="row align-items-center">
         <div class="col-md-2 text-center">
-          <img src="/images/tag.svg">
+          <img data-src="/images/tag.svg">
         </div>
         <div class="col-md-10 text-center text-md-left">
           <h3>Performance and Cost Optimization</h3>
@@ -72,7 +72,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/function-monitoring.png">
+          <img data-src="/images/features/function-monitoring.png">
         </div>
         <div class="col-md-7 text-center text-md-left pt-4">
           <h3>Real-Time Lambda Insights</h3>
@@ -90,7 +90,7 @@ date: 2017-11-06T10:50:03+02:00
           <p class="lato h4 lh-2">Get alerts of errors across all your Lambda functions.<br> Stack traces and context helps you troubleshoot errors quickly and easily.</p>
         </div>
         <div class="col-md-5 text-right imgs-fluid">
-          <img src="/images/screens/error.png">
+          <img data-src="/images/screens/error.png">
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row ">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/lambdas-view.png">
+          <img data-src="/images/features/lambdas-view.png">
         </div>
 
         <div class="col-md-7 text-center text-md-left pt-4">
@@ -121,7 +121,7 @@ date: 2017-11-06T10:50:03+02:00
         </div>
 
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/global-search.png">
+          <img data-src="/images/features/global-search.png">
         </div>
 
       </div>
@@ -132,7 +132,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row ">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/x-ray.png">
+          <img data-src="/images/features/x-ray.png">
         </div>
 
         <div class="col-md-7 text-center text-md-left pt-4">
@@ -155,7 +155,7 @@ date: 2017-11-06T10:50:03+02:00
         </div>
 
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/live-tailing.png">
+          <img data-src="/images/features/live-tailing.png">
         </div>
 
       </div>
@@ -166,7 +166,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="col-10 bg-white p-3 mt-5 mb-4 mx-auto">
       <div class="row ">
         <div class="col-md-5 imgs-fluid">
-          <img src="/images/features/project-overview.png">
+          <img data-src="/images/features/project-overview.png">
         </div>
 
         <div class="col-md-7 text-center text-md-left pt-4">
