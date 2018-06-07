@@ -5,7 +5,8 @@ install_deps: &install_deps
     sudo dpkg -i hugo*.deb
     sudo apt-get update
     sudo apt-get install -y jpegoptim optipng
-    sudo apt install python-pip python-dev imagemagick
+    sudo apt install python-pip python-dev 
+    # sudo apt install imagemagick
     sudo pip install awscli
     aws --version
     npm install
@@ -15,7 +16,7 @@ post_build: &post_build
   command: |
     find public -type f -name '*.jpg' -exec jpegoptim {} \;
     find public -type f -name '*.png' -exec optipng {} \;
-    find public/images/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
+    # find public/images/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
     ./compile.sh
 
 workflows:
