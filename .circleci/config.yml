@@ -1,8 +1,10 @@
 install_deps: &install_deps
   name: "Installing dependencies"
   command: |
-    sudo apt-get update
-    sudo apt-get install -y jpegoptim optipng
+    wget https://github.com/gohugoio/hugo/releases/download/v0.38.2/hugo_0.38.2_Linux-64bit.deb
+    dpkg -i hugo*.deb
+    apt-get update
+    apt-get install -y jpegoptim optipng
     apk add --update python python-dev py-pip build-base
     pip install awscli
     npm install
@@ -37,7 +39,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.38
+      - image: circleci/node:carbon
     steps:
       - checkout
       - run:
@@ -49,7 +51,7 @@ jobs:
 
   deploy-prod:
     docker:
-      - image: cibuilds/hugo:0.38
+      - image: circleci/node:carbon
     steps:
       - checkout
       - run:
