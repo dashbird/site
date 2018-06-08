@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light navbar-expand-md m-0 p-0">
   <a class="navbar-brand" href="/">
     <img src="/images/dashbird-logo.png" class="logo-image">
-    <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: 0px;' class='align-bottom pb-1'>
+    <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: 0px;' class='logo-image align-bottom pb-1'>
   </a>
   <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navigation">
     <span> </span>
@@ -11,7 +11,7 @@
 
   <div class="collapse navbar-collapse " id="navigation">
     <ul class="nav navbar-nav mt-3 mt-md-0 ml-md-auto">
-      <li class="nav-item d-flex d-md-none">
+      <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
       </li>
       {{ $currentNode := .  }}
@@ -23,8 +23,8 @@
       <li class="nav-item">
         <a class="nav-link" href="https://app.dashbird.io">Log in</a>
       </li>
-      <li class="nav-item btn-blue p-0 ml-3 d-block d-md-none">
-        <a class="nav-link" href="/signup">Sign up</a>
+      <li class="nav-item cta-btn cta-pink p-0 ml-3 d-block d-md-none">
+        <a class="nav-link" href="/signup">Sign up <img src="/images/ic-arrow.svg" class="ic-arrow"></a>
       </li>
     </ul>
   </div>
