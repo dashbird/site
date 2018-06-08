@@ -2,12 +2,12 @@
 title: How To Measure And Improve Your Serverless Application's Health
 description: Technology and their implementation methodology evolves with time very rapidly. Cost efficiency and productivity are the key drivers of technological evolution these days.
 date: 2018-06-04
-frontImage: "2018-06-04/manage-health.jpeg"
-thumbnail: "images/blog/2018-06-04/manage-health.jpeg"
+frontImage: "2018-06-04/manage-health.jpg"
+thumbnail: "images/blog/2018-06-04/manage-health.jpg"
 author: Mahendra Batra
 ---
 
-![How To Measure And Improve Your Serverless Application's Health With Dashbird](/images/blog/2018-06-04/manage-health.jpeg)
+![How To Measure And Improve Your Serverless Application's Health With Dashbird](/images/blog/2018-06-04/manage-health.jpg)
 
 Technology and its implementation methodology evolves with time very rapidly. Cost efficiency and productivity are the key drivers of technological evolution these days. With the advent of _The Cloud_, infrastructure costs have been brought down significantly. Serverless technology adds icing to the cake! Serverless, or in other words "pay-as-you-go" computing, enables users to **not pay for infrastructure** while apps are sitting idle.
 
