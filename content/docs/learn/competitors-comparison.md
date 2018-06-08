@@ -19,7 +19,7 @@ Currently Dashbird uses logs for everything. This gives a real-life overview of 
 
 Taking this approach, Dashbird experience can be really **low friction and high granularity, with a price of slight delay.** Users don't need to make any code changes but still get a really good overview, with the possibility to go very deep into a function, seeing all the need data.
 
-_NB: we recently <a href="https://dashbird.io/blog/tracing-lambda-functions-with-aws-x-ray/ targte="blank"> added AWS X-Ray support<a/> that brings more value to tracing and debugging._
+_NB: we recently <a href="https://dashbird.io/blog/tracing-lambda-functions-with-aws-x-ray/" target="blank"> added AWS X-Ray support<a/> that brings more value to tracing and debugging._
 
 ## PROS:
 * low cost
@@ -33,7 +33,7 @@ _NB: we recently <a href="https://dashbird.io/blog/tracing-lambda-functions-with
 * slightly bigger delay
 * a potential max amount we can import per month (possible to overcome with sampling), due to AWS API constraints.
 
-Learn more about all the <a href="https://dashbird.io/docs/learn/features/ target="blank"> benefits and features Dashbird offers.<a/>
+Learn more about all the <a href="https://dashbird.io/docs/learn/features/" target="blank"> benefits and features Dashbird offers.<a/>
 
 <h2>
   <span class="h2 underlined bold">
