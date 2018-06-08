@@ -393,6 +393,8 @@ input[type=text].form-control::placeholder {
   .navbar-light .navbar-nav a.nav-link {
     color: #ffffff;
     font-size: 1.5rem;
+    text-align: left;
+    padding: 10px 5px;
   }
   .collapsedfully {
     z-index:10;
@@ -402,7 +404,11 @@ input[type=text].form-control::placeholder {
     width: 100%;
     background: #4046ad url(../images/ic-pattern.svg) no-repeat bottom left;
     background-size: 100% auto;
+    height: auto;
     align-items: start;
+  }
+  .collapsedfully .logo-image {
+    display: none;
   }
   nav.collapsedfully .navbar-brand span{ color: #ffffff; }
   .navbar-toggler:not(.collapsed) span { background: white; }
