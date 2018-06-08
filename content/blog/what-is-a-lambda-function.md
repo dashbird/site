@@ -2,12 +2,12 @@
 title: What Is a Lambda Function? (Overview of features, triggers and configuration)
 description: The code you execute on AWS Lambda is called lambda function, and it can be considered, for better understanding, as a formula in a spreadsheet. As you need to make formulas, so it could automatically calculate any data you enter, functions are somewhat similar.
 date: 2018-06-08
-frontImage: "2018-06-08/what-is-a-lambda-function.jpeg"
-thumbnail: "images/blog/2018-06-08/what-is-a-lambda-function.jpeg"
+frontImage: "2018-06-08/what-is-a-lambda-function.jpg"
+thumbnail: "images/blog/2018-06-08/what-is-a-lambda-function.jpg"
 author: 'Nemanja Novkovic'
 ---
 
-![What is a Lambda Function](/images/blog/2018-06-08/what-is-a-lambda-function.jpeg)
+![What is a Lambda Function](/images/blog/2018-06-08/what-is-a-lambda-function.jpg)
 
 Since we’ve already talked about [AWS Lambda](https://aws.amazon.com/lambda/) and its usefulness in today’s modern and digitalized civilization, we will cover another topic regarding the Lambda function and its functionality in our every day, digital lives.
 
