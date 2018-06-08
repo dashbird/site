@@ -5,7 +5,8 @@ install_deps: &install_deps
     sudo dpkg -i hugo*.deb
     sudo apt-get update
     sudo apt-get install -y jpegoptim optipng
-    sudo apt install python-pip python-dev
+    sudo apt install python-pip python-dev 
+    # sudo apt install imagemagick
     sudo pip install awscli
     aws --version
     npm install
@@ -13,8 +14,9 @@ install_deps: &install_deps
 post_build: &post_build
   name: "Post build step"
   command: |
-    jpegoptim ./public/**/*.jpg
-    optipng ./public/**/*.png
+    find public -type f -name '*.jpg' -exec jpegoptim {} \;
+    find public -type f -name '*.png' -exec optipng {} \;
+    # find public/images/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
     ./compile.sh
 
 workflows:
@@ -63,6 +65,11 @@ jobs:
           command: hugo -b https://staging.dashbird.io
       - run:
           <<: *post_build
+      - run:
+          name: "Disallow robots"
+          command: |
+            echo "User-agent: *" >> public/robots.txt
+            echo "Disallow: /" >> public/robots.txt
       - run:
           name: "Deploy Staging"
           command: |

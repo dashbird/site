@@ -216,11 +216,11 @@ dated: 2017-10-29T17:50:03+02:00
         <span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
       <div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
         <div class='col-12 languages-icons '>
-          <img src='/images/socialproof/logo-python@2x.png'>
-          <img src='/images/socialproof/logo-java@2x.png'>
-          <img src='/images/socialproof/logo-csharp@2x.png'>
-          <img src='/images/socialproof/logo-nodejs@2x.png'>
-          <img src='/images/socialproof/logo-go@2x.png'>
+          <img data-src='/images/socialproof/logo-python@2x.png'>
+          <img data-src='/images/socialproof/logo-java@2x.png'>
+          <img data-src='/images/socialproof/logo-csharp@2x.png'>
+          <img data-src='/images/socialproof/logo-nodejs@2x.png'>
+          <img data-src='/images/socialproof/logo-go@2x.png'>
         </div>
       </div>
     </div>
