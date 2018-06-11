@@ -75,7 +75,7 @@ dated: 2017-10-29T17:50:03+02:00
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pl-0 pl-md-4 text-center text-md-left">
             <span class="h4 roboto-mono">Get instant overview</span>
-            <p class="pt-3 text-light-gray">Dashbird provides quick overview of everything goign on in your serverless infrastructure including invocation volumes, failures, latency and overall health.</p>
+            <p class="pt-3 text-light-gray">Dashbird provides quick overview of everything going on in your serverless infrastructure including invocation volumes, failures, latency and overall health.</p>
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
