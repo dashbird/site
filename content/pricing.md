@@ -98,8 +98,8 @@ date: 2017-10-29T17:50:03+02:00
         <div class="pt-5 pr-5 col-lg-9 mx-auto">
           <form method="post" action="https://app.dashbird.io/auth/register">
             <label class="input-group">
-              <input type="email" class="form-control" placeholder='Email' name='email' required>
-              <button class="input-group-addon">Start Free Trial</button>
+              <input type="email" class="form-control cta-input" placeholder='Email' name='email' required>
+              <button class="input-group-addon cta-pink cta-btn">Start Free Trial</button>
             </label>
           </form>
           <p class="text-center small">No credit card required</p>
@@ -119,7 +119,7 @@ date: 2017-10-29T17:50:03+02:00
       <h3 class='text-center'>Support for non-profits and startups</h3>
       <p class="lato h5 p-3">Please write to <a href='mailto:support@dashbird.io'>support@dashbird.com</a> answering the questions below and we’d be happy to discuss this further.</p>
       <ul class=''>
-        <li>Share something about your organisation – who you are and what do you do?</li>
+        <li>Share something about your organization – who you are and what do you do?</li>
         <li>How did you find Dashbird?</li>
         <li>How could you introduce Dashbird to others?</li>
         <li>Would you link us from your website (or write a blog post about Dashbird)?</li>

@@ -1,6 +1,6 @@
 ---
 title: Serverless Performance Monitoring & Debugging Tool - Dashbird
-description: Get instant overview of all your AWS Lambda functions and save money by optimising your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
+description: Get instant overview of all your AWS Lambda functions and save money by optimizing your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
 dated: 2017-10-29T17:50:03+02:00
 ---
 
@@ -20,11 +20,11 @@ dated: 2017-10-29T17:50:03+02:00
 
   <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
     <div class="row justify-content-center socialproof-icons align-items-end">
-      <img src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
-      <img src="/images/socialproof/logo-shelf@2x.png">
-      <img src="/images/socialproof/logo-nuviad@2x.png">
-      <img src="/images/socialproof/logo-autopilot@2x.png">
-      <img src="/images/socialproof/logo-blowout&go@2x.png">
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-shelf@2x.png">
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-nuviad@2x.png">
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-autopilot@2x.png">
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-blowout&go@2x.png">
     </div>
   </section>
 </div>
@@ -34,7 +34,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row justify-content-center pt-5 ">
     <div class='col-auto mb-5 mb-md-0'>
       <a href='/blog/serverless-survey-results-benefits/' class='text-white' target='_blank'>
-      Serverless statistics <img src="/images/ic-arrow.svg" class="ic-arrow">
+      Serverless statistics <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/ic-arrow.svg" class="ic-arrow">
       </a>
     </div>
   </div>
@@ -79,7 +79,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
-          <img src="/images/img-scr-overview@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-overview@2x.png">
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-11">
       <div class="row">
         <div class="d-none d-md-block col-7 imgs-fluid">
-          <img src="/images/img-scr-errors@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-errors@2x.png">
         </div>
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pr-0 pr-md-4 text-center text-md-left">
@@ -98,7 +98,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="d-block d-md-none col-12 col-md-7 imgs-fluid">
-          <img src="/images/img-scr-errors@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-errors@2x.png">
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
-          <img src="/images/img-scr-alerts@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-alerts@2x.png">
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-11">
       <div class="row">
         <div class="d-none d-md-block col-7 imgs-fluid">
-          <img src="/images/img-scr-invocation@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-invocation@2x.png">
         </div>
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pr-0 pr-md-4 text-center text-md-left">
@@ -133,7 +133,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="d-block d-md-none col-12 col-md-7 imgs-fluid">
-          <img src="/images/img-scr-invocation@2x.png">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-invocation@2x.png">
         </div>
       </div>
     </div>
@@ -154,7 +154,7 @@ dated: 2017-10-29T17:50:03+02:00
       <div class="row">
         <div class="col-12 col-md-6 pt-0 pt-md-0">
           <div class='row'>
-            <div class='d-none d-md-block col-2 text-right'><img src='/images/icon-invocations@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
+            <div class='d-none d-md-block col-2 text-right'><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/icon-invocations@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
             <div class='col-12 col-md-10'>
               <h5 class='roboto-mono'>Search through invocations</h5>
               <p class='text-light-gray'>Need to find something? Dashbird supports lightning fast search across all your invocation logs.</p>
@@ -163,7 +163,7 @@ dated: 2017-10-29T17:50:03+02:00
         </div>
         <div class="col-12 col-md-6 pt-3 pt-md-0">
           <div class='row'>
-            <div class='d-none d-md-block col-md-2 text-right'><img src='/images/icon-alerts@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
+            <div class='d-none d-md-block col-md-2 text-right'><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/icon-alerts@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
             <div class='col-12 col-md-10'>
               <h5 class='roboto-mono'>Receive proper alerts</h5>
               <p class='text-light-gray'>Dashbird alerts on code failures and provides context for easy fixes. Yes, we have a Slack integration.</p>
@@ -175,7 +175,7 @@ dated: 2017-10-29T17:50:03+02:00
       <div class="row p-0 pt-3 pb-5 pt-md-60 pb-md-80">
         <div class="col-12 col-md-6">
           <div class='row'>
-            <div class='d-none d-md-block col-2 text-right'><img src='/images/icon-debug@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
+            <div class='d-none d-md-block col-2 text-right'><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/icon-debug@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
             <div class='col-12 col-md-10'>
               <h5 class='roboto-mono'>Easy debugging</h5>
               <p class='text-light-gray'>Dashbird helps you understand the scope of the issues with understand-able logs and pinpoints the date they were introduced.</p>
@@ -185,7 +185,7 @@ dated: 2017-10-29T17:50:03+02:00
 
         <div class="col-12 col-md-6 pt-3 pt-md-0">
           <div class='row'>
-            <div class='d-none d-md-block col-2 text-right'><img src='/images/icon-traces@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
+            <div class='d-none d-md-block col-2 text-right'><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/icon-traces@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
             <div class='col-12 col-md-10'>
               <h5 class='roboto-mono'>Find bottlenecks with Traces</h5>
               <p class='text-light-gray'>Dashbird is seamlessly integrated with AWS X-Ray. Just click on a invocation and see where your time went!</p>
@@ -216,11 +216,11 @@ dated: 2017-10-29T17:50:03+02:00
         <span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
       <div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
         <div class='col-12 languages-icons '>
-          <img data-src='/images/socialproof/logo-python@2x.png'>
-          <img data-src='/images/socialproof/logo-java@2x.png'>
-          <img data-src='/images/socialproof/logo-csharp@2x.png'>
-          <img data-src='/images/socialproof/logo-nodejs@2x.png'>
-          <img data-src='/images/socialproof/logo-go@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
         </div>
       </div>
     </div>
