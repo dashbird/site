@@ -67,4 +67,4 @@ The free tier tracks 10 lambda functions with a sum total of  500k requests per 
 ## Conclusion
 If your application logic is distributed over large amounts of functions, it makes a lot more sense to collect info from the logs rather than sending telemetry at the execution time. Dashbird introduces what will one day be the _de facto_ standard for Serverless monitoring. If you're building on AWS Lambda, Dashbird is one of the best tools to monitor and improve your Serverless architecture.
 
-### [Try out Dashbird for free](https://dashbird.io/signup) 
+### [Try out Dashbird for free](https://dashbird.io/register) 

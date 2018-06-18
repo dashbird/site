@@ -15,7 +15,7 @@ kbSeries_weight: 100
 </h2>
 Setting up Dashbird takes under 5 minutes and requires no code changes.
 
-To start, [sign up](/signup) and follow the on-screen instructions to link your AWS account with Dashbird.
+To start, [sign up](/register) and follow the on-screen instructions to link your AWS account with Dashbird.
 
 Full instructions can be found [here](/docs/get-started/quick-start).
 

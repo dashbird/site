@@ -80,4 +80,4 @@ This is then followed by asking the right questions and then making an educated 
 
 [Dashbird](https://dashbird.io) helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. Of course, there are more parameters to consider like concurrency and synchrony. They would need a much deeper dive. More about that in one of my next articles!
 
-Stay tuned and feel free to [Sign up](https://dashbird.io/signup/) to learn more.
+Stay tuned and feel free to [Sign up](https://dashbird.io/register/) to learn more.
