@@ -13,19 +13,19 @@ date: 2018-06-17T11:50:03+02:00
             <form>
                 <div class="input-group flex-column mb-15px">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control cta-input w-100-percent" placeholder='Eg. johndoe@email.com' name="email" required>
+                    <input type="email" class="form-control cta-input w-100-percent" placeholder='johndoe@email.com' name="email" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
                     <label for="first-name">First name</label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Eg, John' name="first-name" required>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='John' name="first-name" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
                     <label for="last-name">Last name</label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Eg. Doe' name="last-name" required>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Doe' name="last-name" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='Eg. superdupersecret' name="password" required>
+                    <input type="password" class="form-control cta-input w-100-percent" placeholder='superdupersecret' name="password" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
                     <label for="confirm-password">Confirm password</label>
