@@ -60,6 +60,6 @@ To make matters simple, people try to use **asynchronous execution** to their ad
 
 Another important approach that you can adopt is to never modify data in place. Be smart, create a new file with the modified data before purging the old one. Try not to mutate state if it is not needed.
 
-[Sign up](https://dashbird.io/signup/) to monitor your function's health. [Dashbird](https://dashbird.io) helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. It sure makes debugging easy.
+[Sign up](https://dashbird.io/register/) to monitor your function's health. [Dashbird](https://dashbird.io) helps you every step of the way, from keeping track of subtleties like cold starts to knowing whether or not a new solution has made any difference. It sure makes debugging easy.
 
 Stay tuned, have fun, and stick around to read more about Serverless Architecture in one of my next articles!
