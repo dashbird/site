@@ -222,9 +222,11 @@
     border: solid 0.5px #4046ad;
   }
 
-  input[type=text].form-control::placeholder {
+  input[type=email].form-control::placeholder,
+  input[type=text].form-control::placeholder,
+  input[type=password].form-control::placeholder {
     color: #4046ad;
-    opacity: 0.48;
+    opacity: 0.3;
   }
 
   .gray {
@@ -494,8 +496,16 @@
     margin-bottom: 8%;
   }
 
+  .mb-15px {
+    margin-bottom: 15px;
+  }
+
   .mt-8 {
     margin-top: 8%;
+  }
+
+  .mt-40px {
+    margin-top: 40px;
   }
 
   .lh-2 {
@@ -860,5 +870,11 @@
 
   img[data-src] {
     opacity: 0;
+  }
+
+  .w-100-percent {
+    min-width: auto;
+    max-width: none;
+    width: 100% !important;
   }
 </style>

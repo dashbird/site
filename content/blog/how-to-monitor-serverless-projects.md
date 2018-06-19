@@ -54,7 +54,7 @@ Now let's go and set up your first project...
 ## Setting up
 
 <img src="/images/blog/18-12-2017/walkthrough3.png" width=400 style='float: right; margin-left: 32px; '/>
-_If you haven't already, sign up for [Dashbird to monitor your Lambda functions](/signup)._
+_If you haven't already, sign up for [Dashbird to monitor your Lambda functions](/register)._
 
 From the main dashboard, go to _Projects -> Create a new project view_
 

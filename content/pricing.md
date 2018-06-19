@@ -96,7 +96,7 @@ date: 2017-10-29T17:50:03+02:00
       <h3 class="mt-3">Catch errors before your users do, always.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pr-5 col-lg-9 mx-auto">
-          <form method="post" action="https://app.dashbird.io/auth/register">
+          <form method="get" action="register">
             <label class="input-group">
               <input type="email" class="form-control cta-input" placeholder='Email' name='email' required>
               <button class="input-group-addon cta-pink cta-btn">Start Free Trial</button>
