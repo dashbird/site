@@ -9,27 +9,31 @@ date: 2018-06-17T11:50:03+02:00
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12">
         <div class="pt-2">
-            <form name="register-form" method="post" action="https://app.dashbird.io/auth/register">
+            <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
             <!-- <form name="register-form"> -->
                 <div class="input-group flex-column mb-15px">
-                    <label for="register-email">Email</label>
-                    <input type="email" class="form-control cta-input w-100-percent" placeholder='johndoe@email.com' name="register-email" required>
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control cta-input w-100-percent" placeholder='johndoe@email.com' name="email" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="register-first-name">First name</label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='John' name="register-first-name" required>
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='John' name="firstName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="register-last-name">Last name</label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Doe' name="register-last-name" required>
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Doe' name="lastName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="register-password">Password</label>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='superdupersecret' name="register-password" required>
+                    <label for="companyName">Company name</label>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder="John's company" name="companyName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="register-confirm-password">Confirm password</label>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='please confirm it!' name="register-confirm-password" required>
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control cta-input w-100-percent" placeholder='superdupersecret' name="password" required>
+                </div>
+                <div class="input-group flex-column mb-15px">
+                    <label for="confirmPassword">Confirm password</label>
+                    <input type="password" class="form-control cta-input w-100-percent" placeholder='please confirm it!' name="confirmPassword" required>
                 </div>
                 <div class="input-group flex-column mt-40px">
                     <button type="submit" class="cta-btn cta-pink w-100-percent" id="register-btn">Sign up</button>
