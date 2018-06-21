@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-
+/* global ga */
 $(function () {
   // init values
   const urlString = window.location.href
@@ -17,6 +17,10 @@ $(function () {
   // event handlers
   passwordElement.onchange = validatePassword
   confirmPasswordElement.onkeyup = validatePassword
+
+  $registerForm.addEventListener('submit', function (event) {
+    return handleRegisterEvent({ email: emailElement.value })
+  })
 
   // init functions
   initRegister()
@@ -36,5 +40,8 @@ $(function () {
     } else {
       confirmPasswordElement.setCustomValidity('')
     }
+  }
+  function handleRegisterEvent (params) {
+    return ga('send', 'event', 'Signup', 'signup-successful', params.email)
   }
 })
