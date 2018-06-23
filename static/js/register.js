@@ -18,8 +18,8 @@ $(function () {
   passwordElement.onchange = validatePassword
   confirmPasswordElement.onkeyup = validatePassword
 
-  $registerForm.addEventListener('submit', function (event) {
-    return handleRegisterEvent({ email: emailElement.value })
+  $registerForm.addEventListener('submit', function () {
+    ga('send', 'event', 'Signup', 'signup-successful', emailElement.value)
   })
 
   // init functions
@@ -40,8 +40,5 @@ $(function () {
     } else {
       confirmPasswordElement.setCustomValidity('')
     }
-  }
-  function handleRegisterEvent (params) {
-    return ga('send', 'event', 'Signup', 'signup-successful', params.email)
   }
 })
