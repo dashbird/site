@@ -18,8 +18,20 @@ $(function () {
   passwordElement.onchange = validatePassword
   confirmPasswordElement.onkeyup = validatePassword
 
-  $registerForm.addEventListener('submit', function () {
-    ga('send', 'event', 'Signup', 'signup-successful', emailElement.value)
+  $registerForm.addEventListener('submit', function (e) {
+    e.preventDefault()
+    setTimeout(submitForm, 1000)
+    var formSubmitted = false
+    function submitForm () {
+      if (!formSubmitted) {
+        formSubmitted = true
+        $registerForm.submit()
+      }
+    }
+
+    ga('send', 'event', 'Signup', 'signup-successful', emailElement.value, {
+      hitCallback: submitForm
+    })
   })
 
   // init functions
