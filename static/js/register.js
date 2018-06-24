@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-/* global ga */
+/* global gtag */
 $(function () {
   // init values
   const urlString = window.location.href
@@ -29,8 +29,10 @@ $(function () {
       }
     }
 
-    ga('send', 'event', 'Signup', 'signup-successful', emailElement.value, {
-      hitCallback: submitForm
+    gtag('event', 'signup-successful', {
+      'event_category': 'Signup',
+      'event_label': 'email',
+      'value': emailElement.value
     })
   })
 
