@@ -191,7 +191,7 @@ date: 2017-11-06T10:50:03+02:00
           <form method="get" action="/register">
             <label class="input-group">
               <input type="email" class="form-control cta-input" placeholder='Email' name='email' required>
-              <button class="input-group-addon cta-pink cta-btn">Start Free Trial</button>
+              <button class="input-group-addon cta-pink cta-btn" type="submit">Start Free Trial</button>
             </label>
           </form>
           <p class="text-center small">No credit card required</p>

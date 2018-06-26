@@ -15,7 +15,7 @@ twitter_summary: 'summary_large_image'
         <form method="get" action="/register">
           <label class="input-group">
               <input type="email" class="form-control" placeholder='Email' name="email" required>
-              <button class="input-group-addon">Sign up for free</button>
+              <button class="input-group-addon" type="submit">Sign up for free</button>
           </label>
         </form>
         <p class="text-center gray small">No code changes. Results in 2 minutes.</p>
@@ -133,7 +133,7 @@ twitter_summary: 'summary_large_image'
           <form method="get" action="/register">
           <label class="input-group">
             <input type="email" class="form-control" placeholder='Email' name="email" required>
-            <button class="input-group-addon">Sign up for free</button>
+            <button class="input-group-addon" type="submit">Sign up for free</button>
           </label>
           </form>
           <p class="text-center small">No credit card required</p>

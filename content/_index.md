@@ -12,7 +12,7 @@ dated: 2017-10-29T17:50:03+02:00
         <h2 class="mt-4 text-center roboto lh-3">Log based AWS Lambda monitoring, tracing, error alerting and debugging for agile businesses. 2-minute setup, no code changes!</h2>
         <form class='form-inline justify-content-center mt-md-5' method="get" action="/register">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup'>Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
         </form>
       </div>
     </div>
@@ -204,7 +204,7 @@ dated: 2017-10-29T17:50:03+02:00
         <p class="mt-3 lh-3 d-block">Save development time and money. Get your lambda performance analytics set up in 2-minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' method="get" action="/register">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup'>Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
         </form>
       </div>
     </div>
