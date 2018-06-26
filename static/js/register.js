@@ -31,7 +31,7 @@ $(function () {
       }
     }
 
-    gtag('event', 'signup-successful', {
+    gtag('event', 'signup-started', {
       'event_category': 'Signup',
       'event_label': emailElement.value
     })
