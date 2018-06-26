@@ -1,10 +1,12 @@
 /* eslint-env jquery */
 /* global gtag */
+/* global localStorage */
 $(function () {
   // init values
-  const urlString = window.location.href
-  const url = new URL(urlString)
-  const email = url.searchParams.get('email')
+  const email = localStorage.getItem('email')
+  if (email) {
+    localStorage.removeItem('email')
+  }
   const $formArray = $('form[name="register-form"]')
   if (!$formArray.length) { return }
 

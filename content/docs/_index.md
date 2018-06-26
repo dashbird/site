@@ -13,10 +13,10 @@ aliases:
       <h2 class="mt-4 text-center text-md-left lato">Alerts, error-tracking and analytics for Serverless.</h2>
       <h2 class="lato text-center text-md-left">Take your FaaS system to another level.</h2>
       <div class="pt-5 pr-5">
-        <form method="get" action="register">
+        <form name="trial-form">
           <label class="input-group">
               <input type="text" class="form-control" placeholder='Email' name="email" required>
-              <button class="input-group-addon cta-btn cta-pink">Start Free Trial</button>
+              <button class="input-group-addon cta-btn cta-pink" type="submit">Start Free Trial</button>
           </label>
         </form>
         <p class="text-center gray small">No credit card required</p>
@@ -101,10 +101,10 @@ aliases:
       <h3 class="mt-3">Make your serverless apps provide the best user-experience.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pr-5 col-lg-7 mx-auto">
-          <form method="get" action="register">
+          <form name="trial-form">
           <label class="input-group">
             <input type="text" class="form-control" placeholder='Email' name="email" required>
-            <button class="input-group-addon">Start Free Trial</button>
+            <button class="input-group-addon" type="submit">Start Free Trial</button>
           </label>
           </form>
           <p class="text-center small">No credit card required</p>

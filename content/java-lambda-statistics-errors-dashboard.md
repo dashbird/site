@@ -14,10 +14,10 @@ twitter_summary: 'summary_large_image'
         <h2 class="mt-4 text-center lato">We'll draw a dashboard from your CloudWatch logs.</h2>
         <h2 class="lato text-center">Alerts and monitoring to all functions in 96 seconds!</h2>
         <div class="pt-5">
-          <form method="get" action="register">
+          <form name="trial-form">
             <label class="input-group">
                 <input type="email" class="form-control" placeholder='Email' name="email" required>
-                <button class="input-group-addon">Sign up for free</button>
+                <button class="input-group-addon" type="submit">Sign up for free</button>
             </label>
           </form>
           <p class="text-center small">No credit card required</p>
@@ -177,7 +177,7 @@ twitter_summary: 'summary_large_image'
       <h3 class="mt-3">Get a better overview of your Serverless after just a 2-minute setup.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pl-5 pr-5 col-lg-5 mx-auto">
-          <form method="get" action="register">
+          <form name="trial-form" type="submit">
           <label class="input-group">
             <input type="email" class="form-control" placeholder='Email' name="email" required>
             <button class="input-group-addon">Start Free Trial</button>
