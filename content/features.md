@@ -188,7 +188,7 @@ date: 2017-11-06T10:50:03+02:00
       <h3 class="mt-3">Catch errors before your users do, always.</h3>
       <div class="row justify-content-md-center justify-content-sm-center">
         <div class="col-sm-10 col-xs-12">
-          <form method="get" action="/register">
+          <form name="trial-form">
             <label class="input-group">
               <input type="email" class="form-control cta-input" placeholder='Email' name='email' required>
               <button class="input-group-addon cta-pink cta-btn" type="submit">Start Free Trial</button>

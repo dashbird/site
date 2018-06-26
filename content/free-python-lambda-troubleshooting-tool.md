@@ -14,7 +14,7 @@ twitter_summary: 'summary_large_image'
         <h2 class="mt-4 text-center lato">Monitor, profile and troubleshoot your Lambda functions.</h2>
         <h2 class="lato text-center">Set up in 96 seconds, no code changes!</h2>
         <div class="pt-5">
-          <form method="get" action="/register">
+          <form name="trial-form">
             <label class="input-group">
                 <input type="email" class="form-control" placeholder='Email' name="email" required>
                 <button class="input-group-addon" type="submit">Sign up for free</button>
@@ -174,7 +174,7 @@ twitter_summary: 'summary_large_image'
       <h3 class="mt-3">Provide the best user-experience with your Serverless system.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pr-5 col-lg-7 mx-auto">
-          <form method="get" action="/register">
+          <form name="trial-form">
           <label class="input-group">
             <input type="email" class="form-control" placeholder='Email' name="email" required>
             <button class="input-group-addon" type="submit">Sign up for free</button>
