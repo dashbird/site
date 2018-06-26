@@ -8,9 +8,11 @@
     "indexDocs": "hugo-lunr -i \"content/docs/**/*\" -o static/js/docs.json",
     "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'",
     "deploy-staging": "hugo -b https://staging.dashbird.io/ && aws s3 sync --acl public-read --sse --delete public/  s3://staging.dashbird.io && aws cloudfront create-invalidation --distribution-id E2B9Q1NEUTU80 --paths '/*'",
+    "build": "$(npm bin)/hugo",
     "compile": "./compile.sh",
     "lint": "$(npm bin)/standard",
-    "dev": "npm run lint && npm start"
+    "dev": "npm run lint && npm start",
+    "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",

@@ -81,7 +81,7 @@ date: 2017-11-06T10:50:03+02:00
       <h3 class="mt-3">Catch errors before your users do, always.</h3>
       <div class="row justify-content-md-center">
         <div class="pt-5 pr-5 col-lg-7 mx-auto">
-          <form method="get" action="register">
+          <form method="get" action="/register">
             <label class="input-group">
               <input type="text" class="form-control" placeholder='Email' name='email' required>
               <button class="input-group-addon">Start Free Trial</button>
