@@ -12,7 +12,8 @@
     "compile": "./compile.sh",
     "lint": "$(npm bin)/standard",
     "dev": "npm run lint && npm start",
-    "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer"
+    "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer",
+    "prod-no-compile": "rm -rf ./public && npm run build && cd ./public && python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
