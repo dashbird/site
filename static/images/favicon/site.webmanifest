@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Dashbird - Serverless Monitoring and Debugging",
+    "short_name": "Dashbird",
     "icons": [
         {
             "src": "/assets/images/favicon/android-chrome-192x192.png",
