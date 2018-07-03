@@ -36,7 +36,7 @@ You can severely hurt my feelings and jump to the section you're interested in, 
 
 The setup itself will be bare bones minimum. But, it will still have everything you need to continue adding features for your future production apps. Here's a diagram of the final layout so you can get an overview.
 
-![project-setup.png](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/project-setup.png)
+<p style="text-align:center;box-shadow:none;"><img style="text-align:center;box-shadow:none;" src="https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/project-setup.png" alt="project-setup" /></p>
 
 As you can see it's rather simple API for notes with CRUD logic, but it get's the job done. Enough talk, let's get the project up and running.
 
@@ -455,7 +455,7 @@ $ loadtest -n 100 -c 10 https://<id>.execute-api.eu-central-1.amazonaws.com/prod
 
 It took roughly 5 seconds to serve all those requests, and it went flawlessly. You can rest assured that whatever scale of API you end up having it will auto-scale to the size you need and serve your users without any issues. Here's an overview of the logs from this load test.
 
-![Dashbird function logs](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/dashbird-sls-express-mongo-2.gif)
+<p style="test-align:center;"><img src="https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/dashbird-sls-express-mongo-2.gif" alt="Dashbird function logs" width="100%" /></p>
 
 This monitoring tool is called [Dashbird](https://dashbird.io/). Let's set it up so you can have a proper overview of your API too.
 
