@@ -494,7 +494,7 @@ Well, that was simple.
 
 #### 3. Setup Dashbird with the created role
 
-All you need to do is **paste the Role ARN** you copied above, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app. Logs will start piling in withing a minute.
+All you need to do is **paste the Role ARN** you copied above, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app. Logs will start piling in within a minute.
 
 Make sure to check your functions and check if the testing you carried out is visible on the graphs. That's it, you've built a production-ready API, with an easy way to deploy and monitor your application. Give yourself a big pat on the back!
 
