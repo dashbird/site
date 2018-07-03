@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-07-03/blind-cover.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 ---
-![AWS Lambda With Node.js v.8.10](/images/blog/2018-07-03/blind-cover.jpg)
+![Solving invisible scaling issues with Serverless and MongoDB](/images/blog/2018-07-03/blind-cover.jpg)
 _Don't follow blindly, weigh your actions carefully._
 
 ___
