@@ -6,6 +6,7 @@ frontImage: "2018-07-03/crash-cover.jpg"
 thumbnail: "images/blog/2018-07-03/crash-cover.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-apis-with-express-and-mongodb-193k
 ---
 ![A crash course on Serverless APIs with Express and MongoDB](/images/blog/2018-07-03/crash-cover.jpg)
 _I don't think that's a crash course._

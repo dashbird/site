@@ -6,6 +6,7 @@ frontImage: "2018-07-03/blind-cover.jpg"
 thumbnail: "images/blog/2018-07-03/blind-cover.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+canonical: https://dev.to/adnanrahic/solving-invisible-scaling-issues-with-serverless-and-mongodb-4m55
 ---
 ![Solving invisible scaling issues with Serverless and MongoDB](/images/blog/2018-07-03/blind-cover.jpg)
 _Don't follow blindly, weigh your actions carefully._
