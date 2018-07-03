@@ -4,7 +4,8 @@ description: Learn where to start learning serverless for free
 date: 2018-07-02T12:00:00.000Z
 frontImage: "2018-07-02/pexels-photo-45775.jpeg"
 thumbnail: "images/blog/2018-07-02/pexels-photo-45775.jpeg"
-author: Nemanja Novkovic
+authorlink: 'https://twitter.com/@johndemian'
+author: John Demian
 ---
 ![AWS Lambda Pricing Model Explained With Examples](/images/blog/2018-07-02/pexels-photo-45775.jpeg)
 ___
@@ -30,4 +31,4 @@ Adnan points out how, with serverless, it all boils down to the developer mindse
 <h2>5. <a href="https://hackernoon.com/fantastic-serverless-security-risks-and-where-to-find-them-737d2206545a">Serverless security risks, and where to find them</a></h2>
 Last but not least, the next step in your serverless journey will lead you to question the security risks involved. Since the function as a service paradigm forces you to think differently about your servers will make it hard for the newcomers to understand how to identify and remove the security flaws and risks in their app. Luckily there's an easy to follow tutorial that will help with that.
 
-There you have it, folks, five easy to follow articles that will get you started with serverless in no time. I'd advise you take the time to go over each one of the articles mentioned here and if you got the time jump over to <a href="https://dashbird.io/blog/the-complete-serverless-resources-collection/">The complete serverless resources</a> article we published a while back and dive even deeper into serverless.
+There you have it, folks, five easy to follow articles that will get you started with serverless in no time. I'd advise you take the time to go over each one of the articles mentioned here and if you got the time jump over to <a href="https://dashbird.io/blog/the-complete-serverless-resources-collection/">The complete serverless resources</a> article we published a while back and dive even deeper into serverless.g
