@@ -470,77 +470,29 @@ You've already had a quick start with the Serverless framework above. Let's jump
 
 This seems quite logical I'd say. Go ahead and create an account [here](https://dashbird.io/register/). No credit cards are required, create an account and you're set to go.
 
-After you sign up you'll be redirected to an onboarding screen where you need to add a **IAM Role ARN**. Just like in the example of creating an IAM User for the Serverless framework let's create one for Dashbird as well.
+After you sign up you'll be redirected to an onboarding screen where you need to add a **IAM Role ARN**. Lucky for us, the Dashbird devs have created a CloudFormation stack for us that makes it stupidly easy to create the IAM Role.
 
-#### 2. Create a new **AWS policy** for Dashbird
+#### 2. Create a new **AWS IAM Role** for Dashbird
 
-Once again open your [AWS console](https://console.aws.amazon.com/) and navigate to `IAM` → `Policies` → `Create Policy`. Choose the **JSON** tab and paste the snippet below into the editor.
+After you sign up, you'll be redirected to the onboarding screen.
 
-```json
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "logs:FilterLogEvents",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "logs:describeLogStreams",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "lambda:listFunctions",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "lambda:listTags",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "xray:Get*",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "xray:BatchGet*",
-            "Resource": "*"
-        }
-    ]
-}
-```
+![onboarding](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/onboarding.png)
 
-Press **Review Policy** and move on to add a name and description. Let the name be `dashbird-policy` and the description  `Allow Dashbird to read CloudWatch logs`. Go ahead and press **Create Policy**.
+Click on the `create a new CloudFormation stack` link and follow along with the steps. 
 
-#### 3. Add a new AWS role for Dashbird
+![select template](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/select-template.png)
 
-Navigate to `IAM` → `Roles` → `Create New Role` and select  `Another AWS account`. 
+Everything you need to do is just keep on pressing next until you reach a checkbox named **I Acknowledge that AWS CloudFormation might create IAM resources box**. Check it and create the stack.
 
-Fill out the following:
+![tick the checkbox](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/checkbox.png)
 
-- Account ID: `458024764010` - This is Dashbird’s AWS account.
-- Check the `Require external ID` checkbox
-- External ID: **copy from the onboarding app**
-- Require MFA: `false` 
+Once the CloudFormation stack is created you'll see it in the console. Here you'll just copy the ARN of the **DashbirdIntegrationRole**.
 
-Then you can go ahead and press **Next: Permissions**.
+![cloudformation](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/cloudformation.png)
 
-- Select previously created `dashbird-policy` from the policies list.
-- Click **Next: Review**
-- Fill out the following for role name and description:
-  - Role name: `dashbird-delegation-role`
-  - Role description: `Access role for Dashbird to read CloudWatch logs.`
-  - Click **Create role**
+Well, that was simple.
 
-Find the created role in the list and open it. If you have done everything correctly, the screen will look something like the image below. Make sure to **copy the ARN** from here!
-
-![IAM role dashbird](https://dashbird.io/images/docs/result.png)
-
-#### 4. Setup Dashbird with the created role
+#### 3. Setup Dashbird with the created role
 
 All you need to do is **paste the Role ARN** you copied above, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app. Logs will start piling in withing a minute.
 
