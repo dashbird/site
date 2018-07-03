@@ -32,7 +32,7 @@ Below you'll find a list of tutorials meant for the newcomers. The ones looking 
 
 1. [A crash rouse on serverless with NodeJS](https://hackernoon.com/a-crash-course-on-serverless-with-node-js-632b37d58b44) - perhaps one of the easiest tutorials to follow if you are a total newbie.
 
-2. [Migrating your Node.js REST API to Serverless](https://hackernoon.com/serverless-monitoring-the-good-the-bad-and-the-ugly-2b06e7ffd843) - From server to Serverless, a clean step by step tutorial
+2. [Serverless monitoring — the good, the bad and the ugly](https://hackernoon.com/serverless-monitoring-the-good-the-bad-and-the-ugly-2b06e7ffd843) - Keeping track of errors and easy debug is vital for serverless. Learn how to monitor your serverless app properly!
 
 3. [Migrating your Node.js REST API to Serverless](https://hackernoon.com/building-a-serverless-rest-api-with-node-js-and-mongodb-2e0ed0638f47) - Building a Serverless REST API with Node.js and MongoDB
 
