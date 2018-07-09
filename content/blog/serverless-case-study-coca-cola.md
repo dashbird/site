@@ -43,7 +43,9 @@ Their vending machines that you find around the globe have an integrated communi
 To start comparing the two options, infrastructure as a service vs functions as a service let me explain what Coca-cola was doing before serverless. Their oldest vending machines (the ones with the functionality I mentioned above) are about 10 to 12 years old. Up until 2016 they had been using 6 EC2 T2.Medium machines that cost them $12,864/year to operate. This included Automation, Ealastic load Balancer, Management, Security, etc. Within this, close to $13,000 they got everything they needed to run those vending machines for a year. 
 
 Ater moving to a serverless framework, adding up the costs for all the features they needed, it came down to $4,490/year. This was calculated for the 30 million requests they were getting at the time. Connor stated at AWS <a href="https://reinvent.awsevents.com/">re:invent</a> that the break-even point, where having infrastructure as a service would even begin to make sense would be around 80 million calls per month. That's 3 times what they were expecting to get at the time.
-
+</br><br>
+<center><h4><i>Coca-cola went from $13000 per year to $4.500 per year after switching to serverless</i></h4></center>
+<br><br>
 ![Coca-Cola Serverless case study](/images/blog/2018-07-04/coca-cola-serverless.jpg)
 
 <h2>So how does it actually work</h2>
