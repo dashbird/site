@@ -44,3 +44,9 @@ date: 2018-06-17T11:50:03+02:00
     </div>
   </div>
 </section>
+
+<script>
+  fbq('track', 'ViewContent', {
+    content_ids: 'register',
+  });
+</script>

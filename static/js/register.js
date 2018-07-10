@@ -1,5 +1,6 @@
 /* eslint-env jquery */
 /* global gtag */
+/* global fbq */
 /* global localStorage */
 $(function () {
   // init values
@@ -34,6 +35,9 @@ $(function () {
     gtag('event', 'signup-started', {
       'event_category': 'Signup',
       'event_label': emailElement.value
+    })
+    fbq('track', 'Lead', {
+      value: 'signup-started'
     })
   })
 

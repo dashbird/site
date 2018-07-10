@@ -200,3 +200,9 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </div>
 </section>
+
+<script>
+  fbq('track', 'ViewContent', {
+    content_ids: 'features',
+  });
+</script>
