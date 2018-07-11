@@ -12,8 +12,6 @@ aliases:
  - /help/basic/get-started
 ---
 
-#### _If you haven't already, [**sign up for Dashbird here**](https://dashbird.io/register) to access the onboarding screen._
-
 <h2>
   <span class="h2 underlined bold">Requirements for setting up Dashbird</span>
 </h2>
@@ -21,104 +19,47 @@ aliases:
 ##### **To set up Dashbird you need to have the following:**
 - **Administrator access to your AWS account**
 
-**Open the link to the onboarding screen from your e-mail.**
+<br>
+
+<h2>
+  <span class="h2 underlined bold">1. Sign up</span>
+</h2>
+
+Go to the register page and [create an account](/register/). No credit cards are required. Once you create an account and you're set to go.
+
+![register](/images/docs/dashbird-register.png)
 
 <br>
 
 <h2>
-  <span class="h2 underlined bold">1. Create a new <b>AWS policy</b> for Dashbird</span>
+  <span class="h2 underlined bold">2. Create a new <b>AWS IAM Role</b> for Dashbird</span>
 </h2>
 
-- Open your <a href="https://console.aws.amazon.com" target="_blank">AWS console</a>.
-- Navigate to `IAM` → `Policies` → `Create Policy`.
-- Choose the **JSON** tab and paste the snippet below into the editor
+After you sign up you'll be redirected to an onboarding screen where you need to add a **IAM Role ARN**. Lucky for you, our devs have created a CloudFormation stack that makes it stupidly easy to create the IAM Role.
 
-```json
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "logs:FilterLogEvents",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "logs:describeLogStreams",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "lambda:listFunctions",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "lambda:listTags",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "xray:Get*",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "xray:BatchGet*",
-            "Resource": "*"
-        }
-    ]
-}
-```
+![onboarding](/images/docs/onboarding.png)
 
-- Press **Review Policy** and move on to add a name and description
-  - Name: `dashbird-policy`
-  - Description: `Allow Dashbird to read CloudWatch logs.`
-- Move on and press **Create Policy**
+Click on the `create a new CloudFormation stack` link and follow along with the steps. 
 
-Great! You've created an access policy. Now you need to add an AWS role.
+![select template](/images/docs/select-template.png)
 
-<br>
+Everything you need to do is just keep on pressing next until you reach a checkbox named **I Acknowledge that AWS CloudFormation might create IAM resources box**. Check it and create the stack.
 
-<h2>
-  <span class="h2 underlined bold">2. Add a new <b>AWS role</b> for Dashbird</span>
-</h2>
+![tick the checkbox](/images/docs/checkbox.png)
 
+Once the CloudFormation stack is created you'll see it in the console. Here you'll just copy the ARN of the **DashbirdIntegrationRole**.
 
-- Navigate to `IAM` → `Roles` → `Create New Role`.
-- Select
-  - `Another AWS account`
-- Fill out the following:
- - Account ID: `458024764010` - This is Dashbird's AWS account.
- - Check the `Require external ID` checkbox
- - External ID: **copy from the onboarding app**
- - Require MFA: `false`
- - Click **Next: Permissions**
-- Select previously created `dashbird-policy` from the policies list.
-- Click **Next: Review**
-- Fill out the following for role name and description
- - Role name: `dashbird-delegation-role`
- - Role description: `Access role for Dashbird to read CloudWatch logs.`
- - Click **Create role**
-- Find the created role in the list and open it.
-- If you have done everything correctly, the screen will look something like this.
-![Correct result](/images/docs/result.png 'Role')
-- **Copy the ARN** of the role
+![cloudformation](/images/docs/cloudformation.png)
 
-<br>
+Well, that was simple.
 
 <h2>
   <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
 </h2>
 
-Back on the onboarding screen:
+All you need to do is **paste the Role ARN** you copied above, press the **All set** button, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app. Logs will start piling in within a minute.
 
-- Insert your (company) name
-- Select your target region.
-- Paste the **Role ARN** you copied above.
-- **Click Finish!**
-
-Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app.
+![finished onboarding](/images/docs/finish-onboarding.png)
 
 **It should take approximately 3-4 minutes for the data to start coming in.**
 
