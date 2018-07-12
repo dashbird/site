@@ -17,7 +17,7 @@ Netflix delivers 10 billion hours of videos to 125 million customers every quart
 
 At the moment Netflix has moved completely to the AWS cloud infrastructure and while a full seven years to make the move from their own data center might seem a long time for most people, they wanted to make sure that the problems they were facing while using the self-managed data center would not get imported into the cloud so they ended up basically rewriting every aspect of their service to make Netflix a true cloud-native application. You can read more about the journey to the cloud in an article written by <a target="_blank" href="https://media.netflix.com/en/company-blog/completing-the-netflix-cloud-migration">Yury Izrailevsky</a>, vice president of cloud platform engineering.
 
-<h2>So how does Netflix make use of Serverless</h2>
+<h3>So how does Netflix make use of Serverless</h3>
 Publishers upload thousands of files to Netflix on a daily basis and every bit of those files need to be encoded and sorted before they end up being streamed to the user. Once the files get uploaded to S3, Amazon triggers an event calling an AWS Lambda function that splits the video into 5-minute chunks that get encoded into 60 different parallel streams that Netflix needs. Once the last part of video gets processed they get aggregated and deployed using a series of rules and events.
 
 Another way that Netflix uses AWS Lambda is for their backup system. As thousands of files get changed and modified on a daily basis Lambdas are checking if the files need to be backed up, they check the validity and integrity of the files and if anything fails they can backtrack to the source of the problem and restart the process.
