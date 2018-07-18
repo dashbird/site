@@ -5,9 +5,8 @@ date: 2018-06-19T00:00:00.000Z
 frontImage: "2018-06-19/aws-lambda-pricing-model.jpg"
 thumbnail: "images/blog/2018-06-19/aws-lambda-pricing-model.jpg"
 author: Nemanja Novkovic
+category: "Lambda, Other"
 ---
-![AWS Lambda Pricing Model Explained With Examples](/images/blog/2018-06-19/aws-lambda-pricing-model.jpg)
-___
 
 Money is the one thing that turns the world around. Unfortunately, it is the necessity in almost all spheres of life. You can live without it or with lesser amounts of it, but it makes it all harder. If you wish to have it, first, you need to give it, as always. Even AWS Lambda is not free. 
 
