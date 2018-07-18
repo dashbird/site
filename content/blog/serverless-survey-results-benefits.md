@@ -6,9 +6,9 @@ frontImage: "26-04-2018/serverless-survey.jpg"
 thumbnail: "images/blog/26-04-2018/serverless-survey.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
+author_image: '/images/team/annika.png'
+category: "Product"
 ---
-
-![Serverless survey](/images/blog/26-04-2018/serverless-survey.jpg)
 
 We recently conducted a survey among active [Dashbird](https://dashbird.io) users to find out more about their product experience and about the serverless technology in general. We were mostly interested to find out what business benefits these companies have experienced since switching to serverless and how we can offer more value to them with Dashbird.
 

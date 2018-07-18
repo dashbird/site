@@ -5,9 +5,8 @@ date: 2018-05-14T00:00:00.000Z
 frontImage: "14-05-2018/faas-providers.jpeg"
 thumbnail: "images/blog/14-05-2018/faas-providers.jpeg"
 author: Nemanja Novkovic
+category: "Serverless, FaaS, Lambda"
 ---
-
-![Top Function As A Service (Faas) Providers](/images/blog/14-05-2018/faas-providers.jpeg)
 
 ## What Is FaaS?
 

@@ -6,9 +6,9 @@ frontImage: "02-05-2018/x-ray-update.jpg"
 thumbnail: "images/blog/02-05-2018/x-ray-update.jpg"
 authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
+author_image: '/images/team/mikk.png'
+category: "Product, X-Ray, Tracing"
 ---
-
-![Dashbird Product Update - X-Ray](/images/blog/02-05-2018/x-ray-update.jpg)
 
 <i class="quote pull-left"><a href="https://aws.amazon.com/xray/">AWS X-Ray</a> helps developers analyze and debug production, distributed applications such as those built using a microservices architecture. <br> <span class="pull-right">- <a href="https://aws.amazon.com/xray/">AWS X-Ray</a> documentation<span></i>
 

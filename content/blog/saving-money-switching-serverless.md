@@ -6,9 +6,9 @@ frontImage: "17-04-2018/saving-money-serverless.jpg"
 thumbnail: "images/blog/17-04-2018/saving-money-serverless.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
+author_image: '/images/team/annika.png'
+category: "Serverless, Other"
 ---
-
-![Serverless basic terms](/images/blog/17-04-2018/saving-money-serverless.jpg)
 
 One of the biggest arguments (among many others) for going serverless is the dramatic cost reduction you experience. Since the whole gist of serverless is that you only pay for the time your code is executed, it will result in significantly lower AWS bill (in most cases). Sounds too good to be true? Let's see what some early adopters of serverless have said about it:
 

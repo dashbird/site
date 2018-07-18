@@ -5,11 +5,8 @@ date: 2018-07-02T00:00:00.000Z
 frontImage: 2018-07-02/startups.jpg
 thumbnail: /images/blog/2018-07-02/startups.jpg
 author: Nemanja Novkovic
+category: "Serverless, FaaS"
 ---
-
-![startups](/images/blog/2018-07-02/startups.jpg)
-
-___
 
 As we all know (or don’t!) serverless computing has brought us so many benefits in our every-day developer lives. Serverless makes it so much easier for us to focus on many other tasks while serverless computing is doing its tasks, giving us the opportunity to do more, do better, do like never before. When serverless computing came to the scene, various serverless startups began to emerge too. Some of them based their businesses on serverless computing while others decided to implement their ideas to make serverless even better. Their goal is to make development much faster, but also more comfortable. To give a chance to those who already lost too much of their energy to do what they like, but in a brand new, quicker and more enjoyable way.
 

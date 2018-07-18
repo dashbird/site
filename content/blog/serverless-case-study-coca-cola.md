@@ -6,9 +6,9 @@ frontImage: "2018-07-04/pexels-photo-844875.jpeg"
 thumbnail: "images/blog/2018-07-04/pexels-photo-844875.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+author_image: '/images/team/john.png'
+category: "Serverless, Other"
 ---
-![Coca-Cola Serverless case study](/images/blog/2018-07-04/pexels-photo-844875.jpeg)
-
 
 A while back I talked about how big companies have started using serverless in production and how this is a clear sign that we will see more implementation of the serverless infrastructure in the near future. I'd like to take some time today and talk about one of the <a href="https://dashbird.io/blog/companies-using-serverless-in-production/">companies that are using serverless in production</a>: Coca-cola.
 
