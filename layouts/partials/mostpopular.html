@@ -1,0 +1,40 @@
+<section class="container overflow-hidden" style='padding-top: 70px; padding-bottom: 70px;'>
+  <div class="row justify-content-center">
+    <div class="col-12 mt-3">
+      <div class="row">
+        <h1 class='col text-left my-md-125 blog-news text-center-mbile'><span class="h4 underlined roboto-mono">Most popular</span></h1>
+      </div>
+      <div class="row carousel carousel-multi slide" id="carousel-example-multi">
+        <div class="carousel-inner">
+        {{ range $index, $value := (where .Site.Pages.ByDate.Reverse "Params.featpop" "most-popular")  | first 10}}
+        <div class="col-md-3 col-12 blog-item mb-125 carousel-item {{ if (eq $index 0) }}active{{ end }} ">
+          <div class="">
+            <div class="popular-thumb-wrap">
+              <img class="b-lazy popular-thumb" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/blog/{{.Params.frontImage}}" width='340'>
+            </div>
+            <div class="col-12  pt-md-3">
+              <div class="row">
+                <div class="blog-category mb-md-25 d-none d-md-block">
+                  {{range (split .Params.category ",") }}
+                  <span class='categ-{{  trim (replace (lower .) "." "") " " }}'>{{ . }}</span>
+                  {{ end }}
+                </div>
+                <h2 class="blog-title mb-md-25 h-xs-auto"><a href="{{ .Permalink  }}" class="pt-20 text-light-gray blog-title">{{ .Title }}</a></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#carousel-example-multi" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next text-faded" href="#carousel-example-multi" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>

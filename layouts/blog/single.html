@@ -1,103 +1,102 @@
 {{ define "main" }}
-<section class="container-fluid">
-  <div class="row justify-content-center">
-    <div class="col col-md-9 mw-900">
-    </div>
+
+<section class="position-relative container-fluid px-0">
+  <div class='container-fluidp-0 blog-slider position-absolute ' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/blog/{{.Params.frontImage}}"); background-size: cover; height: 600px; width: 100%;'>
+    <!-- <img src="/images/blog/{{.Params.frontImage}}" class="d-md-none"> -->
   </div>
-
-  <div class="row justify-content-center lato blog-font lh-3">
-    <div class="col-1 text-center d-none d-md-block" style='margin-top: 140px;'>
-      <div class="sticky-top pt-5">
-        <span class="h4">share</span>
-        <div class="col-12 mb-3 mt-3">
-          <a rel="nofollow"
-             class="h1"
-             title="Share to Twitter"
-             href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
-        </div>
-
-        <div class="col-12 mb-3">
-          <a rel="nofollow"
-             class="h1 mr-2"
-             title="Share to Facebook"
-             href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
-        </div>
-
-        <div class="col-12">
-          <a rel="nofollow"
-             class="h1"
-             href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
-             title="Share to LinkedIn"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
-        </div>
-      </div>
+  <div class="container z-index-1 p-md-10">
+    <h1 class="text-center p-5 text-white roboto-mono mb-md-4 position-relative">{{ .Title }}</h1>
+  </div>
+</section>
+<section class="container sf-ui-text blog-font bg-white z-index-1 position-relative">
+  <div class="post-author-icon-wrap position-absolute row">
+    <div class="post-author-icon">
     </div>
-
-    <div class="col col-md-9 mt-2 pt-4 mb-5 imgs-fluid mw-900">
-      <h1 class="text-center mt-5 mb-4">{{ .Title }}</h1>
-      <p class="text-right m-0 p-0">
+    <div class="text-center post-author-det st-ui-text">
+      Written by
       {{ if isset .Params "authorlink" }}
         <a href='{{ .Params.authorlink }}' target='_blank'>{{ .Params.author }}</a>
       {{ else }}
         {{ .Params.author }}
       {{ end }}
-      at {{ .Date.Format "Mon, Jan 2, 2006" }}
-      </p>
-      <div class='bg-white'>{{ .Content }}</div>
-      <div class="row">
-        <div class="col d-block d-md-none">
-        <span class="h4">share on:</span>
-          <a rel="nofollow"
-             class="h1 ml-3 mr-3"
-             title="Share to Twitter"
-             href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
-          <a rel="nofollow"
-             class="h1 mr-3"
-             title="Share to Facebook"
-             href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
+      <br>on {{ .Date.Format "Mon, Jan 2, 2006" }}
+    </div>
+  </div>
 
-          <a rel="nofollow"
-             class="h1"
-             href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
-             title="Share to LinkedIn"
-             onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
-        </div>
+ <div class="col-2 text-center d-none d-md-block position-absolute pt-10 hight-100">
+    <div class="sticky-top pt-5 social-icons">
+      <div class="col-12 mb-3 mt-6">
+        <a rel="nofollow"
+           class="twitter m-d-s"
+           title="Share to Twitter"
+           href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
+      </div>
+
+      <div class="col-12 mb-3">
+        <a rel="nofollow"
+           class="facebook m-d-s"
+           title="Share to Facebook"
+           href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
+      </div>
+
+      <div class="col-12">
+        <a rel="nofollow"
+           class="linkedin m-d-s"
+           href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
+           title="Share to LinkedIn"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
-    <div class="col-2 pt-3 d-none d-md-block" style='margin-top: 160px;'>
-      <div class="sticky-top pt-4">
-        <div class="pt-4 border rounded text-center">
-        <img src="/images/dashbird-logo.png" class='align-center' style='border: 0; box-shadow: none; width: 80px;'>
-        <p class='m-3 mt-4 mb-4' style='font-size: 10pt;'>End-to-end serverless monitoring and error reporting.</p>
-        <a href='https://dashbird.io' class='btn btn-primary btn-sm mb-3' role='button' >Dashbird</a>
-      </div>
-    </div>
-  </div>
-  </div>
+  </div> 
 
-  </div>
-
-  <div class="row justify-content-center lato lh-3">
-    <div class="col-6 mt-4 mb-5 text-center">
-
-      <span class='h2 d-block'>Want more content like this?</span>
-      <span class='h5'>Keep up to speed on the latest serverless trends!</span>
-      <form action="https://dashbird.us15.list-manage.com/subscribe/post?u=a50018e875e09cbcbb6568beb&amp;id=5736e63062" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <label class="input-group pt-3 m-auto" style='max-width:600px'> 
-          <input type="email" class="form-control cta-input mr-2" placeholder='Email' name="EMAIL" required>
-          <button class="input-group-addon cta-btn cta-pink" id='signup' type='submit'>Subscribe</button>
-        </label>
-      </form>
-    </div>
+  <div class="col col-md-8 pt-10 pt-md-4 mt-md-40 mb-5 imgs-fluid justify-content-center m-0-auto">
+    <p class="text-right m-0 p-0">
+    </p>
+    <div class=''>{{ .Content }}</div>
   </div>
   <div class="row justify-content-center lato lh-3">
-    <div class="col-6 mt-4 mb-5">
+    <div class="col-8 mt-40 mb-5">
       {{ partial "disqus" . }}
     </div>
   </div>
+  <div class="row">
+    <div class="col d-block d-md-none social-icons">
+      <span class="h4">share on:</span>
+      <a rel="nofollow"
+         class="h1 ml-3 mr-3 twitter text-center"
+         title="Share to Twitter"
+         href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
+      <a rel="nofollow"
+         class="h1 mr-3 facebook text-center"
+         title="Share to Facebook"
+         href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
+
+      <a rel="nofollow"
+         class="h1 linkedin text-center"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
+         title="Share to LinkedIn"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </div>
+    
+  <!-- <div class="col-2 pt-3 d-none d-md-block" style='margin-top: 160px;'>
+    <div class="sticky-top pt-4">
+      <div class="pt-4 border rounded text-center">
+      <img src="/images/dashbird-logo.png" class='align-center' style='border: 0; box-shadow: none; width: 80px;'>
+      <p classsda='m-3 mt-4 mb-4' style='font-size: 10pt;'>End-to-end serverless monitoring and error reporting.</p>
+      <a href='https://dashbird.io' class='btn btn-primary btn-sm mb-3' role='button' >Dashbird</a>
+    </div>
+  </div> 
+  </div>-->
 </section>
+
+  {{ partial "newsletter.html" .}}
+  {{ partial "mostpopular.html" .}}
+  {{ partial "freetrial.html" .}}
 {{ end }}
+
+
