@@ -7,6 +7,8 @@ thumbnail: "images/blog/2018-06-21/how-to-deploy-a-nodejs-application-to-aws-lam
 canonical: https://dev.to/adnanrahic/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless-2nc7
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+featpop: most-popular
+featloc: blog-header
 ---
 ![Getting Started with AWS Lambda and Node.js](/images/blog/2018-06-21/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless.jpeg)
 _If containers are ships, I guess serverless might as well be a surfer dude..._

@@ -6,6 +6,8 @@ frontImage: "2018-07-02/pexels-photo-45775.jpeg"
 thumbnail: "images/blog/2018-07-02/pexels-photo-45775.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+featpop: most-popular
+featloc: blog-header
 ---
 ![AWS Lambda Pricing Model Explained With Examples](/images/blog/2018-07-02/pexels-photo-45775.jpeg)
 ___

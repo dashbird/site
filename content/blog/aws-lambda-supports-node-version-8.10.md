@@ -6,6 +6,8 @@ frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
 thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+featpop: most-popular
+featloc: blog-header
 ---
 ![AWS Lambda With Node.js v.8.10](/images/blog/08-05-2018/aws-lambda-node-8.jpeg)
 _Image shows my happiness after AWS stated they would support Node.js version 8.10 in AWS Lambda._

@@ -7,6 +7,10 @@ thumbnail: "images/blog/26-05-2018/getting-started-lambda-node.jpg"
 canonical: https://dev.to/adnanrahic/getting-started-with-aws-lambda-and-nodejs-1kcf
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
+blog: ["Product news", "Other", "Node.js"]
+featloc: blog-header
+featpop: most-popular
 ---
 ![Getting Started with AWS Lambda and Node.js](https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 _A guy floating in space because of reasons..._
