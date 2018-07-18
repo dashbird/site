@@ -1,7 +1,7 @@
 ---
 title: Dashbird Pricing - Usage Based Serverless Observability Platform
 description: Dashbird subscriptions are priced by usage and measured in GB. The plans currently cover AWS Lambda, AWS X-Ray and API Gateway and offer wide range of monitoring, alerting and debugging features. Great value for money!
-date: 2018-07-18T17:50:03+02:00
+date: 2018-07-17T17:50:03+02:00
 ---
 
 <section class="container-fluid dark-bg">
@@ -28,7 +28,7 @@ date: 2018-07-18T17:50:03+02:00
 
             <p class="lato h6">&nbsp;</p>
             <p class="lato h6">&nbsp;</p>
-            <p class="lato h6">1 GB /p>
+            <p class="lato h6">1 GB </p>
             <p class="lato m-0 p-0 h6">per month</p>
             <p class="lato h6">&nbsp;</p>
            </div>
