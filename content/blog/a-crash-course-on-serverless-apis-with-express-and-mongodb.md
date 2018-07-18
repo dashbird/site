@@ -6,6 +6,7 @@ frontImage: "2018-07-03/crash-cover.jpg"
 thumbnail: "images/blog/2018-07-03/crash-cover.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
 canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-apis-with-express-and-mongodb-193k
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
