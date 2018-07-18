@@ -5,9 +5,8 @@ date: 2018-02-27
 frontImage: "05-03-2018/c-sharp-lambda-monitoring.jpg"
 thumbnail: "images/blog/05-03-2018/c-sharp-lambda-monitoring.jpg"
 author: Andrei Popescu
+category: "Serverless, C#, Lambda"
 ---
-
-![C# AWS Lambda Monitoring](/images/blog/05-03-2018/c-sharp-lambda-monitoring.jpg)
 
 <a href='https://en.wikipedia.org/wiki/Serverless_computing' target='_blank'>Serverless</a> has taken the world by storm and changed the way organizations write and deliver code. Your code is packaged into a stateless container which runs on a server managed by the cloud provider. You only pay when your code gets executed. In short, **serverless helps you ship code faster** and enables you to focus on smaller units of logic.
 

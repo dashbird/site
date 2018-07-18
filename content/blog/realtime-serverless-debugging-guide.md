@@ -5,6 +5,7 @@ date: 2018-04-02
 frontImage: "02-04-2018/dashbird-serverless-debugging.jpg"
 thumbnail: "images/blog/02-04-2018/dashbird-serverless-debugging.jpg"
 author: Ranvir Singh
+category: "Serverless, Debugging"
 ---
 
 ![Serverless Monitoring and Debugging With Dashbird](/images/blog/02-04-2018/dashbird-serverless-debugging.jpg)

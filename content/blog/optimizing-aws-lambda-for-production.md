@@ -5,9 +5,8 @@ date: 2018-01-10
 frontImage: 10-01-2018/optimize-lambda-production.jpeg
 thumbnail: images/blog/10-01-2018/optimize-lambda-production.jpeg
 author: Taavi Rehemägi
+category: "Serverless, Lambda"
 ---
-
-![Optimizing AWS Lambda for Production](/images/blog/10-01-2018/optimize-lambda-production.jpeg)
 
 Serverless was the MVP of last year and I'm betting it's going to play a bigger role next year in backend development.
 
