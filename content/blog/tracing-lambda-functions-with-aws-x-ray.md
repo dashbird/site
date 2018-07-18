@@ -6,7 +6,7 @@ frontImage: "02-05-2018/x-ray-update.jpg"
 thumbnail: "images/blog/02-05-2018/x-ray-update.jpg"
 authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
-author_image: '/images/team/mikk.png'
+author_image: '/images/team/mikk.jpg'
 category: "Product, X-Ray, Tracing"
 ---
 

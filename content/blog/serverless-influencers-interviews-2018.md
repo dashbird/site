@@ -6,7 +6,7 @@ frontImage: "2018-05-16/conference.jpg"
 thumbnail: "images/blog/2018-05-16/conference.jpg"
 authorlink: 'https://hackernoon.com/@AnnikaHelendi'
 author: Annika Helendi
-author_image: '/images/team/annika.png'
+author_image: '/images/team/annika1.jpg'
 category: "Serverless, News"
 ---
 ![AWS Lambda With Node.js v.8.10](/images/blog/2018-05-16/conference.jpg)

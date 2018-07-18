@@ -6,7 +6,7 @@ frontImage: "17-04-2018/saving-money-serverless.jpg"
 thumbnail: "images/blog/17-04-2018/saving-money-serverless.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
-author_image: '/images/team/annika.png'
+author_image: '/images/team/annika1.jpg'
 category: "Serverless, Other"
 ---
 

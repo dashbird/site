@@ -13,6 +13,8 @@
     <div class="post-author-icon">
       {{ if isset .Params "author_image" }}
       <img src="{{ .Params.author_image }}" class="w-100">
+      {{ else }}
+      <img src="/images/avatar-default.png" class="w-100">
       {{ end }}
     </div>
     <div class="text-center post-author-det st-ui-text">

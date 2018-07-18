@@ -5,7 +5,7 @@ date: 2018-02-21
 frontImage: "21-02-2018/aws-lambda-dashbird-partner.jpg"
 thumbnail: "images/blog/21-02-2018/aws-lambda-dashbird-partner.jpg"
 author: Annika Helendi
-author_image: '/images/team/annika.png'
+author_image: '/images/team/annika1.jpg'
 category: "Product, News"
 ---
 

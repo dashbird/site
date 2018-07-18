@@ -4,7 +4,7 @@ description: Dashbird is a service that approaches monitoring and error-tracking
 date: 2017-11-13
 frontImage: "13-11-2017/dashboard.png"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Monitoring, Lambda"
 ---
 

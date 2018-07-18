@@ -5,7 +5,7 @@ date: 2018-01-29
 frontImage: "29-01-2018/enterprise-serverless-monitoring.jpeg"
 thumbnail: "images/blog/29-01-2018/enterprise-serverless-monitoring.jpeg"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Product, Other"
 ---
 

@@ -6,7 +6,7 @@ frontImage: "2018-07-04/pexels-photo-844875.jpeg"
 thumbnail: "images/blog/2018-07-04/pexels-photo-844875.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Serverless, Other"
 ---
 

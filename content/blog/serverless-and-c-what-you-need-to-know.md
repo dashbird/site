@@ -6,7 +6,7 @@ frontImage: "2018-07-09/azure_functions-cloud.png"
 thumbnail: "images/blog/2018-07-09/azure_functions-cloud.png"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Serverless, C#"
 ---
 

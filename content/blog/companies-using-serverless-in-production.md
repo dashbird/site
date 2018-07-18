@@ -6,7 +6,7 @@ frontImage: "16-04-2018/dashbird-concurrency.jpg"
 thumbnail: "16-04-2018/dashbird-concurrency-thumbnail.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Serverless, Other"
 ---
 

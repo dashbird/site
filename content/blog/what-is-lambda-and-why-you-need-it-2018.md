@@ -5,7 +5,7 @@ date: 2017-12-29
 frontImage: "29-12-2017/women-coding-aws-lambda.jpg"
 thumbnail: "images/blog/29-12-2017/women-coding-aws-lambda.jpg"
 author: 'Annika Helendi'
-author_image: '/images/team/annika.png'
+author_image: '/images/team/annika1.jpg'
 category: "Lambda"
 ---
 

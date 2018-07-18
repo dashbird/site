@@ -5,7 +5,7 @@ date: 2018-02-01
 frontImage: "01-02-2018/startup-discount-dashbird.png"
 thumbnail: "images/blog/01-02-2018/startup-discount-dashbird.png"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Product, News"
 ---
 

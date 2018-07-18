@@ -5,7 +5,7 @@ date: 2018-02-02
 frontImage: "02-02-2018/dashbird-history.png"
 thumbnail: "images/blog/02-02-2018/dashbird-history.png"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Product, Serverless, Monitoring"
 ---
 

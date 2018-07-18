@@ -6,7 +6,7 @@ frontImage: "2018-07-11/pexels-photo-577585.jpeg"
 thumbnail: "images/blog/2018-07-11/pexels-photo-577585.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Monitoring, Serverless"
 ---
 

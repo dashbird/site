@@ -6,7 +6,7 @@ frontImage: "23-03-2018/dashbird-product-updates.jpg"
 thumbnail: "images/blog/23-03-2018/dashbird-product-updates.jpg"
 authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
-author_image: '/images/team/mikk.png'
+author_image: '/images/team/mikk.jpg'
 category: "Product, News"
 ---
 

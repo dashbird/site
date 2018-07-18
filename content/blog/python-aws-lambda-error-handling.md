@@ -5,7 +5,7 @@ date: 2018-01-04
 frontImage: "04-01-2018/python-error-handling-aws-lambda.png"
 thumbnail: "images/blog/04-01-2018/python-error-handling-aws-lambda.png"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Serverless, Python, Lambda"
 ---
 

@@ -6,7 +6,7 @@ frontImage: "2018-06-06/serverless-resources-header.jpg"
 thumbnail: "images/blog/2018-06-06/serverless-resources-header.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Learn, Serverless"
 ---
 

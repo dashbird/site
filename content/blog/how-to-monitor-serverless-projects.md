@@ -5,7 +5,7 @@ date: 2017-12-18
 frontImage: "18-12-2017/thumb.png"
 thumbnail: "/images/blog/18-12-2017/thumb.png"
 author: Taavi Rehemägi
-author_image: '/images/team/taavi.png'
+author_image: '/images/team/taavi.jpg'
 category: "Product, Serverless, Monitoring"
 ---
 

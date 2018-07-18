@@ -6,7 +6,7 @@ frontImage: "14-02-2018/optimize-lambda-cost.jpg"
 thumbnail: "images/blog/14-02-2018/e-commerce.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
-author_image: '/images/team/john.png'
+author_image: '/images/team/john.jpg'
 category: "Serverless, E-commerce"
 ---
 

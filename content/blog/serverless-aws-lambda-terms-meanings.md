@@ -6,7 +6,7 @@ frontImage: "09-04-2018/serverless-aws-lambda.jpg"
 thumbnail: "images/blog/09-04-2018/serverless-aws-lambda.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
-author_image: '/images/team/annika.png'
+author_image: '/images/team/annika1.jpg'
 category: "Serverless, Lambda"
 ---
 
