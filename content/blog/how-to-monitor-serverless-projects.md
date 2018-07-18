@@ -5,6 +5,8 @@ date: 2017-12-18
 frontImage: "18-12-2017/thumb.png"
 thumbnail: "/images/blog/18-12-2017/thumb.png"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.png'
+category: "Product, Serverless, Monitoring"
 ---
 
 Since the launch of Dashbird 6 months ago, we've offered overview dashboards on account and function level. **Now, we launched project views.** 
@@ -16,7 +18,7 @@ For ourselves and beta testers, this feature has proven valuable in detecting er
 
 The service dashboard lets you keep an eye on your service performance metrics.
 
-## Breakdown of data in the project views
+### Breakdown of data in the project views
 **Time-series graphs of:**
 
   * Invocations
@@ -39,7 +41,7 @@ The service dashboard lets you keep an eye on your service performance metrics.
   * Total invocation count
   * Total error count
 
-## Detecting optimisation opportunities
+### Detecting optimization opportunities
 
 
 Functions table allows you to pinpoint expensive lambdas.
@@ -51,7 +53,7 @@ You can also optimise function memory usage by noticing the outliers in the grap
 <img src="/images/blog/18-12-2017/memory.png" width=600/>
 
 Now let's go and set up your first project...
-## Setting up
+### Setting up
 
 <img src="/images/blog/18-12-2017/walkthrough3.png" width=400 style='float: right; margin-left: 32px; '/>
 _If you haven't already, sign up for [Dashbird to monitor your Lambda functions](/register)._
