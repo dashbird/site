@@ -7,13 +7,11 @@ thumbnail: "images/blog/2018-06-21/how-to-deploy-a-nodejs-application-to-aws-lam
 canonical: https://dev.to/adnanrahic/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless-2nc7
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
 featpop: most-popular
-featloc: blog-header
+blog: ["Serverless", "Node.js", "Express.js", "AWS Lambda"]
+category: "Serverless, Node.js, Express.js, AWS Lambda"
 ---
-![Getting Started with AWS Lambda and Node.js](/images/blog/2018-06-21/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless.jpeg)
-_If containers are ships, I guess serverless might as well be a surfer dude..._
-
-___
 
 Being a developer is amazing. Writing code, solving problems and thinking of ingenious solutions for complicated algorithms is what we live for. But, the grass is not always so green on this side of the fence. Sooner or later you need to get your hands dirty and deploy the app you worked so hard on. Deployments are not always easy. To be blunt, they can be incredibly hard and time-consuming. That's what we'll solve in this tutorial. 
 
