@@ -9,8 +9,8 @@ author: Adnan Rahić
 author_image: '/images/team/adnan.png'
 featloc: blog-header
 featpop: most-popular
-blog: ["Serverless", "Node.js", "AWS API Gateway", "AWS Lambda"]
-category: "Serverless, Node.js, AWS API Gateway, AWS Lambda"
+blog: ["Serverless", "Node.js", "Lambda"]
+category: "Serverless, Node.js, Lambda"
 ---
 
 With the state of serverless growing at an exponential rate during the last year, it's no surprise developers across the globe have flocked to use **AWS Lambda as their main serverless compute engine**. AWS has a steady track record of covering all the main needs of developers, DevOps engineers and even C-level tech executives. Hell, I've been using it for a couple of years, and still haven't come close to check out even half of their offering. 
