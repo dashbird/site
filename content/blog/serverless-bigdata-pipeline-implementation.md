@@ -5,7 +5,7 @@ date: 2018-07-12T02:00:00.000Z
 frontImage: "2018-07-12/serverless-big-data-cover.png"
 thumbnail: "images/blog/2018-07-12/serverless-big-data-cover.png"
 author: Bhaskar Das
-category: "Serverless, BigData"
+blog: ["Serverless", "BigData"]
 ---
 
 Recently, I came across the AWS India Summit 2016 summary, where [Purplle](https://www.purplle.com/) showcased their model of implementation using Serverless architecture. Quite surprisingly it was handled by one-man team and done with such efficiency that I decided to explore the architecture and how they implemented it in their organization.

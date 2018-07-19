@@ -6,7 +6,7 @@ frontImage: "18-12-2017/thumb.png"
 thumbnail: "/images/blog/18-12-2017/thumb.png"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-category: "Product, Serverless, Monitoring"
+blog: ["Product", "Serverless", "Monitoring"]
 ---
 
 Since the launch of Dashbird 6 months ago, we've offered overview dashboards on account and function level. **Now, we launched project views.** 

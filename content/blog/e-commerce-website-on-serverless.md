@@ -7,7 +7,7 @@ thumbnail: "images/blog/14-02-2018/e-commerce.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "Serverless, E-commerce"
+blog: ["Serverless", "E-commerce"]
 ---
 
 <!-- add this above the ---

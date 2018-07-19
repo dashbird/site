@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-07-12/pexels-photo-1198325.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "IaaS"
+blog: ["IaaS"]
 ---
 
 It is estimated that IaaS(infrastructure as a service) space will reach $71.55 billion by the year 2021. If the cloud market will continue its growth by that year it is estimated it will even surpass <a href="https://www.techopedia.com/definition/155/software-as-a-service-saas">SaaS (software-as-a-service)</a> technology and jump into the lead of cloud technology. These figures come from Gartner, an industry analyst firm that also predicts SaaS will reach $75.73 billion by 2021. PaaS (platform-as-a-service) is also estimated to grow (19.9% at $14.80 billion).

@@ -5,7 +5,7 @@ date: 2018-04-11
 frontImage: "11-04-2018/dashbird-debugging.jpg"
 thumbnail: "images/blog/11-04-2018/dashbird-debugging.jpg"
 author: Ranvir Singh
-category: "Lambda, Monitoring"
+blog: ["Lambda", "Monitoring"]
 ---
 
 Your application does not need to be huge for it to have plenty of functions, and abstraction for you to get lost in it.

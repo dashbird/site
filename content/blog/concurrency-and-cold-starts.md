@@ -5,7 +5,7 @@ date: 2018-04-16
 frontImage: "16-04-2018/dashbird-concurrency.jpg"
 thumbnail: "16-04-2018/dashbird-concurrency-thumbnail.jpg"
 author: Ranvir Singh
-category: "Lambda"
+blog: ["Lambda"]
 ---
 
 One of the many useful abstractions that AWS offers is scalability. Your function automatically scales up and scales down depending on the amount of workload that it

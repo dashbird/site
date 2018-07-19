@@ -6,7 +6,7 @@ frontImage: "01-02-2018/startup-discount-dashbird.png"
 thumbnail: "images/blog/01-02-2018/startup-discount-dashbird.png"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-category: "Product, News"
+blog: ["Product", "News"]
 ---
 
 We know how hard it is to get a startup going, especially when you are very low on funds. That’s why we decided to help out new startups with a special discount, just to get things going.
