@@ -50,7 +50,7 @@ twitter_summary: 'summary_large_image'
           <div class='card h-200'>
             <div class='card-body mt-3'>
                <span class="h1"><i class="fa fa-envelope-open"></i></span>
-              <hr>
+              <hr/>
               <span class='h4 lato'>Sign up</span>
             </div>
           </div>
@@ -59,7 +59,7 @@ twitter_summary: 'summary_large_image'
           <div class='card h-200'>
             <div class='card-body mt-3'>
               <span class="h1"><i class="fa fa-handshake-o"></i></span>
-              <hr>
+              <hr/>
               <span class='h4 lato'>Create AWS access</span>
               <span class='lato d-block text-secondary'>takes exactly 96 seconds</span>
             </div>
@@ -69,7 +69,7 @@ twitter_summary: 'summary_large_image'
           <div class='card h-200'>
             <div class='card-body mt-3'>
               <span class="h1"><i class="fa fa-rocket"></i></span>
-              <hr>
+              <hr/>
               <span class='h4 lato'>Monitor & troubleshoot</span>
               <span class='lato d-block text-secondary'>to all functions</span>
             </div>

@@ -26,7 +26,7 @@ date: 2018-07-17T17:50:03+02:00
             <p class="small gray condition pt-3">per month / billed yearly</p>
             <p class="lato h6">500 MB</p>
             <p class="lato m-0 p-0 h6">per month</p>
-            <hr>
+            <hr />
             <p class="lato h6">&nbsp;</p>
             <p class="lato h6">&nbsp;</p>
            </div>
@@ -38,7 +38,7 @@ date: 2018-07-17T17:50:03+02:00
             <p class="small gray condition pt-3">per month / billed yearly</p>
             <p class="lato h6">2 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
-            <hr>
+            <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
          </div>
@@ -50,7 +50,7 @@ date: 2018-07-17T17:50:03+02:00
             <p class="small gray condition pt-3">per month / billed yearly</p>
             <p class="lato h6">15 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
-            <hr>
+            <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
          </div>
@@ -62,7 +62,7 @@ date: 2018-07-17T17:50:03+02:00
             <p class="small gray condition pt-3">per month / billed yearly</p>
             <p class="lato h6">50 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
-            <hr>
+            <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
           </div>
