@@ -17,74 +17,70 @@ date: 2018-07-17T17:50:03+02:00
   </div>
 
   <div class="row justify-content-md-center align-items-center mt-3">  
-    <div class="col-sm-11">
+    <div class="col-sm-12 col-md-10">
       <div class="row">
-
         <div class="col mw-250">
           <div class="pricing-box bg-white top-gray text-center p-4">
             <h4 class="mt-2 mb-3">Developer</h4>
             <span class="h1 lato mt-5 mb-5" id="basic">$24</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-
-            <p class="lato h6">&nbsp;</p>
-            <p class="lato h6">&nbsp;</p>
-            <p class="lato h6">1 GB </p>
+            <p class="lato h6">500 MB</p>
             <p class="lato m-0 p-0 h6">per month</p>
+            <hr>
+            <p class="lato h6">&nbsp;</p>
             <p class="lato h6">&nbsp;</p>
            </div>
         </div>
-
         <div class="col mw-250">
           <div class="pricing-box bg-white top-yellow text-center p-4">
             <h4 class="mt-2 mb-3">Startup</h4>
             <span class="h1 lato mt-5 mb-5" id="startup">$99</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-
-            <p class="lato h6">5 GB</p>
-            <p class="lato m-0 p-6 h6">per month</p>
+            <p class="lato h6">2 GB</p>
+            <p class="lato m-0 p-0 h6">per month</p>
             <hr>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
          </div>
         </div>
-
        <div class="col mw-250">
           <div class="pricing-box bg-white top-green text-center p-4">
             <h4 class="mt-2 mb-3">Pro</h4>
             <span class="h1 lato mt-5 mb-5" id="pro">$299</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-
-            <p class="lato h6">20 GB</p>
-            <p class="lato m-0 p-6 h6">per month</p>
+            <p class="lato h6">15 GB</p>
+            <p class="lato m-0 p-0 h6">per month</p>
             <hr>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
             <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
-
          </div>
         </div>
-
         <div class="col mw-250">
           <div class="pricing-box bg-white top-black text-center p-4">
-              <h4 class="mt-2 mb-3">Business</h4>
-              <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
-              <p class="small gray condition pt-3">per month / billed yearly</p>
-
-              <p class="lato h6">100 GB</p>
-              <p class="lato m-0 p-6 h6">per month</p>
-              <hr>
-              <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
-              <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
+            <h4 class="mt-2 mb-3">Business</h4>
+            <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
+            <p class="small gray condition pt-3">per month / billed yearly</p>
+            <p class="lato h6">50 GB</p>
+            <p class="lato m-0 p-0 h6">per month</p>
+            <hr>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
+            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <div class="col mw-250 mt-3">
+  <div class="row justify-content-md-center align-items-center mt-3">  
+    <div class="col-sm-12 col-md-10">
+      <div class="row">
+        <div class="col">
           <div class="pricing-box bg-white top-black text-center p-4">
             <h4 class="mt-2 mb-3">Enterprise</h4>
             <span>Custom volume pricing, SLAs, priority support and training.</span>
             <p class='mt-3'><a href='mailto:sales@dashbird.io' class='btn btn-primary'>Contact us</a></p>
           </div>
         </div>
-
       </div>
     </div>
   </div>
