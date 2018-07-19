@@ -18,6 +18,7 @@ post_build: &post_build
     find public -type f -name '*.png' -exec optipng {} \;
     # find public/images/blog -type f -name '*.jpg' -exec convert {} -define jpeg:extent=50KB {} \;
     ./compile.sh
+      timeout: 1200
 
 workflows:
   version: 2
