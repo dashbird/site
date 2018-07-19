@@ -7,11 +7,11 @@ thumbnail: "images/blog/26-05-2018/getting-started-lambda-node.jpg"
 canonical: https://dev.to/adnanrahic/getting-started-with-aws-lambda-and-nodejs-1kcf
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
+featpop: most-popular
+blog: ["Serverless", "Node.js", "Lambda"]
+category: "Serverless, Node.js, Lambda"
 ---
-![Getting Started with AWS Lambda and Node.js](https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
-_A guy floating in space because of reasons..._
-
-___
 
 Once upon a time, not so long ago, a word caught my ear. **Lambda**. That struck a chord, remembering the good old days of playing Half-Life as a kid. Little did I know what AWS Lambda was, and how incredibly awesome it is. If you're intrigued, stick around. I'll only take a few minutes out of your already busy day, and you surely won't mind.
 

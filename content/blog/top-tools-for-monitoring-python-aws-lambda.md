@@ -5,9 +5,8 @@ date: 2018-01-21
 frontImage: 21-01-2018/lambda-monitoring-python.jpeg
 thumbnail: images/blog/21-01-2018/lambda-monitoring-python.jpeg
 author: Andrei Popescu
+category: "Serverless, Python, Monitoring"
 ---
-
-![Monitoring Python AWS Lambda](/images/blog/21-01-2018/lambda-monitoring-python.jpeg)
 
 ### Lambda Functions
 Serverless architectures, comprised of lambda functions, are an extension of the principles of the service-oriented architectures (<a href='https://en.wikipedia.org/wiki/Service-oriented_architecture' target='_blank'>SOA</a>) which popularized the approach where services (functions) communicate using messages (events). If implemented correctly, serverless architectures can reduce code complexity and provide an easier way to manage the application.

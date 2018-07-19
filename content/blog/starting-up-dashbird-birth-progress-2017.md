@@ -5,8 +5,9 @@ date: 2018-02-02
 frontImage: "02-02-2018/dashbird-history.png"
 thumbnail: "images/blog/02-02-2018/dashbird-history.png"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.jpg'
+category: "Product, Serverless, Monitoring"
 ---
-![Startup life](/images/blog/02-02-2018/dashbird-history.png)
 
 This past year has been a crazy roller coaster with Dashbird and 2018 isn’t showing signs of slowing down either, so I took some time to write down what we have achieved so far ...for history’s sake. 
 

@@ -6,9 +6,8 @@ frontImage: "22-03-2018/lambda-backed-app-without-knowing-aws.jpg"
 thumbnail: "/images/blog/22-03-2018/lambda-backed-app-without-knowing-aws.jpg"
 authorlink: https://github.com/imjaroiswebdev
 author: José Antonio Reyes
+category: "Serverless, Lambda, Monitoring"
 ---
-
-![Monitor and debug AWS Lambda Apps with Dashbird](/images/blog/22-03-2018/lambda-backed-app-without-knowing-aws.jpg)
 
 The serverless technology feels as exciting and challenging as it was deploying our first app to the internet, seeing it come to life, work and also crash a lot. The latter happening more than we wanted at the begging, but later, when we managed to overcome that challenge, we felt like we could do anything.
 

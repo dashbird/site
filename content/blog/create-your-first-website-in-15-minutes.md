@@ -6,8 +6,8 @@ frontImage: "2018-06-11/pexels-photo-707582.jpeg"
 thumbnail: "images/blog/2018-06-11/pexels-photo-707582.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+category: "Serverless, Node.js, Lambda"
 ---
-![Create a serverless website in 15 minutes](/images/blog/2018-06-11/pexels-photo-707582.jpeg)
 
 Alright, we talked the "serverless is awesome" talk but now it about time to walk the walk. In the next 15 minutes, I'll take you through the entire process of creating your first website running on serverless and you better believe it's going to be awesome.
 

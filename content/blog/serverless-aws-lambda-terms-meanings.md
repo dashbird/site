@@ -6,9 +6,9 @@ frontImage: "09-04-2018/serverless-aws-lambda.jpg"
 thumbnail: "images/blog/09-04-2018/serverless-aws-lambda.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
+author_image: '/images/team/annika1.jpg'
+category: "Serverless, Lambda"
 ---
-
-![Serverless basic terms](/images/blog/09-04-2018/serverless-aws-lambda.jpg)
 
 Serverless is arguably the [next big thing after blockchain](https://dashbird.io/blog/why-serverless-is-the-next-big-thing-after-blockchain/)  and one of the major players in this field is, of course - AWS Lambda. In essence, it allows you to run your code without provisioning or managing any servers. You only pay for when your code is actually running.
 

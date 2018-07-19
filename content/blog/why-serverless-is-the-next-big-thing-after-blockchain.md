@@ -6,9 +6,8 @@ frontImage: "07-02-2018/serverless-blockchain.jpeg"
 thumbnail: "images/blog/07-02-2018/serverless-blockchain.jpeg"
 authorlink: http://highlightcontent.com/'
 author: Birgit Maggi
+category: "Serverless, Blockchain"
 ---
-
-![Serverless Blockchain](/images/blog/07-02-2018/serverless-blockchain.jpeg)
 
 Just like Blockchain profoundly challenged centralized banking and the way we handle financial transactions, serverless is now bringing cloud computing and application development to a whole new level. The benefits of serverless for both small and large businesses have been widely discussed in countless articles across the web, but what about its larger potential to transform organisations? Here’s why we think that serverless is the next big thing.
 

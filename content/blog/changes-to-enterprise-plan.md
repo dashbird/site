@@ -5,9 +5,9 @@ date: 2018-01-29
 frontImage: "29-01-2018/enterprise-serverless-monitoring.jpeg"
 thumbnail: "images/blog/29-01-2018/enterprise-serverless-monitoring.jpeg"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.jpg'
+category: "Product, Other"
 ---
-
-![Serverless monitoring](/images/blog/29-01-2018/enterprise-serverless-monitoring.jpeg)
 
 Last week, we raised the limit of our <a href='/pricing' target='_blank'>enterprise plan</a> to **100 million requests per month**. This is the first step towards improving our value offering for large-scale serverless systems.
 

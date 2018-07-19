@@ -5,8 +5,9 @@ date: 2018-03-19
 frontImage: "19-03-2018/introduction-aws-lambda.png"
 thumbnail: "images/blog/19-03-2018/introduction-aws-lambda.png"
 author: Ranvir Singh
+category: "Lambda"
 ---
-![AWS Lambda For Dummies](/images/blog/19-03-2018/introduction-aws-lambda.png)
+
 There’s something really human about software. It grows not in the direction that is most efficient, in terms of resource utilization, but it seeks simplicity. AWS Lambda offers a completely different paradigm for you to design/run your apps. Before we delve deeper into the core of AWS Lambda let’s put, in simpler terms, what it will help us achieve.
 
 Your application, or at least a certain part of it, involves doing a set of simple operations preceded by a real-world event. For example, there’s a request to view an html page and there’s a bit of Node.js code that executes in response to it. If that’s the case, then it is wasteful to have a web server like apache or nginx running 24/7 waiting for that event to occur and then perform an action in response to it.

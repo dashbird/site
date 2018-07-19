@@ -6,6 +6,8 @@ frontImage: "14-03-2018/team-dashbird.jpg"
 thumbnail: "images/blog/14-03-2018/team-dashbird.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
+author_image: '/images/team/annika1.jpg'
+category: "Product, Other"
 ---
 
 ![Dashbird team kite surfing](/images/blog/14-03-2018/team-dashbird.jpg)

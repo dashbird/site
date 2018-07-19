@@ -6,6 +6,8 @@ frontImage: "2018-06-25/abstract-alphabet-arrow-981294.jpg"
 thumbnail: "images/blog/2018-06-25/abstract-alphabet-arrow-981294.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+author_image: '/images/team/john.jpg'
+category: "Serverless, Other"
 ---
 
 <!-- add this above the ---

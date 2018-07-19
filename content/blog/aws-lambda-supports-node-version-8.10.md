@@ -6,11 +6,12 @@ frontImage: "08-05-2018/aws-lambda-node-8.jpeg"
 thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
+featloc: blog-header
+featpop: most-popular
+blog: ["Serverless", "Node.js", "Lambda"]
+category: "Serverless, Node.js, Lambda"
 ---
-![AWS Lambda With Node.js v.8.10](/images/blog/08-05-2018/aws-lambda-node-8.jpeg)
-_Image shows my happiness after AWS stated they would support Node.js version 8.10 in AWS Lambda._
-
-___
 
 With the state of serverless growing at an exponential rate during the last year, it's no surprise developers across the globe have flocked to use **AWS Lambda as their main serverless compute engine**. AWS has a steady track record of covering all the main needs of developers, DevOps engineers and even C-level tech executives. Hell, I've been using it for a couple of years, and still haven't come close to check out even half of their offering. 
 

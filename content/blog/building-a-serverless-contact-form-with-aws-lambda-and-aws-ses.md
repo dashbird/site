@@ -6,12 +6,13 @@ frontImage: "2018-07-17/communication.jpg"
 thumbnail: "images/blog/2018-07-17/communication.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
+author_image: '/images/team/adnan.png'
+category: "Serverless, Node.js, Lambda"
+featloc: blog-header
+featpop: most-popular
+blog: ["Serverless", "Node.js", "Lambda"]
 canonical: https://dev.to/adnanrahic/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses-4jm0
 ---
-
-![Building a serverless contact form with AWS Lambda and AWS SES](/images/blog/2018-07-17/communication.jpg)
-_Image shows my way of communication before learning serverless._
-___
 
 What if I told you it can be done with zero dependencies? Hope you're up for a challenge because that's exactly what we'll be doing.
 

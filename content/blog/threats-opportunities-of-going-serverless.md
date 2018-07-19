@@ -5,9 +5,8 @@ date: 2018-02-09
 frontImage: "09-02-2018/threats-of-going-serverless.jpg"
 thumbnail: "images/blog/09-02-2018/threats-of-going-serverless.jpg"
 author: Ali Raza 
+category: "Serverless, Other"
 ---
-
-![Threats of going serverless](/images/blog/09-02-2018/threats-of-going-serverless.jpg)
 
 Abstraction is a developer’s dreamland, where no one needs to work through the art of IT Ops processes such as infrastructure resource planning and management throughout the application lifecycle. Fortunately, AWS came up with an answer in 2014 by introducing the Lambda compute service that transformed the way backend infrastructure is managed in response to changing in-app events and code execution processes. 
 

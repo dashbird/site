@@ -6,8 +6,9 @@ frontImage: "2018-07-05/netflix-serverless.jpg"
 thumbnail: "images/blog/2018-07-05/netflix-serverless.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+author_image: '/images/team/john.jpg'
+category: "Serverless, Other"
 ---
-![Netflix Serverless case study](/images/blog/2018-07-05/netflix-serverless.jpg)
 
 A couple of days ago we published a case study on how Coca-Cola North America handles their <a target="_blank"  href="https://dashbird.io/blog/serverless-case-study-coca-cola/">vending machines systems with serverless</a>. Today we're going to talk about another titan that turned to serverless. As you may have guessed from the title, we are going to be talking about Netflix.
 

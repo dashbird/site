@@ -6,8 +6,9 @@ frontImage: "2018-07-09/azure_functions-cloud.png"
 thumbnail: "images/blog/2018-07-09/azure_functions-cloud.png"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+author_image: '/images/team/john.jpg'
+category: "Serverless, C#"
 ---
-![Serverless And C# - What You Need To Know](/images/blog/2018-07-09/azure_functions-cloud.png)
 
 The world of cloud computing has been revolutionized by a solution called <b>serverless computing</b>. It has been an absolute joy for developers to use.
 

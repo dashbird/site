@@ -5,6 +5,8 @@ date: 2018-01-04
 frontImage: "04-01-2018/python-error-handling-aws-lambda.png"
 thumbnail: "images/blog/04-01-2018/python-error-handling-aws-lambda.png"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.jpg'
+category: "Serverless, Python, Lambda"
 ---
 
 Python, used in around 53% of all Lambda functions, is the most popular language for doing Serverless. Because of that, in the following weeks, I'm going to introduce you to the facts and best practices in building Lambda functions with Python. First up in the series is an overview of the need-to-knows for error handling Python in AWS Lambda.

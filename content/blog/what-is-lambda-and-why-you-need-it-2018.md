@@ -5,9 +5,10 @@ date: 2017-12-29
 frontImage: "29-12-2017/women-coding-aws-lambda.jpg"
 thumbnail: "images/blog/29-12-2017/women-coding-aws-lambda.jpg"
 author: 'Annika Helendi'
+author_image: '/images/team/annika1.jpg'
+category: "Lambda"
 ---
 
-![Women Coding AWS Lambda](/images/blog/29-12-2017/women-coding-aws-lambda.jpg)
 # What is AWS Lambda?
 In short, AWS Lambda is a Serverless computing platform that Amazon introduced in 2014 and that has been gaining a lot of traction over recent years - and for a good reason! AWS Lambda is event-driven backend service that runs code only in response to triggers, and it automatically manages the resources required by that code. This new way of handling backend code offers a ton of new benefits for software products and services worldwide.
 

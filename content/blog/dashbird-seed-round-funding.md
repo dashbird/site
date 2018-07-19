@@ -6,8 +6,9 @@ frontImage: "2018-05-22/dashbird-founders.jpg"
 thumbnail: "images/blog/2018-05-22/dashbird-founders.jpg"
 authorlink: 'https://twitter.com/AnnikaHelendi'
 author: Annika Helendi
+category: "Serverless, Node.js, Lambda"
+featpop: most-popular
 ---
-![Dashbird founders - Mikk Kirštein, Taavi Rehemägi, Annika Helendi](/images/blog/2018-05-22/dashbird-founders.jpg)
 _Dashbird founders, from left: Mikk Kirštein, Taavi Rehemägi and Annika Helendi._
 
 We are very excited to announce that we have officially closed the seed round funding for <a href="https://dashbird.io" target="blank">Dashbird<a/> and can now focus solely on building the best serverless observability tool out there.

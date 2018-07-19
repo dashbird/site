@@ -5,9 +5,8 @@ date: 2018-03-27
 frontImage: "27-03-2018/challenge.jpg"
 thumbnail: "images/blog/27-03-2018/challenge.jpg"
 author: Irfan Khan
+category: "Serverless, Security, Other"
 ---
-
-![AWS Lambda Use Cases](/images/blog/27-03-2018/challenge.jpg)
 
 With the advent of various serverless computing services such as AWS Lambda, Google and Azure functions, Spotinst etc, developers now, more than ever, are reaping numerous benefits that serverless computing offers; top of which includes less responsibility to manage your app's backend, improved automation and effortless scaling.
 

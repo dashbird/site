@@ -5,9 +5,10 @@ date: 2018-02-01
 frontImage: "01-02-2018/startup-discount-dashbird.png"
 thumbnail: "images/blog/01-02-2018/startup-discount-dashbird.png"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.jpg'
+category: "Product, News"
 ---
 
-![Startup discounts](/images/blog/01-02-2018/startup-discount-dashbird.png)
 We know how hard it is to get a startup going, especially when you are very low on funds. That’s why we decided to help out new startups with a special discount, just to get things going.
 
 Please write to <a href='mailto:support@dashbird.com'>support@dashbird.io</a> and answer the questions below so we can discuss this further.
