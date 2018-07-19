@@ -25,6 +25,7 @@
   params:
     thumbnail: "images/screens/slogan.jpg"
   taxonomies:
+    blog: "blog"
     tag: "tags"
     category: "categories"
     kbSeries: "kbSeries"

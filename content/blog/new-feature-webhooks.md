@@ -6,7 +6,7 @@ frontImage: "08-02-2018/webhooks-dashbird.jpeg"
 thumbnail: "images/blog/08-02-2018/webhooks-dashbird.jpeg"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-category: "Product, News"
+blog: ["Product", "News"]
 ---
 
 ![Announcing Webhooks](/images/blog/08-02-2018/webhooks-dashbird.jpeg)

@@ -6,7 +6,7 @@ frontImage: 2018-05-01/cryptocurrency-monitoring.jpg
 thumbnail: /images/blog/2018-05-01/cryptocurrency-monitoring.jpg
 authorlink: 'https://twitter.com/agfviggiano'
 author: Antonio Viggiano
-category: "Serverless, Monitoring"
+blog: ["Serverless", "Monitoring"]
 ---
 
 In this article I will explain how I built <a href="https://coindatax.com/?utm_source=dashbird&utm_medium=link" target="blank">COINDATAX</a>, a cryptocurrency analytics platform to help investors analyze the market, and explain why we choose to go serverless. I will also explain our biggest pain points with AWS Lambda, and how [Dashbird](https://dashbird.io) helped us with lambda performance monitoring.

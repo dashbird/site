@@ -6,7 +6,7 @@ frontImage: "29-12-2017/women-coding-aws-lambda.jpg"
 thumbnail: "images/blog/29-12-2017/women-coding-aws-lambda.jpg"
 author: 'Annika Helendi'
 author_image: '/images/team/annika1.jpg'
-category: "Lambda"
+blog: ["Lambda"]
 ---
 
 # What is AWS Lambda?

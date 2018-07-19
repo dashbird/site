@@ -933,6 +933,19 @@
     line-height: 12px;
     border-radius: 13.5px;
   }
+
+
+  .blog-category span{
+    font-size: 12px;
+    border-radius: 10px; 
+    padding: 5px 12px;
+  }
+  .blog-categ-spam{
+    color: #303849;
+    background-color: #ddd;
+    /*border: 1px solid #6863cf;*/
+  }
+
   .categ-product{
     color: #F29BBD;
     background-color: rgba(244, 174, 202, 0.2);
@@ -981,12 +994,6 @@
   .categ-api-gateway{
     color: #efefef;
     background-color: #ea6995;
-  }
-
-  .blog-category span{
-    font-size: 12px;
-    border-radius: 10px; 
-    padding: 5px 12px;
   }
 
   .blog-title { 
@@ -1344,6 +1351,44 @@
 p.justify-content-center {
     margin: auto;
 }
+
+
+.posts-filter {
+  position: absolute;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 16px 0 rgba(149,152,185,0.16);
+  color: #A4B0C3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  right: 15px;
+}
+
+.posts-filter{
+  z-index: 111;
+}
+
+.posts-filter ul{
+  padding: 5px 0px;
+  min-width: 145px;
+}
+.posts-filter ul li{
+  list-style: none;
+  padding: 0px 10px;
+}
+.posts-filter ul li a{
+  color: #303849;
+}
+.posts-filter ul li:hover a{
+  color: #303849;
+}
+
+.posts-filter:hover ul{
+  display: block!important;
+}
+
+
 
 
   /* bootstrap */
