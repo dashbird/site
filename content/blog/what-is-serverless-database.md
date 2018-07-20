@@ -5,7 +5,7 @@ date: 2018-05-09T00:00:00.000Z
 frontImage: 2018-05-07/sysadmin.jpg
 thumbnail: /images/blog/2018-05-07/sysadmin.jpg
 author: Nemanja Novkovic
-category: "Serverless, Database"
+blog: ["Serverless", "Database"]
 ---
 
 ### Get To Know Serverless Architecture

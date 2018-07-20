@@ -15,8 +15,8 @@
             <div class="col-12  pt-md-3">
               <div class="row">
                 <div class="blog-category mb-md-25 d-none d-md-block">
-                  {{range (split .Params.category ",") }}
-                  <span class='categ-{{  trim (replace (lower .) "." "") " " }}'>{{ . }}</span>
+                  {{ range .Params.blog }}
+                  <span class='blog-categ-spam categ-{{  trim (replace (lower .) "." "") " " }}'>{{ . }}</span>
                   {{ end }}
                 </div>
                 <h2 class="blog-title mb-md-25 h-xs-auto"><a href="{{ .Permalink  }}" class="pt-20 text-light-gray blog-title">{{ .Title }}</a></h2>

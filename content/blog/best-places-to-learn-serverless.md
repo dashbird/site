@@ -10,7 +10,6 @@ author_image: ''
 featloc: blog-header
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
-category: "Serverless, Node.js, Lambda"
 ---
 
 By now every developer will be able to tell you that serverless is here to stay and you would be missing out if you were not going to start getting in on this action. So to make things easier for you I've compiled of lists of tutorials that will get you going in no time.

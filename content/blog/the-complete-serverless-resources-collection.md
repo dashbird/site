@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-06-06/serverless-resources-header.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "Learn, Serverless"
+category: ["Learn", "Serverless"]
 ---
 
 Serverless is by all means one of the fastest growing trends amongst developers and with good reason. It solves a lot of problems that traditional servers face, problems like the scalability or the ever-growing problem of high hosting bills.

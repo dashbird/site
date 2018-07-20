@@ -6,7 +6,7 @@ frontImage: "2018-05-22/header.jpg"
 thumbnail: "images/blog/2018-05-22/header.jpg"
 authorlink: 'https://github.com/starpebble'
 author: Alex Zumkhawala
-category: "Serverless, Lambda"
+blog: ["Serverless", "Lambda"]
 ---
 
 <p>When a lambda function errors, a developer can now respond with new tools.  Lambda developers can execute their lambda function off the cloud with Amazon Web Services (AWS) Serverless Application Model <a href="https://github.com/awslabs/aws-sam-cli">(SAM) tools</a>.  SAM tools execute your lambda function on your machine in <a href="https://github.com/lambci/docker-lambda">Docker containers</a> provided by AWS.</p>

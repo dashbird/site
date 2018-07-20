@@ -5,7 +5,7 @@ date: 2018-05-30T01:00:00.000Z
 frontImage: "2018-05-30/header.jpg"
 thumbnail: "images/blog/2018-05-30/header.jpg"
 author: Bhaskar Das
-category: "Serverless, DataScience, BigData"
+blog: ["Serverless", "DataScience", "BigData"]
 ---
 
 ### All aboard the hype train!

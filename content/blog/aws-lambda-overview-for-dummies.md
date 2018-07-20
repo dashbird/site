@@ -5,7 +5,7 @@ date: 2018-03-19
 frontImage: "19-03-2018/introduction-aws-lambda.png"
 thumbnail: "images/blog/19-03-2018/introduction-aws-lambda.png"
 author: Ranvir Singh
-category: "Lambda"
+blog: ["Lambda"]
 ---
 
 There’s something really human about software. It grows not in the direction that is most efficient, in terms of resource utilization, but it seeks simplicity. AWS Lambda offers a completely different paradigm for you to design/run your apps. Before we delve deeper into the core of AWS Lambda let’s put, in simpler terms, what it will help us achieve.

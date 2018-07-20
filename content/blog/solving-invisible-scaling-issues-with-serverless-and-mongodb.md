@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-07-03/blind-cover.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
-category: "Serverless, Node.js, Lambda, MongoDB"
+blog: ["Serverless", "Node.js", "Lambda", "MongoDB"]
 canonical: https://dev.to/adnanrahic/solving-invisible-scaling-issues-with-serverless-and-mongodb-4m55
 ---
 ![Solving invisible scaling issues with Serverless and MongoDB](/images/blog/2018-07-03/blind-cover.jpg)

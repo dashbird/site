@@ -5,7 +5,7 @@ date: 2018-02-14
 frontImage: "14-02-2018/optimize-lambda-cost.jpg"
 thumbnail: "images/blog/14-02-2018/optimize-lambda-cost.jpg"
 author: Andrei Popescu
-category: "Serverless, Lambda, Other"
+blog: ["Serverless", "Lambda", "Other"]
 ---
 
 I’m in my late 30s and still have memories of the days when there was a clear difference between developers and system admins. As a developer, each time I needed a simple software environment set up on the development server, I had to call the IT admin and wait for him until he installed… a different version of one of the software packages I asked for! It took anywhere from two days to a whole week just to have a simple application server installed.

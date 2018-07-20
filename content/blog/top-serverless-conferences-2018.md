@@ -6,7 +6,7 @@ frontImage: "07-02-2018/serverless-conferences.jpeg"
 thumbnail: "images/blog/07-02-2018/serverless-conferences.jpeg"
 authorlink: http://highlightcontent.com/'
 author: Birgit Maggi
-category: "Serverless, Other"
+blog: ["Serverless", "Other"]
 ---
 
 There's no better way to learn about the focal points and enhancements related to serverless than hearing it from the brightest minds in the field. To help you out, we’ve put together our list of the top 9 serverless conferences and events to get you inspired in 2018. 

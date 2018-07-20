@@ -37,6 +37,15 @@ $(document).ready(function () {
     $(this).parent('li').toggleClass('active')
   })
 
+  // full image width
+
+  var content_width = $('.article-blog-wrap').width();
+  $.each($('.article-full-width'), function(){
+    var margin = ($(this).width() - content_width - 30)/2;
+    $(this).css('margin-left', margin);
+    $(this).css('margin-right', margin);
+  });
+
 
   //Allows bootstrap carousels to display 3 items per page rather than just one
   

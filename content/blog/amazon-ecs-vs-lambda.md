@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-07-17/ecs-vs-lambda-header.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "ECS, Lambda"
+blog: ["ECS", "Lambda"]
 ---
 
 Both Amazon ECS and AWS Lambda were launched about at the same time. They are both services and they are both offered by Amazon. A more generic term for them would be "cloud services". So what is the difference between the two?
