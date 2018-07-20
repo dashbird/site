@@ -20,13 +20,18 @@
         </div>
       </div>
       <div class="row"> 
-        {{ $pages := .Data.Pages.ByDate.ByDate.Reverse }}
-        {{ if gt (len $pages) 1 }}
-          {{ $.Scratch.Set "hasMorePages" (after 1 $pages) }}
+        {{ if eq .Kind "taxonomyTerm" }}
+          {{$.Scratch.Set "pages" ( where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog") }}
         {{ else }}
-          {{ $.Scratch.Set "hasMorePages" ($pages) }}
+          {{$.Scratch.Set "pages" .Data.Pages.ByDate.Reverse}}
         {{ end }}
-        {{ $paginator := .Paginate ( $.Scratch.Get "hasMorePages" )  12 }}
+
+        {{ $pages := $.Scratch.Get "pages" }}
+
+        {{ if gt (len $pages) 1 }}
+          {{ $.Scratch.Set "pages" (after 1 $pages) }}
+        {{ end }}
+        {{ $paginator := .Paginate ( $.Scratch.Get "pages" )  12 }}
         {{ range $paginator.Pages }}        
         <div class="col-md-4 col-sm-6 col-12 blog-item mb-125 mt-125">
           <a href="{{ .Permalink  }}" class="bg-white">
