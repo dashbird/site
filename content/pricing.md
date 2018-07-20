@@ -112,7 +112,7 @@ date: 2018-07-17T17:50:03+02:00
 
     <div class="row">
       <div class="col-md-9 pb-5 m-auto">
-      <h3 class='text-center'>Frequently Asked Questions</h3>
+      <h3 class='text-center mb-5 mt-4'>Frequently Asked Questions</h3>
 
       <ul>
         <li class='mb-3'><b>How do I know how many GB I'm using and what plan to choose?</b> - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
