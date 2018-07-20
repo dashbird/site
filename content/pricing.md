@@ -114,12 +114,12 @@ date: 2018-07-17T17:50:03+02:00
       <div class="col-md-9 pb-5 m-auto">
       <h3 class='text-center'>Frequently Asked Questions</h3>
 
-      <ul class=''>
-        <li><b>How do I know how many GB I'm using and what plan to choose?</b> - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
-        <li><b>What features do I get to use during the free trial?</b> - All of them!</li>
-        <li><b>What happens when I have to upgrade in the middle of the pricing cycle?</b> - Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.</li>
-        <li><b>Do you offer refunds?</b> - No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period. </li>
-        <li><b>Do you offer any discounts?</b> - You will get 10% discount on all plans when you sign up for an annual subscription. </li>
+      <ul>
+        <li class='mb-3'><b>How do I know how many GB I'm using and what plan to choose?</b> - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
+        <li class='mb-3'><b>What features do I get to use during the free trial?</b> - All of them!</li>
+        <li class='mb-3'><b>What happens when I have to upgrade in the middle of the pricing cycle?</b> - Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.</li>
+        <li class='mb-3'><b>Do you offer refunds?</b> - No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period. </li>
+        <li class='mb-3'><b>Do you offer any discounts?</b> - You will get 10% discount on all plans when you sign up for an annual subscription. </li>
       </ul>
       </div>
     </div>
