@@ -10,7 +10,6 @@ author_image: '/images/team/adnan.png'
 canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-apis-with-express-and-mongodb-193k
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
-category: "Serverless, Node.js, Lambda"
 ---
 
 Serverless has become an amazing tool for various use cases. Data processors, chatbots, APIs, you name it is now developed using serverless architectures.

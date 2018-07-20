@@ -5,7 +5,7 @@ date: 2018-07-10T01:00:00.000Z
 frontImage: "2018-07-10/faas.jpg"
 thumbnail: "images/blog/2018-07-10/faas.jpg"
 author: Nemanja Novkovic, Nikola Pantic
-category: "FaaS"
+blog: ["FaaS"]
 ---
 *Image Credit: [Austen Collins](https://twitter.com/austencollins) - [ServerlessConf Austin '17](https://youtu.be/b1t78P_1FT4)*
 

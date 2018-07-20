@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-07-11/pexels-photo-577585.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "Monitoring, Serverless"
+blog: ["Monitoring", "Serverless"]
 ---
 
 Serverless has gathered a lot of attention this past couple of years and with a <a href="https://dashbird.io/blog/companies-using-serverless-in-production/">lot of Fortune 500 companies</a> jumping ship and starting to use serverless architecture in production, it only made it more popular than ever. And while Serverless offers a lot of benefits, there are a lot of people that have yet to make the switch because of the new computing paradigm that makes developers change perspective quite a bit.

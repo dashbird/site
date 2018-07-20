@@ -5,7 +5,7 @@ date: 2018-05-14T00:00:00.000Z
 frontImage: "14-05-2018/faas-providers.jpeg"
 thumbnail: "images/blog/14-05-2018/faas-providers.jpeg"
 author: Nemanja Novkovic
-category: "Serverless, FaaS, Lambda"
+blog: ["Serverless", "FaaS", "Lambda"]
 ---
 
 ## What Is FaaS?

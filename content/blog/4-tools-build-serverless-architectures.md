@@ -6,7 +6,7 @@ frontImage: gray-cover.jpg
 canonical: https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/ 
 author: 'Taavi Rehemägi'
 author_image: '/images/team/taavi.jpg'
-category: "Lambda, Other"
+blog: ["Lambda", "Other"]
 ---
 _This post was originally published in the [Serverless blog](https://serverless.com/blog/4-tools-for-building-production-serverless-architectures/) ._
 

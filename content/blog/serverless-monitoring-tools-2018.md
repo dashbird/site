@@ -5,7 +5,7 @@ date: 2018-01-09
 frontImage: 11-01-2018/dashbird-project.png
 thumbnail: images/blog/11-01-2018/dashbird-project.png
 author: Simon Orgulan
-category: "Serverless, Monitoring"
+blog: ["Serverless", "Monitoring"]
 ---
 
 Monitoring for AWS Lambda allows you to get an insight into all tiers of your stack. With its help, not only will you be able to see exactly what goes on during each step of the script, but also determine what went wrong by looking at the detailed logs and being able to optimize the process by measuring resource consumption.

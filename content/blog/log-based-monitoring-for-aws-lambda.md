@@ -5,7 +5,7 @@ date: 2017-11-13
 frontImage: "13-11-2017/dashboard.png"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-category: "Monitoring, Lambda"
+blog: ["Monitoring", "Lambda"]
 ---
 
 Monitoring and analytics has been an issue for Serverless systems since they were invented. While it's easy to attach an agent like NewRelic or DataDog to a server or container, function monitoring requires a different approach. Serverless applications, where logic is distributed over a large amount of functions, attaching  agents or wrappers leads to cost increase and development overhead. To provide insights into FaaS architectures, Dashbird collects all your CloudWatch logs and extracts meaningful and actionable metrics from that. 

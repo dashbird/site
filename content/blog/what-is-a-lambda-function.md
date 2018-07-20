@@ -5,7 +5,7 @@ date: 2018-06-08
 frontImage: "2018-06-08/what-is-a-lambda-function.jpg"
 thumbnail: "images/blog/2018-06-08/what-is-a-lambda-function.jpg"
 author: 'Nemanja Novkovic'
-category: "Lambda"
+blog: ["Lambda"]
 ---
 
 Since we’ve already talked about [AWS Lambda](https://aws.amazon.com/lambda/) and its usefulness in today’s modern and digitalized civilization, we will cover another topic regarding the Lambda function and its functionality in our every day, digital lives.

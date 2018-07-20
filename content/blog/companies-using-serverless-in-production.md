@@ -7,7 +7,7 @@ thumbnail: "16-04-2018/dashbird-concurrency-thumbnail.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-category: "Serverless, Other"
+blog: ["Serverless", "Other"]
 ---
 
 Every couple of days you read about the "next big thing in [enter technology name here]" and it's hard to tell if there's anything behind those claims. Yet, I often suffer from a terrible affliction called FOMO - fear of missing out - which makes me spend hours upon hours testing the technology only to find it completely useless and nothing to show for my efforts.

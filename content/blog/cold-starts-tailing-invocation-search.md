@@ -7,7 +7,7 @@ thumbnail: "images/blog/23-03-2018/dashbird-product-updates.jpg"
 authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
 author_image: '/images/team/mikk.jpg'
-category: "Product, News"
+blog: ["Product", "News"]
 ---
 
 We are committed to provide the best serverless monitoring and debugging experience out there. Here's what we have been working on lately.

@@ -5,7 +5,7 @@ date: 2018-01-21
 frontImage: 21-01-2018/lambda-monitoring-python.jpeg
 thumbnail: images/blog/21-01-2018/lambda-monitoring-python.jpeg
 author: Andrei Popescu
-category: "Serverless, Python, Monitoring"
+blog: ["Serverless", "Python", "Monitoring"]
 ---
 
 ### Lambda Functions

@@ -5,7 +5,7 @@ date: 2018-03-13
 frontImage: "12-03-2018/lambda-use-cases.jpg"
 thumbnail: "images/blog/12-03-2018/lambda-use-cases.jpg"
 author: Nemanja Novkovic
-category: "Serverless, Lambda"
+blog: ["Serverless", "Lambda"]
 ---
 
   Since being launched in 2014, AWS Lambda service has spread fast amongst developers and cloud architects, for it is easy to use and there is a significant cost benefit (pay-per-use basis). AWS Lambda is an Amazon Web Services serverless deployment platform that you can use in the AWS **cloud environment with basically no overhead.** It will save you much time and resources using Lambda for performing code tasks for websites, applications, and services running on AWS. AWS Lambda is an event-driven computing cloud with many uses. Here we will present you with some of the best AWS Lambda use cases.

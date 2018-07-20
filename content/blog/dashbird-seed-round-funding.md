@@ -6,7 +6,7 @@ frontImage: "2018-05-22/dashbird-founders.jpg"
 thumbnail: "images/blog/2018-05-22/dashbird-founders.jpg"
 authorlink: 'https://twitter.com/AnnikaHelendi'
 author: Annika Helendi
-category: "Serverless, Node.js, Lambda"
+blog: ["Serverless", "Node.js", "Lambda"]
 featpop: most-popular
 ---
 _Dashbird founders, from left: Mikk Kirštein, Taavi Rehemägi and Annika Helendi._

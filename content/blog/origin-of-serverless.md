@@ -6,7 +6,7 @@ frontImage: "2018-06-06/pexels-photo-886521.jpg"
 thumbnail: "images/blog/2018-06-06/pexels-photo-886521.jpg"
 authorlink: 'https://www.mojotech.com/'
 author: Joshua Harding
-category: "Serverless, Other"
+blog: ["Serverless", "Other"]
 ---
 
 ### What is Serverless?
