@@ -24,7 +24,7 @@ date: 2018-07-17T17:50:03+02:00
             <h4 class="mt-2 mb-3">Developer</h4>
             <span class="h1 lato mt-5 mb-5" id="basic">$24</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">500 MB</p>
+            <p class="lato h6">5 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
             <hr />
             <p class="lato h6">&nbsp;</p>
@@ -36,7 +36,7 @@ date: 2018-07-17T17:50:03+02:00
             <h4 class="mt-2 mb-3">Startup</h4>
             <span class="h1 lato mt-5 mb-5" id="startup">$99</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">2 GB</p>
+            <p class="lato h6">25 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
             <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
@@ -48,7 +48,7 @@ date: 2018-07-17T17:50:03+02:00
             <h4 class="mt-2 mb-3">Pro</h4>
             <span class="h1 lato mt-5 mb-5" id="pro">$299</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">15 GB</p>
+            <p class="lato h6">200 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
             <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
@@ -60,7 +60,7 @@ date: 2018-07-17T17:50:03+02:00
             <h4 class="mt-2 mb-3">Business</h4>
             <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
             <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">50 GB</p>
+            <p class="lato h6">500 GB</p>
             <p class="lato m-0 p-0 h6">per month</p>
             <hr />
             <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
@@ -115,11 +115,11 @@ date: 2018-07-17T17:50:03+02:00
       <h3 class='text-center'>Frequently Asked Questions</h3>
 
       <ul class=''>
-        <li>How do I know how many GB I'm using and what plan to choose? - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
-        <li>What features do I get to use during the free trial? - All of them!</li>
-        <li>What happens when I have to upgrade in the middle of the pricing cycle? - Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.</li>
-        <li>Do you offer refunds? - No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period. </li>
-        <li>Do you offer any discounts? - You will get 10% discount on all plans when you sign up for an annual subscription. </li>
+        <li><b>How do I know how many GB I'm using and what plan to choose?</b> - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
+        <li><b>What features do I get to use during the free trial?</b> - All of them!</li>
+        <li><b>What happens when I have to upgrade in the middle of the pricing cycle?</b> - Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.</li>
+        <li><b>Do you offer refunds?</b> - No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period. </li>
+        <li><b>Do you offer any discounts?</b> - You will get 10% discount on all plans when you sign up for an annual subscription. </li>
       </ul>
       </div>
     </div>
