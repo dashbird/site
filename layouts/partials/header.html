@@ -14,10 +14,13 @@
       <li class="nav-item d-block d-md-none">
         <a class="nav-link" href="/">Home</a>
       </li>
-      {{ $currentNode := .  }}
+      {{ $currentPage := .  }}
 			{{ range .Site.Menus.main }}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+      <li class="nav-item {{ .Identifier }}">
+        <a class="nav-link"
+        href="{{ .URL }}">
+        {{ .Name }} 
+      </a>
       </li>
       {{ end }}
       <li class="nav-item">
@@ -28,8 +31,8 @@
       </li>
     </ul>
   </div>
-  <a href="/register" class='corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block'>
-      Sign up <img src="/images/ic-arrow.svg" class="ic-arrow">
+  <a href="/register" class='corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>
+    Sign up <img src="/images/ic-arrow.svg" class="ic-arrow">
   </a>
 
 </nav>
