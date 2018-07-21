@@ -5,6 +5,13 @@ thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---
 
+<script>
+  document
+    .querySelector('#navigation ul li.nav-item.product')
+    .classList
+    .add('active')
+</script>
+
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center mt-5 d-none d-md-block">
