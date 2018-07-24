@@ -6,6 +6,7 @@ frontImage: "2018-06-11/pexels-photo-707582.jpeg"
 thumbnail: "images/blog/2018-06-11/pexels-photo-707582.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
+author_image: '/images/team/john.jpg'
 blog: ["Serverless", "Node.js", "Lambda"]
 ---
 
