@@ -38,8 +38,8 @@
             <div class="blog-thumb-wrap">
               <img class="b-lazy blog-thumb" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/blog/{{.Params.frontImage}}" width='340'>
             </div> 
-            <div class="col-12 p-sm-50 py-3">
-              <div class='blog-category mb-25 {{ if isset .Params "blog"}} d-none{{end}} d-sm-block'>
+            <div class="blog-content-wrap col-12 p-sm-50 px-4 py-3_5">
+              <div class='blog-category mb-2 {{ if isset .Params "blog"}} d-none{{end}} d-sm-block'>
                 {{ range $categ :=  .Params.blog }}
                 <span class='blog-categ-spam categ-{{ trim (replace (lower $categ) "." "") " " }}'>{{ $categ }}</span>
                 {{ end }}
