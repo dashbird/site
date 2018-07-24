@@ -5,7 +5,7 @@
     <!-- <img src="/images/blog/{{.Params.frontImage}}" class="d-md-none"> -->
   </div>
   <div class="container z-index-1 p-md-10">
-    <h1 class="text-center p-5 text-white roboto-mono mb-md-4 position-relative">{{ .Title }}</h1>
+    <h1 class="text-center p-5 text-white roboto-mono blog-title-h1 mb-md-4 position-relative">{{ .Title }}</h1>
   </div>
 </section>
 <section class="container sf-ui-text br-7 blog-font bg-white z-index-1 position-relative article-blog-wrap">
@@ -29,8 +29,8 @@
   </div>
 
  <div class="col-2 text-center d-none d-md-block position-absolute pt-10 hight-100">
-    <div class="sticky-top pt-5 social-icons">
-      <div class="col-12 mb-3 mt-6">
+    <div class="sticky-top pt-5 pb-10 social-icons">
+      <div class="col-12 mb-3 mt-3">
         <a rel="nofollow"
            class="twitter m-d-s"
            title="Share to Twitter"
@@ -56,7 +56,7 @@
     </div>
   </div> 
 
-  <div class="col col-md-8 pt-10 pt-md-4 mb-5 imgs-fluid justify-content-center m-0-auto">
+  <div class="col col-md-8 pt-10 pt-md-40 mb-5 imgs-fluid justify-content-center m-0-auto">
     <div class='article-blog-content'>{{ .Content }}</div>
   </div>
   <div class="row justify-content-center lato lh-3">
@@ -95,7 +95,7 @@
     </div>
   </div> 
   </div>-->
-</section>
+</section> 
 
   {{ partial "newsletter.html" .}}
   {{ partial "mostpopular.html" .}}
