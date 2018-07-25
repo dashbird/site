@@ -10,20 +10,6 @@ $(document).ready(function () {
     $('html, body').css({ overflow: 'auto', height: 'auto' })
   })
 
-  function renderPrices (period) {
-    console.log('period', period)
-    $('#pro').text(period === 'ANNUAL' ? '$299' : '$350')
-    $('#enterprise').text(period === 'ANNUAL' ? '$599' : '$700')
-    $('#startup').text(period === 'ANNUAL' ? '$99' : '$115')
-    $('#basic').text(period === 'ANNUAL' ? '$24' : '$29')
-    $('.condition').text(period === 'ANNUAL' ? 'per month / billed yearly' : 'per month')
-  }
-  $('.toggle span').on('click', function () {
-    $(this).parent().children('.active').removeClass('active')
-    $(this).addClass('active')
-    renderPrices($(this).text())
-  })
-
   $('.clickable').on('click', function () {
     window.open($(this).find('a:first').attr('href'), '_self')
   })
@@ -45,13 +31,37 @@ $(document).ready(function () {
     $(this).css('margin-right', margin)
   })
 
-  // Allows bootstrap carousels to display 3 items per page rather than just one
+  var prices = { 
+    24: { annual: 24, monthly: 29, volume: 5 },
+    99: { annual: 99, monthly: 115, volume: 25 },
+    299: { annual: 299, monthly: 350, volume: 100 },
+    599: { annual: 599, monthly: 700, volume: 200 },
+    990: { annual: 990, monthly: 1150, volume: 300 }
+  }
+
+  $('#custom').hide()
+  $('#price-selector').on('change', function(e){
+    var selectedValue = $(this).val()
+    if (selectedValue === 'custom') {
+      $('#custom').show()
+      $('#priced').hide()
+    } else {
+      $('#custom').hide()
+      $('#priced').show()
+      var priceLevel = prices[selectedValue]
+      $("#annual-cost").html(priceLevel.annual)
+      $("#monthly-cost").html(priceLevel.monthly)
+      $("#volume").html(priceLevel.volume)
+    }
+  })
+
+
+  //Allows bootstrap carousels to display 3 items per page rather than just one
   $('#carousel-example-multi').on('slide.bs.carousel', (e) => {
     const $e = $(e.relatedTarget)
     const idx = $e.index()
     const itemsPerSlide = 4
     const totalItems = $('.carousel-item').length
-
     if (idx >= totalItems - (itemsPerSlide - 1)) {
       var it = itemsPerSlide - (totalItems - idx)
       for (var i = 0; i < it; i++) {
