@@ -23,6 +23,8 @@
 
 </section>
 
+{{ $currentPage := .  }}
+
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
   <div class='col col-md-11 text-justify'>
@@ -35,7 +37,11 @@
             <a href='javascript:;'>{{ substr $subject 1 }}</a>
             <ol>
               {{ range $taxonomy }}
-                <li><a href='{{ .Page.Permalink }}'>{{ .Params.LinkTitle }}</a></li>
+                <li class="{{ if eq .Page.URL $currentPage.URL }}active{{end}}">
+                  <a href='{{ .Page.Permalink }}'>
+                    {{ .Params.LinkTitle }}
+                  </a>
+                </li>
               {{ end }}
             </ol>
           </li>

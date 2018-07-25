@@ -34,46 +34,38 @@ $(document).ready(function () {
   })
 
   $('ul.sidemenu li a').on('click', function () {
-    $(this).parent('li').toggleClass('active')
+    $(this).parent('li').toggleClass('current-subject')
   })
 
   // full image width
+  const contentWidth = $('.article-blog-wrap').width()
+  $.each($('.article-full-width'), () => {
+    var margin = ($(this).width() - contentWidth - 30) / 2
+    $(this).css('margin-left', margin)
+    $(this).css('margin-right', margin)
+  })
 
-  var content_width = $('.article-blog-wrap').width();
-  $.each($('.article-full-width'), function(){
-    var margin = ($(this).width() - content_width - 30)/2;
-    $(this).css('margin-left', margin);
-    $(this).css('margin-right', margin);
-  });
+  // Allows bootstrap carousels to display 3 items per page rather than just one
+  $('#carousel-example-multi').on('slide.bs.carousel', (e) => {
+    const $e = $(e.relatedTarget)
+    const idx = $e.index()
+    const itemsPerSlide = 4
+    const totalItems = $('.carousel-item').length
 
-
-  //Allows bootstrap carousels to display 3 items per page rather than just one
-  
-$('#carousel-example-multi').on('slide.bs.carousel', function (e) {
-
-  
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 4;
-    var totalItems = $('.carousel-item').length;
-    
-    if (idx >= totalItems-(itemsPerSlide-1)) {
-        var it = itemsPerSlide - (totalItems - idx);
-        for (var i=0; i<it; i++) {
-            // append slides to end
-            if (e.direction=="left") {
-                $('.carousel-item').eq(i).appendTo('.carousel-inner');
-            }
-            else {
-                $('.carousel-item').eq(0).appendTo('.carousel-inner');
-            }
+    if (idx >= totalItems - (itemsPerSlide - 1)) {
+      var it = itemsPerSlide - (totalItems - idx)
+      for (var i = 0; i < it; i++) {
+        // append slides to end
+        if (e.direction === 'left') {
+          $('.carousel-item').eq(i).appendTo('.carousel-inner')
+        } else {
+          $('.carousel-item').eq(0).appendTo('.carousel-inner')
         }
+      }
     }
-});
-  if($(window).width() > 767){
-    $('#carousel-example-multi').carousel({ 
-                  interval: 4000
-          });
+  })
+
+  if ($(window).width() > 767) {
+    $('#carousel-example-multi').carousel({ interval: 4000 })
   }
- 
 })
