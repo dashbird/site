@@ -1,5 +1,8 @@
 <!-- main.css -->
 <style>
+  html{
+    min-width: 320px;
+  }
   html,
   body {
     font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1089,7 +1092,7 @@
   /* blog header */
 
   .blog-slider{
-    height: 32rem;
+    min-height: 32rem;
   }
 
   .blog-new-topic{
@@ -1099,6 +1102,13 @@
     letter-spacing: 2px; 
     line-height: 16px;
     display: inline-block;
+  }
+
+  .blog-title-h1 a{
+    color: #fff
+  }
+  .blog-title-h1 a:hover{
+    text-decoration: none;
   }
 
   a.btn{
@@ -1142,12 +1152,6 @@
     text-decoration: none;
     cursor: pointer;
 
-  }
-
-  .blog-title-h1{
-    font-weight: 700;
-    font-size: 2.75rem;
-    line-height: 1.3;
   }
 
   .newsletter-title{
@@ -1503,6 +1507,14 @@ p.justify-content-center {
 /*responsive*/
 /*// ONLY Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
+
+
+
+  .posts-filter {
+    top: 50px;
+  }
+  
+
   .pl-xs-2, .px-xs-2{ padding-left: 30px; }
   .pr-xs-2, .px-xs-2{ padding-right: 30px; }
   .pl-xs-0{padding-left: 0rem !important}
@@ -1653,6 +1665,14 @@ p.justify-content-center {
   .blog-item-author span{
     width: 100%;
     max-width: 100%;
+  }
+
+
+
+  .blog-title-h1{
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 1.3;
   }
 
 
