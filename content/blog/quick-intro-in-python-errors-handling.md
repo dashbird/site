@@ -9,7 +9,7 @@ author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["python,serverless"]
 ---
-Serverless is slowly becoming the new norm and with this much traction around this new way to run applications is only normal that developers from all over have been jumping at the chance to test it out. However, not every programming language is the same and some have some distinct pitfalls one will want to avoid. Here is what you need to look out for if you are going to snake yourself into using serverless. Get it? Python is a kind of snake. No? Fine, I'll stop.
+Serverless is slowly becoming the new norm and with that much traction around this all-new-way to run applications is only normal that developers from all over have been jumping at the chance to test it out. However, not every programming language is the same and some have some distinct pitfalls one will want to avoid. Here is what you need to look out for if you are going to snake yourself into using serverless. Get it? Python is a kind of snake. No? Fine, I'll stop.
 
 It doesn't matter if you are fluent in python or just dipping your toes in the scripting language sooner or later you will encounter an error. <a href="https://dashbird.io/python-lambda-optimization-error-handling/">Python error handling</a> might seem hard to most newbies but once you get used to what you need to look at you'll be fine. 
 
@@ -32,8 +32,8 @@ A simple calculator uses number units and widely-known symbols for divisions, ad
 <h2>Raise Error</h2>
 As a Python developer, you can also force errors to appear via the raise statement. For example, raise NameError('My error occurred') inserted in the code will output NameError: My error occurred. The raise exception forces predefined errors to occur and can be useful when you want any input to be forced upon the user except the predefined ones. Furthermore, to better clarify things for the user you could make use of a simple print('You typed it wrong') or print('This error occurred because you did this'). This clears the confusion caused by user-defined python errors and better informs the user about what he or she did wrong.
 
-<center>![Python Developer](/images/blog/2018-07-25/python-developer.jpg)</center>
-
+<center>![Python Developer](/images/blog/2018-07-25/python-developer.jpg)
+<i>A python developer in his natural habitat</i></center>
 
 <h2>Python error tracking in serverless enviroments</h2>
 Exceptions and syntax errors in python 3.x can be easily understood by reading the python documentation or by simply taking a look at the annotated code.  The problem with <a href="https://dashbird.io/python-lambda-optimization-error-handling/">Python error handling</a> in serverless environments like AWS Lambda is the lack of observability in your application. This makes for a lot of mucking around with your code and spending hours in AWS CloudWatch, which is never fine. 
