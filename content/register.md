@@ -16,7 +16,7 @@ date: 2018-06-17T11:50:03+02:00
 </script>
 
 <section class="container-fluid dark-bg pt-5 pb-5">
-    <h2 class="text-center pb-5"><span class="h4 underlined roboto-mono">Sign up and start improving your Lambdas today!</span></h2>
+    <h2 class="text-center pb-5"><span class="h4 underlined">Sign up and start improving your Lambdas today!</span></h2>
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12">
         <div class="pt-2">

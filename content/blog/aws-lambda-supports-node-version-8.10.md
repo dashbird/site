@@ -7,7 +7,6 @@ thumbnail: "images/blog/08-05-2018/aws-lambda-node-8.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
-featloc: blog-header
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
 ---

@@ -7,6 +7,8 @@ thumbnail: "images/blog/26-04-2018/serverless-survey.jpg"
 authorlink: 'https://twitter.com/annikahelendi'
 author: 'Annika Helendi'
 author_image: '/images/team/annika1.jpg'
+featloc: blog-header
+featpop: most-popular
 blog: ["Product"]
 ---
 

@@ -1,24 +1,13 @@
 <!-- main.css -->
 <style>
+  html{
+    min-width: 320px;
+  }
   html,
   body {
-    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,“Segoe UI”,“PingFang SC”,“Hiragino Sans GB”,“Microsoft YaHei”,“Helvetica Neue”,Helvetica,Arial,sans-serif;
     background-color: #f5f5fc;
-  }
-
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Roboto', sans-serif;
   }
 
   h1 {
@@ -710,7 +699,7 @@
   }
 
   .blog-font h3 {
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,‘Helvetica Neue’,‘Segoe UI’,Oxygen,Ubuntu,‘Fira Sans’,‘Droid Sans’,sans-serif
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,‘Helvetica Neue’,‘Segoe UI’,Oxygen,Ubuntu,‘Fira Sans’,‘Droid Sans’,sans-serif;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -825,6 +814,7 @@
     display: block;
     margin: 10px 0 10px 0;
     padding-left: 25px;
+    font-weight: 500;
   }
 
   ul.sidemenu li ol li {
@@ -834,6 +824,7 @@
 
   ul.sidemenu li.active>a {
     color: #29D391;
+    font-weight: 700;
   }
 
   ul.sidemenu li.active ol>a {
@@ -970,6 +961,7 @@
     font-size: 12px;
     border-radius: 20px; 
     padding: 5px 12px;
+    font-weight: 700;
   }
   .blog-categ-spam{
     color: #303849;
@@ -1029,11 +1021,9 @@
 
   .blog-title { 
     color: #30374A; 
-    font-family: "Roboto Mono"; 
     font-size: 18px;  
-    font-weight: 500; 
+    font-weight: 700; 
     line-height: 24px;    
-    /*height: 73px;*/
     overflow: hidden;
     max-height: 70px;
     display: -webkit-box;
@@ -1099,7 +1089,7 @@
   /* blog header */
 
   .blog-slider{
-    height: 32rem;
+    min-height: 32rem;
   }
 
   .blog-new-topic{
@@ -1111,8 +1101,28 @@
     display: inline-block;
   }
 
-  a.btn{
+  .blog-title-h1 a{
+    color: #fff
+  }
+  .blog-title-h1 a:hover{
+    text-decoration: none;
+  }
 
+  .return-to-blog .blog-new-topic {
+    margin-top: 48px;
+    line-height: 32px;
+    padding: 5px;
+    margin-left: 0px;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .return-to-blog span:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+  .return-to-blog i {
+    font-size: 12px !important; 
+    position: relative; 
+    top: -2px;
   }
 
   .author-header-blog{
@@ -1152,12 +1162,6 @@
     text-decoration: none;
     cursor: pointer;
 
-  }
-
-  .blog-title-h1{
-    font-weight: 700;
-    font-size: 2.75rem;
-    line-height: 1.3;
   }
 
   .newsletter-title{
@@ -1513,6 +1517,14 @@ p.justify-content-center {
 /*responsive*/
 /*// ONLY Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
+
+
+
+  .posts-filter {
+    top: 5px;
+  }
+  
+
   .pl-xs-2, .px-xs-2{ padding-left: 30px; }
   .pr-xs-2, .px-xs-2{ padding-right: 30px; }
   .pl-xs-0{padding-left: 0rem !important}
@@ -1538,7 +1550,15 @@ p.justify-content-center {
   .h-xs-auto{height: auto;}
   .text-xs-center{text-align: center!important;}
 
- }
+  .return-to-blog .blog-new-topic {
+    margin-top: 24px;
+    line-height: 32px;
+    padding: 5px;
+    margin-left: 15px;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+}
 
 /*// ONLY Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
@@ -1663,6 +1683,14 @@ p.justify-content-center {
   .blog-item-author span{
     width: 100%;
     max-width: 100%;
+  }
+
+
+
+  .blog-title-h1{
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 1.3;
   }
 
 

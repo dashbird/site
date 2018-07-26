@@ -8,7 +8,6 @@ authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
 category: "Serverless, Node.js, Lambda"
-featloc: blog-header
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
 canonical: https://dev.to/adnanrahic/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses-4jm0
