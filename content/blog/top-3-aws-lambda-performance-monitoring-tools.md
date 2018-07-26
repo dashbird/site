@@ -5,8 +5,9 @@ date: 2018-07-20
 frontImage: "2018-07-20/lambda-performance-monitoring.jpeg"
 thumbnail: "images/blog/2018-07-20/lambda-performance-monitoring.jpeg"
 author: Nemanja Novkovic
-blog: ["Serverless, Lambda, Monitoring"]
-category: "Serverless, Lambda, Monitoring"
+featloc: blog-header
+featpop: most-popular
+blog: ["Serverless", "Lambda", "Monitoring"]
 ---
 
 Monitoring your [AWS Lambda performance](/features/aws-lambda-performance-cost/) takes a crucial part in your everyday [AWS Lambda](https://aws.amazon.com/lambda/) usage. Monitoring helps you identify any performance issues, and it can also send you alerts and notify you of anything you might need to know. The world is slowly getting to a point where machines and computers will be flawless, but until then, if we let them perform various tasks for us, we could at least monitor their performance. 

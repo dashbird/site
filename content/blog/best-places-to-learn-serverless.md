@@ -7,7 +7,6 @@ thumbnail: "images/blog/2018-07-02/pexels-photo-45775.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: ''
-featloc: blog-header
 featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda"]
 ---
