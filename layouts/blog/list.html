@@ -2,9 +2,9 @@
 {{ partial "headerblog.html" .}}
 <section class="container sf-ui-text">
   <div class="row">  
-    <div class="col-12 mt-3 "> 
+    <div class="col-12 mt-3"> 
       <div class="row">
-        <h1 class='col text-left mt-125 mb-125 blog-news'><span class="h4 underlined">Recent posts</span></h1>
+        <h1 class="col text-left mt-125 mb-125 blog-news"><span class="h4 underlined">Recent posts</span></h1>
         <div class="pull-right posts-filter mt-125">
           <div class="placeholder p-2">
             <span class="">Filter by category <i class="fa fa-caret-down" aria-hidden="true"></i></span>
@@ -45,7 +45,7 @@
                 {{ end }}
               </div>
               <h2 class="blog-title mb-25 h-xs-auto">{{ .Title }}</h2>
-              <p class="blog-item-description pb-3 h-xs-auto">{{  .Description }}</p>
+              <p class="blog-item-description pb-3">{{  .Description }}</p>
               <div class="blog-item-author">
                 <span class="text-left text-secondary small m-0 p-0">by {{ .Params.author }}</span>
                 <span class="text-right text-secondary small m-0 p-0 pull-right">{{ .Date.Format "January 2, 2006" }}</span>
