@@ -135,7 +135,7 @@ things Serverless, we want to make functions better for everybody.</p>
         </div>
 
         <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block">
-          <img src="/images/team/adnan.png" class="img-green-border">
+          <img src="/images/team/john.jpg" class="img-green-border">
           <img src="/images/pattern-green.svg" class="pattern-green">
         </div>
       </div>
