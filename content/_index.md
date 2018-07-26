@@ -8,8 +8,8 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2">
-        <h1 class="text-center roboto-mono">Great insights and smart error alerting for serverless</h1>
-        <h2 class="mt-4 text-center roboto lh-3">Log based AWS Lambda monitoring, tracing, error alerting and debugging for agile businesses. 2-minute setup, no code changes!</h2>
+        <h1 class="text-center" style="font-weight: 700;">Great insights and smart error alerting for serverless</h1>
+        <h2 class="mt-4 text-center lh-3">Log based AWS Lambda monitoring, tracing, error alerting and debugging for agile businesses. <br>2-minute setup, no code changes!</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
             <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
