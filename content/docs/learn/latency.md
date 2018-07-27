@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: Does Dashbird Have Any Latency?
 linktitle: Latency
-description: It typically takes close to 60 seconds for Dashbird to visualise your data.
+description: It typically takes under 30 seconds for Dashbird to visualise your data.
 kbSeries: ["ALearn"]
 kbSeries_weight: 600
 ---
@@ -15,4 +15,4 @@ kbSeries_weight: 600
   </span>
 </h2>
 
-It usually takes about <u>**60 seconds**</u> for execution data to be visible in Dashbird.
+It usually takes under <u>**30 seconds**</u> for invocations to be visible in Dashbird.
