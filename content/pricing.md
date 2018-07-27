@@ -24,21 +24,19 @@ date: 2018-07-17T17:50:03+02:00
   <div class="row justify-content-md-center align-items-center">  
     <div class="col-sm-12 col-md-10 mb-5">
       <div class="row">
-        <div class="col mw-250">
+        <div class="col mw-250 mt-4">
           <div class="pricing-box bg-white top-gray text-center p-4">
             <h4 class="mt-2 mb-3">FREE</h4>
             <p class="lato h4 mt-5 mb-5">1 GB / month</p>
          </div>
         <div class='text-center pt-3' style='background-color:#e4e7ea'>
-          <button class="d-block d-md-inline cta-btn cta-secondary" id="signup" type="submit">GET STARTED FOR FREE</button>
-
-          <ul style='list-style-type: none; padding: 0'>
+          <a class="btn cta-btn cta-secondary" role="button" href='/register' target='_blank'>GET STARTED FOR FREE</a>
+          <ul class='pricing-features mt-3 pb-3'>
             <li>Failure detection & alerting</li>
             <li>Account and function metrics</li>
             <li>Invocation history</li>
             <li>X-ray tracing</li>
             <li>7-day data retention</li>
-            <li>Technical support</li>
           </ul>
         </div>
 
@@ -49,7 +47,7 @@ date: 2018-07-17T17:50:03+02:00
             
             <div class='row' id='custom' style='display:none'>
               <div class='col'>
-                <button class="d-block d-md-inline cta-btn cta-secondary" id="signup" type="submit">CONTACT US</button>
+                <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
               </div>
             </div>
 
@@ -68,7 +66,7 @@ date: 2018-07-17T17:50:03+02:00
               <option value='24'>$24 - 5GB</option>
               <option value='99'>$99 - 25GB</option>
               <option value='299'>$299 - 100GB</option>
-              <option value='599'>$599 - 200GB</option>
+              <option value='595'>$595 - 200GB</option>
               <option value='990'>$990 - 300GB</option>
               <option value='custom'>Custom plans</option>
             </select>
@@ -76,9 +74,9 @@ date: 2018-07-17T17:50:03+02:00
           </div>
 
           <div class='text-center pt-3' style='background-color:#e4e7ea'>
-            <button class="d-block d-md-inline cta-btn cta-pink" id="signup" type="submit">START YOUR 14 DAY FREE TRIAL</button>
+            <a class="btn cta-btn cta-pink" role="button" href='/register' target='_blank'>START YOUR 14 DAY FREE TRIAL</a>
             <p class="lato text-center text-secondary small">no credit card required</p>
-            <ul class="mt-3 mb-3" style='list-style-type: none; padding: 0'>
+          <ul class='pricing-features pb-3'>
               <li>Live tailing</li>
               <li>Full-text search</li>
               <li>30-day data retention</li>
@@ -88,14 +86,13 @@ date: 2018-07-17T17:50:03+02:00
         </div>
 
         <div class="col mw-250">
-          <div class="pricing-box bg-white top-black text-center p-4">
+          <div class="pricing-box bg-white top-black text-center p-4 mt-4">
             <h4 class="mt-2 mb-3">ENTERPRISE</h4>
-            <span class="h5 lato mt-5 mb-5" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</span>
+            <p class="lato mt-5 mb-5" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
           </div>
           <div class='text-center pt-3' style='background-color:#e4e7ea'>
-            <button class="d-block d-md-inline cta-btn cta-secondary" id="signup" type="submit">CONTACT US</button>
-
-            <ul style='list-style-type: none; padding: 0'>
+            <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+            <ul class='pricing-features mt-3 pb-3'>
               <li>Enterprise level scale</li>
               <li>Custom, multi-year data retention</li>
               <li>Training and onboarding</li>
@@ -114,7 +111,6 @@ date: 2018-07-17T17:50:03+02:00
       <h3 class='text-center mb-5' style='margin-top: 80px;'>Frequently Asked Questions</h3>
 
       <div class='accordion' id='faqs'>
-
         <div class='card'>
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
@@ -145,6 +141,23 @@ date: 2018-07-17T17:50:03+02:00
             </div>
           </div>
         </div>
+
+        <div class='card'>
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+               How much data volume do I get allocated during my 14 day trial? 
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
+            <div class="card-body">
+            The default data volume setting during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, you can always contact the sales team to cater a greater data volume need for your trial.
+            </div>
+          </div>
+        </div>
+
 
         <div class='card'>
           <div class="card-header" id="headingThree">

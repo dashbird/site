@@ -35,7 +35,7 @@ $(document).ready(function () {
     24: { annual: 24, monthly: 29, volume: 5 },
     99: { annual: 99, monthly: 115, volume: 25 },
     299: { annual: 299, monthly: 350, volume: 100 },
-    599: { annual: 599, monthly: 700, volume: 200 },
+    595: { annual: 595, monthly: 700, volume: 200 },
     990: { annual: 990, monthly: 1150, volume: 300 }
   }
 
