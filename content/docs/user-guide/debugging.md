@@ -39,4 +39,8 @@ Use this to observe function activity in almost real time. Our UI also detect er
 <a href='/images/docs/livetailing.png' target="_blank"><img alt='Live tailing' src='/images/docs/livetailing.png'></a>
 
 ### Tracing
+Dashbird seamlessly integrates with X-ray, giving you great insights of what your invocation actually does.
+
+<a href='/images/features/x-ray.png' target="_blank"><img alt='Error view' src='/images/features/x-ray.png'></a>
+
 Our integration with X-Ray connects each invocation with an trace and gives you a breakdown of execution. <a href='/docs/user-guide/tracing'>Read about tracing from here.</a>

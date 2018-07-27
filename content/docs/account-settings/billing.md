@@ -6,7 +6,11 @@ description: Dashbird is a subscription based service that is billed monthly or 
 kbSeries: ["EAccount Settings"]
 kbSeries_weight: 200
 ---
-Dashbird is subscription based service that is billed monthly or yearly. All the prices are in USD. You can edit your billing information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page.
+Dashbird is subscription based service that is billed monthly or yearly. Every account as a preset limit of data we can ingest from your AWS logs. You'll be able to see just how much data you've used up by going to the "Billing" and then "Usage" section in your Dashbird application. 
+
+<a href='/images/docs/data-usage.jpg' target="_blank"><img alt='Data Usage' src='/images/docs/data-usage.jpg'></a>
+
+All the prices are in USD. You can edit your billing information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page.
 
 
 ### Annual vs monthly billing
@@ -19,6 +23,10 @@ Dashbird billing is transparent and fair. If you upgrade your plan in the middle
 ### Invoices
 
 You will receive automatic invoices to the email that is connected with your account.
+
+### Free tier
+
+Our <b>Free Tier</b> offers you one gigabyte(1GB) of data. This is based on the size of the logs we get from your AWS account. You can signup now without ever adding a credit card and you can upgrade at anytime from within the application.
 
 ### 14-day trial
 
