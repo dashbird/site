@@ -8,39 +8,39 @@ date: 2018-07-25T17:50:03+02:00
   <div class="row justify-content-md-center ">
     <div class="col-md-8 mt-5 mb-3">
       <h1 class='mb-4'>Contact us</h1>
-      <form>
-        <div class="form-row">
+      <form action="https://dashbird.us15.list-manage.com/subscribe/post?u=a50018e875e09cbcbb6568beb&amp;id=5afaac1c35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="form-row mc_embed_signup">
           <div class="col">
-            <input type="text" class="form-control" placeholder="First name*">
+            <input type="text" name="FNAME" class="form-control" placeholder="First name*" required>
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Last name*">
+            <input type="text" name="LNAME" class="form-control" placeholder="Last name*" required>
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Company*">
+            <input type="text" name="COMPANY" class="form-control" placeholder="Company*" required>
           </div>
         </div>
         <div class="form-row mt-4">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Email*">
+            <input type="text" name="EMAIL" class="form-control" placeholder="Email*" required>
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Phone number*">
+            <input type="text" name="PHONE" class="form-control" placeholder="Phone number">
           </div>
           <div class="col">
-            <select class="form-control" placeholder="Company size*">
-            <option>Company size*</option>
-            <option>1-49</option>
-            <option>50-499</option>
-            <option>500-999</option>
-            <option>1000 and above</option>
+            <select name="COMPANYSIZ" class="form-control"  id="mce-COMPANYSIZ" required>
+              <option value='' disabled selected>Company size*</option>
+              <option value="1-49">1-49</option>
+              <option value="50-499">50-499</option>
+              <option value="500-999">500-999</option>
+              <option value="1000 and above">1000 and above</option>
             </select>
-          </div>
+         </div>
         </div>
 
         <div class="form-row mt-4">
           <div class="col">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Comments...'></textarea>
+            <textarea class="form-control" name="COMMENTS" id="exampleFormControlTextarea1" rows="3" placeholder='Comments...'></textarea>
           </div>
         </div>
         <div class="form-group row mt-4">

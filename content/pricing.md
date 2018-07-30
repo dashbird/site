@@ -68,7 +68,7 @@ date: 2018-07-17T17:50:03+02:00
               <option value='299'>$299 - 100GB</option>
               <option value='595'>$595 - 200GB</option>
               <option value='990'>$990 - 300GB</option>
-              <option value='custom'>Custom plans</option>
+              <option value='custom'>More than 300GB</option>
             </select>
             <p class="lato text-center text-secondary small">VAT not included for EU customers</p>
           </div>
