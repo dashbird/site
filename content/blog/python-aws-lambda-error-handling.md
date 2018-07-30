@@ -127,4 +127,4 @@ using <a href='https://dashbird.io' target='_blank'>Dashbird</a> - an easy to se
 
 ### Conclusion
 
-This covers much of what you need to know about error handling in AWS Lambdas. Let me know in the comments if I missed anything. In the next article, I'm going to go over how to optimise python for peformance and cost. Stay tuned!
+This covers much of what you need to know about error handling in AWS Lambdas. If you have further questions about serverless or this article, feel free to use the chat plugin to contact us or write at <a href='mailto: support@dashbird.io'>support@dashbird.io</a>.
