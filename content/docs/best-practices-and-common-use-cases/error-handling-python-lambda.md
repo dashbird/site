@@ -10,12 +10,6 @@ aliases:
  - /docs/python/error-handling-python-lambda/
 ---
 
-<h2>
-  <span class="h2 underlined bold">
-    Error Handling With AWS Lambda and Python
-  </span>
-</h2>
-
 If you are running Python on AWS Lambda, you can catch and get alerted for all errors with Dashbird.
 
 Dashbird detects the following types of errors
@@ -33,7 +27,7 @@ On top of that, Dashbird groups similar errors, making it possible to estimate t
 
 Here's how a Python error looks like in Dashbird.
 <!-- <img src="/images/docs/python-error.png" alt="Python Error"> -->
-<!-- ![Python Error Dashbird](/images/docs/python-error.png 'Python Error') -->
+![Python Error Dashbird](/images/docs/python-error.png 'Python Error')
 
 
 ## Exceptions

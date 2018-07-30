@@ -9,6 +9,7 @@ alias:
   - /help/integrations/managing-webhooks/
   - /docs/integrations/managing-webhooks/
 ---
+You can integrate Dashbird with different tools in order to get error alerts in the channels that make the most sense for your use case.
 
 # Slack #
 Get instant error alerts in your Slack channels. To set it up, go to [*Alerts*](https://app.dashbird.io/client/alerts) section from the upper right menu and on the bottom part of the *Alerting* section click on the Slack logo and configure the settings. Here you can choose the Slack channel where the error alerts will get delivered.
@@ -28,7 +29,7 @@ How it works:
 
 # Webhooks #
 
-**Webhooks can be set up separately for each lambda.** To configure a webhook, open up <a href='https://app.dashbird.io/lambdas' target='_blank'>Lambda list</a> and select the function you want to integrate. You can access the configuration screen under `Webhooks` tab.
+**Webhooks can be set up separately for each lambda.** To configure a webhook, open up <a href='https://app.dashbird.io/lambdas' target='_blank'>lambda list</a> and select the function you want to integrate. You can access the configuration screen under `Webhooks` tab.
 
 As a first request after configuring a webhook, Dashbird will try to validate the remote endpoint. For that a POST request with a following payload is made.
 
@@ -62,4 +63,4 @@ You can choose the events on which the requests are triggered. We will add more 
 
 ---
 
-Check out how you can [set up error alerting and daily account summaries via email](https://dashbird.io//docs/user-guide/alerting/) too!
+Check out how you can [set up error alerting and daily account summaries via email](https://dashbird.io/docs/user-guide/alerting/) too!

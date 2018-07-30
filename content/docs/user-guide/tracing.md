@@ -7,21 +7,21 @@ kbSeries: ["CUser Guide"]
 kbSeries_weight: 300
 ---
 
-Dashbird provides tracing possibilities through [Aws X-Ray](https://aws.amazon.com/xray/).
+Dashbird provides tracing possibilities through [AWS X-Ray](https://aws.amazon.com/xray/).
 
 <h2>
-  <span class="h2 underlined bold">How it works</span>
+  <span class="h2 underlined bold">How it works?</span>
 </h2>
 
-Dashbird automatically can detect if a function has [X-ray](https://aws.amazon.com/xray/) enabled or not. 
-When opening an invocation belonging to a lambda that has X-ray monitoring enabled it will fetch X-ray data on-demand and show the results in a orderly fashion.
+Dashbird automatically can detect if a function has [AWS X-Ray](https://aws.amazon.com/xray/) enabled or not.
+When opening an invocation belonging to a lambda that has X-Ray monitoring enabled it will fetch X-Ray data on-demand and show the results in an orderly fashion.
 
 <h2>
-  <span class="h2 underlined bold">Why to use?</span>
+  <span class="h2 underlined bold">What's the benefit?</span>
 </h2>
 
-X-Ray is a powerful tool that provides tracing data throughout the life of AWS invocation. With the help of X-ray its possible to track the full extent of invocation flow. 
+AWS X-Ray is a powerful tool that provides tracing data throughout the life of an AWS invocation. With the help of X-Ray it is possible to track the full extent of an invocation flow.
 
-It also can show you the duration metrics to different services, for example X-ray can show you exactly how long it took to read and write data to DynamoDB, or any other AWS service.
+It can also show you the duration metrics to different services. For example X-Ray can show you exactly how long it took to read and write data to DynamoDB, or any other AWS service.
 
-X-ray also supports custom traces, meaning data you want to manually track. Dashbird shows all this and gives you a really easy way to understand where time is lost and what actually failed.
+X-Ray also supports custom traces, meaning data you want to manually track. Dashbird shows all this and gives you a really easy way to **understand where time is lost and what actually failed.**

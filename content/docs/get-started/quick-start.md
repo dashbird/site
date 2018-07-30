@@ -25,21 +25,19 @@ aliases:
   <span class="h2 underlined bold">1. Sign up</span>
 </h2>
 
-Go to the register page and [create an account](/register/). No credit cards are required. Once you create an account and you're set to go.
+Go to the register page and <a href="/register/" target="_blank"><b>create an account</b></a>. No credit cards are required. Once you create an account and you're set to go.
 
-![register](/images/docs/dashbird-register.png)
-
-<br>
+<br />
 
 <h2>
   <span class="h2 underlined bold">2. Create a new <b>AWS IAM Role</b> for Dashbird</span>
 </h2>
 
-After you sign up you'll be redirected to an onboarding screen where you need to add a **IAM Role ARN**. Lucky for you, our devs have created a CloudFormation stack that makes it stupidly easy to create the IAM Role.
+After you sign up you'll be redirected to an onboarding screen where you need to add an **IAM Role ARN**. Lucky for you, our devs have created a CloudFormation stack that makes it incredibly easy to create the IAM Role.
 
 ![onboarding](/images/docs/onboarding.png)
 
-Click on the `create a new CloudFormation stack` link and follow along with the steps. 
+Click on the `create new CloudFormation stack` link and follow along with the steps below.
 
 ![select template](/images/docs/select-template.png)
 
@@ -57,11 +55,9 @@ Well, that was simple.
   <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
 </h2>
 
-All you need to do is **paste the Role ARN** you copied above, press the **All set** button, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you are redirected to the app. Logs will start piling in within a minute.
+All you need to do is **paste the Role ARN** you copied above, press the **All set** button, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you'll be redirected to the app. **Logs will start piling in within a minute.**
 
 ![finished onboarding](/images/docs/finish-onboarding.png)
-
-**It should take approximately 3-4 minutes for the data to start coming in.**
 
 ---
 
