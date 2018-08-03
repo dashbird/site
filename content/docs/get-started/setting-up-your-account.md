@@ -1,7 +1,7 @@
 ---
 date: 2017-06-05
-title: Dashbird Account Setup In 2 Minutes
-linktitle: Setting up your account
+title: Basics of using Dashbird
+linktitle: Basics of using Dashbird
 description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented. 
 kbSeries: ["BGet Started"]
 kbSeries_weight: 200
