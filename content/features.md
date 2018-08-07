@@ -4,22 +4,13 @@ description: Track your serverless system performance, memory usage and AWS cost
 thumbnail: "/images/screens/twitter.png"
 date: 2017-11-06T10:50:03+02:00
 ---
-
 <script>
   document
     .querySelector('#navigation ul li.nav-item.product')
     .classList
     .add('active')
 </script>
-
-<script>
-  fbq('track', 'ViewContent', {
-    content_ids: 'features',
-  });
-</script>
-
-
-<div class='container-fluid text-white p-0 blog-slider mb-30' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/blog/2018-07-25/pexels-photo-1040489.jpeg"); background-size: cover; position: relative;'>
+<div class='container-fluid text-white p-0 blog-slider mb-30' style='background-image: url("/images/features/img-hero-features-fade.jpg"); background-size: cover; position: relative;'>
   <section class="container" style='height: 100%; position: relative;'>
     <div class="row h-100">
       <div class="col-12 col-md-8 left px-xs-2 pt-xs-10 pt-sm-5 justify-content position-static header-feat-wrap">
@@ -56,7 +47,6 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </section>
 </div>
-
 <section class="container dark-bg">
   <div class="row">
     <div class="col text-center pb-5 pb-md-10">
@@ -65,12 +55,12 @@ date: 2017-11-06T10:50:03+02:00
   </div>
   <dl class="smart-tabs">
     <dt class="col-12 col-md-6">
-      <a class="" href="#">
+      <a class="" href="#test">
         <span class="tabs-title">Real-time Insights</span>
         <span class="tabs-description sf-ui-text">See instant metrics regarding errors, invocations, duration, memory usage, and code execution. Get the observability you need to troubleshoot and analyze invocations with log and runtime data.</span>
       </a>
     </dt>
-    <dd class="col-12 col-md-6">
+    <dd class="col-12 col-md-6 current">
       <img src="/images/features/real-time-insights@2x.png">
     </dd>
     <dt class="col-12 col-md-6">
@@ -102,7 +92,6 @@ date: 2017-11-06T10:50:03+02:00
     </dd>
   </dl>
 </section>
-
 <section class="container dark-bg">
   <div class="row">
     <div class="col text-center py-5 py-md-10">
@@ -158,7 +147,6 @@ date: 2017-11-06T10:50:03+02:00
     </dd>
   </dl>
 </section>
-
 <section class="container dark-bg pb-10 pb-md-40">
   <div class="row">
     <div class="col text-center py-5 py-md-10">
@@ -196,8 +184,6 @@ date: 2017-11-06T10:50:03+02:00
     </dd>
   </dl>
 </section>
-
-
 <section class="container-fluid py-8 py-md-10 freetrial" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6);'>
     <div class="row justify-content-center">
       <div class="col-12 col-lg-8 center p-2 cta-black bg-cta text-center">
@@ -210,7 +196,6 @@ date: 2017-11-06T10:50:03+02:00
       </div>
     </div>
 </section>
-
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
     <div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
@@ -227,7 +212,6 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </div>
 </section>
-
 <section class="container dark-bg py-10">
   <div class="row">
     <div class="col text-center pb-6">
@@ -303,3 +287,8 @@ date: 2017-11-06T10:50:03+02:00
       </div>
     </div>
 </section>
+<script>
+  fbq('track', 'ViewContent', {
+    content_ids: 'features',
+  });
+</script>
