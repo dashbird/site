@@ -48,4 +48,4 @@ Lets imagine that you only want to monitor productions Lambda functions and your
 
 ## Conclusion
 
-Since you can add as many filters as you like, you can specify rules that follow your preferences to the letter. If you have a complex use case for filtering, feel free to contact support from the chat bubble or write at <a href='mailto:support@dashbird.io'support@dashbird.io</a>.
+Since you can add as many filters as you like, you can specify rules that follow your preferences to the letter. If you have a complex use case for filtering, feel free to contact support from the chat bubble or write at <a href='mailto:support@dashbird.io'>support@dashbird.io</a>.
