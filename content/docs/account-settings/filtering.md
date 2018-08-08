@@ -17,15 +17,15 @@ Note that filtering Lambda functions should only be use when you wish to:
 
 **NB! Dashbird does not backfill data when filters are edited. You will only have data after the moment a filter was added.**
 
-**NB! Filters can take up to 10 minutes to activate, depending on the event cycle of an Lambda under your AWS account.**
+**NB! Filters can take up to 10 minutes to activate.**
 
-**NB! Filters can be changed an unlimited amount of time.**
+**NB! Filters can be changed unlimited times.**
 
 ## Basics of importer configuration
 
- * Find the importer settings view by clicking on your organization name and selecting "Importer settings" or by going <a href='https://app.dashbird.io/client' target='_blank'>https://app.dashbird.io/client</a>.
+ * Access the importer settings view by clicking on your organization name and selecting "Importer settings" or by going to <a href='https://app.dashbird.io/client' target='_blank'>https://app.dashbird.io/client</a>.
 
- * Filters consist of <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>, meaning you can use wildcard to select a subset of your lambda functions.
+ * Filters consist of <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>, meaning you can use wildcards to define a subset of your lambda functions.
 
 ## Examples
 
