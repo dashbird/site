@@ -9,130 +9,236 @@ date: 2018-07-17T17:50:03+02:00
     .querySelector('#navigation ul li.nav-item.pricing')
     .classList
     .add('active')
+
 </script>
 
-<section class="container-fluid dark-bg">
+<section class="container-fluid dark-bg" >
+
   <div class="row">
-    <div class="col text-center mt-5 mb-5">
-      <h1>Pay for how much you use! </h1>
-      <p class="h4 mt-4 mb-5 lato">First 14 days are free</p>
-      <div class="toggle lato text-white d-inline">
-        <span class="d-inline-block"><i class="fa fa-check text-green mr-2"></i>MONTHLY</span>
-        <span class="active d-inline-block">ANNUAL<i class="fa fa-check text-green ml-2"></i></span>
-      </div>
+    <div class="col text-center mt-5 mb-3">
+      <h1>Pricing</h1>
+      <p class="h5 mt-3 mb-5 lato">Find a plan that fits your team or <a href='/contact-sales'>contact us</a> to customize</p>
     </div>
   </div>
 
-  <div class="row justify-content-md-center align-items-center mt-3">  
-    <div class="col-sm-12 col-md-10">
+  <div class="row justify-content-md-center align-items-center">  
+    <div class="col-sm-12 col-md-10 mb-5">
       <div class="row">
-        <div class="col mw-250">
+        <div class="col mw-250 mt-4">
           <div class="pricing-box bg-white top-gray text-center p-4">
-            <h4 class="mt-2 mb-3">Developer</h4>
-            <span class="h1 lato mt-5 mb-5" id="basic">$24</span>
-            <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">5 GB</p>
-            <p class="lato m-0 p-0 h6">per month</p>
-            <hr />
-            <p class="lato h6">&nbsp;</p>
-            <p class="lato h6">&nbsp;</p>
-           </div>
+            <h4 class="mt-2 mb-3">FREE</h4>
+            <p class="lato h4 mt-5 mb-5">1 GB / month</p>
+         </div>
+        <div class='text-center pt-3' style='background-color:#e4e7ea'>
+          <a class="btn cta-btn cta-secondary" role="button" href='/register' target='_blank'>GET STARTED FOR FREE</a>
+          <ul class='pricing-features mt-3 pb-3'>
+            <li>Failure detection & alerting</li>
+            <li>Account and function metrics</li>
+            <li>Invocation history</li>
+            <li>X-ray tracing</li>
+            <li>7-day data retention</li>
+          </ul>
+        </div>
+
         </div>
         <div class="col mw-250">
-          <div class="pricing-box bg-white top-yellow text-center p-4">
-            <h4 class="mt-2 mb-3">Startup</h4>
-            <span class="h1 lato mt-5 mb-5" id="startup">$99</span>
-            <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">25 GB</p>
-            <p class="lato m-0 p-0 h6">per month</p>
-            <hr />
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
-         </div>
+          <div class="pricing-box bg-white top-yellow text-center pt-4 pl-4 pr-4 pb-1">
+            <h4 class="mt-2 mb-4">PROFESSIONAL</h4>
+            
+            <div class='row' id='custom' style='display:none'>
+              <div class='col'>
+                <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+              </div>
+            </div>
+
+            <div id='priced'>
+              <div class='row' >
+                <div class='col'>
+                  <span class="h1 lato">$<span id='annual-cost'>24</span></span>
+                </div>
+                <div class='col'>
+                  <span class="h1 lato"><span id='volume'>5</span>GB</span>
+                </div>
+              </div>
+              <p class="lato text-center text-secondary mt-2 small">per month, paid annually or $<span id='monthly-cost'>29</span> monthly</p>
+            </div>
+            <select class='custom-select mb-3 mt-3' id='price-selector'>
+              <option value='24'>$24 - 5GB</option>
+              <option value='99'>$99 - 25GB</option>
+              <option value='299'>$299 - 100GB</option>
+              <option value='595'>$595 - 200GB</option>
+              <option value='990'>$990 - 300GB</option>
+              <option value='custom'>More than 300GB</option>
+            </select>
+            <p class="lato text-center text-secondary small">VAT not included for EU customers</p>
+          </div>
+
+          <div class='text-center pt-3' style='background-color:#e4e7ea'>
+            <a class="btn cta-btn cta-pink" role="button" href='/register' target='_blank'>START YOUR 14 DAY FREE TRIAL</a>
+            <p class="lato text-center text-secondary small">no credit card required</p>
+          <ul class='pricing-features pb-3'>
+              <li>Live tailing</li>
+              <li>Full-text search</li>
+              <li>30-day data retention</li>
+              <li>Technical support</li>
+            </ul>
+          </div>
         </div>
-       <div class="col mw-250">
-          <div class="pricing-box bg-white top-green text-center p-4">
-            <h4 class="mt-2 mb-3">Pro</h4>
-            <span class="h1 lato mt-5 mb-5" id="pro">$299</span>
-            <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">200 GB</p>
-            <p class="lato m-0 p-0 h6">per month</p>
-            <hr />
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
-         </div>
-        </div>
+
         <div class="col mw-250">
-          <div class="pricing-box bg-white top-black text-center p-4">
-            <h4 class="mt-2 mb-3">Business</h4>
-            <span class="h1 lato mt-5 mb-5" id="enterprise">$599</span>
-            <p class="small gray condition pt-3">per month / billed yearly</p>
-            <p class="lato h6">500 GB</p>
-            <p class="lato m-0 p-0 h6">per month</p>
-            <hr />
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Log search</p>
-            <p class="lato h6"><span class='text-success pr-2'>+</span> Webhooks</p>
+          <div class="pricing-box bg-white top-black text-center p-4 mt-4">
+            <h4 class="mt-2 mb-3">ENTERPRISE</h4>
+            <p class="lato mt-5 mb-5" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
+          </div>
+          <div class='text-center pt-3' style='background-color:#e4e7ea'>
+            <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+            <ul class='pricing-features mt-3 pb-3'>
+              <li>Enterprise level scale</li>
+              <li>Custom, multi-year data retention</li>
+              <li>Training and onboarding</li>
+              <li>SLA-s</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="row justify-content-md-center align-items-center mt-3">  
-    <div class="col-sm-12 col-md-10">
-      <div class="row">
-        <div class="col">
-          <div class="pricing-box bg-white top-black text-center p-4">
-            <h4 class="mt-2 mb-3">Enterprise</h4>
-            <span>Custom volume pricing, SLAs, priority support and training.</span>
-            <p class='mt-3'><a href='mailto:sales@dashbird.io' class='btn btn-primary'>Contact us</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="row justify-content-md-center">
-    <div class="col justify-content-md-center text-center cta-blue bg-cta br-7 mb-3 mt-5 pt-5 pb-3 mx-auto" style="max-width: 832px;" >
-      <span class="h1 pt-5">No code changes, no re-deploys.</span>
-      <h3 class="mt-3">See the value of Dashbird in only 2 minutes!</h3>
-      <div class="row justify-content-md-center">
-        <div class="pt-5 pr-5 col-lg-9 mx-auto">
-          <form name="trial-form">
-            <label class="input-group">
-              <input type="email" class="form-control cta-input" placeholder='Email' name='email' required>
-              <button class="input-group-addon cta-pink cta-btn" type="submit">Start Free Trial</button>
-            </label>
-          </form>
-          <p class="text-center small">No credit card required</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <div class="row">
-      <div class="col-md-9 mb-4 m-auto">
-        <p class="lato h5 p-5">The prices above don't include VAT. VAT will be added to the plan price for people and companies operating inside the European Union who don't have a valid VAT ID provided for their accounts.</a></p>
-      </div>
-    </div>
-
+<section class="container-fluid blue-bg" >
     <div class="row">
-      <div class="col-md-9 pb-5 m-auto">
-      <h3 class='text-center mb-5 mt-4'>Frequently Asked Questions</h3>
+      <div class="col-md-8 pb-5 m-auto">
+      <h3 class='text-center mb-5' style='margin-top: 80px;'>Frequently Asked Questions</h3>
 
-      <ul>
-        <li class='mb-3'><b>How do I know how many GB I'm using and what plan to choose?</b> - Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.</li>
-        <li class='mb-3'><b>What features do I get to use during the free trial?</b> - All of them!</li>
-        <li class='mb-3'><b>What happens when I have to upgrade in the middle of the pricing cycle?</b> - Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.</li>
-        <li class='mb-3'><b>Do you offer refunds?</b> - No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period. </li>
-        <li class='mb-3'><b>Do you offer any discounts?</b> - You will get 10% discount on all plans when you sign up for an annual subscription. </li>
-      </ul>
+      <div class='accordion' id='faqs'>
+        <div class='card'>
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How do I know how many GB I'm using and what plan to choose?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.
+            </div>
+          </div>
+        </div>
+
+        <div class='card'>
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                What features do I get to use during the free trial?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            All of them!
+            </div>
+          </div>
+        </div>
+
+        <div class='card'>
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+               How much data volume do I get allocated during my 14 day trial? 
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
+            <div class="card-body">
+            The default data volume setting during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, you can always contact the sales team to cater a greater data volume need for your trial.
+            </div>
+          </div>
+        </div>
+
+
+        <div class='card'>
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                What happens when I have to upgrade in the middle of the pricing cycle?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.
+            </div>
+          </div>
+        </div>
+
+        <div class='card'>
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                Do you offer refunds?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period.
+            </div>
+          </div>
+        </div>
+
+        <div class='card'>
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                Do you offer any discounts?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+              You will get 10% discount on all plans when you sign up for an annual subscription.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
+</section>
 
+<section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
+        <span class="h3 roboto-mono mt-5 mb-4 d-block">Over 700 companies trust Dashbird!</span>
+        <p class="mt-3 lh-3 d-block">Save development time and money. Get full visibility into serverless in 2-minutes.</p>
+        <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
+            <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
+            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
+        </form>
+      </div>
+    </div>
+</section>
+
+<section class="container-fluid dark-bg">
+  <div class="row justify-content-center">
+    <div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
+        <span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
+      <div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
+        <div class='col-12 languages-icons '>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <script>

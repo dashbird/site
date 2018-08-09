@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Quick Start Tutorial For Dashbird Serverless Monitoring
-linktitle: Quick start
-description: Quick start
+title: Step by step tutorial for Dashbird integration
+linktitle: Setting up Dashbird
+description: Setting up Dashbird
 kbSeries: ["BGet Started"]
 kbSeries_weight: 100
 aliases:
@@ -12,53 +12,49 @@ aliases:
  - /help/basic/get-started
 ---
 
-<h2>
-  <span class="h2 underlined bold">Requirements for setting up Dashbird</span>
-</h2>
 
-##### **To set up Dashbird you need to have the following:**
-- **Administrator access to your AWS account**
+This is a step-by-step tutorial for setting up Dashbird for your AWS account.
 
-<br>
+### Register your account
 
-<h2>
-  <span class="h2 underlined bold">1. Sign up</span>
-</h2>
+If you haven't already, start by filling out the [registration form](/register). In case you've already done that plese <a href='https://app.dashbird.io/auth/login' target='_blank'>sign in here</a> and continue to the next step.
 
-Go to the register page and <a href="/register/" target="_blank"><b>create an account</b></a>. No credit cards are required. Once you create an account and you're set to go.
-
-<br />
-
-<h2>
-  <span class="h2 underlined bold">2. Create a new <b>AWS IAM Role</b> for Dashbird</span>
-</h2>
-
-After you sign up you'll be redirected to an onboarding screen where you need to add an **IAM Role ARN**. Lucky for you, our devs have created a CloudFormation stack that makes it incredibly easy to create the IAM Role.
+### Deploy Dashbird's client-side code to your AWS account
 
 ![onboarding](/images/docs/onboarding.png)
 
-Click on the `create new CloudFormation stack` link and follow along with the steps below.
+*Dashbird works by collecting logs, metrics and listing resources under your AWS account. To do that, we need limited access to your account. After completing the registration form a custom CloudFormation template is generated for you. For details of what this template contains, check out this <a href='https://github.com/dashbird/client-side' target='_blank'>open-source code repository</a>.*
 
-![select template](/images/docs/select-template.png)
 
-Everything you need to do is just keep on pressing next until you reach a checkbox named **I Acknowledge that AWS CloudFormation might create IAM resources box**. Check it and create the stack.
+#### Steps
 
+- **Make sure you are logged into your AWS account**
+- Click `create a new CloudFormation stack` on the onboarding screen
+- *AWS console opens with a pre-filled S3 template URL* (currently must be created to `us-east-1`)
+- Click **Next** on the Select template page 
+- Insert stack name (e.g. `dashbird-connector`)
+- Click **Next** on the Specify details page
+- Mark as checked: **I Acknowledge that AWS CloudFormation might create IAM resources box**
 ![tick the checkbox](/images/docs/checkbox.png)
+- Click **Create**
 
-Once the CloudFormation stack is created you'll see it in the console. Here you'll just copy the ARN of the **DashbirdIntegrationRole**.
+*It can take a few minutes until the stack creation completes.*
+
+### Reference Role back to Dashbird
+
+- Once it's finished, open the stack from the list and scroll down to the Outputs section.
 
 ![cloudformation](/images/docs/cloudformation.png)
 
-Well, that was simple.
-
-<h2>
-  <span class="h2 underlined bold">3. Setup Dashbird with the created role</span>
-</h2>
-
-All you need to do is **paste the Role ARN** you copied above, press the **All set** button, and you're ready to go. Dashbird will check if it has access to your AWS account. If everything is set up correctly, you'll be redirected to the app. **Logs will start piling in within a minute.**
+- Copy the Value field of `DashbirdIntegrationRole` and copy it to the onboarding screen.
 
 ![finished onboarding](/images/docs/finish-onboarding.png)
 
----
+- Click **All set**
+- If everything is valid your account will activate.
 
+
+**It can take up to 3-4 minutes for data to start appearing.**
+
+---
 Learn more about account configuration by checking out the [next section](/docs/get-started/setting-up-your-account/), or take a look at the [account overview](/docs/account-settings/overview/) for a complete guide.

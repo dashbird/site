@@ -117,4 +117,28 @@ things Serverless, we want to make functions better for everybody.</p>
       </div>
     </div>
   </div>
+
+  <div class="row justify-content-md-center align-items-center mt-5">
+    <div class="col-md-9 mb-5">
+      <div class="row">
+
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-md-none">
+          <img src="/images/team/john.jpg" class="img-green-border">
+          <img src="/images/pattern-green.svg" class="pattern-green">
+        </div>
+
+        <div class="col-md-6 bg-md-white team-text pt-5">
+          <h1>John Demian</h1>
+          <span class="text-muted">SEO MANAGER / MARKETING</span>
+          <p class="lato h4 mt-4">John has previously worked as a front-end developer and is now an SEO mastermind casting spells towards Google.</p>
+          <p class="lato h4 pt-4">We suspect he has uploaded his consciousness into the internet and has full awareness of all things.</p>
+        </div>
+
+        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block">
+          <img src="/images/team/john.jpg" class="img-green-border">
+          <img src="/images/pattern-green.svg" class="pattern-green">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
