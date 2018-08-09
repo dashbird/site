@@ -200,7 +200,7 @@ dated: 2017-10-29T17:50:03+02:00
 <section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
-        <span class="h3 roboto-mono mt-5 mb-4 d-block">Start your free 14-day trial!</span>
+        <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
         <p class="mt-3 lh-3 d-block">Save development time and money. Get your lambda performance analytics set up in 2-minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
