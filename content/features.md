@@ -125,7 +125,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/lambdas-view.png">
+        <img src="/images/features/project-overview.png">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
