@@ -1625,11 +1625,6 @@ p.justify-content-center {
     display: block;
   }
 
-  .smart-tabs dd.current{
-    /*display: block;*/
-    visibility: visible;
-    opacity: 1;
-  }
 
   .smart-tabs dt{
     width: 100%;
@@ -1922,19 +1917,26 @@ p.justify-content-center {
   right: 0;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 1s, opacity 1s linear;
 }
+
+
+  .smart-tabs dd.current{
+    /*display: block;*/
+    visibility: visible;
+    opacity: 1;
+  }
 
 .smart-tabs dt{
   width: 100%;
 }
 .smart-tabs dt a{
-    background-color: #fff;
-    list-style: none;
-    border-radius: 4px;
-    border-left: 4px solid #4B45C6;
-    margin-bottom: 12px;
-    /*width: 100%;*/
+  background-color: #fff;
+  list-style: none;
+  border-radius: 4px;
+  border-left: 4px solid #4B45C6;
+  margin-bottom: 12px;
+  /*width: 100%;*/
   opacity: 0.6;
   display: inline-block;
   width: 100%;
