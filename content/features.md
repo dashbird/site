@@ -238,7 +238,7 @@ date: 2017-11-06T10:50:03+02:00
 <section class="container dark-bg py-10">
   <div class="row">
     <div class="col text-center pb-6">
-      <span class="h2 underlined roboto-mono">Killer features</span>
+      <span class="h2 underlined roboto-mono">More features</span>
     </div>
   </div>
   <div class="row">
