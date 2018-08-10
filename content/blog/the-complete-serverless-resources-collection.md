@@ -56,6 +56,8 @@ Below you'll find a list of tutorials meant for the newcomers. The ones looking 
 
 12. [How to Build Your First Serverless Website♡Aws](https://dev.to/saigowthamr/how-to-build-your-first-serverless-webpage-using-aws-lambda-31de) 
 
+13. [A Comprehensive Guide to Serverless Architecture](https://www.simform.com/serverless-architecture-guide/) 
+
 
 ## 2. Serverless Privacy and Security  ##
 
@@ -65,7 +67,7 @@ Security and privacy has always been a concern to site owners, regardless of the
 
 2. [Serverless security risks, and where to find them](https://hackernoon.com/fantastic-serverless-security-risks-and-where-to-find-them-737d2206545a)
 
-2. [Managing secrets, API keys and more with Serverless](
+3. [Managing secrets, API keys and more with Serverless](
 https://serverless.com/blog/serverless-secrets-api-keys/)
 
 
@@ -82,6 +84,8 @@ Once you get familiarised with serverless you'll find yourself wanting more. Bel
 4. [Deploy AWS Lambda functions with aws-sam-cli and Travis-CI](https://dev.to/codevbus/deploy-aws-lambda-functions-with-aws-sam-cli-and-travis-ci-3m9m) 
 
 5. [Creating Serverless Functions with Python and AWS Lambda](https://dev.to/dangolant/creating-serverless-functions-with-python-and-aws-lambda-dli) 
+
+6. [How to Build an E-commerce App using Serverless?](https://www.simform.com/ecommerce-app-using-serverless/) 
 
 
 ## 4. Serverless tools ##
