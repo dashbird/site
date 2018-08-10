@@ -75,7 +75,15 @@ $(document).ready(function () {
     }
   })
 
+  $('.smart-tabs a').click(function(event){
+      $(this).closest('.smart-tabs').find('dt').removeClass('current'),
+      $(this).closest('.smart-tabs').find('dd').removeClass('current'),
+      $(this).parent().addClass('current');
+      $(this).parent().parent().find('dd').addClass('current');
+      return false;
+    });
   if ($(window).width() > 767) {
     $('#carousel-example-multi').carousel({ interval: 4000 })
+    
   }
 })
