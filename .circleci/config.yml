@@ -17,6 +17,7 @@ post_build: &post_build
     find public -type f -name '*.jpg' -exec jpegoptim {} \;
     find public -type f -name '*.png' -exec optipng {} \;
     ./compile.sh
+    ./create_checksum.sh
   no_output_timeout: 30m
 
 workflows:
