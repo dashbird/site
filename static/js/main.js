@@ -31,7 +31,7 @@ $(document).ready(function () {
     $(this).css('margin-right', margin)
   })
 
-  var prices = { 
+  var prices = {
     24: { annual: 24, monthly: 29, volume: 5 },
     99: { annual: 99, monthly: 115, volume: 25 },
     299: { annual: 299, monthly: 350, volume: 100 },
@@ -40,7 +40,7 @@ $(document).ready(function () {
   }
 
   $('#custom').hide()
-  $('#price-selector').on('change', function(e){
+  $('#price-selector').on('change', function (e) {
     var selectedValue = $(this).val()
     if (selectedValue === 'custom') {
       $('#custom').show()
@@ -49,14 +49,13 @@ $(document).ready(function () {
       $('#custom').hide()
       $('#priced').show()
       var priceLevel = prices[selectedValue]
-      $("#annual-cost").html(priceLevel.annual)
-      $("#monthly-cost").html(priceLevel.monthly)
-      $("#volume").html(priceLevel.volume)
+      $('#annual-cost').html(priceLevel.annual)
+      $('#monthly-cost').html(priceLevel.monthly)
+      $('#volume').html(priceLevel.volume)
     }
   })
 
-
-  //Allows bootstrap carousels to display 3 items per page rather than just one
+  // Allows bootstrap carousels to display 3 items per page rather than just one
   $('#carousel-example-multi').on('slide.bs.carousel', (e) => {
     const $e = $(e.relatedTarget)
     const idx = $e.index()
@@ -75,15 +74,15 @@ $(document).ready(function () {
     }
   })
 
-  $('.smart-tabs a').click(function(event){
-      $(this).closest('.smart-tabs').find('dt').removeClass('current'),
-      $(this).closest('.smart-tabs').find('dd').removeClass('current'),
-      $(this).parent().addClass('current');
-      $(this).parent().parent().find('dd').addClass('current');
-      return false;
-    });
+  $('.smart-tabs a').click(function (event) {
+    $(this).closest('.smart-tabs').find('dt').removeClass('current')
+    $(this).closest('.smart-tabs').find('dd').removeClass('current')
+    $(this).parent().addClass('current')
+    $(this).parent().parent().find('dd').addClass('current')
+    return false
+  })
+
   if ($(window).width() > 767) {
     $('#carousel-example-multi').carousel({ interval: 4000 })
-    
   }
 })
