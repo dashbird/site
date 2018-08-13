@@ -48,9 +48,8 @@ If you haven't already, start by filling out the [registration form](/register).
 
 - Copy the Value field of `DashbirdIntegrationRole` and copy it to the onboarding screen.
 
-![finished onboarding](/images/docs/finish-onboarding.png)
 
-- Click **All set**
+- Click **Finish**
 - If everything is valid your account will activate.
 
 

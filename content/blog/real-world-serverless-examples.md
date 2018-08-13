@@ -1,5 +1,5 @@
 ---
-title: Your Quick Guide to Real-World Serverless Examples
+title: Real-World Serverless Examples
 description: Interested in serverless architectures? If you're looking to know more about serverless examples, you've come to the right place. We've compiled the best real-world examples here for you to explore.
 date: 2018-08-07
 frontImage: "2018-08-07/pexels-photo-595804.jpeg"
