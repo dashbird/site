@@ -18,9 +18,9 @@ A good thing with AWS Lambda prices is that you will only pay for what you use. 
 
 AWS Lambda is charging its users by the number of requests for their functions and by the duration, which is the time the code needs to execute. When code starts running in response to an event, [AWS Lambda](https://aws.amazon.com/lambda/) counts a request. It will charge the total number of requests across all of the functions used. Duration is calculated by the time when your code started executing until it returns or until it is terminated, rounded up near to 100ms. The AWS Lambda pricing depends on the amount of memory that the user used to allocate to the function.
 
-### AWS Lambda Pricing Details And Tiers Explained
+### AWS Lambda Pricing Model Explained
 
-AWS Lambda offers [three different tiers](https://aws.amazon.com/lambda/pricing/) to choose from. The **Free Tier** includes 1 million requests per month, and 400,000 GB-seconds of compute time on a monthly basis. The Lambda Free Tier doesn’t expire automatically at the end of the annual AWS Free Tier term. It is available indefinitely to both existing and new AWS customers. 
+The **Free Tier** includes 1 million requests per month, and 400,000 GB-seconds of compute time on a monthly basis. The Lambda Free Tier doesn’t expire automatically at the end of the annual AWS Free Tier term. It is available indefinitely to both existing and new AWS customers. 
 
 In the upcoming example, we’ll show you some of the approximate prices per 100ms associated with different memory sizes in the free tier seconds. The lowest example would be to allocate 128 MB of memory within the limit of 3.2 million seconds per month. The price per 100ms would be $US 0.000000208. 
 
@@ -52,7 +52,9 @@ The AWS Lambda pricing example will be presented in this section made by the AWS
 
 Let say, if you allocated **512 MB of memory** to your function and executed it **3 million times** during one months time. Considering that it ran for 1 second each time, you’d be billed upon monthly compute time (in this case = $18.34) and by monthly requests (in this case = $0.40). Therefore, the **total billed sum would be $18.74 per month**.
 
-Knowing what you need and how much it might cost are the first steps to fulfilling your ideas and bring them to life successfully. 
+That being said, [AWS Lambda is amazing for cutting costs](https://dashbird.io/blog/serverless-survey-results-benefits/) and we've had plenty of examples where companies have managed to save up big by switching to Serverless. [Coca-Cola North America](https://dashbird.io/blog/serverless-case-study-coca-cola/) has seen a lot of benefit from going serverless on their vending machines division so much so that they've made serverless a requirement for their development division. 
+
+Knowing what you need and how much it might cost are the first steps to fulfilling your ideas and bring them to life. 
 
 _Let us know if there is something you wish to discuss this topic or if you have an opinion you want to share. Be free to leave a comment in the section below._
 
