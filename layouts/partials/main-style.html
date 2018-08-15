@@ -18,6 +18,26 @@
     font-size: 1.1rem;
   }
 
+  blockquote {
+    font-style: italic;
+    background: #f9f9f9;
+    border-left: 5px solid #F4D1E2;
+    margin: 15px 0px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #F4D1E2;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
   .corner-btn {
     line-height: 65px;
     height: 65px;

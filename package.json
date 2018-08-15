@@ -11,7 +11,7 @@
     "build": "hugo",
     "compile": "./compile.sh",
     "checksum": "./create_checksum.sh",
-    "lint": "$(npm bin)/standard",
+    "lint": "standard",
     "dev": "npm run lint && npm start",
     "prod": "rm -rf ./public && npm run build && npm run compile && npm run checksum && cd ./public && python -m SimpleHTTPServer",
     "prod-no-compile": "rm -rf ./public && npm run build && cd ./public && python -m SimpleHTTPServer"
