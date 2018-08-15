@@ -2,6 +2,8 @@
 title: Dashbird Signup - AWS Lambda Functions Monitoring Based On CloudWatch Logs
 description: Dashbird is a platform that makes sense of all parts of Serverless. We are small but we think big and our users love us. Join the team and build something awesome!
 date: 2018-06-17T11:50:03+02:00
+aliases:
+    - /signup/
 ---
 
 <script>
