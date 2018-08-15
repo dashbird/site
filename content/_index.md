@@ -1,6 +1,6 @@
 ---
-title: Dashbird - Visibility and Troubleshooting for Serverless Applications 
-description: Get instant overview of all your AWS Lambda functions and save money by optimizing your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
+title: Dashbird - Free Serverless Visibility & Debugging Tool
+description: Get instant overview of your whole serverless stack and save money by optimising your lambda functions. Health metrics on a powerful dashboard, error alerts through Slack and emails, tracing with AWS X-ray, API Gateway support, live tailing and much more. Sign up for  free!
 dated: 2017-10-29T17:50:03+02:00
 ---
 
@@ -12,7 +12,7 @@ dated: 2017-10-29T17:50:03+02:00
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Sign up for free</button>
         </form>
       </div>
     </div>
@@ -204,7 +204,7 @@ dated: 2017-10-29T17:50:03+02:00
         <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
             <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Sign up for free</button>
         </form>
       </div>
     </div>

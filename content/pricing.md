@@ -1,6 +1,6 @@
 ---
 title: Dashbird Pricing - Usage Based Serverless Observability Platform
-description: Dashbird subscriptions are priced by usage and measured in GB. The plans currently cover AWS Lambda, AWS X-Ray and API Gateway and offer wide range of monitoring, alerting and debugging features. Great value for money!
+description: Free and paid plans avaliable! Dashbird subscriptions are priced by usage and measured in GB. The plans currently cover AWS Lambda, AWS X-Ray and API Gateway and offer wide range of monitoring, alerting and debugging features. Great value for money!
 date: 2018-07-17T17:50:03+02:00
 ---
 
@@ -44,7 +44,7 @@ date: 2018-07-17T17:50:03+02:00
         <div class="col mw-250">
           <div class="pricing-box bg-white top-yellow text-center pt-4 pl-4 pr-4 pb-1">
             <h4 class="mt-2 mb-4">PROFESSIONAL</h4>
-            
+
             <div class='row' id='custom' style='display:none'>
               <div class='col'>
                 <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
@@ -146,7 +146,7 @@ date: 2018-07-17T17:50:03+02:00
           <div class="card-header" id="headingSix">
             <h5 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-               How much data volume do I get allocated during my 14 day trial? 
+               How much data volume do I get allocated during my 14 day trial?
               </button>
             </h5>
           </div>

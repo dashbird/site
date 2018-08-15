@@ -1,5 +1,5 @@
 ---
-title: Serverless Monitoring Platform With Slack Error Alerts - Dashbird
+title: Free Serverless Monitoring & Slack Error Alerts - Dashbird
 description: Monitor the performance and cost of your lambda functions and get instant error alerts through Slack. The integration can be set up in less than a minute.
 thumbnail: "images/twitter/slack-dashbird.jpg"
 dated: 2018-30-03T17:50:03+02:00
