@@ -45,9 +45,7 @@ The X-Ray SDK provides:
 - Client handlers to instrument AWS SDK clients that your application uses to call other AWS services
 - An HTTP client to use to instrument calls to other internal and external HTTP web services
 
-The peeps over at AWS said...
-
-> ...you can instrument your Lambda functions with the same methods that you use to instrument applications running on other services. The primary difference is that you don't use the SDK to instrument incoming requests, make sampling decisions, and create segments.
+> ...you can instrument your Lambda functions with the same methods that you use to instrument applications running on other services. The primary difference is that you don't use the SDK to instrument incoming requests, make sampling decisions, and create segments. - **AWS Documentation**
 
 <h2>
   <span class="h2 underlined bold">What's the benefit?</span>
@@ -62,6 +60,8 @@ Below you can see what it actually looks like in Dashbird.
 ![](/images/features/x-ray.png)
 
 X-Ray also supports custom traces, meaning data you want to manually track. Dashbird shows all this and gives you a really easy way to **understand where time is lost and what actually failed.**
+
+You can read our product update about how we added X-Ray support [here](/blog/tracing-lambda-functions-with-aws-x-ray/).
 
 ---
 
