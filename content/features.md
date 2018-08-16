@@ -1,7 +1,7 @@
 ---
 title: Dashbird Features - FaaS Performance Stats, Error Tracking & Alerts
-description: Track your serverless system performance, memory usage and AWS costs. Real-time function tracing and live tailing make troubleshooting your lambdas truly effortless. Dashbird also supports API Gateway and AWS X-Ray. 
-thumbnail: "/images/screens/twitter.png"
+description: Track your serverless system performance, memory usage and AWS costs. Real-time function tracing and live tailing make troubleshooting your lambdas truly effortless. Dashbird also supports API Gateway and AWS X-Ray.
+thumbnail: "/images/screens/lambda-cost.png"
 date: 2017-11-06T10:50:03+02:00
 ---
 <script>
