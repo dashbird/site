@@ -62,7 +62,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6 current">
-        <img src="/images/features/real-time-insights@2x.png">
+        <img src="/images/features/1a-real-time-insights@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -73,7 +73,7 @@ date: 2017-11-06T10:50:03+02:00
       </a>
     </dt>
     <dd class="col-12 col-md-6">
-      <img src="/images/features/error-tracking@2x.png">
+      <img src="/images/features/1b-error-tracking@2x.jpg">
     </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -84,7 +84,7 @@ date: 2017-11-06T10:50:03+02:00
       </a>
     </dt>
     <dd class="col-12 col-md-6">
-      <img src="/images/features/error-alerting@2x.png">
+      <img src="/images/features/1c-error-alerting@2x.jpg">
     </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -95,7 +95,7 @@ date: 2017-11-06T10:50:03+02:00
       </a>
     </dt>
     <dd class="col-12 col-md-6">
-      <img src="/images/features/seamless-tracing@2x.png">
+      <img src="/images/features/1d-seamless-tracing@2x.jpg">
     </dd>
   </dl>
 </section>
@@ -114,7 +114,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6 current">
-        <img src="/images/features/account-wide@2x.png">
+        <img src="/images/features/2a-account-wide@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -125,7 +125,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/project-overview.png">
+        <img src="/images/features/2b-microservices@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -136,7 +136,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/lambdas-view.png">
+        <img src="/images/features/2c-all-functions@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -147,7 +147,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/function-monitoring.png">
+        <img src="/images/features/2d-per-function@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -158,8 +158,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/invocations@2x.png">
-        </ul>
+      <img src="/images/features/2e-invocations@2x.jpg">
       </dd>
     </div>
   </dl>
@@ -180,7 +179,7 @@ date: 2017-11-06T10:50:03+02:00
         </a>
       </dt>
       <dd class="col-12 col-md-6 current">
-        <img src="/images/features/stack-traces@2x.png">
+        <img src="/images/features/3a-stack-traces@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -191,7 +190,7 @@ date: 2017-11-06T10:50:03+02:00
             </a>
       </dt>
       <dd class="col-12 col-md-6">
-            <img src="/images/features/live-tailing@2x.png">
+            <img src="/images/features/3b-live-tailing@2x.jpg">
       </dd>
     </div>
     <div class="feat-item mb-5 mb-md-0">
@@ -202,7 +201,7 @@ date: 2017-11-06T10:50:03+02:00
             </a>
       </dt>
       <dd class="col-12 col-md-6">
-        <img src="/images/features/log-search@2x.png">
+        <img src="/images/features/3d-log-search@2x.jpg">
       </dd>
     </div>
   </dl>
