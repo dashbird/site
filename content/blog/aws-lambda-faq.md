@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-08-12/pexels-photo-767197.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-blog: ["Amazon", "Lambda"]
+blog: ["AWS", "Lambda", "FAQ"]
 ---
 
 <p><p>Have you heard about AWS Lambda, the new computing system that offers you a variety of benefits like real-time data processing and custom back-end service? Wish you knew the ins-and-outs of this system so you could decide if it's the right fit for you?</p>
