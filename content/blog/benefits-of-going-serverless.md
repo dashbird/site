@@ -8,6 +8,7 @@ authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
 category: ["Learn", "Serverless"]
+blog: ["Serverless", "AWS", "Lambda"]
 ---
 
 There has been so much stuff written online about serverless that you are probably already sick of reading about it by now. I mean, it's a great technology but is it deserving of all the buzzing going around the tech industry? Traditional servers have been around for years and you know what, they will continue to play an incremental role in the development of thousands and thousands of apps and website in the future.
@@ -28,7 +29,7 @@ Yes, there are other aspects of serverless that draw people in but the speed at 
 
 Once you signup for a provider, the time it takes to launch your product depends largely on the complexity of your application, all the other aspects are being dealt with by the amazingly simple to operate, services offered by companies like Amazon, Microsoft, IBM, Google, etc. Take for (a juvenile) example creating a contact form that works on Lambda. The whole process takes under 15 minutes. Read about it [here](https://dev.to/adnanrahic/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses-4jm0).
 
-<h3>Graceful sacleing</h3>
+<h3>Graceful scaling</h3>
 Ah, the scaling subject again. That ever important yet somehow the one thing that so many developers fail to take in account when building an application. They expect a certain number of users at the peak and event make sure the service works with more people than that but as most painfully find out, that's not how the internet works. You can't predict the shifting patterns of organic reach, social media virality or the popularity of the app or site that is using your service. 
 
 ![app scaling issues](/images/blog/2018-08-14/user-expectation.jpg)
