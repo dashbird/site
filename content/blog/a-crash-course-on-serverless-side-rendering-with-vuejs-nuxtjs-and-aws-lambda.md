@@ -1,7 +1,7 @@
 ---
 title: A crash course on serverless-side rendering with Vue.js, Nuxt.js and AWS Lambda
 description: We want the best of both worlds. The SEO boost server-side rendering provides, and the speed of a Single Page Application. All this while hosted basically for free in a serverless environment on AWS Lambda.
-date: 2018-08-21T16:00:00.000Z
+date: 2018-08-21T00:00:00.000Z
 frontImage: "2018-08-20/heading.jpg"
 thumbnail: "images/blog/2018-08-20/heading.jpg"
 authorlink: 'https://medium.com/@adnanrahic'
