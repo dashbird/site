@@ -41,7 +41,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row justify-content-center pb-5">
     <div class='col-auto m-2 m-md-5'>
       <span class='h1 d-block text-center'>+77%</span>
-      <span class='mx-auto text-light-gray'>deliver speed</span>
+      <span class='mx-auto text-light-gray'>delivery speed</span>
     </div>
 
     <div class='col-auto m-2 m-md-5'>
