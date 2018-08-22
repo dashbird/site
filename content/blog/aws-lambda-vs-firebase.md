@@ -49,3 +49,7 @@ The question of choosing AWS or Firebase is a loaded one. It really comes down t
 If your situation calls for a more mature service that has an entire suite of services at your beck and call, AWS should be in your sights.
 
 If you're a newer team that's prepping to set things up quickly, Firebase could serve you well. Regardless, you'll need to <a href="http://dashbird.io">monitor your serverless setup</a>. That's where we come in. If you're going to choose AWS, we're here to make sure you're running smoothly.
+
+___
+
+_We aim to improve [Dashbird](https://dashbird.io/features/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about these improvements and new features! We would really appreciate it!_

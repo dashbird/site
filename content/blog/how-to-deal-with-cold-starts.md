@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-08-17/photo-1512422011530-b28e36ff5996.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-blog: ["Firebase", "Lambda"]
+blog: ["AWS", "Lambda", "Cold-Start"]
 ---
 
 Before I jump in I'd like to take a step back to provide a better frame of reference for our fellow developers that are only now jumping into serverless and might find some of the topics covered here a bit confusing.
@@ -33,14 +33,14 @@ For new containers to spin up, inactive ones need to die. It's how serverless wo
 
 One of the best ways of finding cold starts within your app is by using a serverless observability tool like <a href="http://dashbird.io">Dashbird</a>. You signup for the free tier and get up to 1gb of AWS logs. After you are done with the signup process you need to login to the app and go to you lambdas where you can see the status of the last invocation plus you can filter for cold starts specifically.
 
-!(detecting serverless cold starts)[/images/blog/2018-08-17/cold-starts-serverless.jpg]
-
-
 ![detecting serverless cold starts](/images/blog/2018-08-17/cold-starts-serverless.jpg)
-
 
 <h2>How do I avoid cold starts?</h2>
 
 Unless it's a critical function of the app I usually take the 5-second hit, especially if I have it happen once a day. But more often than not I find myself needing to create a "wake-up call" for my lambdas which is actually exactly what it sounds like. Every 25 minutes or so I make a call to each lambda to keep it "warm" thus avoiding the cold starts. And before you ask, yes, this will end up costing more but I believe it's a small price to pay for having a simple way to shut the naysayers mouths that complain about cold starts like it's the worst thing to ever happen to software development, to which I'm always like "Hello, the worst thing to happen to software development is PHP!".
 
 But I digress, the important thing to note here is that cold starts are a necessary evil and if you absolutely, positively can't have that 5 second delay to your calls you can always create a simple "wake-up call" function that will call one, two or all your function after a period of time, ensuring your calls will never go cold. And while you get an increase in cost let me put that cost in perspective. If you call a function every 25 minutes you will eventually have to make 1800 calls a month. Amazon gives you 1 million calls for free every month. And if that million calls isn't enough, the cost for the wake up calls for each function is $0.00036 per function.
+
+___
+
+_We aim to improve [Dashbird](https://dashbird.io/features/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about these improvements and new features! We would really appreciate it!_

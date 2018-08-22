@@ -523,3 +523,7 @@ I also highly recommend checking out [this article](https://css-tricks.com/routi
 
 
 *Hope you guys and girls enjoyed reading this as much as I enjoyed writing it. If you liked it, feel free to share so more people will see this tutorial. Until next time, be curious and have fun.*
+
+___
+
+_We aim to improve [Dashbird](https://dashbird.io/features/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about these improvements and new features! We would really appreciate it!_
