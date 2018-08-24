@@ -2,8 +2,8 @@
 title: What Are AWS Lambda Triggers? (Explained for dummies)
 description: Events can be anything, really. For a lambda function to execute, an event must occur.
 date: 2018-08-24T12:00:00.000Z
-frontImage: "2018-08-12/pexels-photo-767197.jpeg"
-thumbnail: "images/blog/2018-08-12/pexels-photo-767197.jpeg"
+frontImage: "2018-08-24/header.jpeg"
+thumbnail: "images/blog/2018-08-24/header.jpeg"
 author: Nemanja Novkovic
 blog: ["AWS", "Lambda", "Events"]
 ---
