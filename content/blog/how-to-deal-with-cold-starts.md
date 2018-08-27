@@ -1,5 +1,5 @@
 ---
-title: Coldstarts suck! Here's how to deal with them.
+title: Cold Starts Suck! Here's How To Deal With Them.
 description: Serverless isn't magic. Containers need to be shut down in order for new ones to spin up.
 date: 2018-08-15T12:00:00.000Z
 frontImage: "2018-08-17/photo-1512422011530-b28e36ff5996.jpeg"
@@ -14,8 +14,8 @@ Before I jump in I'd like to take a step back to provide a better frame of refer
 
 Every time I talk about serverless computing I constantly get interrupted by people making a note that serverless is in fact not server-less and that you have servers somewhere.  And of course, you have an actual machine that runs your code. Serverless is not magic. There aren't any magic server elves that take your code and run it on their magical cloud that connects to your modem. I admit that the wording can be confusing but if we all can just move past that I'm sure we can build wonderful things using serverless.
 
-Back to the point, cloud computing is basically a network of machines that talk to each other and what makes them different from a local computer or a server is that they are accessed 100% remotely and can scale gracefully. 
-Serverless computing is similar to an extent to this arguably juvenile explanation of cloud computing. You upload your code to a "Function As A Service" provider like AWS Lambda and it then gets made available based on requests(as it's event-driven). The code I mentioned earlier is but a function (hence the term function as a service) that once it runs, it returns a value and dies. Each function is basically a self-sufficient, completely stateless, event-driven transient container that after a period of time will be deleted altogether. 
+Back to the point, cloud computing is basically a network of machines that talk to each other and what makes them different from a local computer or a server is that they are accessed 100% remotely and can scale gracefully.
+Serverless computing is similar to an extent to this arguably juvenile explanation of cloud computing. You upload your code to a "Function As A Service" provider like AWS Lambda and it then gets made available based on requests(as it's event-driven). The code I mentioned earlier is but a function (hence the term function as a service) that once it runs, it returns a value and dies. Each function is basically a self-sufficient, completely stateless, event-driven transient container that after a period of time will be deleted altogether.
 
 <h2>How do cold starts happen</h2>
 
@@ -25,7 +25,7 @@ That's how cold starts happen, after a period of inactivity the container gets s
 
 <h2>Do we even need cold starts?</h2>
 
-But cold starts are a necessary evil. One of the main benefits of serverless computing is their basically infinite scaling system, and the way this happens is that your functions run for whatever period of time they need to	and then after, what now seems to amount to 45 minutes of inactivity for AWS Lambda, they get destroyed. That's why they have room to scale your application and can only charge for the invocation and execute time. 
+But cold starts are a necessary evil. One of the main benefits of serverless computing is their basically infinite scaling system, and the way this happens is that your functions run for whatever period of time they need to	and then after, what now seems to amount to 45 minutes of inactivity for AWS Lambda, they get destroyed. That's why they have room to scale your application and can only charge for the invocation and execute time.
 
 For new containers to spin up, inactive ones need to die. It's how serverless works. I've mentioned that the amount of time before the container gets destroyed is 45 minutes but that might vary based on the availability and demand in your current region.
 
