@@ -11,8 +11,8 @@ dated: 2017-10-29T17:50:03+02:00
         <h1 class="text-center roboto-mono">Monitoring and troubleshooting for serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form">
-            <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Sign up for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto mr-2" id='signup' type="submit">Start Free Trial</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto" id='signup' >Request Demo</a>
         </form>
       </div>
     </div>
@@ -203,8 +203,8 @@ dated: 2017-10-29T17:50:03+02:00
         <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
         <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-            <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Sign up for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto mr-2" id='signup' type="submit">Start Free Trial</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto" id='signup' >Request Demo</a>
         </form>
       </div>
     </div>
