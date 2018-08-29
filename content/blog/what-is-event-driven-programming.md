@@ -19,9 +19,9 @@ On the business development side, keeping the user engaged with your program is 
 
 Event-driven programming serves the user with the quickest and most accurate responses and this usually translates into better user experience and business gains. Also the whole focus of software development is on the actual people using the app and their actions, so **it will produce better and more intuitive products for the end-users.**
 
-The opposite of event-driven programming would be software that doesn't need any user input to act. There are definitely valid use cases for this as well but the majority of popular applications on the market right now function through user input (all the social media platforms, games, productivity tools, etc).
+The opposite of event-driven programming would be software that doesn't need any user input to act. This also covers the case of having various services poll each other for data in timed intervals instead of being triggered by **events**. There are definitely valid use cases for this as well, but the majority of popular applications on the market right now function through either user input or as reactions to events. This covers all social media platforms, games, productivity tools, and many others.
 
->Needless to say, GUI (graphical user interface) applications can experience the biggest benefits of using this approach.
+>Needless to say, large-scale serverless applications can experience huge benefits of using this approach.
 
 One of the big benefits of event-driven programming is that it's very intuitive, flexible and naturally well-suited to applications whose control flow are based, not on its structure, but rather on internal or external events.
 
@@ -31,13 +31,15 @@ Because event-driven programming is an approach rather than a type of programmin
 
 ## What are the disadvantages?
 
-Since it offers the most value for GUI applications, some other use cases might not benefit from it.
+Since it offers considerable value for high-scale applications, mainly for handling concurrency at scale by using distributed handlers, some other use cases might not benefit from it.
 
-Some critics are also saying that event-driven programming is complex to master and not worth the trouble when your application is very simple and small.
+Some critics are also saying that event-driven programming is complex to master and not worth the trouble when your application is very simple and small. I'd disagree with this notion. The incredible boost in system optimization you get with only using the resources when you explicitly need them, instead of running them periodically to check for changes, is too good to overlook.
 
 ## What's the next big thing?
 
-The next big paradigm shift definitely comes with <a href="https://hackernoon.com/serverless-survey-77-delivery-speed-4-dev-workdays-mo-saved-26-aws-monthly-bill-d99174f70663" target="_blank">serverless computing</a> - it's another level of abstraction that makes creating new applications easier and quicker. With serverless, you don't have to worry about server ops anymore, you can just write your functions, upload the code to one of the cloud providers (AWS Lambda is currently the biggest one) and let them handle all the backend work (and you only pay for the time when your code is executed). This is the next **big change that will bring event-based programming to the next level** and it's already gaining mainstream traction.
+The next big paradigm shift definitely comes with <a href="https://hackernoon.com/serverless-survey-77-delivery-speed-4-dev-workdays-mo-saved-26-aws-monthly-bill-d99174f70663" target="_blank">serverless computing</a> - it's another level of abstraction that makes creating new applications easier and quicker. With serverless, you don't have to worry about server ops anymore, you can just write your functions, upload the code to one of the cloud providers (AWS Lambda is currently the biggest one) and let them handle all the backend work (and you only pay for the time when your code is executed). 
+
+This is the next **big change that will bring event-based programming to the next level** and it's already gaining mainstream traction.
 
 
 -----
