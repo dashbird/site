@@ -288,8 +288,6 @@ There are no servers you need to worry about, and you only pay for the time it r
 
 Again, here's the [GitHub repo](https://github.com/adnanrahic/lambda-sns-dlq-error-handling), if you want to take a look at the code. It can act as a starter for your own use-cases where you need SNS messages triggering lambda functions. Give it a star if you like it and want more people to see it on GitHub.
 
-If you want to read some of my previous serverless musings head over to [my profile](https://medium.com/@adnanrahic) or [join my newsletter!](https://upscri.be/b6f3d5/)
-
 Or, take a look at a few of my articles right away:
 
 - [A crash course on serverless-side rendering with Vue.js, Nuxt.js and AWS Lambda](/blog/a-crash-course-on-serverless-side-rendering-with-vuejs-nuxtjs-and-aws-lambda)
@@ -302,9 +300,6 @@ Or, take a look at a few of my articles right away:
 - [Migrating your Node.js REST API to Serverless](https://dev.to/adnanrahic/migrating-your-nodejs-rest-api-to-serverless-3gej)
 - [Building a Serverless REST API with Node.js and MongoDB](https://dev.to/adnanrahic/building-a-serverless-rest-api-with-nodejs-and-mongodb-43db)
 - [A crash course on Serverless with Node.js](https://dev.to/adnanrahic/a-crash-course-on-serverless-with-nodejs-5jp)
-
-I also highly recommend checking out [this article](https://css-tricks.com/routing-route-protection-server-rendered-vue-apps-using-nuxt-js/) about Nuxt.js, and [this tutorial](https://serverless.com/blog/serverless-api-gateway-domain/) about the serverless domain manager.
-
 
 *Hope you guys and girls enjoyed reading this as much as I enjoyed writing it. If you liked it, feel free to share so more people will see this tutorial. Until next time, be curious and have fun.*
 

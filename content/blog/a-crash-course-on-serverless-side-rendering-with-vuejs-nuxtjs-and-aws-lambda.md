@@ -505,8 +505,6 @@ This is a whole new way of thinking about creating fast and responsive websites.
 
 If you got stuck anywhere take a look at the [GitHub repo](https://github.com/adnanrahic/serverless-side-rendering-vue-nuxt) for further reference, and feel free to give it a star if you want more people to see it on GitHub.
 
-If you want to read some of my previous serverless musings head over to [my profile](https://dev.to/adnanrahic) or [join my newsletter!](https://upscri.be/b6f3d5/)
-
 Or, take a look at a few of my articles right away:
 
 - [Building a serverless contact form with AWS Lambda and AWS SES](/blog/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses)
