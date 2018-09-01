@@ -1,7 +1,7 @@
 ---
 title: Serverless Use Cases With Biggest Observability Problems
 description: Serverless is great technology that will be the basis for all the future tech innovation, but it doesn't come without it's problems and observability (or lack thereof) is one of them.
-date: 2018-08-29T12:00:00.000Z
+date: 2018-09-29T12:00:00.000Z
 frontImage: "2018-08-30/dashbird-office-mikk-taavi.jpg"
 thumbnail: "images/blog/2018-08-30/dashbird-office-mikk-taavi.jpg"
 author: Annika Helendi
