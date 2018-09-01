@@ -8,6 +8,7 @@ authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
 canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-side-rendering-with-vuejs-nuxtjs-and-aws-lambda-1nk4
+featpop: most-popular
 blog: ["Serverless", "Node.js", "Lambda", "Vue.js", "Nuxt.js"]
 ---
 

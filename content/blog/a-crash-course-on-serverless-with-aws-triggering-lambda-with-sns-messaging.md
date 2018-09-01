@@ -8,6 +8,7 @@ authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
 canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-with-aws---triggering-lambda-with-sns-messaging-30nf
+featpop: most-popular
 blog: ["Serverless", "Node.js", "AWS", "Lambda",  "SNS"]
 ---
 
