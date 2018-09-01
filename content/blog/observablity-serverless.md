@@ -1,5 +1,5 @@
 ---
-title: Monitoring vs obsevability
+title: Monitoring vs observability
 description: You get observability in your application by knitting together monitoring with alerting while having a clear debugging solution that provides clarity for your data
 date: 2018-08-28T12:00:00.000Z
 frontImage: "2018-08-28/freddy-marschall-186923-unsplash.jpg"
