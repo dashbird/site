@@ -213,7 +213,7 @@ date: 2017-11-06T10:50:03+02:00
     <div class="feat-item mb-5 mb-md-0">
       <dt class="col-12 col-md-6">
         <a href="#">
-          <span class="tabs-title mb-2 mb-md-0">X-ray integration</span>
+          <span class="tabs-title mb-2 mb-md-0">X-Ray integration</span>
           <span class="tabs-description sf-ui-text">We seamlessly integrate with X-Ray, giving you proper insight into what your invocation is actually doing</span>
         </a>
       </dt>
