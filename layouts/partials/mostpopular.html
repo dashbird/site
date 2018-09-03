@@ -6,7 +6,7 @@
           <h1 class='col text-left my-md-125 blog-news text-center-mobile mb-md-7'><span class="h4 underlined roboto-mono">Most popular</span></h1>
         </div>
         <div class="row carousel carousel-multi slide" id="carousel-example-multi">
-          <div class="carousel-inner">
+          <div class="carousel-inner car-4">
           {{ range $index, $value := (where .Site.Pages.ByDate.Reverse "Params.featpop" "most-popular")  | first 10}}
           <div class="col-md-3 col-12 blog-item mb-125 carousel-item {{ if (eq $index 0) }}active{{ end }} ">
             <a href="{{ .Permalink  }}" class="blog-most-pop-item">
