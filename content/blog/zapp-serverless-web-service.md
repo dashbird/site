@@ -4,9 +4,8 @@ description: On AWS Lambda, Zappa Serverless framework named after guitarist is 
 date: 2018-08-04T12:00:00.000Z
 frontImage: "2018-08-04/pexels-photo-210627.jpeg"
 thumbnail: "images/blog/2018-08-04/pexels-photo-210627.jpeg"
-authorlink: 'https://twitter.com/@johndemian'
-author: John Demian
-author_image: '/images/team/john.jpg'
+authorlink: 'http://vizualize.me/bhagvank#.W2PkoiOB2_s'
+author: Bhagvan Kommadi
 blog: ["IaaS"]
 ---
 

@@ -8,15 +8,18 @@ kbSeries_weight: 300
 ---
 Dashbird subscriptions are based on your **data usage and throughput**. Dashbird usage is billed in advance per organization monthly or yearly.
 
-![Different Dashbird subscriptions](/images/docs/dashbird-subscriptions.png)
+![Different Dashbird subscriptions](/images/docs/subscriptions.png)
 <hr />
 <br />
+
+### Free tier
+Our Free Tier offers you one gigabyte(1GB) of data. This is based on the size of the logs we get from your AWS account. You can signup now without ever adding a credit card and you can upgrade at anytime from within the application.
 
 ### 14-day trial
 
 You will automatically start your 14-day trial once you sign up for a new Dashbird account. Each organization has a separate subscription and trial period.
 
-You will have unlimited access to all the Dashbird plans and features during the trial period. After the trial period ends, you are asked to add your credit card information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page in order to subscribe to a specific plan and to keep using Dashbird.
+You will have unlimited access to all the Dashbird plans and features during the trial period. After the trial period ends, you are asked to add your credit card information on the [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page in order to subscribe to a specific plan and to keep using Dashbird. You can also choose to use the free plan.
 
 
 ### Support for non-profits and startups
@@ -34,8 +37,8 @@ We are giving special discounts or extended trial time in return of content cont
 
 ### Special features
 
-- *Startup, Pro and Business* plans all have extra features that are not included in the *Developer* plan. These features are [Log Search](https://dashbird.io/docs/user-guide/log-analytics/) and [Webhooks](https://dashbird.io/docs/user-guide/integrations/).
-- all plan types include customer support
+- *Professional and Enterprise* plans all have extra features that are not included in the *Free* plan. These features are [Log Search](https://dashbird.io/docs/user-guide/log-analytics/) and [Webhooks](https://dashbird.io/docs/user-guide/integrations/).
+- All paid plan types include customer support
 
 ### Ending subscription
 

@@ -1,6 +1,6 @@
 ---
-title: Serverless Performance Monitoring & Debugging Tool - Dashbird
-description: Get instant overview of all your AWS Lambda functions and save money by optimizing your serverless architecture with Dashbird's monitoring, tracing, error alerting and debugging features.
+title: Dashbird - Free Serverless Visibility & Debugging Tool
+description: Get instant overview of your whole serverless stack and save money by optimising your lambda functions. Health metrics on a powerful dashboard, error alerts through Slack and emails, tracing with AWS X-ray, API Gateway support, live tailing and much more. Sign up for  free!
 dated: 2017-10-29T17:50:03+02:00
 ---
 
@@ -138,6 +138,7 @@ dated: 2017-10-29T17:50:03+02:00
 			</div>
 		</div>
 	</div>
+
 
 
 </section>

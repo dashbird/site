@@ -21,15 +21,13 @@ Note that filtering Lambda functions should only be use when you wish to:
 
 **NB! Filters can be changed unlimited times.**
 
-## Basics of importer configuration
+### Basics of importer configuration
 
  * Access the importer settings view by clicking on your organization name and selecting "Importer settings" or by going to <a href='https://app.dashbird.io/client' target='_blank'>https://app.dashbird.io/client</a>.
 
  * Filters consist of <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>, meaning you can use wildcards to define a subset of your lambda functions.
 
-## Examples
-
-##### 1) Exlusion of one or a few functions
+#### 1) Exlusion of one or a few functions
 
 If you want to monitor most of your functions but need to eliminate a few. Start by adding an inclusion filter `*` and then use exclusion filters to select functions not to be imported.
 
@@ -39,13 +37,16 @@ Here's how it should look like:
 
 ![Exlusion filter example](/images/docs/single-exclusion.png)
 
+<br>
 
-##### 2) Inclusion of a subset
+#### 2) Inclusion of a subset
 
 Lets imagine that you only want to monitor productions Lambda functions and your naming convention defines a stage inside the name. You would then need to add an inclusion filter `*prod*`.
 
 ![Exlusion filter example](/images/docs/subset-inclusion.png)
 
-## Conclusion
+<br>
+
+### Conclusion
 
 Since you can add as many filters as you like, you can specify rules that follow your preferences to the letter. If you have a complex use case for filtering, feel free to contact support from the chat bubble or write at <a href='mailto:support@dashbird.io'>support@dashbird.io</a>.

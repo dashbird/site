@@ -18,6 +18,30 @@
     font-size: 1.1rem;
   }
 
+  blockquote {
+    font-style: italic;
+    background: #f9f9f9;
+    border-left: 5px solid #F4D1E2;
+    margin: 15px 0px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #F4D1E2;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+  .no-border {
+    border: none;
+  }
+
   .corner-btn {
     line-height: 65px;
     height: 65px;
@@ -437,6 +461,18 @@ span.tooltip-desc{
     background-color: #ed8ead;
     color: white;
     border: solid 0.5px #ed8ead;
+  }
+
+  .cta-transparent {
+    background-color: transparent;
+    color: white;
+    border: solid 0.5px white;
+    border-radius: 2px;
+  }
+  
+  .cta-transparent:hover {
+    text-decoration: underline;
+    color: white;
   }
 
   .cta-secondary {
@@ -964,14 +1000,20 @@ span.tooltip-desc{
   .blog-font h2 {
     font-weight: bold;
     margin-top: 50px;
+    font-size: 1.6rem;
+    text-align: center;
   }
 
   .blog-font h3 {
     font-family: -apple-system,BlinkMacSystemFont,Roboto,‘Helvetica Neue’,‘Segoe UI’,Oxygen,Ubuntu,‘Fira Sans’,‘Droid Sans’,sans-serif;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+    margin-top: 40px;
+    font-size: 1.4rem;
+  }
+
+  .blog-font h4 {
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,‘Helvetica Neue’,‘Segoe UI’,Oxygen,Ubuntu,‘Fira Sans’,‘Droid Sans’,sans-serif;
+    margin-top: 30px;
+    font-size: 1.3rem;
   }
 
   .bold {
@@ -987,7 +1029,7 @@ span.tooltip-desc{
   }
 
   pre {
-    background-color: #F0F4FA;
+    background-color: #F0F4FA !important;
     border-radius: 4px;
     font-size: .8rem;
     font-weight: 700px;
@@ -1047,6 +1089,9 @@ span.tooltip-desc{
     background-color: #FAAB9A;
     margin: 0 !important;
     line-height: 1.3rem;
+  }
+  ul.sidemenu>li {
+    text-align: left;
   }
 
   ul.sidemenu>li {
@@ -1184,6 +1229,13 @@ span.tooltip-desc{
     min-width: auto;
     max-width: none;
     width: 100% !important;
+  }
+
+  .no-decoration {
+    text-decoration: none !important;
+  }
+  .no-decoration:hover {
+    text-decoration: none !important;
   }
 
   /* blog */

@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-08-08/pexels-photo-1190298.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-blog: ["Serverless", "Update"]
+blog: ["Serverless", "Update", "Product"]
 ---
 
 I feel like I have been waiting forever to write this blog post! It finally happened, after changing our pricing model we are proud to announce that Dashbird has a <b>free tier</b>. That's right, you can start using our serverless monitoring tools, right now, for free and without having to add a credit card to your account.

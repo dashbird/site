@@ -8,11 +8,12 @@
     "indexDocs": "hugo-lunr -i \"content/docs/**/*\" -o static/js/docs.json",
     "deploy": "hugo && aws s3 sync --acl public-read --sse --delete public/  s3://aws-website-httpsdashbirdio-nvzul && aws cloudfront create-invalidation --distribution-id E19T4M9Y3XAQXS --paths '/*'",
     "deploy-staging": "hugo -b https://staging.dashbird.io/ && aws s3 sync --acl public-read --sse --delete public/  s3://staging.dashbird.io && aws cloudfront create-invalidation --distribution-id E2B9Q1NEUTU80 --paths '/*'",
-    "build": "$(npm bin)/hugo",
+    "build": "hugo",
     "compile": "./compile.sh",
-    "lint": "$(npm bin)/standard",
+    "checksum": "./create_checksum.sh",
+    "lint": "standard",
     "dev": "npm run lint && npm start",
-    "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer",
+    "prod": "rm -rf ./public && npm run build && npm run compile && npm run checksum && cd ./public && python -m SimpleHTTPServer",
     "prod-no-compile": "rm -rf ./public && npm run build && cd ./public && python -m SimpleHTTPServer"
   },
   "repository": {
@@ -39,7 +40,7 @@
     "html-minifier": "^3.5.16"
   },
   "devDependencies": {
-    "hugo-cli": "^0.5.4",
+    "hugo-cli": "^0.7.0",
     "hugo-lunr": "0.0.4",
     "standard": "^11.0.1"
   }
