@@ -128,7 +128,7 @@ dated: 2017-10-29T17:50:03+02:00
         </div>
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pr-0 pr-md-4 text-center text-md-left">
-            <span class="h4 roboto-mono">Execution profile.</span>
+            <span class="h4 roboto-mono">Execution profile</span>
             <p class="pt-3 text-light-gray">Connect invocations with execution profiles from AWS X-Ray and see how long it took to execute any API call or other action in your Lambda function.</p>
           </div>
         </div>
@@ -150,7 +150,6 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
   <div class="row justify-content-center">
     <div class="col-12 col-md-9 mx-auto pt-5 pt-md-80">
-
       <div class="row">
         <div class="col-12 col-md-6 pt-0 pt-md-0">
           <div class='row'>
@@ -171,7 +170,6 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
       </div>
-
       <div class="row p-0 pt-3 pb-5 pt-md-60 pb-md-80">
         <div class="col-12 col-md-6">
           <div class='row'>
@@ -182,7 +180,6 @@ dated: 2017-10-29T17:50:03+02:00
             </div>
           </div>
         </div>
-
         <div class="col-12 col-md-6 pt-3 pt-md-0">
           <div class='row'>
             <div class='d-none d-md-block col-2 text-right'><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/icon-traces@2x.png' style="max-width: 36px; margin-top: 10px;"></div>
@@ -195,6 +192,79 @@ dated: 2017-10-29T17:50:03+02:00
       </div>
     </div>
   </div>
+</section>
+
+<section class="container-fluid dark-bg mb-10">
+	<div class="row">
+		<div class="col text-center pt-5 pt-md-100">
+			<span class="h3 underlined roboto-mono">Case Studies</span>
+		</div>
+	</div>
+	<div class="row justify-content-center case-wrap">
+		<div class="col-12 col-md-8 mx-auto pt-5 pt-md-80">
+			<div id="carouselCaseStudies" class="carousel slide" data-ride="carousel"  data-interval="90000">
+				<div class="carousel-inner car-lg-3 car-md-2 row w-100 mx-auto p-50" role="listbox">
+					<div class="carousel-item col-md-6 col-lg-4 active case-item">
+						<a href="https://medium.com/volta-charging/serverless-and-noops-at-volta-e88c0bac0136" target="_blank" class='bg-white'>
+							<div class=''>
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-airbnb-uses-dashbird.png">
+							</div>
+							<div class='col-12 col-case-inner'>
+								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Our small team acts big with the help of Serverless and NoOps</h5>
+								<p class='text-light-gray case-desc sf-ui-text text-ellipsis'>Our team is small but our application is large. To balance this constraint, we have harnessed the power of managed services and an event-driven architecture to focus engineering cycles on core business logic.</p>
+								<div class="my-4  case-read sf-ui-text">Read case study  <i class="case-right-icon"></i></div>
+							</div>
+						</a>
+					</div>
+					<div class="carousel-item col-md-6 col-lg-4">
+						<a href="https://hype.testlio.com/post/serverless-monitoring/" target="_blank" class='bg-white'>
+							<div class=''>
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-stripe-uses-dashbird.png">
+							</div>
+							<div class='col-12 col-case-inner col-case-inner'>
+								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Monitoring and debugging AWS Lambda based microservices using Dashbird</h5>
+								<p class='text-light-gray case-desc sf-ui-text text-ellipsis'>To provide insights into Function as a Service architectures, Dashbird collects all relevant CloudWatch logs and extracts meaningful and actionable metrics which help greatly to bring your service quality up a notch.</p>
+								<div class="my-4  case-read sf-ui-text">Read case study  <i class="case-right-icon"></i></div>
+							</div>
+						</a>
+					</div>
+					<div class="carousel-item col-md-6 col-lg-4">
+						<a href="https://dashbird.io/blog/building-cryptocurrency-monitoring-platform-serverless/" target="_blank" class='bg-white'>
+							<div class=''>
+								<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-dropbox-uses-dashbird.png">
+							</div>
+							<div class='col-12 col-case-inner'>
+								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Building a Cryptocurrency Monitoring Platform Using Serverless</h5>
+								<p class='text-light-gray case-desc sf-ui-text text-ellipsis'>In this article I will explain how I built COINDATAX, a cryptocurrency analytics platform to help investors analyze the market, and explain why we choose to go serverless.</p>
+								<div class="my-4  case-read sf-ui-text">Read case study  <i class="case-right-icon"></i></div>
+							</div>
+						</a>
+					</div>
+					<div class="carousel-item col-md-6 col-lg-4">
+						<a href="https://dashbird.io/blog/serverless-survey-results-benefits/" target="_blank" class='bg-white'>
+							<div class=''>
+								<img class="b-lazy" src="images/blog/26-04-2018/serverless-survey.jpg">
+							</div>
+							<div class='col-12 col-case-inner'>
+								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Survey Results - Dashbird Benefits, Use Cases & Feature Requests</h5>
+								<p class='text-light-gray case-desc sf-ui-text text-ellipsis'>We recently conducted a survey among active Dashbird users to find out more about their product experience and about the serverless technology in general.</p>
+								<div class="my-4  case-read sf-ui-text">Read case study  <i class="case-right-icon"></i></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Controls -->
+				<a class="carousel-control-prev" href="#carouselCaseStudies" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next text-faded" href="#carouselCaseStudies" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
@@ -210,25 +280,34 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
 </section>
 
+
+<section class="container">
+
+	
+
+
+</section>
+
+
 <section class="container-fluid dark-bg">
-  <div class="row justify-content-center">
-    <div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
-        <span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
-      <div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
-        <div class='col-12 languages-icons '>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="row justify-content-center">
+		<div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
+				<span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
+			<div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
+				<div class='col-12 languages-icons '>
+					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
+					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
+					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
+					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
+					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <script>
-  fbq('track', 'ViewContent', {
-    content_ids: 'homepage',
-  });
+	fbq('track', 'ViewContent', {
+		content_ids: 'homepage',
+	});
 </script>
