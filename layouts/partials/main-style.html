@@ -54,9 +54,226 @@
   .pricing-features {
     list-style-type: none;
     padding: 0;
+    font-size: 14px; 
+    font-weight: 500; 
+    line-height: 28px;
+    min-height: 176px;
   }
 
   .pricing-features li { padding: 2px }
+
+  /* pricing page */
+
+  .pricing-page h1{
+    font-size: 32px;  
+    font-weight: bold;  
+    letter-spacing: -0.6px; 
+    line-height: 50px;  
+    text-align: center;
+  }
+
+  .pricing-page h3{
+    font-size: 32px;  
+    font-weight: bold;  
+    letter-spacing: -0.91px;  
+    line-height: 48px;
+  }
+
+  .pricing-page .h5{
+      color: #66758D; 
+      font-size: 18px;  
+      font-weight: 500; 
+      letter-spacing: -0.07px;  
+      line-height: 28px;  
+      text-align: center
+  }
+
+  .pricing-box h4{
+      font-size: 16px;  
+      font-weight: bold;  
+      letter-spacing: 2px;  
+      line-height: 30px;
+  }
+
+  .pricing-box .h4{
+      font-size: 24px;  
+      font-weight: 600; 
+      line-height: 32px;
+  }
+
+  .pricing-desc{
+    color: #66758D;
+    min-height: 50px;
+    font-size: 14px;  
+    line-height: 22px;
+  }
+
+  .pricing-val{
+    font-size: 44px;  
+    font-weight: 600; 
+    line-height: 44px;
+    min-height: 44px;
+  }
+
+  .pricing-val-spec{
+    min-height: 40px;
+    margin-bottom: 0px;
+  }
+
+  .annual-cost {
+    font-weight: 700;
+  }
+
+  .pricing-page a,
+  .pricing-page li {
+    font-weight: 700;
+  }
+
+/* price slider */
+
+.priced-slider .slider.slider-horizontal{
+  width: 100%;
+}
+
+.priced-slider .slider.slider-horizontal .slider-track{
+  height: 6px;
+  background-color: #A4B0C3;
+  background-image: none;
+  opacity: 0.16;
+  border-radius: 3px;
+}
+.priced-slider .slider.slider-horizontal .slider-tick{
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  top: 5px;
+  background-color: #A4B0C3;
+  opacity: 0.5;
+  background-image: none;
+}
+
+.priced-slider .slider-handle{
+  background-color: #4B45C6;
+  background-image: none;
+  height: 12px;
+  width: 12px;
+  top: 1px;
+}
+
+.priced-slider .slider.slider-horizontal .slider-tick, .priced-slider  .slider.slider-horizontal .slider-handle{
+  margin-left: -3px;
+}
+.slider-tick-label{
+  opacity: 0.8; 
+  color: #66758D;
+  font-size: 14px;  
+  font-weight: 600; 
+  line-height: 14px;
+}
+.priced-slider  .slider .tooltip.top{
+  margin-top: -55px;
+  width: 100px;
+  text-align: center;
+}
+
+.custom-tooltip span{
+  display: inline-block;
+  width: 100%;
+}
+
+span.tooltip-value{
+    font-size: 24px;  
+    font-weight: 600; 
+    line-height: 22px;
+}
+
+span.tooltip-desc{
+  font-size: 11px;  
+  font-weight: 500; 
+  letter-spacing: -0.2px; 
+  line-height: 11px;
+  color: #66758D;
+  vertical-align: text-top;
+}
+
+.priced-slider .tooltip{
+  opacity: 1;
+}
+
+.slider .tooltip-inner{
+  display: none; 
+}
+
+.tooltip.tooltip-main.top.last {
+  left: calc(100% - 40px) !important;
+  text-align: right;
+}
+.tooltip.tooltip-main.top.first {
+  left: 40px !important;
+  text-align: left;
+}
+
+  #monthly-cost{
+    font-weight: bold;
+  }
+
+  .price-vat{
+    color: #BEC2F4;
+  }
+  
+  .card{
+    border-radius: 4px !important;
+    margin-bottom: 12px;
+  }
+
+  .card-header{
+    background-color: #F0F4FA;
+    padding: 0px !important;
+    border-bottom: none !important;
+  }
+
+  .card-header h5{
+    color: #4B45C6;
+  }
+
+  .card-header h5{
+    width: 100%;
+    background-color: #F0F4FA;
+    color: #4B45C6;
+    padding: 15px;
+  }
+
+  section.pricing-page .card-body{
+    color: #30374A !important;
+    font-size: 16px;  
+    letter-spacing: -0.09px;  
+    line-height: 26px;
+  }
+
+  .card-header h5.collapsed:after{
+    content: "+";
+    color: #ffffff;
+    background-color: #8B91E3;
+
+  }
+  .card-header h5:after{
+    content: "-";
+    color: #4B45C6;
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+
+  .col-inner{
+    margin: 0 -15px;
+  }
 
   nav {
     box-shadow: inset 0 -0.5px 0 0 #f0f0f0;
@@ -405,13 +622,36 @@
   .top-green {
     border-top: 9px solid #29d392;
   }
-
   .top-yellow {
     border-top: 9px solid #f4ce00;
   }
 
   .top-gray {
     border-top: 9px solid #6d6f7b;
+  }
+
+  .top-lgreen {
+    border-top: 4px solid #46D655;
+  }
+
+  .top-lpurple {
+    border-top: 4px solid #4B45C6;
+  }
+
+  .top-lorange {
+    border-top: 4px solid #F7A113;
+  }
+
+  .lgreen {
+    color: #46D655;
+  }
+
+  .lpurple {
+    color: #4B45C6;
+  }
+
+  .lorange {
+    color: #F7A113;
   }
 
   .pricing-box hr {
@@ -715,6 +955,29 @@
       width: 100%;
       min-width: 100%;
     }
+
+    /*. pricing page */
+
+    .card-header h5:after{
+      display: none;
+    }
+
+    .col-inner{
+      margin: 0px;
+    }
+
+    .pricing-features, .pricing-desc, .pricing-val-spec, .pricing-val{
+      min-height: auto;
+    }
+
+    .sm-d-felx{
+      display: flex;
+    }
+
+    .flex-order-1 {order: 1;}
+    .flex-order-2 {order: 2;}
+    .flex-order-3{ order: 3;}
+
   }
 
   .imgs-fluid img {
@@ -1379,10 +1642,9 @@
     /* show 3 items */
     .carousel-inner .active,
     .carousel-inner .active + .carousel-item,
-    .carousel-inner .active + .carousel-item + .carousel-item,
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+    .carousel-inner .active + .carousel-item + .carousel-item{
         display: block;
-            float: left;
+        float: left;
     }
     
     .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
@@ -1441,12 +1703,15 @@
         visibility: visible;
     }
 
+    .case-wrap{
+      overflow: hidden;
+    }
 
     .carousel-control-next, .carousel-control-prev{
       height: 40px;
       width: 40px;
       border-radius: 50%;
-      background-color: #999;
+      background-color: #4B45C6;
       top: 55px;
     }
     .carousel-control-next{
@@ -1456,6 +1721,36 @@
     .carousel-control-prev{
       left: -100px;
     }
+
+    
+    .carousel-control-prev, .carousel-control-next{
+      width: 64px;
+      height: 64px;
+      top: calc(50% - 32px);
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+      background-image: url('/images/arrow-right@2x.png');
+      background-size: contain;
+      width: 15px;
+      height: 12px;
+      top: calc( 50% - 32px);
+    }
+    .carousel-control-prev-icon{
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+    .carousel-control-next-icon{
+      /*background-image: url('/images/arrow-right@2x.png');*/
+    }
+
+
+    /*. pricing page */
+
+    div#custom {
+      min-height: 83px;
+      padding-top: 10px;
+    }
+    
 
 }
 
@@ -1554,12 +1849,16 @@ p.justify-content-center {
 
   .pl-0, .px-0{padding-left: 0rem !important}
   .pr-0, .px-0{padding-right: 0rem !important}
+  .pt-0, .py-0{padding-top: 0rem !important}
+  .pb-0, .py-0{padding-bottom: 0rem !important}
   .p3_5{padding: 1.25rem !important}
   .pt-3_5, .py-3_5{padding-top: 1.25rem !important}
   .pb-3_5, .py-3_5{padding-bottom: 1.25rem !important}
   .p6{padding: 2rem !important}
   .pt-6, .py-6{padding-top: 2rem !important}
   .pb-6, .py-6{padding-bottom: 2rem !important}
+  .pt-7, .py-7{padding-top: 3rem !important}
+  .pb-7, .py-7{padding-bottom: 3rem !important}
   .p-8{padding: 4rem !important}
   .pt-8, .py-8{padding-top: 4rem !important}
   .pb-8, .py-8{padding-bottom: 4rem !important}
@@ -1573,8 +1872,8 @@ p.justify-content-center {
   .mt-6, .my-6{margin-top: 2rem !important}
   .mb-6, .my-6{margin-bottom: 2rem !important}
   .m-10{margin: 6rem !important}
-  .mt-10{margin-top: 6rem !important}
-  .mb-10{margin-bottom: 6rem !important}
+  .mt-10, .my-10{margin-top: 6rem !important}
+  .mb-10, .my-10{margin-bottom: 6rem !important}
   .m-30{margin: 9rem !important}
   .mt-30, .my-30{margin-top: 9rem !important}
   .mb-30, .my-30{margin-bottom: 9rem !important}
@@ -1771,6 +2070,59 @@ p.justify-content-center {
   }
 
 
+  /*case studies */
+
+#carouselCaseStudies .carousel-item{
+}
+
+#carouselCaseStudies .carousel-item a{
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+  border-radius: 6px;
+  overflow: hidden;
+  display: inline-block;
+}
+#carouselCaseStudies .carousel-item a:hover{
+  text-decoration: none;
+  box-shadow: 0 6px 60px rgba(149,152,185,0.40);
+}
+
+
+#carouselCaseStudies .carousel-item img{
+  width: 100%;
+}
+
+.case-title{
+  color: #30374A;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+}
+.case-desc{
+  color: #66758D;
+  font-size: 16px;  
+  line-height: 26px;
+  min-height: 80px;
+}
+
+.case-read{
+    color: #4B45C6; 
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: -0.09px; 
+    line-height: 24px;
+}
+
+.case-right-icon{
+  background-image: url(/images/arrow-right.svg);
+  background-size: contain;
+  width: 15px;
+  height: 12px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
 
 /*responsive*/
 /*// ONLY Small devices (landscape phones, 576px and up)*/
@@ -1926,7 +2278,8 @@ p.justify-content-center {
   }
 
 
-  .pl-sm-0{padding-left: 0rem !important}
+  .pl-sm-0, .px-sm-0{padding-left: 0rem !important}
+  .pr-sm-0, .px-sm-0{padding-right: 0rem !important}
   .pt-sm-6, .py-sm-6{padding-top: 2rem !important}
   .pb-sm-6, .py-sm-6{padding-bottom: 2rem !important}
   .pt-sm-8, .py-sm-8{padding-top: 4rem !important}
@@ -2065,6 +2418,11 @@ p.justify-content-center {
 .smart-tabs.accordion dd{
   position: relative;
   float: left;
+}
+
+.accordion h5 {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 
