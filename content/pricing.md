@@ -12,98 +12,98 @@ date: 2018-07-17T17:50:03+02:00
 
 </script>
 
-<section class="container dark-bg pricing-page" >
-
-  <div class="row">
-    <div class="col text-center mt-5 mb-3">
-      <h1 class="roboto-mono">Pricing</h1>
-      <p class="h5 mt-3 mb-5 sf-ui-text">Find a plan that fits your team or <a href='/contact-sales'>contact us</a> to customize</p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center align-items-center sf-ui-text">  
-    <div class="col-sm-12 col-md-12 mb-5">
-      <div class="row">
-        <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2">
-          <div class="pricing-box bg-white top-lgreen text-center p-4 pb-md-0">
-            <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">FREE</h4>
-            <p class="h4">1 GB </p>
-            <p class="pricing-desc"></p>
-            <p class="pricing-val">$0</p>
-            <p class="pricing-val-spec"></p>
-          </div>
-          <div class='text-center p-4 pt-0 bg-white'>
-            <ul class='pricing-features pb-3'>
-              <li>Failure detection & alerting</li>
-              <li>Account and function metrics</li>
-              <li>Invocation history</li>
-              <li>X-ray tracing</li>
-              <li>7-day data retention</li>
-            </ul>
-            <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Get started for free</a>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 mw-240 flex-order-1">
-          <div class="col-inner">
-            <div class="pricing-box bg-white top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
-              <h4 class="mt-2 mb-4 lpurple">PROFESSIONAL</h4>
-              <div class='row' id='custom' style='display:none'>
-                <div class='col'>
-                  <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
-                </div>
-              </div>
-              <div id='priced' class="pb-3">
-                <div class='row' >
-                  <div class="priced-slider p-4 pt-7 pb-3 w-100">
-                    <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4, 5, 6]" data-slider-ticks-snap-bounds="6" data-slider-value="3" data-slider-ticks-labels="['5 GB', '25', '100', 200', '300', '300+']"/>
-                  </div>
-                </div>
-              <div class='row d-none no-price' id='custom'>
-                <div class='col'>
-                  <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
-                </div>
-              </div>
-                <div class='row has-price' >
-                  <div class='col'>
-                    <span class="h1 annual-cost">$<span id='annual-cost'>24</span></span>
-                  </div>
-                </div>
-                <p class="text-center text-secondary my-2 small has-price">per month, paid annually or $<span id='monthly-cost'>29</span> monthly</p>
-              </div>
-            </div>
-            <div class='text-center  p-4 pt-0 bg-white'>
-              <ul class='pricing-features pb-3'>
-                  <li>Live tailing</li>
-                  <li>Full-text search</li>
-                  <li>30-day data retention</li>
-                  <li>Technical support</li>
-                </ul>
-              <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Start your 14 day free trial</a>
-              <p class="text-center text-secondary small p-1 m-0">No credit card needed</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 mw-240 mt-4 flex-order-3">
-          <div class="pricing-box bg-white top-lorange text-center p-4 pb-md-0 ">
-            <h4 class="mt-2 mb-3 lorange roboto-mono">ENTERPRISE</h4>
-            <p class=" h4">Unlimited</p>
-            <p class="pricing-desc" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
-            <p class="pricing-val"></p>
-            <p class="pricing-val-spec"></p>
-          </div>
-          <div class='text-center p-4 pt-0 bg-white'>
-            <ul class='pricing-features pb-3'>
-              <li>Enterprise level scale</li>
-              <li>Custom, multi-year data retention</li>
-              <li>Training and onboarding</li>
-              <li>SLA-s</li>
-            </ul>
-            <a class="btn cta-btn cta-pink w-100" role="button" href='/contact-us' target='_blank'>Contact Us</a>
-          </div>
-        </div>
+<section class="container-fluid triangle-bg pricing-page" >
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mt-5 mb-3">
+        <h1 class="roboto-mono">Pricing</h1>
+        <p class="h5 mt-3 mb-5 sf-ui-text">Find a plan that fits your team or <a href='/contact-sales'>contact us</a> to customize</p>
       </div>
-      <div class="row">
-        <p class="price-vat text-center small w-100 pt-4">*VAT not included for EU customers</p>
+    </div>
+    <div class="row justify-content-md-center align-items-center sf-ui-text">  
+      <div class="col-sm-12 col-md-12 mb-5">
+        <div class="row">
+          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2">
+            <div class="pricing-box bg-white top-lgreen text-center p-4 pb-md-0">
+              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">FREE</h4>
+              <p class="h4">1 GB </p>
+              <p class="pricing-desc"></p>
+              <p class="pricing-val">$0</p>
+              <p class="pricing-val-spec"></p>
+            </div>
+            <div class='text-center p-4 pt-0 bg-white'>
+              <ul class='pricing-features pb-3'>
+                <li>Failure detection & alerting</li>
+                <li>Account and function metrics</li>
+                <li>Invocation history</li>
+                <li>X-ray tracing</li>
+                <li>7-day data retention</li>
+              </ul>
+              <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Get started for free</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mw-240 flex-order-1">
+            <div class="col-inner">
+              <div class="pricing-box bg-white top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
+                <h4 class="mt-2 mb-4 lpurple">PROFESSIONAL</h4>
+                <div class='row' id='custom' style='display:none'>
+                  <div class='col'>
+                    <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+                  </div>
+                </div>
+                <div id='priced' class="pb-3">
+                  <div class='row' >
+                    <div class="priced-slider p-4 pt-7 pb-3 w-100">
+                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4, 5, 6]" data-slider-ticks-snap-bounds="6" data-slider-value="3" data-slider-ticks-labels="['5 GB', '25', '100', 200', '300', '300+']"/>
+                    </div>
+                  </div>
+                <div class='row d-none no-price' id='custom'>
+                  <div class='col'>
+                    <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+                  </div>
+                </div>
+                  <div class='row has-price' >
+                    <div class='col'>
+                      <span class="h1 annual-cost">$<span id='annual-cost'>24</span></span>
+                    </div>
+                  </div>
+                  <p class="text-center text-secondary my-2 small has-price">per month, paid annually or $<span id='monthly-cost'>29</span> monthly</p>
+                </div>
+              </div>
+              <div class='text-center  p-4 pt-0 bg-white'>
+                <ul class='pricing-features pb-3'>
+                    <li>Live tailing</li>
+                    <li>Full-text search</li>
+                    <li>30-day data retention</li>
+                    <li>Technical support</li>
+                  </ul>
+                <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Start your 14 day free trial</a>
+                <p class="text-center text-secondary small p-1 m-0">No credit card needed</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-3">
+            <div class="pricing-box bg-white top-lorange text-center p-4 pb-md-0 ">
+              <h4 class="mt-2 mb-3 lorange roboto-mono">ENTERPRISE</h4>
+              <p class=" h4">Unlimited</p>
+              <p class="pricing-desc" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
+              <p class="pricing-val"></p>
+              <p class="pricing-val-spec"></p>
+            </div>
+            <div class='text-center p-4 pt-0 bg-white'>
+              <ul class='pricing-features pb-3'>
+                <li>Enterprise level scale</li>
+                <li>Custom, multi-year data retention</li>
+                <li>Training and onboarding</li>
+                <li>SLA-s</li>
+              </ul>
+              <a class="btn cta-btn cta-pink w-100" role="button" href='/contact-us' target='_blank'>Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="price-vat text-center small w-100 pt-4">*VAT not included for EU customers</p>
+        </div>
       </div>
     </div>
   </div>
@@ -198,10 +198,10 @@ date: 2018-07-17T17:50:03+02:00
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
         <span class="h3 roboto-mono mt-5 mb-4 d-block">Over 700 companies trust Dashbird!</span>
-        <p class="mt-3 lh-3 d-block">Save development time and money. Get full visibility into serverless in 2-minutes.</p>
+        <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-            <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get started for free</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
         </form>
       </div>
     </div>
