@@ -198,10 +198,10 @@ date: 2018-07-17T17:50:03+02:00
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
         <span class="h3 roboto-mono mt-5 mb-4 d-block">Over 700 companies trust Dashbird!</span>
-        <p class="mt-3 lh-3 d-block">Save development time and money. Get full visibility into serverless in 2-minutes.</p>
+        <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-            <input type="email" class="cta-input mb-2 mb-md-0 mt-5 mt-md-0 mr-md-2 d-block d-md-inline" placeholder='Email address' name="email" required>
-            <button class="d-block d-md-inline cta-btn cta-pink" id='signup' type="submit">Get started for free</button>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get started for free</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
         </form>
       </div>
     </div>
