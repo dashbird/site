@@ -304,18 +304,19 @@ date: 2017-11-06T10:50:03+02:00
   </div>
 </section>
 
-<section class="container-fluid py-8 py-md-10 freetrial" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6);'>
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-8 center p-2 cta-black bg-cta text-center">
-        <span class="h3 roboto-mono mb-4 d-block h3-mobile">Sign up for a free account!</span>
-        <p class="mt-3 lh-3 d-block col-md-8 justify-content-center p-mobile">Save development time and money. Get your lambda performance analytics set up in 2-minutes.</p>
-        <form class='form-inline justify-content-center pt-md-8' name="trial-form">
-            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto mr-2" id='signup' type="submit">Start Free Trial</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto" id='signup' >Request Demo</a>
-        </form>
-      </div>
+<section class="container-fluid py-8 py-md-10" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
+  <div class="row justify-content-center">
+    <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
+      <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
+      <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
+      <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
+          <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
+          <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
+      </form>
     </div>
+  </div>
 </section>
+
 <script>
   fbq('track', 'ViewContent', {
     content_ids: 'features',

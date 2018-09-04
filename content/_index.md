@@ -11,8 +11,8 @@ dated: 2017-10-29T17:50:03+02:00
         <h1 class="text-center roboto-mono">Monitoring and troubleshooting for serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form">
-            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto mr-2" id='signup' type="submit">Start Free Trial</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto" id='signup' >Request Demo</a>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
         </form>
       </div>
     </div>
@@ -207,7 +207,7 @@ dated: 2017-10-29T17:50:03+02:00
 					<div class="carousel-item col-md-6 col-lg-4 active case-item">
 						<a href="https://medium.com/volta-charging/serverless-and-noops-at-volta-e88c0bac0136" target="_blank" class='bg-white'>
 							<div class=''>
-									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-airbnb-uses-dashbird.png">
+									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/casestudies/how-airbnb-uses-dashbird.png">
 							</div>
 							<div class='col-12 col-case-inner'>
 								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Our small team acts big with the help of Serverless and NoOps</h5>
@@ -219,7 +219,7 @@ dated: 2017-10-29T17:50:03+02:00
 					<div class="carousel-item col-md-6 col-lg-4">
 						<a href="https://hype.testlio.com/post/serverless-monitoring/" target="_blank" class='bg-white'>
 							<div class=''>
-									<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-stripe-uses-dashbird.png">
+									<img class="b-lazy" src="/images/casestudies/how-stripe-uses-dashbird.png">
 							</div>
 							<div class='col-12 col-case-inner col-case-inner'>
 								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Monitoring and debugging AWS Lambda based microservices using Dashbird</h5>
@@ -231,7 +231,7 @@ dated: 2017-10-29T17:50:03+02:00
 					<div class="carousel-item col-md-6 col-lg-4">
 						<a href="https://dashbird.io/blog/building-cryptocurrency-monitoring-platform-serverless/" target="_blank" class='bg-white'>
 							<div class=''>
-								<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/casestudies/how-dropbox-uses-dashbird.png">
+								<img class="b-lazy" src="/images/casestudies/how-dropbox-uses-dashbird.png">
 							</div>
 							<div class='col-12 col-case-inner'>
 								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Building a Cryptocurrency Monitoring Platform Using Serverless</h5>
@@ -243,7 +243,7 @@ dated: 2017-10-29T17:50:03+02:00
 					<div class="carousel-item col-md-6 col-lg-4">
 						<a href="https://dashbird.io/blog/serverless-survey-results-benefits/" target="_blank" class='bg-white'>
 							<div class=''>
-								<img class="b-lazy" src="images/blog/26-04-2018/serverless-survey.jpg">
+								<img class="b-lazy" src="/images/blog/26-04-2018/serverless-survey.jpg">
 							</div>
 							<div class='col-12 col-case-inner'>
 								<h5 class='roboto-mono case-title my-3 text-ellipsis'>Survey Results - Dashbird Benefits, Use Cases & Feature Requests</h5>
@@ -267,27 +267,18 @@ dated: 2017-10-29T17:50:03+02:00
 	</div>
 </section>
 
-<section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
+<section class="container-fluid py-8 py-md-10" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
         <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
         <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto mr-2" id='signup' type="submit">Start Free Trial</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto" id='signup' >Request Demo</a>
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
+            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
         </form>
       </div>
     </div>
 </section>
-
-
-<section class="container">
-
-	
-
-
-</section>
-
 
 <section class="container-fluid dark-bg">
 	<div class="row justify-content-center">
