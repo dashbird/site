@@ -64,6 +64,14 @@
 
   /* pricing page */
 
+  .triangle-bg{
+    background-image: url(/images/bg-desktop-triangle@2x.png);
+    background-color: #4a44c6 !important;
+    background-size: auto 576px;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+  }
+
   .pricing-page h1{
     font-size: 32px;  
     font-weight: bold;  
@@ -1820,6 +1828,7 @@ span.tooltip-desc{
   margin-left: 10px;
 }
 
+
 .freetrial .h3{
   font-size: 40px;
   line-height: 68px;
@@ -2184,8 +2193,6 @@ p.justify-content-center {
   .posts-filter {
     top: 5px;
   }
-  
-
   .pl-xs-2, .px-xs-2{ padding-left: 30px; }
   .pr-xs-2, .px-xs-2{ padding-right: 30px; }
   .pl-xs-0{padding-left: 0rem !important}
@@ -2323,6 +2330,12 @@ p.justify-content-center {
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 
+
+  .triangle-bg{
+    background-size: auto 768px;
+    background-position: center -270px;
+  }
+
   /* list */
   .blog-slider {
     height: 28rem;
@@ -2361,6 +2374,10 @@ p.justify-content-center {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+  .triangle-bg{
+    background-size: 1920px;
+    background-position: center -290px;
+  }
 
   /* list */
 
@@ -2575,6 +2592,13 @@ p.justify-content-center {
     max-width: 200px;
   }
 
+}
+@media (min-width: 1921px) {
+
+  .triangle-bg{
+    background-size: auto 3840px;
+    background-position: center -3200px;
+  }
 }
 
   #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
