@@ -47,7 +47,7 @@ Lets imagine that you only want to monitor productions Lambda functions and your
 
 <br>
 
-#### 3) Inclusion/Exclusion of a functions from different regions
+#### 3) Inclusion/Exclusion of functions from different regions
 
 What if you want to import all with the `*-dlq-*` pattern from `eu-central-1`, while excluding all other functions. That's pretty easy.
 
