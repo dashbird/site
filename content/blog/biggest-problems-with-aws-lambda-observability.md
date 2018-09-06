@@ -2,8 +2,8 @@
 title: Problems With AWS Lambda Observability And How Dashbird Solves Them
 description: Using event-driven distributed systems has countless business benefits but easy observability isn't one of them. The more functions you have, the more complicated things get. Fortunately there is a solution for this - Dashbird!
 date: 2018-09-04T12:00:00.000Z
-frontImage: "2018-09-04/dashbird-tracing.png"
-thumbnail: "images/blog/2018-09-04/dashbird-tracing.png"
+frontImage: "2018-09-04/dashbird-tracing-2.jpeg"
+thumbnail: "images/blog/2018-09-04/dashbird-tracing-2.jpeg"
 author: Annika Helendi
 author_image: '/images/team/annika1.jpg'
 blog: ["AWS Lambda", "Observability", "Serverless"]
