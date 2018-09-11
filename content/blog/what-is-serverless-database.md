@@ -8,6 +8,7 @@ author: Nemanja Novkovic
 blog: ["Serverless", "Database"]
 ---
 
+
 ### Get To Know Serverless Architecture
 
 Serverless computing is a cloud computing execution model meaning that the cloud provider is dynamically managing the distribution of computer’s resources. What’s taking up valuable computing resources is the function execution. Both AWS and Azure charge more if you have a combination of allocated memory and the function execution elapse time which is rounded up to 100ms. AWS Lambda’s current pricing is $0.00001667 for every used GB-second, while Azure’s functions cost $0.000016 for each GB-second. That gives you the idea of how the cost can climb fast. Considering that the amount of allocated memory can be configurable between 128 MB and 1.5 GB, the price of function execution can be variable depending on your setting. The cost per 100ms of the execution time for the configuration of significant power will be around 12 times more expensive than the 128 MB option, which is the basic one.
@@ -25,16 +26,16 @@ There are several well-known databases already in use like Azure Data Lake. Azur
 **FaunaDB** is distributed worldwide, and it is the most significant transactional database service. Its technology is based on Twitter.
 
 ## Amazon Aurora Serverless
-The preview for **Amazon Aurora Serverless** was launched in the last quarter of 2017. It comes in two different editions compatible with both MySQL or PostgreSQL, but it is also compatible with other known systems like MariaDB, Oracle, etc. Amazon Aurora serverless database is fully-managed and automatically scales to up to 64 terabytes of database storage. 
+The preview for **Amazon Aurora Serverless** was launched in the last quarter of 2017. It comes in two different editions compatible with both MySQL or PostgreSQL, but it is also compatible with other known systems like MariaDB, Oracle, etc. Amazon Aurora serverless database is fully-managed and automatically scales to up to 64 terabytes of database storage.
 
 ## DynamoDB
 Yet another Amazon service. DynamoDB is an entirely managed NoSQL database service able to provide predictable and high-speed performance with seamless scalability.
 With DynamoDB creating database tables is straightforward and you can store and retrieve any amounts of data, and it’s also able to serve any level or requested traffic.
 
 ## MongoDB
-While not being a serverless database MongoDB is still worth mentioning because of their Database as a Service offering called **MongoDB Atlas**. MongoDB is free and open-source, published by GNU Affero General Public License. It's is very flexible in storing the data, JSON-like documents which means that the field is variable from document to document and the data structure will change over time. 
+While not being a serverless database MongoDB is still worth mentioning because of their Database as a Service offering called **MongoDB Atlas**. MongoDB is free and open-source, published by GNU Affero General Public License. It's is very flexible in storing the data, JSON-like documents which means that the field is variable from document to document and the data structure will change over time.
 
-Moving on to **MongoDB Atlas**, as I said, is their DBaaS tool, and it comes with some great features like being able to have automated operations meaning that you’ll be able to create and deploy clusters in a few minutes as well as to ensure your cluster has zero downtime. Role-based access controls keep your data protected. It is also encrypted and network isolated. Authentication is just another segment of the protection provided. 
+Moving on to **MongoDB Atlas**, as I said, is their DBaaS tool, and it comes with some great features like being able to have automated operations meaning that you’ll be able to create and deploy clusters in a few minutes as well as to ensure your cluster has zero downtime. Role-based access controls keep your data protected. It is also encrypted and network isolated. Authentication is just another segment of the protection provided.
 
 Another great feature of MongoDB Atlas is that it makes it entirely easy to scale up or out by just pressing a button. You’re also able to deploy clusters across several regions for better reads and guarantees. The clusters are geo-distributed, they can heal themselves, and they come with excellent fault tolerance. The continuous backup solution that comes with MongoDB Atlas has an option of point-in-time restores and snapshots that are queryable. Finding any details is quite comfortable, and the view performance is in real-time. You can customize alerts, and the optimized dashboards highlight the key historical metrics.
 
@@ -51,7 +52,7 @@ Small developer teams are now able to run the code by themselves independently. 
 
 ### Disadvantages of Using the Serverless Database
 
-## Performance and Resource Limits 
+## Performance and Resource Limits
 
 Not using the databases very often can cause the database to suffer from more significant response latency compared to a database that’s actively running on a dedicated server, virtual machine, or in a container. It is happening because the cloud provider “spins down” a serverless database entirely if it’s not used, meaning that if the runtime requires some time to start up, it will create more latency. Serverless computing is also not suitable for some computing workloads like high-performance computing. The reason for this resource limits are the providers who impose those resource limits. Another reason is that it would probably be a lot more cost-efficient to bulk-provision the number of servers that you require at any given period.
 
@@ -68,3 +69,5 @@ You can find more information about serverless security risks and where to find 
 ___
 
 _We hope you enjoyed reading this short overview of serverless databases. Feel free to contact us over chat and if you have any questions leave them in the comments section below._
+
+### Failure detection, analytics and visibility for AWS Lambda based applications. 5 minutes setup with no overhead or code changes. [Get Dashbird - sign up for a free account!](https://dashbird.io) ###
