@@ -7,7 +7,6 @@ thumbnail: "images/blog/2018-07-20/pexels-photo-920115.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-featloc: blog-header
 category: "Serverless, Other, Lambda"
 blog: ["Serverless", "Other", "Lambda"]
 ---
