@@ -1,38 +1,47 @@
 ---
-title: What Is Lambda Architecture? (explained for dummies)
+title: What Is Lambda Architecture? (for dummies)
 description: Lambda architecture is a data-processing architecture that is designed to process vast amounts of data. Lambda architecture is taking advantage of two methods, which are batch and streaming-processing.
-date: 2019-09-24T00:00:00.000Z
-frontImage: "2018-06-19/aws-lambda-pricing-model.jpg"
-thumbnail: "images/blog/2018-06-19/aws-lambda-pricing-model.jpg"
+date: 2018-09-18T00:00:00.000Z
+frontImage: "2018-09-18/header.jpeg"
+thumbnail: "images/blog/2018-09-18/header.jpeg"
 author: Nemanja Novkovic
-blog: ["Lambda", "Other"]
+author_image: '/images/blog/nemanja.jpeg'
+blog: ["Lambda", "Serverless"]
 ---
 
 From ancient Rome and Greece throughout Latin America and Egypt, there is only one thing beside the history itself that kept those ancient times alive even today – the architecture. The most important part of any era in our immersive history was the building of magnificent objects all around the world. These objects, even today, are some of the many wonders of the world. This time, in our era, we will talk about modern, computing architecture that will hopefully leave its trace in the upcoming millennia by building our world into a significantly better future.
 
-## Lambda Architecture Explained
+## AWS Lambda Serverless Architecture 
 
-Lambda architecture is a data-processing architecture that is designed to process vast amounts of data. Lambda architecture is taking advantage of two methods, which are batch and streaming-processing. This particular approach to architecture is an attempt to balance the latency, throughput, and mistake tolerance by using batch processing to provide us with accurate views of batch data while at the same time it uses a real-time stream processing to give us the views of online data. This rise of Lambda architecture is in correlation with the ever-growing big data, real-time analytics, and the drive to cut down the latencies of map-reduce.
+By using serverless architecture, you’ll be able to build and run any applications and services with no need to handle the infrastructure whatsoever. Your applications will still run on servers but know that AWS is taking control over the server management, which allows you to free yourself from scaling, provisioning and maintaining servers that run your applications, storage systems, and databases.
 
-## What Is Lambda Architecture Made Of?
+## The Benefits
 
-Lambda architecture is describing a system that is consisted of three different layers. The first layer is **batch processing**, which essentially precomputes the results by utilizing a processing system that is already distributed which can handle enormous quantities of data. This layer’s primary goal is to be entirely accurate by being able to process all available data when it’s generating the views. Basically, this means that the batch layer can fix any errors or issues by recomputing, which is based on the complete data set. The output is mainly stored in a read-only database, whose updates completely replace the existing precomputed views. A standard batch-processing system which is most frequently used in high-throughput architectures is for sure the Apache Hadoop system.
+AWS Lambda serverless architecture will bring many benefits to your business. For example, your developers can put their focus on the main product instead of thinking about operating and managing servers or runtimes. It doesn’t matter if the managing takes place in the cloud or you need to be physically in the office. The point is that it is very time and energy consuming work, and by using serverless architecture, the hustle is gone. By saving their time this way, developers are much more relaxed and have much more time and energy, as well as focus set upon developing amazing products which scale and are very much reliable. Main three benefits are:
 
-**Speed processing aka real-time processing** is yet another layer that processes data streams in real-time, and it doesn’t require completeness. This layer strives to minimize the latency as much as possible, so it sacrifices throughput, and it provides real-time views into the most recent data. This layer is the one that is responsible for filling up the empty space which is caused by the batch layer’s lag in providing the views based on the most recent data. This layer’s views may not have the accuracy or completeness as the ones that are produced by the batch layers, but there is a positive side of them. They are available almost instantly after the data is received, and they can as well be switched when the batch layer’s views for the same data become accessible. SQLstream, Apache Spark, and Apache Storm are some of the stream-processing technologies used in this layer.
+- **No Server Management** - meaning that there isn’t any particular software or runtime that needs to be installed, maintained, or administered.
+- **Flexible Scaling** allows your application to be automatically scaled or scaled by adjustment of its capacity through toggling the units of consumption rather than units of a single server.
+- **Automated High Availability** means that serverless applications have already built-in availability and faults tolerance. There is no need whatsoever to architect for these capabilities because the services that run the app will provide them by default.
 
-**Serving layer**, as its name suggests, is a layer that stores the output from the batch and speed layers. Serving layer responds to queries by returning precomputed views or even building up views from the processed data. Druid is one of the technologies that are used in the serving layer. Druid provides a single cluster so that it can handle the output from both layers. There are dedicated stores used in the serving layer, and they include Apache Cassandra, Apache HBase, MongoDB, VoltDB, or even Elasticsearch. For speed layer output. For batch layer output the dedicated stores include Elephant DB, Apache Impala, SAP HANA or even Apache Hive.
+As a civilization, we strive to make everything simpler, therefore to focus on important things like building beautiful and astonishing structures, whether they’re physical objects like the pyramids or some essential applications we need in our everyday lives.  
 
-## Who Is Using Lambda Architecture?
+## AWS Lambda Serverless Architecture Use Cases
 
-Metamarkets provide analytics for companies and firms in the programmatic advertisement, and they employ lambda architecture version that is using Druid for storing and serving batch-processed as well as stream-processed data. Yahoo! took very similar step by using Apache Storm, Druid, and Apache Hadoop to run the analytics on its advertising warehouse. Also, worth mentioning is the Netflix Suro project. The Netflix Suro project has separate processing paths for data, but bare in mind that it doesn’t actually strictly follows the lambda architecture since the paths might serve different purposes and may not provide the same type of views. The “grand plan” is to make a selection of real-time based event data that is available for queries with very low latency while all of the data set is also processed by a batch pipeline which is intended for applications that are not very sensitive to latency, and which require a map-reduce type of processing.
+AWS Lambda serverless architecture is made for anyone and everyone. We’ll mention some of the massive and famous companies that switched on using serverless architecture for their own gain, and of course, to make things run much faster, smoother, and more comfortable. Some of these companies might be new for you, but some of them you already know:
 
-## The Advice For Beginners
+- **The Coca-Cola Company** decided they need a cost-effective serverless solution, so they’ve used AWS Lambda to build it. They needed something to support their “Coke.com Vending Pass Program.” This program gives away drink rewards which people can earn by purchasing products at vending machines which are equipped with supporting the mobile payments by using the Coca-Cola Vending Pass. Users would use the NFC option on their smartphones to complete an Android Pay or Apple Pay purchase, and that would lead to identifying themselves to the vending machine which would then give them free credits for future vending machine purchases they make.
+To read all about the details of this use case, click [here](https://aws.amazon.com/blogs/aws/things-go-better-with-step-functions/). 
 
-In case you wish to build a well-designed, reliable and functional big data application that takes care of a variety of end-user latency needs, it can be an incredibly daunting task. It is quite challenging to keep up with the speed at which the technological innovations are happening in this space, let alone to build an application that works for the problem you’re dealing with. “Taking baby steps and building one application at a time” is probably the most frequent advice given to newbies nowadays. However, specific high-end architectural constructs can help you with making a visualization on how many different kinds of applications fit with the big data architecture and how some of these technologies are shapeshifting the existing software landscape.
+- **Localytics** needed the support of pipelines with many billions of data points which are uploaded daily from mobile apps that run on Localytics analytics software. To enable the engineering team to create new services, they needed the access to subsets of the data. All of this meant that they would require the additional capacity planning, monitoring, and utilization as well as the infrastructure management. They’ve found the solution with AWS Lambda which they use to send around 100 billion data points every month. Those billions of data points go from the Elastic Load Balancing to Amazon Simple Queue Service, and after that to Amazon Elastic Compute Cloud, and at the end to Amazon Kinesis stream.
+Learn more about the challenges Localytics had as well as the solutions they’ve found by following [this link](https://aws.amazon.com/solutions/case-studies/localytics/).
 
+- **Netflix** is the biggest online video streaming company in the world, and their use of AWS Lambda changed their gameplay forever. Netflix plans on using AWS Lambda for building the rule-based self-managing infrastructure to be able to replace the inefficient processes which would then reduce the rate of errors, and of course, save time. To learn more about the AWS Lambda use case by Netflix, watch [the video](https://aws.amazon.com/solutions/case-studies/netflix-and-aws-lambda/) in which Neil Hunt, Chief Product Officer at Netflix explains in detail how AWS Lambda helped in achieving their goals.
+
+
+## Wrapping up
 To create is to build, and to build is to leave a trace behind yourself. Our ancestors left many paths for us to follow, and in the future (or in THE NOW) it is up to us to leave something for the future generations.
 
-_Let us know in our comment section below if you have any doubts, questions, ideas or any of the sort that you’d like to discuss, and feel free to visit our blog page. We’ll keep you informed and posted about any upcoming news._
+_Let us know in our comment section below if you have any doubts, questions, ideas or any of the sort that you’d like to discuss, and feel free to visit our [blog](/blog/). We’ll keep you informed and posted about any upcoming news._
 
 ___
 
