@@ -25,11 +25,9 @@ date: 2018-07-17T17:50:03+02:00
         <div class="row">
           <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2">
             <div class="pricing-box bg-white top-lgreen text-center p-4 pb-md-0">
-              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">FREE</h4>
-              <p class="h4">1 GB </p>
-              <!-- <p class="pricing-desc"></p> -->
-              <!-- <p class="pricing-val">$0</p> -->
-              <p class="pricing-val-spec"></p>
+              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">BASIC</h4>
+              <p class="pricing-val">FREE</p>
+              <p class="pricing-val-spec">up to 1GB</p>
             </div>
             <div class='text-center p-4 pt-0 bg-white'>
               <ul class='pricing-features pb-3'>
