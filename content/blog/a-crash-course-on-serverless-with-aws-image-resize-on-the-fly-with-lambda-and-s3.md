@@ -489,7 +489,7 @@ To conclude this little _showdev_ session, I'd like to point out using serverles
 
 [We at Dashbird](https://dashbird.io/team/) use clusters of containers for our core features that interact heavily with our databases while offloading all the rest to lambda functions, queues, streams and other serverless services on AWS.
 
-And, of course, [here's the repo](https://github.com/adnanrahic/serverless-docker-image-resize) once again. If you follow along with the instructions there, you'll be able to have this image resize on-the-fly microservice up and running in no time at all.
+And, of course, [here's the repo](https://github.com/adnanrahic/serverless-docker-image-resize) once again, give it a star if you want more people to see it on GitHub. If you follow along with the instructions there, you'll be able to have this image resize on-the-fly microservice up and running in no time at all.
 
 If you want to read some of my previous serverless musings head over to [my profile](https://medium.com/@adnanrahic) or [join my serverless newsletter!](https://upscri.be/b6f3d5/)
 
