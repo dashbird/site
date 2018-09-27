@@ -1,7 +1,7 @@
 ---
 title: Serverless with AWS - Image resize on-the-fly with Lambda and S3
 description: Handling large images has always been a pain in my side since I started writing code. Here's how you can solve it with serverless.
-date: 2018-09-26T00:00:00.000Z
+date: 2018-09-27T00:00:00.000Z
 frontImage: "2018-09-26/header.jpeg"
 thumbnail: "images/blog/2018-09-26/header.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'
