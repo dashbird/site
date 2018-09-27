@@ -42,7 +42,7 @@ As a Fortune 100 company, <strong>Verizon</strong> switched to serverless almost
 This is not to say, small business can't benefit tremendously from using serverless technology. In fact, small business will see the more obvious benefits like all the cost benefits or security benefits faster than perhaps the big enterprise applications. 
 
 <h2>Taking a dive in the deepend</h2>
-<a href="http://moonmail.io">Moonmail</a> is pretty awesome emailing service used by companies like Nespresso, Amazon, Circle and many more. They switched from using a traditional approach to servers, from using RoR on EC2 to serverless and it's best explained in a <a href="https://serverless.com/blog/moonmail-serverless-framework-powered-architecture/">post</a> by <a href="https://twitter.com/ccverak">Carlos Castellanos</a> where he details the journey form EC2 to AWS Lambda.
+<a href="http://moonmail.io">Moonmail</a> is a pretty awesome emailing service used by companies like Nespresso, Amazon, Circle and many more. They switched from using a traditional approach to servers, from using RoR on EC2 to serverless and it's best explained in a <a href="https://serverless.com/blog/moonmail-serverless-framework-powered-architecture/">post</a> by <a href="https://twitter.com/ccverak">Carlos Castellanos</a> where he details the journey form EC2 to AWS Lambda.
 
 
 >We realized that just wasn't possible with the architecture we were using at the time since it relied too heavily on EC2 and Ruby on Rails. So, we decided to embark on a never-ending journey in perfecting the art and science of sending emails.
