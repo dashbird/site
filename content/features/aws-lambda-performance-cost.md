@@ -70,7 +70,7 @@ date: 2017-11-06T10:50:03+02:00
           <form name="trial-form">
             <label class="input-group">
               <input type="text" class="form-control" placeholder='Email' name='email' required>
-              <button class="input-group-addon" type="submit">Start Free Trial</button>
+              <button class="input-group-addon" type="submit">Get Started For Free</button>
             </label>
           </form>
           <p class="text-center small">No credit card required</p>

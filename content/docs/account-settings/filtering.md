@@ -47,6 +47,14 @@ Lets imagine that you only want to monitor productions Lambda functions and your
 
 <br>
 
+#### 3) Inclusion/Exclusion of functions from different regions
+
+What if you want to import all with the `*-dlq-*` pattern from `eu-central-1`, while excluding all other functions. That's pretty easy.
+
+![include one region and exclude others](/images/docs/filtering-regions.png)
+
+<br>
+
 ### Conclusion
 
 Since you can add as many filters as you like, you can specify rules that follow your preferences to the letter. If you have a complex use case for filtering, feel free to contact support from the chat bubble or write at <a href='mailto:support@dashbird.io'>support@dashbird.io</a>.

@@ -1,6 +1,6 @@
 ---
 title: AWS Lambda Cost Calculator, Pricing Estimation - Dashbird
-description: Estimate the cost of using AWS Lambda functions. This AWS Lambda cost calculator is based on Amazon's pricing info. 
+description: Estimate the cost of using AWS Lambda functions. This AWS Lambda cost calculator is based on Amazon's pricing info.
 thumbnail: images/lambda-cost-calculator.png
 date: 2017-12-18T10:50:03+02:00
 scripts:
@@ -63,8 +63,8 @@ scripts:
 
   <div class='row justify-content-center mt-5 '>
     <div class='col-8 text-center'>
-      <h3>Want to cut your AWS Lambda costs even more?</h3>
-      <h5><a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Try Dashbird For Free!</a></h5>
+      <h3>Get Dashbird - leading monitoring and troubleshooting tool for serverless applications!</h3>
+      <h5><a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Sign up for free</a></h5>
     </div>
   </div>
 

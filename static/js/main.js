@@ -32,8 +32,6 @@ $(document).ready(function () {
   })
 
   var prices = {
-    24: { annual: 24, monthly: 29, volume: 5 },
-    99: { annual: 99, monthly: 115, volume: 25 },
     299: { annual: 299, monthly: 350, volume: 100 },
     595: { annual: 595, monthly: 700, volume: 200 },
     990: { annual: 990, monthly: 1150, volume: 300 }
@@ -64,20 +62,19 @@ $(document).ready(function () {
     Attribution required
     */
 
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 3;
-    var totalItems = $('#carouselCaseStudies .carousel-item').length;
+    var $e = $(e.relatedTarget)
+    var idx = $e.index()
+    var itemsPerSlide = 3
+    var totalItems = $('#carouselCaseStudies .carousel-item').length
     if (idx >= totalItems - (itemsPerSlide - 1)) {
-      var it = itemsPerSlide - (totalItems - idx);
+      var it = itemsPerSlide - (totalItems - idx)
       for (var i = 0; i < it; i++) {
         // append slides to end
-        if (e.direction == "left") {
-          $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner');
-        }
-        else {
-          console.log('ajunge');
-          $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner');
+        if (e.direction == 'left') {
+          $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner')
+        } else {
+          console.log('ajunge')
+          $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner')
         }
       }
     }
@@ -114,65 +111,56 @@ $(document).ready(function () {
     $('#carousel-example-multi').carousel({ interval: 4000 })
   }
 
-
   var prices = {
-    1: { annual: 24, monthly: 29, volume: 5 },
-    2: { annual: 99, monthly: 115, volume: 25 },
-    3: { annual: 299, monthly: 350, volume: 100 },
-    4: { annual: 595, monthly: 700, volume: 200 },
-    5: { annual: 990, monthly: 1150, volume: 300 },
-    6: { annual: 0, monthly: 0, volume: '300+' }
+    1: { annual: 299, monthly: 350, volume: 100 },
+    2: { annual: 595, monthly: 700, volume: 200 },
+    3: { annual: 990, monthly: 1150, volume: 300 },
+    4: { annual: 0, monthly: 0, volume: '300+' }
   }
 
-
-
-  var slider = new Slider("#price-slider", {
-    ticks: [1, 2, 3, 4, 5, 6],
+  var slider = new Slider('#price-slider', {
+    ticks: [1, 2, 3, 4],
     ticks_snap_bounds: 5,
-    ticks_labels: ['5', '25', '100', '200', '300', '300+'],
+    ticks_labels: ['100', '200', '300', '300+'],
     formatter: function (value) {
       var priceLevel = prices[value]
       if (priceLevel) {
         if (value == 1) {
-          $('.tooltip-main').addClass('first');
+          $('.tooltip-main').addClass('first')
         } else {
-          $('.tooltip-main').removeClass('first');
+          $('.tooltip-main').removeClass('first')
         }
-        if (value == 6) {
-          $('.tooltip-main').addClass('last');
+        if (value == 4) {
+          $('.tooltip-main').addClass('last')
         } else {
-          $('.tooltip-main').removeClass('last');
+          $('.tooltip-main').removeClass('last')
         }
 
         if (priceLevel.annual == '0') {
-          $('.no-price').removeClass('d-none');
-          $('.has-price').addClass('d-none');
+          $('.no-price').removeClass('d-none')
+          $('.has-price').addClass('d-none')
         } else {
-          $('.has-price').removeClass('d-none');
-          $('.no-price').addClass('d-none');
+          $('.has-price').removeClass('d-none')
+          $('.no-price').addClass('d-none')
         }
 
-        $('.custom-tooltip').remove();
-        $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>');
-        $("#annual-cost").html(priceLevel.annual)
-        $("#monthly-cost").html(priceLevel.monthly)
+        $('.custom-tooltip').remove()
+        $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>')
+        $('#annual-cost').html(priceLevel.annual)
+        $('#monthly-cost').html(priceLevel.monthly)
         // return ;
       }
     },
     step: 1
-  });
-
+  })
 
   // acordion - add collapse class for all items
   $.each($('.accordion .card'), function (index, value) {
     if ($(this).find('.collapse').hasClass('hide')) {
-      $(this).find('.card-header').find('h5').addClass('collapsed');
+      $(this).find('.card-header').find('h5').addClass('collapsed')
     }
     if (index == 0) {
-      $(this).find('.card-header').find('h5').click();
+      $(this).find('.card-header').find('h5').click()
     }
-  });
-
-
-
+  })
 })

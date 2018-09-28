@@ -310,7 +310,7 @@ date: 2017-11-06T10:50:03+02:00
       <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
       <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
       <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-          <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Start Free Trial</button>
+          <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
           <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
       </form>
     </div>
