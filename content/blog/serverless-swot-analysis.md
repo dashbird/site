@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-08-12/pexels-photo-767197.jpeg"
 authorlink: 'https://twitter.com/@rehemagi'
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-blog: ["AWS", "Lambda", "FAQ"]
+blog: ["Serverless", "AWS", "Lambda", "FAQ"]
 ---
 
 Building a serverless application means you usually trade in old issues for new ones. This is an attempt to create a decision framework and break down arguments for and against using serverless vs. other computing models. 
