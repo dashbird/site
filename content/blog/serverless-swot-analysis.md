@@ -26,7 +26,7 @@ This is also an open document which I will keep improving in the future. Edits a
 ## Weaknesses
 1) **Troubleshooting and testing** - It's difficult to test locally and it's difficult to navigate debugging data. You can set up a local environment for testing but it will take a lot of effort. <a href='https://dashbird.io/features/' target='_blank'>Dashbird</a> is good for observing and debugging production architectures.
 
-3) **Learning curve** - New patterns and tooling can take a while to learn and adopt.
+2) **Learning curve** - New patterns and tooling can take a while to learn and adopt.
 
 3) **Developer onboarding** -  Bigger learning curve for new developers mid-project.
 
@@ -48,9 +48,9 @@ to make it navigable and simplify troubleshooting.
 ## Threats
 1) **Performance issues and latency** - Poorly constructed architectures, cold starts and database connections running out.
 
-4) **Lock in** - Hard to migrate to Docker containers later if for some reason that's necessary.
+2) **Lock in** - Hard to migrate to Docker containers later if for some reason that's necessary.
 
-5) **Security** - Bigger surface area for loopholes and higher complexity for security audits.
+3) **Security** - Bigger surface area for loopholes and higher complexity for security audits.
 
 ## Conclusion
 As you can see there are significant upsides and downsides, but if you make sure to structure your software right, the benefits greatly outweigh the downsides!
