@@ -25,27 +25,31 @@ aliases:
             <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
             <!-- <form name="register-form"> -->
                 <div class="input-group flex-column mb-15px">
-                    <label for="email">Email</label>
+                    <label for="email">Email <span class='text-danger'>*</span></label>
                     <input type="email" class="form-control cta-input w-100-percent" placeholder='johndoe@email.com' name="email" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="firstName">First name</label>
+                    <label for="firstName">First name <span class='text-danger'>*</span></label>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='John' name="firstName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="lastName">Last name</label>
+                    <label for="lastName">Last name <span class='text-danger'>*</span></label>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='Doe' name="lastName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="companyName">Company name</label>
+                    <label for="companyName">Company name <span class='text-danger'>*</span></label>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder="John's company" name="companyName" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="password">Password</label>
+                    <label for="lastName">Phone number</label>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='+XXX' name="phoneNumber">
+                </div>
+                <div class="input-group flex-column mb-15px">
+                    <label for="password">Password <span class='text-danger'>*</span></label>
                     <input type="password" class="form-control cta-input w-100-percent" placeholder='superdupersecret' name="password" required>
                 </div>
                 <div class="input-group flex-column mb-15px">
-                    <label for="confirmPassword">Confirm password</label>
+                    <label for="confirmPassword">Confirm password <span class='text-danger'>*</span></label>
                     <input type="password" class="form-control cta-input w-100-percent" placeholder='please confirm it!' name="confirmPassword" required>
                 </div>
                 <div class="input-group flex-column mt-40px">
