@@ -5,7 +5,6 @@ date: 2018-07-20
 frontImage: "2018-07-20/lambda-performance-monitoring.jpeg"
 thumbnail: "images/blog/2018-07-20/lambda-performance-monitoring.jpeg"
 author: Nemanja Novkovic
-featloc: blog-header
 featpop: most-popular
 blog: ["Serverless", "Lambda", "Monitoring"]
 ---

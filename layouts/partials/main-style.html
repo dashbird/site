@@ -2217,6 +2217,60 @@ p.justify-content-center {
 }
 
 
+/* landing pages */
+
+.landing-titles{
+  font-size: 32px; 
+  font-weight: 500; 
+  letter-spacing: -0.58px; 
+  line-height: 44px;
+  text-align: center;
+}
+
+.landing-text-inner{
+  float: right;
+  text-align: center;
+}
+
+.landing-img img{
+  max-width: 100%;
+}
+.landing-text-inner p{
+  color: #66758D;
+  font-size: 18px;  
+  line-height: 32px;
+}
+
+
+
+.landing-content .row .landing-img{
+  order: 2;
+}
+
+.absolute-center {
+
+/* Internet Explorer 10 */
+display:-ms-flexbox;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Opera, and Chrome */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+
+}
+
 
 /*responsive*/
 /*// ONLY Small devices (landscape phones, 576px and up)*/
@@ -2561,6 +2615,41 @@ p.justify-content-center {
   min-height: 500px
 }
 
+
+/* landing pages */
+
+
+.landing-content .row: .absolute-center {  
+  -ms-flex-pack:end;
+  -moz-box-pack:end;
+  -webkit-box-pack:end;
+  box-pack:end;
+}
+
+.landing-content .row .landing-img{
+  order: 2;
+}
+.landing-content .row:nth-child(2n) .landing-img{
+  order: 1;
+}
+.landing-content .row:nth-child(2n) .landing-text{
+  order: 2;
+}
+.landing-content .row:nth-child(2n) .absolute-center {  
+  -ms-flex-pack:start;
+  -moz-box-pack:start;
+  -webkit-box-pack:start;
+  box-pack:start;
+}
+
+.landing-titles{
+  font-size: 32px; 
+  line-height: 44px;
+}
+.landing-text-inner p{
+  font-size: 18px;  
+  line-height: 32px;
+}
 
 
   .pl-md-0{padding-left: 0rem !important}
