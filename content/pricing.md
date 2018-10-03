@@ -28,6 +28,7 @@ date: 2018-07-17T17:50:03+02:00
               <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">BASIC</h4>
               <p class="pricing-val">FREE</p>
               <p class="pricing-val-spec">up to 1GB</p>
+
             </div>
             <div class='text-center p-4 pt-0 bg-white'>
               <ul class='pricing-features pb-3'>
@@ -44,17 +45,31 @@ date: 2018-07-17T17:50:03+02:00
             <div class="col-inner">
               <div class="pricing-box bg-white top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
                 <h4 class="mt-2 mb-4 lpurple">PROFESSIONAL</h4>
+                <div class='row' id='custom' style='display:none'>
+                  <div class='col'>
+                    <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+                  </div>
+                </div>
                 <div id='priced' class="pb-3">
-                  <div class='row has-price' >
-                    <div class='col'>
-                      <span class="h1 annual-cost">$<span id='annual-cost'>2.99/GB</span></span>
-                      <p class="text-center my-2 small has-price">100GB minimum</p>
+                  <div class='row' >
+                    <div class="priced-slider p-4 pt-7 pb-3 w-100">
+                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4]" data-slider-ticks-snap-bounds="6" data-slider-value="1" data-slider-ticks-labels="['100 GBs', 200', '300', '300+']"/>
                     </div>
                   </div>
-                  <p class="text-center text-secondary my-2 small has-price">per month, paid annually or $<span id='monthly-cost'>3.50</span> monthly</p>
+                <div class='row d-none no-price' id='custom'>
+                  <div class='col'>
+                    <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+                  </div>
+                </div>
+                  <div class='row has-price' >
+                    <div class='col'>
+                      <span class="h1 annual-cost">$<span id='annual-cost'>299</span></span>
+                    </div>
+                  </div>
+                  <p class="text-center text-secondary my-2 small has-price">per month, paid annually or $<span id='monthly-cost'>350</span> monthly</p>
                 </div>
               </div>
-              <div class='text-center p-4 pt-0 bg-white'>
+              <div class='text-center  p-4 pt-0 bg-white'>
                 <ul class='pricing-features pb-3'>
                     <li>Live tailing</li>
                     <li>Full-text search</li>
@@ -67,14 +82,15 @@ date: 2018-07-17T17:50:03+02:00
             </div>
           </div>
           <div class="col-12 col-md-4 mw-240 mt-4 flex-order-3">
-            <div class="pricing-box bg-white top-lorange text-center p-4 pb-md-0 mb-0">
+            <div class="pricing-box bg-white top-lorange text-center p-4 pb-md-0 ">
               <h4 class="mt-2 mb-3 lorange roboto-mono">ENTERPRISE</h4>
               <p class=" h4">Unlimited</p>
               <p class="pricing-desc" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
-              <p class="pricing-val-spec" style='min-height:20px;'></p>
+              <p class="pricing-val"></p>
+              <p class="pricing-val-spec"></p>
             </div>
-            <div class='text-center p-4 pt-0 bg-white mt-0'>
-              <ul class='pricing-features pb-3' style='min-height: 0px;'>
+            <div class='text-center p-4 pt-0 bg-white'>
+              <ul class='pricing-features pb-3'>
                 <li>Enterprise level scale</li>
                 <li>Custom, multi-year data retention</li>
                 <li>Training and onboarding</li>
