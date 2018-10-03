@@ -14,8 +14,8 @@ $(function () {
   const $registerForm = $formArray[0]
   const emailElement = $registerForm[0]
   const firstNameElement = $registerForm[1]
-  const passwordElement = $registerForm[4]
-  const confirmPasswordElement = $registerForm[5]
+  const passwordElement = $registerForm[5]
+  const confirmPasswordElement = $registerForm[6]
 
   // event handlers
   passwordElement.onchange = validatePassword
