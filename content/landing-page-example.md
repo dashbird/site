@@ -15,7 +15,7 @@ btn_url: '#'
       <div class="col-12 col-md-6 landing-img">
         <img src="/images/landingpages/landinf-instant-faluire.png">
       </div>
-      <div class="col-12 col-md-6 landing-text absolute-center">
+      <div class="col-12 col-md-6 landing-text">
         <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
           <h5 class="landing-titles ">Instant failure detection and error alerts</h5>
           <p>You can get notified via Slack integration or emails about errors like: crashes, early exits, timeouts, cold starts, runtime errors and configuration errors.</p>
@@ -26,7 +26,7 @@ btn_url: '#'
       <div class="col-12 col-md-6 landing-img">
         <img src="/images/landingpages/effortless-debugging.png">
       </div>
-      <div class="col-12 col-md-6 landing-text absolute-center">
+      <div class="col-12 col-md-6 landing-text">
         <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
           <h5 class="landing-titles ">Effortless debugging and troubleshooting</h5>
           <p>Take advantage of Dashbird's error diagnostics, advanced log searching, function statistics, live tailing and tracing to troubleshoot and deliver better serverless applications.</p>
@@ -37,7 +37,7 @@ btn_url: '#'
       <div class="col-12 col-md-6 landing-img">
         <img src="/images/landingpages/track-full-extent.png">
       </div>
-      <div class="col-12 col-md-6 landing-text absolute-center">
+      <div class="col-12 col-md-6 landing-text">
         <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
           <h5 class="landing-titles ">Track the full extent of invocation flow</h5>
           <p>You can get notified via Slack integration or emails about errors like: crashes, early exits, timeouts, cold starts, runtime errors and configuration errors.</p>
