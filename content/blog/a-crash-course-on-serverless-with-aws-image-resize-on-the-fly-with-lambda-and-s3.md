@@ -7,7 +7,7 @@ thumbnail: "images/blog/2018-09-26/header.jpeg"
 authorlink: 'https://medium.com/@adnanrahic'
 author: Adnan Rahić
 author_image: '/images/team/adnan.png'
-canonical: 
+canonical: https://dev.to/adnanrahic/a-crash-course-on-serverless-with-aws---image-resize-on-the-fly-with-lambda-and-s3-4foo
 featpop: most-popular
 blog: ["Serverless", "Node.js", "AWS", "Lambda",  "S3"]
 ---
