@@ -118,41 +118,43 @@ $(document).ready(function () {
     4: { annual: 0, monthly: 0, volume: '300+' }
   }
 
-  var slider = new Slider('#price-slider', {
-    ticks: [1, 2, 3, 4],
-    ticks_snap_bounds: 5,
-    ticks_labels: ['100', '200', '300', '300+'],
-    formatter: function (value) {
-      var priceLevel = prices[value]
-      if (priceLevel) {
-        if (value == 1) {
-          $('.tooltip-main').addClass('first')
-        } else {
-          $('.tooltip-main').removeClass('first')
-        }
-        if (value == 4) {
-          $('.tooltip-main').addClass('last')
-        } else {
-          $('.tooltip-main').removeClass('last')
-        }
+  if( $('#price-slider').length > 0 ){
+    var slider = new Slider('#price-slider', {
+      ticks: [1, 2, 3, 4],
+      ticks_snap_bounds: 5,
+      ticks_labels: ['100', '200', '300', '300+'],
+      formatter: function (value) {
+        var priceLevel = prices[value]
+        if (priceLevel) {
+          if (value == 1) {
+            $('.tooltip-main').addClass('first')
+          } else {
+            $('.tooltip-main').removeClass('first')
+          }
+          if (value == 4) {
+            $('.tooltip-main').addClass('last')
+          } else {
+            $('.tooltip-main').removeClass('last')
+          }
 
-        if (priceLevel.annual == '0') {
-          $('.no-price').removeClass('d-none')
-          $('.has-price').addClass('d-none')
-        } else {
-          $('.has-price').removeClass('d-none')
-          $('.no-price').addClass('d-none')
-        }
+          if (priceLevel.annual == '0') {
+            $('.no-price').removeClass('d-none')
+            $('.has-price').addClass('d-none')
+          } else {
+            $('.has-price').removeClass('d-none')
+            $('.no-price').addClass('d-none')
+          }
 
-        $('.custom-tooltip').remove()
-        $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>')
-        $('#annual-cost').html(priceLevel.annual)
-        $('#monthly-cost').html(priceLevel.monthly)
-        // return ;
-      }
-    },
-    step: 1
-  })
+          $('.custom-tooltip').remove()
+          $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>')
+          $('#annual-cost').html(priceLevel.annual)
+          $('#monthly-cost').html(priceLevel.monthly)
+          // return ;
+        }
+      },
+      step: 1
+    })
+  }
 
   // acordion - add collapse class for all items
   $.each($('.accordion .card'), function (index, value) {
