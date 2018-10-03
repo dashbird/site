@@ -1,11 +1,14 @@
 ---
 title: Top 3 AWS Lambda Performance Monitoring Tools
-description: Performance monitoring that hurts neither the performance nor your wallet  .
+description: Performance monitoring that hurts neither the performance nor your wallet.
 date: 2018-10-03
-frontImage: "21-02-2018/"
-thumbnail: "images/blog/03-10-2018/"
+frontImage: "2018-07-20/lambda-performance-monitoring.jpeg"
+thumbnail: "images/blog/2018-07-20/lambda-performance-monitoring.jpeg"
 author: Ranvir Singh
+blog: ["Serverless", "Lambda", "Monitoring"]
+featloc: blog-header
 ---
+
 Serverless is often described as the abstraction to end all abstractions. VMs and standalone containers pale in comparison stateless functions. That pristine distinction between the application's code and its stateful data is something we all dream of. Scalability, observability and high availability can now be realized on a global scale. That said, just running your app on serverless doesn’t make it bullet-proof, neither should we believe that a Lambda function can make inefficient code run faster for us. Throwing resources at the problem doesn't solve it efficiently anymore.
 
 Only by gathering relevant metrics and analyzing it with rigorous logic can we eliminate bugs and improve performance. The problem is that there are very few performance monitoring solutions that understand serverless. Certain issues, like [Cold Starts](https://dashbird.io/blog/how-to-deal-with-cold-starts/), are unique to the Serverless and you need to ensure that your monitoring solution is aware of them.
