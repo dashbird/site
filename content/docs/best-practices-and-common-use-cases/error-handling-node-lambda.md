@@ -26,7 +26,7 @@ exports.handler = async (event) => {
 }
 ```
 
-When this lambda function is invoked, it will notify [AWS Lambda](https://aws.amazon.com/lambda/) that function execution completed with an error and passe the error information to AWS Lambda. AWS Lambda sends the error information to [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) where the logs are stored. Developers don't need to attach any agents inside their code. Which means, to start using [Dashbird](/register/), you don't need to do any code changes what-so-ever!
+When this lambda function is invoked, it will notify [AWS Lambda](https://aws.amazon.com/lambda/) that function execution completed with an error and passed the error information to AWS Lambda. AWS Lambda sends the error information to [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) where the logs are stored. Developers don't need to attach any agents inside their code. Which means, to start using [Dashbird](/register/), you don't need to do any code changes what-so-ever!
 
 In addition, with each error, you get the context. Logs of the whole invocation, along with memory usage, duration and other meaningful metrics.
 
