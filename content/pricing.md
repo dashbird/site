@@ -118,7 +118,6 @@ date: 2018-07-17T17:50:03+02:00
             <div class="card-header" id="headingOne">
               <h5 class="mb-0"class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   How do I know how many GB I'm using and what plan to choose?
-                <!-- </button> -->
               </h5>
             </div>
             <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -147,7 +146,7 @@ date: 2018-07-17T17:50:03+02:00
             </div>
             <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
               <div class="card-body">
-              The default data volume setting during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, you can always contact the sales team to cater a greater data volume need for your trial.
+              The default data ingeston limit during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
               </div>
             </div>
           </div>
@@ -183,40 +182,10 @@ date: 2018-07-17T17:50:03+02:00
             </div>
             <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionExample">
               <div class="card-body">
-                You will get 10% discount on all plans when you sign up for an annual subscription.
+                You will get a discount on all plans when you sign up for an annual subscription.
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid" style='background-image: url("/images/blake.jpg"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
-    <div class="row justify-content-center">
-      <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
-        <span class="h3 roboto-mono mt-5 mb-4 d-block">Over 700 companies trust Dashbird!</span>
-        <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
-        <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
-            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get started for free</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
-        </form>
-      </div>
-    </div>
-</section>
-
-<section class="container-fluid dark-bg">
-  <div class="row justify-content-center">
-    <div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
-        <span class='mx-auto roboto-mono text-light-gray'>Supported languages</span>
-      <div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 40px;'>
-        <div class='col-12 languages-icons '>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
         </div>
       </div>
     </div>
