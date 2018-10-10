@@ -53,7 +53,7 @@ date: 2018-07-17T17:50:03+02:00
                 <div id='priced' class="pb-3">
                   <div class='row' >
                     <div class="priced-slider p-4 pt-7 pb-3 w-100">
-                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4]" data-slider-ticks-snap-bounds="6" data-slider-value="1" data-slider-ticks-labels="['100 GBs', 200', '300', '300+']"/>
+                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4, 5]" data-slider-ticks-snap-bounds="6" data-slider-value="1" data-slider-ticks-labels="['100 GBs', '200', '300', '300+']"/>
                     </div>
                   </div>
                 <div class='row d-none no-price' id='custom'>
