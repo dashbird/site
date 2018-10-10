@@ -59,49 +59,6 @@ things Serverless, we want to make functions better for everybody.</p>
     <div class="col-md-9 mb-5">
       <div class="row">
         <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center">
-          <img src="/images/team/annika1.jpg" class="img-blue-border">
-          <img src="/images/pattern-blue.svg" class="pattern-blue">
-        </div>
-
-        <div class="col-md-6 bg-md-white team-text pl-5 pt-5">
-          <h1 class="">Annika Helendi</h1>
-          <span class="text-muted">FOUNDER & CMO</span>
-
-          <p class="lato h4 pt-4">Annika has no development background what-so-ever and thinks Lambdas are engine parts for old automobiles. Nobody has had the heart to tell her otherwise which has resulted in unusually high rates of traffic from car enthusiasts due to misdirected marketing efforts.</p>
-          <p class='lato h4 pt-4'>She steals our lunch money when we try to make fun of her.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center align-items-center mt-5">
-    <div class="col-md-9 mb-5">
-      <div class="row">
-
-        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-md-none">
-          <img src="/images/team/adnan.png" class="img-green-border">
-          <img src="/images/pattern-green.svg" class="pattern-green">
-        </div>
-
-        <div class="col-md-6 bg-md-white team-text pt-5">
-          <h1 class="">Adnan Rahić</h1>
-          <span class="text-muted">DEVELOPER & ADVOCATE</span>
-          <p class="lato h4 mt-4">Adnan is a unicorn. He's a developer, teacher and author with experience in Serverless, and DevOps.</p>
-          <p class="lato h4 pt-4">He talks way too much for being a developer, and practices magic when nobody is around. Not strange at all.</p>
-        </div>
-
-        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center d-none d-md-block">
-          <img src="/images/team/adnan.png" class="img-green-border">
-          <img src="/images/pattern-green.svg" class="pattern-green">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center align-items-center mt-5">
-    <div class="col-md-9 mb-5">
-      <div class="row">
-        <div class="col-md-6 z-1 m-0 p-0 text-center text-md-center">
           <img src="/images/team/reigo.jpg" class="img-blue-border">
           <img src="/images/pattern-blue.svg" class="pattern-blue">
         </div>
