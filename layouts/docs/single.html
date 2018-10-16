@@ -1,41 +1,30 @@
 {{ define "main" }}
 <section class="container-fluid dark-bg">
 
-  <div class="row justify-content-center">
-    <div class='col text-center mt-5'>
-      <a href='/docs' class='h1 text-center no-decoration'>Dashbird Documentation</a>
-      <p class='text-center mt-1'>Serverless monitoring and debugging guides, best practices and feature overviews.</span>
-    </div>
-  </div>
-
-  <div class="row justify-content-center">
-    <div class='col-lg-5 col-md-7 col-xm-8 col-xs-12 text-center'>
-      <label class="input-group">
-        <input type="text" class="form-control cta-input mr-2" placeholder='Search...' id='search-text'>
-        <button class="input-group-addon cta-btn cta-pink" id='submit-search'>Search</button>
-      </label>
-    </div>
-  </div>
-
-  <div class="row justify-content-center">
-    <div class='col-7 text-center mt-5' id='search-results'></div>
-  </div>
+  
 
 </section>
 
+
+
+
 {{ $currentPage := .  }}
 
-<section class="container-fluid bg-white">
+<section class="container-fluid bg-white docs-section">
   <div class="row justify-content-center">
-  <div class='col col-md-11 text-justify'>
+  <div class='col col-md-12 text-justify'>
     <div class="row">
-      <div class='col-md-4 col-xs-12 w-75 pt-5 d-md-block w-300'>
+      <div class='col-lg-3 col-sm-4 col-xs-12 pt-2 d-md-block dark-bg sf-ui-text docs-menu'>
         {{ $currentSubject := index .Params.kbSeries 0 }}
         <ul class='sidemenu lato sticky-top pt-4'>
+
+          <li class=''>
+            <a href='/'>Home</a>
+          </li>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
           <li class='{{ if eq $subject $currentSubject }}current-subject{{end}}'>
             <a href='javascript:;'>{{ substr $subject 1 }}</a>
-            <ol>
+            <ul>
               {{ range $taxonomy }}
                 <li class="{{ if eq .Page.URL $currentPage.URL }}active{{end}}">
                   <a href='{{ .Page.Permalink }}'>
@@ -43,15 +32,33 @@
                   </a>
                 </li>
               {{ end }}
-            </ol>
+            </ul>
           </li>
           {{ end }}
         </ul>
       </div>
 
-      <div class='col-md-8 col-xs-12 text-left mb-5 imgs-fluid lato kb m-w-900'>
-        <h1 class='text-center mt-5 mb-5'>{{ .Title }}</h1>
-        {{ .Content }}
+      <div class='col-lg-9  col-sm-8 col-xs-12 text-left mb-5 imgs-fluid lato kb justify-content-center'>
+        <div class="row justify-content-center">
+          <div class='col-lg-8 text-center mt-5'>
+            <div class="row justify-content-center">
+              <div class='col-12'>
+                <div class="input-group search-wrap">
+                  <input type="text" class="form-control cta-input mr-2" placeholder='Search the docs' id='search-text'>
+                  <button class="input-group-addon cta-btn cta-pink" id='submit-search'>Search</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class='col-8 text-center mt-5' id='search-results'></div>
+            </div>
+            <h1 class='text-center mt-5 mb-5'>{{ .Title }}</h1>
+            <div class="docs-content text-justify">
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
