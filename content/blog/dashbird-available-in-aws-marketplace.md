@@ -1,6 +1,6 @@
 ---
-title: Dashbird now available in AWS Marketplace
-description: We're proud to announce that Dashbird is now available straight from the AWS Markeptlace 
+title: Dashbird now available through AWS Marketplace
+description: We're proud to announce that Dashbird is now available to subscribe from the AWS Markeptlace.
 date: 2018-10-16
 frontImage: "2018-10-16/awsmarketplace.png"
 thumbnail: "images/blog/2018-10-16/awsmarketplace.png"
@@ -12,7 +12,7 @@ blog: ["Serverless", "Lambda", "Monitoring"]
 
 Dashbird is now available <a href='https://aws.amazon.com/marketplace' target='_blank'>at AWS Marketplace</a>. This means that now users can subscribe directly through AWS Marketplace and manage the subscription through AWS. <a href='https://aws.amazon.com/marketplace/pp/B07HFKB9VK' target='_blank'>You can see the listing and subscribe here</a>.
 
-![Dashbird Lambda profile](/images/blog/2018-10-15/awsmarketplace.png)
+![Dashbird Lambda profile](/images/blog/2018-10-16/awsmarketplace.png)
 
 As one of the first and most popular serverless visibility services we have seen a lot of interest from users to manage all their services connected to AWS from one place. During the last month, we've worked closely with the AWS Marketplace team to make that happen.
 
