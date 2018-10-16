@@ -35,4 +35,4 @@ If you're just starting out with Dashbird you can sign up through the AWS Market
 
 ___
 
-*Dashbird is the leading service to monitor and get insights into your serverless applications on AWS. You can set it up in 5 minutes (no code changes, just a CF stack deployment) and try it for free for the first 14-days.* 
+*Dashbird is the leading service to monitor and get insights into your serverless applications on AWS. You can set it up in 5 minutes (no code changes, just a CF stack deployment) and <a href='/' target='_blank'>try it for free for the first 14-days.</a>* 
