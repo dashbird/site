@@ -32,26 +32,24 @@ dated: 2017-10-29T17:50:03+02:00
 <section class="container-fluid blue-bg">
 
   <div class="row justify-content-center pt-5 ">
-    <div class='col-auto mb-5 mb-md-0'>
-      <a href='/blog/serverless-survey-results-benefits/' class='text-white' target='_blank'>
-      Serverless statistics <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/ic-arrow.svg" class="ic-arrow">
-      </a>
+    <div class='col-auto mb-5 mb-md-0 text-center'>
+      <a href='/blog/serverless-survey-results-benefits/' class='text-white' target='_blank'>Why Dashbird?</a>
     </div>
   </div>
   <div class="row justify-content-center pb-5">
-    <div class='col-auto m-2 m-md-5'>
-      <span class='h1 d-block text-center'>+77%</span>
-      <span class='mx-auto text-light-gray'>delivery speed</span>
+    <div class='col-3 m-2 m-md-5 text-center'>
+      <span class='h3 d-block text-center'>monitoring</span>
+      <span class='mx-auto text-light-gray'>performance, cost and activity tracking</span>
     </div>
 
-    <div class='col-auto m-2 m-md-5'>
-      <span class='h1 d-block text-center'>5 workdays</span>
-      <span class='mx-auto text-light-gray'>saved in a month per developer</span>
+    <div class='col-3 m-2 m-md-5 text-center'>
+      <span class='h3 d-block text-center'>error tracking</span>
+      <span class='mx-auto text-light-gray'>instant failure detection over all functions</span>
     </div>
 
-    <div class='col-auto m-2 m-md-5'>
-      <span class='h1 d-block text-center'>-26%</span>
-      <span class='mx-auto text-light-gray'>monthly AWS bill</span>
+    <div class='col-3 m-2 m-md-5 text-center'>
+      <span class='h3 d-block text-center'>structured logging</span>
+      <span class='mx-auto text-light-gray'>and FTS over all functions</span>
     </div>
   </div>
 </section>
