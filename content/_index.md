@@ -8,11 +8,11 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-6 center p-2">
-        <h1 class="text-center roboto-mono">Monitoring and troubleshooting for serverless applications</h1>
+        <h1 class="text-center roboto-mono">Monitor serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
-        <form class='form-inline justify-content-center mt-md-5' name="trial-form">
+        <form class='form-inline justify-content-center mt-md-5' name="trial-form" style='margin-top: 200px;'>
             <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
+            <!-- <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a> -->
         </form>
       </div>
     </div>
@@ -20,11 +20,11 @@ dated: 2017-10-29T17:50:03+02:00
 
   <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
     <div class="row justify-content-center socialproof-icons align-items-end">
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-shelf@2x.png">
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-nuviad@2x.png">
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-autopilot@2x.png">
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/socialproof/logo-blowout&go@2x.png">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-shelf@2x.png">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-nuviad@2x.png">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-autopilot@2x.png">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-blowout&go@2x.png">
     </div>
   </section>
 </div>
@@ -77,7 +77,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-overview@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" src="/images/img-scr-overview@2x.png">
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-11">
       <div class="row">
         <div class="d-none d-md-block col-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-errors@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/img-scr-errors@2x.png">
         </div>
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pr-0 pr-md-4 text-center text-md-left">
@@ -96,7 +96,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="d-block d-md-none col-12 col-md-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-errors@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/img-scr-errors@2x.png">
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-alerts@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/img-scr-alerts@2x.png">
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-11">
       <div class="row">
         <div class="d-none d-md-block col-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-invocation@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-invocation@2x.png">
         </div>
         <div class="col-12 col-md-5 d-flex align-items-center">
           <div class="w-100 w-md-75 mx-auto pr-0 pr-md-4 text-center text-md-left">
@@ -131,13 +131,11 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="d-block d-md-none col-12 col-md-7 imgs-fluid">
-          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="/images/img-scr-invocation@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/img-scr-invocation@2x.png">
         </div>
       </div>
     </div>
   </div>
-
-
 </section>
 
 <section class="container-fluid dark-bg">

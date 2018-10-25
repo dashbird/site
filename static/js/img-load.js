@@ -1,5 +1,6 @@
-/* global Blazy */
-/* eslint no-unused-vars: "off" */
-; (() => {
-  const bLazy = new Blazy()
-})()
+[].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {
+  img.setAttribute('src', img.getAttribute('data-src'))
+  img.onload = function () {
+    img.removeAttribute('data-src')
+  }
+})
