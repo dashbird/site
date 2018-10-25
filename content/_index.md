@@ -77,7 +77,7 @@ dated: 2017-10-29T17:50:03+02:00
           </div>
         </div>
         <div class="col-12 col-md-7 imgs-fluid">
-          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" src="/images/img-scr-overview@2x.png">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/img-scr-overview@2x.png">
         </div>
       </div>
     </div>
