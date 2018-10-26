@@ -1,5 +1,5 @@
 ---
-title: Serverless Troubleshooting
+title: AWS API Gateway Monitoring
 description: Knowing when something goes wrong is not enough, you need to know exactly where to look in order to find what went wrong.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
