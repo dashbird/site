@@ -1,5 +1,5 @@
 ---
-title: AWS API Gateway Monitoring
+title: Serverless Troubleshooting 
 description: Knowing when something goes wrong is not enough, you need to know exactly where to look in order to find what went wrong.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
@@ -17,8 +17,8 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">AWS API Gateway troubleshooting</h2>
-					<p>If your application does fail, the API Gateway error view is the place where you'll be able to gather all the necessary info to figure out what went wrong, allowing you to save countless hours of digging through endless logs.</p>
+					<h2 class="landing-titles ">Built by developers for developers</h2>
+					<p>Dashbird was built to aid developers in their effort to detect and understand their application failures in less time and with less effort.</p>
 				</div>
 			</div>
 		</div>
@@ -28,8 +28,8 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">AWS API Gateway monitoring</h2>
-					<p>With the Dashbird, you get more data about how your API Gateway layer is working behind the scenes. You'll see all the endpoints, calls, errors and much more, allowing you to get a head start on debugging your application.</p>
+					<h2 class="landing-titles ">Serverless troubleshooting</h2>
+					<p>If your application does fail, the error view is the place where you'll be able to gather all the necessary info to figure out what went wrong. All the relevant information will be there, from the full stack trace, occurrence count, reoccurrences and logs will be available in the Error View.</p>
 				</div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@ btn_url: 'https://dashbird.io/register/'
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Troubleshooting Aws Lambda </h2>
-					<p>Dashbird is built so that developers can detect and understand failures quickly and easily. Sign up now and start debugging your AWS API Gateway for free!</p>
+					<p>With Dashbird you get a clear overview of your application and error stacktraces will help you troubleshoot your serverless application issues a lot faster and with less of a hassle.</p>
 				</div>
 			</div>
 		</div>
