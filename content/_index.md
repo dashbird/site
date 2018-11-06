@@ -7,7 +7,7 @@ dated: 2017-10-29T17:50:03+02:00
 <div class='container-fluid text-white p-0' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/aws-lambda-monitoring.jpg"); background-size: cover;'>
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
-      <div class="col-lg-6 center p-2">
+      <div class="col-lg-9 center p-2">
         <h1 class="text-center roboto-mono">Monitor serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form" style='margin-top: 200px;'>
