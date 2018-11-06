@@ -15,9 +15,9 @@ date: 2018-03-12T11:50:03+02:00
     <div class="col-9 text-black mb-4" style='background-color:rgba(255, 255, 255, 0.7);'>
 
       <div class="row">
-        <div class="col-7">
-          <h2 class="mt-3 mb-3">Head of Sales</h2>
-          <p>We're looking for an experienced and organized sales person. You must be very fluent in English, have a lot of technical knowledge and previous experience in selling and managing teams.</p>
+        <div class="col-5">
+          <h1 class="mt-3 mb-3">Full-stack Developer</h1>
+          <p class='text-justify'>We're looking for a kick-ass full-stack engineer to join our experienced and fast-moving engineering team. If technologies like Node.js, React and cloud-computing ring a bell then this is for you!</p>
           <h5>What we offer:</h5>
           <ul>
             <li>Competitive salary</li>
@@ -26,32 +26,12 @@ date: 2018-03-12T11:50:03+02:00
             <li>Freedom of remote work</li>
             <li>Team meetups 2x per year</li>
           </ul>
-          <p><a href='mailto: taavi@dashbird.io'>Send me</a> your LinkedIn profile and tell us what motivates you to work with us.</p>
+          <p><a href='https://apply.hundred5.com/8V9P06EKKD70DPOFKDV' target='_blank'>Take this quick test</a> to see if you have what it takes!</p>
         </div>
-        <div class="col-5 p-0">
-          <img src="/images/team/taavi.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
-        </div>
-      </div>
-
-      <div class="row mt-5 pt-5">
-        <div class="col-5 p-0">
-          <img src="/images/team/annika.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
-        </div>
-        <div class="col-7">
-          <h2 class="mt-3 mb-3">Head of Customer Success</h2>
-          <p>We're looking for an experienced and organized customer success person. You must be very fluent in English, have a lot of technical knowledge and previous experience in customer success</p>
-          <h5>What we offer:</h5>
-          <ul>
-            <li>Competitive salary</li>
-            <li>Career growth potential as one of the first hires</li>
-            <li>Stock options</li>
-            <li>Freedom of remote work</li>
-            <li>Team meetups 2x per year</li>
-          </ul>
-          <p><a href='mailto: taavi@dashbird.io'>Send us</a> your LinkedIn profile and tell us what motivates you to work with us and if you have previous remote work experience.</p>
+        <div class="col-7 p-0">
+          <img src="/images/rocky-dashbird-office-dog.jpg" class="align-middle mx-auto d-block img-fluid p-0 m-0">
         </div>
       </div>
-
     </div>
   </div>
 </section>
