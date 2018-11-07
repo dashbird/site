@@ -1,6 +1,6 @@
 ---
-title: Serverless Visibility
-description: Knowing when something goes wrong is not enough, you need to know exactly where to look in order to find what went wrong.
+title: Serverless Monitoring
+description: Sleep easy at night knowing Dashbird constantly monitors your application and will let you know the second something goes awry.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
 twitter_summary: 'summary_large_image'
@@ -17,8 +17,8 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Why do you need serverless visibility?</h2>
-					<p>The way your application is developed and works have just gotten a whole lot better and more complex as it's tougher to see how things work behind the scenes. With Dashbird you get visibility into technical metrics of serverless architectures.</p>
+					<h2 class="landing-titles ">Know when it goes belly up</h2>
+					<p>Dashbird monitors and detects every failure from any programming language including crashes, early exits, timeouts and serverless configuration errors.</p>
 				</div>
 			</div>
 		</div>
@@ -28,8 +28,8 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Metrics allow optimization</h2>
-					<p>Dashbird provides function level views that enable developers to judge latency and memory usage. You use this view to optimize functions for cost efficiency by adjusting the provisioned memory to match the actual usage.</p>
+					<h2 class="landing-titles ">Microservice monitoring</h2>
+					<p>Perhaps you need to create dedicated dashboards that monitor functions that are only in production or you are developing a new functionality that needs special attention. No problem! With Dashbird you got that covered using custom project views.</p>
 				</div>
 			</div>
 		</div>
@@ -39,8 +39,8 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Easier troubleshooting</h2>
-					<p>Dashbird is built so that developers can detect and understand failures and provide visibility into their serverless applications. Sign up now and get visibility for free!</p>
+					<h2 class="landing-titles ">Serverless monitoring in real time</h2>
+					<p>That's right, with Dashbird's live tailing functionality you'll be able to track your functions as they execute, getting real-time feedback and logs based on each functions invocation. Great tool to have while developing your application.</p>
 				</div>
 			</div>
 		</div>
