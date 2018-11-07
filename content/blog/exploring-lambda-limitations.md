@@ -24,6 +24,7 @@ Runtime Environment limitations:
 * Memory range is from 128 to 1536 MB.
 * Maximum execution timeout for a function is 15 minutes*.
 
+
 Requests limitations by lambda:
 
 * Request and response body payload size are maximized to 6 MB.
