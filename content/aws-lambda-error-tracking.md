@@ -1,5 +1,5 @@
 ---
-title: AWS Lambda Error Trackign
+title: AWS Lambda Error Tracking
 description: Figuring out what went wrong in your serverless application can be a dauntnig task without a tool like Dashbird.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
