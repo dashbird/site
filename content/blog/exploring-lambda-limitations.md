@@ -18,12 +18,14 @@ Let's first have a look at the AWS Lambda deployment limits and address the 50 M
 <h2>AWS Lambda has the following limitations. </h2>
 
 Runtime Environment limitations:
+
 * The disk space is limited to 512 MB.
 * The default deployment package size is 50 MB.
 * Memory range is from 128 to 1536 MB.
 * Maximum execution timeout for a function is 15 minutes*.
 
 Requests limitations by lambda:
+
 * Request and response body payload size are maximized to 6 MB.
 * Event request body can be up to 128 KB.
 
@@ -76,15 +78,15 @@ Even after compressing and zipping the overall package size is about 132 MB.
 
 <strong>5 Next, we’ll create a lambda function via <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html">AWS CLI</a> and upload our deployment package directly to the function.</strong>
 
-```
+`
 aws lambda create-function --function-name mlearn-test --runtime nodejs6.10 --role arn:aws:iam::XXXXXXXXXXXX:role/Test-role --handler tensorml --region ap-south-1 --zip-file fileb://./MachineLearning.zip
-```
+`
 
 Replace XXXXXXXXXXXX with your AWS Account id. Since our package size is greater than 50 MB specified limit it throws an error.
 
-```
+``
 An error occurred (RequestEntityTooLargeException) when calling the UpdateFunctionCode operation: Request must be smaller than 69905067 bytes for the UpdateFunctionCode operation
-```
+``
 
 <strong>6 Since our deployment package is quite large we will load it again during AWS Lambda inference execution from Amazon S3. </strong>For this we need to create AWS S3 bucket from AWS CLI:
 
