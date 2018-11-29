@@ -116,15 +116,14 @@ $(document).ready(function () {
     1: { annual: 99, monthly: 115, volume: 25 },
     2: { annual: 299, monthly: 350, volume: 100 },
     3: { annual: 595, monthly: 700, volume: 200 },
-    4: { annual: 990, monthly: 1150, volume: 300 },
-    5: { annual: 0, monthly: 0, volume: '300+' }
+    4: { annual: 990, monthly: 1150, volume: 300 }
   }
 
   if( $('#price-slider').length > 0 ){
     var slider = new Slider('#price-slider', {
       ticks: [1, 2, 3, 4],
-      ticks_snap_bounds: 5,
-      ticks_labels: ['25', '100', '200', '300', '300+'],
+      ticks_snap_bounds: 4,
+      ticks_labels: ['25', '100', '200', '300'],
       formatter: function (value) {
         var priceLevel = prices[value]
         if (priceLevel) {
