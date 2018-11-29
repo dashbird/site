@@ -37,17 +37,17 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
   <div class="row justify-content-center pb-5">
-    <div class='col-3 m-2 m-md-5 text-center'>
+    <div class='m-2 m-md-5 text-center'>
       <span class='h3 d-block text-center'>monitoring</span>
       <span class='mx-auto text-light-gray'>performance, cost and activity tracking</span>
     </div>
 
-    <div class='col-3 m-2 m-md-5 text-center'>
+    <div class='m-2 m-md-5 text-center'>
       <span class='h3 d-block text-center'>error tracking</span>
       <span class='mx-auto text-light-gray'>instant failure detection over all functions</span>
     </div>
 
-    <div class='col-3 m-2 m-md-5 text-center'>
+    <div class='m-2 m-md-5 text-center'>
       <span class='h3 d-block text-center'>structured logging</span>
       <span class='mx-auto text-light-gray'>and FTS over all functions</span>
     </div>
