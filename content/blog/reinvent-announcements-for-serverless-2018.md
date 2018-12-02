@@ -76,7 +76,7 @@ AWS re:Invent, the biggest cloud-computing event of the year, ended on Friday an
 ## <a name='dynamodb-ondemand'></a>DynamoDB On-Demand
 **<u>What is it?</u>** No capacity planning and pay per-request billing model for DynamoDB.
 
-**<u>Why is it important?</u>** You don't have to determine the read and write capacity ahead of time, meaning you'll not run into throughput exceeded issues and also cut costs by not over-provisioning. Also you can save money with not over-provisioning any more. <a href='https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/' target="_blank">Read more about it from AWS blog.</a>
+**<u>Why is it important?</u>** You don't have to determine the read and write capacity ahead of time, meaning you'll not run into throughput exceeded issues and also cut costs by avoiding over-provisioning. <a href='https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/' target="_blank">Read more about it from AWS blog.</a>
 
 ## <a name='aurora-data-api'></a>Aurora Data API
 **<u>What is it?</u>** HTTP endpoint for accessing Serverless Aurora
