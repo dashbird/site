@@ -3,8 +3,9 @@ title: Serverless announcements at re:Invent 2018
 description: AWS is pushing serverless a lot with exciting releases. Check them out here!
 date: 2018-12-02
 frontImage: "2018-12-02/aws-lambda-layers.jpg"
-thumbnail: "2018-12-02/aws-lambda-layers.jpg"
+thumbnail: "images/blog/2018-12-02/aws-lambda-layers.jpg"
 author: Taavi Rehemägi
+author_image: '/images/team/taavi.jpg'
 authorLink: https://twitter.com/rehemagi
 blog: ["reInvent", "serverless", "AWS", "news"]
 ---
