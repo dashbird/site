@@ -46,7 +46,7 @@ AWS re:Invent, the biggest cloud-computing event of the year, ended on Friday an
 
 ## <a name='ruby-and-python-support'></a>Ruby and Python 3.7 support
 
-**<u>What is it?</u>** AWS Lambda not supports Ruby and Python 3.7. With the Python update you get the latest Python features like <a href='https://docs.python.org/3/library/dataclasses.html' target='_blank'>dataclasses</a>. Check out the AWS announcement for <a href='https://aws.amazon.com/blogs/compute/announcing-ruby-support-for-aws-lambda/' target='_blank'>Ruby support for AWS Lambda.</a>
+**<u>What is it?</u>** AWS Lambda now supports Ruby and Python 3.7. With the Python update you get the latest Python features like <a href='https://docs.python.org/3/library/dataclasses.html' target='_blank'>dataclasses</a>. Check out the AWS announcement for <a href='https://aws.amazon.com/blogs/compute/announcing-ruby-support-for-aws-lambda/' target='_blank'>Ruby support for AWS Lambda.</a>
 
 ## <a name='aws-ide-integration'></a>AWS IDE integration
 
