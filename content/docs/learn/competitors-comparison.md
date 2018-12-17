@@ -7,11 +7,7 @@ kbSeries: ["ALearn"]
 kbSeries_weight: 800
 ---
 
-<h2>
-  <span class="h2 underlined bold">
-    Dashbird
-  </span>
-</h2>
+### Dashbird
 
 Currently Dashbird uses logs for everything. This gives a real-life overview of things happening with your lambda functions and a possibility to deep dive into a single execution and see all logs from there.
 
@@ -33,13 +29,9 @@ _NB: we recently <a href="https://dashbird.io/blog/tracing-lambda-functions-with
 * slightly bigger delay
 * a potential max amount we can import per month (possible to overcome with sampling), due to AWS API constraints.
 
-Learn more about all the <a href="https://dashbird.io/docs/learn/features/" target="blank"> benefits and features Dashbird offers.<a/>
+Learn more about all the <a href="https://dashbird.io/docs/learn/features/" target="_blank">benefits and features Dashbird offers.<a/>
 
-<h2>
-  <span class="h2 underlined bold">
-    Datadog
-  </span>
-</h2>
+### Datadog
 
 Datadog uses StatsD protocol and metrics to capture information about lambdas. StatsD (or DogStatsD) is a time series metrics protocol where you can push custom events (like tasks added N) and then show data in Datadog environment. Using StatsD protocol means that you have to use Datadog library in your code and push the metrics manually.
 
@@ -58,11 +50,7 @@ Datadog is doing monitoring that is based on metrics and that means they are fet
 * really low granularity
 * not possible to dive into request specifics
 
-<h2>
-  <span class="h2 underlined bold">
-    IOpipe
-  </span>
-</h2>
+### IOpipe
 
 IOpipe uses their own library to send data to clients. This essentially means that the **client needs to add IOPIPEs code into their own codebase.** It brings a certain overhead to lambda functions and that can potentially be bad.
 

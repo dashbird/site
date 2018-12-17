@@ -7,11 +7,7 @@ kbSeries: ["FFAQ"]
 kbSeries_weight: 600
 ---
 
-<h2>
-  <span class="h2 underlined bold">
-    How do I invite my team members?
-  </span>
-</h2>
+### How do I invite my team members?
 You can invite as many team members to Dashbird as you like.
 
 _**Menu -> Users -> Add +**_

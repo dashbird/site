@@ -9,9 +9,7 @@ kbSeries_weight: 300
 
 Dashbird provides tracing possibilities through [AWS X-Ray](https://aws.amazon.com/xray/).
 
-<h2>
-  <span class="h2 underlined bold">How to enable X-Ray?</span>
-</h2>
+### How to enable X-Ray?
 
 To configure X-Ray integration on an AWS Lambda function:
 
@@ -24,18 +22,14 @@ To configure X-Ray integration on an AWS Lambda function:
 
 <br/>
 
-<h2>
-  <span class="h2 underlined bold">How it works?</span>
-</h2>
+### How it works?
 
 Dashbird automatically can detect if a function has [AWS X-Ray](https://aws.amazon.com/xray/) enabled or not.
 When opening an invocation belonging to a lambda that has X-Ray monitoring enabled it will fetch X-Ray data on-demand and show the results in an orderly fashion.
 
 Just from enabling X-Ray you get basic measurements and more insight. But to gain incredible value from X-Ray, you use the [X-Ray SDK](https://github.com/aws/aws-xray-sdk-node).
 
-<h2>
-  <span class="h2 underlined bold">How to use the X-Ray SDK?</span>
-</h2>
+### How to use the X-Ray SDK?
 
 Using the SDK is preferred because it supports instrumenting calls to SQL databases, automatic AWS SDK client instrumentation, and other awesome features as you can see below.
 
@@ -47,9 +41,7 @@ The X-Ray SDK provides:
 
 > ...you can instrument your Lambda functions with the same methods that you use to instrument applications running on other services. The primary difference is that you don't use the SDK to instrument incoming requests, make sampling decisions, and create segments. - **AWS Documentation**
 
-<h2>
-  <span class="h2 underlined bold">What's the benefit?</span>
-</h2>
+### What's the benefit?
 
 AWS X-Ray is a powerful tool that provides tracing data throughout the life of an AWS invocation. With the help of X-Ray it is possible to track the full extent of an invocation flow.
 

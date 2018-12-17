@@ -1185,58 +1185,62 @@ span.tooltip-desc{
     margin: 0 !important;
     line-height: 1.3rem;
   }
-  ul.sidemenu>li {
-    text-align: left;
+
+  .docs-sidebar {
+    background-color: rgba(240,244,250,0.24);
+    width: 340px;
+      border-right: 1px solid #E3E8F1;
   }
+
+  ul.sidemenu { margin-top: 20px; }
 
   ul.sidemenu>li {
     list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    box-shadow: inset 0 0.7px 0 0 #f0f0f0;
   }
 
-  ul.sidemenu>li:first-child {
-    box-shadow: inset 0 0 0 0 #f0f0f0;
+  ul.sidemenu > li {
+    padding-bottom: 16px;
   }
-
-  ul.sidemenu>li>a {
+  ul.sidemenu > li > a {
     color: black;
-    font-size: 1.3em;
+    font-weight: bold;
+    font-size: 1.1rem;
   }
 
-  ul.sidemenu li.active>a {
+  ul.sidemenu > li.active > a {
     color: #29D391;
   }
 
-  ul.sidemenu ol li {
-    list-style-type: decimal;
+  ul.sidemenu ul li {
+    list-style-type: none;
   }
 
-  ul.sidemenu ol {
+  ul.sidemenu ul {
     display: none;
   }
 
-  ul.sidemenu li.current-subject ol,
-  ul.sidemenu li.active ol {
+  ul.sidemenu li.current-subject ul,
+  ul.sidemenu li.active ul {
     display: block;
     margin: 10px 0 10px 0;
     padding-left: 25px;
     font-weight: 500;
   }
 
-  ul.sidemenu li ol li {
+  ul.sidemenu li ul li {
     padding-left: 10px;
     padding-bottom: 5px;
   }
 
   ul.sidemenu li.active>a {
-    color: #29D391;
-    font-weight: 700;
+    color: #4B45C6;
+    font-weight: bold;
   }
 
-  ul.sidemenu li.active ol>a {
-    padding-left: 30px;
+  ul.sidemenu>li>ul>li>a {
+    color: #66758D;
+    font-weight: 100;
+    margin-top:16px;
   }
 
   .kb :first-child h2 {
@@ -1265,6 +1269,11 @@ span.tooltip-desc{
 
   .m-w-900 {
     max-width: 900px;
+  }
+
+  h1.docs-title {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   .m-w-1200 {

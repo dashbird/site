@@ -7,11 +7,7 @@ kbSeries: ["FFAQ"]
 kbSeries_weight: 300
 ---
 
-<h2>
-  <span class="h2 underlined bold">
-    Is there added cost to my AWS bill?
-  </span>
-</h2>
+### Is there added cost to my AWS bill?
 **There is <u>almost no added cost</u> to your AWS bill.**
 
 AWS prices Data-transfer out of CloudWatch equivalently to Data-transfer from EC2. <br>Check it out for yourself on AWS at <a href="https://aws.amazon.com/cloudwatch/pricing/" target='_blank'>CloudWatch pricing</a>

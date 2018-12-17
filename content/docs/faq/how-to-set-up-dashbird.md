@@ -8,11 +8,7 @@ kbSeries_weight: 100
 ---
 
 
-<h2>
-  <span class="h2 underlined bold">
-    How do I set up Dashbird?
-  </span>
-</h2>
+### How do I set up Dashbird?
 Setting up Dashbird takes under 5 minutes and requires no code changes.
 
 To start, [sign up](/register) and follow the on-screen instructions to link your AWS account with Dashbird.

@@ -7,12 +7,5 @@ kbSeries: ["ALearn"]
 kbSeries_weight: 600
 ---
 
-##### _**Note**: Latency is the delay between giving a system input and until it returns the desired outcome._
-
-<h2>
-  <span class="h2 underlined bold">
-    What is the latency of Dashbird?
-  </span>
-</h2>
-
-It usually takes under <u>**30 seconds**</u> for invocations to be visible in Dashbird.
+### What is the latency of Dashbird?
+It usually takes under 30 seconds after the execution for invocations to be visible in Dashbird.

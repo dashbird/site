@@ -13,15 +13,12 @@ aliases:
 By using **public AWS APIs** to fetch data from your AWS account, we produce actionable metrics and detailed data **without the need of editing any code!**
 
 For it to work, Dashbird needs **limited** read access to your AWS account to collect the data. You give Dashbird access by using our custom made onboarding flow. It will create a CloudFormation template that sets up all necessary policies and roles. [Click here to find detailed instructions.](/docs/get-started/quick-start/)
-<h2>
-  <span class="h2 underlined bold">Which functions are we importing?</span>
-</h2>
+
+### Which functions are we importing?
 
 Dashbird polls lambda functions from all regions after a fixed interval of 10 minutes. By default, all functions are imported. It's possible to create custom importing limits from the [client settings](https://app.dashbird.io/client).
 
-<h2>
-  <span class="h2 underlined bold">Fetching data</span>
-</h2>
+### Fetching data
 
 Dashbird **periodically polls** your AWS account for data and saves everything to our servers. All the data we receive is encrypted and stored safely in region <b>us-east-1</b>.
 
@@ -29,12 +26,8 @@ The exact polling interval is determined by the amount of lambda functions and t
 
 Polling adheres to AWS limits and we track each and every throttle error from the AWS API, doing our best not to overwhelm them. However, if there are other services using the same client APIs, then throttles might still occur.
 
-<h2>
-  <span class="h2 underlined bold">Aggregator</span>
-</h2>
+### Aggregator
 After importing the first batch of logs, an aggregator starts, going through all imported data and extracting metrics by each invocation. The **Aggregator** detects the result, duration, memory usage and other meaningful information about the invocation.
 
-<h2>
-  <span class="h2 underlined bold">Error detection</span>
-</h2>
+### Error detection
 Dashbird <b>detects errors from invocations</b> and shows them in the UI for users to see and debug. They're **categorized by similarity**.

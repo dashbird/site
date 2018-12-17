@@ -11,58 +11,43 @@ aliases:
  - /docs/learn/core-benefits/
 ---
 
-#### Dashbird is a service to **monitor**, **debug** and **improve** your lambda functions.
-#### **It's tailor made to help develop serverless apps.**
+Dashbird is a service to **monitor**, **debug** and **improve** your lambda functions. **It's tailor made to help develop serverless apps.**
 
 Using serverless architectures is one of the fastest and cheapest ways of building scalable and cheap back-end applications. Yet, with large architectures, they can sometimes be hard to monitor and debug.
 
-**To understand the core benefits of using Dashbird go ahead and continue reading.**
-<br>**Or, [click here to jump into our Quick Start!](/docs/get-started/quick-start)**
+### Core Benefits
 
-<h2>
-  <span class="h2 underlined bold">Core Benefits</span>
-</h2>
 Dashbird provides an overview of all lambda executions across your entire account. Making it incredibly easy to keep an eye on all lambda functions and to know what's going on at any given moment.
 
 <a href='/images/docs/overview.png' target="_blank"><img alt='Main dashboard' src='/images/docs/overview.png'></a>
 
 <br>
 
-<h2>
-  <span class="h2 underlined bold">Project View</span>
-</h2>
+### Project View
+
 Dashbird allows you to group lambda functions any way you like. This allows you to construct a dashboard for a service or set of functions. It will outline the load, any problems you might face, the cost and other important metrics.
 
 <a href='/images/docs/serviceview.png' target="_blank"><img alt='Project dashboard' src='/images/docs/project-view.png'></a>
 
 <br>
 
-<h2>
-  <span class="h2 underlined bold">Function View</span>
-</h2>
+### Function View
+
 This dashboard shows health, cost and other meaningful statistics of a single lambda function. You can also see the invocation history and pinpoint errors at a glance.
 
 <a href='/images/docs/functionview.png' target="_blank"><img alt='Function dashboard' src='/images/docs/functionview.png'></a>
 
 <br>
 
-<h2>
-  <span class="h2 underlined bold">Invocation View</span>
-</h2>
+### Invocation View
+
 An overview with logs for each invocation.
 
 <a href='/images/docs/invocation.png' target="_blank"><img alt='Invocation view' src='/images/docs/invocation.png'></a>
 
-<h2>
-  <span class="h2 underlined bold">Error Tracking</span>
-</h2>
+<br>
+
+### Error Tracking
 Track your lambdas in real time and debug errors with stack traces, just like you're used to.<br> Dashbird **detects errors in your code** as well. You can fix errors immediately when something is visibly wrong!
 
 <a href='/images/docs/errorview.png' target="_blank"><img alt='Error view' src='/images/docs/errorview.png'></a>
-
-
-<h2>
-  <span class="h2 underlined bold">Next steps...</span>
-</h2>
-##### [**Click here**](/docs/get-started/quick-start) to **get started** with Dashbird!
-##### If you're curious, and want to read about how Dashbird works, [check this out](/docs/learn/how-it-works)!
