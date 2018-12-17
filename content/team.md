@@ -74,14 +74,14 @@ date: 2017-10-29T17:50:03+02:00
   </div>
 
   <div class="row justify-content-center bg-white">
-    <div class="col-9" style='padding: 80px 0 80px;'>
-      <div class="row justify-content-center align-items-center">
-        <div class='col-12 col-md-5 mb-5 mb-md-0 text-center'>
-          <h3 class='underlined d-inline-block'>Our investors</h3>
+    <div class="col-md-10" style='padding-top: 80px; padding-bottom: 80px;'>
+      <div class="row align-items-center">
+        <div class='col-12 col-md-4 mb-5 mb-md-0 text-center'>
+          <h1 class='underlined d-inline-block'>Our investors</h1>
         </div>
-        <div class='col-12 col-md text-center'><img height=100 src='/images/passion-capital.png'></div>
-        <div class='col-12 col-md text-center'><img height=100 src='/images/icebreaker.png'></div>
-        <div class='col-12 col-md text-center'><img height=100 src='/images/lift.png'></div>
+        <div class='col-12 col-md-2 text-center'><img height=100 src='/images/passion-capital.png'></div>
+        <div class='col-12 col-md-2 text-center'><img height=100 src='/images/icebreaker.png'></div>
+        <div class='col-12 col-md-2 text-center'><img height=100 src='/images/lift.png'></div>
     </div>
   </div>
 </section>

@@ -1,7 +1,7 @@
 /* eslint-env jquery */
 /* global lunr */
 
-let lunrIndex, $results, pagesIndex, $searchText, $searchButton
+let lunrIndex, $results, $resultsContainer, pagesIndex, $searchText, $searchButton, $nonResults, $backToArticle
 
 function initLunr () {
   $.getJSON('/js/docs.json') // major hack - find a better way to do this
@@ -28,12 +28,18 @@ function initLunr () {
 }
 
 function initUI () {
+  $resultsContainer = $('#search-results-row')
   $results = $('#search-results')
+  $resultsEmpty = $('#results-empty')
   $searchText = $('#search-text')
   $searchButton = $('#submit-search')
+  $nonResults = $('#non-results')
+  $backToArticle = $('#back-to-article')
+
   $searchText.keyup(function (event) {
     if (event.keyCode === 13) $searchButton.click()
   })
+
   $searchButton.on('click', function () {
     $results.empty()
     const query = $searchText.val()
@@ -42,6 +48,11 @@ function initUI () {
     }
     const results = search(query)
     renderResults(results)
+  })
+
+  $backToArticle.on('click', function() {
+    $resultsContainer.addClass('d-none')
+    $nonResults.removeClass('d-none')
   })
 }
 
@@ -65,8 +76,14 @@ function renderOneResult (result) {
 }
 
 function renderResults (results) {
+  $resultsContainer.removeClass('d-none')
+  $nonResults.addClass('d-none')
+
   if (!results.length) {
-    return $results.append(`<p>No results found. Try again!</p>`)
+    $resultsEmpty.removeClass('d-none')
+    return
+  } else {
+    $resultsEmpty.addClass('d-none')
   }
   const matches = results.slice(0, 10)
 
@@ -76,6 +93,7 @@ function renderResults (results) {
     $result.append(renderOneResult(result))
     $results.append($result)
   })
+
 }
 
 initLunr()

@@ -26,19 +26,33 @@
         </ul>
       </div>
 
-      <div class='text-justify imgs-fluid m-w-900' style='margin: 0 auto;'>
-        <!-- <div> -->
-        <!--   <div class="input-group"> -->
-        <!--     <div class="input-group-prepend"> -->
-        <!--       <span class="input-group-text" id="searchPrepend"><i class="fa fa-search" aria-hidden="true"></i></span> -->
-        <!--     </div> -->
-        <!--     <input type="text" class="form-control d-inline-block" placeholder="Username" aria-describedby="searchPrepend"> -->
-        <!--   </div> -->
-        <!--   <button type="submit" class="cta-btn cta-pink">Search</button> -->
-        <!-- </div> -->
+      <div class='text-justify imgs-fluid m-w-900' style='margin: 75px auto 30px;'>
 
-        <h1 class='mt-5 mb-4 docs-title'>{{ .Title }}</h1>
-        {{ .Content }}
+        <div class="row">
+          <div class='col-12 m-w-900'>
+            <label class="input-group">
+              <span class="glyphicon glyphicon-search"></span>
+              <input type="text" class="form-control form-control-sm cta-input-sm mr-2" placeholder='Search the docs' id='search-text'>
+              <button class="input-group-addon cta-btn-sm cta-pink" id='submit-search'>Search</button>
+            </label>
+          </div>
+        </div>
+
+        <div class="row d-none" id='search-results-row'>
+          <div class='col-12' style='min-width: 900px;'>
+            <div id='results-empty'>
+              <h3 class='d-block text-center' style='margin-top: 200px;'>Nothing came up.</h3>
+              <p class='text-center'>Try with different keywords or contact using the chat bubble.</p>
+              <p class='mb-5 text-center'><a href='javascript:;' id='back-to-article'>Back to article.</a></p>
+            </div>
+            <div id='search-results'></div>
+          </div>
+        </div>
+
+        <div id='non-results'>
+          <h1 class='mt-5 mb-4 docs-title'>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
       </div>
 
     </div>
