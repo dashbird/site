@@ -1,6 +1,6 @@
 ---
 date: 2017-06-05
-title: What Is Dashbird?
+title: What is Dashbird?
 linktitle: What's Dashbird?
 description: Dashbird is the leading serverless monitoring and troubleshooting platform that helps software engineers to launch agile serverless websites and software.
 kbSeries: ["ALearn"]

@@ -1,41 +1,62 @@
 {{ define "main" }}
-
-<section class="container-fluid">
-
+{{ $currentPage := .  }}
+<section class="container-fluid bg-white">
   <div class="row justify-content-center">
-    <div class='col text-center mt-5 pt-4 mb-4'>
-      <span class='h1 text-center'>Dashbird Documentation</span>
-      <p class='text-center mt-1'>Serverless monitoring and debugging guides, best practices and feature overviews.</span>
-    </div>
-  </div>
 
-  <div class="row justify-content-center">
-    <div class='col-lg-5 col-md-7 col-xm-8 col-xs-12 text-center'>
-      <label class="input-group">
-        <input type="text" class="form-control cta-input mr-2" placeholder='Search...' id='search-text'>
-        <button class="input-group-addon cta-btn cta-pink" id='submit-search'>Search</button>
-      </label>
-    </div>
-  </div>
+  <div class='col col-md-12 text-justify'>
+    <div class="row ">
 
-  <div class="row justify-content-center">
-    <div class='col-7 text-center mt-5' id='search-results'></div>
-  </div>
-
-</section>
-
-<section class="container-fluid dark-bg">
-  <div class="row justify-content-center p-5">
-      {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
-        <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12 dark-bg p-4 ml-2 mr-2 mt-4 bg-white'>
-          <h3 class='text-center mb-4'>{{ substr $subject 1 }}</h3>
-          <ol>
-          {{ range $taxonomy }}
-            <li class='p-0 text-left m-2'><a href='{{ .Page.Permalink }}'>{{ .Page.LinkTitle }}</a></li>
+      <div class='docs-sidebar'>
+        {{ $currentSubject := index .Params.kbSeries 0 }}
+        <ul class='sidemenu sticky-top pt-4'>
+          {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
+          <li class='{{ if eq $subject $currentSubject }}current-subject{{end}} sf-ui-text'>
+            <a href='javascript:;'>{{ substr $subject 1 }}</a>
+            <ul>
+              {{ range $taxonomy }}
+                <li class="{{ if eq .Page.URL $currentPage.URL }}active{{end}}">
+                  <a href='{{ .Page.Permalink }}'>
+                    {{ .Params.LinkTitle }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </li>
           {{ end }}
-          </ol>
+        </ul>
+      </div>
+
+      <div class='text-justify imgs-fluid m-w-900' style='margin: 75px auto 30px;'>
+
+        <div class="row">
+          <div class='col-12 m-w-900'>
+            <label class="input-group">
+              <span class="glyphicon glyphicon-search"></span>
+              <input type="text" class="form-control form-control-sm cta-input-sm mr-2" placeholder='Search the docs' id='search-text'>
+              <button class="input-group-addon cta-btn-sm cta-pink" id='submit-search'>Search</button>
+            </label>
+          </div>
         </div>
-      {{ end }}
+
+        <div class="row d-none" id='search-results-row'>
+          <div class='col-12' style='min-width: 900px;'>
+            <div id='results-empty'>
+              <h3 class='d-block text-center' style='margin-top: 200px;'>Nothing came up.</h3>
+              <p class='text-center'>Try with different keywords or contact using the chat bubble.</p>
+              <p class='mb-5 text-center'><a href='javascript:;' id='back-to-article'>Back to article.</a></p>
+            </div>
+            <div id='search-results'></div>
+          </div>
+        </div>
+
+        <div id='non-results'>
+          <h1 class='mt-5 mb-4 docs-title'>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 {{ end }}
+
