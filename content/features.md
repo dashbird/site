@@ -287,6 +287,20 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </div>
 </section>
+
+<section class="container-fluid py-8 py-md-10" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
+        <span class="h3 roboto-mono mt-5 mb-4 d-block">Start using Dashbird for free!</span>
+        <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
+        <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
+            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
+            <a href='javascript:;' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto video-btn request-demo" data-target="#demoModal" data-toggle="modal" data-src="https://www.youtube.com/embed/9BxqA_kBq1Q">View demo video</a>
+        </form>
+      </div>
+    </div>
+</section>
+
 <section class="container-fluid bg-white">
   <div class="row justify-content-center">
     <div class='col-12 col-md-7 text-center' style='padding-top: 30px;'>
@@ -303,6 +317,21 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </div>
 </section>
+
+<div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
   fbq('track', 'ViewContent', {

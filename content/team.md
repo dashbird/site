@@ -22,7 +22,7 @@ date: 2017-10-29T17:50:03+02:00
               <img src="/images/team/taavi.jpg" class="img-blue-border">
               <h5>Taavi Rehemägi</h5>
               <p class="title">CEO & CO-FOUNDER</p>
-              <p class='intro'>Taavi is a developer with more than 10 years of experience. He has been an early employee in some big-name startups has experience in managing product and developer teams.</p>
+              <p class='intro'>Taavi is a developer with more than 10 years of experience. He has been an early employee in some big-name startups and has experience in managing product and developer teams.</p>
             </div>
 
             <div class="col-12 col-md-6 text-center">

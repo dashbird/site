@@ -11,8 +11,8 @@ dated: 2017-10-29T17:50:03+02:00
         <h1 class="text-center roboto-mono">Monitor serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
         <form class='form-inline justify-content-center mt-md-5' name="trial-form" style='margin-top: 200px;'>
-            <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
-            <!-- <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a> -->
+        <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
+          <a href='javascript:;' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto video-btn request-demo" data-target="#demoModal" data-toggle="modal" data-src="https://www.youtube.com/embed/9BxqA_kBq1Q">View demo video</a>
         </form>
       </div>
     </div>
@@ -270,7 +270,7 @@ dated: 2017-10-29T17:50:03+02:00
         <p class="mt-3 lh-3 d-block">Failure detection, analytics and visibility for serverless applications in under 5 minutes.</p>
         <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
             <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
-            <a href='/contact-us' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto request-demo">Request Demo</a>
+            <a href='javascript:;' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto video-btn request-demo" data-target="#demoModal" data-toggle="modal" data-src="https://www.youtube.com/embed/9BxqA_kBq1Q">View demo video</a>
         </form>
       </div>
     </div>
@@ -292,6 +292,21 @@ dated: 2017-10-29T17:50:03+02:00
 		</div>
 	</div>
 </section>
+
+<div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
 	fbq('track', 'ViewContent', {

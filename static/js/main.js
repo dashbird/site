@@ -166,4 +166,17 @@ $(document).ready(function () {
       $(this).find('.card-header').find('h5').click()
     }
   })
+
+  var $videoSrc;
+  $('.video-btn').click(function() {
+    $videoSrc = $(this).data("src")
+  })
+
+  $('#demoModal').on('shown.bs.modal', function (e) {
+    $("#video").attr('src', $videoSrc + "?rel=0&showinfo=0&modestbranding=1&amp;autoplay=1")
+  })
+
+  $('#demoModal').on('hide.bs.modal', function (e) {
+    $("#video").attr('src', $videoSrc)
+  })
 })
