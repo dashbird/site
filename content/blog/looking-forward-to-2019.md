@@ -35,7 +35,7 @@ Early on, we decided that we're going to build Dashbird as a remote company. Tod
 
 Dashbird has more than 10 times more paying customers than we had in January last year and the increase of new customers is speeding up with each month, not to mention the ever-increasing amount of free users that has reached a couple of thousand by now. This is obviously a big win for us and we have no intent of slowing down. On the flip side, this puts pressure on both the team and the service infrastructure and it's something we've struggled a lot in the last 12 months.
 
-Ingesting terabytes of logs and billions of invocations in real-time is a challenge for most data-processing and database technologies. We've tried a bunch of different ways to keep up with the load. Currently our stack consists of DynamoDB, MongoDB, ElasticSearch, InfluxDB and Aurora for storing data. We use Lambda, EC2, ECS and Spot Fleets for data-processing and stitch all together using various different services in AWS and outse it. All this deserves a separate blog post (or five) to fully explain but you get the idea. Massive props to our customers for supporting us through the hard times and the engineering team for keeping it together.
+Ingesting terabytes of logs and billions of invocations in real-time is a challenge for most data-processing and database technologies. We've tried a bunch of different ways to keep up with the load. Currently our stack consists of DynamoDB, MongoDB, ElasticSearch, InfluxDB and Aurora for storing data. We use Lambda, EC2, ECS and Spot Fleets for data-processing and stitch all together using various different services in AWS and outside it. All this deserves a separate blog post (or five) to fully explain but you get the idea. Massive props to our customers for supporting us through the hard times and the engineering team for keeping it together.
 
 ### Product
 
@@ -43,7 +43,7 @@ Even though our engineering and product team is small, we've managed to make a l
 
 ### Hardest lessons
 
-In October, we parted ways with Annika. It came as a mutual decision and we've stayed friends since then but it is not to say that it was easy for the company and the team. In the end, nothing spetacular about the decision to part ways, it was due to vision misalignment and separate ideas on how to go forward. Three months later, I'm able to say we've recovered and at least as strong as when she left. It still serves as a mayor lesson for me personally and I think it has made me a better CEO for Dashbird.
+In October, we parted ways with Annika. It came as a mutual decision and we've stayed friends since then but it is not to say that it was easy for the company and the team. In the end, nothing spectacular about the decision to part ways, it was due to vision misalignment and separate ideas on how to go forward. Three months later, I'm able to say we've recovered and at least as strong as when she left. It still serves as a major lesson for me personally and I think it has made me a better CEO for Dashbird.
 
 ## Going forward
 
