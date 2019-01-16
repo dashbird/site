@@ -4,7 +4,7 @@ title: Using Multiple Organizations & Setting Up New Ones
 linktitle: Organizations
 description: One user account can be part of multiple organizations (company accounts) in Dashbird and easily access them without logging out.
 kbSeries: ["CUser Guide"]
-kbSeries_weight: 600
+kbSeries_weight: 700
 aliases:
  - /help/basic/adding-aws-account/
  - /docs/user-guide/adding-aws-account/

@@ -4,7 +4,7 @@ title: Debugging with Dashbird
 linktitle: Debugging
 description: Debugging
 kbSeries: ["CUser Guide"]
-kbSeries_weight: 250
+kbSeries_weight: 500
 ---
 
 Dashbird is built so that developers can detect and understand failures quickly and easily. Sometimes it takes a bit of digging to understand what went wrong with a particular piece of code.

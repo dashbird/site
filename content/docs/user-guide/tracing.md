@@ -1,10 +1,10 @@
 ---
 date: 2017-06-05
 title: Tracing Lambda Functions with Dashbird
-linktitle: Tracing
+linktitle: X-ray tracing
 description: Tracing
 kbSeries: ["CUser Guide"]
-kbSeries_weight: 300
+kbSeries_weight: 600
 ---
 
 Dashbird provides tracing possibilities through [AWS X-Ray](https://aws.amazon.com/xray/).

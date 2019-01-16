@@ -1,57 +1,47 @@
 ---
-date: 2017-06-05
-title: Instant Alerting with Dashbird
-linktitle: Alerting
-description: Alerting
+date: 2019-01-15
+title: Failure detection and alerting
+linktitle: Error alerting
+description: Error alerting
 kbSeries: ["CUser Guide"]
 kbSeries_weight: 200
 ---
 
-The ability to get notified about issues in any part of your application with human-readable messages and sensible logs will save your company hours of debugging and you from staying up at night.
-
-![Alerts](/images/features/slack.png)
-
-## No error is left behind
-Dashbird monitors your entire application and detects all types of errors in a wide range of programming languages.<br>Want to know what we cover?
-
-- crashes
-- early exits
-- timeouts
-- cold starts
-- runtime errors
-- configuration errors
-
-Remember, all of this works for all programming languages supported by AWS Lambda including Node.js, Python, Java, and C#, among many others.
-
-By pressing the **alerts button** on the left navigation panel you can reach the [Alerts](https://app.dashbird.io/alerts) page in the Dashbird app. Here you have an overview of **all errors** in your system.
-
-![Alerts](/images/docs/alerts.png)
-
-<br>
 
 
-## Troubleshooting
-All the data you need to troubleshoot errors are at your disposal. Stack traces, previous occurrences, logs and trends for each and every error are available and presented to you in a human friendly manner! By pressing the `More info` button regarding a particular error, you will see the error page with all the info you need to debug the issue.
+Dashbird supports full-fledged and customisable failure detection and incident management for serverless applications. Incidents are divided into two main sub-categories: execution errors and metric condition failures. *This article is about error alerting. After reading this, you should also <a href='/docs/user-guide/metric-alerting/'>learn about metric alerting</a>.*
 
-![Error](/images/docs/error.png)
+**Execution errors** are runtime exceptions, timeouts, crashes, out of memory errors and configuration errors.
 
-<br>
+![Error states](/images/docs/errors-teaser.png)
 
 
-## Instant notifications
-<div class="row justify-content-md-center align-items-center">
-    <div class="col-12 mx-auto">
-        <div class="row">
-            <div class="col col-xs-12 text-center text-md-left pt-3">
-                <p class="lato">Choose what suits you most. Get notified through E-mail or Slack, or why not both!?</p><img src='/images/features/slack.png'>
-            </div>
-            <div class="col col-md-5 col-xs-12 imgs-fluid">
-                <img src='/images/docs/email-alert.png'>
-            </div>
-        </div>
-    </div>
-</div>
+Dashbird automatically scans all function invocations for failures. Failures can be any of the following type: `CRASH`, `TIMEOUT`, `OUT OF MEMORY`, `CONFIGURATION ERROR`, `EARLY EXIT`. Dashbird failure detection supports all programming languages that are supported by Lambda (Node.js, Python, Java, C#, Go and Ruby).
 
----
+ To view all errors, <a href='https://app.dashbird.io/errors/issues/'
+ target='_blank'>click here</a> or on the bug icon <i class="fa fa-bug"></i> on the left menu.
 
-Make the most out of Dashbird and get started with [debugging](https://dashbird.io/docs/user-guide/debugging/)!
+**Error states**
+
+![Error states](/images/docs/error-states.png)
+
+**Resolving errors (button: <i class="fa fa-check"></i>)** - after fixing an error in your code, don't forget to mark it as resolved in Dashbird. **Otherwise you will not be notified the next time when that error occurrs.** You can resolve errors from the top right corner and view resolved errors under the "RESOLVED" tab.
+
+ **Mute errors (button: <i class="fa fa-bell-slash"></i>)** - if an error is unimportant for you, you can mute notifications for it and discard it from the active errors list.
+
+#### Configuring an alert policy
+
+![Error states](/images/docs/error-alert-policy.png)
+
+You have complete control which errors get reported to you. To configure alerting rules, it's necessary to create an alert policy. Navigate to the <a href='https://app.dashbird.io/errors/policies/' target='_blank'>Policies</a> tab and click `+ ADD`. A new policy will be added to the list and you can start adding rules.
+
+All policies must have at least one notification channel and one alert condition. A notification channel can be a slack channel or an email address. An alert condition consists of an error condition and a selection of functions. 
+
+*For example, you can define an alert for any error over all functions, or for example only alert on invocataion timeouts for a specific function or microservice.*
+
+#### Best practices for handling alerts
+
+Alerting should be an ongoing process, we reccommend testing different policies, adding new ones based on needs and deleting/muting unnecessary alerts to avoid alarm fatique.
+
+  * **Set alerts for all production lambdas.** Even if you think they'll never fail, unexpected circumstances do sometimes happen.
+  * **Always resolve alerts after you've fixed them in code.** This way, if the problem re-occurrs, you'll be notified again.

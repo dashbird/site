@@ -1,33 +1,35 @@
 ---
 date: 2017-06-05
-title: Dashbird Integrations
-linktitle: Integrations
+title: Dashbird Notification channels
+linktitle: Notification channels
 description: Integrate Dashbird with Slack or Zapier to get instant error alerts or build your own integration using webhooks.
 kbSeries: ["CUser Guide"]
-kbSeries_weight: 500
+kbSeries_weight: 400
 alias:
   - /help/integrations/managing-webhooks/
   - /docs/integrations/managing-webhooks/
 ---
-You can integrate Dashbird with different tools in order to get error alerts in the channels that make the most sense for your use case.
 
-# Slack #
-Get instant error alerts in your Slack channels. To set it up, go to [*Alerts*](https://app.dashbird.io/client/alerts) section from the upper right menu and on the bottom part of the *Alerting* section click on the Slack logo and configure the settings. Here you can choose the Slack channel where the error alerts will get delivered.
+Notification channels provide a way for users to configure how alerts are sent. Dashbird currently supports Slack and email.
 
-![Slack integration with Dashbird](/images/docs/slack-integration.png)
+To set up notification channels, open the organisation menu (from the top right corner), and click on "<a href='https://app.dashbird.io/client/notifications' target='_blank'>Notification settings"</a>.
 
-You can also use alert digestion, which means you will get alerted every x minutes about the errors that have happened. This can also be configured on the [*Alerts*](https://app.dashbird.io/client/alerts) page.
+![Metric alerting](/images/docs/notification-channels.png)
 
-# Zapier #
-Webhooks are the foundation for all integrations out of Dashbird. To create an integration with other services, we recommend first integrating Dashbird with [Zapier](https://zapier.com) and then using an integration from Zapier to other services.
+## Email notification channel
 
-How it works:
+  * In the right top corner, click  `+ ADD` -> Email
+  * Add your email
+  * You can now choose the Slack notification channel when setting up policies
 
-1. you have an endpoint
-2. you set up a webhook from Dashbird side to push events to that endpoint
-3. every time we have a certain event that will be pushed there
+## Slack integration
 
-# Webhooks #
+  * In the right top corner, click  `+ ADD` -> Slack. 
+  * Follow the on screen instructions of Slack
+  * You can now choose the Slack notification channel when setting up policies
+
+
+## Webhooks 
 
 **Webhooks can be set up separately for each lambda.** To configure a webhook, open up <a href='https://app.dashbird.io/lambdas' target='_blank'>lambda list</a> and select the function you want to integrate. You can access the configuration screen under `Webhooks` tab.
 
