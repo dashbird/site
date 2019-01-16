@@ -1,6 +1,6 @@
 ---
-title: AWS Lambda Pricing Model Explained With Examples
-description: Money is the one thing that turns the world around. Unfortunately, it is the necessity in almost all spheres of life. You can live without it or with lesser amounts of it, but it makes it all harder...
+title: CloudWatch alerts vs. Dashbird alerts
+description: Here are the best options to keeping an eye on your serverless application
 date: 2019-01-15T00:00:00.000Z
 frontImage: "2019-01-15/pexels-photo-1314544.jpeg"
 thumbnail: "images/blog/2019-01-15/pexels-photo-1314544.jpeg"
@@ -40,7 +40,7 @@ There are a lot of features that apply to all CloudWatch alarms, and we’ll go 
 
 <p>Pro-active alerts are another one of Dashbird’s features. Basically, you could set up an email notification alert system, so when your functions are about to reach memory limitations, you will be notified about it. Dashbird provides seamless integration with Slack as well. If you wish to read more about the Dashbird alerts and serverless monitoring tools, how it all works compared to other services, follow this link to a blog on our <a href="https://dashbird.io/blog/serverless-monitoring-tools-2018/">website</a>. </p>
 
-<img src="/images/blog/2019-01-15/new_alerts_dashbird.jpg">
+<img src="https://dashbird.io/images/blog/2019-01-15/new_alerts_dashbird.jpg">
 
 As of January 2019, the new alerting system is out and with the improved user interface it brings out some new features that we think it will make our users life a hwole lot easier.
 
