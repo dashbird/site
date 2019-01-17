@@ -19,7 +19,7 @@ Dashbird detects all excecution and configuration errors by importing logs and s
 
 
 
-### Setting up alerts for execution failutres
+### Setting up alerts for execution failures
 
 ![Exception handling](/images/blog/2019-01-17/errors-teaser.png)
 
@@ -37,7 +37,7 @@ Our aim for the alerting section of Dashbird is to make it configurable for almo
 
 ### Start now 
 
-In case you're looking to introduce metric alerting to your company, we usually only reccommend customers to start with a few basic metrics and build on top of those. Building and managing alerting rules should be an ongoing process and we're happy to get you started. Our experts are happy to help with a consultation for setting up alerts.
+In case you're looking to introduce metric alerting to your company, we usually only recommend customers to start with a few basic metrics and build on top of those. Building and managing alerting rules should be an ongoing process and we're happy to get you started. Our experts are happy to help with a consultation for setting up alerts.
 
 
 To get the process going, you could either sign up for Dashbird and we'll take it from there or schedule a <a href='https://dashbird.io/contact-us/' target='_blank'>demo here</a>.
