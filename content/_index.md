@@ -8,8 +8,13 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-9 center p-2">
-        <h1 class="text-center roboto-mono">Monitor serverless applications</h1>
-        <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2>
+        <h1 class="text-center roboto-mono big">Make awesome serverless apps</h1>
+        <h2 class="mt-4 text-center lh-3">Build and operate high-quality serverless applications <b>with confidence and less time</b>.<br>
+        Set up in less than 2 minutes and no code changes.</h2>
+
+        <!-- <h2 class="mt-4 text-center lh-3"></h2> -->
+
+        <!-- <h2 class="mt-4 text-center lh-3">Failure detection, analytics and visibility for AWS Lambda based applications.<br>5 minutes setup with no overhead or code changes.</h2> -->
         <form class='form-inline justify-content-center mt-md-5' name="trial-form" style='margin-top: 200px;'>
         <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
           <a href='javascript:;' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto video-btn request-demo" data-target="#demoModal" data-toggle="modal" data-src="https://www.youtube.com/embed/9BxqA_kBq1Q">View demo video</a>

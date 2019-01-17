@@ -24,67 +24,67 @@ aliases:
     </div>
     
     <div class="row justify-content-md-center align-items-center">
-    <div class="col-lg-8 col-md-6 col-sm-10 col-xs-12">
+    <div class="col-lg-5 col-md-6 col-sm-10 col-xs-12">
         <div class="pt-2">
             <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
+                  <div class='col-md-3 text-center'>
                     <span>Email: <span class='text-danger'>*</span></label></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@serverless-user.com' name="email" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
+                  <div class='col-md-3 text-center'>
                     <span>First name: <span class='text-danger'>*</span></label></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='Bobby' name="firstName" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
+                  <div class='col-md-3 text-center'>
                     <span>Last name: <span class='text-danger'>*</span></label></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='Drop-Tables' name="lastName" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
-                    <span>Company / workspace: <span class='text-danger'>*</span></label></span>
+                  <div class='col-md-3 text-center'>
+                    <span>Workspace: <span class='text-danger'>*</span></label></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder="Dashbird-production" name="companyName" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
+                  <div class='col-md-3 text-center'>
                     <span>Phone number:</span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='+1 013 123 12' name="phoneNumber">
                   </div>
                 </div>
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
+                  <div class='col-md-3 text-center'>
                     <span>Password: <span class='text-danger'>*</span></label></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                     <input type="password" class="form-control cta-input w-100-percent" placeholder='*******' name="password" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
-                  <div class='col-md-6 text-center text-md-right'>
-                    <span>Confirm password: <span class='text-danger'>*</span></label></span></span>
+                  <div class='col-md-3 text-center'>
+                    <span>Confirm: <span class='text-danger'>*</span></label></span></span>
                   </div>
-                  <div class='col-md-6'>
+                  <div class='col-md-9'>
                       <input type="password" class="form-control cta-input w-100-percent" placeholder='Confirm ********' name="confirmPassword" required>
                   </div>
                     
