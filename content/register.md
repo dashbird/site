@@ -20,40 +20,73 @@ aliases:
 <section class="container-fluid dark-bg pt-5 pb-5">
     <h2 class="text-center pb-5"><span class="h4 underlined">Sign up and start improving your serverless applications today!</span></h2>
     <div class="row justify-content-md-center align-items-center">
-    <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12">
+    <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
         <div class="pt-2">
             <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
-            <!-- <form name="register-form"> -->
-                <div class="input-group flex-column mb-15px">
-                    <label for="email">Email <span class='text-danger'>*</span></label>
-                    <input type="email" class="form-control cta-input w-100-percent" placeholder='johndoe@email.com' name="email" required>
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Email: <span class='text-danger'>*</span></label></span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@serverless-user.com' name="email" required>
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="firstName">First name <span class='text-danger'>*</span></label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='John' name="firstName" required>
+
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>First name: <span class='text-danger'>*</span></label></span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Bobby' name="firstName" required>
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="lastName">Last name <span class='text-danger'>*</span></label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Doe' name="lastName" required>
+
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Last name: <span class='text-danger'>*</span></label></span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Drop-Tables' name="lastName" required>
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="companyName">Company name <span class='text-danger'>*</span></label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder="John's company" name="companyName" required>
+
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Company / workspace: <span class='text-danger'>*</span></label></span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder="Dashbird-production" name="companyName" required>
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="lastName">Phone number</label>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='+XXX' name="phoneNumber">
+
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Phone number:</span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='+1 013 123 12' name="phoneNumber">
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="password">Password <span class='text-danger'>*</span></label>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='superdupersecret' name="password" required>
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Password: <span class='text-danger'>*</span></label></span>
+                  </div>
+                  <div class='col-md-8'>
+                    <input type="password" class="form-control cta-input w-100-percent" placeholder='*******' name="password" required>
+                  </div>
                 </div>
-                <div class="input-group flex-column mb-15px">
-                    <label for="confirmPassword">Confirm password <span class='text-danger'>*</span></label>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='please confirm it!' name="confirmPassword" required>
+
+                <div class="row align-items-center mb-15px">
+                  <div class='col-md-4 text-center text-md-right'>
+                    <span>Confirm password: <span class='text-danger'>*</span></label></span></span>
+                  </div>
+                  <div class='col-md-8'>
+                      <input type="password" class="form-control cta-input w-100-percent" placeholder='Confirm ********' name="confirmPassword" required>
+                  </div>
+                    
                 </div>
-                <div class="input-group flex-column mt-40px">
-                    <button type="submit" class="cta-btn cta-pink w-100-percent" id="register-btn">Sign up</button>
+                <div class="input-group flex-column mt-40px"> 
+                    <button type="submit" class="cta-btn cta-pink mx-auto w-50" id="register-btn">Sign up</button>
                 </div>
             </form>
             <p class="text-center gray small">No credit card required</p>
