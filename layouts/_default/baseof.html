@@ -3,6 +3,7 @@
   <head>
     {{ partial "meta.html" . }}
     {{ partial "bootstrap.html" }}
+    {{ partial "stylesheets.html" }}
     {{ partial "main-style.html" }}
     {{ partial "inline-scripts.html" }}
   </head>
@@ -10,7 +11,6 @@
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" . }}
-    {{ partial "stylesheets.html" }}
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
       <script async src="{{ .  }}" type="text/javascript"></script>
