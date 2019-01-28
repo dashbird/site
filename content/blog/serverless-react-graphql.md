@@ -2,8 +2,8 @@
 title: Build a serverless React + GraphQL app with Aws amplify and AppSync
 description: Everything you needed to know about getting started with react, graphql, AWS amplify and AWS AppSync
 date: 2019-01-25
-frontImage: "2019-01-24/s-w-37942-unsplash"
-thumbnail: "images/blog/2019-01-24/s-w-37942-unsplash"
+frontImage: "2019-01-24/s-w-37942-unsplash.jpg"
+thumbnail: "images/blog/2019-01-24/s-w-37942-unsplash.jpg"
 authorlink: 'https://reactgo.com'
 author: Sai  Gowtham
 category: ["react", "Serverless","Appsync","Graphql"]
