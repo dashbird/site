@@ -11,26 +11,6 @@ category: "Serverless, Other, Lambda"
 blog: ["Serverless", "Other", "Lambda"]
 ---
 
-## Abstract
-
-With AWS Lambda, we get scalability and resilience out-of-the-box. What's more, AWS also provides built-in monitoring, logging and tracing support through CloudWatch and X-Ray. These built-in tools provide a good base to start with but many developers eventually outgrow them as their serverless application becomes more complex.
-
-In this post, let's take a serverless application and see how Dashbird can help you debug a serverless application.
-
-
-## Table of Content
-
-
-
-*   Challenges with serverless observability
-*   The demo app
-*   Debugging with Dashbird
-
-
-
-
-## Debugging serverless applications with Dashbird
-
 With AWS Lambda, we get scalability and resilience out-of-the-box. What's more, AWS also provides built-in monitoring, logging and tracing support through CloudWatch and X-Ray. These built-in tools provide a good starting point but many developers eventually outgrow them as their serverless application becomes more complex.
 
 In this post, let's take a serverless application and see how [Dashbird](https://dashbird.io/) can help you debug a serverless application.
