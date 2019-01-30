@@ -8,7 +8,7 @@ dated: 2017-10-29T17:50:03+02:00
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-9 center p-2">
-        <h1 class="text-center roboto-mono big">Make awesome serverless apps</h1>
+        <h1 class="text-center roboto-mono big">Monitor serverless applications</h1>
         <h2 class="mt-4 text-center lh-3">Build and operate high-quality serverless applications <b>with confidence and less time</b>.<br>
         Set up in less than 2 minutes and no code changes.</h2>
 
