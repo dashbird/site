@@ -1,6 +1,6 @@
 ---
 title: Debugging serverless applications with Dashbird
-description: Over the past year, we've seen Dashbird grow up into a great product service. Here's the latest updates we've made to the service
+description: Serverless applications can be hard to debug. Dashbird can help! 
 date: 2019-01-25T12:00:00.000Z
 frontImage: "2019-01-25/pedro-garcia-maurino-1324377-unsplash.jpg"
 thumbnail: "Untitled-document/blog/pedro-garcia-maurino-1324377-unsplash.jpg"
