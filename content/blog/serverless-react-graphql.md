@@ -820,7 +820,7 @@ memory utilization, invocation count, and execution duration.
 
 ### DashBird Interface
 
-![dashbird-interface](dashbird-interface.gif)
+![dashbird-interface](/images/blog/2019-01-24/dashbird-interface.gif)
 
 I know, this was an extremely long post and I have to congratulate you for sticking with it. Since you took the time to read all of it I'd love to hear your thoughts. Please leave a comment letting me know what you liked or disliked about it.
 
