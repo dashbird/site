@@ -19,15 +19,15 @@ Let's first have a look at the AWS Lambda deployment limits and address the 50 M
 
 Runtime Environment limitations:
 
-* The disk space is limited to 512 MB.
+* The disk space (ephemeral) is limited to 512 MB.
 * The default deployment package size is 50 MB.
-* Memory range is from 128 to 1536 MB.
+* Memory range is from 128 to 3008 MB.
 * Maximum execution timeout for a function is 15 minutes*.
 <br>
 Requests limitations by lambda:
 
-* Request and response body payload size are maximized to 6 MB.
-* Event request body can be up to 128 KB.
+* Request and response (synchronous calls) body payload size can be up to to 6 MB.
+* Event request (asynchronous calls) body can be up to 128 KB.
 
 The reason for defining the limit of 50 MB is that you cannot upload your deployment package to lambda directly with size greater than the defined limit. Technically the limit can be much higher if you let your lambda function pull deployment package from S3. AWS S3 allows for deploying function code with substantially higher deployment package limit as compared to directly uploading to lambda or any other AWS service. As a matter of fact, most of the AWS service default limits can be raised by [AWS Service Limits](https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html) support request. 
 
