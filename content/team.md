@@ -69,6 +69,13 @@ date: 2017-10-29T17:50:03+02:00
           <p>Mart is a seasoned manager and has experience with robots, electrical bikes and sales.</p>
         </div>
 
+        <div class="col-md-4 team-member text-center">
+          <img src="/images/team/renato.jpg" class="img-dark-border">
+          <h4>Renato Byrro</h4>
+          <span>DEVELOPER ADVOCATE</span>
+          <p>Renato is on a quest to run 'sudo rm -rf /' on all servers. Serverless will prevail! mwuahah</p>
+        </div>
+
       </div>
     </div>
   </div>
