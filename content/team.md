@@ -73,7 +73,7 @@ date: 2017-10-29T17:50:03+02:00
           <img src="/images/team/renato.jpg" class="img-dark-border">
           <h4>Renato Byrro</h4>
           <span>DEVELOPER ADVOCATE</span>
-          <p>Renato is on a quest to run 'sudo rm -rf /' on all servers. Serverless will prevail! mwuahah</p>
+          <p>Renato is on a quest to run<br><span style="color: #515D71; background-color: #E2E2F6; padding: 0 2px">sudo rm -rf /</span> on all servers.<br>Serverless will prevail! Mwuahah</p>
         </div>
 
       </div>
