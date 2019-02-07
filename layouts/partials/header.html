@@ -5,40 +5,72 @@
   <p>Easier procurement and up to 36 month commitments with discounts. <a href="https://aws.amazon.com/marketplace/pp/B07HFKB9VK" target='_blank'>Learn more here.</a></p>
 </div>
 
-<nav class="navbar navbar-light navbar-expand-md m-0 p-0">
+
+<div class="container">
+  <div class="row">
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+      <div class="col-1">col-1</div>
+  </div>
+</div>
+
+<nav class="navbar container navbar-expand-lg h-1">
   <a class="navbar-brand" href="/">
+    Dashbird
+    <!--
     <img src="/images/dashbird-logo.png" class="logo-image">
     <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: 0px;' class='logo-image align-bottom pb-1'>
+  -->
   </a>
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navigation">
-    <span> </span>
-    <span> </span>
-    <span> </span>
-  </button>
-
-  <div class="collapse navbar-collapse " id="navigation">
-    <ul class="nav navbar-nav mt-3 mt-md-0 ml-md-auto">
-      <li class="nav-item d-block d-md-none">
-        <a class="nav-link" href="/">Home</a>
-      </li>
-      {{ $currentPage := .  }}
-			{{ range .Site.Menus.main }}
-      <li class="nav-item {{ .Identifier }}">
-        <a class="nav-link"
-        href="{{ .URL }}">
+  
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item d-block d-md-none">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    {{ $currentPage := .  }}
+    {{ range .Site.Menus.main }}
+    <li class="nav-item {{ .Identifier }}">
+      <a class="nav-link" href="{{ .URL }}">
         {{ .Name }} 
       </a>
-      </li>
-      {{ end }}
-      <li class="nav-item">
-        <a class="nav-link" href="https://app.dashbird.io">Log in</a>
-      </li>
-      <li class="nav-item cta-btn cta-pink p-0 ml-3 d-block d-md-none">
-        <a class="nav-link" href="/register">Sign up <img src="/images/ic-arrow.svg" class="ic-arrow"></a>
-      </li>
+    </li>
+    {{ end }}
     </ul>
   </div>
+
+  <ul class="nav navbar-nav mt-3 mt-md-0 ml-md-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="https://app.dashbird.io">Log in</a>
+    </li>
+    <li class="nav-item cta-btn cta-pink p-0 ml-3 d-block d-md-none">
+      <a class="nav-link" href="/register">Sign up <img src="/images/ic-arrow.svg" class="ic-arrow"></a>
+    </li>
+  </ul>
   <a href="/register" class='corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>
     Sign up <img src="/images/ic-arrow.svg" class="ic-arrow">
   </a>
 </nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1>Build fantastic serverless apps</h1>
+        <p>
+          Build with <b>confidence</b>.  Build with <b>less time</b>. Zero code integration.
+        </p>
+      </div>
+      <div class="col-6">
+        <dashbird-graph></dashbird-graph>
+      </div>
+    </div>
+  </div>

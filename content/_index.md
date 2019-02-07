@@ -23,6 +23,10 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </section>
 
+  <section>
+    <dashbird-graph></dashbird-graph>
+  </section>
+
   <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
     <div class="row justify-content-center socialproof-icons align-items-end">
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/socialproof/logo-volta@2x.png" style='height: 20px;'>
