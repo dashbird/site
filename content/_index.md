@@ -4,8 +4,8 @@ description: Get instant overview of your whole serverless stack and save money 
 dated: 2017-10-29T17:50:03+02:00
 ---
 
-<div class='container-fluid text-white p-0' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/aws-lambda-monitoring.jpg"); background-size: cover;'>
-  <section class="container-fluid" style='padding-top: 85px;'>
+<div class="container-fluid text-white p-0">
+  <section class="container-fluid hero" style='padding-top: 85px;'>
     <div class="row justify-content-center">
       <div class="col-lg-9 center p-2">
         <h1 class="text-center roboto-mono big">Monitor serverless applications</h1>
