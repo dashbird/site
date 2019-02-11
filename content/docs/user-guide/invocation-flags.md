@@ -31,14 +31,14 @@ In case your function invocation results in an error, AWS Lambda will automatica
 
 To help you track down those cases, a "Retry" flag is assigned to the invocations when we identify AWS Lambda is retrying a previously failed request.
 
-![Invocation Flag: None](/images/docs/invocation-flag-retry.png)
+![Invocation Flag: Retry](/images/docs/invocation-flag-retry.png)
 
 
 #### Anomaly
 
 Anomaly is an outlier invocation that does not match the overall pattern of invocations for the same function in the past 24 hours. Dashbird's anomaly detection algorithm takes into account memory consumption, duration, logged information, and execution errors to identify outliers. A function can have no anomalies at all if it behaves in a consistent way.
 
-![Invocation Flag: None](/images/docs/invocation-flag-anomaly.png)
+![Invocation Flag: Anomaly](/images/docs/invocation-flag-anomaly.png)
 
 
 #### No Flag
