@@ -4,6 +4,7 @@ description: Monitor the performance and cost of your lambda functions and get i
 thumbnail: "images/twitter/slack-dashbird.jpg"
 dated: 2018-30-03T17:50:03+02:00
 twitter_summary: 'summary_large_image'
+exclude_menu: true
 ---
 <section class="container slogan">
   <div class="row justify-content-md-end">

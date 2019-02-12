@@ -4,6 +4,7 @@ description: Analyze Lambda function performance and make optimization decisions
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2017-11-07T17:50:03+02:00
 twitter_summary: 'summary_large_image'
+exclude_menu: true
 ---
 <section class="container slogan">
   <div class="row justify-content-md-end">

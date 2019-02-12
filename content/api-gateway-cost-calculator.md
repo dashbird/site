@@ -70,8 +70,8 @@ scripts:
 
   <div class='row justify-content-center mt-5 '>
     <div class='col-8 text-center'>
-      <h3>Want to cut your AWS Lambda costs even more?</h3>
-      <h5><a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Try Dashbird For Free!</a></h5>
+      <h3>Looking to cut serverless costs?</h3>
+      <h5><a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Check out Dashbird</a></h5>
     </div>
   </div>
 

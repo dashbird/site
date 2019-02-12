@@ -3,6 +3,7 @@ title: AWS Lambda Functions Cost Tracking & Monitoring - Dashbird
 description: See how much money each lambda function is costing you and optimise your code to reduce your AWS bill. Dashbird also offers variety of serverless monitoring and debugging features.
 thumbnail: "images/twitter/lambda-cost-tracking.jpg"
 dated: 2018-05-11T17:50:03+02:00
+exclude_menu: true
 twitter_summary: 'summary_large_image'
 ---
 <section class="container slogan">

@@ -7,6 +7,7 @@ twitter_summary: 'summary_large_image'
 slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
+exclude_menu: true
 ---
 
 <div class="bg-white">
