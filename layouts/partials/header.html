@@ -10,12 +10,14 @@
     <img src="/images/dashbird-logo.png" class="logo-image">
     <img src="/images/dashbird-wordmark@2x.png" style='height: 23px; margin-left: 0px;' class='logo-image align-bottom pb-1'>
   </a>
+
   <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navigation">
     <span> </span>
     <span> </span>
     <span> </span>
   </button>
 
+{{ if not .Params.exclude_menu }}
   <div class="collapse navbar-collapse " id="navigation">
     <ul class="nav navbar-nav mt-3 mt-md-0 ml-md-auto">
       <li class="nav-item d-block d-md-none">
@@ -41,4 +43,7 @@
   <a href="/register" class='corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>
     Sign up <img src="/images/ic-arrow.svg" class="ic-arrow">
   </a>
+{{ else }}
+  <a href="/register" class='ml-md-auto corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>Get Started Free<img src="/images/ic-arrow.svg" class="ic-arrow"></a>
+{{ end }}
 </nav>
