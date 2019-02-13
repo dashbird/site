@@ -32,21 +32,20 @@ Here's how a Python error looks like in Dashbird.
 
 ## Exceptions
 
-You can find <a href='https://www.tutorialspoint.com/python/python_exceptions.htm' target='_blank'>the complete list of Python exceptions here</a>.
+You can find <a href='https://docs.python.org/3/library/exceptions.html' target='_blank'>the complete list of Python exceptions here</a>.
 
 Exceptions are parsed out automatically in Dashbird, and include a rundown of traceback and logs of the specific invocation.
 
 ## AWS Lambda timeout
 
-All calls made to AWS Lambda must complete execution within 300 seconds. The default timeout is 3 seconds, but you can set the timeout to any value between 1 and 300 seconds.
+All calls made to AWS Lambda must complete execution within 15 minutes. The default timeout is 3 seconds, but you can set the timeout to any value between 1 second and 15 minutes.
 
 Normally, error handling agents are unable to catch timeout errors, because the execution is halted on an upper level. Dashbird, however, reports timeouts like any other type of error.
 
 Timeouts are expressed in Lambda logs in the following way.
 
 ```
-REPORT RequestId: 41a10717-e9af-11e7-892c-5bb1a4054ed6  Duration: 300085.71 ms  Billed Duration: 300000 ms Memory Size: 128 MB Max Memory Used: 92 MB
-2017-12-25T20:12:38.950Z 41a10717-e9af-11e7-892c-5bb1a4054ed6 Task timed out after 300.09 seconds
+2019-02-13T20:12:38.950Z 41a10717-e9af-11e7-892c-5bb1a4054ed6 Task timed out after 300.09 seconds
 ```
 
 ## Configuration errors
@@ -69,6 +68,7 @@ REPORT RequestId: db1e9421-724a-11e7-a121-63fe49a029e8  Duration: 15.11 ms Bille
 
 ### Missing handler
 
+<a href="https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model-handler-types.html">Handler</a> is a function in your code that is invoked by AWS Lambda when your service is executed. If the handler name provided in the Lambda configuration is different from the Python function in your code, this error will be produced upon Lambda execution and caught by Dashbird.
 
 ```
 START RequestId: db1e9421-724a-11e7-a121-63fe49a029e8 Version: $LATEST
