@@ -1,7 +1,7 @@
 ---
 date: 2019-02-13
 title: Best Practices - Security with Critical Logging
-linktitle: Runtime Agnostic
+linktitle: Critical Logs for Security
 description: Securing serverless applications with critical logging.
 kbSeries: ["EBest Practices"]
 kbSeries_weight: 300
