@@ -1,37 +1,51 @@
-{{ if isset .Params "slider_image"  }}
-
-
+{{ if isset .Params "slider_image"   }}
 <div class='container-fluid text-white p-0' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/aws-lambda-monitoring.jpg"); background-size: cover;'>
   <section class="container-fluid" style='padding-top: 85px;'>
     <div class="row justify-content-center">
-      <div class="col-lg-9 center p-2">
-        <h1 class="text-center roboto-mono big">{{ .Title }}</h1>
-        <h2 class="mt-4 text-center lh-3">End-to-end observability for serverless applications. No instrumentation.</h2>
+      <div class="col-lg-11 center p-2">
+        <h1 class="text-center roboto-mono">{{ .Title }}</h1>
+        <h2 class="mt-4 text-center lh-3">End-to-end observability for serverless applications. No code instrumentation or overhead.</h2>
        <form class='form-inline justify-content-center mt-md-5' name="trial-form" style='margin-top: 200px;'>
-        <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">Get Started For Free</button>
-          <a href='javascript:;' class="btn btn-default d-block d-md-inline cta-btn cta-transparent w-md-auto video-btn request-demo" data-target="#demoModal" data-toggle="modal" data-src="https://www.youtube.com/embed/9BxqA_kBq1Q">View demo video</a>
+        <button class="d-block d-md-inline cta-btn cta-pink w-md-auto" id='signup' type="submit">START YOUR FREE TRIAL</button>
         </form>
       </div>
     </div>
   </section>
 
-  <section class="container-fluid pt-md-80 pb-md-60 mt-3 pb-5">j
+  <section class="container-fluid pt-md-80 pb-md-60 pb-5">j
     <div class='row justify-content-center'>
 		<div class='col-12 col-md-9 text-center'>
-				<span class='mx-auto roboto-mono text-white'>Supports all AWS Lambda runtimes</span>
-			<div class='row content-justify-center align-items-center' style='margin-top: 30px; margin-bottom: 0px;'>
+				<span class='mx-auto roboto-mono text-lighter-gray'>Supports all AWS Lambda runtimes</span>
+			<div class='row content-justify-center align-items-center' style='margin-top: 15px; margin-bottom: 0px;'>
 				<div class='col-12 languages-icons '>
-					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-python@2x.png'>
-					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-java@2x.png'>
-					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-csharp@2x.png'>
-					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-nodejs@2x.png'>
-					<img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/socialproof/logo-go@2x.png'>
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src='/images/socialproof/logo-python@2x.png'>
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src='/images/socialproof/logo-java@2x.png'>
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src='/images/socialproof/logo-csharp@2x.png'>
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src='/images/socialproof/logo-nodejs@2x.png'>
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src='/images/socialproof/logo-go@2x.png'>
 				</div>
 			</div>
 		</div>
     </div>
   </section>
 </div>
+
+  <div class="row justify-content-center light-bg" style="padding-bottom: 40px;">
+    <div class="row">
+      <div class="col text-center mt-5 pt-1">
+        <span class="h4 underlined roboto-mono">The most widely adopted visibility<br> platform for serverless applications.</span>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-5 text-center pt-4" >
+        <span class="text-light-gray">Dashbird integrates closely with AWS to bring visibility into serverless applications. By mapping applications resources, importing CloudWatch logs and integrating with AWS X-ray it's able to provide all pillars of observability  with no performance overhead or code changes.</span>
+      </div>
+    </div>
+  </div>
+
+
+<!--Video modal -->
 <div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -40,20 +54,11 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+          <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"></iframe>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-  <div class="row justify-content-center light-bg" style="padding-bottom: 100px;">
-    <div class="col-12 col-md-5 text-center pt-5" >
-      <span class="text-light-gray">Dashbird integrates closely with AWS to bring visibility into serverless applications. By mapping applications resources, importing CloudWatch logs and integrating with AWS X-ray it's able to provide all pillars of observability  with no performance overhead or code changes.</span>
-    </div>
-  </div>
-
-
-
 
 {{ end }}
