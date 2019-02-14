@@ -1,5 +1,5 @@
 ---
-date: 2017-06-05
+date: 2019-02-13
 title: Best Practices - Error Handling With AWS Lambda And Node.js
 linktitle: Node.js
 description: Catching and troubleshooting AWS Lambda errors when using AWS Lambda with Node.js.
@@ -52,7 +52,7 @@ Per function errors are visible on a dedicated list, shown below.
 
 ### AWS Lambda Timeouts
 
-All calls made to AWS Lambda must complete execution within 300 seconds. The default timeout is 3 seconds, but you can set the timeout to any value between 1 and 300 seconds.
+All calls made to AWS Lambda must complete execution within 15 minutes. The default timeout is 3 seconds, but you can set the timeout to any value between one second and 15 minutes.
 
 Normally, error handling agents are unable to catch timeout errors, because the execution is halted on an upper level. Dashbird, however, reports timeouts like any other type of error.
 
@@ -100,7 +100,7 @@ Duration: 3.98 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used:
 
 #### Missing handler
 
-A common issue can also be referencing a handler that does not exist. Here's a log of this scenario.
+<a href="https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html">Handler</a> is a function in your code that is invoked by AWS Lambda when your service is executed. If the handler name provided in the Lambda configuration is different from the function in your code, this error will be produced upon Lambda execution and caught by Dashbird.
 
 ```
 START RequestId: 5da69de5-91a2-11e8-8a9a-6d1e6b337909 Version: $LATEST
@@ -114,9 +114,9 @@ REPORT RequestId: 5da69de5-91a2-11e8-8a9a-6d1e6b337909
 Duration: 0.53 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used: 21 MB	
 ```
 
-Error handling can be difficult if you don't have anyone watching your back. We hope this short overview has helped you better manage any future errors and problems you may face.
+### AWS Lambda errors
 
-If you like [Python](/docs/best-practices-and-common-use-cases/error-handling-python-lambda/), [C#](/docs/best-practices-and-common-use-cases/error-handling-cs-lambda/), or [Java](/docs/best-practices-and-common-use-cases/error-handling-java-lambda/), feel free to check out error handling best practices with these programming languages as well!
+Apart from NodeJS specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
 
 ---
 
