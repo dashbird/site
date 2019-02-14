@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Be in the know</h2>
 					<p>You want to make sure the users are getting the best experience they can and be sure your app is up and running at full speed. This is where Dashbird comes into play.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Performance monitoring for Java Applications</h2>
 					<p>Dashbird provides function level views that enable developers to judge latency and memory usage. You use this view to optimize functions for cost efficiency by adjusting the provisioned memory to match the actual usage.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 					<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 							<h2 class="landing-titles ">Troubleshooting Java applications in AWS Lambda </h2>
 							<p>Errors do happen, that's a fact. Your application will go down and you will have to figure out what went wrong and how to fix it. Dashbird is exactly what you need to overcome those errors and find the right solution in order to fix those Java errors.</p>
+							<a href='/features' class='btn btn-outline-primary'>View all features</a>
 					</div>
 				</div>
 		</div>

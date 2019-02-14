@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Use the right tools</h2>
 					<p>Errors do happen, that's a fact. Your application will go down and you will have to figure out what went wrong and how to fix it. Dashbird is exactly what you need to overcome those errors and find the right solution in order to fix those serverless errors.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">We are always on watch</h2>
 					<p>You can sleep tight knowing that we'll keep a close eye on your functions and if you happen to get an error you'll be quickly notified through slack, your email or both.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 					<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 							<h2 class="landing-titles ">All the details in one place</h2>
 							<p>With Dashbird you get a clear picture of your serverless application and with the new error views you will troubleshoot your AWS Lambda issues a lot faster and with less of a hassle.</p>
+							<a href='/features' class='btn btn-outline-primary'>View all features</a>
 					</div>
 				</div>
 		</div>

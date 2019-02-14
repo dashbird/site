@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Focus on monitoring and troubleshooting</h2>
 					<p>Dashbird strives to help operate serverless applications offering failure detection, analytics, and visibility for AWS Lambda-based applications integrating with AWS CloudWatch and AWS X-Ray to obtain logs, metrics, and traces.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Tailor made for developers</h2>
 					<p>Dashbird was built by a team of developers looking to solve a very specific problem: to bring observability to serverless applications. The data comes in the application is compiled into a clean bird's eye view dashboard and unlike some of the other third-party monitoring solutions, Dashbird.io doesn't add any friction to the function invocation.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Custom dashboards with Dashbird</h2>
 					<p>Dashbird allows you to group Lambda functions any way you like using their names. This enables you to construct custom dashboards for service level monitoring, outlining its load, errors and other important metrics. This is especially useful if your AWS account includes Lambdas for several independent services.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>

@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Built by developers for developers</h2>
 					<p>Dashbird was built to aid developers in their effort to detect and understand their application failures in less time and with less effort.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Serverless troubleshooting</h2>
 					<p>If your application does fail, the error view is the place where you'll be able to gather all the necessary info to figure out what went wrong. All the relevant information will be there, from the full stack trace, occurrence count, reoccurrences and logs will be available in the Error View.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Troubleshooting Aws Lambda </h2>
 					<p>With Dashbird you get a clear overview of your application and error stacktraces will help you troubleshoot your serverless application issues a lot faster and with less of a hassle.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>

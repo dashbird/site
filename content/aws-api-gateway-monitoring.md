@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">AWS API Gateway troubleshooting</h2>
 					<p>If your application does fail, the API Gateway error view is the place where you'll be able to gather all the necessary info to figure out what went wrong, allowing you to save countless hours of digging through endless logs.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">AWS API Gateway monitoring</h2>
 					<p>With the Dashbird, you get more data about how your API Gateway layer is working behind the scenes. You'll see all the endpoints, calls, errors and much more, allowing you to get a head start on debugging your application.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Troubleshooting Aws Lambda </h2>
 					<p>Dashbird is built so that developers can detect and understand failures quickly and easily. Sign up now and start debugging your AWS API Gateway for free!</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>

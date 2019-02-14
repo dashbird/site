@@ -20,6 +20,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Know when it goes belly up</h2>
 					<p>Dashbird monitors and detects every failure from any programming language including crashes, early exits, timeouts and serverless configuration errors.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -31,6 +32,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Microservice monitoring</h2>
 					<p>Perhaps you need to create dedicated dashboards that monitor functions that are only in production or you are developing a new functionality that needs special attention. No problem! With Dashbird you got that covered using custom project views.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -42,6 +44,7 @@ exclude_menu: true
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Serverless monitoring in real time</h2>
 					<p>That's right, with Dashbird's live tailing functionality you'll be able to track your functions as they execute, getting real-time feedback and logs based on each functions invocation. Great tool to have while developing your application.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
