@@ -1,5 +1,5 @@
 ---
-title: Dashbird Updates - February 2019 Edition
+title: February product updates. Anomaly detection, incident management and better UX
 description: There's a lot of cool stuff happening at Dashbird. Here is just some of them.
 date: 2019-02-11T12:00:00.000Z
 frontImage: "2019-02-11/cody-davis-253925-unsplash.jpg"
