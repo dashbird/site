@@ -6,9 +6,10 @@ frontImage: "2019-01-25/pedro-garcia-maurino-1324377-unsplash.jpg"
 thumbnail: "Untitled-document/blog/pedro-garcia-maurino-1324377-unsplash.jpg"
 authorlink: 'https://twitter.com/@theburningmonk'
 author: Yan Cui
-author_image: '/Untitled-document/team/yancui.png'
+author_image: '/images/team/yancui.png'
 category: "Serverless, Other, Lambda"
 blog: ["Serverless", "Other", "Lambda"]
+featloc: blog-header
 ---
 
 With AWS Lambda, we get scalability and resilience out-of-the-box. What's more, AWS also provides built-in monitoring, logging and tracing support through CloudWatch and X-Ray. These built-in tools provide a good starting point but many developers eventually outgrow them as their serverless application becomes more complex.
