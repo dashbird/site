@@ -2,8 +2,8 @@
 title: Dashbird Updates - February 2019 Edition
 description: There's a lot of cool stuff happening at Dashbird. Here is just some of them.
 date: 2019-02-11T12:00:00.000Z
-frontImage: "2019-02-11/pexels-photo-920115.jpeg"
-thumbnail: "images/blog/2019-02-11/pexels-photo-920115.jpeg"
+frontImage: "2019-02-11/cody-davis-253925-unsplash.jpg"
+thumbnail: "images/blog/2019-02-11/cody-davis-253925-unsplash.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
