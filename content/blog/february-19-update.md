@@ -8,6 +8,7 @@ authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["serverless", "business"]
+featloc: blog-header
 ---
 
 This past couple of month were a bit hectic and there’s a good reason behind that. We’ve set out to create a better experience for our users, and it’s exactly what we did! Besides making a lot of quality-of-life changes, we’ve introduced new features that we think, will speed up the speed at which you’ll debug your applications and give you a whole new perspective on all things AWS Lambda.
