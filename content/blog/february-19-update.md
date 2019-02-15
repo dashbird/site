@@ -26,7 +26,7 @@ Picking the period is more straightforward, there are only four options at the m
 The bottom part includes recent invocations, which can be filtered down to errors, retries, cold starts or anomalies, and all the errors that have happened with this lambda. 
 
 ## New invocation view
-Instead of having a separate full page for invocations, it slides open from the right. You can still scroll around lambda's invocations list and open up a new one quickly.
+We've streamlined the function invocation view so instead of having a separate page for invocations, the invocation detail slides open from the right. You can still scroll around lambda's invocations list and open up a new one quickly.
 
 ## Alerting
 Now you can set up metric based alerting for any lambda or project. Just open up policies view under alerting tab and start adding the conditions. Whenever a condition fails, an incident opens and stays that way until the term passes again.
