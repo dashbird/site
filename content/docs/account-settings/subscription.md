@@ -44,7 +44,11 @@ We are giving special discounts or extended trial time in return of content cont
 
 You can end your subscription any time from your [Subscription](https://app.dashbird.io/client/subscription/setup/tier) page and you will not be charged again by the next billing cycle.
 
-*NB: there will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
+*There will be no refunds based on the unused time on your account. You will continue to have access to all the features until your last payment credit runs out (either it was monthly or annual payment).*
+
+*In case your're looking to cancel your account - not only end the subscription - please check out the [Cancel Account](/docs/account-settings/delete-account/) page in our documentation.*
 
 ---
 Check out what [features Dashbird offers](https://dashbird.io/docs/get-started/say-hi-to-dashbird/) and how these can be valuable to you!
+
+_We aim to improve [Dashbird](https://dashbird.io/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about our features and error handling! We would really appreciate it!_
