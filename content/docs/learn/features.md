@@ -19,7 +19,7 @@ Having all logs in one place helps you have a quick bird's eye perspective on yo
 ### Real-Time Lambda Insights
 See actionable and instant metrics of errors, invocations, durations and memory usage. Troubleshoot and analyze each invocation with log and runtime data.
 
-<a href='/images/features/function-monitoring-2019.02.13-png' target="_blank"><img alt='Main dashboard' src='/images/features/function-monitoring-2019.02.13-png'></a>
+<a href='/images/features/function-monitoring-2019.02.13.png' target="_blank"><img alt='Main dashboard' src='/images/features/function-monitoring-2019.02.13.png'></a>
 
 <br>
 
