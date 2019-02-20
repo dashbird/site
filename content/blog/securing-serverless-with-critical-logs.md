@@ -100,4 +100,4 @@ Further reading: this article had inspiration from [The 6 Categories of Critical
 
 ---
 
-Renato is a Developer Advocate at (Dashbird.io)[https://dashbird.io]. Follow him on (Twitter)[https://twitter.com/@byrrorenato] and (Medium)[https://medium.com/@byrro].
+Renato is a Developer Advocate at [Dashbird.io](https://dashbird.io). Follow him on [Twitter](https://twitter.com/@byrrorenato) and [Medium](https://medium.com/@byrro).
