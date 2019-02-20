@@ -2,7 +2,7 @@
 title: Securing Serverless Applications with Critical Logging
 description: How important logs are to secure a serverless app, what and how to log information.
 date: 2019-02-19T12:00:00.000Z
-frontImage: "2019-02-11/critical-logs-hero-min.png"
+frontImage: "2019-02-19/critical-logs-hero-min.png"
 thumbnail: "images/blog/2019-02-19/critical-logs-thumbnail-min.png"
 authorlink: 'https://medium.com/@byrro'
 author: Renato Byrro
@@ -18,7 +18,7 @@ We surely put in place a lot of proactive measures to secure our applications. W
 
 ### How does logging help securing an app in the first place?
 
-<img src="http://d72jhcab42lw7.cloudfront.net/images/critical-logs-coding-min.png" alt="Logging helps secure an application">
+<center>![Logging helps secure an application](/images/blog/2019-02-19/critical-logs-coding-min.png")</center>
 
 *Credits: Photo by [Kevin Ku](https://unsplash.com/photos/w7ZyuGYNpRQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash*
 
@@ -44,7 +44,7 @@ A positive side effect of having these logs is to identify possible bugs or unex
 
 ## Performance Levels
 
-<img src="http://d72jhcab42lw7.cloudfront.net/images/critical-logs-performance-min.png" alt="Use logs to monitor application performance">
+<center>![Use logs to monitor application performance](/images/blog/2019-02-19/critical-logs-performance-min.png")</center>
 
 *Credits: photo by [Michal Mrozek](https://unsplash.com/photos/0aqJNZ5tVBc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash*
 
@@ -86,7 +86,7 @@ Based on the [OWASP Logging Cheat Sheet](https://www.owasp.org/index.php/Logging
 
 ## Careful: what is critical NOT to log
 
-<img src="http://d72jhcab42lw7.cloudfront.net/images/critical-logs-private-min.png" src="Careful with sensitive/personal data in logs">
+<center>![Careful with sensitive/personal data in logs](/images/blog/2019-02-19/critical-logs-private-min.png")</center>
 
 *Credits: photo by [Dayne Topkin](https://unsplash.com/photos/u5Zt-HoocrM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash*
 
