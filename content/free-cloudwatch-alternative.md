@@ -182,37 +182,38 @@ ul.pricing-features.features li {
 }
 	</style>
 	
+<div class="bg-white">	
 <div class="background">
-  <div class="container">
+<div class="container">
 		<h2 class="landing-titles ">AWS Cloudwatch vs Dashbird</h2>
-    <div class="panel pricing-table">
-      <div class="pricing-plan">
-        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" style="
+	<div class="panel pricing-table">
+	<div class="pricing-plan">
+		<img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" style="
 		opacity: 0;
 	" class="pricing-img">
-        <h2 class="pricing-header">FEATURES</h2>
-        <ul class="pricing-features features">
-          <li class="pricing-features-item">Invocation logs view</li>
-		  <li class="pricing-features-item">JSON formatting</li>
-		  <li class="pricing-features-item">Messaging</li>
-		  <li class="pricing-features-item">Incident management</li>
-		  <li class="pricing-features-item">Metrics monitored</li>
-		  <li class="pricing-features-item">Identify cold starts</li>
-		  <li class="pricing-features-item">Identify retries</li>
-		  <li class="pricing-features-item">Link retry to previous invocations</li>
-		  <li class="pricing-features-item">Identify anomalies</li>
-		  <li class="pricing-features-item">Group Lambdas by Project</li>
-		  <li class="pricing-features-item">Local search by keywords</li>
-		  <li class="pricing-features-item">Global search by keywords (multiple Lambdas at once)</li>
-		  <li class="pricing-features-item">Filter invocation logs by type (error, retries, cold starts, anomalies)</li>
-        </ul>
-      </div>
-      <div class="pricing-plan">
-        <img src="https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Deployment__Management_copy_CloudWatch-512.png" alt="" style="
+		<h2 class="pricing-header">FEATURES</h2>
+		<ul class="pricing-features features">
+		<li class="pricing-features-item">Invocation logs view</li>
+		<li class="pricing-features-item">JSON formatting</li>
+		<li class="pricing-features-item">Messaging</li>
+		<li class="pricing-features-item">Incident management</li>
+		<li class="pricing-features-item">Metrics monitored</li>
+		<li class="pricing-features-item">Identify cold starts</li>
+		<li class="pricing-features-item">Identify retries</li>
+		<li class="pricing-features-item">Link retry to previous invocations</li>
+		<li class="pricing-features-item">Identify anomalies</li>
+		<li class="pricing-features-item">Group Lambdas by Project</li>
+		<li class="pricing-features-item">Local search by keywords</li>
+		<li class="pricing-features-item">Global search by keywords (multiple Lambdas at once)</li>
+		<li class="pricing-features-item">Filter invocation logs by type (error, retries, cold starts, anomalies)</li>
+		</ul>
+	</div>
+	<div class="pricing-plan">
+		<img src="https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Deployment__Management_copy_CloudWatch-512.png" alt="" style="
 		max-height: 180px;
 	" class="pricing-img">
-        <h2 class="pricing-header">AWS CloudWatch</h2>
-        <ul class="pricing-features">
+		<h2 class="pricing-header">AWS CloudWatch</h2>
+		<ul class="pricing-features">
 			<li class="pricing-features-item">Group multiple invocations</li>
 			<li class="pricing-features-item">Simple, shows the entire object</li>
 			<li class="pricing-features-item">Email integration (only for metric alerts)</li>
@@ -226,14 +227,14 @@ ul.pricing-features.features li {
 			<li class="pricing-features-item">Yes</li>
 			<li class="pricing-features-item">No</li>
 			<li class="pricing-features-item">No</li>
-        </ul>
-      </div>
-      <div class="pricing-plan">
-        <img src="http://localhost:1313/images/dashbird-logo.png" alt="" style="
+		</ul>
+	</div>
+	<div class="pricing-plan">
+		<img src="http://localhost:1313/images/dashbird-logo.png" alt="" style="
 		max-height: 180px;
 	" class="pricing-img">
-        <h2 class="pricing-header">Dashbird</h2>
-        <ul class="pricing-features">
+		<h2 class="pricing-header">Dashbird</h2>
+		<ul class="pricing-features">
 			<li class="pricing-features-item">Individual invocation view</li>
 			<li class="pricing-features-item">Interactive, open node by node (convenient for large objects)</li>
 			<li class="pricing-features-item">Email and Slack integration for errors and metric policies</li>
@@ -247,13 +248,12 @@ ul.pricing-features.features li {
 			<li class="pricing-features-item">Yes</li>
 			<li class="pricing-features-item">Yes</li>
 			<li class="pricing-features-item">Yes</li>
-        </ul>
-	  </div>
+		</ul>
+	</div>
 	</div>
 	
-  </div>
 </div>
-
+</div>
 <div class="row pt-6">
 	<div class="col-12 col-md-6 landing-text">
 		<div class="landing-text-inner sf-ui-text">
@@ -265,5 +265,5 @@ ul.pricing-features.features li {
 			<p></p>
 		</div>
 	</div>
-
+</div>
 </div>
