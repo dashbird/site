@@ -8,6 +8,12 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
   }
+  .row.full-height {
+    min-height: 95vh;
+  }
+  html {
+    font-size: calc(10px + .8vw);
+  }
   body {
     color: white;
     background-color: black;
@@ -15,33 +21,103 @@
     background-size: 192px auto;
     background-position: center 32px;
   }
-  @media (min-width: 992px) and (max-width: 1200px), (max-width: 768px) {
-    body {
-      background-size: 160px auto;
+  .logos img {
+    opacity: .4;
+    height: 4rem;
+  }
+  nav .row {
+    height: 3rem;
+  }
+  dashbird-graph {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    opacity: .75;
+  }
+  @media (max-width: 768px) {
+    dashbird-graph {
+      margin-top: -7rem;
     }
+  }
+  .mobile-cta-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+    text-align: center;
+  }
+  .mobile-cta-block small {
+    margin-top: 3rem;
   }
   h1 {
     font-family: 'Reno Mono', monospace;
     letter-spacing: -1.5px;
+    margin-left: -.1rem;
   }
   p {
     letter-spacing: .75px;
   }
+  .hero img.aws-small {
+    opacity: .9;
+    height: 1.1rem;
+    margin-bottom: -.35rem;
+  }
   button {
-    padding: .5rem 2rem;
+    position: relative;
     border-radius: 99rem;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, .25);
     color: white;
     margin-right: .5rem;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Reno Mono', monospace;
+    font-size: .8rem;
+    line-height: 0;
+    padding: 1.2rem 2rem 1.1rem;
   }
   button.cta-btn {
     background: white;
     color: black;
+    min-width: 10rem;
   }
-  .gap {
-    height: 640px;
+  button.cta-btn:hover {
+    background: #4B45C6;
+    color: white;
+    border: 1px solid #4B45C6;
+  }
+  button.cta-btn:active {
+    background: rgb(51, 46, 134);
+    color: white;
+    border: 1px solid rgb(51, 46, 134);
+  }
+  button:hover {
+    transition: all .1s;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  button:active {
+    transition: all 0s;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.2);
+  }
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
+  }
+  small, button[data-note]:after {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 200;
     width: 100%;
+  }
+  small {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .hero-text {
+    padding-bottom: 64px;
   }
   .h-1 {
     height: 64px;

@@ -9,12 +9,14 @@
   </head>
   <body>
     {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
+    {{ partial "test.html" . }}
+    <!--
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    -->
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
-      <script async src="{{ .  }}" type="text/javascript"></script>
+    <script async src="{{ .  }}" type="text/javascript"></script>
     {{ end  }}
-
   </body>
 </html>

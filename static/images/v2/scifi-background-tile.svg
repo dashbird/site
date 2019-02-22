@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="768px" height="256px" viewBox="0 0 768 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+<svg width="640px" height="256px" viewBox="0 0 640 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
     <title>scifi-background-tile</title>
     <desc>Created with Sketch.</desc>
     <g id="scifi-background-tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M384,0 L384,256" id="Line" stroke="#FFFFFF" stroke-width="2" opacity="0.2" fill-rule="nonzero"></path>
-        <circle id="Oval-Copy-2" fill="#FFFFFF" fill-rule="nonzero" cx="128" cy="128" r="1"></circle>
-        <circle id="Oval-Copy-4" fill="#FFFFFF" fill-rule="nonzero" cx="640" cy="128" r="1"></circle>
-        <circle id="Oval-Copy-3" fill="#FFFFFF" fill-rule="nonzero" cx="384" cy="128" r="1"></circle>
+        <path d="M320.5,0 L320.5,256" id="Line" stroke="#FFFFFF" stroke-width="2" opacity="0.15" fill-rule="nonzero"></path>
+        <circle id="Oval-Copy-2" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="64" cy="192" r="1"></circle>
+        <circle id="Oval-Copy-6" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="64" cy="64" r="1"></circle>
+        <circle id="Oval-Copy-5" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="192" cy="192" r="1"></circle>
+        <circle id="Oval-Copy-7" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="192" cy="64" r="1"></circle>
+        <circle id="Oval-Copy-2" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="448" cy="192" r="1"></circle>
+        <circle id="Oval-Copy-8" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="448" cy="64" r="1"></circle>
+        <circle id="Oval-Copy-4" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="576" cy="192" r="1"></circle>
+        <circle id="Oval-Copy-9" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="576" cy="64" r="1"></circle>
+        <circle id="Oval-Copy-3" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="320" cy="192" r="1"></circle>
+        <circle id="Oval-Copy-10" fill="#FFFFFF" fill-rule="nonzero" opacity="0.75" cx="320" cy="64" r="1"></circle>
     </g>
 </svg>
