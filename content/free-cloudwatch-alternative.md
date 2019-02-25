@@ -230,7 +230,7 @@ ul.pricing-features.features li {
 		</ul>
 	</div>
 	<div class="pricing-plan">
-		<img src="http://localhost:1313/images/dashbird-logo.png" alt="" style="
+		<img src="https://dashbird.io/images/dashbird-logo.png" alt="" style="
 		max-height: 180px;
 	" class="pricing-img">
 		<h2 class="pricing-header">Dashbird</h2>
