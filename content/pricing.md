@@ -20,7 +20,7 @@ date: 2018-07-17T17:50:03+02:00
         <p class="h5 mt-3 mb-5 sf-ui-text">Find a plan that fits your team or <a href='/contact-sales'>contact us</a> to customize</p>
       </div>
     </div>
-    <div class="row justify-content-md-center align-items-center sf-ui-text">  
+    <div class="row justify-content-md-center align-items-center sf-ui-text">
       <div class="col-sm-12 col-md-12 mb-5">
         <div class="row">
           <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2">
@@ -73,7 +73,7 @@ date: 2018-07-17T17:50:03+02:00
                 <ul class='pricing-features pb-3'>
                     <li>Live tailing</li>
                     <li>Full-text search</li>
-                    <li>30-day data retention</li>
+                    <li>7-day data retention</li>
                     <li>Technical support</li>
                   </ul>
                 <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Start your 14 day free trial</a>
@@ -141,7 +141,7 @@ date: 2018-07-17T17:50:03+02:00
           <div class='card'>
             <div class="card-header" id="headingSix">
               <h5 class="mb-0" class="btn" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                 How much data volume do I get allocated during my 14 day trial? 
+                 How much data volume do I get allocated during my 14 day trial?
               </h5>
             </div>
             <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
