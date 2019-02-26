@@ -36,7 +36,7 @@ date: 2018-07-17T17:50:03+02:00
                 <li>Account and function metrics</li>
                 <li>Invocation history</li>
                 <li>X-Ray tracing</li>
-                <li>7-day data retention</li>
+                <li>2-day data retention</li>
               </ul>
               <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Get started for free</a>
             </div>
