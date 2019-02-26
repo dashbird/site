@@ -21,6 +21,10 @@
         identifier: 'product'
         URL: '/features/'
         weight: 100
+      - name: 'Careers'
+        identifier: 'careers'
+        URL: '/jobs/'
+        weight: 150 
       - name: 'Docs'
         identifier: 'documentation'
         URL: '/docs/'
