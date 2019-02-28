@@ -10,10 +10,7 @@ btn_url: 'https://dashbird.io/register/'
 exclude_menu: true
 ---
 
-
-
-
-    <style type="text/css">
+<style type="text/css">
         html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -180,8 +177,13 @@ ul.pricing-features.features li {
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
-	</style>
-	
+</style>	
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCGWP66"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div class="bg-white">	
 <div class="background">
 <div class="container">
@@ -251,7 +253,6 @@ ul.pricing-features.features li {
 		</ul>
 	</div>
 	</div>
-	
 </div>
 </div>
 <div class="row pt-6">
