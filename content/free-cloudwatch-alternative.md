@@ -179,10 +179,6 @@ ul.pricing-features.features li {
 }
 </style>	
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCGWP66"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <div class="bg-white">	
 <div class="background">
