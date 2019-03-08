@@ -23,7 +23,7 @@ If you haven't already, start by filling out the [registration form](/register).
 
 ![onboarding](/images/docs/onboarding.png)
 
-*Dashbird works by collecting logs, metrics and listing resources under your AWS account. To do that, we need limited access to your account. After completing the registration form a custom CloudFormation template is generated for you. For details of what this template contains, check out this <a href='https://github.com/dashbird/client-side' target='_blank'>open-source code repository</a>.*
+*Dashbird works by collecting logs, metrics and listing resources under your AWS account. To do that, we need limited access to your account. After completing the registration form a custom CloudFormation template is generated for you. For details of what this template contains, check out this <a href='https://s3.amazonaws.com/dashbird-cf/cloudformation.yml' target='_blank'>cloudformation template</a>.*
 
 
 #### Steps
@@ -31,7 +31,7 @@ If you haven't already, start by filling out the [registration form](/register).
 - **Make sure you are logged into your AWS account**
 - Click `create a new CloudFormation stack` on the onboarding screen
 - *AWS console opens with a pre-filled S3 template URL* (currently must be created to `us-east-1`)
-- Click **Next** on the Select template page 
+- Click **Next** on the Select template page
 - Insert stack name (e.g. `dashbird-connector`)
 - Click **Next** on the Specify details page
 - Mark as checked: **I Acknowledge that AWS CloudFormation might create IAM resources box**
