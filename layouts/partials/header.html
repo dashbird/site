@@ -19,32 +19,58 @@
     <div class="login-container">
       <div class="register">
         <h1>Register</h1>
-        <a href="#login">login</a>
+        <p>or <a href="#login">sign in</a> to your account</p>
+        <input type="text" placeholder="Full name"><br>
+        <input type="text" placeholder="Email"><br>
+        <input type="password" placeholder="Password"><br>
+        <input type="password" placeholder="Confirm password"><br>
       </div>
       <div class="login">
         <h1>Login</h1>
-        <a href="#register">register</a>
+        <p>Don’t have an account? <a href="#register">Sign up</a></p>
+        <input type="text" placeholder="Email"><br>
+        <input type="password" placeholder="Password"><br>
+        <button class="cta-btn">Login</button><br>
+        <button>Sign up with Github</button><br>
+        <a href="#">Forgot password?</a>
       </div>
     </div>
   </div>
 </div>
 
-<nav class="container">
+<nav class="container navbar-expand">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 navbar p-md-0">
       <a class="navbar-brand" href="/">
-        Dashbirb
+        <img class="logo-main pl-md-1 pb-1" src="/images/v2/logo-dashbird-withtext.svg" alt="">
       </a>
-      {{ range .Site.Menus.main }}
-      <a class="d-none d-md-block" href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-      <a class="d-none d-md-block" href="#login">login</a>
-      <a class="d-none d-md-block" href="#register">register</a>
-      <a class="d-md-none d-md-none" href="#menu">burger menu</a>
+      <ul class="navbar-nav mr-auto">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#login">Log in</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#register">Register</a>
+        </li>
+        <li class="nav-item d-md-none d-md-none">
+          <a href="#menu">
+            <img src="/images/v2/navbar-burger-icon.svg" alt="">
+          </a>
+        </li>
+      </ul>
   </div>
 </nav>
 
 <style>
+  .navbar-expand {
+    margin-top: 1rem;
+  }
   #overlay {
     position: fixed;
     top: 0;
@@ -101,18 +127,32 @@
     transform: translateX(-50%);
   }
   #side-menu.register .login-container .login {
-    transform: translateX(-50%);
+    transform: translateX(-30%);
     opacity: 0;
     pointer-events: none;
   }
   #side-menu.login .login-container .register {
-    transform: translateX(50%);
+    transform: translateX(30%);
     opacity: 0;
     pointer-events: none;
   }
   .navigation {
     width: 50%;
     height: 100%;
+  }
+  @media (min-width: 768px) {
+    img.logo-main {
+      margin-bottom: 0.4rem;
+      height: 1.5rem;
+    }
+  }
+  a.nav-link {
+    color: white;
+    font-family: 'Reno Mono', monospace;
+    font-size: .75rem;
+  }
+  a.nav-link:hover {
+    text-decoration: underline;
   }
   .login-container {
     width: 50%;
@@ -126,6 +166,9 @@
   .login {
     position: absolute;
     width: 100%;
+  }
+  .register, .login {
+    padding: 1rem;
   }
   @media (max-width: 768px) {
     #side-menu {

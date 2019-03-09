@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>navbar-burger-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="navbar-burger-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5.48466577,10 C4.66470751,10 4,9.32842712 4,8.5 C4,7.67157288 4.66470751,7 5.48466577,7 L29.5153342,7 C30.3352925,7 31,7.67157288 31,8.5 C31,9.32842712 30.3352925,10 29.5153342,10 L5.48466577,10 Z M5.48466577,19 C4.66470751,19 4,18.3284271 4,17.5 C4,16.6715729 4.66470751,16 5.48466577,16 L29.5153342,16 C30.3352925,16 31,16.6715729 31,17.5 C31,18.3284271 30.3352925,19 29.5153342,19 L5.48466577,19 Z M5.48466577,28 C4.66470751,28 4,27.3284271 4,26.5 C4,25.6715729 4.66470751,25 5.48466577,25 L29.5153342,25 C30.3352925,25 31,25.6715729 31,26.5 C31,27.3284271 30.3352925,28 29.5153342,28 L5.48466577,28 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
