@@ -4,7 +4,7 @@ description: Understanding your logs should not be this hard! Dashbird helps you
 date: 2019-03-12T00:00:00.000Z
 frontImage: "2019-03-12/activity-adult-adventure-1308751.jpg"
 thumbnail: "images/blog/2019-03-12/activity-adult-adventure-1308751.jpg"
-authorlink: 'https://medium.com/@johndemian'
+authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
 featpop: most-popular
