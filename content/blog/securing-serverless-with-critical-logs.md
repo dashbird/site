@@ -8,7 +8,7 @@ authorlink: 'https://medium.com/@byrro'
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 featpop: most-popular
-blog: [Serverless", "Security", "Inspectability"]
+blog: ["Serverless", "Security", "Inspectability"]
 ---
 
 
