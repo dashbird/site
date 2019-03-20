@@ -143,6 +143,18 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 </section>
 
+<!-- <section class="container-fluid py-8 py-md-10" style='background-image: url("/images/bg-img-cta@1x.png"); background-size: cover;box-shadow: inset 0 0 0 1000px rgba(35, 34, 61, 0.6); padding-top: 70px; padding-bottom: 70px;'>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 center p-2 cta-black bg-cta text-center">
+        <span class="h3 roboto-mono mt-5 mb-4 d-block">Need a hand to get on board?</span>
+        <p class="mt-3 lh-3 d-block">Join us in our 30-minute weekly OnBoarding Webinar. Happens every Friday on 9:30 AM (Pacific Time). We cover best practices for monitoring and debugging your Lambda apps. Your questions are more than welcome for our live Q&A session.</p>
+        <form class='form-inline justify-content-center mt-md-5 mb-5' name="trial-form">
+            <a href='' class="btn btn-default d-block d-md-inline cta-btn cta-transparent">Register now!</a>
+        </form>
+      </div>
+    </div>
+</section> -->
+
 <section class="container-fluid dark-bg">
   <div class="row">
     <div class="col text-center pt-5 pt-md-100">
