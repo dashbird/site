@@ -8,11 +8,8 @@
   </head>
   <body>
     {{ partial "header.html" . }}
-    {{ partial "test.html" . }}
-    <!--
-      {{ block "main" . }}{{ end }}
-      {{ partial "footer.html" . }}
-    -->
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
     <script async src="{{ .  }}" type="text/javascript"></script>

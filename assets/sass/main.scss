@@ -1,6 +1,6 @@
  $primary-color: white; 
 
-/* Webfont: RenoMono-Regular */@font-face {
+ @font-face {
     font-family: 'RenoMono';
     src: url('/fonts/RenoMono.woff2') format('woff2'), /* Modern Browsers */
          url('/fonts/RenoMono.ttf') format('truetype'); /* Safari, Android, iOS */
@@ -8,6 +8,7 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
   }
+
   .row.full-height {
     min-height: 95vh;
   }
@@ -123,5 +124,94 @@
     background: rgba(255,0,0,0.2);
     border-left: 8px solid rgba(255,0,0,0.2);
     border-right: 8px solid rgba(255,0,0,0.2);
+  }
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.6s;
+  }
+  #overlay.show {
+    opacity: 1;
+    pointer-events: unset;
+  }
+  #side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+    margin: .75rem;
+    border-radius: 1rem;
+    background: white;
+    z-index: 101;
+    transform: translateX(120%);
+    transition: all 0.4s cubic-bezier(0, 0, 0.1, 1);
+    overflow: hidden;
+    color: black;
+  }
+  #side-menu.show {
+    transform: translateX(0%);
+  }
+  .close {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    z-index: 1;
+  }
+  .menu-container {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    transition: transform .3s;
+  }
+  #side-menu.menu .menu-container {
+    transform: translateX(0%);
+  }
+  #side-menu .login, #side-menu .register {
+    transition: all .3s;
+  }
+  #side-menu.login .menu-container, #side-menu.register .menu-container {
+    transform: translateX(-50%);
+  }
+  #side-menu.register .login-container .login {
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  #side-menu.login .login-container .register {
+    transform: translateX(50%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .navigation {
+    width: 50%;
+    height: 100%;
+  }
+  .login-container {
+    width: 50%;
+    height: 100%;
+    position: relative;
+  }
+  .register {
+    position: absolute;
+    width: 100%;
+  }
+  .login {
+    position: absolute;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    #side-menu {
+      margin: 0;
+      border-radius: 0;
+      width: 100%;
+    }
   }
 

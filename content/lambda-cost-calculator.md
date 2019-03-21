@@ -61,10 +61,19 @@ scripts:
     </div>
   </div>
 
-  <div class='row justify-content-center mt-5 '>
-    <div class='col-8 text-center'>
-      <h3>Get Dashbird - leading monitoring and troubleshooting tool for serverless applications!</h3>
-      <h5><a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Sign up for free</a></h5>
+  <div class='row justify-content-center'>
+    <div class='col-9 text-center'>
+      <div class='row justify-content-center'>
+
+        <div class='col-6 imgs-fluid'>
+          <img src="/images/cost.png" >
+        </div>
+
+        <div class='col-6'>
+          <a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Sign up for free</a>
+        </div>
+
+      </div>
     </div>
   </div>
 
