@@ -61,6 +61,50 @@
     width: 50%;
     height: 100%;
   }
+
+
+  &.login, &.register {
+    padding: 2rem 1.5rem;
+  }
+  p {
+    margin-top: -1rem;
+  }
+  input {
+    font-family: 'Reno mono';
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 999rem;
+    padding: .75rem .5rem .5rem 1rem;
+    min-height: 2.5rem;
+    line-height: 0%;
+    &:active {
+      border: 1px solid rgba(0, 0, 0, .75);
+    }
+  }
+  input, button {
+    width: 100%;
+    margin-bottom: .25rem;
+  }
+  button {
+    min-height: 2.5rem;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    height: 2rem;
+    &.cta-btn {
+      background: $accent-color;
+      color: white;
+    }
+    &.github {
+      &:before {
+        content: ' '
+      }
+
+    }
+  }
+  small {
+    color: black;
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 #overlay {

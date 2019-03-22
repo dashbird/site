@@ -7,11 +7,11 @@
   text-rendering: optimizeLegibility;
 }
 html {
-  font-size: calc(10px + .8vw);
+  font-size: calc(12px + .8vw);
 }
 h1 {
   font-family: 'Reno Mono', monospace;
-  letter-spacing: -1.5px;
+  letter-spacing: -.1rem;
   margin-left: -.1rem;
 }
 p {
