@@ -16,6 +16,7 @@ body {
   background-color: black;
   font-weight: 400;
   line-height: 1.45;
+  letter-spacing: .05rem;
   color: white;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,11 +27,14 @@ a {
 
 p {
   margin-bottom: 1.25em;
-  letter-spacing: .05rem;
+}
+p.subtitle {
+  font-family: 'Reno Mono', monospace;
+  opacity: .5;
+  margin-bottom: .5rem;
 }
 
 h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1rem;
   font-family: 'Reno Mono', monospace;
   font-weight: 400;
   line-height: 1.15;
@@ -42,12 +46,19 @@ h1 {
   font-size: 3.052em;
   letter-spacing: -.25rem;
 }
-
-h2 {font-size: 2.441em;}
-h3 {font-size: 1.953em;}
-h4 {font-size: 1.563em;}
-h5 {font-size: 1.25em;}
-small, .text_small {font-size: 0.8em;}
+h2 {
+  font-size: 2.441rem;
+}
+h3 {
+  font-size: 1.953rem;
+}
+h4 {
+  margin-top: 0;
+  font-size: 1.563rem;
+  letter-spacing: -.1rem;
+}
+h5 {font-size: 1.25rem;}
+small, .text_small {font-size: 0.8rem;}
 
 small {
   color: rgba(255, 255, 255, 0.5);
@@ -55,4 +66,15 @@ small {
   width: 100%;
   text-transform: uppercase;
   letter-spacing: .1rem;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    &:before {
+      content: "→";
+      margin-right: .5rem;
+    }
+  }
 }

@@ -62,8 +62,8 @@ dated: 2017-10-29T17:50:03+02:00
 <div class="container fluid mt-5">
 
   <div class="row">
-    <div class="col-12 col-md-6">
-      <p>Insight</p>
+    <div class="col-12 col-md-6 align-self-center">
+      <p class="subtitle">Insight</p>
       <h4>Deep observability into serverless</h4>
       <ul>
         <li>Effectively navigate logs, metrics and traces</li>
@@ -82,9 +82,9 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-12 col-md-6 text-center text-md-left">
       <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
     </div>
-    <div class="col-12 col-md-6 text-center text-md-left">
-      <p>Resiliance</p>
-      <h4>Error and anomaly detection and troubleshooting</h4>
+    <div class="col-12 col-md-6 text-center text-md-left align-self-center">
+      <p class="subtitle">Resiliance</p>
+      <h4 class="subtitle">Error and anomaly detection and troubleshooting</h4>
       <ul>
         <li>Quickly identify the root cause.</li>
         <li>Detect errors and anomalies before they reach users</li>
@@ -96,9 +96,9 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 
   <div class="row mt-5">
-    <div class="col-12 col-md-6">
-      <p>Optimization</p>
-      <h4>Performance and cost optimisation</h4>
+    <div class="col-12 col-md-6 align-self-center">
+      <p class="subtitle">Optimization</p>
+      <h4 class="subtitle">Performance and cost optimisation</h4>
       <ul>
         <li>Identify parts of the system that are costing the most</li>
         <li>Pinpoint the cause of slow functions</li>

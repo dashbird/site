@@ -156,6 +156,11 @@ nav {
     }
   }
   ul.nav {
+    li {
+      &:before {
+        display: none;
+      }
+    }
     a {
       font-family: 'Reno mono', monospace;
       color: white;
