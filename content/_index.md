@@ -78,13 +78,30 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <p>Insight</p>
-      <h4>Deep observability into serverless</h4>
+  <div class="row mt-5">
+    <div class="col-12 col-md-6 text-center text-md-left">
+      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+    </div>
+    <div class="col-12 col-md-6 text-center text-md-left">
+      <p>Resiliance</p>
+      <h4>Error and anomaly detection and troubleshooting</h4>
       <ul>
-        <li>Effectively navigate logs, metrics and traces</li>
-        <li>Visualize service usage and identify bottlenecks</li>
+        <li>Quickly identify the root cause.</li>
+        <li>Detect errors and anomalies before they reach users</li>
+      </ul>
+      <p>
+      <a href='/features#observability' target='_blank'>Learn more</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12 col-md-6">
+      <p>Optimization</p>
+      <h4>Performance and cost optimisation</h4>
+      <ul>
+        <li>Identify parts of the system that are costing the most</li>
+        <li>Pinpoint the cause of slow functions</li>
       </ul>
       <p>
         <a href='/features#observability' target='_blank'>Learn more</a>
@@ -95,10 +112,83 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-<
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get started</button>
+      </a>
+    </div>
+  </div>
+</div>
 
 
+<div class="container fluid mt-5 mb-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>What makes us different?</h1>
+    </div>
+  </div>
 
+  <div class="row">
+  <div class="col-12 col-md-4 text-center">
+    <img src='/images/landing-graphics/check.svg'>
+    <h5>Easy to set up</h5>
+    <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
+  </div>
+
+  <div class="col-12 col-md-4 text-center">
+    <img src='/images/landing-graphics/lambda.svg'>
+    <h5>Built for serverless</h5>
+    <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
+  </div>
+
+  <div class="col-12 col-md-4 text-center">
+    <img src='/images/landing-graphics/heart.svg'>
+    <h5>Our users love us</h5>
+    <p>We’re on a mission to help as many companies succeed with serverless as possible.</p>
+  </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get started</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container fluid mt-5 mb-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>Why over 500 teams use Dashbird daily?</h1>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="col-12 col-md-4 text-center">
+    <h5>Easy to set up</h5>
+    <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
+  </div>
+
+  <div class="col-12 col-md-4 text-center">
+    <h5>Built for serverless</h5>
+    <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
+  </div>
+
+  <div class="col-12 col-md-4 text-center">
+    <h5>Our users love us</h5>
+    <p>We’re on a mission to help as many companies succeed with serverless as possible.</p>
+  </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get started</button>
+      </a>
+    </div>
+  </div>
 </div>
 
 <script>
