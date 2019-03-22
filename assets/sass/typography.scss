@@ -8,13 +8,16 @@
 }
 html {
   font-size: calc(12px + .8vw);
+  font-family: 'Reno Mono', monospace;
+}
+h1, h2, h3, h4, h5, h6, small, span {
+  font-family: 'Reno Mono', monospace;
 }
 h1 {
-  font-family: 'Reno Mono', monospace;
   letter-spacing: -.1rem;
   margin-left: -.1rem;
 }
-p {
+p, span {
   letter-spacing: .75px;
 }
 small {
