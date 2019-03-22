@@ -41,15 +41,22 @@
 <nav class="container navbar-expand">
   <div class="row">
     <div class="col-12 mt-4">
-      <a class="navbar-brand float-left" href="/">Dashbird</a>
-      <ul class="nav float-left">
+      <a class="navbar-brand float-left" href="/">
+        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
+      </a>
+      <div class="float-right align-right d-block d-lg-none">
+        <a href="#menu">
+          <img src="/images/v2/navbar-burger-icon.svg" alt="">
+        </a>
+      </div>
+      <ul class="nav float-left d-none d-lg-inline-flex">
         {{ range .Site.Menus.main }}
         <li class="nav-item">
-          <a class="d-none d-md-block nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
-      <ul class="nav float-right align-right">
+      <ul class="nav float-right align-right d-none d-lg-inline-flex">
           <li class='nav-item'>
             <a class="nav-link" href="#login">Log in</a>
           </li>
@@ -57,7 +64,7 @@
             <a class="nav-link" href="#register">Register</a>
           </li>
         </div>
-        <a class="d-none" href="#menu">burger menu</a>
       </ul>
     </div>
+  </div>
 </nav>

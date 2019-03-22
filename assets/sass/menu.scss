@@ -79,3 +79,25 @@
     pointer-events: unset;
   }
 }
+
+nav {
+  .navbar-brand {
+    padding-top: 0;
+    img {
+      width: 7rem;
+      @media (max-width: 768px) {
+        width: 10rem;
+      }
+    }
+  }
+  ul.nav {
+    a {
+      font-family: 'Reno mono', monospace;
+      color: white;
+      font-size: 1rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

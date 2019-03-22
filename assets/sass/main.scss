@@ -22,9 +22,7 @@ dashbird-graph {
   height: auto;
   margin: auto;
   opacity: .75;
-}
-@media (max-width: 768px) {
-  dashbird-graph {
+  @media (max-width: 768px) {
     margin-top: -7rem;
   }
 }

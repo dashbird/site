@@ -7,7 +7,10 @@ var $sideMenu = document.querySelector('#side-menu')
 var $overlay = document.querySelector('#overlay')
 var hashTriggers = ['#menu', '#login', '#register']
 
-window.onpopstate = function () {
+checkHash()
+window.onpopstate = checkHash
+
+function checkHash () {
   const hash = window.location.hash
   if (hashTriggers.find(function (str) {return str === hash})) {
     $sideMenu.className = 'show'
