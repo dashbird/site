@@ -5,21 +5,52 @@
             font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
+  
 }
-html {
-  font-size: calc(12px + .8vw);
+
+:root {
+	--baseline: 18px;
+  font-size: var(--baseline);
 }
-h1 {
+
+body {
+  background-color: black;
+  font-weight: 400;
+  line-height: 1.45;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: 1.25em;
+  letter-spacing: .05rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
   font-family: 'Reno Mono', monospace;
+  font-weight: 400;
+  line-height: 1.15;
   letter-spacing: -.1rem;
   margin-left: -.1rem;
+  font-size: 3.5rem;
 }
-p {
-  letter-spacing: .75px;
+
+h1 {
+  margin-top: 0;
+  margin-left: -.3rem;
+  font-size: 3.052em;
+  letter-spacing: -.25rem;
 }
+
+h2 {font-size: 2.441em;}
+h3 {font-size: 1.953em;}
+h4 {font-size: 1.563em;}
+h5 {font-size: 1.25em;}
+small, .text_small {font-size: 0.8em;}
+
 small {
   color: rgba(255, 255, 255, 0.5);
-  font-size: .6rem;
   font-weight: 200;
   width: 100%;
   text-transform: uppercase;
