@@ -3,9 +3,9 @@
   top: 0;
   right: 0;
   bottom: 0;
-  width: 20rem;
+  width: 23rem;
   margin: .75rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background: white;
   z-index: 101;
   transform: translateX(120%);
@@ -22,9 +22,10 @@
   }
   .close {
     position: absolute;
-    top: .5rem;
-    right: .5rem;
+    top: 1.5rem;
+    right: 1.5rem;
     z-index: 1;
+    cursor: pointer;
   }
   .menu-container {
     width: 200%;
@@ -36,6 +37,10 @@
     transition: all .3s;
     position: absolute;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   .login-container {
     width: 50%;
@@ -64,7 +69,7 @@
 
 
   &.login, &.register {
-    padding: 2rem 1.5rem;
+    padding: 3rem 2rem;
   }
   p {
     margin-top: -1rem;
@@ -74,7 +79,7 @@
     border: 1px solid rgba(0, 0, 0, .25);
     border-radius: 999rem;
     padding: .75rem .5rem .5rem 1rem;
-    min-height: 2.5rem;
+    min-height: 3rem;
     line-height: 0%;
     &:active {
       border: 1px solid rgba(0, 0, 0, .75);
@@ -83,9 +88,10 @@
   input, button {
     width: 100%;
     margin-bottom: .25rem;
+    letter-spacing: -.075rem;
   }
   button {
-    min-height: 2.5rem;
+    min-height: 3rem;
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.25);
     height: 2rem;
@@ -94,16 +100,30 @@
       color: white;
     }
     &.github {
-      &:before {
-        content: ' '
+      margin-bottom: 2rem;
+      img {
+        margin: -1rem 0;
       }
-
     }
   }
-  small {
-    color: black;
-    display: inline-block;
+  p.center {
     text-align: center;
+  }
+  .footer {
+    p {
+      text-align: center;
+      margin-bottom: 1rem;
+      &.privacy {
+        font-size: .75rem;
+        color: rgba(0, 0, 0, .35);
+        width: 75%;
+        margin: auto;
+        a {
+          color: rgba(0, 0, 0, .35);
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 
@@ -125,3 +145,24 @@
 }
 
 
+nav {
+  .navbar-brand {
+    padding-top: 0;
+    img {
+      width: 7rem;
+      @media (max-width: 768px) {
+        width: 10rem;
+      }
+    }
+  }
+  ul.nav {
+    a {
+      font-family: 'Reno mono', monospace;
+      color: white;
+      font-size: 1rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

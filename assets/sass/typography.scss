@@ -20,6 +20,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+a {
+  color: $accent-color;
+}
+
 p {
   margin-bottom: 1.25em;
   letter-spacing: .05rem;

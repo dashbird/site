@@ -56,7 +56,6 @@ button {
   cursor: pointer;
   transition: all .3s;
   font-family: 'Reno Mono', monospace;
-  font-size: .8rem;
   line-height: 0;
   padding: 1.2rem 2rem 1.1rem;
   &.cta-btn {
@@ -89,7 +88,7 @@ button {
   }
 }
 .hero-text {
-  padding-bottom: 64px;
+  padding-bottom: 2rem;
 }
 .h-1 {
   height: 64px;
