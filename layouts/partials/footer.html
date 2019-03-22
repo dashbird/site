@@ -2,24 +2,6 @@
   <div class="row p-4">
     <div class="col-12 col-md-10 mx-md-auto">
       <div class="row">
-        <div class="col-12 col-md-6 text-white mb-5 mb-md-0 mt-5 mt-md-0">
-          <span class='bold text-white roboto-mono mb-4 d-block'>Popular this week</span>
-          <div class='w-md-75'>
-          {{ range where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog" | first 5 }}
-            <div class="row pt-2 pb-2 mt-1 mb-1 clickable-blank footer-blog-item">
-              <div class="col-auto d-flex align-items-center" width=70>
-                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/blog/{{.Params.frontImage}}" width='60'>
-              </div>
-              <div class="col p-0 d-flex align-items-center">
-                <span class='small'>
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </span>
-              </div>
-            </div>
-          {{ end }}
-        </div>
-        </div>
-
         <div class="col-12 col-md-6">
           <div class="row">
             <div class="col-6 col-md-4">
@@ -54,6 +36,18 @@
                 <li><a href="https://instagram.com/dashbirdteam" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
               </p>
             </div>
+            <div class="col-6 col-md-4 pl-5 pl-md-0">
+              <span class='bold roboto-mono text-white'>Company</span>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/team">Team</a></li>
+                <li><a href="/jobs">Careers</a></li>
+                <li><a href="https://www.iubenda.com/privacy-policy/75093246" class="iubenda-nostyle no-brand iubenda-embed " title="Privacy Policy">Privacy Policy</a>
+                  <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                </li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>
