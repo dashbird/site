@@ -49,6 +49,58 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 </div>
 
+<div class="container fluid mb-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>The future is serverless</h1>
+      <p>And we've redesigned how debugging and operations is done.</p>
+      <span> Video </span>
+    </div>
+  </div>
+</div>
+
+<div class="container fluid mt-5">
+
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <p>Insight</p>
+      <h4>Deep observability into serverless</h4>
+      <ul>
+        <li>Effectively navigate logs, metrics and traces</li>
+        <li>Visualize service usage and identify bottlenecks</li>
+      </ul>
+      <p>
+        <a href='/features#observability' target='_blank'>Learn more</a>
+      </p>
+    </div>
+    <div class="col-12 col-md-6 text-center text-md-right">
+      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <p>Insight</p>
+      <h4>Deep observability into serverless</h4>
+      <ul>
+        <li>Effectively navigate logs, metrics and traces</li>
+        <li>Visualize service usage and identify bottlenecks</li>
+      </ul>
+      <p>
+        <a href='/features#observability' target='_blank'>Learn more</a>
+      </p>
+    </div>
+    <div class="col-12 col-md-6 text-center text-md-right">
+      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+    </div>
+  </div>
+
+<
+
+
+
+</div>
+
 <script>
 	fbq('track', 'ViewContent', {
 		content_ids: 'homepage',
