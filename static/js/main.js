@@ -1,6 +1,47 @@
 /* eslint-env jquery */
 
+
+/* signup popup */
+
+var $sideMenu = document.querySelector('#side-menu')
+var $overlay = document.querySelector('#overlay')
+var hashTriggers = ['#menu', '#login', '#register']
+
+window.onpopstate = function () {
+  const hash = window.location.hash
+  if (hashTriggers.find(function (str) {return str === hash})) {
+    $sideMenu.className = 'show'
+    $overlay.classList.add('show')
+    switch (hash) {
+      case '#menu':
+        $sideMenu.classList.add('menu')
+        break
+      case '#login':
+        $sideMenu.classList.add('login')
+        break
+      case '#register':
+        $sideMenu.classList.add('register')
+        break
+    }
+  } else if (hash === '') {
+    $sideMenu.className = ''
+    $overlay.className = ''
+  }
+}
+function removeHash () {
+  var state = ''
+  var popStateEvent = new PopStateEvent('popstate', { state: state })
+  history.pushState(state, document.title, window.location.pathname + window.location.search)
+  dispatchEvent(popStateEvent)
+}
+
+
+
+
+
 $(document).ready(function () {
+
+
   $('#navigation').on('show.bs.collapse', function () {
     $('nav').addClass('collapsedfully')
     $('html, body').css({ overflow: 'hidden', height: '100%' })

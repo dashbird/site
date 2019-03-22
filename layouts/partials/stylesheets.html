@@ -1,11 +1,10 @@
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Mono|Roboto+Slab:300|Roboto:300,700" media="none" onload="if(media!='all')media='all'">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{{ $styles := resources.Get "sass/main.scss" | toCSS | fingerprint }} 
 
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen" integrity="{{ $styles.Data.Integrity }}">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Mono|Roboto+Slab:300|Roboto:300,700" media="none" onload="if(media!='all')media='all'">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 media="none" onload="if(media!='all')media='all'">
-
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" onload="if(media!='all')media='all'">
-
-<!-- Prism -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css" rel="stylesheet" type="text/css" media="none" onload="if(media!='all')media='all'">
-
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.min.css" rel="stylesheet" type="text/css" onload="if(media!='all')media='all'">

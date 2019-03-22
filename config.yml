@@ -1,7 +1,6 @@
 
 ---
   baseURL: 'https://dashbird.io/'
-  assetDir: 'static'
   languageCode: 'en-us'
   copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
   author:
@@ -12,9 +11,6 @@
   twitter_card_whitelisted: true
   outputs:
     home: ['HTML', 'RSS']
-  mediaTypes:
-    application/rss:
-      suffix: xml
   menu:
     main:
       - name: 'Product'

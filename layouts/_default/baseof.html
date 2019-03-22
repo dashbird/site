@@ -2,18 +2,14 @@
 <html lang="en">
   <head>
     {{ partial "meta.html" . }}
-    {{ partial "bootstrap.html" }}
+
     {{ partial "stylesheets.html" }}
-    {{ partial "main-style.html" }}
     {{ partial "inline-scripts.html" }}
   </head>
   <body>
     {{ partial "header.html" . }}
-    {{ partial "test.html" . }}
-    <!--
-      {{ block "main" . }}{{ end }}
-      {{ partial "footer.html" . }}
-    -->
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
     <script async src="{{ .  }}" type="text/javascript"></script>
