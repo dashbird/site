@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'RenoMono';
+  src: url('/fonts/RenoMono.woff2') format('woff2'), /* Modern Browsers */
+        url('/fonts/RenoMono.ttf') format('truetype'); /* Safari, Android, iOS */
+            font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: calc(10px + .8vw);
+}
+h1 {
+  font-family: 'Reno Mono', monospace;
+  letter-spacing: -1.5px;
+  margin-left: -.1rem;
+}
+p {
+  letter-spacing: .75px;
+}
+small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .6rem;
+  font-weight: 200;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}

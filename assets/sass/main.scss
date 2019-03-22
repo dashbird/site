@@ -1,218 +1,116 @@
- $primary-color: white; 
+$primary-color: white;
+@import 'typography';
+@import 'menu';
 
- @font-face {
-    font-family: 'RenoMono';
-    src: url('/fonts/RenoMono.woff2') format('woff2'), /* Modern Browsers */
-         url('/fonts/RenoMono.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-  }
-
-  .row.full-height {
-    min-height: 95vh;
-  }
-  html {
-    
-    font-size: calc(10px + .8vw);
-  }
-  body {
-    color: $primary-color;
-    background-color: black;
-    background-image: url(/images/v2/scifi-background-tile.svg);
-    background-size: 192px auto;
-    background-position: center 32px;
-  }
-  .logos img {
-    opacity: .4;
-    height: 4rem;
-  }
+.row.full-height {
+  min-height: 95vh;
+}
+body {
+  color: $primary-color;
+  background-color: black;
+  background-image: url(/images/v2/scifi-background-tile.svg);
+  background-size: 192px auto;
+  background-position: center 32px;
+}
+.logos img {
+  opacity: .4;
+  height: 4rem;
+}
+dashbird-graph {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  opacity: .75;
+}
+@media (max-width: 768px) {
   dashbird-graph {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin: auto;
-    opacity: .75;
+    margin-top: -7rem;
   }
-  @media (max-width: 768px) {
-    dashbird-graph {
-      margin-top: -7rem;
-    }
-  }
-  .mobile-cta-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10rem;
-    text-align: center;
-  }
-  .mobile-cta-block small {
-    margin-top: 3rem;
-  }
-  h1 {
-    font-family: 'Reno Mono', monospace;
-    letter-spacing: -1.5px;
-    margin-left: -.1rem;
-  }
-  p {
-    letter-spacing: .75px;
-  }
-  .hero img.aws-small {
-    opacity: .9;
-    height: 1.1rem;
-    margin-bottom: -.35rem;
-  }
-  button {
-    position: relative;
-    border-radius: 99rem;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, .25);
-    color: white;
-    margin-right: .5rem;
-    cursor: pointer;
-    transition: all .3s;
-    font-family: 'Reno Mono', monospace;
-    font-size: .8rem;
-    line-height: 0;
-    padding: 1.2rem 2rem 1.1rem;
-  }
-  button.cta-btn {
+}
+.mobile-cta-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rem;
+  text-align: center;
+}
+.mobile-cta-block small {
+  margin-top: 3rem;
+}
+.hero img.aws-small {
+  opacity: .9;
+  height: 1.1rem;
+  margin-bottom: -.35rem;
+}
+button {
+  position: relative;
+  border-radius: 99rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, .25);
+  color: white;
+  margin-right: .5rem;
+  cursor: pointer;
+  transition: all .3s;
+  font-family: 'Reno Mono', monospace;
+  font-size: .8rem;
+  line-height: 0;
+  padding: 1.2rem 2rem 1.1rem;
+  &.cta-btn {
     background: white;
     color: black;
     min-width: 10rem;
   }
-  button.cta-btn:hover {
+  &.cta-btn:hover {
     background: #4B45C6;
     color: white;
     border: 1px solid #4B45C6;
   }
-  button.cta-btn:active {
+  &.cta-btn:active {
     background: rgb(51, 46, 134);
     color: white;
     border: 1px solid rgb(51, 46, 134);
   }
-  button:hover {
+  &:hover {
     transition: all .1s;
     background: rgba(255, 255, 255, 0.2);
   }
-  button:active {
+  &:active {
     transition: all 0s;
     background: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.2);
   }
-  button:focus {
+  &:focus {
     outline: none;
     box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
   }
-  small, button[data-note]:after {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .6rem;
-    font-weight: 200;
-    width: 100%;
-  }
-  small {
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-  }
-  .hero-text {
-    padding-bottom: 64px;
-  }
-  .h-1 {
-    height: 64px;
-  }
-  .col-1 {
-    background: rgba(255,0,0,0.2);
-    border-left: 8px solid rgba(255,0,0,0.2);
-    border-right: 8px solid rgba(255,0,0,0.2);
-  }
-  #overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 100;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.6s;
-  }
-  #overlay.show {
-    opacity: 1;
-    pointer-events: unset;
-  }
-  #side-menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 20rem;
-    margin: .75rem;
-    border-radius: 1rem;
-    background: white;
-    z-index: 101;
-    transform: translateX(120%);
-    transition: all 0.4s cubic-bezier(0, 0, 0.1, 1);
-    overflow: hidden;
-    color: black;
-  }
-  #side-menu.show {
-    transform: translateX(0%);
-  }
-  .close {
-    position: absolute;
-    top: .5rem;
-    right: .5rem;
-    z-index: 1;
-  }
-  .menu-container {
-    width: 200%;
-    height: 100%;
-    display: flex;
-    transition: transform .3s;
-  }
-  #side-menu.menu .menu-container {
-    transform: translateX(0%);
-  }
-  #side-menu .login, #side-menu .register {
-    transition: all .3s;
-  }
-  #side-menu.login .menu-container, #side-menu.register .menu-container {
-    transform: translateX(-50%);
-  }
-  #side-menu.register .login-container .login {
-    transform: translateX(-50%);
-    opacity: 0;
-    pointer-events: none;
-  }
-  #side-menu.login .login-container .register {
-    transform: translateX(50%);
-    opacity: 0;
-    pointer-events: none;
-  }
-  .navigation {
-    width: 50%;
-    height: 100%;
-  }
-  .login-container {
-    width: 50%;
-    height: 100%;
-    position: relative;
-  }
-  .register {
-    position: absolute;
-    width: 100%;
-  }
-  .login {
-    position: absolute;
-    width: 100%;
-  }
-  @media (max-width: 768px) {
-    #side-menu {
-      margin: 0;
-      border-radius: 0;
-      width: 100%;
-    }
-  }
-
+}
+.hero-text {
+  padding-bottom: 64px;
+}
+.h-1 {
+  height: 64px;
+}
+.col-1 {
+  background: rgba(255,0,0,0.2);
+  border-left: 8px solid rgba(255,0,0,0.2);
+  border-right: 8px solid rgba(255,0,0,0.2);
+}
+.navigation {
+  width: 50%;
+  height: 100%;
+}
+.login-container {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.register {
+  position: absolute;
+  width: 100%;
+}
+.login {
+  position: absolute;
+  width: 100%;
+}
