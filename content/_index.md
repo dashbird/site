@@ -131,20 +131,20 @@ dated: 2017-10-29T17:50:03+02:00
 
   <div class="row">
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/check.svg'>
-    <h5>Easy to set up</h5>
+    <img src='/images/landing-graphics/icon-check.svg'>
+    <h4>Easy to set up</h4>
     <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/lambda.svg'>
-    <h5>Built for serverless</h5>
+    <img src='/images/landing-graphics/icon-lambda.svg'>
+    <h4>Built for serverless</h4>
     <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/heart.svg'>
-    <h5>Our users love us</h5>
+    <img src='/images/landing-graphics/icon-heart.svg'>
+    <h4>Our users love us</h4>
     <p>We’re on a mission to help as many companies succeed with serverless as possible.</p>
   </div>
   </div>
@@ -167,17 +167,17 @@ dated: 2017-10-29T17:50:03+02:00
 
   <div class="row">
   <div class="col-12 col-md-4 text-center">
-    <h5>Easy to set up</h5>
+    <h4>Easy to set up</h4>
     <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <h5>Built for serverless</h5>
+    <h4>Built for serverless</h4>
     <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <h5>Our users love us</h5>
+    <h4>Our users love us</h4>
     <p>We’re on a mission to help as many companies succeed with serverless as possible.</p>
   </div>
   </div>

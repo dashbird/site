@@ -45,7 +45,7 @@ setBaseScale()
 window.addEventListener('resize', setBaseScale)
 function setBaseScale () {
   var step = Math.min(Math.floor(window.innerWidth / 300), 5)
-  var size = step * 2 + 10 + 'px'
+  var size = step * 2 + 8 + 'px'
   root.style.setProperty('--baseline', size)
 }
 
