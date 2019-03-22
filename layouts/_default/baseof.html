@@ -6,9 +6,11 @@
     {{ partial "inline-scripts.html" }}
   </head>
   <body>
-    {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
+    <div class='background-gradient-bottom'>
+      {{ partial "header.html" . }}
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </div>
     {{ partial "scripts.html" }}
     {{ range .Page.Params.scripts  }}
     <script async src="{{ .  }}" type="text/javascript"></script>
