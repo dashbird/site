@@ -1,0 +1,43 @@
+{{ if eq .Kind "taxonomyTerm" }}
+  {{$.Scratch.Set "pages" ( where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog") }}
+{{ else }}
+  {{$.Scratch.Set "pages" .Data.Pages.ByDate.Reverse}}
+{{ end }}
+
+{{ $first_post := $.Scratch.Get "pages" | first 1}}
+{{ range $first_post }}
+<div class='container-fluid text-white p-0 blog-slider' style='background: linear-gradient(180deg, rgba(35,34,61,0.5) 0%, rgba(35,34,61,0.8) 79.16%, #23223D 100%), url("/images/blog/{{.Params.frontImage}}"); background-size: cover; position: relative;'>
+	<section class="container" style='padding-top: 85px; height: 100%; position: relative;'>
+		<div class="row justify-content-left">
+
+			<div class="col-lg-8 col-md-12 left px-xs-2">
+				<span class="blog-new-topic mb-125">FRESH OFF THE PRESS</span>
+				<h1 class="text-left roboto-mono blog-title-h1"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+				<div class="author-header-blog pt-6 pb-6">
+					Written by <strong>{{ .Params.author }}</strong> on <strong>{{ .Date.Format "January 2, 2006" }}</strong>
+				</div>
+				<div class="col-12 left pl-0">
+					<a href="{{ .Permalink }}" class="btn cta-btn cta-pink w-sm-auto">Continue reading</a>
+				</div>
+			</div> 
+		</div>
+		<div class="row d-none d-lg-block">
+
+			<div class="slider-last-posts">
+				<div class="col-12">
+					<div class="row">
+						{{ range first 3  (where .Site.Pages.ByDate.Reverse "Params.featloc" "blog-header")}}
+						<div class="col-4">
+							<a href="{{ .Permalink }}" class='featured-post p-3 '>
+								<span>{{ .Title }}</span>
+							</a>
+						</div>
+				  	{{ end }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+{{ end }}
