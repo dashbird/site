@@ -39,7 +39,7 @@ dated: 2017-10-29T17:50:03+02:00
       </a>
       <small>learn more <br/>↓</small>
     </div>
-    <div class="logos" align="center">
+    <div class="logos mx-auto">
       <img src="/images/v2/logo-python.svg" alt="">
       <img src="/images/v2/logo-java.svg" alt="">
       <img src="/images/v2/logo-c.svg" alt="">
@@ -70,7 +70,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Visualize service usage and identify bottlenecks</li>
       </ul>
       <p>
-        <a href='/features#observability' target='_blank'>Learn more</a>
+        <a href='/features#observability' target='_blank'>Learn more →</a>
       </p>
     </div>
     <div class="col-12 col-md-6 text-center text-md-right">
@@ -90,7 +90,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Detect errors and anomalies before they reach users</li>
       </ul>
       <p>
-      <a href='/features#observability' target='_blank'>Learn more</a>
+      <a href='/features#observability' target='_blank'>Learn more →</a>
       </p>
     </div>
   </div>
@@ -104,7 +104,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Pinpoint the cause of slow functions</li>
       </ul>
       <p>
-        <a href='/features#observability' target='_blank'>Learn more</a>
+        <a href='/features#observability' target='_blank'>Learn more →</a>
       </p>
     </div>
     <div class="col-12 col-md-6 text-center text-md-right">
