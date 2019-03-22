@@ -1,0 +1,76 @@
+<section class="container-fluid footer pt-md-5">
+  <div class="row p-4">
+    <div class="col-12 col-md-10 mx-md-auto">
+      <div class="row">
+        <div class="col-12 col-md-6 text-white mb-5 mb-md-0 mt-5 mt-md-0">
+          <span class='bold text-white roboto-mono mb-4 d-block'>Popular this week</span>
+          <div class='w-md-75'>
+          {{ range where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog" | first 5 }}
+            <div class="row pt-2 pb-2 mt-1 mb-1 clickable-blank footer-blog-item">
+              <div class="col-auto d-flex align-items-center" width=70>
+                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/blog/{{.Params.frontImage}}" width='60'>
+              </div>
+              <div class="col p-0 d-flex align-items-center">
+                <span class='small'>
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </span>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <span class='bold roboto-mono text-white'>Product</span>
+              <ul>
+                <li><a href="/docs">Documentation</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="mailto: support@dashbird.io">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 pl-5 pl-md-0">
+              <span class='bold roboto-mono text-white'>Company</span>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/team">Team</a></li>
+                <li><a href="/jobs">Careers</a></li>
+                <li><a href="https://www.iubenda.com/privacy-policy/75093246" class="iubenda-nostyle no-brand iubenda-embed " title="Privacy Policy">Privacy Policy</a>
+                  <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 mt-4 mt-md-0">
+              <span class='bold roboto-mono text-white'>Follow us</span>
+
+              <ul>
+                <li><a href="https://github.com/dashbird" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+                <li><a href="https://twitter.com/thedashbird" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.facebook.com/dashbirdapp/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/11414046/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                <li><a href="https://instagram.com/dashbirdteam" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-4">
+    <div class="col-10 mx-md-auto">
+      <div class="row">
+        <div class="col-6 d-flex align-items-end">
+          <span class='text-light-gray small'>© Dashbird 2018</span>
+        </div>
+
+        <div class="col-6 mx-md-auto d-flex justify-content-end">
+          <a target="_blank" href="https://aws.amazon.com/marketplace/pp/B07HFKB9VK"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/awsmarketplace.png' width="180px"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
