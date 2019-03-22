@@ -1,0 +1,47 @@
+.footer {
+  @mixin text {
+    font-family: 'Reno Mono';
+    font-weight: 100;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  span { @include text; }
+  a {
+    @include text;
+    color: white;
+  }
+  h6{
+    @include text;
+    padding-left: 14px;
+    font-size: 0.5rem;
+    background-image: url(/images/landing-graphics/separator.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 12px;
+  }
+}
+.background-gradient-bottom {
+  position: fixed;
+  bottom: 0;
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background-image: url(/images/bg-gradient-top-left.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-gradient-top {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background-image: url(/images/bg-gradient-top-left.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
