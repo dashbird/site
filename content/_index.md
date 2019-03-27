@@ -6,14 +6,14 @@ dated: 2017-10-29T17:50:03+02:00
 
 <div class="container hero">
   <div class="row full-height align-items-center">
-    <div class="col-lg-6 hero-text">
+    <div class="pr-0 col-lg-7 hero-text align-middle my-auto">
       <div>
         <p class="text-center text-lg-left">
-          <small>2,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
+          <small>3,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
         </p>
-        <h1 class="text-center text-lg-left">Build fantastic serverless apps</h1>
+        <h1 class="text-center text-lg-left">Make your serverless apps fantastic.</h1>
         <p class="text-center text-lg-left">
-          Build <b>faster</b>. Operate with <b>confidence</b>.
+          Fix problems <b>faster</b>. Operate with <b>confidence</b>.
         </p>
         <div class="d-none d-lg-block">
           <a href="#register">
@@ -23,14 +23,15 @@ dated: 2017-10-29T17:50:03+02:00
         </div>
       </div>
     </div>
-    <div class="col-lg-6 p-0" align="center">
+    <div class="col-lg-5 p-0" align="center">
       <dashbird-graph autoPlay></dashbird-graph>
       <div class="d-none d-lg-block">
-        <label for="toggle">
-          vanilla aws
-          <input type="checkbox" id="toggle" value="Bike">
-          Dashbird
-        </label>
+      <!-- Supports all AWS Lambda runtimes -->
+        <!-- <label for="toggle"> -->
+        <!--   vanilla aws -->
+        <!--   <input type="checkbox" id="toggle" value="Bike"> -->
+        <!--   Dashbird -->
+        <!-- </label> -->
       </div>
     </div>
     <div class="mobile-cta-block d-flex justify-content-center container-fluid d-lg-none">
@@ -39,7 +40,7 @@ dated: 2017-10-29T17:50:03+02:00
       </a>
       <small>learn more <br/>↓</small>
     </div>
-    <div class="logos mx-auto">
+    <div class="logos border mx-auto">
       <img src="/images/v2/logo-python.svg" alt="">
       <img src="/images/v2/logo-java.svg" alt="">
       <img src="/images/v2/logo-c.svg" alt="">
@@ -53,21 +54,21 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row">
     <div class="col-12 text-center">
       <h1>The future is serverless</h1>
-      <p>And we've redesigned how debugging and operations is done.</p>
+      <p>Which is why we've built a perfect platform for serverless operations.</p>
       <span> Video </span>
     </div>
   </div>
 </div>
 
-<div class="container fluid mt-5">
+<div class="container features" >
 
-  <div class="row">
+  <div class="row" >
     <div class="col-12 col-md-6 align-self-center">
       <p class="subtitle">Insight</p>
       <h4>Deep observability into serverless</h4>
       <ul>
-        <li>Effectively navigate logs, metrics and traces</li>
-        <li>Visualize service usage and identify bottlenecks</li>
+        <li>Quickly navigate logs, metrics and traces.</li>
+        <li>Visualize service usage and identify bottlenecks.</li>
       </ul>
       <p>
         <a href='/features#observability' target='_blank'>Learn more →</a>
@@ -78,16 +79,16 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row">
     <div class="col-12 col-md-6 text-center text-md-left">
       <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
     </div>
     <div class="col-12 col-md-6 text-center text-md-left align-self-center">
       <p class="subtitle">Resiliance</p>
-      <h4 class="subtitle">Error and anomaly detection and troubleshooting</h4>
+      <h4 class="subtitle">Error detection and troubleshooting</h4>
       <ul>
         <li>Quickly identify the root cause.</li>
-        <li>Detect errors and anomalies before they reach users</li>
+        <li>Detect errors and anomalies before they reach users.</li>
       </ul>
       <p>
       <a href='/features#observability' target='_blank'>Learn more →</a>
@@ -95,13 +96,13 @@ dated: 2017-10-29T17:50:03+02:00
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row">
     <div class="col-12 col-md-6 align-self-center">
       <p class="subtitle">Optimization</p>
       <h4 class="subtitle">Performance and cost optimisation</h4>
       <ul>
-        <li>Identify parts of the system that are costing the most</li>
-        <li>Pinpoint the cause of slow functions</li>
+        <li>Identify parts of the system that are costing the most.</li>
+        <li>Pinpoint the cause of slow functions.</li>
       </ul>
       <p>
         <a href='/features#observability' target='_blank'>Learn more →</a>
@@ -115,14 +116,14 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row mt-5">
     <div class="col-12 text-center">
       <a href="#register">
-        <button class="cta-btn" data-note="Zero code integration">Get started</button>
+        <button class="cta-btn" data-note="Zero code integration">Start in 5 minutes</button>
       </a>
     </div>
   </div>
 </div>
 
 
-<div class="container fluid mt-5 mb-5">
+<div class="container different">
   <div class="row">
     <div class="col-12 text-center">
       <h1>What makes us different?</h1>
@@ -158,7 +159,7 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 </div>
 
-<div class="container fluid mt-5 mb-5">
+<div class="container teams">
   <div class="row">
     <div class="col-12 text-center">
       <h1>Why over 500 teams use Dashbird daily?</h1>

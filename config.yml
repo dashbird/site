@@ -17,7 +17,7 @@
         identifier: 'product'
         URL: '/features/'
         weight: 100
-      - name: 'Docs'
+      - name: 'Documentation'
         identifier: 'documentation'
         URL: '/docs/'
         weight: 200
