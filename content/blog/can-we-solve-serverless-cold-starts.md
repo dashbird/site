@@ -2,7 +2,7 @@
 title: Can We Solve Serverless Cold Starts?
 description: What are cold starts and practical ways to solve them
 date: 2019-03-20T12:00:00.000Z
-frontImage: "https://thepracticaldev.s3.amazonaws.com/i/e8p8kfb3mn5hztrhh977.jpg"
+frontImage: "2019-03-20/cold-ice-optimized-square.jpg"
 thumbnail: "images/blog/2019-03-20/cold-ice-optimized-square.jpg"
 authorlink: 'https://medium.com/@byrro'
 author: Renato Byrro
