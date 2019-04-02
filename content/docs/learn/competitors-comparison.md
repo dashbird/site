@@ -56,11 +56,11 @@ IOpipe uses their own library to send data to clients. This essentially means th
 
 The good thing about IOpipe's approach is that they instrument the runtime the lambda function is running inside. Meaning that you will get a **deep technical overview of your invocation**, which can help the users to understand and fix potential bottlenecks with their functions.
 
-IOpipe does not automatically fetch lambda invocation logs, however they have a **functionality to log through their system.** Which is not ideal. It's one thing to attach a library to instrument data to your code base, it's another thing to rewrite logging to fit that instrumentation.
+IOpipe uses their library to collect and send telemetry, and optionally offers the ability to retrieve logging data via AWS Cloudwatch.
 
 That being said, their approach of sending you data means that they have no potential max amount of data they can receive. The approach that IOpipe has taken, can be used with unlimited amount of invocations, assuming that their backend can handle the load.
 
-IOpipe's approach also means that they **can only support a few languages**, currently they support Node, Python and Java.
+IOpipe's approach also means that they **can only support a few languages**, currently they support Node, Python, Java and Go.
 
 
 ## PROS:
@@ -72,13 +72,9 @@ IOpipe's approach also means that they **can only support a few languages**, cur
 
 
 ## CONS:
-* logging does not work out of the box (logging calls need to be send through IOpipe)
-* library needs to be added to the function manually
-* high friction
-* overhead to lambda invocation execution times
+* overhead is added to the end of lambda invocation executions
 * dependent on IOpipe's platform (if there is a bug in the wrapper your lambda might fail because of that)
-* only supports a few languages
-* hard to off-board (changing all lambda functions is a headache)
+* only supports a few languages (Node, Python, Java, and Go)
 
 
 ---
