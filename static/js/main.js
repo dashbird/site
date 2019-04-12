@@ -1,18 +1,24 @@
 /* eslint-env jquery */
 
-
 /* signup popup */
 
 var $sideMenu = document.querySelector('#side-menu')
 var $overlay = document.querySelector('#overlay')
 var hashTriggers = ['#menu', '#login', '#register']
 
+var prices = {
+  99: { annual: 99, monthly: 115, volume: 25 },
+  299: { annual: 299, monthly: 350, volume: 100 },
+  595: { annual: 595, monthly: 700, volume: 200 },
+  990: { annual: 990, monthly: 1150, volume: 300 }
+}
+
 checkHash()
 window.onpopstate = checkHash
 
 function checkHash () {
   const hash = window.location.hash
-  if (hashTriggers.find(function (str) {return str === hash})) {
+  if (hashTriggers.find(function (str) { return str === hash })) {
     $sideMenu.className = 'show'
     $overlay.classList.add('show')
     switch (hash) {
@@ -31,6 +37,7 @@ function checkHash () {
     $overlay.className = ''
   }
 }
+
 function removeHash () {
   var state = ''
   var popStateEvent = new PopStateEvent('popstate', { state: state })
@@ -38,21 +45,47 @@ function removeHash () {
   dispatchEvent(popStateEvent)
 }
 
-
 /* responsive typography */
 var root = document.documentElement
 setBaseScale()
+
 window.addEventListener('resize', setBaseScale)
+
 function setBaseScale () {
   var step = Math.min(Math.floor(window.innerWidth / 300), 5)
-  var size = step * 2 + 8 + 'px'
+  console.log('step', step)
+  var size = step * 2 + 10 + 'px'
   root.style.setProperty('--baseline', size)
 }
 
-
-
 $(document).ready(function () {
+  const openArrow = '↑'
+  const closeArrow = '↓'
 
+  function smoothVisibility (li) {
+    const $content = $(li).children('.description')
+    const $arrow = $(li).find('.product-heading > span')
+    $arrow.html(openArrow)
+    $content.toggle()
+  }
+
+  function snapVisibility (li, show) {
+    const $content = $(li).children('.description')
+    const $arrow = $(li).find('.product-heading > span')
+    $arrow.html(show ? openArrow : closeArrow)
+    $content.toggle(show)
+  }
+
+  function closeAllOf (ul) {
+    $(ul).children('li').each(function () {
+      snapVisibility(this, false)
+    })
+  }
+
+  $('.product-heading').on('click', function () {
+    closeAllOf($(this).parent().parent())
+    smoothVisibility($(this).parent(), true)
+  })
 
   $('#navigation').on('show.bs.collapse', function () {
     $('nav').addClass('collapsedfully')
@@ -84,13 +117,6 @@ $(document).ready(function () {
     $(this).css('margin-right', margin)
   })
 
-  var prices = {
-    99: { annual: 99, monthly: 115, volume: 25 },
-    299: { annual: 299, monthly: 350, volume: 100 },
-    595: { annual: 595, monthly: 700, volume: 200 },
-    990: { annual: 990, monthly: 1150, volume: 300 }
-  }
-
   $('#custom').hide()
   $('#price-selector').on('change', function (e) {
     var selectedValue = $(this).val()
@@ -110,12 +136,6 @@ $(document).ready(function () {
   // Allows bootstrap carousels to display 3 items per page rather than just one
 
   $('#carouselCaseStudies').on('slide.bs.carousel', function (e) {
-    /*
-
-    CC 2.0 License Iatek LLC 2018
-    Attribution required
-    */
-
     var $e = $(e.relatedTarget)
     var idx = $e.index()
     var itemsPerSlide = 3
@@ -163,13 +183,6 @@ $(document).ready(function () {
 
   if ($(window).width() > 767) {
     $('#carousel-example-multi').carousel({ interval: 4000 })
-  }
-
-  var prices = {
-    1: { annual: 99, monthly: 115, volume: 25 },
-    2: { annual: 299, monthly: 350, volume: 100 },
-    3: { annual: 595, monthly: 700, volume: 200 },
-    4: { annual: 990, monthly: 1150, volume: 300 }
   }
 
   if( $('#price-slider').length > 0 ){

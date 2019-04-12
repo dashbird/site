@@ -87,8 +87,20 @@ button {
     box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
   }
 }
+
 .hero-text {
   padding-bottom: 2rem;
+}
+
+.features ul {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    &:before {
+      content: "→";
+      margin-right: .5rem;
+    }
+  }
 }
 .h-1 {
   height: 64px;
@@ -110,4 +122,22 @@ button {
 }
 .teams {
   margin: 250px auto 220px auto;
+}
+.feature-list {
+  li {
+    margin-top: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    span.hide { display: none; }
+    span.show { display: block; }
+  }
+  .description {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 25px;
+  }
+  &:last-child { border-bottom: 0px; }
+  .closer { font-size: 0.7em; }
 }

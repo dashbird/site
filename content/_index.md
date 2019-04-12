@@ -40,7 +40,7 @@ dated: 2017-10-29T17:50:03+02:00
       </a>
       <small>learn more <br/>↓</small>
     </div>
-    <div class="logos border mx-auto">
+    <div class="logos mx-auto">
       <img src="/images/v2/logo-python.svg" alt="">
       <img src="/images/v2/logo-java.svg" alt="">
       <img src="/images/v2/logo-c.svg" alt="">
