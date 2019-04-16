@@ -66,14 +66,14 @@ $(document).ready(function () {
     const $content = $(li).children('.description')
     const $arrow = $(li).find('.product-heading > span')
     $arrow.html(openArrow)
-    $content.toggle()
+    $content.hasClass('hide') ? $content.removeClass('hide') : $content.addClass('hide')
   }
 
   function snapVisibility (li, show) {
     const $content = $(li).children('.description')
     const $arrow = $(li).find('.product-heading > span')
     $arrow.html(show ? openArrow : closeArrow)
-    $content.toggle(show)
+    show ? $content.removeClass('hide') : $content.addClass('hide')
   }
 
   function closeAllOf (ul) {
