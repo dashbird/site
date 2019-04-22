@@ -5,10 +5,10 @@ date: 2018-07-17T17:50:03+02:00
 ---
 
 <script>
-  document
-    .querySelector('#navigation ul li.nav-item.pricing')
-    .classList
-    .add('active')
+  // document
+  //   .querySelector('#navigation ul li.nav-item.pricing')
+  //   .classList
+  //   .add('active')
 
 </script>
 
@@ -16,44 +16,50 @@ date: 2018-07-17T17:50:03+02:00
   <div class="container">
     <div class="row">
       <div class="col text-center mt-5 mb-3">
-        <h1 class="roboto-mono">Pricing</h1>
-        <p class="h5 mt-3 mb-5 sf-ui-text">Find a plan that fits your team or <a href='/contact-sales'>contact us</a> to customize</p>
+        <h1 class="roboto-mono"></h1>
+        <p class="h5 mt-3 mb-5 sf-ui-text"></p>
       </div>
     </div>
     <div class="row justify-content-md-center align-items-center sf-ui-text">  
       <div class="col-sm-12 col-md-12 mb-5">
         <div class="row">
-          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2">
-            <div class="pricing-box bg-white top-lgreen text-center p-4 pb-md-0">
-              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono">BASIC</h4>
-              <p class="pricing-val">FREE</p>
-              <p class="pricing-val-spec">up to 1GB</p>
+          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2 free-box">
+            <div class="pricing-box  top-lgreen text-center p-4 pb-md-0">
+              
+              <p class="pricing-val pricing-title">Basic</p>
+              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono cost">Free</h4>
+              <p class="pricing-val-spec">up to 1 million invocations</p>
 
             </div>
-            <div class='text-center p-4 pt-0 bg-white'>
+            <div class='text-center p-4 pt-0 '>
               <ul class='pricing-features pb-3'>
-                <li>Failure detection & alerting</li>
-                <li>Account and function metrics</li>
-                <li>Invocation history</li>
-                <li>X-Ray tracing</li>
-                <li>7-day data retention</li>
+                <li>unlimited functions</li>
+                <li>14-day data retention</li>
+                <li>Slack and e-mail alerts</li>
+                <li>technical support</li>
+                
               </ul>
               <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Get started for free</a>
             </div>
           </div>
-          <div class="col-12 col-md-4 mw-240 flex-order-1">
-            <div class="col-inner">
-              <div class="pricing-box bg-white top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
-                <h4 class="mt-2 mb-4 lpurple">PROFESSIONAL</h4>
+          <div class="col-12 col-md-4 mw-240 flex-order-1 pro-box">
+            <div class="col-inner pricing-text">
+              <div class="pricing-box top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
+                <h4 class="mt-2 mb-4 lpurple pricing-title ">Proffesional</h4>
                 <div class='row' id='custom' style='display:none'>
                   <div class='col'>
                     <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
                   </div>
                 </div>
+                <div class='row has-price' >
+                    <div class='col'>
+                      <span class="h1 annual-cost cost">$<span id='annual-cost'>299</span></span>
+                    </div>
+                  </div>
                 <div id='priced' class="pb-3">
                   <div class='row' >
                     <div class="priced-slider p-4 pt-7 pb-3 w-100">
-                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4, 5]" data-slider-ticks-snap-bounds="6" style="display: none;" data-slider-value="1" data-slider-ticks-labels="['100 GBs', '200', '300']"/>
+                      <input id="price-slider" type="text" data-slider-ticks="[1, 2, 3, 4, 5]" data-slider-ticks-snap-bounds="6" style="display: none;" data-slider-value="1" data-slider-ticks-labels="['100 GBs', '200', '300M']"/>
                     </div>
                   </div>
                 <div class='row d-none no-price' id='custom'>
@@ -61,15 +67,11 @@ date: 2018-07-17T17:50:03+02:00
                     <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
                   </div>
                 </div>
-                  <div class='row has-price' >
-                    <div class='col'>
-                      <span class="h1 annual-cost">$<span id='annual-cost'>299</span></span>
-                    </div>
-                  </div>
-                  <p class="text-center text-secondary my-2 small has-price">per month, paid annually or $<span id='monthly-cost'>350</span> monthly</p>
+                  
+                <p class="pricing-val-spec"><span id="invocations">10</span> million invocations a month (or <span id="logsize">25</span>GB of log ingestion)</p>
                 </div>
               </div>
-              <div class='text-center  p-4 pt-0 bg-white'>
+              <div class='text-center  p-4 pt-0'>
                 <ul class='pricing-features pb-3'>
                     <li>Live tailing</li>
                     <li>Full-text search</li>
@@ -81,15 +83,15 @@ date: 2018-07-17T17:50:03+02:00
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-3">
-            <div class="pricing-box bg-white top-lorange text-center p-4 pb-md-0 ">
-              <h4 class="mt-2 mb-3 lorange roboto-mono">ENTERPRISE</h4>
-              <p class=" h4">Unlimited</p>
-              <p class="pricing-desc" id="enterprise">Need to handle terabytes of data over millions of functions? We've got your back.</p>
+          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-3 custom-box">
+            <div class="pricing-box top-lorange text-center p-4 pb-md-0 ">
+              <h4 class="mt-2 mb-3 lorange roboto-mono pricing-title">Enterprise</h4>
+              <p class="contact-us-title h4">Contact Us</p>
+              
               <p class="pricing-val"></p>
-              <p class="pricing-val-spec"></p>
+              
             </div>
-            <div class='text-center p-4 pt-0 bg-white'>
+            <div class='text-center p-4 pt-0 '>
               <ul class='pricing-features pb-3'>
                 <li>Enterprise level scale</li>
                 <li>Custom, multi-year data retention</li>
@@ -197,3 +199,90 @@ date: 2018-07-17T17:50:03+02:00
     content_ids: 'pricing',
   });
 </script>
+
+<style>
+  /* bootstrap override */
+
+.slider-handle {
+  background-color: #6c65ff;
+  background-image: radial-gradient(#6c65ff 44%, #000 103%, #6c65ff 55%);
+  background-clip: padding-box;
+  box-shadow: 0 0 4px 2px #6c65ff;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+}
+
+.slider-tick {
+  position: absolute;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  background: #000;
+  filter: none;
+  opacity: 1;
+  border: 1px solid #232323;
+}
+
+.slider-track
+{
+  background: #232323;
+}
+
+.slider-tick.in-selection
+{
+  background-color: #6c65ff;
+  background-image: -webkit-linear-gradient(top,#6c65ff 0,#6c65ff 100%);
+  background-image: -o-linear-gradient(top,#6c65ff 0,#6c65ff 100%);
+  background-image: linear-gradient(to bottom,#6c65ff 0,#6c65ff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c65ff',endColorstr='#6c65ff',GradientType=0);
+  opacity: 1;
+}
+
+a.btn.cta-btn {
+    color: #fff;
+    font-family: 'Reno Mono', monospace;
+}
+
+.card{
+  background: transparent;
+}
+
+.card-header [type=button] {
+    -webkit-appearance: unset;
+    border-bottom: 1px solid #191919;
+    color: #FFFFFF;	font-family: "SF UI Text";	font-size: 14px;	letter-spacing: 0.5px;	line-height: 42px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    opacity: 0.5;	color: #FFFFFF;	font-family: "SF UI Text";	font-size: 12px;	letter-spacing: 0.43px;	line-height: 21px;
+}
+
+.card-header h5:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1rem;
+    content: "↓";
+    color: #797979;
+    float: right;
+    margin-top: -12px;
+}
+.card-header h5.collapsed:after {
+    content: "↑";
+}
+
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label
+{
+  padding-top: 4px;
+    display: inline-block;
+    text-align: center;
+    height: 11px;	width: 44px;	opacity: 0.5;	color: #FFFFFF;	font-family: "Reno Mono";	font-size: 11.2px;	line-height: 14px;	text-align: center;
+}
+
+</style>
+

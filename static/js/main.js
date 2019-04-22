@@ -185,11 +185,44 @@ $(document).ready(function () {
     $('#carousel-example-multi').carousel({ interval: 4000 })
   }
 
+ 
+
+
+
   if( $('#price-slider').length > 0 ){
+    console.log("log pricing")
+    
+    var prices = {
+      1: {
+          annual: 99,
+          monthly: 115,
+          invocations: 10,
+          volume: 25
+      },
+      2: {
+          annual: 299,
+          monthly: 350,
+          invocations: 30,
+          volume: 100
+      },
+      3: {
+          annual: 595,
+          monthly: 700,
+          invocations: 100,
+          volume: 200
+      },
+      4: {
+          annual: 990,
+          monthly: 1150,
+          invocations: 200,
+          volume: 300
+      }
+    };
+    console.log(prices[1])
     var slider = new Slider('#price-slider', {
       ticks: [1, 2, 3, 4],
       ticks_snap_bounds: 4,
-      ticks_labels: ['25', '100', '200', '300'],
+      ticks_labels: ['10M', '30M', '100M', '200M'],
       formatter: function (value) {
         var priceLevel = prices[value]
         if (priceLevel) {
@@ -215,14 +248,29 @@ $(document).ready(function () {
           $('.custom-tooltip').remove()
           $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>')
           $('#annual-cost').html(priceLevel.annual)
-          $('#monthly-cost').html(priceLevel.monthly)
+          $('#invocations').html(priceLevel.invocations)
+          $('#logsize').html(priceLevel.volume)
           // return ;
         }
       },
       step: 1
     })
   }
-
+  $('#price-slider').on('change', function (e) {
+    var selectedValue = $(this).val()
+    if (selectedValue === 'custom') {
+      $('#custom').show()
+      $('#priced').hide()
+    } else {
+      $('#custom').hide()
+      $('#priced').show()
+      console.log(selectedValue)
+      var priceLevel = prices[selectedValue]
+      $('#annual-cost').html(priceLevel.annual)
+      $('#monthly-cost').html(priceLevel.monthly)
+      $('#volume').html(priceLevel.volume)
+    }
+  })
   // acordion - add collapse class for all items
   $.each($('.accordion .card'), function (index, value) {
     if ($(this).find('.collapse').hasClass('hide')) {
