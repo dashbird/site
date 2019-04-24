@@ -138,7 +138,7 @@ date: 2017-11-06T10:50:03+02:00
 </div>
 
 <div class="container">
-  <div class="row mt-5">
+  <div class="row ">
     <div class="col-12 text-center">
       <a href="#register">
         <button class="cta-btn" data-note="Zero code integration">Start in 5 minutes</button>
@@ -146,7 +146,7 @@ date: 2017-11-06T10:50:03+02:00
     </div>
   </div>
 </div>
-
+<div class="row mt-5"></div>
 <script>
   fbq('track', 'ViewContent', {
     content_ids: 'features',
