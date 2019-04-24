@@ -4,7 +4,6 @@
   <div class="close" onclick="removeHash();">✕</div>
   <div class="menu-container">
     <div class="navigation">
-      Menus
       {{ $currentPage := .  }}
       {{ range .Site.Menus.main }}
       <li class="nav-item {{ .Identifier }}">
@@ -14,8 +13,8 @@
       </a>
       </li>
       {{ end }}
-      <a href="#login">login</a>
-      <a href="#register">register</a>
+      <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+      <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
     </div>
     <div class="login-container">
       <div class="register">

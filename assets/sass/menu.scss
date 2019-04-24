@@ -12,6 +12,7 @@
   transition: all 0.4s cubic-bezier(0, 0, 0.1, 1);
   overflow: hidden;
   color: black;
+
   @media (max-width: 768px) {
     margin: 0;
     border-radius: 0;
@@ -22,21 +23,35 @@
   }
   .close {
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
     z-index: 1;
     cursor: pointer;
+    color: #fff;
+    opacity: 1;
   }
+
+  .navigation a {
+    font-size: 2rem;
+    color: #fff;
+  } 
+
   .menu-container {
     width: 200%;
     height: 100%;
     display: flex;
     transition: transform .3s;
+    background-color: black;
+    background-image: url(/images/v2/scifi-background-tile.svg);
+    background-size: 192px auto;
+    background-position: center 32px;
+    height: 100%;
   }
   .login, .register {
     transition: all .3s;
     position: absolute;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,6 +61,8 @@
     width: 50%;
     height: 100%;
     position: relative;
+    color:#fff;
+    padding: 10% 15px;
   }
   &.login, &.register {
     .menu-container {
@@ -65,14 +82,19 @@
   .navigation {
     width: 50%;
     height: 100%;
+    padding: 10% 0;
+    background-image: url("/images/bg-gradient-top-left.svg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 
 
   &.login, &.register {
-    padding: 3rem 2rem;
+    // padding: 3rem 2rem;
   }
   p {
-    margin-top: -1rem;
+    // margin-top: -1rem;
   }
   input {
     font-family: 'Reno mono';
@@ -101,6 +123,8 @@
     }
     &.github {
       margin-bottom: 2rem;
+      color: white;
+      padding: 10%;
       img {
         margin: -1rem 0;
       }

@@ -92,6 +92,11 @@ button {
   padding-bottom: 2rem;
 }
 
+.feature-col
+{
+  padding: 0 25px;
+}
+
 .features ul {
   padding-left: 0;
   li {
@@ -151,6 +156,10 @@ button {
       margin-bottom: 25px;
     }
     .closer { font-size: 0.7em; }
+    
+  }
+  img {
+    width:100%;
   }
 }
 
@@ -242,7 +251,7 @@ ul.pricing-features {
   text-align: center;
 }
 
-.contact-us-title {	height: 40px;	width: 272px;	color: #FFFFFF;	font-family: "Reno Mono";	font-size: 43px;	letter-spacing: -4.61px;	line-height: 40px;	text-align: center;}
+.contact-us-title {	height: 40px;	color: #FFFFFF;	font-family: "Reno Mono";	font-size: 43px;	letter-spacing: -4.61px;	line-height: 40px;	text-align: center;}
 
 .pricing-title {
 	height: 31px;
