@@ -68,3 +68,36 @@
     border-left: 30px solid transparent;
   }
 }
+
+#newsletter-email {
+  border-radius: 0px;
+  background: #231830;
+  border: 0px;
+  margin: 0px !important;
+  width: 70%;
+}
+
+#newsletter-submit {
+  width: 30%;
+  float: right;
+  color: #FFFFFF;
+  font-family: "Reno Mono";
+  font-size: 15.3px;
+  line-height: 29px;
+  background: #4c425a;
+  text-align: center;
+  border: 0px solid #686071;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+#newsletter-submit:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 20px 20px 0 0;
+  border-style: solid;
+  border-color: transparent #180933 transparent transparent;
+  background: transparent;
+}
