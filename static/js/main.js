@@ -45,19 +45,6 @@ function removeHash () {
   dispatchEvent(popStateEvent)
 }
 
-/* responsive typography */
-var root = document.documentElement
-setBaseScale()
-
-window.addEventListener('resize', setBaseScale)
-
-function setBaseScale () {
-  var step = Math.min(Math.floor(window.innerWidth / 300), 5)
-  console.log('step', step)
-  var size = step * 2 + 10 + 'px'
-  root.style.setProperty('--baseline', size)
-}
-
 $(document).ready(function () {
   const openArrow = '↑'
   const closeArrow = '↓'

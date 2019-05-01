@@ -8,7 +8,7 @@
 }
 
 :root {
-	--baseline: 22px;
+	--baseline: calc(6px + .75vw);
   font-size: var(--baseline);
 }
 
