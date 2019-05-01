@@ -53,7 +53,7 @@ date: 2018-07-17T17:50:03+02:00
                 </div>
                 <div class='row has-price' >
                     <div class='col'>
-                      <span class="h1 annual-cost cost">$<span id='annual-cost'>299</span></span>
+                      <span class="h1 annual-cost cost">$<span id='annual-cost'>299</span><span class='text_smaller'>/mo</span></span>
                     </div>
                   </div>
                 <div id='priced' class="pb-3">
@@ -285,4 +285,3 @@ a.btn.cta-btn {
 }
 
 </style>
-
