@@ -1,8 +1,10 @@
 #footer {
+  min-height: 300px;
+
   @mixin text {
     font-family: 'Reno Mono';
     font-weight: 100;
-    // font-size: 0.6rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
   }
   span { @include text; }
@@ -12,6 +14,7 @@
   }
   h6{
     @include text;
+    font-size: 1rem;
     padding-left: 14px;
     // font-size: 0.5rem;
     background-image: url(/images/landing-graphics/separator.svg);

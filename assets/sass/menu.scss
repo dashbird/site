@@ -28,7 +28,6 @@
     font-size: 2rem;
     z-index: 1;
     cursor: pointer;
-    color: #fff;
     opacity: 1;
   }
 
@@ -61,7 +60,7 @@
     width: 50%;
     height: 100%;
     position: relative;
-    color:#fff;
+    background: #fff;
     padding: 10% 15px;
   }
   &.login, &.register {
@@ -123,8 +122,6 @@
     }
     &.github {
       margin-bottom: 2rem;
-      color: white;
-      padding: 10%;
       img {
         margin: -1rem 0;
       }

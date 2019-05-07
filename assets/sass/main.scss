@@ -16,13 +16,26 @@ body {
   background-position: center 32px;
   height: 100%;
 }
-.logos img {
-  opacity: .4;
-  height: 4rem;
+.logos {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  padding-bottom: 50px;
+  text-align: center;
+  img { 
+    opacity: .4;
+    height: 4rem;
+  }
+  span {
+    opacity: .4;
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 dashbird-graph {
   width: 100%;
-  max-width: 500px;
+  // max-width: 500px;
   height: auto;
   margin: auto;
   opacity: 1;
@@ -41,6 +54,10 @@ dashbird-graph {
 .mobile-cta-block small {
   margin-top: 3rem;
 }
+.hero {
+  padding: 0 10vw;
+}
+
 .hero img.aws-small {
   opacity: .9;
   height: 1.1rem;
@@ -86,10 +103,6 @@ button {
     outline: none;
     box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
   }
-}
-
-.hero-text {
-  padding-bottom: 2rem;
 }
 
 .feature-col
