@@ -67,17 +67,17 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Visualize resource usage and find bottlenecks.</li>
       </ul>
       <p>
-        <a href='/features#observability' target='_blank'>Learn more →</a>
+        <a href="/features#observability" target="_blank">Learn more →</a>
       </p>
     </div>
     <div class="col-12 col-md-6 text-center text-md-right">
-      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/observability.svg">
     </div>
   </div>
 
   <div class="row">
     <div class="col-12 col-md-6 text-center text-md-left">
-      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/notifications.svg">
     </div>
     <div class="col-12 col-md-6 text-center text-md-left align-self-center">
       <p class="subtitle">Resiliance</p>
@@ -87,7 +87,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Understand the root cause.</li>
       </ul>
       <p>
-      <a href='/features#observability' target='_blank'>Learn more →</a>
+      <a href="/features#observability" target="_blank">Learn more →</a>
       </p>
     </div>
   </div>
@@ -101,11 +101,11 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Pinpoint the cause of slow functions.</li>
       </ul>
       <p>
-        <a href='/features#observability' target='_blank'>Learn more →</a>
+        <a href="/features#observability" target="_blank">Learn more →</a>
       </p>
     </div>
     <div class="col-12 col-md-6 text-center text-md-right">
-      <img class='img-fluid' src='/images/landing-graphics/observability.svg'>
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/cost.svg">
     </div>
   </div>
 
@@ -128,19 +128,19 @@ dated: 2017-10-29T17:50:03+02:00
 
   <div class="row">
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/icon-check.svg'>
+    <img src="/images/landing-graphics/icon-check.svg">
     <h4>Easy to set up</h4>
     <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/icon-lambda.svg'>
+    <img src="/images/landing-graphics/icon-lambda.svg">
     <h4>Built for serverless</h4>
     <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
   </div>
 
   <div class="col-12 col-md-4 text-center">
-    <img src='/images/landing-graphics/icon-heart.svg'>
+    <img src="/images/landing-graphics/icon-heart.svg">
     <h4>Our users love us</h4>
     <p>We’re on a mission to help as many companies succeed with serverless as possible. Over a 1000 companies already use Dashbird.</p>
   </div>
