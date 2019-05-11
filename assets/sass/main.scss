@@ -23,6 +23,10 @@ body {
   right: 25%;
   padding-bottom: 50px;
   text-align: center;
+  @media (max-width: 768px) {
+    width: 100%;
+    position: unset;
+  }
   img { 
     opacity: .4;
     height: 4rem;
@@ -54,9 +58,6 @@ dashbird-graph {
 .mobile-cta-block small {
   margin-top: 3rem;
 }
-.hero {
-  padding: 0 10vw;
-}
 
 .hero img.aws-small {
   opacity: .9;
@@ -69,12 +70,15 @@ button {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, .25);
   color: white;
-  margin-right: .5rem;
   cursor: pointer;
   transition: all .3s;
   font-family: 'Reno Mono', monospace;
   line-height: 0;
   padding: 1.2rem 2rem 1.1rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    padding: 2.2rem 3rem 1.8rem;
+  }
   &.cta-btn {
     background: white;
     color: black;

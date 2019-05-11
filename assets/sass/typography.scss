@@ -7,11 +7,6 @@
   text-rendering: optimizeLegibility;
 }
 
-:root {
-	--baseline: calc(6px + .75vw);
-  font-size: var(--baseline);
-}
-
 body {
   background-color: black;
   font-weight: 400;
@@ -19,6 +14,13 @@ body {
   letter-spacing: .05rem;
   color: white;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -.1rem;
+}
+h1.display-4 {
+  letter-spacing: -.5rem;
 }
 
 a {
@@ -39,38 +41,6 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
   line-height: 1.15;
 }
-
-h1 {
-  margin-top: 0;
-  margin-left: -.3rem;
-  font-size: 3.052em;
-  font-size: 3.652em;
-  letter-spacing: -.25rem;
-}
-h2 {
-  font-size: 2.441rem;
-}
-h3 {
-  font-size: 1.953rem;
-}
-h4 {
-  margin-top: 0;
-  font-size: 1.563rem;
-  letter-spacing: -.1rem;
-}
-h5 {font-size: 1.25rem;}
-small, .text_small {font-size: 0.8rem;}
-
-.text_smaller {font-size: 1.2rem;}
-
-small {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 200;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-}
-
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
