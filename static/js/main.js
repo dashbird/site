@@ -281,3 +281,15 @@ $(document).ready(function () {
     $("#video").attr('src', $videoSrc)
   })
 })
+
+//hello
+let tl = new TimelineMax()
+tl.set('.hero-info', {autoAlpha: 1})
+  .staggerFromTo('.hero-info div > *', 1, {
+    autoAlpha: 0,
+    y: 50
+  }, {
+    autoAlpha: 1,
+    y: 0,
+    ease: Power4.easeOut
+  }, 0.1)
