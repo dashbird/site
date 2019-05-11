@@ -125,6 +125,14 @@ dashbird-graph {
 }
 .features .row {
   margin-top: 120px;
+  @media (max-width: 768px) {
+    &:nth-child(3) {
+      flex-direction: column-reverse;
+    }
+    li:before {
+      display: none;
+    }
+  }
 }
 .different {
   margin: 250px auto 120px auto;
