@@ -47,6 +47,49 @@ dashbird-graph {
   margin-bottom: -.35rem;
 }
 
+.video {
+  .video-container {
+    background: black;
+    position: relative;
+    &::after {
+      content: '\00a0';
+      left: 50%;
+      top: 50%;
+      position: absolute;
+      background: url(/images/v2/play.svg);
+      background-size: contain;
+      transform: translate(-50%, -50%);
+      width: 7rem;
+      height: 7rem;
+      opacity: .5;
+      transition: all .3s;
+      cursor: pointer;
+    }
+    &:hover {
+      &::after {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: .6;
+      }
+      video {
+        opacity: 1;
+      }
+    }
+    &:active {
+      &::after {
+        transform: translate(-50%, -50%) scale(1);
+        transition: all .05s;
+      }
+    }
+    video {
+      width: 80%;
+      height: auto;
+      border-radius: .25rem;
+      opacity: 0.7;
+      transition: all .2s;
+    }
+  }
+}
+
 .feature-col
 {
   padding: 0 25px;

@@ -46,12 +46,16 @@ dated: 2017-10-29T17:50:03+02:00
   </div>
 </div>
 
-<div class="container fluid mb-5 mt-5">
+<div class="container fluid mb-5 mt-5 video">
   <div class="row">
     <div class="col-12 text-center">
       <h1>The future is serverless.</h1>
       <p>Which is why we've built a perfect platform for serverless operations.</p>
-      <span> Video </span>
+      <div class="video-container" onClick="openFullscreen();">
+        <video id="preview-video" autoplay loop muted>
+          <source src="overview.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 </div>
@@ -201,5 +205,31 @@ dated: 2017-10-29T17:50:03+02:00
 <script>
 	fbq('track', 'ViewContent', {
 		content_ids: 'homepage',
-	});
+  });
+  var video = document.querySelector('#preview-video')
+  video.currentTime = 10
+  video.playbackRate = 5
+
+  video.addEventListener('fullscreenchange', function(ev) {
+    if (!window.screenTop && !window.screenY) {
+      video.currentTime = 0
+      video.playbackRate = 1
+      video.muted = false
+    } else {
+      video.playbackRate = 5
+      video.muted = true
+    }
+  });
+
+  function openFullscreen() {
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) { /* Firefox */
+      video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+      video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) { /* IE/Edge */
+      video.msRequestFullscreen();
+    }
+  }
 </script>
