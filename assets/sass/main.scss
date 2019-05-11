@@ -3,6 +3,7 @@ $accent-color: #4B45C6;
 
 @import 'typography';
 @import 'menu';
+@import 'landing-page';
 @import 'footer';
 
 .row.full-height {
@@ -16,54 +17,8 @@ body {
   background-position: center 32px;
   height: 100%;
 }
-.logos {
-  position: absolute;
-  width: 50%;
-  left: 25%;
-  right: 25%;
-  padding-bottom: 50px;
-  text-align: center;
-  @media (max-width: 768px) {
-    width: 100%;
-    position: unset;
-  }
-  img { 
-    opacity: .4;
-    height: 4rem;
-  }
-  span {
-    opacity: .4;
-    display: block;
-    margin-bottom: 10px;
-  }
-}
-dashbird-graph {
-  width: 100%;
-  // max-width: 500px;
-  height: auto;
-  margin: auto;
-  opacity: 1;
-  @media (max-width: 768px) {
-    margin-top: -7rem;
-  }
-}
-.mobile-cta-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: -10rem;
-  text-align: center;
-}
-.mobile-cta-block small {
-  margin-top: 3rem;
-}
 
-.hero img.aws-small {
-  opacity: .9;
-  height: 1.1rem;
-  margin-bottom: -.35rem;
-}
+
 button {
   position: relative;
   border-radius: 99rem;
@@ -106,77 +61,6 @@ button {
   &:focus {
     outline: none;
     box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
-  }
-}
-
-.feature-col
-{
-  padding: 0 25px;
-}
-
-.features ul {
-  padding-left: 0;
-  li {
-    list-style-type: none;
-    &:before {
-      content: "→";
-      margin-right: .5rem;
-    }
-  }
-}
-.h-1 {
-  height: 64px;
-}
-.col-1 {
-  background: rgba(255,0,0,0.2);
-  border-left: 8px solid rgba(255,0,0,0.2);
-  border-right: 8px solid rgba(255,0,0,0.2);
-}
-.navigation {
-  width: 50%;
-  height: 100%;
-}
-.features .row {
-  margin-top: 120px;
-}
-.different {
-  margin: 250px auto 120px auto;
-}
-.teams {
-  margin: 250px auto 220px auto;
-}
-.vh-75 {
-  min-height: 80vh;
-}
-.value-props {
-  .row { min-height: 450px; }
-  .feature-list {
-    margin-top: 35px;
-    padding-left: 0;
-    li {
-      list-style-type: none;
-      margin-left: 0;
-      cursor: pointer;
-      border-bottom: 1px solid gray;
-      span.hide { display: none; }
-      span.show { display: block; }
-      &:last-child { border: none;}
-      p {
-        margin: 9px 0px 9px;
-        font-size: 0.9em;
-      }
-    }
-    .description {
-      color: rgba(255,255,255,0.5);
-      font-size: 0.8em;
-      display: block;
-      margin-bottom: 25px;
-    }
-    .closer { font-size: 0.7em; }
-    
-  }
-  img {
-    width:100%;
   }
 }
 

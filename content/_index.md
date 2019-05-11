@@ -156,27 +156,37 @@ dated: 2017-10-29T17:50:03+02:00
 </div>
 
 <div class="container teams">
-  <div class="row">
-    <div class="col-12 text-center">
+  <div class="row pb-4">
+    <div class="col-12 text-md-center">
       <h1>Why over 500 teams use Dashbird daily?</h1>
     </div>
   </div>
 
-  <div class="row">
-  <div class="col-12 col-md-4 text-center">
-    <h4>Easy to set up</h4>
-    <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
-  </div>
-
-  <div class="col-12 col-md-4 text-center">
-    <h4>Built for serverless</h4>
-    <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
-  </div>
-
-  <div class="col-12 col-md-4 text-center">
-    <h4>Our users love us</h4>
-    <p>We’re on a mission to help as many companies succeed with serverless as possible. Over a thousand companies already use Dashbird.</p>
-  </div>
+  <div class="row companies">
+    <div class="col-12 col-md-4 text-md-center">
+      <a href="https://www.pipedrive.com/" target="_blank">
+        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
+      </a>
+      <p class="collapse" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" id="collapseOne">
+        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 text-md-center">
+      <a href="https://www.pipedrive.com/" target="_blank">
+        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
+      </a>
+      <p class="collapse" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo" id="collapseTwo">
+        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      </p>
+    </div>
+    <div class="col-12 col-md-4 text-md-center">
+      <a href="https://www.pipedrive.com/" target="_blank">
+        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
+      </a>
+      <p class="collapse" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree" id="collapseThree">
+        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      </p>
+    </div>
   </div>
 
   <div class="row mt-5">
