@@ -1,5 +1,6 @@
 #footer {
   min-height: 300px;
+  letter-spacing: -.05rem;
 
   @mixin text {
     font-family: 'Reno Mono';
@@ -15,7 +16,7 @@
   h6{
     @include text;
     font-size: 1rem;
-    padding-left: 14px;
+    //padding-left: 14px;
     // font-size: 0.5rem;
     background-image: url(/images/landing-graphics/separator.svg);
     background-repeat: no-repeat;
@@ -78,8 +79,13 @@
   border: 0px;
   margin: 0px !important;
   float:left;
-  height: 42px;
   width: 70%;
+  font-family: "Reno Mono";
+  color: white;
+  height: 42px;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 #newsletter-submit {
@@ -95,15 +101,9 @@
   border-radius: 0px;
   margin: 0px;
   height: 42px;
-}
-
-#newsletter-submit:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-width: 20px 20px 0 0;
-  border-style: solid;
-  border-color: transparent #180933 transparent transparent;
-  background: transparent;
+  border-bottom-right-radius: 1rem;
+  &:hover {
+    background: white;
+    color: black;
+  }
 }
