@@ -30,6 +30,9 @@ dashbird-graph {
   opacity: 1;
   @media (max-width: 768px) {
     margin-top: -7rem;
+    &::part(label) {
+      display: none;
+    }
   }
 }
 .mobile-cta-block {

@@ -8,7 +8,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row full-height">
     <div class="col-12 align-self-center">
       <div class="row align-items-center">
-        <div class="pr-0 col-lg-6 mb-5 hero-info">
+        <div class="p-0 col-lg-6 mb-5 hero-info">
           <div>
             <p class="text-center text-lg-left">
               <small>3,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
