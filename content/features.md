@@ -76,7 +76,7 @@ date: 2017-11-06T10:50:03+02:00
           Function, microservice and account-wide metrics
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Overview and detailed statistics into Lambda function activity, cost and latency. Among other things.</span>
+          <span class='description hide'>Overview and detailed statistics into Lambda function activity, cost and latency. among other things.</span>
         </li>
        <li>
           <p class='product-heading noselect'>
