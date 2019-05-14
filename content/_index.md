@@ -54,6 +54,7 @@ dated: 2017-10-29T17:50:03+02:00
       <div class="video-container" onClick="openFullscreen();">
         <video id="preview-video" autoplay loop muted>
           <source src="overview.mp4" type="video/mp4">
+          <track src="/overview.vtt" label="English" kind="captions" srclang="en-us" default >
         </video>
       </div>
     </div>
