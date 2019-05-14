@@ -66,31 +66,31 @@ date: 2017-11-06T10:50:03+02:00
       <ul class='feature-list'>
         <li>
           <p class='d-flex align-items-center justify-content-between product-heading noselect'>
-          Error detection and alerting
+          Insights
           <span class='float-right closer'>↑</span>
           </p>
-          <span class='description'>Dashbird detects all possible failures in your serverless apps. Including <b>crashes</b>, <b>early exits</b>, <b>timeouts</b> and <b>configuration errors</b> unique to Lambda functions.</span>
+          <span class='description'>Understand what's going on in your serverless environment at all times.</span>
         </li>
        <li>
           <p class='product-heading noselect'>
-          Conditional alerting
+          Function, microservice and account-wide metrics
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Get alerts when latency, cost or any other metric goes out of control.</span>
+          <span class='description hide'>Overview and detailed statistics into Lambda function activity, cost and latency. Among other things.</span>
         </li>
        <li>
           <p class='product-heading noselect'>
-          X-ray integration 
+          Full text search and live tailing
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Connect an X-ray trace for every invocation, and see exactly what failed or took too much time.</span>
+          <span class='description hide'>Managed ElasticSearch for your AWS Lambda logs.</span>
         </li>
         <li>
           <p class='product-heading noselect'>
-          Alerting 
+          Connect logs with X-ray traces
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Dashbird integrates with Slack, email and webhooks, with many other integrations to come in the future.</span>
+          <span class='description hide'>Seamless integration with AWS X-ray finds execution profiles for all invocations.</span>
         </li>
       </ul>
     </div>
@@ -104,31 +104,24 @@ date: 2017-11-06T10:50:03+02:00
       <ul class='feature-list'>
         <li>
           <p class='d-flex align-items-center justify-content-between product-heading noselect'>
-          Error detection and alerting
+          Cost and latency statistics
           <span class='float-right closer'>↑</span>
           </p>
-          <span class='description'>Dashbird detects all possible failures in your serverless apps. Including <b>crashes</b>, <b>early exits</b>, <b>timeouts</b> and <b>configuration errors</b> unique to Lambda functions.</span>
+          <span class='description'>Cost and performance breakdown for each function. Find where your service is slow or wasting too much money.</span>
         </li>
        <li>
           <p class='product-heading noselect'>
-          Conditional alerting
+          Cold start detection
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Get alerts when latency, cost or any other metric goes out of control.</span>
+          <span class='description hide'>See all the cold-starts and analyze the impact.</span>
         </li>
        <li>
           <p class='product-heading noselect'>
-          X-ray integration 
+          Memory utilisation metrics
           <span class='float-right closer'>↓</span>
           </p>
-          <span class='description hide'>Connect an X-ray trace for every invocation, and see exactly what failed or took too much time.</span>
-        </li>
-        <li>
-          <p class='product-heading noselect'>
-          Alerting 
-          <span class='float-right closer'>↓</span>
-          </p>
-          <span class='description hide'>Dashbird integrates with Slack, email and webhooks, with many other integrations to come in the future.</span>
+          <span class='description hide'>Find over- or underprovisioned Lambda functions to optimise performance and cost.</span>
         </li>
       </ul>
     </div>

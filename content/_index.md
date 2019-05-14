@@ -169,27 +169,21 @@ dated: 2017-10-29T17:50:03+02:00
 
   <div class="row companies">
     <div class="col-12 col-md-4 text-md-center">
-      <a href="https://www.pipedrive.com/" target="_blank">
-        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
-      </a>
-      <p class="collapse" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" id="collapseOne">
-        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      <h5>Shawn - Developer</h5>
+      <p class='collapse' data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" id="collapseOne">
+       Dashbird helped us go from identifying issues in minutes to being able to identify them in seconds. No more sifting through CloudWatch logs trying to piece together what actually happened. The user interaction is intuitive and easy to use, allowing us to understand what is going on in our serverless environment at all times, in close to real time.
       </p>
     </div>
     <div class="col-12 col-md-4 text-md-center">
-      <a href="https://www.pipedrive.com/" target="_blank">
-        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
-      </a>
-      <p class="collapse" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo" id="collapseTwo">
-        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      <h5>Antonio - Engineer</h5>
+      <p class='collapse' data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo" id="collapseTwo">
+      Because of Dashbird, we noticed that all our lambdas were running with a third of the allocated memory size, and that we could confidently reduce that threshold in order to reduce costs. The change was very simple to implement. With one line of code we reduced our billing by 50%, and we are constantly monitoring our application to see if we can reduce it even further.
       </p>
     </div>
     <div class="col-12 col-md-4 text-md-center">
-      <a href="https://www.pipedrive.com/" target="_blank">
-        <img class="company-logo" src="/images/landing-graphics/testimonial-pipedrive.svg" alt="">
-      </a>
-      <p class="collapse" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree" id="collapseThree">
-        Pipedrive offers robust CRM features at a fraction of the cost of other CRMs. The almost nonexistent setup and maintenance costs make Pipedrive the best choice for a business that plans to expand quickly - I have worked with numerous CRMs (all the largest ones) and Pipedrive easily takes my vote for the best CRM.
+      <h5>Mario - Architect</h5>
+      <p class='collapse' data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree" id="collapseThree">
+      The main benefit of Dashbird is simplicity. It’s easy to set up, it’s easy to use and most importantly it’s easy to understand. I hate the visual noise within CloudWatch logs.
       </p>
     </div>
   </div>
