@@ -39,7 +39,7 @@ Serverless Framework allows you to set up the event source for this function in 
 
 ## What is Dashbird Offering?
 
-<center><img src="http://localhost:1313/images/docs/invocation.png"></center>
+<center><img src="https://dashbird.io/images/docs/invocation.png"></center>
 
 You should know that with <a href="http://dashbird.io/">Dashbird</a> you’ll be able to do a lot with a little effort, whatsoever. Take into consideration that Dashbird’s data collection goes directly from CloudWatch APIs and that there’s no overhead when it comes to using Dashbird, wich is another way of saying that you won't incur any extra costs nor will your app be slowed down by extra requests. Another perk offered by Dashbird is Live Tailing which essentially gives you the opportunity to receive your function’s log streams in real-time. X-Ray is another benefit provided by Dashbird whose seamless integration gives you the best tracing possibilities and it allows you to keep a close eye on what your invocation is doing. 
 

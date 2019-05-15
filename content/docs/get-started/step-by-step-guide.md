@@ -14,7 +14,7 @@ But for now, let's jump into explaining the **Organization settings**.
 ## Importer settings
 <div class="row">
   <div class="col-md-7 col-sm-12 col-xs-12 text-md-left pt-3">
-    <p class="lato">Go ahead and navigate to the <a href="https://app.dashbird.io/clients">Importer settings</a> page. It's the dropdown menu which looks like a tiny house.</p>
+    <p class="lato">Go ahead and navigate to the <a href="https://app.dashbird.io/clients">Importer settings</a> page. It's in the top right section of the app under the organization name.</p>
     <p class="lato">By default, <b>all Lambdas</b> are imported <code>(*)</code>. </p>
     <p class="lato">Add one or more <b>filters</b> to select the right subset of Lambda Functions. Filters are <a href="https://en.wikipedia.org/wiki/Glob_(programming)">glob patterns</a>, meaning you can specify which Lambda Functions you want to import by matching a string and a wildcard(*). For instance, filter <code>*-prod-*</code> matches all function names like <code>service-prod-functionName</code>.</p>
   </div>

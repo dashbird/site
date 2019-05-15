@@ -12,7 +12,7 @@ blog: ["Serverless", "Other"]
 
 A while back I talked about how big companies have started using serverless in production and how this is a clear sign that we will see more implementation of the serverless infrastructure in the near future. I'd like to take some time today and talk about one of the <a href="https://dashbird.io/blog/companies-using-serverless-in-production/">companies that are using serverless in production</a>: Coca-cola.
 
-Back in 2016, <a href="https://twitter.com/devatlanta">Michael Connor</a> from Coca-Cola North America, the person in charge of the company's could migration strategy, has taken the stage at AWS Re-invent to give a glimpse into the tools and strategies they’ve developed in order to make their next generation of digital marketing applications completely serverless, and a peek into the innovative ways they’re planning to use AWS Lambda in the future.
+Back in 2016, <a href="https://twitter.com/devatlanta">Michael Connor</a> from Coca-Cola North America, the person in charge of the company's cloud migration strategy, has taken the stage at AWS Re-invent to give a glimpse into the tools and strategies they’ve developed in order to make their next generation of digital marketing applications completely serverless, and a peek into the innovative ways they’re planning to use AWS Lambda in the future.
 
 While explaining the multiple issues that traditional servers have(he was at a Serverless conference, the server bashing was mandatory) he came across a point that really resonated with me personally: 
 

@@ -7,7 +7,6 @@ thumbnail: "images/blog/2018-07-20/pexels-photo-920115.jpeg"
 authorlink: 'https://twitter.com/kolmas'
 author: 'Mikk Kirštein'
 author_image: '/images/team/mikk.jpg'
-featloc: blog-header
 category: "Product, Serverless, Lambda"
 blog: ["Product", "Serverless", "Lambda"]
 ---

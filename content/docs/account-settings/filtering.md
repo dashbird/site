@@ -23,7 +23,7 @@ Note that filtering Lambda functions should only be use when you wish to:
 
 ### Basics of importer configuration
 
- * Access the importer settings view by clicking on your organization name and selecting "Importer settings" or by going to <a href='https://app.dashbird.io/client' target='_blank'>https://app.dashbird.io/client</a>.
+ * Access the importer settings view by clicking on your organization name and selecting "Importer settings" or by going to <a href='https://app.dashbird.io/settings/import' target='_blank'>https://app.dashbird.io/settings/import</a>.
 
  * Filters consist of <a href='https://en.wikipedia.org/wiki/Glob_(programming)' target='_blank'>glob patterns</a>, meaning you can use wildcards to define a subset of your lambda functions.
 
