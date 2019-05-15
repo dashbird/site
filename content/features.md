@@ -15,7 +15,7 @@ date: 2017-11-06T10:50:03+02:00
 
 <div class="container value-props">
   <div class="row">
-    <div class="col-12 col-md-6 feature-col">
+    <div class="col-12 col-md-6 feature-col mt-4">
       <h5>Error and root cause detection.</h5>
       <ul class='feature-list'>
         <li>
@@ -49,7 +49,7 @@ date: 2017-11-06T10:50:03+02:00
       </ul>
     </div>
     <div class="col-12 col-md-6 text-center d-flex align-items-start justify-content-center" >
-      <img src='/images/landing-graphics/observability.svg'>
+      <img src='/images/product-screens/error-detection.png' class='product-feature'>
     </div>
   </div>
 </div>
@@ -58,9 +58,9 @@ date: 2017-11-06T10:50:03+02:00
 <div class="container value-props">
   <div class="row">
     <div class="col-12 col-md-6 text-center d-flex align-items-start justify-content-center">
-      <img src='/images/landing-graphics/observability.svg'>
+      <img src='/images/product-screens/insights.png' class='product-feature'>
     </div>
-    <div class="col-12 col-md-6 feature-col" >
+    <div class="col-12 col-md-6 feature-col mt-4" >
       
       <h5>Observability through logs, metrics and traces.</h5>
       <ul class='feature-list'>
@@ -99,7 +99,7 @@ date: 2017-11-06T10:50:03+02:00
 
 <div class="container value-props">
   <div class="row">
-    <div class="col-12 col-md-6 feature-col">
+    <div class="col-12 col-md-6 feature-col mt-4">
       <h5>Performance and cost optimisation.</h5>
       <ul class='feature-list'>
         <li>
@@ -126,16 +126,16 @@ date: 2017-11-06T10:50:03+02:00
       </ul>
     </div>
     <div class="col-12 col-md-6 text-center d-flex align-items-start justify-content-center" >
-      <img src='/images/landing-graphics/observability.svg'>
+      <img src='/images/product-screens/memory-utilisation.png' class='product-feature'>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="row ">
-    <div class="col-12 text-center">
+  <div class="row">
+    <div class="col-12 text-center mb-5">
       <a href="#register">
-        <button class="cta-btn" data-note="Zero code integration">Start in 5 minutes</button>
+        <button class="cta-btn" data-note="Zero code integration">Get started</button>
       </a>
     </div>
   </div>

@@ -21,10 +21,16 @@
         <div>
           <h1>Register</h1>
           <p>or <a href="#login">sign in</a> to your account</p>
-          <input type="text" placeholder="Name"><br>
-          <input type="text" placeholder="Email"><br>
-          <input type="password" placeholder="Password"><br>
-          <button class="cta-btn mt-3">Create your account</button><br>
+
+          <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
+            <input type="text" name='firstName' placeholder="First name" required><br>
+            <input type="text" name='lastName' placeholder="Last name" required><br>
+            <input type="text" name='companyName' placeholder="Company" required><br>
+            <input type="text" name='email' placeholder="Email"><br>
+            <input type="password" name='password' placeholder="Password"><br>
+            <input type="password" placeholder='Confirm password' name="confirmPassword" required>
+            <button class="cta-btn mt-3">Create your account</button><br>
+          </form>
           <button class="github d-none">
             <img src="/images/landing-graphics/icon-github.svg" alt="">
             Sign up with Github
@@ -79,7 +85,7 @@
       </ul>
       <ul class="nav float-right align-right d-none d-lg-inline-flex">
         <li class='nav-item'>
-          <a class="nav-link" href="#login">Log in</a>
+          <a class="nav-link" href="https://app.dashbird.io">Log in</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#register">Register</a>

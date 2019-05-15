@@ -12,10 +12,10 @@ $(function () {
   if (!$formArray.length) { return }
 
   const $registerForm = $formArray[0]
-  const emailElement = $registerForm[0]
-  const firstNameElement = $registerForm[1]
-  const passwordElement = $registerForm[5]
-  const confirmPasswordElement = $registerForm[6]
+  const emailElement = $('input[name="email"]')
+  const firstNameElement = $('input[name="firstName"]')
+  const passwordElement = $('input[name="password"]')
+  const confirmPasswordElement = $('input[name="confirmPassword"]')
 
   // event handlers
   passwordElement.onchange = validatePassword

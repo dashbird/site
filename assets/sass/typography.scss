@@ -35,14 +35,21 @@ p {
   margin-bottom: 1.25em;
   line-height: 200%;
 }
+
+ul li {
+  font-family: 'Reno Mono', monospace;
+}
 p.subtitle {
   font-family: 'Reno Mono', monospace;
   opacity: .5;
   margin-bottom: .5rem;
 }
+.font-reno {
+  font-family: 'Reno Mono', monospace !important;
+}
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Reno Mono', monospace;
+  font-family: 'Reno Mono', monospace !important;
   font-weight: 400;
   line-height: 1.15;
 }

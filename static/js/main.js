@@ -5,12 +5,31 @@
 var $sideMenu = document.querySelector('#side-menu')
 var $overlay = document.querySelector('#overlay')
 var hashTriggers = ['#menu', '#login', '#register']
-
 var prices = {
-  99: { annual: 99, monthly: 115, volume: 25 },
-  299: { annual: 299, monthly: 350, volume: 100 },
-  595: { annual: 595, monthly: 700, volume: 200 },
-  990: { annual: 990, monthly: 1150, volume: 300 }
+  1: {
+    annual: 99,
+    monthly: 115,
+    invocations: 10,
+    volume: 25
+  },
+  2: {
+    annual: 299,
+    monthly: 350,
+    invocations: 30,
+    volume: 100
+  },
+  3: {
+    annual: 595,
+    monthly: 700,
+    invocations: 100,
+    volume: 200
+  },
+  4: {
+    annual: 990,
+    monthly: 1150,
+    invocations: 200,
+    volume: 300
+  }
 }
 
 checkHash()
@@ -179,37 +198,12 @@ $(document).ready(function () {
   if( $('#price-slider').length > 0 ){
     console.log("log pricing")
     
-    var prices = {
-      1: {
-          annual: 99,
-          monthly: 115,
-          invocations: 10,
-          volume: 25
-      },
-      2: {
-          annual: 299,
-          monthly: 350,
-          invocations: 30,
-          volume: 100
-      },
-      3: {
-          annual: 595,
-          monthly: 700,
-          invocations: 100,
-          volume: 200
-      },
-      4: {
-          annual: 990,
-          monthly: 1150,
-          invocations: 200,
-          volume: 300
-      }
-    };
+
     console.log(prices[1])
     var slider = new Slider('#price-slider', {
       ticks: [1, 2, 3, 4],
       ticks_snap_bounds: 4,
-      ticks_labels: ['10M', '30M', '100M', '200M'],
+      ticks_labels: ['25GB', '100GB', '200GB', '300GB'],
       formatter: function (value) {
         var priceLevel = prices[value]
         if (priceLevel) {

@@ -33,13 +33,11 @@ date: 2019-04-30T17:50:03+02:00
             </div>
             <div class='text-center p-4 pt-0 '>
               <ul class='pricing-features pb-3'>
-                <li>unlimited functions</li>
-                <li>14-day data retention</li>
+                <li>Unlimited functions</li>
+                <li>7-day data retention</li>
                 <li>Slack and e-mail alerts</li>
-                <li>technical support</li>
-                
               </ul>
-              <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Get started for free</a>
+              <a class="btn cta-btn w-100" href='#register'>Get Started </a>
             </div>
           </div>
           <div class="col-12 col-md-4 mw-240 flex-order-1 pro-box">
@@ -64,21 +62,21 @@ date: 2019-04-30T17:50:03+02:00
                   </div>
                 <div class='row d-none no-price' id='custom'>
                   <div class='col'>
-                    <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
+                    <a class="btn cta-btn" href='/contact-us' target='_blank'>CONTACT US</a>
                   </div>
                 </div>
                   
-                <p class="pricing-val-spec"><span id="invocations">10</span> million invocations a month (or <span id="logsize">25</span>GB of log ingestion)</p>
+                <p class="pricing-val-spec"><span id="logsize">25</span>GB of log ingestion <br />or <span id="invocations">10</span>M invocations per month</p>
                 </div>
               </div>
               <div class='text-center  p-4 pt-0'>
                 <ul class='pricing-features pb-3'>
-                    <li>Live tailing</li>
+                    <li>X-ray support</li>
                     <li>Full-text search</li>
-                    <li>30-day data retention</li>
+                    <li>14-day data retention</li>
                     <li>Technical support</li>
                   </ul>
-                <a class="btn cta-btn cta-pink w-100" role="button" href='/register' target='_blank'>Start your 14 day free trial</a>
+                <a class="btn cta-btn w-100" href='#register'>Start Free Trial</a>
                 <p class="text-center text-secondary small p-1 m-0">No credit card needed</p>
               </div>
             </div>
@@ -94,11 +92,12 @@ date: 2019-04-30T17:50:03+02:00
             <div class='text-center p-4 pt-0 '>
               <ul class='pricing-features pb-3'>
                 <li>Enterprise level scale</li>
-                <li>Custom, multi-year data retention</li>
+                <li>Serverless Advisory</li>
+                <li>Custom data retention</li>
                 <li>Training and onboarding</li>
-                <li>SLA-s</li>
+                <li>Custom SLA-s</li>
               </ul>
-              <a class="btn cta-btn cta-pink w-100" role="button" href='/contact-us' target='_blank'>Contact Us</a>
+              <a class="btn cta-btn w-100" role="button" href='/contact-us' target='_blank'>Contact Us</a>
             </div>
           </div>
         </div>
@@ -110,7 +109,7 @@ date: 2019-04-30T17:50:03+02:00
   </div>
 </section>
 
-<section class="container-fluid blue-bg pricing-page" >
+<section class="container-fluid blue-bg pricing-page mb-5 pb-5" >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-12 pb-5 m-auto">
@@ -123,7 +122,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
                 Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.
               </div>
             </div>
@@ -135,7 +134,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
               All of them!
               </div>
             </div>
@@ -147,7 +146,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
               The default data ingeston limit during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
               </div>
             </div>
@@ -159,7 +158,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
                 Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.
               </div>
             </div>
@@ -171,7 +170,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
                 No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period.
               </div>
             </div>
@@ -183,7 +182,7 @@ date: 2019-04-30T17:50:03+02:00
               </h5>
             </div>
             <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body font-reno">
                 You will get a discount on all plans when you sign up for an annual subscription.
               </div>
             </div>
@@ -260,7 +259,11 @@ a.btn.cta-btn {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.25rem;
-    opacity: 0.5;	color: #FFFFFF;	font-family: "SF UI Text";	font-size: 12px;	letter-spacing: 0.43px;	line-height: 21px;
+    opacity: 0.5;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 0.43px;
+    line-height: 21px;
 }
 
 .card-header h5:after {
