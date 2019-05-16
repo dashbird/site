@@ -71,13 +71,13 @@ dated: 2017-10-29T17:50:03+02:00
       </p>
     </div>
     <div class="col-12 col-md-5 ml-auto text-center text-md-right">
-      <img class="img-fluid ui-graphic" src="/images/landing-graphics/observability.svg">
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/observability.png">
     </div>
   </div>
 
   <div class="row">
     <div class="col-12 col-md-5 mr-auto text-center text-md-left">
-      <img class="img-fluid ui-graphic" src="/images/landing-graphics/notifications.svg">
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/notifications.png">
     </div>
     <div class="col-12 col-md-5 text-center text-md-left align-self-center">
       <p class="subtitle">Resiliance</p>
@@ -105,7 +105,7 @@ dated: 2017-10-29T17:50:03+02:00
       </p>
     </div>
     <div class="col-12 col-md-5 ml-auto text-center text-md-right">
-      <img class="img-fluid ui-graphic" src="/images/landing-graphics/cost.svg">
+      <img class="img-fluid ui-graphic" src="/images/landing-graphics/cost.png">
     </div>
   </div>
 
