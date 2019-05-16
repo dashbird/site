@@ -43,7 +43,7 @@ date: 2019-04-30T17:50:03+02:00
           <div class="col-12 col-md-4 mw-240 flex-order-1 pro-box">
             <div class="col-inner pricing-text">
               <div class="pricing-box top-lpurple text-center pt-4 pl-4 pr-4 pb-1">
-                <h4 class="mt-2 mb-4 lpurple pricing-title ">Proffesional</h4>
+                <h4 class="mt-2 mb-4 lpurple pricing-title ">Professional</h4>
                 <div class='row' id='custom' style='display:none'>
                   <div class='col'>
                     <a class="btn cta-btn cta-secondary" role="button" href='/contact-us' target='_blank'>CONTACT US</a>
@@ -147,7 +147,7 @@ date: 2019-04-30T17:50:03+02:00
             </div>
             <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
               <div class="card-body font-reno">
-              The default data ingeston limit during the 14 day trial is 25GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
+              The default data ingeston limit during the 14 day trial is 5GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
               </div>
             </div>
           </div>
