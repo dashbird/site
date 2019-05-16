@@ -16,6 +16,7 @@ body {
   background-size: 192px auto;
   background-position: center 32px;
   height: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -177,10 +178,8 @@ p.price-vat {
 }
 
 .video-frame {
-  width: 800px;
-  height: 450px;
-  max-width: 800px;
-  max-height: 450px;
+  width: 100%;
+  height: 80vmin;
 }
 
 .product-feature {

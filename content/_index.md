@@ -51,7 +51,7 @@ dated: 2017-10-29T17:50:03+02:00
     <div class="col-12 text-center">
       <h1>The future is serverless.</h1>
       <p>Which is why we've built a platform for serverless operations.</p>
-      <iframe src="https://player.vimeo.com/video/336285637?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" class='video-frame' allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/336285637?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" class="video-frame" allowfullscreen></iframe>
     </div>
   </div>
 </div>

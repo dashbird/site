@@ -50,7 +50,7 @@
   .login, .register {
     transition: all .3s;
     position: absolute;
-    width: 90%;
+    width: calc(100% - 72px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,7 +61,7 @@
     height: 100%;
     position: relative;
     background: #fff;
-    padding: 10% 15px;
+    padding: 10% 36px;
   }
   &.login, &.register {
     .menu-container {
