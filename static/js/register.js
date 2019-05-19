@@ -12,7 +12,7 @@ $(function () {
   if (!$formArray.length) { return }
 
   const $registerForm = $formArray[0]
-  const emailElement = $('input[name="email"]')
+  const emailElement = $('#registerEmail')
   const firstNameElement = $('input[name="firstName"]')
   const passwordElement = $('input[name="password"]')
   const confirmPasswordElement = $('input[name="confirmPassword"]')
