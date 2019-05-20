@@ -19,7 +19,7 @@ dated: 2017-10-29T17:50:03+02:00
             </p>
             <div class="d-none d-lg-block">
               <a href="#register">
-                <button class="cta-btn" data-note="Zero code integration">Deploy CloudFormation stack </button>
+                <button class="cta-btn" data-note="Zero code integration">Start your free trial!</button>
               </a>
               <!-- <button>Learn more</button> -->
             </div>
