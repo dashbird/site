@@ -52,7 +52,9 @@ function checkHash () {
         break
     }
   } else if (hash === '') {
-    $sideMenu.className = ''
+    if($sideMenu!=null)
+    $sideMenu.className = '';
+    if($overlay!=null)
     $overlay.className = ''
   }
 }
