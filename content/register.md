@@ -26,7 +26,7 @@ aliases:
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-5 col-md-6 col-sm-10 col-xs-12">
         <div class="pt-2">
-            <form id="register-form" name="register-form" method="post" action="https://app.dashbird.io/auth/register">
+            <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
                     <span>Email: <span class='text-danger'>*</span></label></span>
