@@ -61,3 +61,15 @@ h1, h2, h3, h4, h5 {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+
+.primary {
+  font-weight: 900;
+}
+
+span.extra { 
+  display: block;
+  color: white;
+  opacity: 0.4 !important;
+  margin-top: 4px;
+  margin-left: 30px;
+}

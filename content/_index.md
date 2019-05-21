@@ -18,10 +18,8 @@ dated: 2017-10-29T17:50:03+02:00
               Fix problems <b>faster</b>. Operate with <b>confidence</b>.
             </p>
             <div class="d-none d-lg-block">
-              <a href="#register">
-                <button class="cta-btn" data-note="Zero code integration">Start your free trial!</button>
-              </a>
-              <!-- <button>Learn more</button> -->
+              <a href="#register"><button class="cta-btn" data-note="Zero code integration">Get Started Free</button></a>
+              <span class='extra'>No code changes</span>
             </div>
           </div>
         </div>
@@ -49,8 +47,8 @@ dated: 2017-10-29T17:50:03+02:00
 <div class="container fluid mb-5 mt-5 video">
   <div class="row">
     <div class="col-12 text-center">
-      <h1>The future is serverless.</h1>
-      <p>Which is why we've built a platform for serverless operations.</p>
+      <h1>We believe in serverless.</h1>
+      <p>So we're building the tool for serverless monitoring and operations.</p>
       <iframe src="https://player.vimeo.com/video/336285637?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" class="video-frame" allowfullscreen></iframe>
     </div>
   </div>
