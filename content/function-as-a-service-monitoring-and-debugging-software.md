@@ -7,6 +7,7 @@ twitter_summary: 'summary_large_image'
 slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
+exclude_menu: true
 ---
 
 <div class="bg-white">
@@ -19,6 +20,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Faas monitoring software</h2>
 					<p>Functions as a service providers have come a long way in the past few years but there is still a long way to go. Monitoring is tough and can be very hard to do for solutions with multiple microservices. Dashbird offers failure detection, analytics, and visibility for AWS Lambda-based applications.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -28,8 +30,9 @@ btn_url: 'https://dashbird.io/register/'
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Debugging functions-as-a-service apps</h2>
+					<h2 class="landing-titles ">Debugging Faas apps</h2>
 					<p>Finding what's wrong with your functions can be a daunting task for most people, that's why Dashbird complies the data it gets from AWS into a clean and easy to understand dashboards. This will allow you to highlight and identify address your Lambda errors.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -41,6 +44,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Free Function as a service debugging software</h2>
 					<p>Dashbird has a completely free tier that you can sign up for right now. No credit card needed. To test the entire applications with all the features and no limits we also offer a 14-day free trial. No credit card needed.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>

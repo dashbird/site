@@ -7,6 +7,7 @@ twitter_summary: 'summary_large_image'
 slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
+exclude_menu: true
 ---
 
 <div class="bg-white">
@@ -19,6 +20,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">System wide information</h2>
 					<p>With Dashbird you get all the relevant account, service and function level metrics enabling you to analyze and optimize your application performance, cost, and resources.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -30,6 +32,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Function Invocation analysis</h2>
 					<p>Get observability into your serverless application by having a clear insight into memory usage, status information, invocation duration and any other errors that might occur.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -41,6 +44,7 @@ btn_url: 'https://dashbird.io/register/'
 					<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 							<h2 class="landing-titles ">Microservice monitoring</h2>
 							<p>With Dashbird you'll be able to create projects for a particular function that make up a microservice allowing you to have better observability of the bigger picture.</p>
+							<a href='/features' class='btn btn-outline-primary'>View all features</a>
 					</div>
 				</div>
 		</div>
