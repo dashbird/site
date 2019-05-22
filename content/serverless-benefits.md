@@ -4,6 +4,7 @@ title: Serverless Best Practices - Free eBook Download
 <style>
 	.slider .slide--item {
     	height: 650px;
+		padding-top:5%;
 	}
 	
 	.bg-dark {
@@ -39,6 +40,15 @@ title: Serverless Best Practices - Free eBook Download
 		overflow: hidden;
 	}
 
+	.landing-text {
+		margin: auto;
+		text-align: center;
+	}
+
+	.landing-img img {
+		max-width: 100%;
+	}
+
 	@media (max-width: 768px){
 		.slider .slide--item {
 			height: auto;
@@ -46,13 +56,18 @@ title: Serverless Best Practices - Free eBook Download
 		}
 	}
 
+	section#feature2 {
+		color: #0c0316;
+		padding-bottom: 75px;
+	}
+
 	.download-book {
 		margin: 100px 0;
 	}
 </style>
 
-<section id="slider" class="section slider slider-2 bg-dark">
-	<div class="slide--item bg-dark">
+<section id="slider" class="section background-gradient-bottom">
+	<div class="slide--item">
 		<div class="container">
 			
 			<div class="row pt-7">
