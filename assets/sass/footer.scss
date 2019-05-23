@@ -36,6 +36,15 @@
 }
 .background-gradient-bottom { @include background-gradient; }
 
+.landing-header {
+  padding: 10% 0;
+  margin-top: 15px;
+}
+
+.landing-img img {
+  max-width: 100%;
+}
+
 .background-gradient-top {
   @include background-gradient;
   -webkit-transform: rotate(180deg);
