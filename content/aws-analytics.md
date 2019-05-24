@@ -1,5 +1,5 @@
 ---
-title: Monitoring and failure detection for Lambda
+title: The leading AWS Analytics platform
 description: Knowing when something goes wrong is not enough, you need to know exactly where to look in order to find what went wrong.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
@@ -13,9 +13,7 @@ exclude_menu: true
 <div class="bg-white">
   <section class="container pt-5 pb-10 landing-content">
 	<div class="row">
-		<div class="col text-center">
-			<span class="h4 roboto-mono text-uppercase">Product features</span>
-		</div>
+		
   <div class="row pt-7">
     <div class="col-12 col-md-6 landing-img">
       <img src="/images/landingpages/landinf-instant-faluire.png">
@@ -46,7 +44,7 @@ exclude_menu: true
     </div>
     <div class="col-12 col-md-6 landing-text">
       <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-        <h2 class="landing-titles ">Fast troubleshooting and development.</h2>
+        <h2 class="landing-titles ">Free AWS analytics</h2>
         <p>Dashbird integrates with CloudWatch to structure and bring visibility into serverless applications. Invocation level data is enriched with X-ray traces.</p>
         <a href='/features' class='btn btn-outline-primary'>View all features</a>
       </div>

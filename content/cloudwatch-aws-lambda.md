@@ -1,5 +1,5 @@
 ---
-title: Serverless Visibility
+title: AWS Lambda CloudWatch logging
 description: Knowing when something goes wrong is not enough, you need to know exactly where to look in order to find what went wrong.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
@@ -18,12 +18,13 @@ exclude_menu: true
 		</div>
 		<div class="row pt-7">
 			<div class="col-12 col-md-6 landing-img">
-				<img src="/images/landingpages/landinf-instant-faluire.png">
+				<img src="/images/landingpages/track-full-extent.png">
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Why do you need serverless visibility?</h2>
-					<p>The way your application is developed and works have just gotten a whole lot better and more complex as it's tougher to see how things work behind the scenes. With Dashbird you get visibility into technical metrics of serverless architectures.</p>
+					<h2 class="landing-titles ">Fast troubleshooting and development.</h2>
+					<p>Dashbird integrates with CloudWatch to structure and bring visibility into serverless applications. Invocation level data is enriched with X-ray traces.</p>
+
           <a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
@@ -34,20 +35,20 @@ exclude_menu: true
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Metrics allow optimization</h2>
-					<p>Dashbird provides function level views that enable developers to judge latency and memory usage. You use this view to optimize functions for cost efficiency by adjusting the provisioned memory to match the actual usage.</p>
+					<h2 class="landing-titles ">Failure and anomaly detection.</h2>
+					<p>Dashbird automatically detects all failures from Lambda invocations be them timeouts, exceptions, configuration errors etc. Dashbird also uses <b>machine learning algorithms for anomaly detection</b>.</p>
           <a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
 		<div class="row pt-7">
 			<div class="col-12 col-md-6 landing-img">
-				<img src="/images/landingpages/track-full-extent.png">
+				<img src="/images/landingpages/landinf-instant-faluire.png">
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Easier troubleshooting</h2>
-					<p>Dashbird is built so that developers can detect and understand failures and provide visibility into their serverless applications. Sign up now and get visibility for free!</p>
+					<h2 class="landing-titles ">Performance and cost analytics.</h2>
+					<p>Insights into account, micro-service and function level performance and cost metrics. Understand exactly where the <b>money goes and optimise functions for cost and speed</b>. </p>
           <a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>

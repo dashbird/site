@@ -1,5 +1,5 @@
 ---
-title: Serverless Monitoring
+title: AWS Monitoring Platform
 description: Sleep easy at night knowing Dashbird constantly monitors your application and will let you know the second something goes awry.
 thumbnail: "images/twitter/dashbird-serverless-monitoring.png"
 dated: 2018-10-22T17:50:03+02:00
@@ -18,7 +18,7 @@ exclude_menu: true
 			</div>
 			<div class="col-12 col-md-6 landing-text">
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-					<h2 class="landing-titles ">Know when it goes belly up</h2>
+					<h2 class="landing-titles ">Free AWS Monitoring solutions</h2>
 					<p>Dashbird monitors and detects every failure from any programming language including crashes, early exits, timeouts and serverless configuration errors.</p>
 					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>

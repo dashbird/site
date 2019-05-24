@@ -7,6 +7,7 @@ twitter_summary: 'summary_large_image'
 slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
+exclude_menu: true
 ---
 
 <div class="bg-white">
@@ -19,6 +20,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">Use the right tools</h2>
 					<p>Errors do happen, that's a fact. Your application will go down and you will have to figure out what went wrong and how to fix it. Dashbird is exactly what you need to overcome those errors and fix those NodeJs errors.</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -30,6 +32,7 @@ btn_url: 'https://dashbird.io/register/'
 				<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
 					<h2 class="landing-titles ">We are always keeping an eye out</h2>
 					<p>You can rest easy knowing that we'll monitor your functions and notify you through slack or email if an error occurs. No more sleeping with an eye opened, Dashbird's got your back!</p>
+					<a href='/features' class='btn btn-outline-primary'>View all features</a>
 				</div>
 			</div>
 		</div>
@@ -39,8 +42,9 @@ btn_url: 'https://dashbird.io/register/'
 				</div>
 				<div class="col-12 col-md-6 landing-text">
 					<div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
-							<h2 class="landing-titles ">All the information in one place</h2>
-							<p>With Dashbird you get a clear picture of your serverless application and with the new error views you will troubleshoot your NodeJS issues a lot faster and with less of a hassle.</p>
+						<h2 class="landing-titles ">All the information in one place</h2>
+						<p>With Dashbird you get a clear picture of your serverless application and with the new error views you will troubleshoot your NodeJS issues a lot faster and with less of a hassle.</p>
+						<a href='/features' class='btn btn-outline-primary'>View all features</a>
 					</div>
 				</div>
 		</div>
