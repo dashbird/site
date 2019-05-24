@@ -13,7 +13,7 @@ dated: 2017-10-29T17:50:03+02:00
             <p class="text-center text-lg-left">
               <small>3,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
             </p>
-            <h1 class="text-center text-lg-left display-4">Build fantastic serverless apps.</h1>
+            <h1 class="text-center text-lg-left display-4">Full serverless observability.</h1>
             <p class="text-center text-lg-left">
               Fix problems <b>faster</b>. Operate with <b>confidence</b>.
             </p>
