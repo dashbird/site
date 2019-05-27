@@ -20,15 +20,12 @@
       <div class="register">
         <div>
           <h1>Register</h1>
-          <p>or <a href="#login">sign in</a> to your account</p>
-
           <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
+            <input type="email" id='registerEmail' name='email' placeholder="Work Email"><br>
             <input type="text" name='firstName' placeholder="First name" required><br>
             <input type="text" name='lastName' placeholder="Last name" required><br>
             <input type="text" name='companyName' placeholder="Company" required><br>
-            <input type="text" id='registerEmail' name='email' placeholder="Work Email"><br>
             <input type="password" name='password' placeholder="Password"><br>
-            <input type="password" placeholder='Confirm password' name="confirmPassword" required>
             <button class="cta-btn mt-3">Create your account</button><br>
           </form>
           <button class="github d-none">

@@ -13,13 +13,13 @@ dated: 2017-10-29T17:50:03+02:00
             <p class="text-center text-lg-left">
               <small>3,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
             </p>
-            <h1 class="text-center text-lg-left display-4">Full serverless observability.</h1>
+            <h1 class="text-center text-lg-left display-4">Monitor serverless apps on AWS.</h1>
             <p class="text-center text-lg-left">
-              Fix problems <b>faster</b>. Operate with <b>confidence</b>.
+            Detect and fix problems <b>in seconds</b>. Operate with <b>confidence</b>.
             </p>
             <div class="d-none d-lg-block">
               <a href="#register"><button class="cta-btn" data-note="Zero code integration">Get Started Free</button></a>
-              <span class='extra'>No code changes</span>
+              <!-- <span class='extra'>No code changes</span> -->
             </div>
           </div>
         </div>
@@ -47,16 +47,18 @@ dated: 2017-10-29T17:50:03+02:00
 <div class="container fluid mb-5 mt-5 video">
   <div class="row">
     <div class="col-12 text-center">
-      <h1>We believe in serverless.</h1>
-      <p>So we're building the tool for serverless monitoring and operations.</p>
+      <h1>Leading serverless observability platform.</h1>
+      <p>Built from the ground up to manage serverless applications in development and at scale.</p>
       <iframe src="https://player.vimeo.com/video/336285637?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" class="video-frame" allowfullscreen></iframe>
     </div>
   </div>
 </div>
 
 <div class="container features" >
-
   <div class="row">
+    <div class="col-12 text-center" style='margin-bottom: 80px;'>
+      <h1>See into your serverless applications.</h1>
+    </div>
     <div class="col-12 col-md-6 text-center text-md-left align-self-center">
       <p class="subtitle">Insight</p>
       <h4>Deep observability into serverless.</h4>
@@ -65,7 +67,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Visualize resource usage and find bottlenecks.</li>
       </ul>
       <p>
-        <a href="/features#observability" target="_blank">Learn more →</a>
+        <a href="/docs" target="_blank">Read the docs →</a>
       </p>
     </div>
     <div class="col-12 col-md-5 ml-auto text-center text-md-right">
@@ -81,11 +83,11 @@ dated: 2017-10-29T17:50:03+02:00
       <p class="subtitle">Resiliance</p>
       <h4 class="subtitle">Error alerting and debugging.</h4>
       <ul>
-        <li>Find errors and anomalies immediately.</li>
+        <li>Find errors and anomalies quickly.</li>
         <li>Understand the root cause.</li>
       </ul>
       <p>
-      <a href="/features#observability" target="_blank">Learn more →</a>
+      <a href="/docs/user-guide/alerting/" target="_blank">Learn more →</a>
       </p>
     </div>
   </div>
@@ -99,7 +101,7 @@ dated: 2017-10-29T17:50:03+02:00
         <li>Pinpoint the cause of slow functions.</li>
       </ul>
       <p>
-        <a href="/features#observability" target="_blank">Learn more →</a>
+        <a href="/docs/user-guide/tracing/" target="_blank">Learn more →</a>
       </p>
     </div>
     <div class="col-12 col-md-5 ml-auto text-center text-md-right">
