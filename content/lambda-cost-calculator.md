@@ -57,22 +57,30 @@ scripts:
       <h5>Execution costs: <span id='executions-cost' class='float-right'>$0/month</span></h5>
       <hr/>
       <h5>Total AWS Lambda costs: <span id='total-cost' class='float-right text-green'>$0/month</span></h5>
-
     </div>
   </div>
 
-  <div class='row justify-content-center'>
-    <div class='col-9 text-center'>
-      <div class='row justify-content-center'>
-
-        <div class='col-6 imgs-fluid'>
-          <img src="/images/cost.png" >
-        </div>
-
-        <div class='col-6'>
-          <a href='https://dashbird.io/' target='_blank' class='btn btn-primary mb-4 mt-3'>Sign up for free</a>
-        </div>
-
+  <div class='row justify-content-center mt-5' style='margin-bottom: 120px;'>
+    <div class='col-9 text-center pro-box'>
+      <h1>Monitor serverless apps on AWS Lambda.</h1>
+      <p> Detect and fix problems <b>in seconds</b>. Operate with <b>confidence</b>.</p>
+      <div class='pt-4'>
+        <a href="#register">
+          <button class="cta-btn" data-note="Zero code integration">Get started</button>
+        </a>
+        <a href="/">
+          <button class="btn-outline-light" data-note="Zero code integration">Learn more</button>
+        </a>
+      </div>
+      <div class='row pt-5'>
+      <div class='col-6'>
+        <p class="text-center my-auto">
+          <small>3,379 <img class="aws-small" src="/images/v2/aws-small.svg" alt=""> accounts connected</small>
+        </p>
+      </div>
+      <div class='col-6'>
+      AWS Advanced Technology Partner
+      </div>
       </div>
     </div>
   </div>
