@@ -1,14 +1,14 @@
 ---
 title: How to Save Hundreds of Hours on Lambda Debugging
-description: .
-date: 2019-05-09T12:00:00.000Z
-frontImage: "2019-05-10/wPrCjOGF.jpeg"
-thumbnail: "images/blog/2019-05-10/wPrCjOGF.jpeg"
-authorlink: 'https://medium.com/@martlaul'
-author: Mart Laul
-author_image: '/images/team/mart.jpg'
+description: Learn simple ways to save a ton of time when scanning logs to debug errors in your Lambda functions.
+date: 2019-06-03T12:00:00.000Z
+frontImage: "2019-06-03/aron-visuals-322314-unsplash.jpg"
+thumbnail: "images/blog/2019-06-03/aron-visuals-322314-unsplash.jpg"
+authorlink: 'https://medium.com/@byrro'
+author: Renato Byrro
+author_image: '/images/team/renato.jpg'
 featpop: most-popular
-blog: ["AWS", "Serverless", "Other"]
+blog: ["AWS", "Serverless", "Debugging", "Productivity"]
 ---
 
 Although AWS Lambda is a blessing from the infrastructure perspective, while using it, we still have to face perhaps the least-wanted part of software development: debugging. In order to fix issues, we need to know what is causing them. In AWS Lambda that can be a curse. But we have a solution that could save you dozens of hours of time.
