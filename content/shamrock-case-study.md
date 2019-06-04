@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: Going Serverless:, Shamrock Corporation - Case Study Download
+=======
+title: "Going Serverless: Shamrock Corporation - Case Study Download"
+>>>>>>> 6ac69042ef2b467b6fa35a88fa60a11db47457ca
 ---
 <style>
     .slider .slide--item {
@@ -66,7 +70,7 @@ title: Going Serverless:, Shamrock Corporation - Case Study Download
     }
 </style>
 
-<section id="slider" class="section background-gradient-bottom">
+<section id="slider" class="section background-gradient-bottom mt-5 pt-5 mb-3">
     <div class="slide--item">
         <div class="container">
             
@@ -75,7 +79,7 @@ title: Going Serverless:, Shamrock Corporation - Case Study Download
                     <img src="/images/case-study-shamrock-cover.png">
                 </div>
                 <div class="col-12 col-md-6 landing-text">
-                    <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner sf-ui-text">
+                    <div class="col-12 col-xs-10 col-sm-12 col-lg-10 landing-text-inner">
                         <h2 class="landing-titles ">Case Study: Going Serverless</h2>
                         <p>The DevOps team at Shamrock Corp devised a winning strategy to migrate from a cluster of servers to fully serverless architecture. They are not only saving hundreds of hours of development time, but also managed to cut $100,000 from cloud spending.</p>
                         <p>Download the case study <strong>for free</strong> and learn how they did it confidently with support from Dashbird.</p>

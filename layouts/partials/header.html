@@ -3,7 +3,7 @@
 <div id="side-menu">
   <div class="close" onclick="removeHash();">✕</div>
   <div class="menu-container">
-    <div class="navigation">
+    <div class="menu navigation">
       {{ $currentPage := .  }}
       {{ range .Site.Menus.main }}
       <li class="nav-item {{ .Identifier }}">
