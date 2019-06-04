@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: Going Serverless:, Shamrock Corporation - Case Study Download
-=======
-title: "Going Serverless: Shamrock Corporation - Case Study Download"
->>>>>>> 6ac69042ef2b467b6fa35a88fa60a11db47457ca
+title: "Going Serverless,: Shamrock Corporation - Case Study Download"
 ---
 <style>
     .slider .slide--item {

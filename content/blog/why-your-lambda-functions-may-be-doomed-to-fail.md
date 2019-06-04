@@ -1,10 +1,6 @@
 ---
 title: Why Your Lambda Functions May Be Doomed To Fail
-<<<<<<< HEAD
-description: AWS Lambda has a cool feature that can be both a blessing and a nightmare for a serverless application - the retry behavior.
-=======
-description: "AWS Lambda has a cool feature that can be both a blessing and a nightmare for a serverless application: the retry behavior."
->>>>>>> 6ac69042ef2b467b6fa35a88fa60a11db47457ca
+description: "AWS Lambda has a cool feature that can be both a blessing and a nightmare for a serverless application - the retry behavior."
 date: 2019-05-17T12:00:00.000Z
 frontImage: "2019-05-10/joel-filipe-260016-unsplash.jpg"
 thumbnail: "images/blog/2019-05-10/joel-filipe-260016-unsplash.jpg"

@@ -34,9 +34,12 @@ var prices = {
 
 checkHash()
 window.onpopstate = checkHash
-
+$sideMenu.classList.add('register')
 function checkHash () {
   const hash = window.location.hash
+  $sideMenu.className = '';
+ 
+  // console.log($sideMenu)
   if (hashTriggers.find(function (str) { return str === hash })) {
     $sideMenu.className = 'show'
     $overlay.classList.add('show')
@@ -155,7 +158,6 @@ $(document).ready(function () {
         if (e.direction == 'left') {
           $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner')
         } else {
-          console.log('ajunge')
           $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner')
         }
       }
@@ -198,10 +200,6 @@ $(document).ready(function () {
 
 
   if( $('#price-slider').length > 0 ){
-    console.log("log pricing")
-    
-
-    console.log(prices[1])
     var slider = new Slider('#price-slider', {
       ticks: [1, 2, 3, 4],
       ticks_snap_bounds: 4,
@@ -247,7 +245,6 @@ $(document).ready(function () {
     } else {
       $('#custom').hide()
       $('#priced').show()
-      console.log(selectedValue)
       var priceLevel = prices[selectedValue]
       $('#annual-cost').html(priceLevel.annual)
       $('#monthly-cost').html(priceLevel.monthly)
