@@ -1,5 +1,5 @@
 ---
-title: Going Serverless: Shamrock Corporation - Case Study Download
+title: Going Serverless:, Shamrock Corporation - Case Study Download
 ---
 <style>
     .slider .slide--item {
