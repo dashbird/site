@@ -53,7 +53,7 @@ REPORT RequestId: db1e9421-724a-11e7-a121-63fe49a029e8  Duration: 15.11 ms Bille
 
 ### AWS Lambda errors
 
-Apart from Python specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
+Apart from Python specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/docs/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
 
 ---
 

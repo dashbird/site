@@ -41,7 +41,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
 
 ### AWS Lambda errors
 
-Apart from Java specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
+Apart from Java specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/docs/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
 
 ---
 

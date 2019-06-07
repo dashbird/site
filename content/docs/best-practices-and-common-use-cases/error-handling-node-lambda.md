@@ -116,7 +116,7 @@ Duration: 0.53 ms	Billed Duration: 100 ms 	Memory Size: 1024 MB	Max Memory Used:
 
 ### AWS Lambda errors
 
-Apart from NodeJS specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
+Apart from NodeJS specific errors, programmers have to think about failures that are specific to Lambda functions. In <a href="/docs/best-practices-and-common-use-cases/runtime-agnostic/">Runtime-agnostic Best Practices</a> we have covered most of the problems that cause headaches to serverless developers.
 
 ---
 
