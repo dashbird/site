@@ -33,9 +33,12 @@ var prices = {
 }
 
 checkHash()
-window.onpopstate = checkHash
+window.onpopstate = checkHash;
+
 $sideMenu.classList.add('register')
 function checkHash () {
+
+
   const hash = window.location.hash
   $sideMenu.className = '';
  

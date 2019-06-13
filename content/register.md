@@ -18,7 +18,7 @@ aliases:
 </script>
 
 <section class="container-fluid dark-bg pt-5 pb-5">
-    <div style='width: 600px;' class='align-center mx-auto'>
+    <div style='max-width: 600px;' class='align-center mx-auto'>
       <h2 class="text-center pb-1"><span class="h4 underlined">It usually takes <b>less than 2 minutes</b>.</span></h2>
       <p><b>Dashbird requires no code changes to your Lambdas.</b> Instead, you'll need to connect Dashbird to your AWS account through a preconfigured CloudFormation stack.</p>
     </div>
