@@ -33,35 +33,38 @@ var prices = {
 }
 
 checkHash()
-window.onpopstate = checkHash;
 
 $sideMenu.classList.add('register')
+
+window.onpopstate = checkHash
+
 function checkHash () {
-
-
-  const hash = window.location.hash
-  $sideMenu.className = '';
- 
-  // console.log($sideMenu)
-  if (hashTriggers.find(function (str) { return str === hash })) {
-    $sideMenu.className = 'show'
-    $overlay.classList.add('show')
-    switch (hash) {
-      case '#menu':
-        $sideMenu.classList.add('menu')
-        break
-      case '#login':
-        $sideMenu.classList.add('login')
-        break
-      case '#register':
-        $sideMenu.classList.add('register')
-        break
+  const hash = window.location.hash;
+  if(document.querySelector('#side-menu')==null)
+  {
+    $sideMenu = document.querySelector('#navigation');
+  }
+  else{
+    if (hashTriggers.find(function (str) { return str === hash })) {
+      $sideMenu.className = 'show'
+      $overlay.classList.add('show')
+      switch (hash) {
+        case '#menu':
+          $sideMenu.classList.add('menu')
+          break
+        case '#login':
+          $sideMenu.classList.add('login')
+          break
+        case '#register':
+          $sideMenu.classList.add('register')
+          break
+      }
+    } else if (hash === '') {
+      if($sideMenu!=null)
+      $sideMenu.className = '';
+      if($overlay!=null)
+      $overlay.className = ''
     }
-  } else if (hash === '') {
-    if($sideMenu!=null)
-    $sideMenu.className = '';
-    if($overlay!=null)
-    $overlay.className = ''
   }
 }
 
@@ -161,6 +164,7 @@ $(document).ready(function () {
         if (e.direction == 'left') {
           $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner')
         } else {
+          console.log('ajunge')
           $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner')
         }
       }
