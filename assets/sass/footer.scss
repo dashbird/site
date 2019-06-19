@@ -39,10 +39,12 @@
 
 .bg-white{
   color: #111;
+  padding-bottom: 50px; 
+  border-bottom: 15px solid #8b8fe9;
 }
 
 .landing-header {
-  padding: 10% 0;
+  padding: 10% 0 0% 0;
   margin-top: 15px;
 }
 
@@ -52,6 +54,15 @@
 
 .landing-text {
   margin: auto;
+}
+
+.landing-text-inner .btn-outline-primary {
+  display: none;
+}
+
+.socialproof-icons img {
+  max-width: 150px;
+  padding: 0 10px;
 }
 
 #register-form .row {
@@ -130,7 +141,7 @@ section.landing-content .row:nth-child(2n) .landing-img{
 
 .landing-header a.cta-btn:hover {
   color: #fff;
-  background:#007bff;
+  background:#3e2a6d;
 }
 
 .background-gradient-top {

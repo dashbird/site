@@ -50,3 +50,37 @@ exclude_menu: true
 		</div>
   	</section>
  </div>
+<div class="container landing-features">
+<div class="row">
+    <div class="col-12 text-center">
+    <h1>What makes us different?</h1>
+    </div>
+</div>
+
+<div class="row">
+<div class="col-12 col-md-4 text-center">
+    <img src="/images/landing-graphics/icon-check.svg">
+    <h4>Easy to set up</h4>
+    <p>Dashbird requires no code changes to your Lambdas. Instead, you’ll have to deploy a preconfigured CloudFormation template.</p>
+</div>
+
+<div class="col-12 col-md-4 text-center">
+    <img src="/images/landing-graphics/icon-lambda.svg">
+    <h4>Built for serverless</h4>
+    <p>Dashbird started from a team building large serverless applications at scale. It solves real-world and current development problems.</p>
+</div>
+
+<div class="col-12 col-md-4 text-center">
+    <img src="/images/landing-graphics/icon-heart.svg">
+    <h4>Our users love us</h4>
+    <p>We’re on a mission to help as many companies succeed with serverless as possible. Over a 1000 companies already use Dashbird.</p>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
+      </a>
+    </div>
+  </div>
