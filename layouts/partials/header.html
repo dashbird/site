@@ -70,6 +70,7 @@
       <a class="navbar-brand float-left" href="/">
         <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
       </a>
+      {{ if not .Params.exclude_menu }}
       <div class="float-right align-right d-block d-lg-none">
         <a href="#menu">
           <img src="/images/v2/navbar-burger-icon.svg" alt="">
@@ -90,6 +91,14 @@
           <a class="nav-link primary" href="#register">Sign Up</a>
         </li>
       </ul>
+      {{ else }}
+        <ul class="nav float-right align-right d-none d-lg-inline-flex">
+          <li class="nav-item">
+            <a class="nav-link primary" href="#register">Sign Up</a>
+          </li>
+        </ul>
+        <!-- <a href="/register" class='ml-md-auto corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>Get Started Free<img src="/images/ic-arrow.svg" class="ic-arrow"></a> -->
+      {{ end }}
     </div>
   </div>
 </nav>
