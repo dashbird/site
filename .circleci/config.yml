@@ -1,7 +1,7 @@
 install_deps: &install_deps
   name: "Installing dependencies"
   command: |
-    wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+    wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
     sudo dpkg -i hugo*.deb
     sudo apt-get update
     sudo apt-get install -y jpegoptim optipng
