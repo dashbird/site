@@ -48,6 +48,13 @@ exclude_menu: true
 					</div>
 				</div>
 		</div>
+		<div class="row mt-5">
+				<div class="col-12 text-center">
+					<a href="#register">
+						<button class="cta-btn dark" data-note="Zero code integration">See it for yourself! </button>
+					</a>
+				</div>
+			</div>
   	</section>
  </div>
 <div class="container landing-features">
@@ -79,8 +86,10 @@ exclude_menu: true
 </div>
 <div class="row mt-5">
     <div class="col-12 text-center">
-      <a href="#register">
-        <button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
-      </a>
+		<a href="#register">
+			<button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
+		</a>
     </div>
-  </div>
+</div>
+
+

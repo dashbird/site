@@ -1,6 +1,6 @@
 #footer {
   min-height: 300px;
-  padding-top: 35px;
+  padding-top: 75px;
   letter-spacing: -.05rem;
 
   @mixin text {
@@ -60,9 +60,18 @@
   display: none;
 }
 
+button.cta-btn.dark {
+  background: #1d0c3f;
+  color: #fff;
+  font-weight: bold;
+}
+
 .socialproof-icons img {
   max-width: 150px;
+  filter: invert(100%) grayscale(1);
   padding: 0 10px;
+  max-height: 50px;
+  margin: auto;
 }
 
 #register-form .row {
