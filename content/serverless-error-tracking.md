@@ -8,6 +8,7 @@ slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
 exclude_menu: true
+exclude_footer: true
 ---
 
 <div class="bg-white">
@@ -48,5 +49,48 @@ exclude_menu: true
 					</div>
 				</div>
 		</div>
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+				<a href="#register">
+					<button class="cta-btn dark" data-note="Zero code integration">See it for yourself! </button>
+				</a>
+			</div>
+		</div>
   	</section>
  </div>
+
+
+<div class="container landing-features">
+    <div class="row pb-4">
+        <div class="col-12 text-md-center">
+        <h1>Why over 500 teams use Dashbird daily?</h1>
+        </div>
+    </div>
+    <div class="row companies">
+        <div class="col-12 col-md-4 text-md-center">
+        <h5>Shawn - Developer</h5>
+        <p class='collapseTwo' data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" id="collapseOne">
+            Dashbird helped us go from identifying issues in minutes to being able to identify them in seconds. No more sifting through CloudWatch logs trying to piece together what actually happened. The user interaction is intuitive and easy to use, allowing us to understand what is going on in our serverless environment at all times, in close to real time.
+        </p>
+        </div>
+        <div class="col-12 col-md-4 text-md-center">
+        <h5>Antonio - Engineer</h5>
+        <p class='collapseTwo' data-toggle="collapseTwo" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo" id="collapseTwo">
+        Because of Dashbird, we noticed that all our lambdas were running with a third of the allocated memory size, and that we could confidently reduce that threshold in order to reduce costs. The change was very simple to implement. With one line of code we reduced our billing by 50%, and we are constantly monitoring our application to see if we can reduce it even further.
+        </p>
+        </div>
+        <div class="col-12 col-md-4 text-md-center">
+        <h5>Mario - Architect</h5>
+        <p class='collapseTwo' data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree" id="collapseThree">
+        The main benefit of Dashbird is simplicity. It’s easy to set up, it’s easy to use and most importantly it’s easy to understand. I hate the visual noise within CloudWatch logs.
+        </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
+      </a>
+    </div>
+  </div>
+</div>

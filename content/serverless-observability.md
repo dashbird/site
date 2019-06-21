@@ -8,6 +8,7 @@ slider_image: '/images/landingpages/bg-img-hero.png'
 btn_text: 'Get started for free!'
 btn_url: 'https://dashbird.io/register/'
 exclude_menu: true
+exclude_footer: true
 ---
 
 <div class="bg-white">
@@ -49,12 +50,12 @@ exclude_menu: true
 				</div>
 		</div>
 		<div class="row mt-5">
-				<div class="col-12 text-center">
-					<a href="#register">
-						<button class="cta-btn dark" data-note="Zero code integration">See it for yourself! </button>
-					</a>
-				</div>
+			<div class="col-12 text-center">
+				<a href="#register">
+					<button class="cta-btn dark" data-note="Zero code integration">See it for yourself! </button>
+				</a>
 			</div>
+		</div>
   	</section>
  </div>
 <div class="container landing-features">
@@ -89,6 +90,7 @@ exclude_menu: true
 		<a href="#register">
 			<button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
 		</a>
+		<p>No credit card required!</p>
     </div>
 </div>
 
