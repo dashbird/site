@@ -67,10 +67,10 @@
 <nav class="container navbar-expand">
   <div class="row">
     <div class="col-12 mt-4">
+      {{ if not .Params.exclude_menu }}
       <a class="navbar-brand float-left" href="/">
         <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
       </a>
-      {{ if not .Params.exclude_menu }}
       <div class="float-right align-right d-block d-lg-none">
         <a href="#menu">
           <img src="/images/v2/navbar-burger-icon.svg" alt="">
@@ -92,6 +92,9 @@
         </li>
       </ul>
       {{ else }}
+      <a class="navbar-brand float-left" href="#">
+        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
+      </a>
         <ul class="nav float-right align-right d-none d-lg-inline-flex">
           <li class="nav-item">
             <!-- <a class="nav-link primary" href="#register">Sign Up</a> -->
