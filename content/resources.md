@@ -39,6 +39,27 @@ exclude_menu: false
                         <p><a href="https://dashbird.io/serverless-benefits/"><img src="/images/thumbs-resources/1.6.png"/>Serverless Best Practices</a> </p>
                     </div>
                 </div>
+                <div class="row pt-5 pb-10 text-center">
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/shamrock-case-study/"><img src="/images/thumbs-resources/1.1.png"/>
+                        Case Study: Going Serverless </a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/blog/serverless-case-study-netflix/"><img src="/images/thumbs-resources/1.2.png"/>Serverless Case Study - Netflix</a> </p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/blog/serverless-case-study-coca-cola/"><img src="/images/thumbs-resources/1.3.png"/>Serverless Case Study - Coca-Cola</a> </p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/blog/monitoring-debugging-lambda-app-without-knowing-of-aws/"><img src="/images/thumbs-resources/1.4.png"/>Monitoring and Debugging an AWS Lambda Backed Sushi Delivery App</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/blog/saving-money-switching-serverless/"><img src="/images/thumbs-resources/1.5.png"/>How Much Money Can You Save By Going Serverless?</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/serverless-benefits/"><img src="/images/thumbs-resources/1.6.png"/>Serverless Best Practices</a> </p>
+                    </div>
+                </div>
                 <div class="col text-center">
                     <span class="h2 roboto-mono text-uppercase">Tutorials</span>
                 </div>
