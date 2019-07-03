@@ -25,7 +25,7 @@ In case you would like to review the YAML file directly, here is the link to the
 
 ## Additional Permissions
 
-The services below aren't currently being monitored by Dashbird and we don't use those permissions yet. They are listed in our stack because we have a plan to offer monitoring services to those services. We wanted to make our CloudFormation stack future proof and be able to broaden our support to your cloud stack.
+The services below aren't currently being monitored by Dashbird and we don't use those permissions yet. They are listed in our stack because we have a plan to offer support to those services. We wanted to future-proof our stack and be able to broaden our support to the AWS cloud stack.
 
 | Services         | Operations             |
 | ---------------- | ---------------------- |
