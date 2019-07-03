@@ -1,5 +1,5 @@
 ---
-title: Ultimate Serverless Benchmark: AWS Lambda Vs. All (Azure, Google, IBM, Alicloud, and Oracle)
+title: Ultimate Serverless Benchmark. AWS Lambda Vs. All (Azure, Google, IBM, Alicloud, and Oracle)
 description: In-depth comparison between AWS Lambda Vs. all major cloud provider serverless solutions
 date: 2019-07-01T12:00:00.000Z
 frontImage: "2019-07-01/serverless-benchmark.jpg"
