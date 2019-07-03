@@ -15,6 +15,18 @@ exclude_menu: false
     <section class="container pt-5 pb-10 landing-content"></section>
         <div class="row pt-7">
             <div class="col-12 col-md-8 landing-text">
+            <div class="col text-center">
+                    <span class="h2 roboto-mono text-uppercase">Get to know Dashbird!</span>
+                </div>
+                <div class="row pt-5 pb-10 text-center">
+                    <div class="col-sm">
+                        <p><a href="https://dashbird.io/docs/"><img src="/images/thumbs-resources/Docum.png"/>
+                        Check out our Docs to learn more </a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://zoom.us/webinar/register/WN_DMy0y4OgRUi-PTmpGsEvYg"><img src="/images/thumbs-resources/webnr.png"/>Join the Webinar</a> </p>
+                    </div>
+                </div>
                 <div class="col text-center">
                     <span class="h2 roboto-mono text-uppercase">Case studies & white pappers</span>
                 </div>
