@@ -10,6 +10,7 @@ btn_url: 'https://dashbird.io/register/'
 exclude_menu: false
 ---
 
+
 <div class="bg-white">
     <section class="container pt-5 pb-10 landing-content"></section>
         <div class="row pt-7">
@@ -28,8 +29,6 @@ exclude_menu: false
                     <div class="col-sm">
                         <p><a href="https://dashbird.io/blog/serverless-case-study-coca-cola/"><img src="/images/thumbs-resources/1.3.png"/>Serverless Case Study - Coca-Cola</a> </p>
                     </div>
-                </div>
-                <div class="row pt-5 pb-10 text-center">
                     <div class="col-sm">
                         <p><a href="https://dashbird.io/blog/monitoring-debugging-lambda-app-without-knowing-of-aws/"><img src="/images/thumbs-resources/1.4.png"/>Monitoring and Debugging an AWS Lambda Backed Sushi Delivery App</a></p>
                     </div>
@@ -53,8 +52,6 @@ exclude_menu: false
                     <div class="col-sm">
                         <p><a href="https://dashbird.io/blog/create-your-first-website-in-15-minutes/"><img src="/images/thumbs-resources/NR.3.png"/>Create your first website with serverless in 15 minutes</a></p>
                     </div>
-                </div>
-                <div class="row pt-5 pb-10 text-center">
                     <div class="col-sm">
                         <p><a href="https://dashbird.io/blog/serverless-website-part-two/"><img src="/images/thumbs-resources/NR.4.png"/>Creating a Serverless website. Part two</a></p>
                     </div>
