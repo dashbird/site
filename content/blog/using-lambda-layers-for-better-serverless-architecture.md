@@ -1,10 +1,10 @@
 ---
 title: Using Lambda Layers for Better Serverless Architecture
 description: Learn how to use Lambda Layers to better organize your code and dependencies
-date: 2019-07-03T12:00:00.000Z
+date: 2019-07-01T12:00:00.000Z
 frontImage: "2019-07-01/lambda-layers.jpg"
 thumbnail: "images/blog/2019-07-01/lambda-layers.jpg"
-authorlink: 'https://twitter.com/@johndemian'
+authorlink: 'https://twitter.com/@byrrorenato'
 author: Renato
 author_image: '/images/team/renato.jpg'
 blog: ["Monitoring", "Serverless", "AWS Lambda"]
