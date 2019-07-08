@@ -142,7 +142,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="col-12 col-md-4 text-center">
     <img src="/images/landing-graphics/icon-heart.svg">
     <h4>Our users love us</h4>
-    <p>We’re on a mission to help as many companies succeed with serverless as possible. Over a 1000 companies already use Dashbird.</p>
+    <p>We’re on a mission to help as many companies succeed with serverless as possible. Over 1000 companies already use Dashbird.</p>
   </div>
   </div>
 
@@ -158,7 +158,7 @@ dated: 2017-10-29T17:50:03+02:00
 <div class="container teams">
   <div class="row pb-4">
     <div class="col-12 text-md-center">
-      <h1>Why over 500 teams use Dashbird daily?</h1>
+      <h1>Why do over 500 teams use Dashbird daily?</h1>
     </div>
   </div>
 
