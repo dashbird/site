@@ -28,7 +28,7 @@ Up until recently, our knowledge of triggering lambda functions was based around
 
 Lambda will be triggered if an event happens. Events can be anything, really. For a lambda functions to execute, an event must occur. Lambda can’t trigger another Lambda directly. To be able to connect two Lambdas together, what you need to do is you need to make the first Lambda generate an event that the second Lambda will understand in order to be triggered.
 
-> _**Note**: To bypass this you need to use the AWS CLI to trigger a lambda function from another lambda function. However, this is a huge anti-patter you should never use._
+> _**Note**: To bypass this you need to use the AWS CLI to trigger a lambda function from another lambda function. However, this is a huge anti-pattern you should never use._
 
 ### Three Ways To Trigger Lambda
 
