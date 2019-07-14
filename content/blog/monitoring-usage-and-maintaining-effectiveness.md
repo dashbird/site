@@ -35,11 +35,9 @@ Cloudwatch events or alarms let you know how much RAM a given application is usi
 
 ## Common Issues 
 
-Almost all system performance deteriorates as time passes. Here are the most common system performance issues you'll probably run into, that you can resolve using AWS related services: 
+Almost all system performance deteriorates as time passes. Here are the most common system performance issues you'll probably run into, issues that can be tracked or resolved with <a href="https://dashbird.io">Dashbird</a>
 
-
-
-*   Uncontrolled data growth 
+*   Uncontrolled growth 
 *   Inaccurate or poor load balancing 
 *   Connectivity issues 
 *   Unreliable 3rd parties 
