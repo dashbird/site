@@ -31,7 +31,7 @@ AWS Lambda gives the possibility to run your code in response to events like if 
 
 Have you ever considered to invoke your code via API calls that were made using AWS SDKs? 
 
->git commit - That’s possible as well. 
+> That’s possible as well. 
 
 Using your AWS Lambda for building data processing triggers, as well as to stream processed data that’s stored inside Kinesis allows you to manipulate your needs quickly. We should mention that you can also create a back-end able to operate at AWS scale, security, and performance.
 
