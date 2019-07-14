@@ -63,7 +63,7 @@ Many 3rd party services promise their SaaS material will improve your back-end a
 
 Most SMB’s use about 20 saas tools on average and many of those are connected via an API to the service itself and often play a crucial role in the business logic. The problem arises when one of those endpoints go down without you knowing. Understanding what doesn’t work or where the bottleneck is, is imperative to running a business and having insight into applications, especially those using serverless is very hard. This is why using Dashbird is a great idea. It not only notifies you about the problem, but it also pinpoints the error where it happened, saving you tens of hours searching through endless logs.
 
-Dashibr error image
+<img src="https://dashbird.io/images/product-screens/error-detection.png">
 
 
 ### Lack of observability
