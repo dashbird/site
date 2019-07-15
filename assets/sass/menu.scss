@@ -168,6 +168,27 @@
   }
 }
 
+.announcement {
+  left: 0;
+  right: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+  background: linear-gradient(135deg, #ed85a8 10%, #4B45C6 80%);
+  box-shadow: 0 2px 30px 0 rgba(0,0,0,0.18);
+  text-align: center;
+  z-index: 500;
+  transition: all .4s ease;
+  padding: 3px 0px 0px 0px;
+}
+
+.announcement a {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
 
 nav {
   .navbar-brand {
