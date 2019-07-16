@@ -7,7 +7,7 @@ date: 2017-10-29T17:50:03+02:00
 <section class="container-fluid">
   <div class="row team-hero-bg" style="">
     <div class="col text-center team-hero justify-content-md-center">
-      <h1 class="mt-5 roboto-mono">We make companies</br>succeed with serverless</h1>
+      <h1 class="mt-5 roboto-mono">We help companies</br>succeed with serverless</h1>
       <p class='text-center'>We are on a mission to accelerate serverless adoption by equipping companies with tools to monitor, debug and optimise their serverless applications. Dashbird is a globally distributed team of software enthusiasts dedicated to making serverless applications.</p>
     </div>
   </div>
