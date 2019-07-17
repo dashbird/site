@@ -35,9 +35,24 @@ $(function () {
   function _round (x) { return Math.round(x * 1000) / 1000 }
 
   function renderCosts (costs) {
+    //crude way of showing more than 2 decimals when the cost is below0.01
+    if( _round(_round(costs[0])) <= 0.01 )
     $requestsCost.html(`$${_round(costs[0])}/month`)
+    else
+    $requestsCost.html(`$${_round(costs[0]).toFixed(2)}/month`)
+
+
+    if( _round(_round(costs[1])) <= 0.01 )
     $executionsCost.html(`$${_round(costs[1])}/month`)
+    else
+    $executionsCost.html(`$${_round(costs[1]).toFixed(2)}/month`);
+
+
+    if( _round(costs[0] + costs[1]) <= 0.01 )
     $totalCost.html(`$${_round(costs[0] + costs[1])}/month`)
+    else
+    $totalCost.html(`$${_round(costs[0] + costs[1]).toFixed(2)}/month`)
+    
   }
 
   function updateCosts () {
