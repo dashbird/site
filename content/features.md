@@ -13,6 +13,21 @@ date: 2017-11-06T10:50:03+02:00
   </div>
 </div>
 
+<div class="row">
+  <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
+      <div class="col text-center pt-5 pb-4 pt-md-100">
+          <span class="h5 text-uppercase">Loved and trusted by thousands</span>
+        </div>
+    <div class="row justify-content-center socialproof-icons align-items-end">
+      <img style="width: 210px; max-height: 400px; margin-top: 9px;" src="/images/socialproof/accenture.png">
+      <img src="/images/socialproof/deloitte.png">
+      <img src="/images/socialproof/PaloAltoNetworks.png">
+      <img src="/images/socialproof/Shamrock.png">
+      <img src="/images/socialproof/UserTesting.png">
+    </div>
+  </section>
+</div>
+
 <div class="container value-props">
   <div class="row">
     <div class="col-12 col-md-6 feature-col mt-4">
@@ -180,21 +195,6 @@ date: 2017-11-06T10:50:03+02:00
   </div>
 </div>
 
-<div class="row">
-  <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
-      <div class="col text-center pt-5 pb-4 pt-md-100">
-          <span class="h5 text-uppercase">Loved and trusted by thousands</span>
-        </div>
-    <div class="row justify-content-center socialproof-icons align-items-end">
-      <img style="width: 210px; max-height: 400px; margin-top: 9px;" src="/images/socialproof/accenture.png">
-      <img src="/images/socialproof/deloitte.png">
-      <img src="/images/socialproof/PaloAltoNetworks.png">
-      <img src="/images/socialproof/Shamrock.png">
-      <img src="/images/socialproof/UserTesting.png">
-    </div>
-  </section>
-</div>
-
 <div class="container landing-features">
   <div class="row pb-4">
     <div class="col-12 text-md-center">
@@ -209,7 +209,7 @@ date: 2017-11-06T10:50:03+02:00
   </div>
   <div class="row mt-5">
     <div class="col-12 text-center">
-      <a href="#register">
+      <a href="https://d1enm3zt1hbvj4.cloudfront.net/Case%20Study%20-%20Shamrock%20Corporation.pdf" target="_blank">
         <button class="cta-btn" data-note="Zero code integration">Download the case study</button>
       </a>
     </div>
