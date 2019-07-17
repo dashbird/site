@@ -141,6 +141,81 @@ date: 2017-11-06T10:50:03+02:00
   </div>
 </div>
 <div class="row mt-5"></div>
+
+
+
+
+<div class="container landing-features">
+  <div class="row pb-4">
+    <div class="col-12 text-md-center">
+      <h1>Why over 500 teams use Dashbird daily?</h1>
+    </div>
+  </div>
+  <div class="row companies">
+    <div class="col-12 col-md-4 text-md-center">
+      <h5>Shawn - Developer</h5>
+      <p class='collapseTwo' data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne" id="collapseOne">
+          Dashbird helped us go from identifying issues in minutes to being able to identify them in seconds. No more sifting through CloudWatch logs trying to piece together what actually happened. 
+      </p>
+    </div>
+    <div class="col-12 col-md-4 text-md-center">
+      <h5>Antonio - Engineer</h5>
+      <p class='collapseTwo' data-toggle="collapseTwo" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo" id="collapseTwo">
+      Because of Dashbird, we noticed that all our lambdas were running with a third of the allocated memory size, and that we could confidently reduce that threshold in order to reduce costs. 
+      </p>
+    </div>
+    <div class="col-12 col-md-4 text-md-center">
+      <h5>Mario - Architect</h5>
+      <p class='collapseTwo' data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree" id="collapseThree">
+      The main benefit of Dashbird is simplicity. It’s easy to set up, it’s easy to use and most importantly it’s easy to understand. I hate the visual noise within CloudWatch logs.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Get Dashbird for Free!</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <section class="container social pt-md-80 pb-md-60 mt-5 pb-5">
+      <div class="col text-center pt-5 pb-4 pt-md-100">
+          <span class="h5 text-uppercase">Loved and trusted by thousands</span>
+        </div>
+    <div class="row justify-content-center socialproof-icons align-items-end">
+      <img style="width: 210px; max-height: 400px; margin-top: 9px;" src="/images/socialproof/accenture.png">
+      <img src="/images/socialproof/deloitte.png">
+      <img src="/images/socialproof/PaloAltoNetworks.png">
+      <img src="/images/socialproof/Shamrock.png">
+      <img src="/images/socialproof/UserTesting.png">
+    </div>
+  </section>
+</div>
+
+<div class="container landing-features">
+  <div class="row pb-4">
+    <div class="col-12 text-md-center">
+      <h1>Going Serverless </h1>
+      <div class="col-12 text-md-center">
+        <h5>a Shamrock Corp case study</h5>
+        <p>
+          The DevOps team at Shamrock Corp devised a winning strategy to migrate from a cluster of servers to fully serverless architecture. They are not only saving hundreds of hours of development time, but also managed to cut $100,000 from cloud spending. Learn how Shamrock team reduced uncertainty and increased visibility over their application during migration to mitigate the risk of failure.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="#register">
+        <button class="cta-btn" data-note="Zero code integration">Download the case study</button>
+      </a>
+    </div>
+  </div>
+</div>
+
 <script>
   fbq('track', 'ViewContent', {
     content_ids: 'features',
