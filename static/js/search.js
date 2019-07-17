@@ -1,7 +1,7 @@
 /* eslint-env jquery */
 /* global lunr */
 
-let lunrIndex, $results, $resultsContainer, pagesIndex, $searchText, $searchButton, $nonResults, $backToArticle
+let lunrIndex, $results, $resultsContainer, $resultsEmpty, pagesIndex, $searchText, $searchButton, $nonResults, $backToArticle
 
 function initLunr () {
   $.getJSON('/js/docs.json') // major hack - find a better way to do this
@@ -50,7 +50,7 @@ function initUI () {
     renderResults(results)
   })
 
-  $backToArticle.on('click', function() {
+  $backToArticle.on('click', function () {
     $resultsContainer.addClass('d-none')
     $nonResults.removeClass('d-none')
   })
@@ -93,7 +93,6 @@ function renderResults (results) {
     $result.append(renderOneResult(result))
     $results.append($result)
   })
-
 }
 
 initLunr()
