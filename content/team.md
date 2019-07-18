@@ -76,6 +76,12 @@ date: 2017-10-29T17:50:03+02:00
           <p>Renato is on a quest to run<br><span style="color: #515D71; background-color: #E2E2F6; padding: 0 2px">sudo rm -rf /</span> on all servers.<br>Serverless will prevail! Mwuahah</p>
         </div>
 
+         <div class="col-md-4 team-member text-center">
+          <img src="/images/team/adams.png" class="img-dark-border">
+          <h4>Adam Springer</h4>
+          <span>HEAD OF SALES</span>
+          <p>Adam is an exceptionally talented sales person that also happens to be an amazing podcaster!</p>
+        </div>e
       </div>
     </div>
   </div>
