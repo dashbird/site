@@ -95,3 +95,22 @@ exclude_footer: true
 </div>
 
 
+<script language="javascript">
+
+    function init(){
+
+		// jQuery('.cta-btn').click(function() { alert('foo'); });
+		var classname = document.getElementsByClassName("cta-btn");
+
+		for (var i = 0; i < classname.length; i++) {
+			classname[i].addEventListener('click', overrideRegister, false);
+		}
+		
+		// document.getElementsByClassName("cta-btn").addEventListener("mousedown", overrideRegister)
+	}
+	function overrideRegister(event){
+		event.preventDefault() 
+		window.open('https://dashbird.io/register?utm_source=google&utm_medium=display', '_self');
+	}
+	init();
+</script>

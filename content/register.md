@@ -29,7 +29,7 @@ aliases:
             <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
-                    <span>Email: <span class='text-danger'>*</span></label></span>
+                    <span>Company Email: <span class='text-danger'>*</span></label></span>
                   </div>
                   <div class='col-md-9'>
                     <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@serverless-user.com' name="email" required>
