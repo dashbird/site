@@ -34,7 +34,7 @@ Considering that the client and backend services are decoupled, there’s no nee
 
 With API Gateways there’s no need for developers to build logic into their apps which are supposed to keep track of endpoints or even how to handle request failures, and all to avoid the delivery of a bad user’s experience. Another benefit API Gateway provides the minimization of latency, which, ultimately, brings a better end-user experience.
 
-Without API Gateway, every backend service would need to create its own security-related decisions about every incoming client request. So one big benefit is that it can simplify encryption and authentication as well.
+Without API Gateway, every backend service would need to create its own security-related logic about every incoming client request. So one big benefit is that it can simplify encryption and authentication as well.
 
 ### How Many Different API Gateways Are There?
 
