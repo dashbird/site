@@ -2,8 +2,8 @@
 title: How to save a lot of money on your Lambdas with Dashbird
 description: Serverless as an arhitecture is a great way to save money but you have to keep an eye out on those AWS Lambda costs beacause they can climb quickly.
 date: 2019-07-18T12:00:00.000Z
-frontImage: "2019-03-01/jeremy-bishop-262119-unsplash.jpg"
-thumbnail: "images/blog/2019-03-01/jeremy-bishop-262119-unsplash.jpg"
+frontImage: "2019-07-18/fabian-blank-pElSkGRA2NU-unsplash.jpg"
+thumbnail: "images/blog/2019-07-18/fabian-blank-pElSkGRA2NU-unsplash.jpg"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
