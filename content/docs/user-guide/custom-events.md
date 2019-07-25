@@ -11,9 +11,9 @@ Dashbird can catch custom events from lambda invocation logs.
 
 ### Creating a filter
 
-After you have loaded your logs into Logbird by configuring a collector you will need to create a Filter to on the log sources to see relevant events.
+After you have loaded your logs into Dashbird by configuring a collector you will need to create a Filter to on the log sources to see relevant events.
 
-Logbird allows creating filters from scratch or from a predefined template.
+Dashbird allows creating filters from scratch or from a predefined template.
 
 
 Each filter specifies a set of rules to filter the logs by and also the log sources - which are the logs you want this filter to be applied to.
@@ -175,5 +175,3 @@ Click on 'Manage' button next to 'Log Sources'.
 A list of log sources will be shown. You can search through the log sources.
 
 Make sure you have checked all resources you want the Filter to be applied to and hit 'Save'.
-
-
