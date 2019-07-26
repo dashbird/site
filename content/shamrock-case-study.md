@@ -1,12 +1,12 @@
 ---
-title: "Going Serverless,: Shamrock Corporation - Case Study Download"
+title: "Going Serverless: Shamrock Corporation - Case Study Download"
 ---
 <style>
     .slider .slide--item {
         height: 650px;
         padding-top:5%;
     }
-    
+
     .bg-dark {
         background-color: #373737 !important;
     }
@@ -69,7 +69,7 @@ title: "Going Serverless,: Shamrock Corporation - Case Study Download"
 <section id="slider" class="section background-gradient-bottom mt-5 pt-5 mb-3">
     <div class="slide--item">
         <div class="container">
-            
+
             <div class="row pt-7">
                 <div class="col-12 col-md-6 landing-img">
                     <img src="/images/case-study-shamrock-cover.png">
@@ -84,7 +84,7 @@ title: "Going Serverless,: Shamrock Corporation - Case Study Download"
                     </div>
                 </div>
             </div>
-            
+
             <!-- .row end -->
         </div>
         <!-- .container end -->
@@ -95,13 +95,13 @@ title: "Going Serverless,: Shamrock Corporation - Case Study Download"
 
 <section id="feature2" class="section feature feature-2 feature-left bg-white">
         <div class="container">
-            <div class="row" style="padding-bottom: 25px;"> 
+            <div class="row" style="padding-bottom: 25px;">
                 <h1 class="text-center col-md-12">
                     Made with &#10084; by the Dashbird team.
                 </h1>
             </div>
             <div class="row">
-                
+
                 <div class="col-xs-12 col-sm-12 col-md-5" style="margin: auto;">
                     <div class="heading heading-1 mb-60 wow fadeInUp animated" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s;">
                         <h3 class="heading--title">What's included</h3>
