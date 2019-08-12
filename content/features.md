@@ -208,7 +208,7 @@ date: 2017-11-06T10:50:03+02:00
   <div class="row mt-5">
     <div class="col-12 text-center">
       <a href="https://d1enm3zt1hbvj4.cloudfront.net/Case%20Study%20-%20Shamrock%20Corporation.pdf" target="_blank">
-        <button class="cta-btn" data-note="Zero code integration">Download the case study</button>
+        <button class="cta-btn" style="background: none; color: white; font-weight: bold;" data-note="Zero code integration">Download the case study</button>
       </a>
     </div>
   </div>
