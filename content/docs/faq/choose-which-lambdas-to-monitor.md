@@ -3,7 +3,7 @@ date: 2019-06-06
 title: Choosing which AWS Lambda Functions To Monitor
 linktitle: Can I choose which lambda functions to monitor?
 description: Learn how to select which Lambda functions should be monitored by Dashbird.
-kbSeries: ["FAQ"]
+kbSeries: ["FFAQ"]
 kbSeries_weight: 700
 ---
 

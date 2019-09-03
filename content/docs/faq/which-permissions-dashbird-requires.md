@@ -3,7 +3,7 @@ date: 2019-06-06
 title: Which AWS permissions Dashbird requires
 linktitle: Which AWS permissions Dashbird requires
 description: Which AWS permissions Dashbird requires.
-kbSeries: ["FAQ"]
+kbSeries: ["FFAQ"]
 kbSeries_weight: 700
 ---
 
