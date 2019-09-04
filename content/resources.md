@@ -79,7 +79,7 @@ exclude_menu: false
                         <p><a href="https://dashbird.io/blog/getting-started-with-aws-lambda-and-nodejs/"><img src="/images/thumbs-resources/NR.7.png"/>Getting Started with AWS Lambda and Node.js</a></p>
                     </div>
                     <div class="col-sm">
-                        <p><a href="https://dashbird.io//blog/serverless-react-graphql/"><img src="/images/thumbs-resources/NR.8.png"/>Build a serverless React + GraphQL app with Aws amplify and AppSync</a></p>
+                        <p><a href="https://dashbird.io/blog/serverless-react-graphql/"><img src="/images/thumbs-resources/NR.8.png"/>Build a serverless React + GraphQL app with Aws amplify and AppSync</a></p>
                     </div>
                     <div class="col-sm">
                         <!-- <p><a href="http://localhost:1313/blog/serverless-react-graphql/"><img src="/images/thumbs-resources/NR.8.png"/>Build a serverless React + GraphQL app with Aws amplify and AppSync</a></p> -->
