@@ -1,14 +1,10 @@
 ---
 date: 2017-06-05
-title: What is Dashbird?
-linktitle: What's Dashbird?
+title: Getting Started
+linktitle: Getting Started
 description: Dashbird is the leading serverless monitoring and troubleshooting platform that helps software engineers to launch agile serverless websites and software.
 kbSeries: ["ALearn"]
 kbSeries_weight: 100
-aliases:
- - /help/basic/basics/
- - /docs/user-guide/intro/
- - /docs/learn/core-benefits/
 ---
 
 Dashbird is a service to **monitor**, **debug** and **improve** your lambda functions. **It's tailor made to help develop serverless apps.**
