@@ -3,43 +3,29 @@ date: 2017-06-05
 title: Creating Projects for grouping Lambda Functions with Dashbird
 linktitle: Project views
 description: Projects
-kbSeries: ["CUser Guide"]
-kbSeries_weight: 700
+kbSeries: ["CApplication Guide"]
+kbSeries_weight: 500
 ---
 
-Dashbird let's you create projects of hand-picked Lambdas to monitor. Want a dedicated dashboard only showing the functions you have in production? Easy, create a project.
 
-## Monitor Limited Sets of Functions
-We at Dashbird want to give you an experience you are already used to. Having multiple environments for development, staging and production is a requirement for any real-life system. **Projects** can make this a reality. 
+A *Project* in Dashbird is basically a group of Lambdas. You can create as many Projects, each containing as many Lambdas as you would like. The same Lambda can be assigned to multiple Projects as well.
 
-You choose which functions to add to a project. This project will then get it's own dedicated dashboards where you can **monitor**, **analyze**, and **debug** your functions.
+Dashbird will provide a custom metrics dashboard, as well as a central repository of errors and alerts particular for each Project.
 
-By pressing the [Project Views](https://app.dashbird.io/projects) button on the left navigation panel you'll reach the **Project Page** where you can see a list of your projects.
+![Project Views](/images/docs/project-views.gif)
 
-![Project List](/images/docs/project-list.png)
+Projects can be very helpful to organize a large number of Lambdas, creating a way to group functions based on business or system logic.
 
-<br>
+Consider multiple Lambdas taking care of processing customer orders in an e-commerce system, for instance:
 
-## Create a new Project
-<div class="row">
-    <div class="col-md-6 col-sm-12 col-xs-12 text-md-left pt-3">
-        <p class="lato">By pressing the big green button at the top right part of the <b>Project Page</b> you'll open up a popup for creating a new Project.</p>
-        <p class="lato">The way to add Functions is through a filtering process. By using <a href="https://en.wikipedia.org/wiki/Glob_(programming)">glob patterns</a> you choose which Functions to add.</p>
-        <p>Use <code>some-service-</code> to <b>include</b> and <code>!some-service-prod-</code> to <b>exclude</b> Lambda Functions.</p>
-    </div>
-    <div class="col-md-6 col-sm-12 col-xs-12 imgs-fluid">
-        <img src='/images/docs/create-project.png'>
-    </div>
-</div>
+* Lambda 1: receives and validates the order
+* Lambda 2: checks for inventory or delivery conflicts
+* Lambda 3: payment processing
+* Lambda 4: sends notifications by email to logistics team and the customer
+* Lambda 5: takes care of order fulfillment
 
+Since the system logic is decentralized (I mean decentralization at the application level, not infrastructure), it may be harder to debug issues. When something goes wrong with the order processing, system-wise, it would more sense to debug all five Lambdas as a unit, and that is precisely what a Project delivers in Dashbird.
 
-## Project Dashboard
-Having dedicated dashboards for different environments can improve your team's separation of concerns. You can monitor and debug different environments and divide your system into multiple logical units.
+When searching for errors by keyword, for example, it is possible to narrow down results by Project, making it easier to debug issues related to a specific. Developers can configure policies or error alerting specific to a Project. Issues can be tracked and resolved in the context of a Project.
 
-![Project Dashboard](/images/docs/project-view.png)
-
-<br>
-
----
-
-Get started with [Projects](https://app.dashbird.io/projects) by adding them to your account!
+In summary: with **Dashbird Projects**, developers can benefit from decentralization and a microservices approach at the software architecture-level, while retaining close supervision and visibility at a snapshot over the entire stack.

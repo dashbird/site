@@ -4,7 +4,7 @@ title: Dashboard
 linktitle: Dashboard
 description: Dashboard
 kbSeries: ["CApplication Guide"]
-kbSeries_weight: 200
+kbSeries_weight: 100
 ---
 
 The application dashboard will provide an aggregated view across all your Lambda stack. For a given time period of your interest, it shows (for your entire AWS account and on a per-region basis):

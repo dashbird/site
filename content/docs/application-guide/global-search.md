@@ -1,10 +1,10 @@
 ---
 date: 2017-06-05
-title: Live Tailing
-linktitle: Live Tailing
-description: Live Tailing
+title: Global Search
+linktitle: Global Search
+description: Global Search
 kbSeries: ["CApplication Guide"]
-kbSeries_weight: 600
+kbSeries_weight: 700
 ---
 
 It usually takes an average of 30 seconds for **Lambda** logs to display in the Dashbird interface. Also, after opening a list of invocation logs, it won’t get automatically updated with new incoming logs.
