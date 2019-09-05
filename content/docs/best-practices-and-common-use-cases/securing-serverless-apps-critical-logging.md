@@ -1,45 +1,35 @@
 ---
 date: 2019-02-13
-title: Best Practices - Security with Critical Logging
-linktitle: Critical Logs for Security
+title: Critical security logs
+linktitle: Critical security logs
 description: Securing serverless applications with critical logging.
 kbSeries: ["EBest Practices"]
 kbSeries_weight: 300
 ---
 
-Logs play a significantly important role in securing a serverless application. Having critical logs will help us, for example, understand which security flaws attackers explored and how to fix them, build a blacklist of IP addresses, or identify compromised customer accounts.
+Some types of information are critical to log so that they are available when it comes the time to act upon or prevent security breaches.
 
-<br>
+Having critical logs will help, for example, understand which security flaws attackers explored (or are trying to explore), and how to fix them, or build a blacklist of IP addresses, or identify compromised customer accounts.
 
-Below are some examples of information we could classify as critical for logging in a serverless app. It is not an exhaustive list but will give us a good head start.
+Below are some examples of items that may be interesting to log from a security standpoint. Beware that sensitive information should not end up in application logs. User personal data or identifying information, as well as database query statements and other internal aspects of your app could be very dangerous to be logged in an unprotected format.
 
-#### Invocation/Event Inputs
+### Invocation/Event Inputs
+When analyzing or acting on a possible security breach, it would be helpful to retrace the attacker’s steps and having the invocation payload received by your Lambdas is certainly going to help on that.
 
-When analyzing or acting on a possible security breach, it would be helpful to retrace the attacker’s steps. For that reason, logging all invocation event requests could be very helpful for security analysis.
+### Response Payload
+Similarly, the response output will not only understand which behaviors the attackers were leading your application into but also recording which datapoints may now be in possession of a malicious third party.
 
-#### The 4 W's
+### Database queries
+Logging database queries will also help to identify how attackers are trying to explore your data repositories. Worst-case scenario, it will tell you what information may have been breached.
 
-Based on the <a href="https://www.owasp.org/index.php/Logging_Cheat_Sheet">OWASP Logging Cheat Sheet</a> recommendations, it's recommended to log: When, Where, Who and What in every function invocation.
+Be sure to not log anything sensitive. Usually, query parameters should be omitted in logs, (especially if they are user inputs), leaving only the basic query structure.
 
-#### Response Payloads
+### Authentication Requests
+Especially the failed authentication requests are essential to log. Additionally, make sure to include in the logs everything you can about the requester and the context, such as the IP Address and which areas of the application the user was trying to gain access to.
 
-Similarly to Invocation Inputs, logging response payloads could also be helpful to analyze and mitigate security breaches. First of all, in the worst case scenario of not being able to stop an attack, we will at least want to know what information is now in possession of the attackers. These logs will answer just that.
+### The 4 W’s
+Based on the <a href="https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html">OWASP Logging Cheat Sheet</a> recommendations, we should be logging: When, Where, Who and What in every function invocation. That’s applicable to all items we discussed above and any other logging scenario in our serverless app.
 
-#### Performance Levels
-
-In a serverless stack, costs are usually variable: the more resources an invocation uses, the more it will cost. If a function is expected to run on average for 3 seconds and starts taking 30 seconds, that's a big deal and something needs to be done quickly to avoid burning financial resources for nothing.
-
-<br>
-
-If an attacker wants to hurt your company financially, this is one possible vector of attack. Someone might identify areas where it's possible to introduce a performance degradation in your service and make your Lambdas perform badly.
-
-<br>
-
-Dashbird allows you to setup <a href="https://dashbird.io/docs/user-guide/metric-alerting/">alerts based on metrics</a>. Whenever a function starts behaving in bad shape (taking too long to execute or consuming too much memory), you will receive a notification by e-mail or Slack.
-
-#### Authentication Requests
-
-For applications with some sort of login protected area, it's paramount to log authentication requests, especially the failed ones. Make sure you also log everything you possibly can from the requester, such as the IP address obviously.
 
 ---
 

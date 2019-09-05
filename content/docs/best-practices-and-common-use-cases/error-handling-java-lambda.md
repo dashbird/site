@@ -1,10 +1,10 @@
 ---
 date: 2019-02-13
-title: Best Practices - Error Handling With AWS Lambda And Java
+title: Java
 linktitle: Java
 description: Catching and troubleshooting AWS Lambda errors when using Java.
 kbSeries: ["EBest Practices"]
-kbSeries_weight: 300
+kbSeries_weight: 400
 ---
 
 Java, being the oldest and most popular programming language in the world (<a href='https://www.tiobe.com/tiobe-index/' target="_blank">according to TIOBE Index</a>) has some advantages and disadvantages for using AWS Lambda. One of the biggest problems being slow cold starts, yet it often outperforms other languages in consecutive executions (depending, of course, on what task is performed).

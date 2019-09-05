@@ -1,10 +1,10 @@
 ---
 date: 2019-02-13
-title: Best Practices - Error Handling With AWS Lambda And Python
+title: Python
 linktitle: Python
 description: Catching and troubleshooting AWS Lambda errors when using AWS Lambda with Python. 
 kbSeries: ["EBest Practices"]
-kbSeries_weight: 100
+kbSeries_weight: 500
 aliases:
  - /help/python/error-handling-python-lambda/
  - /docs/python/error-handling-python-lambda/
