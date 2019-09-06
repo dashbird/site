@@ -8,7 +8,7 @@
 
       <div class='docs-sidebar'>
         {{ $currentSubject := index .Params.kbSeries 0 }}
-        <ul class='sidemenu sticky-top pt-4'>
+        <ul class='sidemenu pt-4'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
           <li class='current-subject sf-ui-text'>
             <a href='javascript:;'>{{ substr $subject 1 | humanize | title }}</a>
