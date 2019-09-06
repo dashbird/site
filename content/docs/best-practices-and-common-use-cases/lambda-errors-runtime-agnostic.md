@@ -4,7 +4,7 @@ title: Best Practices - Runtime Agnostic
 linktitle: Runtime Agnostic
 description: Catching and troubleshooting AWS Lambda errors.
 kbSeries: ["EBest Practices"]
-kbSeries_weight: 300
+kbSeries_weight: 600
 ---
 
 

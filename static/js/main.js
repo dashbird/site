@@ -123,7 +123,7 @@ $(document).ready(function () {
   })
 
   $('ul.sidemenu li a').on('click', function () {
-    $(this).parent('li').toggleClass('current-subject')
+    // $(this).parent('li').toggleClass('current-subject')
   })
 
   // full image width

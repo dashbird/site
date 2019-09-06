@@ -10,8 +10,8 @@
         {{ $currentSubject := index .Params.kbSeries 0 }}
         <ul class='sidemenu sticky-top pt-4'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
-          <li class='{{ if eq $subject $currentSubject }}current-subject{{end}} sf-ui-text'>
-            <a href='javascript:;'>{{ substr $subject 1 }}</a>
+          <li class='current-subject sf-ui-text'>
+            <a href='javascript:;'>{{ substr $subject 1 | humanize | title }}</a>
             <ul>
               {{ range $taxonomy }}
                 <li class="{{ if eq .Page.URL $currentPage.URL }}active{{end}}">
