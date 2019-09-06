@@ -11,7 +11,7 @@
         <ul class='sidemenu pt-4'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.kbSeries }}
           <li class='current-subject sf-ui-text'>
-            <a href='javascript:;'>{{ substr $subject 1 | humanize | title }}</a>
+            {{ substr $subject 1 | humanize | title }}
             <ul>
               {{ range $taxonomy }}
                 <li class="{{ if eq .Page.URL $currentPage.URL }}active{{end}}">

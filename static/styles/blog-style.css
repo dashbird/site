@@ -1232,15 +1232,12 @@ span.tooltip-desc{
       border-right: 1px solid #E3E8F1;
   }
 
-  ul.sidemenu { margin-top: 20px; }
+  ul.sidemenu { margin-top: 10px; }
 
   ul.sidemenu>li {
     list-style-type: none;
   }
 
-  ul.sidemenu > li {
-    padding-bottom: 16px;
-  }
   ul.sidemenu > li > a {
     color: black;
     font-weight: bold;
@@ -1269,7 +1266,7 @@ span.tooltip-desc{
 
   ul.sidemenu li ul li {
     padding-left: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
   }
 
   ul.sidemenu li.active>a {
