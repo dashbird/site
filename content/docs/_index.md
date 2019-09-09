@@ -1,29 +1,47 @@
 ---
-date: 2019-02-13
-title: What is Dashbird?
-linktitle: Home
-description: What is Dashbird
-kbSeries: ["ALearn"]
+date: 2017-06-05
+title: Getting Started
+linktitle: Getting Started
+description: Dashbird is the leading serverless monitoring and troubleshooting platform that helps software engineers to launch agile serverless websites and software.
+kbSeries: ["ADashbird"]
+kbSeries_weight: 100
 ---
-Dashbird is a service to **monitor**, **debug** and **improve** your <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>* functions. **It's tailor made to help develop serverless apps.**
 
-_* Currently, Dashbird only supports <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, but we have plans to support other cloud FaaS offerings in the future._
+Dashbird is a service to **monitor**, **debug** and **improve** your lambda functions. **It's tailor made to help develop serverless apps.**
 
-Using <a href="https://aws.amazon.com/lambda/serverless-architectures-learn-more/">serverless architectures</a> is one of the fastest and cheapest ways of building scalable and cheap back-end applications. Yet, with large architectures, they can sometimes be hard to monitor and debug.
+Serverless architecture fundamentally changes how we build, deploy and maintain software. Although AWS CloudWatch can be used to monitor Lambda functions, for example, it was not designed specifically for it, and Dashbird fills the gaps left by CloudWatch and other traditional tools.
 
 ### Core Benefits
 
-Dashbird provides an overview of all lambda executions across your entire account. Making it incredibly easy to keep an eye on all lambda functions and to know what's going on at any given moment.
+Dashbird provides an overview of all lambda executions across your entire account in a single view:
 
-<a href='/images/docs/overview-2019.02.13.png' target="_blank"><img alt='Main dashboard' src='/images/docs/overview-2019.02.13.png'></a>
+<img alt='Main dashboard' src='/images/docs/lambda-functions-overview.png'>
 
 <br>
 
-### Project View
+### Error Tracking & Alerting
 
-Dashbird allows you to group lambda functions any way you like, making it easier to monitor inter-related functions in a microservices architecture. This allows you to construct a dashboard for a service or set of functions. It will outline the load, any problems you might face, the cost and other important metrics.
+Track errors in real-time and receive alerts by email and/or Slack whenever things go south in your application backend.
 
-<a href='/images/docs/project-view-2019.02.13.png' target="_blank"><img alt='Project dashboard' src='/images/docs/project-view-2019.02.13.png'></a>
+Dashbird automatically detects all types of application errors and exceptions, in every runtime supported by AWS Lambda: NodeJS, Python, Java, Ruby, Go, .NET. It also monitors errors related to the Lambda platform and its limits, such as timeout, lack of memory, etc.
+
+Detailed stack traces are available within Dashbird so that you can easily track sources of issues and debug them.
+
+<img alt='AWS Lambda error tracking' src='/images/docs/lambda-error-tracking.png'>
+
+<br>
+
+### X-Ray & API Gateway Integration
+
+Dashbird also integrates with AWS X-Ray and API Gateway. This way, you can navigate your entire cloud stack, as well as API and application traces and errors in a single interface, making it much easier and faster to identify where failures are occurring and how to fix them.
+
+### Policies
+
+Monitor each function behavior with customized policies based on performance and resource usage.
+
+For example, an incident can be raised when one or more Lambdas start using more than 90% of memory, on average, over a period of 10 minutes.
+
+<img alt='AWS Lambda Error Policies' src='/images/docs/aws-lambda-error-policies.png'>
 
 <br>
 
@@ -31,26 +49,14 @@ Dashbird allows you to group lambda functions any way you like, making it easier
 
 This dashboard shows health, cost and other meaningful statistics of a single lambda function. You can also see the invocation history and pinpoint errors, cold starts, retries, and anomalies at a glance.
 
-<a href='/images/docs/functionview-2019.02.13.png' target="_blank"><img alt='Function dashboard' src='/images/docs/functionview-2019.02.13.png'></a>
+<img alt='Function dashboard' src='/images/docs/aws-lambda-function-view.png'>
 
 <br>
 
-### Invocation View
+### Under the hood
 
-An overview with logs for each invocation with additional data about duration, memory consumed, cost of serving the invocation. It also flags errors, anomalies, retries, and cold starts. JSON strings are also formatted as an object, making it easier to inspect the content.
+Dashbird requires zero instrumentation (a.k.a. no code changes), thus your Lambda costs, execution speed, and latency will not be affected.
 
-<a href='/images/docs/invocation-2019.02.13.png' target="_blank"><img alt='Invocation view' src='/images/docs/invocation-2019.02.13.png'></a>
+In a handful clicks and less than five minutes, through a CloudFormation stack, we will connect to your AWS account privately and monitor Lambda logs in your CloudWatch Log groups. From that on, Dashbird will automatically start monitoring your Lambda apps.
 
-<br>
-
-### Error Tracking
-
-Track errors in your lambdas in real time and easily debug them with stack traces. Dashbird shows not only the current occurrence, but also all past occurrences of the same error.
-
-<br>
-
-When errors occur, AWS Lambda will automatically retry the request for you (see <a href="https://docs.aws.amazon.com/lambda/latest/dg/retries-on-errors.html">AWS Lambda Retry Behavior</a>). That can be very convenient, but is also a potential source of issues that can be hard to debug. For that reason, Dashbird will also link any retries detected for an error occurrence, so that you can track all invocations at once.
-
-<br> 
-
-<a href='/images/docs/errorview-2019.02.13.png' target="_blank"><img alt='Error view' src='/images/docs/errorview-2019.02.13.png'></a>
+<img alt='Error view' src='/images/docs/dashbird-install.png'>
