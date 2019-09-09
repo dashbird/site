@@ -3,7 +3,7 @@ date: 2017-06-05
 title: How it works
 linktitle: How it works
 description: How it works
-kbSeries: ["BQuickstart"]
+kbSeries: ["ADashbird"]
 kbSeries_weight: 300
 ---
 
