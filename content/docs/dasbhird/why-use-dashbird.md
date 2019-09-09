@@ -3,8 +3,8 @@ date: 2017-06-05
 title: Why use Dashbird?
 linktitle: Why use Dashbird?
 description: Why use Dashbird?
-kbSeries: ["BAbout Dashbird"]
-kbSeries_weight: 100
+kbSeries: ["ADashbird"]
+kbSeries_weight: 200
 aliases:
  - /setup
  - /docs/getting-started/setting-up-dashbird/

@@ -3,8 +3,8 @@ date: 2017-06-05
 title: Manage organizations and users
 linktitle: Manage organizations and users
 description: Manage organizations and users
-kbSeries: ["EHow-to"]
-kbSeries_weight: 300
+kbSeries: ["BQuickstart"]
+kbSeries_weight: 200
 ---
 In your **Profile page** (icon in the top-right corner), there is a section in the left-menu for **“Organization”** configuration.
 

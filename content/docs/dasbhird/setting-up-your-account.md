@@ -3,8 +3,8 @@ date: 2017-06-05
 title: Technical Support
 linktitle: Technical Support
 description: Technical Support
-kbSeries: ["BAbout Dashbird"]
-kbSeries_weight: 200
+kbSeries: ["ADashbird"]
+kbSeries_weight: 300
 alias:
   - /help/settings/configuring-dashbird/
   - /docs/settings/configuring-dashbird/

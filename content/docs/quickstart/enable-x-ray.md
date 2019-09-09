@@ -3,7 +3,7 @@ date: 2017-06-05
 title: Enable X-Ray tracing
 linktitle: Enable X-Ray tracing
 description: Enable X-Ray tracing
-kbSeries: ["EHow-to"]
+kbSeries: ["BQuickstart"]
 kbSeries_weight: 500
 ---
 

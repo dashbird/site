@@ -3,8 +3,8 @@ date: 2017-06-05
 title: Select which Lambdas to monitor
 linktitle: Select which Lambdas to monitor
 description: Select which Lambdas to monitor
-kbSeries: ["EHow-to"]
-kbSeries_weight: 200
+kbSeries: ["BQuickstart"]
+kbSeries_weight: 400
 ---
 
 In some cases, you may want to leave a few functions out of **Dashbird monitoring**. Since we charge per GB of logs generated across all your Lambdas, you probably will want to leave testing or experimental functions out of Dashbird.

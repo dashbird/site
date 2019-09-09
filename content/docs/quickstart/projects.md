@@ -3,8 +3,8 @@ date: 2017-06-05
 title: Creating Projects for grouping Lambda Functions with Dashbird
 linktitle: Project views
 description: Projects
-kbSeries: ["CApplication Guide"]
-kbSeries_weight: 500
+kbSeries: ["BQuickstart"]
+kbSeries_weight: 600
 ---
 
 

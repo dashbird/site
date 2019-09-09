@@ -3,8 +3,8 @@ date: 2019-09-03
 title: Frequently Asked Questions
 linktitle: Frequently Asked Questions
 description: Frequently Asked Questions
-kbSeries: ["BAbout Dashbird"]
-kbSeries_weight: 300
+kbSeries: ["ADashbird"]
+kbSeries_weight: 500
 ---
 
 ### How do I set up Dashbird?
