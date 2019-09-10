@@ -22,7 +22,7 @@ scripts:
         <option value="0" disabled selected>Choose region</option>
         <option value="1">US | Canada | EU (London, Ireland, Paris) | Asia Pacific (Sydney, Seoul, Mumbai)</option>
         <option value="2">EU (Frankfurt) </option>
-        <option value="3">Asia Pacific (Tokyo, Singapore) | South America (Sao Paolo)</option>
+        <option value="3">Asia Pacific (Tokyo, Singapore) | South America (São Paulo)</option>
         <option value="4">AWS GovCloud (US)</option>
       </select>
 
