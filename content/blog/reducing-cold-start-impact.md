@@ -57,7 +57,7 @@ After a short and straightforward sign-up process you’ll be able to login to t
 
 We already know that running a serverless framework can save you from a lot of trouble. Besides saving a lot of money and time for your company, it can surely put you in front of the following problems like cold starts and latency. But there is a way to handle them via Dashbird.io tool which will allow you to get out the most of your serverless application. 
 
-Dashbird’s tailing functionality offers a nearly real-time insight of the functions you’re running, and it provides you with all the necessary logs and metrics which are needed for the mentioned invocation. But an option really worth mentioning that comes with Dashbird is that it can detect cold starts and retries in your lambda invocation. Therefore, you’ll be able to see in your lambda invocation list which invocations have been retried as well as which ones became coldstart invocations and it makes quite a big difference.
+Dashbird’s tailing functionality offers a near real-time insight of the functions you’re running, and it provides you with all the necessary logs and metrics which are needed for the mentioned invocation. But an option really worth mentioning that comes with Dashbird is that it can detect cold starts and retries in your lambda invocation. Therefore, you’ll be able to see in your lambda invocation list which invocations have been retried as well as which ones became coldstart invocations and it makes quite a big difference.
 
 ## Where does that leave us?
 

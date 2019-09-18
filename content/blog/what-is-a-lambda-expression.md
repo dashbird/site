@@ -6,6 +6,7 @@ frontImage: "2018-07-31/pexels-photo-240163.jpeg"
 thumbnail: "images/blog/2018-07-31/pexels-photo-240163.jpeg"
 author: Nemanja Novkovic
 blog: ["Lambda", "Other"]
+aliases: [/blog/biggest-problems-with-aws-lambda-observability/]
 ---
 
 In today's modern age, the most crucial aspect of communication is the expression. Various groups express their thoughts or feelings through their work. For example, painters express themselves through their paintings as well as singers express themselves through the way they sing. Writers might make you feel their thoughts while reading some of the articles or books they knew how to write primarily for their readers so the readers will understand their feelings and thoughts. How do programmers express their feelings through their work? Can they do that? Are they able to code something that will make the users feel their coding? What is Lambda expression, and can programmers use it to reach the hearts of their users while transferring their feelings through their coding? Nope. But what is Lambda Expression exactly and how, why, where and when is it being used? I'll do my best to solve this tricky Lambda "emotional" question for you in the following article.
