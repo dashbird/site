@@ -63,4 +63,4 @@ kbSeries_weight: 800
 
 <hr>
 
-<p>Check out how you can <a href="https://dashbird.io/https://dashbird.io/docs/application-guide/errors-and-policies/">set up error alerting and daily account summaries via email</a> too!</p>
+<p>Check out how you can <a href="https://dashbird.io/docs/application-guide/errors-and-policies/">set up error alerting and daily account summaries via email</a> too!</p>
