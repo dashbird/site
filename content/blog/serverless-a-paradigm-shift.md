@@ -32,10 +32,6 @@ There’s no error log, there’s no cPanel nor there is an EC2 console that mon
 Every service provider has something to aid in this regard, AWS, for example, has Cloudwatch. A solid service but far from perfect. It’s fine to debug small applications or a microservice, but keeping an eye on an entire application can be difficult since all the information is propagated into one single location.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Why-is0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](/images/blog/2019-10-03/main-qimg-3d087ad7e1933ae96e20eb45fc10f211.png "image_tooltip")
 
 
@@ -63,9 +59,6 @@ We also have to get used to the little quirks that we now have to deal with like
 
 We also need to stop with the “vendor lock-in syndrome” because this isn’t really an issue. Using platforms like Serverless you can deploy your code on any provider you choose with a couple of  command lines. You’ll never have to be stuck using just one service provider.
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Why-is1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](/images/blog/2019-10-03/main-qimg-1008b0a0c7039b9f67b92fc866ce0ba1.jpeg "image_tooltip")
