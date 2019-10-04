@@ -462,7 +462,7 @@ This monitoring tool is called [Dashbird](https://dashbird.io/). Let's set it up
 
 <h3 id="accosaweam-8">Monitoring</h3>
 
-The issue of bad overview and not enough insight into what's happening in your app is a real problem with serverless architectures. There are a couple of products out there that can really help mitigate this. Some of them are [Dashbird](https://dashbird/features/), [Datadog](https://www.datadoghq.com/), [Serverless](https://serverless.com/), [IOPipe](https://www.iopipe.com/) among many others. 
+The issue of bad overview and not enough insight into what's happening in your app is a real problem with serverless architectures. There are a couple of products out there that can really help mitigate this. Some of them are [Dashbird](https://dashbird.io/features/), [Datadog](https://www.datadoghq.com/), [Serverless](https://serverless.com/), [IOPipe](https://www.iopipe.com/) among many others. 
 
 You've already had a quick start with the Serverless framework above. Let's jump into setting up Dashbird as well. You can go to the [official docs and go through the quick start](https://dashbird.io/docs/get-started/quick-start/) or just follow along below.
 
