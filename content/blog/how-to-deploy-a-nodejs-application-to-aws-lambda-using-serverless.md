@@ -30,7 +30,7 @@ You can follow along from the beginning or jump to the section which interests y
 
 <h3 id="htdanatalus-1">Goals</h3>
 
-Today you'll learn how to deploy a Node.js application to [AWS Lambda](https://aws.amazon.com/lambda/) with the help of the [Serverless Framework](https://servereless.com).
+Today you'll learn how to deploy a Node.js application to [AWS Lambda](https://aws.amazon.com/lambda/) with the help of the [Serverless Framework](https://serverless.com).
 
 The walkthrough will also cover a real-life scenario of deploying a production version of your application, with [environment variables](https://serverless.com/framework/docs/providers/spotinst/guide/variables/#environment-variables), [proper monitoring](https://dashbird.io/features/aws-lambda-serverless-monitoring/), and, of course, [easy debugging](https://dashbird.io/features/lambda-error-tracking/). Oh, how I love seeing nice stack traces!
 
