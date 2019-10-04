@@ -13,7 +13,7 @@ Just like Blockchain profoundly challenged centralized banking and the way we ha
 
 ### Smarter use of resources
 
-One of the key advantages of serverless is its pay-per-use system. Instead of a fixed monthly or annual server fee where the actual use is not taken into account, with serverless you are charged only for the actual amount of resources consumed by an application. You no longer have to pay for what you don’t really need.
+One of the <a href="https://dashbird.io/blog/business-benefits-of-serverless/">key advantages of serverless</a> is its pay-per-use system. Instead of a fixed monthly or annual server fee where the actual use is not taken into account, with serverless you are charged only for the actual amount of resources consumed by an application. You no longer have to pay for what you don’t really need.
 
 In addition, serverless helps you save money and time on server maintenance and continuous manual scaling. Why should you keep on paying to reinvent the wheel when there is a more efficient way – delegating server management to the provider. 
 
