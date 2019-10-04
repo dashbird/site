@@ -9,6 +9,7 @@ author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["alerts", "Lambda"]
 ---
+I've spent a lot of time with the development community over the years but every time I get to talk to people in the serverless community I'm constantly surprised by the passion and the general excitement over this technology. Below is one of the latest of said topics and I wanted to share it with you.
 
 For years we’ve been building apps the same way. We put together the infrastructure based on what we perceived as a requirement for that type of service and then we start building it using whatever framework we chose. Every couple of days we go back to change or tweak the server, make sure it scales, execute our logic faster, hardware upgrades and update the OS and apply security patches.
 
@@ -54,7 +55,7 @@ Now back to the question at hand:
 
 **Why is serverless the next paradigm shift in the way we create and run web services and apps?**
 
-Let me clarify, serverless is not something that AWS or Microsoft invented overnight and released back in 2015, it’s been around for way longer than that. We used to call it cloud computing and it was only available to a very select handful of individuals that had the privilege (read: $$$Money$$$) to get access to something like this. Services like AWS Lambda and MS Azure just made this idea available to the masses at a very, VERY, low price.
+Let me clarify, serverless is not something that AWS or Microsoft invented overnight and released back in 2015, it’s been around for way longer than that. We used to call it cloud computing and it was only available to a very select handful of individuals that had the privilege (read: $$$Money$$$) to get access to something like this. Services like AWS Lambda and MS Azure just made this idea available to the masses at a very, VERY, <a href="https://dashbird.io/blog/saving-money-aws-lambda/">low price</a>.
 
 The biggest hurdle (or paradigm shift) we developers have to overcome is the adapting to the new way we think about the infrastructure. It’s more like a “plug and play” experience where we “plug” the code and it just runs.
 
