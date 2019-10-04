@@ -10,7 +10,7 @@ blog: ["AWS", "Lambda", "Events"]
 
 If you’re in developing business, you've probably heard about AWS Lambda by now. In case you haven’t, AWS Lambda has been among us for years, and it certainly brought a whole new level for running a code. The benefits of using AWS Lambda are vast, and many developers already use AWS Lambda daily. If you’re not among them, read through this article to learn more about what AWS Lambda can do for you and your code.
 
-On the other hand, if you believe you don’t need <a href="http://localhost:1313/blog/using-lambda-layers-for-better-serverless-architecture/">AWS Lambda</a>, you should give it a try anyway, and it just might surprise you. Once you realize how it works, and how your business can benefit from it, you’ll change your mind. In this article, we’ll talk about AWS Lambda in general, and we’ll mention just some of the many benefits it brings.
+On the other hand, if you believe you don’t need <a href="https://dashbird.io/blog/using-lambda-layers-for-better-serverless-architecture/">AWS Lambda</a>, you should give it a try anyway, and it just might surprise you. Once you realize how it works, and how your business can benefit from it, you’ll change your mind. In this article, we’ll talk about AWS Lambda in general, and we’ll mention just some of the many benefits it brings.
 
 <img src="/images/blog/2019-07-14/photo-1497618891100-ac2f06bef939.jpeg">
 
