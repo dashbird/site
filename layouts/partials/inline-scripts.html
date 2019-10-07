@@ -94,7 +94,9 @@
       let $anchor = document.querySelector('p.top-bar-promo a');
       let pickedMsg = messages[Math.floor(Math.random()*messages.length)];
 
-      $message.text = pickedMsg.text;
-      $anchor.href = pickedMsg.url;
+      if($message && $anchor) {
+        $message.textContent = pickedMsg.text;
+        $anchor.href = pickedMsg.url;
+      }
     })();
   </script>
