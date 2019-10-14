@@ -34,3 +34,28 @@
        a.appendChild(r);
    })(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=");
 </script>
+
+<!-- Randomize promo messages at the top bar -->
+  <script>
+    (function() {
+      const messages = [
+        {
+          'text': 'Are Your APIs Secure In AWS Lambda? Join Our Tech Talk Now!',
+          'url': 'https://zoom.us/webinar/register/WN_nVMlXyd3TFmujapq8PNKcw'
+        },
+        {
+          'text': 'Download our free e-book now: "Serverless Best Practices"!',
+          'url': 'https://dashbird.io/serverless-benefits/'
+        }
+      ];
+
+      let $message = document.querySelector('p.top-bar-promo span');
+      let $anchor = document.querySelector('p.top-bar-promo a');
+      let pickedMsg = messages[Math.floor(Math.random()*messages.length)];
+
+      if($message && $anchor) {
+        $message.textContent = pickedMsg.text;
+        $anchor.href = pickedMsg.url;
+      }
+    })();
+  </script>
