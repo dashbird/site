@@ -48,7 +48,7 @@ Functions table allows you to pinpoint expensive lambdas.
 
 <img src="/images/blog/18-12-2017/functions.png" width=800 />
 
-You can also optimise function memory usage by noticing the outliers in the graph. For instance, if a function is using around 10-20% of memory, it's a pretty good candidate for optimisation, which in large scales can help save money.
+You can also optimise function memory usage by noticing the outliers in the graph. For instance, if a function is using around 10-20% of memory, it's a pretty good candidate for optimization, which in large scales can help save money.
 
 <img src="/images/blog/18-12-2017/memory.png" width=600/>
 

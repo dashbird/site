@@ -10,22 +10,22 @@ authorLink: https://twitter.com/rehemagi
 blog: ["serverless", "AWS", "Monitoring"]
 ---
 
-From launching Dashbird one and a half years ago, our team has been in contact with a lot of companies building serverless applications and one of the problem areas that keeps poppping up are performance or cost issues. Performance problems usually present themselves when some best practices are overlooked or a suboptimal architecture decision have been made. This article is focused on how to look for optimisation opportunities and to capitalise on those opportunities.
+From launching Dashbird one and a half years ago, our team has been in contact with a lot of companies building serverless applications and one of the problem areas that keeps poppping up are performance or cost issues. Performance problems usually present themselves when some best practices are overlooked or a suboptimal architecture decision have been made. This article is focused on how to look for optimization opportunities and to capitalise on those opportunities.
 
 <img src='/images/blog/optimizing-serverless-apps/serverless-applications.png' />
 
-While serverless applications usually consist of **event sources**, **lambdas functions** and **external services**, functions almost always present the most opportunity for optimisation. Mainly because as a developer, you have less control over (managed) event sources and external services. To spot opportunities for efficiency, lets look under the hood for a second and identify where we should look.
+While serverless applications usually consist of **event sources**, **lambdas functions** and **external services**, functions almost always present the most opportunity for optimization. Mainly because as a developer, you have less control over (managed) event sources and external services. To spot opportunities for efficiency, lets look under the hood for a second and identify where we should look.
 
 #### Anatomy of a Lambda function
 
 <img src='/images/blog/optimizing-serverless-apps/anatomy-lambda.png' />
 
-Breaking a Lambda function into pieces you can see there are multiple places to look for optimisations.
+Breaking a Lambda function into pieces you can see there are multiple places to look for optimizations.
 
- - **Your function code** is usually the biggest opportunity for optimisation and a threat of making mistakes.
- - **Language runtime**, Python, Go binary Node.js etc. does not allow optimisation.
+ - **Your function code** is usually the biggest opportunity for optimization and a threat of making mistakes.
+ - **Language runtime**, Python, Go binary Node.js etc. does not allow optimization.
  - **Execution environment** is a somewhat unintuitive place to think about but it can have an effect on performance. For example, how an function is invoked, is it in VPC and needs an ENI? Are there too many redundant packages?
- - **Compute substrate** also allows no optimisation. AWS controls this and there's nothing you can do about this.
+ - **Compute substrate** also allows no optimization. AWS controls this and there's nothing you can do about this.
 
 ## Structuring Lambda code for performance
 
