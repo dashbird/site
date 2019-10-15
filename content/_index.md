@@ -95,7 +95,7 @@ dated: 2017-10-29T17:50:03+02:00
   <div class="row">
     <div class="col-12 col-md-6 align-self-center text-center text-md-left">
       <p class="subtitle">Optimization</p>
-      <h4 class="subtitle">Speed and cost optimisation.</h4>
+      <h4 class="subtitle">Speed and cost optimization.</h4>
       <ul>
         <li>Identify parts of the system that are costing the most.</li>
         <li>Pinpoint the cause of slow functions.</li>

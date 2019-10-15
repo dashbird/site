@@ -100,7 +100,7 @@ date: 2017-11-06T10:50:03+02:00
 <div class="container value-props">
   <div class="row">
     <div class="col-12 col-md-6 feature-col mt-4">
-      <h5>Performance and cost optimisation.</h5>
+      <h5>Performance and cost optimization.</h5>
       <ul class='feature-list'>
         <li>
           <p class='d-flex align-items-center justify-content-between product-heading noselect'>
