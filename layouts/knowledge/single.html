@@ -7,7 +7,6 @@
     <div class="row">
       <div class='docs-sidebar'>
         {{ $currentSubject := index .Params.learning 0 }}
-        <a href='/knowledge'><- Home </a>
         <ul class='sidemenu pt-4'>
           {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
           <li class='current-subject sf-ui-text'>
