@@ -85,3 +85,5 @@ Lambda processes a single event per execution environment and reuses containers 
 ---
 
 *This article is based on the talk about <a href='https://www.youtube.com/watch?v=sSSMTSn2xmA' target='_blank'>optimizing serverless applications</a> @reInvent 2018*
+
+
