@@ -1,5 +1,5 @@
 ---
-title: What to expect form serverless tech in 2020?
+title: What to expect from serverless tech in 2020?
 description: This is where I see serverless technology be next year
 date: 2019-10-30T12:00:00.000Z
 frontImage: "2019-10-28/future-of-serverless.png"
