@@ -16,14 +16,14 @@ Every post-apocalyptic movie has thought me that technology is the first thing t
 ![Ancient tools](https://thepracticaldev.s3.amazonaws.com/i/8dds2n2iv6um40pb38kr.png)
 <center>Real life photo of period-correct developer tools :)</center>
 
-Ok, jokes aside, the consensus is that serverless is going to keep growing as it has been for the past few years. Companies will keep switching from traditional servers to jump on the bandwagon as more and services pop-up around the serverless ecosystem making it easier to move, develop and monitor your applications.
+Ok, jokes aside, the consensus is that serverless is going to keep growing as it has been for the past few years. We'll see more companies make the swtich from traditional servers to jump on the bandwagon as more and third party services pop-up around the serverless ecosystem making it easier to move, develop and monitor your applications.
 
 ## What do I expect in 2020 from serverless?
 
 ### Cross-platform
-Personally, I look forward to seeing a solution that allows developers to go multi-platform with ease. Imagine being able to pick and choose your favorite services from multiple vendors and have them work in perfect harmony without having to jump through impossible hoops.
+Personally, I look forward to seeing a solution that allows developers to go multi-platform with ease. Imagine being able to pick and choose your favorite services from different vendors and have them work in perfect harmony without having to jump through impossible hoops.
 
-Yes, I know it's more of a pipe dream for now with all the different pricing methods, unsupported platforms, I get it. All I'm saying is that next year I'd like to see some progress being made in this direction. Call it cloud centralization or vendor globalization, call it whatever, I just want to see it happen.
+Yes, I know it's more of a pipe dream for now with all the different pricing methods, unsupported platforms. I get it. All I'm saying is that next year I'd like to see some progress being made in this direction. Call it cloud centralization or vendor globalization, call it whatever, as long as it helps us build better applications.
 
 ### Hybrid serverless systems
 We've seen this happening more and more this past year and 2020 will be no different. Since FaaS is not a one size fits all kind of deal it stands to reason that in some scenarios a mix between EC2(for example) and Lambda would make the more sense. Tasks that take longer to execute and have a tendency to repeat does make a better fit for a container rather than on a FaaS.
