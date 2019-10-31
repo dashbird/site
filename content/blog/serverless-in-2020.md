@@ -7,7 +7,7 @@ thumbnail: "images/blog/2019-10-28/future-of-serverless.png"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
-blog: ["alerts", "Lambda"]
+blog: ["Lambda"]
 ---
 There's no sure-fire way to tell whether or not serverless tech is going to grow or even be around next year. 
 
