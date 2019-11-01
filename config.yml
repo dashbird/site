@@ -41,7 +41,6 @@
     kbSeries: "kbSeries"
     learning: "learning"
   disableKinds: ["categories", "kbSeries"]
-  preserveTaxonomyNames: false
   sitemap:
     changefreq: "monthly"
     priority: 1

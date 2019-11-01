@@ -1,8 +1,8 @@
 ---
 date: 2017-06-05
-title: Getting Started
-description: "Dashbird is the leading serverless monitoring and troubleshooting platform that helps software engineers to launch agile serverless websites and software."
-learning: ["ALambda"]
+title: "Getting Started with AWS Lambda"
+description: "AWS Lambda is a function-as-a-service computing platform by AWS. Read this to for getting started with Lambda."
+learning: ["AAWS Lambda"]
 learning_weight: 100
 ---
 

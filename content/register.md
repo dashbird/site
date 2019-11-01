@@ -24,39 +24,39 @@ aliases:
     </div>
     
     <div class="row justify-content-md-center align-items-center">
-    <div class="col-lg-5 col-md-6 col-sm-10 col-xs-12 register-form">
+    <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 register-form">
         <div class="pt-2">
             <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
-                    <span>Company Email: <span class='text-danger'>*</span></label></span>
+                    <span>Work Email: </label></span>
                   </div>
                   <div class='col-md-9'>
-                    <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@serverless-user.com' name="email" required>
+                    <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@example.com' name="email" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
-                    <span>First name: <span class='text-danger'>*</span></label></span>
+                    <span>First name: </span>
                   </div>
                   <div class='col-md-9'>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Bobby' name="firstName" required>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Michael' name="firstName" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
-                    <span>Last name: <span class='text-danger'>*</span></label></span>
+                    <span>Last name: </label></span>
                   </div>
                   <div class='col-md-9'>
-                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Drop-Tables' name="lastName" required>
+                    <input type="text" class="form-control cta-input w-100-percent" placeholder='Dell' name="lastName" required>
                   </div>
                 </div>
 
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
-                    <span>Workspace: <span class='text-danger'>*</span></label></span>
+                    <span>Account name: </label></span>
                   </div>
                   <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder="Dashbird-production" name="companyName" required>
@@ -76,7 +76,7 @@ aliases:
                     <span>Password: <span class='text-danger'>*</span></label></span>
                   </div>
                   <div class='col-md-9'>
-                    <input type="password" class="form-control cta-input w-100-percent" placeholder='*******' name="password" required>
+                    <input type="password" class="form-control cta-input w-100-percent" placeholder='Password' name="password" required>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ aliases:
                     <span>Confirm: <span class='text-danger'>*</span></label></span></span>
                   </div>
                   <div class='col-md-9'>
-                      <input type="password" class="form-control cta-input w-100-percent" placeholder='Confirm ********' name="confirmPassword" required>
+                      <input type="password" class="form-control cta-input w-100-percent" placeholder='Confirm password' name="confirmPassword" required>
                   </div>
                     
                 </div>
