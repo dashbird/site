@@ -39,8 +39,8 @@
   taxonomies:
     blog: "blog"
     kbSeries: "kbSeries"
+    learning: "learning"
   disableKinds: ["categories", "kbSeries"]
-  preserveTaxonomyNames: true
   sitemap:
     changefreq: "monthly"
     priority: 1
