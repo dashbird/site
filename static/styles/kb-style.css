@@ -17,7 +17,8 @@ html{
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
+    margin-top: 1.9rem;
   }
 
   blockquote {
@@ -866,7 +867,7 @@ html{
   .blog-font h2 {
     font-weight: bold;
     margin-top: 50px;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     text-align: center;
   }
 

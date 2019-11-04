@@ -1,9 +1,9 @@
 ---
 date: 2017-06-05
-title: "Getting Started with AWS Lambda"
-description: "AWS Lambda is a function-as-a-service computing platform by AWS. Read this to for getting started with Lambda."
+title: "Common Problems and Best Practices."
+description: "How to avoid common problems you run into while developing serverless applications."
 learning: ["AAWS Lambda"]
-learning_weight: 100
+learning_weight: 300
 ---
 
 AWS Lambda is a function as a service computing platform provided by AWS. With Lambda, developers can focus on writing code while the cloud provider manages the allocation of the underlying compute resources.
