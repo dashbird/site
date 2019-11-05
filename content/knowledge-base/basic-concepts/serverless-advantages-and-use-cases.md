@@ -24,7 +24,7 @@ With serverless, developers spend less time provisioning, scaling and managing i
 Serverless infrastructures scale up and down based on demand for specific functions of the system. For developers, this means less problems and a smoother experience when a product or an application suddenly becomes very popular. Usually cloud-providers set limits for maximum concurrency to protect developers from runaway costs but those limits can be changed and revoked on request. 
 
 
-### Pay-as-you-go pricing model
+#### Pay-as-you-go pricing model
 
 Developers are only charged by the amount of compute and resources they end up using. In case the system is idle, no cost is associated. In addition, AWS provides a generous free tier of 1M Lambda function requests per month, not to mention other services.
 
@@ -54,4 +54,4 @@ Lambda is also well suited for automating cloud tasks like backing up databases,
 
 ## Sky is the limit
 
-Although above we listed the most common use cases and the strongest advantages of serverless computing, many other use cases and benefits exist. Theoretically anything is possible to build on serverless architecture.
+Although above we listed the most common use cases and the strongest advantages of serverless computing, many other use cases and benefits exist. Theoretically anything is possible to build on serverless.
