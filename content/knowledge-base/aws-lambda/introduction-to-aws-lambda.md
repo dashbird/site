@@ -1,9 +1,8 @@
 ---
-title: "AWS Limitations"
 date: 2019-01-22T16:51:51+03:00
 title: "Introduction to AWS Lambda."
 description: "What is AWS Lambda and how does it work?"
-learning: ["AAWS Lambda"]
+learning: ["BAWS Lambda"]
 learning_weight: 100
 ---
 

@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: "Common Problems and Best Practices."
 description: "How to avoid common problems you run into while developing serverless applications."
-learning: ["AAWS Lambda"]
+learning: ["BAWS Lambda"]
 learning_weight: 300
 ---
 

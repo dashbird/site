@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: "Getting Started with AWS Lambda."
 description: "Learn the first steps of writing, deploying and running Lambda functions."
-learning: ["AAWS Lambda"]
+learning: ["BAWS Lambda"]
 learning_weight: 200
 ---
 
