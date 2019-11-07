@@ -69,7 +69,7 @@ A downside to containers is the fact that they can be hard to communicate with o
 
 Another problem is that if you have to move your "container clusters" (basically bunches of containers that communicate together for your application) somewhere else, it can become more and more problematic with more and more containers.
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/TN25-siFnS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="300" src="https://www.youtube.com/embed/TN25-siFnS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Containers and Serverless Working Together</h2>
 So, now that we see the good and the bad of these different methods of computing, what would happen if we put them together? What would happen would be a beautiful working relationship between these two methods of cloud computing.
