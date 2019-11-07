@@ -30,10 +30,10 @@
 
 ### Dynamo (NoSQL DB)
 
-* Main concepts: table, indexes, item, attributes, partition/sort keys, on-demand vs. reserved capacity, consistency models, query vs. scan
-* CRUD operations in Dynamo
-* AWS SDK, OSS libraries (Node, Python)
-* Data distribution, scalability, limits, implications to app development
+* Main concepts: table, indexes, item, attributes, partition/sort keys, on-demand vs. reserved capacity, consistency models, query vs. scan (RENATO)
+* CRUD operations in Dynamo (RENATO)
+* AWS SDK, OSS libraries (Node, Python) (RENATO)
+* Data distribution, scalability, limits, implications to app development (RENATO)
 
 ### Aurora Serverless (Relational DB)
 
@@ -45,11 +45,11 @@
 * Main concepts: schema & facets, objects/nodes, edges/links, policies, access patterns
 * Scalability, service limits
 
-### S3 (Object Storage)
+### S3 (Object Storage) (RENATO)
 
 * Pending list of topics...
 
-### Athena (Analytics)
+### Athena (Analytics) (RENATO)
 
 * Pending list of topics...
 
@@ -66,6 +66,7 @@
 * Pending list of topics...
 
 ### EventBridge (Event Bus)
+
 * Pending list of topics...
 
 ### Cognito (Auth & User Management)
@@ -86,9 +87,9 @@
     
 ### Organization & Architecture
 
-*   Microservices vs. Monolith
+*   Microservices vs. Monolith (RENATO)
 *   Mono vs. Multi-repo
-*   Function composition strategies
+*   Function composition strategies (RENATO)
 *   Scalable API modelling
 *   Preserving maintainability & extensibility
 
