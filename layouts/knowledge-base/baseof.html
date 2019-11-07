@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "blog/meta.html" . }}
+    {{ partial "kb/stylesheets.html" }}
+    {{ partial "blog/inline-scripts.html" }}
+  </head>
+  <body>
+    {{ partial "blog/header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "blog/footer.html" . }}
+    {{ partial "blog/scripts.html" }}
+    {{ range .Page.Params.scripts  }}
+    <script async src="{{ . }}" type="text/javascript"></script>
+    {{ end  }}
+  </body>
+</html>

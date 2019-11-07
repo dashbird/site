@@ -164,7 +164,6 @@ $(document).ready(function () {
         if (e.direction == 'left') {
           $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner')
         } else {
-          console.log('ajunge')
           $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner')
         }
       }

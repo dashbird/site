@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{ $currentPage := .  }}
+<section class="container-fluid bg-white">
+
+  <div class="row h-400 align-items-center blue-bg">
+    <div class='col-6'>
+      <h1 class='mx-5 h2'>{{ .Title }}</h1>
+      <p class='mx-5 text-light'><i>{{ .Description }}</i></p>
+    </div>
+    <div class='col-6 text-justify border-left px-4 py-4 text-white'>
+      <div class='col-10 mx-auto'>
+        <p class='text-light-gray'>Dashbird is a monitoring platform that ensures efficiency for modern cloud infrastructures by delivering alerts, insights and activity visualisation.</p>
+        <div>
+          <a href='/register/' class='btn btn-primary mt-1'>Start a Free Trial</a>
+          <a href='/' class='btn btn-light ml-2 mt-1'>Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center align-items-center p-3" style='background: #ebf2ff;'>
+    <div class='col-10 mx-auto m-w-900'>
+      <a href='/knowledge-base/'>Knowledge Base</a>
+      <i class="fa fa-arrow-right mx-2" style='color: #cccccc;'></i>
+      <a href='{{ .Permalink }}'>{{ .Title }}</a>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+      <div class='col-10 mx-auto text-justify imgs-fluid m-w-900 pt-5'>
+        {{ .Content }}
+      </div>
+  </div>
+</section>
+
+
+<section class='container-fluid bg-white'>
+  <div class='row justify-content-center pt-5'>
+    <div class='col-9 m-w-900 rounded mb-5' style='border: 1px solid #8f8f8f;'>
+      <h1 class='text-center mt-4'>Operate Cloud Applications at Highest Quality</h1>
+      <div class='row my-3'>
+        <div class='col-6 pt-5 pl-4'>
+          <!-- <h2>Alerting, insights and observability into your cloud infrastructure.</h2> --> 
+          <p class='ml-3'><b>Save time</b> spent on debugging applications.</p>
+          <p class='mt-2 ml-3'><b>Increase development</b> velocity and quality.</p>
+          <p class='mt-2 ml-3'><b>Get actionable insights</b> to your infrastructure.</p>
+        </div>
+        <div class='col-6 border-left py-3'>
+          <h5 class='mb-2'>Connect to your AWS account in 2 minutes</h5>
+          <input type="text" id='registerEmail' class='d-none' name='helper' placeholder="placeholder for auto-focus">
+          <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
+
+            <input type="email" id='registerEmail' class='form-control mt-2' name='email' placeholder="Work Email" required>
+            <div class='input-group'>
+              <input type="text" name='firstName' class='form-control mt-2' placeholder="First name" required>
+              <input type="text" name='lastName' class='form-control mt-2' placeholder="Last name" required>
+            </div>
+            <input type="text" name='companyName' class='form-control mt-2' placeholder="Company" required>
+            <input type="password" name='password' class='form-control mt-2' placeholder="Password" required>
+            <button class="btn btn-primary mt-3" style='width: 100%;'>Create Your Account</button><br>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
