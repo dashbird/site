@@ -40,11 +40,11 @@
     (function() {
       const messages = [
         {
-          'text': 'Are Your APIs Secure In AWS Lambda? Join Our Tech Talk Now!',
-          'url': 'https://zoom.us/webinar/register/WN_nVMlXyd3TFmujapq8PNKcw'
+          'text': 'Watch Tech Talks on AWS Lambda: Debugging, Security, and more!',
+          'url': 'https://github.com/dashbird/techtalks'
         },
         {
-          'text': 'Download our free e-book now: "Serverless Best Practices"!',
+          'text': 'Download our free e-book now: "Serverless Best Practices"',
           'url': 'https://dashbird.io/serverless-benefits/'
         }
       ];
@@ -53,7 +53,7 @@
       let $anchor = document.querySelector('p.top-bar-promo a');
       let pickedMsg = messages[Math.floor(Math.random()*messages.length)];
 
-      if($message && $anchor) {
+      if($message && $anchor && pickedMsg) {
         $message.textContent = pickedMsg.text;
         $anchor.href = pickedMsg.url;
       }
