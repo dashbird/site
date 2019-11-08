@@ -2,7 +2,7 @@
 date: 2019-11-08T00:11:00-03:00
 title: "Tooling: SDKs, Open Source Libraries"
 description: "Learn the best tools to work with DynamoDB, both locally and in the cloud"
-learning: ["ADynamoDB"]
+learning: ["CDynamoDB"]
 learning_weight: 300
 ---
 

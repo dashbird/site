@@ -2,7 +2,7 @@
 date: 2019-11-08T00:11:00-03:00
 title: "Overview and Main Concepts"
 description: "What is DynamoDB, how it works and the main concepts of its data model"
-learning: ["ADynamoDB"]
+learning: ["CDynamoDB"]
 learning_weight: 100
 ---
 
