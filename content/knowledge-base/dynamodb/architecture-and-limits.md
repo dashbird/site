@@ -1,15 +1,22 @@
----
+> Saved for future writing
+
+<!-- ---
 date: 2019-11-08T00:11:00-03:00
 title: "Architecture & Limits"
 description: "How DynamoDB is architected, its impacts, limitations and solutions"
-learning: ["ADynamoDB"]
-learning_weight: 300
----
+learning: ["CDynamoDB"]
+learning_weight: 600
+--- -->
 
 # Data distribution
 
-# Scalability models
-
 # Main limits
 
-# Implications to app development
+# Global tables
+
+# Cache Acceleration
+
+DAX
+
+# Backing Up and Restoring Data
+

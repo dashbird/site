@@ -1,41 +1,41 @@
----
+> Saved for future writing
+
+<!-- ---
 date: 2019-11-08T00:11:00-03:00
 title: "Tooling: SDKs, Open Source Libraries"
 description: "Learn the best tools to work with DynamoDB, both locally and in the cloud"
-learning: ["ADynamoDB"]
-learning_weight: 300
----
+learning: ["CDynamoDB"]
+learning_weight: 700
+--- -->
 
 # DynamoDB Local
 
-# Python
+# NoSQL Workbench
 
-## AWS SDK (boto3)
+# AWS SDKs
 
-## PynamoDB
+# Runtime Libraries
 
-## Flywheel
+## Python
 
-## DynamORM
+**[PynamoDB](https://github.com/pynamodb/PynamoDB)**: 
 
-# node.js
+**[Flywheel](https://github.com/stevearc/flywheel)**: 
 
-## AWS SDK
+**DynamORM**: 
 
-## Dynamoose
+## Node.js
 
-## npm dynamodb
+**[Dynamoose](https://github.com/dynamoosejs/dynamoose)**: 
 
-# .NET
+## .NET
 
-## AWS SDK
+**[Document Model](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DotNetSDKMidLevel.html)**: 
+
+**[Object Persistence Model](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DotNetSDKHighLevel.html)**: 
 
 # Java
 
-## AWS SDK
+**[DynamoDBMapper](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBMapper.html)**: 
 
-## [Hibernate](https://www.cdata.com/kb/tech/dynamodb-jdbc-hibernate.rst)
-
-# Ruby
-
-## AWS SDK
+**[Hibernate](https://www.cdata.com/kb/tech/dynamodb-jdbc-hibernate.rst)**: 
