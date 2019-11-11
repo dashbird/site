@@ -68,11 +68,11 @@
 * :black_square_button: Scalability, service limits
 * :black_square_button: Pending list of topics...
 
-### S3 (Object Storage) (RENATO)
+### S3 (Object Storage))
 
 * :black_square_button: Pending list of topics...
 
-### Athena (Analytics) (RENATO)
+### Athena (Analytics)
 
 * :black_square_button: Pending list of topics...
 

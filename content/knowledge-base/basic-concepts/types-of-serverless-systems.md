@@ -2,7 +2,7 @@
 date: 2019-11-07T14:19:00-03:00
 title: "Types of Serverless Systems"
 description: "What are the types of serverless systems for computing, storage, queue processing, etc."
-learning: ["CBasic Concepts"]
+learning: ["ABasic Concepts"]
 learning_weight: 200
 ---
 
