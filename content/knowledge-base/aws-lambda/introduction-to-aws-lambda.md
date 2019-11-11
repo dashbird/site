@@ -1,5 +1,5 @@
 ---
-date: 2019-01-22T16:51:51+03:00
+date: 2019-11-08T11:44:23+02:00
 title: "Introduction to AWS Lambda."
 description: "What is AWS Lambda and how does it work?"
 learning: ["BAWS Lambda"]
