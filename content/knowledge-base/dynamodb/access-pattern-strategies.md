@@ -76,7 +76,7 @@ class User():
 
 ```
 
-# Inserting additional items
+## Inserting additional items
 
 Instead of using a secondary index based on an artificial attribute, developers may also insert additional items to support combined attribute queries.
 
