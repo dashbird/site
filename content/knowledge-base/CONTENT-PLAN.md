@@ -26,19 +26,19 @@
 ### API Gateway
 
 * :black_square_button: Overview and main concepts
-* :black_square_button: API Gateway use cases
+* :black_square_button: API Gateway use cases and benefits
     * Security and access control
     * REST API to encapsulate backend services
     * Loose-coupling internal microservices
     * Real-time apps with socket connections
 * :black_square_button: Integrating backend services with API Gateway
-    * :black_square_button: Lambda, S3, Kinesis, DynamoDB, HTTP
+    * Lambda, S3, Kinesis, DynamoDB, HTTP
 * :black_square_button: Getting started with API Gateway
 * :black_square_button: Monitoring API health and performance
 
 ### AppSync (Graph API)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Dynamo (NoSQL DB)
 
@@ -70,31 +70,31 @@
 
 ### S3 (Object Storage) (RENATO)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Athena (Analytics) (RENATO)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### SQS (Queue)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### SNS (Pub/Sub)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Kinesis (Streams)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### EventBridge (Event Bus)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Cognito (Auth & User Management)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ---
 
@@ -102,57 +102,57 @@
 
 ### Tooling
 
-* Local environment
-* IDE config & plugins
-* AWS CLI
-* AWS SAM
-* Frameworks, CloudFormation, CDK
+* :black_square_button: Local environment
+* :black_square_button: IDE config & plugins
+* :black_square_button: AWS CLI
+* :black_square_button: AWS SAM
+* :black_square_button: Frameworks, CloudFormation, CDK
     
 ### Organization & Architecture
 
-* Microservices vs. Monolith (RENATO)
-* Mono vs. Multi-repo
-* Function composition strategies (RENATO)
-* Scalable API modelling
-* Preserving maintainability & extensibility
+* :black_square_button: Microservices vs. Monolith (RENATO)
+* :black_square_button: Mono vs. Multi-repo
+* :black_square_button: Function composition strategies (RENATO)
+* :black_square_button: Scalable API modelling
+* :black_square_button: Preserving maintainability & extensibility
 
 ### Logging
 
-* Platform, Runtime & Custom errors
-* What should be logged
-* Application objects
-* Privacy concerns
+* :black_square_button: Platform, Runtime & Custom errors
+* :black_square_button: What should be logged
+* :black_square_button: Application objects
+* :black_square_button: Privacy concerns
 
 ### Debugging
 
-* Error alerting
-* Log navigation & issue discovery
-* Tracing
-* Live tailing
-* Debugging microservices functions
+* :black_square_button: Error alerting
+* :black_square_button: Log navigation & issue discovery
+* :black_square_button: Tracing
+* :black_square_button: Live tailing
+* :black_square_button: Debugging microservices functions
 
 ### Monitoring
 
-* Setting expected performance thresholds
-* Policy violation alerting
-* Tracking scalability issues
+* :black_square_button: Setting expected performance thresholds
+* :black_square_button: Policy violation alerting
+* :black_square_button: Tracking scalability issues
 
 ### Compute & Data Flow
 
-* Asynchronous processing
-* Function composition
-* Workflow orchestration
+* :black_square_button: Asynchronous processing
+* :black_square_button: Function composition
+* :black_square_button: Workflow orchestration
 
 ### DevOps
 
-* Deployment strategies
-* Rolling back changes
-* CI/CD
+* :black_square_button: Deployment strategies
+* :black_square_button: Rolling back changes
+* :black_square_button: CI/CD
 
 ### Data Storage Strategies
 
-* Data lakes
-* Multi-DB implementations
+* :black_square_button: Data lakes
+* :black_square_button: Multi-DB implementations
 
 ---
 
@@ -160,22 +160,22 @@
 
 ### Attack Vectors
 
-* DDoS, Low & Slow DoS, Financial exhaustion
-* Event-injection
-* Dependency-injection
-* Flow manipulation
-* Over-privilege exploitation
-* Stateless breach, cross-execution data persistency
-* CSRF
-* Identify theft
+* :black_square_button: DDoS, Low & Slow DoS, Financial exhaustion
+* :black_square_button: Event-injection
+* :black_square_button: Dependency-injection
+* :black_square_button: Flow manipulation
+* :black_square_button: Over-privilege exploitation
+* :black_square_button: Stateless breach, cross-execution data persistency
+* :black_square_button: CSRF
+* :black_square_button: Identify theft
 
 ### General Good Practices
 
-* Adequate logging & monitoring
-* Input validation
-* Response sanitization
-* Dependency check
-* Access control, least privilege principle
-* Encryption
-* Secrets management
-* Throttling policies
+* :black_square_button: Adequate logging & monitoring
+* :black_square_button: Input validation
+* :black_square_button: Response sanitization
+* :black_square_button: Dependency check
+* :black_square_button: Access control, least privilege principle
+* :black_square_button: Encryption
+* :black_square_button: Secrets management
+* :black_square_button: Throttling policies
