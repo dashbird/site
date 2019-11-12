@@ -15,6 +15,14 @@ We will cover in the lines below the values of AWS Lambda and in which scenarios
 
 # Use Cases
 
+## Modern Architectural Patterns
+
+Microservices, asynchronous processing and event-driven approaches are all quite easy to implement in Lambda.
+
+The Lambda function model itself provides the isolation necessary to implement a microservice. Combined with API Gateway or Application Load Balancer, it's easy to decouple services.
+
+Asynchronous invocation and integrations with a multitude of services allows for easy event-driven implementations.
+
 ## Parallelizing CPU-bound workloads
 
 Popular programming languages among web app developers, such as Python and Javascript, are not optimized for efficient parallelization.
