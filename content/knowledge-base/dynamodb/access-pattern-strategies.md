@@ -1,7 +1,7 @@
 ---
 date: 2019-11-08T10:00:00-03:00
 title: "Access Pattern Strategies"
-description: ""
+description: "How to organize information and leverage DynamoDB features for advanced ways of accessing data"
 learning: ["CDynamoDB"]
 learning_weight: 400
 ---

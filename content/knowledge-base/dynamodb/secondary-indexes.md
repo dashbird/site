@@ -1,7 +1,7 @@
 ---
 date: 2019-11-10T17:30:00-03:00
 title: "Secondary Indexes"
-description: ""
+description: "Alternative indexing methods for flexible data access patterns"
 learning: ["CDynamoDB"]
 learning_weight: 300
 ---

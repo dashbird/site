@@ -1,7 +1,7 @@
 ---
 date: 2019-11-08T10:00:00-03:00
 title: "Operation and Data Access"
-description: ""
+description: "Query and Scan operations and how to access data on DynamoDB"
 learning: ["CDynamoDB"]
 learning_weight: 200
 ---
