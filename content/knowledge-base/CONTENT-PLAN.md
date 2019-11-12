@@ -11,9 +11,9 @@
 ### Lambda (Compute)
 
 * :white_check_mark: [Introduction to AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/)
-* :black_square_button: Use cases for AWS Lambda
+* :white_check_mark: [Use cases for AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/use-cases/)
 * :black_square_button: Getting started with AWS Lambda
-* :black_square_button: Advantages, Challenges & Solutions
+* :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
 * :black_square_button: Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits)
 * :black_square_button: Invocation methods & integrations
 * :black_square_button: Scalability and concurrency
