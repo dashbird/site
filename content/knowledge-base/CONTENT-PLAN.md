@@ -11,7 +11,7 @@
 ### Lambda (Compute)
 
 * :white_check_mark: [Introduction to AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/)
-    * :black_square_button: Move the anatomy page to this one
+* :black_square_button: Use cases for AWS Lambda
 * :black_square_button: Getting started with AWS Lambda
 * :black_square_button: Advantages, Challenges & Solutions
 * :black_square_button: Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits)
@@ -22,6 +22,7 @@
 * :black_square_button: Retries & Idempotency
 * :black_square_button: Function versioning
 * :black_square_button: Resource allocation & performance
+* :black_square_button: Methods for automating deployment
 
 ### API Gateway
 

@@ -1,7 +1,7 @@
 ---
 date: 2019-11-08T11:44:23+02:00
 title: "Introduction to AWS Lambda."
-description: "What is AWS Lambda and how does it work?"
+description: "What is AWS Lambda and how it works"
 learning: ["BAWS Lambda"]
 learning_weight: 100
 ---
