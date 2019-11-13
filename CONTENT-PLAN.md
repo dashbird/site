@@ -120,7 +120,7 @@
 ### Logging
 
 * :white_check_mark: [Invocation, Function and Runtime errors](https://dashbird.io/knowledge-base/logging/invocation-function-and-runtime-errors/)
-* :black_square_button: What should be logged
+* :white_check_mark: [What should be logged](https://dashbird.io/knowledge-base/logging/what-should-be-logged/)
 * :black_square_button: Application objects
 * :black_square_button: Privacy concerns
 

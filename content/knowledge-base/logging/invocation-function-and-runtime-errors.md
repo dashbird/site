@@ -37,6 +37,8 @@ Function errors happen when, for example:
 
 AWS Lambda will automatically add the `X-Amz-Function-Error` header and a JSON as the response with details about the function error. Because of that, it is a good practice to avoid the code from raising exceptions, since it will expose internal implementation details. This could potentially compromise the application security.
 
+To avoid this issue, developers should catch all exceptions in the `function_handler`, log them and return a sanitized and gentle response to the requester.
+
 # Runtime Errors
 
 AWS provides guidance on handling function exceptions for all runtimes supported by Lambda. Below is list with reference pages for each runtime:
