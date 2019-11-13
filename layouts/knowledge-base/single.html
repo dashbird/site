@@ -26,37 +26,71 @@
   </div>
 
   <div class="row justify-content-center">
-      <div class='col-10 mx-auto text-justify imgs-fluid m-w-900 pt-5'>
-        {{ .Content }}
-      </div>
-      <div class='col-10 mx-auto m-w-900 mt-5'>
-        {{ if .Params.learning }}
+    <div class='col-10 mx-auto m-w-900 mt-5'>
+      {{ if .Params.learning }}
+  
+      {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
+      {{ $currentPermalink := .Permalink }}
+      {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
+      {{ if eq $subject $currentTaxonomy}}
+      {{ range $index, $key := $taxonomy }}
+      {{ if eq $currentPermalink .Permalink }}
+      {{ $prevIndex := sub $index 1 }}
+      {{ $nextIndex:= add $index 1 }}
+      {{ $prev := index ($taxonomy) $prevIndex }}
+      {{ $next := index ($taxonomy) $nextIndex }}
+      {{ if $prev }}
+      <a href='{{$prev.Permalink}}' class='float-left d-inline'>⟵ <b>Previous:</b> {{ $prev.Title }} </a>
+      {{ end }}
+      {{ if $next }}
+      <a href='{{$next.Permalink}}' class='pull-right'><b>Next:</b> {{ $next.Title }} ⟶</a> <br>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+  
+      {{ end }}
+  
+    </div>
+  </div>
 
-          {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
-          {{ $currentPermalink := .Permalink }}
-          {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
-            {{ if eq $subject $currentTaxonomy}}
-              {{ range $index, $key := $taxonomy }}
-                {{ if eq $currentPermalink .Permalink }}
-                  {{ $prevIndex := sub $index 1 }}
-                  {{ $nextIndex:= add $index 1 }}
-                  {{ $prev := index ($taxonomy) $prevIndex }}
-                  {{ $next := index ($taxonomy) $nextIndex }}
-                  {{ if $prev }}
-                  <a href='{{$prev.Permalink}}' class='float-left d-inline'>⟵ <b>Previous:</b> {{ $prev.Title }} </a>
-                  {{ end }}
-                  {{ if $next }}
-                  <a href='{{$next.Permalink}}' class='pull-right'><b>Next:</b> {{ $next.Title }} ⟶</a> <br>
-                  {{ end }}
+  <div class="row justify-content-center">
+    <div class='col-10 mx-auto text-justify imgs-fluid m-w-900 pt-5'>
+      {{ .Content }}
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class='col-10 mx-auto m-w-900 mt-5'>
+      {{ if .Params.learning }}
+
+        {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
+        {{ $currentPermalink := .Permalink }}
+        {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
+          {{ if eq $subject $currentTaxonomy}}
+            {{ range $index, $key := $taxonomy }}
+              {{ if eq $currentPermalink .Permalink }}
+                {{ $prevIndex := sub $index 1 }}
+                {{ $nextIndex:= add $index 1 }}
+                {{ $prev := index ($taxonomy) $prevIndex }}
+                {{ $next := index ($taxonomy) $nextIndex }}
+                {{ if $prev }}
+                <a href='{{$prev.Permalink}}' class='float-left d-inline'>⟵ <b>Previous:</b> {{ $prev.Title }} </a>
+                {{ end }}
+                {{ if $next }}
+                <a href='{{$next.Permalink}}' class='pull-right'><b>Next:</b> {{ $next.Title }} ⟶</a> <br>
                 {{ end }}
               {{ end }}
             {{ end }}
           {{ end }}
-
         {{ end }}
 
-      </div>
+      {{ end }}
+
+    </div>
   </div>
+  
 </section>
 
 
