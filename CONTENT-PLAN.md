@@ -14,7 +14,7 @@
 * :white_check_mark: [Use cases for AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/use-cases/)
 * :black_square_button: Getting started with AWS Lambda
 * :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
-* :black_square_button: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model.md/)
+* :black_square_button: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model/)
 * :black_square_button: Invocation methods & integrations
 * :black_square_button: Scalability and concurrency
 * :black_square_button: [Lambda Layers]((https://dashbird.io/knowledge-base/aws-lambda/lambda-layers/))
