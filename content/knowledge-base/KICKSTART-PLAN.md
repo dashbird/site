@@ -66,6 +66,29 @@ Check out a few [pages already produced for the KB](https://dashbird.io/knowledg
 
 One of our main goals is to make it impossible for the reader to tell apart who wrote each content piece. KB pages shouldn't be linked to a particular personal style.
 
+## Linking to external content
+
+When you need to refer to an external content resource in your text, be careful to not distract the reader and lead the person away from our site.
+
+As a general rule:
+
+1. Use **inserted links** if you expect the reader to **stop and leave** the page to check an external content **before** continuing to read.
+2. Use **footnotes** if you expect the reader to check that content **after** finishing to read your text.
+
+To insert footnotes in markdown:
+
+```markdown
+In your text, you may reference a Wikipedia page[^1], for example, or maybe the AWS site[^2].
+
+Then, at the very end of your article, add the footnote links like demonstrated below. Our static site generator will automatically link the numbers in the text to the footnotes, making it easy for the reader to navigate the links.
+
+[^1]:
+     [Wikipedia: Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing)
+
+[^2]:
+     [Amazon Web Services](https://aws.amazon.com/)
+```
+
 ## [Glossary](https://github.com/dashbird/site/blob/master/content/knowledge-base/GLOSSARY.md)
 
 Keep an eye on concepts you mention in your KB content. If it's not already covered in the [KB Glossary](https://github.com/dashbird/site/blob/master/content/knowledge-base/GLOSSARY.md) and you think it should be, create a short reference for the topic there.

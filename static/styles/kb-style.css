@@ -46,6 +46,10 @@ html{
     display: inline;
   }
 
+  .kb-links a {
+    color: black;
+  }
+
   .m-w-900 {
     max-width: 900px;
   }

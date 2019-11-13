@@ -3,75 +3,99 @@
 ## Serverless Systems
 
 ### Basic Concepts
-* What is serverless (Renato)
-* Types of serverless systems (Renato)
-* [Advantages & suitable use cases (Taavi)](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
-* [Challenges & solutions (Taavi)](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
+* :white_check_mark: [What is serverless](https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/)
+* :white_check_mark: [Types of serverless systems](https://dashbird.io/knowledge-base/basic-concepts/types-of-serverless-systems/)
+* :white_check_mark: [Advantages & suitable use cases](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
+* :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 
 ### Lambda (Compute)
 
-* Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits) (Taavi)
-* Invocation methods & integrations (Taavi)
-* Scalability and concurrency (Taavi)
-* Layers (Taavi)
-* Cold starts (Taavi)
-* Retries & Idempotency (Taavi)
-* Function versioning (Taavi)
-* Resource allocation & performance (Taavi)
-* Advantages, Challenges & Solutions (Taavi)
+* :white_check_mark: [Introduction to AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/)
+* :white_check_mark: [Use cases for AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/use-cases/)
+* :black_square_button: Getting started with AWS Lambda
+* :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
+* :black_square_button: Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits)
+* :black_square_button: Invocation methods & integrations
+* :black_square_button: Scalability and concurrency
+* :black_square_button: Layers
+* :black_square_button: Cold starts
+* :black_square_button: Retries & Idempotency
+* :black_square_button: Function versioning
+* :black_square_button: Resource allocation & performance
+* :black_square_button: Methods for automating deployment
 
 ### API Gateway
 
-* Pending list of topics...
+* :black_square_button: Overview and main concepts
+* :black_square_button: API Gateway use cases and benefits
+    * Security and access control
+    * REST API to encapsulate backend services
+    * Loose-coupling internal microservices
+    * Real-time apps with socket connections
+* :black_square_button: Integrating backend services with API Gateway
+    * Lambda, S3, Kinesis, DynamoDB, HTTP
+* :black_square_button: Getting started with API Gateway
+* :black_square_button: Monitoring API health and performance
 
 ### AppSync (Graph API)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Dynamo (NoSQL DB)
 
-* Main concepts: table, indexes, item, attributes, partition/sort keys, on-demand vs. reserved capacity, consistency models, query vs. scan (RENATO)
-* CRUD operations in Dynamo (RENATO)
-* AWS SDK, OSS libraries (Node, Python) (RENATO)
-* Data distribution, scalability, limits, implications to app development (RENATO)
+* :white_check_mark: Overview and main concepts
+    * :black_square_button: [Renato] Review names: partition-key, primary-key, hash-key, range-key...
+* :black_square_button: DynamoDB use cases
+* :white_check_mark: Operations and data access
+* :white_check_mark: Secondary indexes
+* :white_check_mark: Access pattern strategies
+    * :black_square_button: [Renato] Explain [relational](https://www.alexdebrie.com/posts/dynamodb-patterns-serverless/) [modeling](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-adjacency-graphs.html) in Dynamo
+* :white_check_mark: Capacity modes
+    * :black_square_button: [Renato] Mention that table and index capacity can be allocated separately
+    * :black_square_button: [Renato] Cover buying reserved capacity
+* :black_square_button: [Renato] Capacity planning and scalability
+* :black_square_button: [Renato] Architecture and limits
+* :black_square_button: [Renato] Tooling
 
 ### Aurora Serverless (Relational DB)
 
-* About Aurora MySQL distribution
-* How Aurora serverless works, service limits, costs
+* :black_square_button: About Aurora MySQL distribution
+* :black_square_button: How Aurora serverless works, service limits, costs
+* :black_square_button: Pending list of topics...
 
 ### CloudDirectory (Graph DB)
 
-* Main concepts: schema & facets, objects/nodes, edges/links, policies, access patterns
-* Scalability, service limits
+* :black_square_button: Main concepts: schema & facets, objects/nodes, edges/links, policies, access patterns
+* :black_square_button: Scalability, service limits
+* :black_square_button: Pending list of topics...
 
-### S3 (Object Storage) (RENATO)
+### S3 (Object Storage))
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
-### Athena (Analytics) (RENATO)
+### Athena (Analytics)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### SQS (Queue)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### SNS (Pub/Sub)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Kinesis (Streams)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### EventBridge (Event Bus)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ### Cognito (Auth & User Management)
 
-* Pending list of topics...
+* :black_square_button: Pending list of topics...
 
 ---
 
@@ -79,80 +103,80 @@
 
 ### Tooling
 
-*   Local environment
-*   IDE config & plugins
-*   AWS CLI
-*   AWS SAM
-*   Frameworks, CloudFormation, CDK
+* :black_square_button: Local environment
+* :black_square_button: IDE config & plugins
+* :black_square_button: AWS CLI
+* :black_square_button: AWS SAM
+* :black_square_button: Frameworks, CloudFormation, CDK
     
 ### Organization & Architecture
 
-*   Microservices vs. Monolith (RENATO)
-*   Mono vs. Multi-repo
-*   Function composition strategies (RENATO)
-*   Scalable API modelling
-*   Preserving maintainability & extensibility
+* :black_square_button: Microservices vs. Monolith (RENATO)
+* :black_square_button: Mono vs. Multi-repo
+* :black_square_button: Function composition strategies (RENATO)
+* :black_square_button: Scalable API modelling
+* :black_square_button: Preserving maintainability & extensibility
 
 ### Logging
 
-*   Platform, Runtime & Custom errors
-*   What should be logged
-*   Application objects
-*   Privacy concerns
+* :black_square_button: Platform, Runtime & Custom errors
+* :black_square_button: What should be logged
+* :black_square_button: Application objects
+* :black_square_button: Privacy concerns
 
 ### Debugging
 
-*   Error alerting
-*   Log navigation & issue discovery
-*   Tracing
-*   Live tailing
-*   Debugging microservices functions
+* :black_square_button: Error alerting
+* :black_square_button: Log navigation & issue discovery
+* :black_square_button: Tracing
+* :black_square_button: Live tailing
+* :black_square_button: Debugging microservices functions
 
 ### Monitoring
 
-*   Setting expected performance thresholds
-*   Policy violation alerting
-*   Tracking scalability issues
+* :black_square_button: Setting expected performance thresholds
+* :black_square_button: Policy violation alerting
+* :black_square_button: Tracking scalability issues
 
 ### Compute & Data Flow
 
-*   Asynchronous processing
-*   Function composition
-*   Workflow orchestration
+* :black_square_button: Asynchronous processing
+* :black_square_button: Function composition
+* :black_square_button: Workflow orchestration
 
 ### DevOps
 
-*   Deployment strategies
-*   Rolling back changes
-*   CI/CD
+* :black_square_button: Deployment strategies
+* :black_square_button: Rolling back changes
+* :black_square_button: CI/CD
 
 ### Data Storage Strategies
 
-*   Data lakes
-*   Multi-DB implementations
+* :black_square_button: Data lakes
+* :black_square_button: Multi-DB implementations
 
 ---
 
 ## Security
 
 ### Attack Vectors
-*   DDoS, Low & Slow DoS, Financial exhaustion
-*   Event-injection
-*   Dependency-injection
-*   Flow manipulation
-*   Over-privilege exploitation
-*   Stateless breach, cross-execution data persistency
-*   CSRF
-*   Identify theft
+
+* :black_square_button: DDoS, Low & Slow DoS, Financial exhaustion
+* :black_square_button: Event-injection
+* :black_square_button: Dependency-injection
+* :black_square_button: Flow manipulation
+* :black_square_button: Over-privilege exploitation
+* :black_square_button: Stateless breach, cross-execution data persistency
+* :black_square_button: CSRF
+* :black_square_button: Identify theft
 
 ### General Good Practices
 
-*   Adequate logging & monitoring
-*   Input validation
-*   Response sanitization
-*   Dependency check
-*   Access control, least privilege principle
-*   Encryption
-*   Secrets management
-*   Throttling policies
-
+* :black_square_button: Adequate logging & monitoring
+* :black_square_button: Input validation
+* :black_square_button: Response sanitization
+* :black_square_button: Dependency check
+* :black_square_button: Access control, least privilege principle
+* :black_square_button: Encryption
+* :black_square_button: Secrets management
+* :black_square_button: Throttling policies
