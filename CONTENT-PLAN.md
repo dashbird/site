@@ -119,14 +119,13 @@
 
 ### Logging
 
-* :black_square_button: Platform, Runtime & Custom errors
+* :white_check_mark: [Invocation, Function and Runtime errors](https://dashbird.io/knowledge-base/logging/invocation-function-and-runtime-errors/)
 * :black_square_button: What should be logged
 * :black_square_button: Application objects
 * :black_square_button: Privacy concerns
 
 ### Debugging
 
-* :black_square_button: Error alerting
 * :black_square_button: Log navigation & issue discovery
 * :black_square_button: Tracing
 * :black_square_button: Live tailing
@@ -134,6 +133,7 @@
 
 ### Monitoring
 
+* :black_square_button: Error alerting
 * :black_square_button: Setting expected performance thresholds
 * :black_square_button: Policy violation alerting
 * :black_square_button: Tracking scalability issues
