@@ -119,9 +119,9 @@
 
 ### Logging
 
-* :white_check_mark: [Invocation, Function and Runtime errors](https://dashbird.io/knowledge-base/logging/invocation-function-and-runtime-errors/)
-* :white_check_mark: [What should be logged](https://dashbird.io/knowledge-base/logging/what-should-be-logged/)
-* :black_square_button: Application objects
+* :white_check_mark: [Lambda: Invocation, Function and Runtime errors](https://dashbird.io/knowledge-base/logging/lambda-invocation-function-and-runtime-errors/)
+* :white_check_mark: [Lambda: What should be logged](https://dashbird.io/knowledge-base/logging/lambda-what-should-be-logged/)
+* :white_check_mark: [Lambda: Application objects](https://dashbird.io/knowledge-base/logging/lambda-application-objects/)
 * :black_square_button: Privacy concerns
 
 ### Debugging

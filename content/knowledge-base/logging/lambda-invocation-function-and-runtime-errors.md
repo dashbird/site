@@ -1,14 +1,14 @@
 ---
-date: 2019-11-08T10:00:00-03:00
-title: "Invocation, Function and Runtime Errors"
-description: "Types of possible errors in a Lambda function and how to handle them"
+date: 2019-11-13T19:00:00-03:00
+title: "Lambda: Invocation, Function and Runtime Errors"
+description: "Types of possible errors in an AWS Lambda function and how to handle them"
 learning: ["MLogging"]
 learning_weight: 100
 ---
 
 # Invocation Errors
 
-The invocation can raise errors for a variety of reasons[^1]. A few examples are listed below. Invocation errors will make Lambda return a 400-series or 500-series HTTP status code.
+An AWS Lambda invocation can raise errors for a variety of reasons[^1]. A few examples are listed below. Invocation errors will make Lambda return a 400-series or 500-series HTTP status code.
 
 For a complete list of invocation errors, please refer to the AWS documentation[^2].
 
@@ -29,7 +29,7 @@ For a complete list of invocation errors, please refer to the AWS documentation[
 
 # Function Errors
 
-Function errors happen when, for example:
+AWS Lambda Function errors happen when, for example:
 
 * Developer's code raises an exception
 * There is a syntax error in the code preventing the execution

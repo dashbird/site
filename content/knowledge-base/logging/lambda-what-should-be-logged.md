@@ -1,7 +1,7 @@
 ---
-date: 2019-11-08T10:00:00-03:00
-title: "What Should be Logged"
-description: "Best practices for what to log in Lambda applications"
+date: 2019-11-13T19:28:00-03:00
+title: "Lambda: What Should be Logged"
+description: "Best practices for what to log in an AWS Lambda function"
 learning: ["MLogging"]
 learning_weight: 200
 ---
