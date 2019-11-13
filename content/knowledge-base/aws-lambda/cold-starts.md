@@ -47,4 +47,4 @@ There are open source projects to help with those two approaches:
 # Footnotes
 
 [^1]:
-     Refer to the [Programming Model > microVM]() page for more information.
+     Refer to the [Programming Model > microVM](https://dashbird.io/knowledge-base/aws-lambda/programming-model/#microvm) page for more information.
