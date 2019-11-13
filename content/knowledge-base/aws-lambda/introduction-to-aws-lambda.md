@@ -33,7 +33,7 @@ Lambda supports the following runtimes by default:
 * Ruby 2.5
 * Rust
 
-Developers can implement any other custom runtime of their choosing. The custom runtime will run in the Lambda execution environment. It can be a shell scrit or an executable binary [^3].
+Developers can implement any other custom runtime of their choosing. The custom runtime will run in the Lambda execution environment. It can be a shell scrit or an executable binary[^3].
 
 
 # Anatomy of a Lambda function
@@ -70,7 +70,7 @@ After the free tier, it costs $0.20 per 1 million requests and $0.00001667 for e
     [At 1,792 MB, a function has the equivalent of 1 full vCPU (one vCPU-second of credits per second)](https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html)
 
 [^3]:
-    More info about the AWS Lambda Context Object in [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-context-object.html), [NodeJS](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-context.html), [JAVA](https://docs.aws.amazon.com/lambda/latest/dg/java-context-object.html), [Golang](https://docs.aws.amazon.com/lambda/latest/dg/go-programming-model-context.html), and [C#](https://docs.aws.amazon.com/lambda/latest/dg/dotnet-context-object.html)
+    [Custom AWS Lambda Runtimes documentation](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html)
 
 [^4]:
-    [Custom AWS Lambda Runtimes documentation](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html)
+    More info about the AWS Lambda Context Object in [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-context-object.html), [NodeJS](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-context.html), [JAVA](https://docs.aws.amazon.com/lambda/latest/dg/java-context-object.html), [Golang](https://docs.aws.amazon.com/lambda/latest/dg/go-programming-model-context.html), and [C#](https://docs.aws.amazon.com/lambda/latest/dg/dotnet-context-object.html)

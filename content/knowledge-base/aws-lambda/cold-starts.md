@@ -6,17 +6,9 @@ learning: ["BAWS Lambda"]
 learning_weight: 900
 ---
 
-# Lambda Model
-
-A Lambda function runs inside a microVM[^1]. When an invocation is received, Lambda will launch a new container and load the code package in memory to serve the request. The time taken by this process is called startup time.
-
-The microVM is **not terminated immediately** after it finishes serving its request. Lambda usually keeps the microVM alive from a few minutes up to an hour.
-
-Each Lambda function may have multiple active microVMs at any given point in time. If Lambda receives ten concurrent requests for the same function, it will need to provision ten microVMs to serve them in parallel. Those ten microVMs will remain active for some time after they finish serving the requests.
-
 # What are Cold Starts
 
-When a function is invoked, Lambda checks whether a microVM is already active. If there's an idle microVM available, it will be used to serve the new incoming request. In this particular case, there is no startup time, since the microVM was already up and had the code package in memory. This is called **warm start**.
+When a function is invoked, Lambda checks whether a microVM[^1] is already active. If there's an idle microVM available, it will be used to serve the new incoming request. In this particular case, there is no startup time, since the microVM was already up and had the code package in memory. This is called **warm start**.
 
 The opposite - having to provision a new microVM from scratch to serve an incoming request - is called **cold start**.
 
@@ -55,4 +47,4 @@ There are open source projects to help with those two approaches:
 # Footnotes
 
 [^1]:
-     A _microVM_ is a _micro virtual machine_. For more information, please check the [AWS announcement](https://aws.amazon.com/about-aws/whats-new/2018/11/firecracker-lightweight-virtualization-for-serverless-computing/) about [Firecracker](https://firecracker-microvm.github.io/), the underlying virtualization technology that manages microVMs for AWS Lambda.
+     Refer to the [Programming Model > microVM]() page for more information.
