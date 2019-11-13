@@ -14,14 +14,14 @@
 * :white_check_mark: [Use cases for AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/use-cases/)
 * :black_square_button: Getting started with AWS Lambda
 * :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
-* :black_square_button: Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits)
+* :black_square_button: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model.md/)
 * :black_square_button: Invocation methods & integrations
 * :black_square_button: Scalability and concurrency
-* :black_square_button: Layers
-* :black_square_button: Cold starts
+* :black_square_button: [Lambda Layers]((https://dashbird.io/knowledge-base/aws-lambda/lambda-layers/))
+* :white_check_mark: [Cold starts](https://dashbird.io/knowledge-base/aws-lambda/cold-starts/)
 * :black_square_button: Retries & Idempotency
 * :black_square_button: Function versioning
-* :black_square_button: Resource allocation & performance
+* :white_check_mark: [Resource allocation & performance](https://dashbird.io/knowledge-base/aws-lambda/resource-allocation-and-performance/)
 * :black_square_button: Methods for automating deployment
 
 ### API Gateway
