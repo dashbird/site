@@ -1,11 +1,3 @@
-<!-- 
-    Dashbird is a monitoring and debugging platform for serverless applications
-    https://dashbird.io
-
-    Cloud Knowledge Base is an initiative to organize and share content about cloud application development in a single, open repository.
-
-    Atom syndication specs: https://validator.w3.org/feed/docs/atom.html
- -->
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Dashbird Cloud Knowledge Base</title>
