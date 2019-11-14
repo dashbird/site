@@ -90,9 +90,10 @@ I'm trying not to biased here into saying that serverless is better because it's
 <img src="https://cdn-images-1.medium.com/max/2400/1*P5fcQwn4vOs0mSsyffa_Jw.png">
 <span style="
     text-align: center;
+    font-size: small;
     margin: 10px auto 0;
 ">Checkout Cloudflare's <a href="https://www.cloudflare.com/learning/serverless/serverless-vs-containers/">post</a> on serverless vs containers. There are some really cool insights about this particular subject.</span>
 
-Checkout Cloudflare's post on serverless vs containers. There are some really cool insights about this particular subject.But I digress, monolithic architectures and serverless architectures can be very different ways of computing. Even so, that doesn't mean you can't use them together, and when you do use them together, you can create a method of cloud computing that is not only powerful and reliable but also more efficient than if you used any method by itself.
+But I digress, monolithic architectures and serverless architectures can be very different ways of computing. Even so, that doesn't mean you can't use them together, and when you do use them together, you can create a method of cloud computing that is not only powerful and reliable but also more efficient than if you used any method by itself.
 
 As you can see, monolithic architectures and serverless architectures can be very different ways of computing. Even so, that doesn't mean you can't use them together, and when you do use them together, you can create a method of cloud computing that is not only powerful and reliable but also more efficient than if you used any method by itself. 
