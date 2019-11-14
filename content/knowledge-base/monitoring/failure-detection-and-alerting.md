@@ -52,7 +52,7 @@ In [Dashbird](https://dashbird.io/?utm_source=dashbird-site&utm_medium=article&u
 
 ![Dashbird Error States](/images/docs/error-states.png)
 
-Another benefit is setting up custom alerting policies. Developers can control which AWS Lambda functions to monitor, for example. Perhaps testing and experimental functions can be igored, but production ones must be monitored closely.
+Another benefit is setting up custom alerting policies. Developers can control which AWS Lambda functions to monitor, for example. Perhaps testing and experimental functions can be ignored, but production ones must be monitored closely.
 
 The screenshot below illustrates a policy to monitor timeout failures in a given Lambda functions.
 
