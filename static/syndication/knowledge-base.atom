@@ -1,0 +1,87 @@
+<!-- 
+    Dashbird is a monitoring and debugging platform for serverless applications
+    https://dashbird.io
+
+    Cloud Knowledge Base is an initiative to organize and share content about cloud application development in a single, open repository.
+
+    Atom syndication specs: https://validator.w3.org/feed/docs/atom.html
+ -->
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Dashbird Cloud Knowledge Base</title>
+    <subtitle>An open repository with basic and advanced content to learn modern cloud application development</subtitle>
+    <link href="https://www.dashbird.io/syndication/knowledge-base.rss" />
+    <language>en-us</language>
+    <category term="software"/>
+    <author>
+        <name>Renato Byrro</name>
+        <email>renato@dashbird.io</email>
+        <uri>https://www.linkedin.com/in/renatobyrro</uri>
+    </author>
+    <updated>2019-11-14T17:06:00Z</updated>
+    <icon>/images/dashbird-logo.png</icon>
+    <logo>/images/dashbird-wordmark@2x.png</logo>
+    <ttl>86400</ttl>
+    <entry
+        <title>Basic Concepts: What is Serverless</title>
+        <link href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/" />
+        <summary>What defines a serverless system, main characteristics and how it operates</summary>
+        <id>/knowledge-base/basic-concepts/what-is-serverless</id>
+        <pubDate>2019-11-04T06:21:00Z</pubDate>
+        <updated>2019-11-04T06:21:00</updated>
+        <author>
+            <name>Renato Byrro</name>
+            <email>renato@dashbird.io</email>
+            <uri>https://www.linkedin.com/in/renatobyrro</uri>
+        </author>
+    </entry>
+    <entry>
+        <title>Basic Concepts: Serverless Advantages and Use Cases</title>
+        <link href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/" />
+        <summary>Why use serverless? Breakdown of the advantages of serverless over traditional server-centric infrastructure. Overview of the common use cases of serverless.</summary>
+        <id>/knowledge-base/basic-concepts/serverless-advantages-and-use-cases</id>
+        <pubDate>2019-11-05T13:00:14Z</pubDate>
+        <updated>2019-11-05T13:00:14Z</updated>
+        <author>
+            <name>Taavi Rehemägi</name>
+            <email>taavi@dashbird.io</email>
+            <uri>https://www.linkedin.com/taavi-rehemägi-1a788445</uri>
+        </author>
+        <contributor>
+            <name>Renato Byrro</name>
+            <email>renato@dashbird.io</email>
+            <uri>https://www.linkedin.com/in/renatobyrro</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title>AWS Lambda: Introduction</title>
+        <link href="https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/" />
+        <summary>What is AWS Lambda and how it works.</summary>
+        <id>/knowledge-base/aws-lambda/introduction-to-aws-lambda</id>
+        <pubDate>2019-11-08T14:44:23Z</pubDate>
+        <updated>2019-11-08T14:44:23Z</updated>
+        <author>
+            <name>Taavi Rehemägi</name>
+            <email>taavi@dashbird.io</email>
+            <uri>https://www.linkedin.com/taavi-rehemägi-1a788445</uri>
+        </author>
+        <contributor>
+            <name>Renato Byrro</name>
+            <email>renato@dashbird.io</email>
+            <uri>https://www.linkedin.com/in/renatobyrro</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title>Monitoring: Failure Detection and Alerting</title>
+        <link href="https://dashbird.io/knowledge-base/monitoring/failure-detection-and-alerting/" />
+        <summary>Program a proactive alerting system to stay on top of the serverless stack.</summary>
+        <id>/knowledge-base/monitoring/failure-detection-and-alerting</id>
+        <pubDate>2019-11-13T22:41:00</pubDate>
+        <updated>2019-11-13T22:41:00</updated>
+        <author>
+            <name>Renato Byrro</name>
+            <email>renato@dashbird.io</email>
+            <uri>https://www.linkedin.com/in/renatobyrro</uri>
+        </author>
+    </entry>
+</feed>
