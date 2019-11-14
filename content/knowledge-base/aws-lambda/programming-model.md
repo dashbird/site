@@ -1,12 +1,12 @@
 ---
 date: 2019-11-13T15:09:00-03:00
 title: "Programming Model"
-description: ""
+description: "Main aspects of the Lambda architecture that impact application development"
 learning: ["BAWS Lambda"]
 learning_weight: 500
 ---
 
-# microVM
+# Lambda Virtualization Technology
 
 A Lambda function runs inside a microVM (_micro virtual machine_)[^1]. When an invocation is received, Lambda will launch a new microVM and load the code package in memory to serve the request. The time taken by this process is called startup time.
 
