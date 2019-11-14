@@ -3,23 +3,36 @@
 {{ $currentPage := .  }}
 <section class="container-fluid bg-white">
 
-  <div class="row h-300 align-items-center blue-bg">
+  <div class="d-none d-md-block row h-300 align-items-center blue-bg">
     <div class='col-6 text-center'>
       <h1>Cloud Knowledge Base</h1>
     </div>
     <div class='col-6 text-justify border-left px-4 py-2 text-white'>
       <div class='col-10 mx-auto'>
         <p class='text-light-gray'>Dashbird is a monitoring platform that ensures efficiency for modern cloud infrastructures by delivering alerts, insights and activity visualisation.</p>
+        <a href='/#register' class='btn btn-primary mt-1'>Start a Free Trial</a>
+        <a href='/' class='btn btn-light ml-2 mt-1'>Learn more</a>
       </div>
     </div>
   </div>
 
-  <div class="row kb-links d-flex py-5 mx-5">
+  <div class="d-block d-md-none row blue-bg">
+    <div class='col-12 py-5 text-center border-bottom'>
+      <h1>Cloud Knowledge Base</h1>
+    </div>
+    <div class='col-12 text-center pt-3 pb-4 text-white'>
+        <p class='text-light-gray text-justify'>Dashbird is a monitoring platform that ensures efficiency for modern cloud infrastructures by delivering alerts, insights and activity visualisation.</p>
+        <a href='/#register' class='btn btn-primary mt-1'>Start a Free Trial</a>
+    </div>
+  </div>
+
+
+  <div class="row kb-links d-flex py-5">
     {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
-    <div class='col-8 my-2 mb-2 mx-auto'>
+    <div class='col-12 col-md-8 my-2 mb-2 mx-auto'>
       {{ $firstPage := index ($taxonomy) 0 }}
       <h4 class='border-bottom'>{{ substr (index ($firstPage.Params.learning) 0) 1 }}</h4>
-      <div class='mt-3 ml-3'>
+      <div class='mt-3'>
         <ol>
       {{ range $taxonomy }}
         <a href="{{ .Page.Permalink }}" class="align-items-start">
