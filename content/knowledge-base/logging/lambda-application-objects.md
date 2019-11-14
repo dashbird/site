@@ -18,7 +18,7 @@ Logging application objects from a Lambda function code can be useful in a varie
 
 As discussed in the AWS Lambda Programming Model[^1] page, AWS Lambda logs are stored in CloudWatch Logs. It can automatically detect a JSON string and format it for easy visualization in the AWS Console.
 
-External debugging platforms - such as Dashbird - will offer enhanced visualization for JSON strings, with support to expand and collapse object nodes.
+External debugging platforms - such as [Dashbird](https://dashbird.io/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=logging) - will offer enhanced visualization for JSON strings, with support to expand and collapse object nodes.
 
 For that reason, it is recommended to create a JSON-serializable version of all relevant objects and classes in the code. This way they can be easily logged and inspected in any debugging tool. Having a method for JSON-serialization (e.g. `object.to_json()`) would be ideal to standardize the implementation across the application functions.
 
