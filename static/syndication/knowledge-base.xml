@@ -4,7 +4,7 @@
     <updated>2019-11-14T17:06:00Z</updated>
     <title>Dashbird Cloud Knowledge Base</title>
     <subtitle>An open repository with basic and advanced content to learn modern cloud application development</subtitle>
-    <link rel="self" href="https://www.dashbird.io/syndication/knowledge-base.rss" />
+    <link rel="self" href="https://dashbird.io/syndication/knowledge-base.xml" />
     <category term="Software Development"/>
     <author>
         <name>Renato Byrro</name>
@@ -19,7 +19,7 @@
         <summary>What defines a serverless system, main characteristics and how it operates</summary>
         <id>https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/</id>
         <published>2019-11-04T06:21:00Z</published>
-        <updated>2019-11-04T06:21:00</updated>
+        <updated>2019-11-04T06:21:00Z</updated>
         <author>
             <name>Renato Byrro</name>
             <email>renato@dashbird.io</email>
