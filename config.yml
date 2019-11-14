@@ -25,9 +25,9 @@
         identifier: 'pricing'
         URL: '/pricing/'
         weight: 300
-      - name: 'Resources'
-        identifier: 'resources'
-        URL: '/resources/'
+      - name: 'Knowledge Base'
+        identifier: 'knowledge-base'
+        URL: '/knowledge-base/'
         weight: 300
   params:
     thumbnail: "images/screens/slogan.jpg"
