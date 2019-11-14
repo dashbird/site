@@ -14,14 +14,14 @@
 * :white_check_mark: [Use cases for AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/use-cases/)
 * :black_square_button: Getting started with AWS Lambda
 * :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
-* :black_square_button: Programming Model (micro-container, runtime, handler, event, context, logging, stateless, limits)
-* :black_square_button: Invocation methods & integrations
+* :white_check_mark: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model/)
+* :white_check_mark: [Invocation methods and integrations](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/)
 * :black_square_button: Scalability and concurrency
-* :black_square_button: Layers
-* :black_square_button: Cold starts
-* :black_square_button: Retries & Idempotency
+* :black_square_button: Lambda Layers
+* :white_check_mark: [Cold starts](https://dashbird.io/knowledge-base/aws-lambda/cold-starts/)
+* :white_check_mark: [Retries & Idempotency](https://dashbird.io/knowledge-base/aws-lambda/retries-and-idempotency/)
 * :black_square_button: Function versioning
-* :black_square_button: Resource allocation & performance
+* :white_check_mark: [Resource allocation & performance](https://dashbird.io/knowledge-base/aws-lambda/resource-allocation-and-performance/)
 * :black_square_button: Methods for automating deployment
 
 ### API Gateway
@@ -119,14 +119,13 @@
 
 ### Logging
 
-* :black_square_button: Platform, Runtime & Custom errors
-* :black_square_button: What should be logged
-* :black_square_button: Application objects
+* :white_check_mark: [Lambda: Invocation, Function and Runtime errors](https://dashbird.io/knowledge-base/logging/lambda-invocation-function-and-runtime-errors/)
+* :white_check_mark: [Lambda: What should be logged](https://dashbird.io/knowledge-base/logging/lambda-what-should-be-logged/)
+* :white_check_mark: [Lambda: Application objects](https://dashbird.io/knowledge-base/logging/lambda-application-objects/)
 * :black_square_button: Privacy concerns
 
 ### Debugging
 
-* :black_square_button: Error alerting
 * :black_square_button: Log navigation & issue discovery
 * :black_square_button: Tracing
 * :black_square_button: Live tailing
@@ -134,6 +133,7 @@
 
 ### Monitoring
 
+* :black_square_button: Error alerting
 * :black_square_button: Setting expected performance thresholds
 * :black_square_button: Policy violation alerting
 * :black_square_button: Tracking scalability issues
