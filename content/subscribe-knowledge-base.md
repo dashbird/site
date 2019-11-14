@@ -201,10 +201,6 @@ title: "Subscribe to Knowledge Base Updates"
     </div>
 </section>
 
-<div id="download" class="download-book">
-    <div class="_form_23"></div><script src="https://dashbird.activehosted.com/f/embed.php?id=23" type="text/javascript" charset="utf-8"></script>
-</div>
-
 <script type="text/javascript">
 window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url) {
