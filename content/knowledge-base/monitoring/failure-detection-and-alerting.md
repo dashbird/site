@@ -58,7 +58,7 @@ The screenshot below illustrates a policy to monitor timeout failures in a given
 
 ![Dashbird Policy Error Alerting](/images/docs/error-alert-policy.png)
 
-The Dashbird documentation provides more details on the [Enabling Error Alerting](https://dashbird.io/docs/quickstart/enable-alerting/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=logging) features and [Notification Channels](https://dashbird.io/docs/quickstart/integrations/).
+The Dashbird documentation provides more details on the [Enabling Error Alerting](https://dashbird.io/docs/quickstart/enable-alerting/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=logging) features and [Notification Channels](https://dashbird.io/docs/quickstart/integrations/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=logging).
 
 
 ---
