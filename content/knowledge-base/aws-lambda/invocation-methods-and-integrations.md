@@ -98,7 +98,7 @@ Amazon Kinesis Data Firehose can automatically transform data received through s
      [Lambda API Reference](https://docs.aws.amazon.com/lambda/latest/dg/API_Reference.html)
 
 [^2]:
-     [AWS SDKs and Programming Toolkits](https://aws.amazon.com/tools/
+     [AWS SDKs and Programming Toolkits](https://aws.amazon.com/tools/)
 
 [^3]:
      [Asynchronous Invocation](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)

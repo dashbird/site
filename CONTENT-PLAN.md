@@ -129,13 +129,12 @@
 * :black_square_button: Log navigation & issue discovery
 * :black_square_button: Tracing
 * :black_square_button: Live tailing
-* :black_square_button: Debugging microservices functions
+* :black_square_button: Debugging Microservices Architectures
 
 ### Monitoring
 
-* :black_square_button: Error alerting
-* :black_square_button: Setting expected performance thresholds
-* :black_square_button: Policy violation alerting
+* :white_check_mark: [Failure Detection and Alerting](https://dashbird.io/knowledge-base/monitoring/failure-detection-and-alerting/)
+* :black_square_button: Policy and Performance Management
 * :black_square_button: Tracking scalability issues
 
 ### Compute & Data Flow
