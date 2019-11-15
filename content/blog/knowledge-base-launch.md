@@ -1,7 +1,7 @@
 ---
 title: Launching our knowledge base
 description: A place where you can find anything from simple definitions to advanced serverless tips.
-date: 2019-11-05
+date: 2019-11-15
 frontImage: "2019-11-15/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg"
 thumbnail: "images/blog/2019-11-15/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg"
 authorlink: 'https://twitter.com/@johndemian'
