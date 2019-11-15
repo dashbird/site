@@ -32,10 +32,16 @@
   params:
     thumbnail: "images/screens/slogan.jpg"
     blog:
-      title: "Dashbird - Lambda & Serverless Examples, Guides and Hot Topics"
+      title: "Dashbird Blog - Serverless News, Tutorials and Case Studies"
       description: "Team behind the best Serverless monitoring software share their thoughts about development."
       canonical: "/blog/"
-      date: 2017-11-05T17:50:03+02:00
+      date: 2019-11-05T17:50:03+02:00
+    kb:
+      title: "Cloud Knowledge Base - Dashbird"
+      description: "Learn about the latest cloud technologies, how to use them and how to fix commong problems."
+      canonical: "/knowledge-base/"
+      date: 2019-11-05T17:50:03+02:00
+
   taxonomies:
     blog: "blog"
     kbSeries: "kbSeries"
