@@ -35,7 +35,8 @@
       <h4 class='border-bottom'>{{ substr (index ($firstPage.Params.learning) 0) 1 }}</h4>
       <div class='mt-3'>
         <ol>
-      {{ range $taxonomy }}
+      {{ range $pa := $taxonomy }}
+      {{ $pa }}
         <a href="{{ .Page.Permalink }}" class="align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <li><b class="mb-1">{{ .Params.Title }}</b></li>
