@@ -3,13 +3,13 @@
 <section class="container-fluid bg-white">
 
   <div class="row h-400 align-items-center blue-bg">
-    <div class='col-12 col-md-6'>
-      <h1 class='text-center text-md-left'>{{ .Title }}</h1>
-      <p class='text-light text-center text-md-left'><i>{{ .Description }}</i></p>
+    <div class='col-12 col-md-6 text-center text-md-left pl-md-5'>
+      <h1 class=''>{{ .Title }}</h1>
+      <p class='text-light'><i>{{ .Description }}</i></p>
     </div>
     <div class='d-none d-md-block col-6 text-justify border-left px-4 py-4 text-white'>
       <div class='col-10 mx-auto'>
-        <p class='text-light-gray'>Dashbird is a monitoring platform that ensures efficiency for modern cloud infrastructures by delivering alerts, insights and activity visualisation.</p>
+        <p class='text-light-gray'>Dashbird is a monitoring platform for monitoring modern cloud infrastructure by providing alerts, insights and data visualisation.</p>
         <div>
           <a href='/register/' class='btn btn-primary mt-1'>Start a Free Trial</a>
           <a href='/' class='btn btn-light ml-2 mt-1'>Learn more</a>
@@ -26,30 +26,7 @@
   </div>
 
   <div class="row justify-content-center">
-    <div class='col-12 mx-auto m-w-900 mt-5'>
-      {{ if .Params.learning }}
-        {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
-        {{ $currentPermalink := .Permalink }}
-        {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
-          {{ if eq $subject $currentTaxonomy}}
-            {{ range $index, $key := $taxonomy }}
-              {{ if eq $currentPermalink .Permalink }}
-                {{ $prevIndex := sub $index 1 }}
-                {{ $nextIndex:= add $index 1 }}
-                {{ $prev := index ($taxonomy) $prevIndex }}
-                {{ $next := index ($taxonomy) $nextIndex }}
-                {{ if $prev }}<a href='{{$prev.Permalink}}' class='float-left d-inline w-50 w-md-100'>⟵ {{ $prev.Title }} </a>{{ end }}
-                {{ if $next }}<a href='{{$next.Permalink}}' class='pull-right text-right w-50 w-md-100'>{{ $next.Title }} ⟶</a> <br>{{ end }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
-
-  <div class="row justify-content-center">
-    <div class='col-12 col-md-10 mx-auto text-justify imgs-fluid m-w-900 pt-5'>
+    <div class='col-12 col-md-10 mx-auto text-justify imgs-fluid m-w-900 pt-3'>
       {{ .Content }}
     </div>
   </div>
