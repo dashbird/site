@@ -8,10 +8,7 @@ learning_weight: 100
 
 ## What is an API Gateway 
 
-An API(2) gateway is an interface that sits in front of applications as an entry point for a predefined group of microservices(1). The Gateway handles API calls in a couple of ways. Some are going to be handed to a single service while others will be proxied off to multiple services based on predefined logic.
-
-
-
+An Api Gateway is an interface that sits in between the application and the micro services. Developers use them to create, publish, maintain, monitor and secure API's.
 
 ![alt_text](images/with-apigw.jpg "image_tooltip")
 
