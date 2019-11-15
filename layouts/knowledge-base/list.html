@@ -28,9 +28,6 @@
 
 
   <div class="row kb-links d-flex py-5">
-    {{ range $p := .Site.Taxonomies }}
-       {{ $p }}
-    {{ end }}
     {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
     <div class='col-12 col-md-8 my-2 mb-2 mx-auto'>
       {{ $firstPage := index ($taxonomy) 0 }}
