@@ -53,6 +53,31 @@
       {{ end }}
     </div>
   </div>
+
+  <div class="row justify-content-center">
+    <div class='col-12 mx-auto m-w-900 mt-5'>
+      {{ if .Params.learning }}
+      <h3>Learn more about {{ substr (index (.Params.learning) 0) 1 }} </h3>
+        <ol>
+        {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
+        {{ $currentPermalink := .Permalink }}
+        {{ range $subject, $taxonomy := .Site.Taxonomies.learning }}
+          {{ if eq $subject $currentTaxonomy}}
+            {{ range $taxonomy }}
+              <a href="{{ .Page.Permalink }}" class="align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <li><b class="mb-1">{{ .Params.Title }}</b></li>
+                </div>
+                <p class="mb-1 ml-1 text-secondary">{{ .Params.Description }}</p>
+              </a>
+           {{ end }}
+          {{ end }}
+        {{ end }}
+        </ol>
+      {{ end }}
+    </div>
+  </div>
+
   
 </section>
 
