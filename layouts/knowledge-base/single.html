@@ -21,8 +21,6 @@
     <div class='col-12 mx-auto m-w-900'>
       <a href='/knowledge-base/'>Knowledge Base</a>
       <i class="fa fa-arrow-right mx-2" style='color: #cccccc;'></i>
-
-        {{ $currentTaxonomy := urlize (index (.Params.learning) 0) }}
       <a href='{{ .Permalink }}'>{{ .Title }}</a>
     </div>
   </div>
