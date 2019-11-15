@@ -21,6 +21,10 @@
     <div class='col-12 mx-auto m-w-900'>
       <a href='/knowledge-base/'>Knowledge Base</a>
       <i class="fa fa-arrow-right mx-2" style='color: #cccccc;'></i>
+      {{ if .Params.learning }}
+        {{ substr (index (.Params.learning) 0) 1 }} </h3>
+        <i class="fa fa-arrow-right mx-2" style='color: #cccccc;'></i>
+      {{ end }}
       <a href='{{ .Permalink }}'>{{ .Title }}</a>
     </div>
   </div>
