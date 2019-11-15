@@ -7,17 +7,13 @@ learning_weight: 100
 ---
 
 ## What is an API Gateway 
-
 An Api Gateway is an interface that sits in between the application and the micro services. Developers use them to create, publish, maintain, monitor and secure API's.
 
 ![alt_text](images/with-apigw.jpg "image_tooltip")
 
-
 Without using an API Gateway you’d have to connect all your API resources directly with your user-facing applications which would make it more difficult to manage responses, implement updates to your business logic or even secure your API.
 
-
-
-![alt_text](images/no-api-gateway.jpg "image_tooltip")
+![Without API Gateway](/images/knowledge-base/api-gateway/no-api-gateway.jpg)
 
 
 Not only will the APIGateway simplify the way you build and manage API’s but it will boost your security since you are not exposing any endpoints, minimizing the attack vector considerably
