@@ -26,16 +26,14 @@
 
 ### API Gateway
 
-* :black_square_button: Overview and main concepts
-* :black_square_button: API Gateway use cases and benefits
-    * Security and access control
-    * REST API to encapsulate backend services
-    * Loose-coupling internal microservices
-    * Real-time apps with socket connections
-* :black_square_button: Integrating backend services with API Gateway
-    * Lambda, S3, Kinesis, DynamoDB, HTTP
-* :black_square_button: Getting started with API Gateway
-* :black_square_button: Monitoring API health and performance
+* :black_square_button: What is API Gateway (definition, basic example, pricing)
+* :black_square_button: Getting started with API Gateway (setup with serverless framework, code examples)
+* :black_square_button: Proxy integration vs. non-proxy integration
+* :black_square_button: Authorization with API Gateway (authorizer lambda and how to use/set up/implications)
+* :black_square_button: Monitoring and debugging API Gateway (logs, metrics, failure types and what they mean)
+* :black_square_button: API Gateway vs AWS ALB (cheapness, performance, other differences)
+* :black_square_button: API Gateway Limits https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html
+* :black_square_button: Use cases for API Gateway https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html
 
 ### AppSync (Graph API)
 
