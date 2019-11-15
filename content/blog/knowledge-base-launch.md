@@ -8,6 +8,7 @@ authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["Serverless", "Tutorials"]
+featloc: blog-header
 ---
 It’s been a long time in the making but after months of pushing it on the back burner, we are finally ready to release our news project.
 
@@ -24,8 +25,7 @@ Knowledge Base covers everything related to web and mobile development. From bas
 It’s still a work in progress and we’ll try to expand it as we move forward with more tutorials and tips that should help both the new serverless developers that are just getting started as well as the more seasoned developers that have been working with serverless since day 1.
 
 
-
-![alt_text](/images/blog/2019-11-15/kb-snapshot.png "image_tooltip")
+![alt_text](/images/blog/2019-11-15/kb-snapshot.png "Knowledge base")
 
 
 Suggestions and contributions from the development community are more than welcome. Please [create an issue](https://github.com/dashbird/site/issues) if you have anything to share!
