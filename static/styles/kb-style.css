@@ -34,6 +34,12 @@ html{
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
   }
+
+  .imgs-fluid img {
+    max-width: 100%;
+    height: auto;
+  }
+
   blockquote:before {
     color: #F4D1E2;
     content: open-quote;

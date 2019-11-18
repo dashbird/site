@@ -12,7 +12,7 @@ aliases:
 
 By using **public AWS APIs** to fetch data from your AWS account, we produce actionable metrics and detailed data **without the need of editing any code!**
 
-For it to work, Dashbird needs **limited** read access to your AWS account to collect the data. You give Dashbird access by using our custom made onboarding flow. It will create a CloudFormation template that sets up all necessary policies and roles. [Click here to find detailed instructions.](/docs/get-started/quick-start/)
+For it to work, Dashbird needs **limited** read access to your AWS account to collect the data. You give Dashbird access by using our custom made onboarding flow. It will create a CloudFormation template that sets up all necessary policies and roles. [Click here to find detailed instructions.](https://dashbird.io/docs/#under-the-hood)
 
 ### Which functions are we importing?
 
