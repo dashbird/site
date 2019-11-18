@@ -1,5 +1,5 @@
 ---
-date: 2019-11-13T11:00:00-03:00
+date: 2019-11-18T09:00:00-03:00
 title: "Lambda Layers"
 description: "What are Lambda Layers and how to use them"
 learning: ["BAWS Lambda"]
@@ -77,6 +77,10 @@ Layers are loaded in the `/opt` directory within a Lambda MicroVM[^1]. All runti
 ## Sharing Layers
 
 Layers can be shared by functions inside an AWS account, within an organization or even across multiple accounts[^2]. To access a Layer, the Lambda function will need permission to call `GetLayerVersion` on the verion of Layer attached to it.
+
+---
+
+# Footnotes
 
 [^1]:
      Check the [Programming Model](/knowledge-base/lambda/programming-model/#lLambda-vVirtualization-technology) page for more information on Lambda MicroVM.
