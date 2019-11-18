@@ -25,7 +25,7 @@
 * :white_check_mark: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model/)
 * :white_check_mark: [Invocation methods and integrations](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/)
 * :white_check_mark: [Resilience](https://dashbird.io/knowledge-base/aws-lambda/resilience/)
-* :black_square_button: [Scalability and concurrency](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/)
+* :white_check_mark: [Scalability and concurrency](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/)
 * :white_check_mark: [Lambda Layers](https://dashbird.io/knowledge-base/aws-lambda/lambda-layers/)
 * :white_check_mark: [Cold starts](https://dashbird.io/knowledge-base/aws-lambda/cold-starts/)
 * :white_check_mark: [Retries & Idempotency](https://dashbird.io/knowledge-base/aws-lambda/retries-and-idempotency/)
