@@ -40,6 +40,16 @@ Below is an outline of the implementation:
 
 For a detailed walk-through, please check this [AWS blog post](https://aws.amazon.com/blogs/compute/building-a-multi-region-serverless-application-with-amazon-api-gateway-and-aws-lambda/).
 
+# Reserved Concurrency
+
+Lambda can scale very quickly to accommodate hundreds or thousands of concurrent requests to multiple functions. To protect the entire platform from abuse and DoS attacks, there is a limit to how much it can scale. The default value is 1,000 concurrent requests (burstable to 3,000 to cope with short peaks).
+
+It is very common that applications will rely on multiple functions. If a single function scales up to 1,000 concurrent requests, it will prevent all others from being executed. To avoid this type of scenario, Lambda provides Reserved Concurrency. Read more about it in the [Scalability and Concurrency](/knowledge-base/aws-lambda/scalability-and-concurrency/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda) page.
+
+# Dead-Letter-Queue
+
+When asynchronous invocations fail, Lambda may retry the request multiple times[^8]. When the last retry still fails, Lambda can be configured to send the request payload to a Dead-Letter Queue (DLQ). This queue can store messages for several days[^9], which allows developers to inspect failed requests, possibly fix the causes of failure and replay them.
+
 
 ---
 
@@ -65,3 +75,9 @@ For a detailed walk-through, please check this [AWS blog post](https://aws.amazo
 
 [^7]:
      [AWS Lambda Function Aliases](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html)
+
+[^8]:
+     Refer to the [Retries and Idempotency](/knowledge-base/aws-lambda/retries-and-idempotency/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda) page for more details.
+
+[^9]:
+     At the time of writing, [SQS message retention limit was 14 days](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html#limits-messages). Please check the documentation link for up-to-date information.
