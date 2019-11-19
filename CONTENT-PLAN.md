@@ -8,6 +8,14 @@
 * :white_check_mark: [Advantages & suitable use cases](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 * :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 
+### AWS Cloud
+
+* :black_square_button: AWS Overview
+* :white_check_mark: [Global Infrastructure](https://dashbird.io/knowledge-base/aws-cloud/global-infrastructure/)
+* :black_square_button: Well-Architected[^1]
+* :black_square_button: AWS Tooling[^2]
+* :black_square_button: Marketplace
+
 ### Lambda (Compute)
 
 * :white_check_mark: [Introduction to AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/)
@@ -16,8 +24,9 @@
 * :white_check_mark: [Advantages, Challenges & Solutions](https://dashbird.io/knowledge-base/aws-lambda/advantages-challenges-solutions/)
 * :white_check_mark: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model/)
 * :white_check_mark: [Invocation methods and integrations](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/)
-* :black_square_button: Scalability and concurrency
-* :black_square_button: Lambda Layers
+* :white_check_mark: [Resilience](https://dashbird.io/knowledge-base/aws-lambda/resilience/)
+* :black_square_button: [Scalability and concurrency](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/)
+* :white_check_mark: [Lambda Layers](https://dashbird.io/knowledge-base/aws-lambda/lambda-layers/)
 * :white_check_mark: [Cold starts](https://dashbird.io/knowledge-base/aws-lambda/cold-starts/)
 * :white_check_mark: [Retries & Idempotency](https://dashbird.io/knowledge-base/aws-lambda/retries-and-idempotency/)
 * :black_square_button: Function versioning
@@ -177,3 +186,13 @@
 * :black_square_button: Encryption
 * :black_square_button: Secrets management
 * :black_square_button: Throttling policies
+
+---
+
+# Fotnotes
+
+[^1]:
+     [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) resources
+
+[^2]:
+     [Developer Center](https://aws.amazon.com/developer/)
