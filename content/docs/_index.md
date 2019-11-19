@@ -11,38 +11,52 @@ Dashbird is a service to **monitor**, **debug** and **improve** your lambda func
 
 Serverless architecture fundamentally changes how we build, deploy and maintain software. Although AWS CloudWatch can be used to monitor Lambda functions, for example, it was not designed specifically for it, and Dashbird fills the gaps left by CloudWatch and other traditional tools.
 
-### Register your account
-If you haven’t already, start by filling out the <a href="/register">registration form</a>. In case you’ve already done that plese <a href="https://app.dashbird.io/auth/login" target="_blank">sign in here</a> and continue to the next step.
+### Core Benefits
 
-### Deploy Dashbird’s client-side code to your AWS account
-<img src="https://dashbird.io/images/docs/onboarding.png">
+Dashbird provides an overview of all lambda executions across your entire account in a single view:
 
+<img alt='Main dashboard' src='/images/docs/lambda-functions-overview.png'>
 
-<em>Dashbird works by collecting logs, metrics and listing resources under your AWS account. To do that, we need limited access to your account. After completing the registration form a custom CloudFormation template is generated for you. For details of what this template contains, check out this <a href="https://s3.amazonaws.com/dashbird-cf/cloudformation.yml">cloudformation template.</a> </em>
+<br>
 
-## Steps
-* Make sure you are logged into your AWS account
-* Click create a new CloudFormation stack on the onboarding screen
-* AWS console opens with a pre-filled S3 template URL (currently must be created to us-east-1)
-* Click Next on the Select template page
-* Insert stack name (e.g. dashbird-connector)
-* Click Next on the Specify details page
-* Mark as checked: I Acknowledge that AWS CloudFormation might create IAM resources box tick the checkbox
+### Error Tracking & Alerting
 
-* Click Create
+Track errors in real-time and receive alerts by email and/or Slack whenever things go south in your application backend.
 
-<em>It can take a few minutes until the stack creation completes.</em>
+Dashbird automatically detects all types of application errors and exceptions, in every runtime supported by AWS Lambda: NodeJS, Python, Java, Ruby, Go, .NET. It also monitors errors related to the Lambda platform and its limits, such as timeout, lack of memory, etc.
 
-### Reference Role back to Dashbird
-* Once it’s finished, open the stack from the list and scroll down to the Outputs section.
-cloudformation
+Detailed stack traces are available within Dashbird so that you can easily track sources of issues and debug them.
 
-<img src="https://dashbird.io/images/docs/cloudformation.png">
+<img alt='AWS Lambda error tracking' src='/images/docs/lambda-error-tracking.png'>
 
-* Copy the Value field of DashbirdIntegrationRole and copy it to the onboarding screen.
+<br>
 
-* Click Finish
+### X-Ray & API Gateway Integration
 
-* If everything is valid your account will activate.
+Dashbird also integrates with AWS X-Ray and API Gateway. This way, you can navigate your entire cloud stack, as well as API and application traces and errors in a single interface, making it much easier and faster to identify where failures are occurring and how to fix them.
 
-**It can take up to 3-4 minutes for data to start appearing.**
+### Policies
+
+Monitor each function behavior with customized policies based on performance and resource usage.
+
+For example, an incident can be raised when one or more Lambdas start using more than 90% of memory, on average, over a period of 10 minutes.
+
+<img alt='AWS Lambda Error Policies' src='/images/docs/aws-lambda-error-policies.png'>
+
+<br>
+
+### Function View
+
+This dashboard shows health, cost and other meaningful statistics of a single lambda function. You can also see the invocation history and pinpoint errors, cold starts, retries, and anomalies at a glance.
+
+<img alt='Function dashboard' src='/images/docs/aws-lambda-function-view.png'>
+
+<br>
+
+### Under the hood
+
+Dashbird requires zero instrumentation (a.k.a. no code changes), thus your Lambda costs, execution speed, and latency will not be affected.
+
+In a handful clicks and less than five minutes, through a CloudFormation stack, we will connect to your AWS account privately and monitor Lambda logs in your CloudWatch Log groups. From that on, Dashbird will automatically start monitoring your Lambda apps.
+
+<img alt='Error view' src='/images/docs/dashbird-install.png'>
