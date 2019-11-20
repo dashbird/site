@@ -4,7 +4,6 @@ title: "Lambda Versioning"
 description: "Managing AWS Lambda versions and aliases"
 learning: ["ABasic Concepts"]
 learning_weight: 1100
-draft: true
 ---
 
 # Lambda Versioning
