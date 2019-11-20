@@ -63,6 +63,19 @@
 * :black_square_button: [Renato] Capacity planning and scalability
 * :black_square_button: [Renato] Architecture and limits
 * :black_square_button: [Renato] Tooling
+* :black_square_button: Comparisons (by order of Google searches)
+    * :black_square_button: MongoDB (& Mongo Atlas)
+    * :black_square_button: Cassandra
+    * :black_square_button: RDS
+    * :black_square_button: DocumentDB
+    * :black_square_button: Aurora
+    * :black_square_button: Redshift
+    * :black_square_button: Redis
+    * :black_square_button: Elasticsearch
+    * :black_square_button: MySQL
+    * :black_square_button: Postgres
+    * :black_square_button: Firebase
+    * :black_square_button: CouchDB
 
 ### Aurora Serverless (Relational DB)
 
@@ -153,6 +166,10 @@
 ### DevOps
 
 * :black_square_button: Deployment strategies
+    * :black_square_button: Big-Bang Deployment
+    * :black_square_button: Rolling Deployment
+    * :black_square_button: Canary Deployment
+    * :black_square_button: Blue/Green Deployment
 * :black_square_button: Rolling back changes
 * :black_square_button: CI/CD
 
