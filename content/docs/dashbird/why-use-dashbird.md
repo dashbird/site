@@ -12,6 +12,7 @@ aliases:
  - /help/basic/get-started
 ---
 
+
 **Serverless architecture** fundamentally changes how we develop, deploy and, most of all, monitor applications. Since we do not have access to the underlying servers that support Lambda, we cannot rely on daemons or other direct ways of monitoring our applications from within its infrastructure.
 
 **AWS Lambda** also comes with its own limits and idiosyncrasies: limited memory and execution time can create execution errors, for example. When a function execution fails, Lambda may automatically retry it, with side-effects that can easily become monitoring nightmares.
