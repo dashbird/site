@@ -7,8 +7,8 @@
 * :white_check_mark: [Types of serverless systems](https://dashbird.io/knowledge-base/basic-concepts/types-of-serverless-systems/)
 * :white_check_mark: [Advantages & suitable use cases](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 * :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
-* :black_square_button: [Reliability](https://dashbird.io/knowledge-base/basic-concepts/reliability/)
-* :black_square_button: Scalability
+* :white_check_mark: [Reliability](https://dashbird.io/knowledge-base/basic-concepts/reliability/)
+* :white_check_mark: [Scalability](https://dashbird.io/knowledge-base/basic-concepts/scalability/)
 * :black_square_button: Maintainability
 
 ### AWS Cloud
