@@ -7,6 +7,9 @@
 * :white_check_mark: [Types of serverless systems](https://dashbird.io/knowledge-base/basic-concepts/types-of-serverless-systems/)
 * :white_check_mark: [Advantages & suitable use cases](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 * :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
+* :black_square_button: [Reliability](https://dashbird.io/knowledge-base/basic-concepts/reliability/)
+* :black_square_button: Scalability
+* :black_square_button: Maintainability
 
 ### AWS Cloud
 
@@ -168,8 +171,8 @@
 * :black_square_button: Deployment strategies
     * :black_square_button: Big-Bang Deployment
     * :black_square_button: Rolling Deployment
-    * :black_square_button: Canary Deployment
-    * :black_square_button: Blue/Green Deployment
+    * :black_square_button: Canary Deployment ([AWS](https://aws.amazon.com/blogs/compute/implementing-canary-deployments-of-aws-lambda-functions-with-alias-traffic-shifting/))
+    * :black_square_button: Blue/Green Deployment ([AWS 1](https://aws.amazon.com/quickstart/architecture/blue-green-deployment/), [AWS 2](https://d0.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf))
 * :black_square_button: Rolling back changes
 * :black_square_button: CI/CD
 
