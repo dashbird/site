@@ -1,5 +1,5 @@
 ---
-date: 2019-11-21T18:30:00-03:00
+date: 2019-11-21T19:20:00-03:00
 title: "Scalability"
 description: "What is a scalable system and how to handle increasing loads"
 learning: ["ABasic Concepts"]
@@ -75,7 +75,7 @@ A p95 level is a threshold with which at least 95% of the response times fell be
 
 # Footnotes
 
-_This article was heavily inspired by the [Designing Data-Intensive Aplications](http://shop.oreilly.com/product/0636920032175.do) book, by [Martin Kleppmann](https://www.linkedin.com/in/martinkleppmann/). The book itself is a compilation of a multitude of sources, some of which we link below in the footnotes_.
+_This article was heavily inspired by the [Designing Data-Intensive Aplications](http://shop.oreilly.com/product/0636920032175.do) book, by [Martin Kleppmann](https://www.linkedin.com/in/martinkleppmann/)._.
 
 [^1]:
      [IOPS: Input/Output Operations Per Second](https://en.wikipedia.org/wiki/IOPS)
