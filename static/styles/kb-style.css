@@ -220,6 +220,10 @@ html{
     height: 300px;
   }
 
+  .link-white {
+    color: white !important;
+  }
+
   .h-400 {
     height: 400px;
   }
