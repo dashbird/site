@@ -67,7 +67,8 @@
 * :black_square_button: [Renato] Architecture and limits
 * :black_square_button: [Renato] Tooling
 * :black_square_button: Comparisons (by order of Google searches)
-    * :black_square_button: MongoDB (& Mongo Atlas)
+    * :white_check_mark: [MongoDB](https://dashbird.io/knowledge-base/dynamodb/dynamodb-vs-mongodb/)
+    * :black_square_button: Mongo Atlas
     * :black_square_button: Cassandra
     * :black_square_button: RDS
     * :black_square_button: DocumentDB
