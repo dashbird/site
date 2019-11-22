@@ -804,3 +804,40 @@ html{
     color: #4a45c6;
   }
 
+  table {
+    border-spacing: 1; 
+    border-collapse: collapse; 
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:800px; 
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    
+    * {
+      position:relative;
+    }
+
+    td, th {
+      padding-left: 8px;
+    }
+
+    thead tr        {
+      height: 40px;
+      background: #4943C1;
+      font-size: 16px;
+    }
+      
+    tbody tr {
+      height: 48px;
+      border-bottom: 1px solid #878DDD;
+      &:last-child {
+        border: 0;
+      }
+    }
+    
+    td, th {
+      text-align: center;
+    }
+  }
