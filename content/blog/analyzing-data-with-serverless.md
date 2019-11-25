@@ -1,12 +1,12 @@
 ---
 title: Analyzing Data Using Serverless
-description: A case study on how data can be 
+description: A case study on how data is analyzed with Serverless technology
 date: 2019-11-21T12:00:00.000Z
-frontImage: "2018-07-17/ecs-vs-lambda-header.jpg"
-thumbnail: "images/blog/2018-07-17/ecs-vs-lambda-header.jpg"
-authorlink: 'https://twitter.com/@johndemian'
-author: John Demian
-author_image: '/images/team/john.jpg'
+frontImage: "2019-11-22/luke-chesser-JKUTrJ4vK00-unsplash.jpg"
+thumbnail: "images/blog/2019-11-22/luke-chesser-JKUTrJ4vK00-unsplash.jpg"
+authorlink: 'https://www.linkedin.com/in/darius-bogdan-7a2700146/'
+author: Darius Bogdan
+author_image: '/images/blog/2019-11-22/darius.jpeg'
 blog: ["ECS", "Lambda"]
 ---
 
@@ -71,7 +71,7 @@ We are going to present the technologies we are going to use and then see how we
 
 Serverless functions are isolated functions that have only one purpose. Keeping this in mind, we can think about our functions as being a _black box _with an **input **and an **output**.
 
-<img src="">
+<center><img src="/images/blog/2019-11-22/ServerlessFunction.png"></center>
 
 Serverless functions shouldn’t be the replacement of a REST API, they should be additions to the main API that have a single, isolated dedicated purpose.
 
@@ -98,7 +98,12 @@ BigQuery is a serverless data warehouse. In BigQuery the data is organized in _d
 
 We are going to use this service for storing our data and analyzing it.
 
+<img src="/images/blog/2019-11-22/Data-Processing-Pipeline.png
+
 In our system we are going to upload csv files that have the following structure:
+
+<img src="/images/blog/2019-11-22/data.png">
+
 
 
 ## Pipeline implementation
@@ -116,6 +121,9 @@ This will be triggered when the file was uploaded successfully into our storage.
 
 *   data - the event payload
 *   context - the event metadata
+
+<img src="/images/blog/2019-11-22/function1.png">
+
 
 A cool thing when working with multiple services from the same cloud provider is that we do not need to authenticate the services we are working with because they are automatically authenticated when deployed in the cloud.
 
@@ -163,6 +171,8 @@ This brings us to our second function of the pipeline which filters the data and
 
 BigQuery allows us to run queries and save the results into a table. The main thing that we are doing here is making a query, running an asynchronous job and waiting for the results. After the results are returned, we are publishing a message on the _update-final-table_ topic to trigger the last step of our pipeline.
 
+<img src="/images/blog/2019-11-22/function2.png">
+
 
 #### Update the final data
 
@@ -170,7 +180,8 @@ The last step we want to do in our pipeline is to update the data in the last ta
 
 This function runs a Job to update the data in the final BigQuery table.
 
+<img src="/images/blog/2019-11-22/function2.png">
 
 ## Conclusion
 
-Serveless technologies can be used in multiple cases and have many benefits from cost reduction to small, readable chunks of code. As we saw today in our implementation, the serverless functions should be small, isolated functions with a single purpose. With serverless functions we can also create complex data processing pipelines.
+<a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">Serveless technologies</a> can be used in multiple cases and have many benefits from cost reduction to small, readable chunks of code. As we saw today in our implementation, the serverless functions should be small, isolated functions with a single purpose. With serverless functions we can also create complex data processing pipelines.
