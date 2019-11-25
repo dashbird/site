@@ -8,9 +8,9 @@ learning_weight: 510
 
 # Overview
 
-A scalable system is one that can continue to perform in a [reliable manner](/knowledge-base/basic-concepts/reliability/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=basic-concepts) under different and increasing levels of load.
+A scalable system is one that can continue to perform in a [reliable manner](/knowledge-base/basic-concepts/reliability/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=basic-concepts) under variable and often increasing levels of load.
 
-Considering a system's scalability is rarely a single variable analysis. It usually involves at least a two-dimentional problem: a load metric and time.
+A system's scalability is rarely a single variable analysis. It usually involves at least a two-dimensional problem: a load metric and time.
 
 For example:
 

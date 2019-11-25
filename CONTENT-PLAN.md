@@ -9,7 +9,7 @@
 * :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 * :white_check_mark: [Reliability](https://dashbird.io/knowledge-base/basic-concepts/reliability/)
 * :white_check_mark: [Scalability](https://dashbird.io/knowledge-base/basic-concepts/scalability/)
-* :black_square_button: Maintainability
+* :white_check_mark: [Maintainability](https://dashbird.io/knowledge-base/basic-concepts/maintainability/)
 
 ### AWS Cloud
 
