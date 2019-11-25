@@ -4,6 +4,7 @@ title: "Serverless Challenges and Solutions"
 description: "What are the challenges of serverless infrastructures and how to overcome them?"
 learning: ["ABasic Concepts"]
 learning_weight: 400
+thumbnail: "images/knowledge-base/serverless-challenges.png"
 ---
 
 Fast adoption of serverless is fueled by the ability to **build products faster**, **scale effortlessly** and benefit from an efficient **pricing model**. Regardless of that, challenges exist over server-centric architectures that should be considered when adopting serverless. This article tries to outline the main challenges and concerns around building serverless applications.
