@@ -18,7 +18,7 @@ Sure, most answers can be figured out by running a quick Google search but relia
 
 We felt like we needed to develop a better solution. A central place where developers and serverless enthusiasts can get any information on the latest trends, technologies and architecture design without spending hours digging through the colossal amount of information that’s available online.
 
-This is how we ended up creating the **[Knowledge Base](https://dashbird.io/knowledge-base/?utm_source=SOURCE-HERE&utm_medium=referral&utm_campaign=knowledge-base&utm_content=announcement)**. It’s open and licensed under Creative Commons.
+This is how we ended up creating the **[Knowledge Base](https://dashbird.io/knowledge-base/?utm_source=dashbird-site&utm_medium=blog&utm_campaign=knowledge-base&utm_content=announcement)**. It’s open and licensed under Creative Commons.
 
 Knowledge Base covers everything related to web and mobile development. From basic concepts to advanced architectural patterns. Especially related to serverless technologies. We’re writing about reliable cloud services that can enable successful implementations, as well.
 

@@ -2,7 +2,7 @@
 {{ $currentPage := .  }}
 <section class="container-fluid bg-white">
 
-  <div class="row h-400 align-items-center blue-bg">
+  <div class="row h-300 align-items-center blue-bg">
     <div class='col-12 col-md-6 text-center text-md-left pl-md-5'>
       <h1 class=''>{{ .Title }}</h1>
       <p class='text-light'><i>{{ .Description }}</i></p>
@@ -30,7 +30,7 @@
   </div>
 
   <div class="row justify-content-center">
-    <div class='col-12 col-md-10 mx-auto text-justify imgs-fluid m-w-900 pt-3'>
+    <div class='col-12 col-md-10 mx-auto text-justify imgs-fluid m-w-900 pt-4'>
       {{ .Content }}
     </div>
   </div>
@@ -69,10 +69,9 @@
           {{ if eq $subject $currentTaxonomy}}
             {{ range $taxonomy }}
               <a href="{{ .Page.Permalink }}" class="align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                  <li><b class="mb-1">{{ .Params.Title }}</b></li>
+                <div class="d-flex w-100 justify-content-between text-secondary">
+                  <li class="mb-2"><b>{{ .Params.Title }}</b> - {{ .Params.Description }}</li>
                 </div>
-                <p class="mb-1 ml-1 text-secondary">{{ .Params.Description }}</p>
               </a>
            {{ end }}
           {{ end }}

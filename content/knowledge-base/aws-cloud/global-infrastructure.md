@@ -38,7 +38,7 @@ Although a single Region offers a great level of redundancy with multiple AZs, s
 
 To ensure maximum availability and resilience, though, applications can benefit from cross-region replication. In this case, if an entire Region goes offline, the application can continue to serve its users from another Region of the planet. Latency might increase slightly to users that were previously served by the unavailable Region, but services won't be disrupted.
 
-Some services will provide an easy way to implement Cross-Region, such as [DynamoDB Global Tables](/knowledge-base/dynamodb/global-tables/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda) and [S3 Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html), while others will require developers to implement their own logic.
+Some services will provide an easy way to implement Cross-Region, such as [DynamoDB Global Tables](/knowledge-base/dynamodb/global-tables/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-cloud) and [S3 Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html), while others will require developers to implement their own logic.
 
 ## Multi-AZ Replication
 

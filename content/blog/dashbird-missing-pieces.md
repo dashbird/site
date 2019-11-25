@@ -37,6 +37,8 @@ You can resolve errors from the top right corner of the <a href="https://app.das
 
 If an error is unimportant for you, you can mute notifications for it and discard it from the active errors list to reduce clutter.
 
+“Error handling is for sure one of the most interesting things about Dashbird. Those who haven’t checked it out, are missing out!”  - Hendry Sadrak, CTO at Modash, <a href='https://www.modash.io/blog/4-easy-ways-to-find-micro-influencers-on-instagram/' target='_blank'>a database for finding instagram influencers</a>.
+
 ## Managing environments and microservices
 
 <img src="/images/blog/2019-05-10/project-views.gif">

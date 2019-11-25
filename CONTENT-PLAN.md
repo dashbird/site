@@ -7,6 +7,9 @@
 * :white_check_mark: [Types of serverless systems](https://dashbird.io/knowledge-base/basic-concepts/types-of-serverless-systems/)
 * :white_check_mark: [Advantages & suitable use cases](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
 * :white_check_mark: [Challenges & solutions](https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/)
+* :white_check_mark: [Reliability](https://dashbird.io/knowledge-base/basic-concepts/reliability/)
+* :white_check_mark: [Scalability](https://dashbird.io/knowledge-base/basic-concepts/scalability/)
+* :black_square_button: Maintainability
 
 ### AWS Cloud
 
@@ -25,11 +28,11 @@
 * :white_check_mark: [Programming Model](https://dashbird.io/knowledge-base/aws-lambda/programming-model/)
 * :white_check_mark: [Invocation methods and integrations](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/)
 * :white_check_mark: [Resilience](https://dashbird.io/knowledge-base/aws-lambda/resilience/)
-* :black_square_button: [Scalability and concurrency](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/)
+* :white_check_mark: [Scalability and concurrency](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/)
 * :white_check_mark: [Lambda Layers](https://dashbird.io/knowledge-base/aws-lambda/lambda-layers/)
 * :white_check_mark: [Cold starts](https://dashbird.io/knowledge-base/aws-lambda/cold-starts/)
 * :white_check_mark: [Retries & Idempotency](https://dashbird.io/knowledge-base/aws-lambda/retries-and-idempotency/)
-* :black_square_button: Function versioning
+* :white_check_mark: [Function versioning](https://dashbird.io/knowledge-base/aws-lambda/lambda-versioning/)
 * :white_check_mark: [Resource allocation & performance](https://dashbird.io/knowledge-base/aws-lambda/resource-allocation-and-performance/)
 * :black_square_button: Methods for automating deployment
 
@@ -63,6 +66,20 @@
 * :black_square_button: [Renato] Capacity planning and scalability
 * :black_square_button: [Renato] Architecture and limits
 * :black_square_button: [Renato] Tooling
+* :black_square_button: Comparisons (by order of Google searches)
+    * :white_check_mark: [MongoDB](https://dashbird.io/knowledge-base/dynamodb/dynamodb-vs-mongodb/)
+    * :black_square_button: Mongo Atlas
+    * :black_square_button: Cassandra
+    * :black_square_button: RDS
+    * :black_square_button: DocumentDB
+    * :black_square_button: Aurora
+    * :black_square_button: Redshift
+    * :black_square_button: Redis
+    * :black_square_button: Elasticsearch
+    * :black_square_button: MySQL
+    * :black_square_button: Postgres
+    * :black_square_button: Firebase
+    * :black_square_button: CouchDB
 
 ### Aurora Serverless (Relational DB)
 
@@ -153,6 +170,10 @@
 ### DevOps
 
 * :black_square_button: Deployment strategies
+    * :black_square_button: Big-Bang Deployment
+    * :black_square_button: Rolling Deployment
+    * :black_square_button: Canary Deployment ([AWS](https://aws.amazon.com/blogs/compute/implementing-canary-deployments-of-aws-lambda-functions-with-alias-traffic-shifting/))
+    * :black_square_button: Blue/Green Deployment ([AWS 1](https://aws.amazon.com/quickstart/architecture/blue-green-deployment/), [AWS 2](https://d0.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf))
 * :black_square_button: Rolling back changes
 * :black_square_button: CI/CD
 
