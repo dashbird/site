@@ -6,19 +6,13 @@ learning: ["CDynamoDB"]
 learning_weight: 5000
 ---
 
-# Who Uses
+# Overview
 
-| DynamoDB  | MongoDB    |
-|-----------|------------|
-| Netflix   | Uber       |
-| Medium    | Lyft       |
-| Lyft      | Codecademy |
-| Intuit    | MIT        |
-| New Relic | CircleCI   |
+Both DynamoDB and Mongo are NoSQL databases, but the similarities probably end there.
 
-_Source: [Stackshare](https://stackshare.io/)_
+As an open-source project, Mongo is widely used in small and mid-sized projects, although also suitable for large applications. It provides more flexibility in terms of data storage and retrieval, what makes it a good database for prototyping. It is harder to scale and requires deep understanding to provision and manage an infrastructure that is well-designed to perform reliably in production.
 
-Both databases are used by heavy-weights in the software industry, what indicates that they are are on par to handle challenging production environments.
+DynamoDB is a fully-managed, serverless database by AWS. Its pricing model offers both reserved and on-demand options, reducing financial risks. It offers high scalability and reliability out of the box, with Master-to-Master and Multi-Region replication systems. That high scalability poses limits on how data can be stored and retrieved. The development team should think ahead about the access patterns needed for the application, as it can be more difficult to implement changes to the data model in the future.
 
 # Service vs. Software
 
@@ -75,6 +69,20 @@ Both databases support **ACID transactions**.
 All this flexibility, though, hurts Mongo's ability to scale and keep performance predictable.
 
 DynamoDB will respond[^3] to **any query** a developer might write in up to 30-50 ms (usually in the 99th percentile). With in-memory caching, latency can drop to microseconds. On the other hand, MongoDB performance may vary a lot depending on the query complexity, the server cluster health, and size of the dataset.
+
+# Who Uses DynamoDB and MongoDB
+
+Both databases are used by heavy-weights in the software industry, what indicates that they are are on par to handle challenging production environments.
+
+| DynamoDB  | MongoDB    |
+|-----------|------------|
+| Netflix   | Uber       |
+| Medium    | Lyft       |
+| Lyft      | Codecademy |
+| Intuit    | MIT        |
+| New Relic | CircleCI   |
+
+<span style="font-size: .8em; text-decoration: underline;">Source: <a href="https://stackshare.io/" target="_blank">Stackshare</a></span>
 
 # Mongo to Dynamo Migration
 
