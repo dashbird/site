@@ -1,6 +1,6 @@
 ---
 date: 2019-11-08T00:11:00-03:00
-title: "Overview and Main Concepts"
+title: "Overview and Main Concepts of Amazon DynamoDB"
 description: "What is DynamoDB, how it works and the main concepts of its data model"
 learning: ["CDynamoDB"]
 learning_weight: 100
