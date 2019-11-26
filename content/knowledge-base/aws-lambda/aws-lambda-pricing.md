@@ -2,7 +2,7 @@
 date: 2019-11-26T11:15:00-03:00
 title: "AWS Lambda Pricing Model"
 description: "How much AWS Lambda costs, pricing model structure and how to save money on Lambda workloads"
-learning: ["ABasic Concepts"]
+learning: ["BAWS Lambda"]
 learning_weight: 250
 ---
 
