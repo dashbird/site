@@ -89,7 +89,7 @@ For communicating between our functions, we can have 2 approaches using services
 
 
 *   **Cloud Tasks** - this is a service that allows us to manage distributed tasks. We can use this to trigger the next function of our pipeline after a function finishes. All we need to do is to create a Cloud Task which will call our HTTP Serverless function.
-*   **Pub/Sub **- this is a real-time messaging service that allows us to trigger a function that listens on a topic. In the example we are building today, we are going to us this technology.
+*   **Pub/Sub** - this is a real-time messaging service that allows us to trigger a function that listens on a topic. In the example we are building today, we are going to us this technology.
 
 
 ## BigQuery
@@ -98,7 +98,7 @@ BigQuery is a serverless data warehouse. In BigQuery the data is organized in _d
 
 We are going to use this service for storing our data and analyzing it.
 
-<img src="/images/blog/2019-11-22/Data-Processing-Pipeline.png
+<img src="/images/blog/2019-11-22/Data-Processing-Pipeline.png">
 
 In our system we are going to upload csv files that have the following structure:
 
@@ -113,7 +113,7 @@ In our system we are going to upload csv files that have the following structure
 
 Our first serverless function will get the data from the file uploaded to Cloud Storage and upload it to BigQuery.
 
-**Trigger Type_ - Google Cloud Storage Finalize_**
+**Trigger Type - Google Cloud Storage Finalize**
 
 This will be triggered when the file was uploaded successfully into our storage. This type of function will receive as parameters
 
@@ -138,29 +138,29 @@ The function _bigQuerySafeName_ creates a table name from the file name that res
 
 After we loaded the data into the table we publish a message on the **filter-uploaded-data** in order to trigger the second function from our pipeline.
 
-**Deploying the function **
+### Deploying the function
 
-We just wrote our first function, now all we need to do is deploy it in the cloud. Google provides a _cli _that can be used for achieving this.
+We just wrote our first function, now all we need to do is deploy it in the cloud. Google provides a _cli_ that can be used for achieving this.
 
-_gcloud functions deploy upload-to-bigquery _
+* **gcloud functions deploy upload-to-bigquery**
 
-**_--region us-central1 _**
+* **region us-central1**
 
-**_--entry-point uploadToBigQuery _**
+* **entry-point uploadToBigQuery**
 
-**_--runtime nodejs8 _**
+* **untime nodejs8**
 
-**_--trigger-resource projects_files _**
+* **trigger-resource projects_files**
 
-**_--trigger-event google.storage.object.finalize _**
+* **trigger-event google.storage.object.finalize**
 
-**_--memory 2048MB _**
+* **memory 2048MB**
 
-**_--timeout 540 _**
+* **timeout 540**
 
-**_--project projectName_**
+* **project projectName**
 
-With this command we say that we want to deploy a function named _upload-to-bigquery  _in the region _us-central1. _The name of the function(entry point) in our application is _uploadToBigQuery. _We want this function to trigger when a new file finished uploading in the bucket _projects_files. _We give our function the maximum memory allowed by Google which is 2GB and we specify the maximum amount of time our function is allowed to run which is 9 minutes.
+With this command we say that we want to deploy a function named **upload-to-bigquery**  in the region **us-central1**. The name of the function(entry point) in our application is **uploadToBigQuery**. We want this function to trigger when a new file finished uploading in the bucket **projects_files**. We give our function the maximum memory allowed by Google which is 2GB and we specify the maximum amount of time our function is allowed to run which is 9 minutes.
 
 
 #### Filter the data
@@ -169,7 +169,7 @@ We are receiving **csv** files that contain a lot of data. Our analytics team is
 
 This brings us to our second function of the pipeline which filters the data and saves it into another table in our data warehouse. The function listens to a Pub Sub topic and when a message it’s published, the function is run automatically.
 
-BigQuery allows us to run queries and save the results into a table. The main thing that we are doing here is making a query, running an asynchronous job and waiting for the results. After the results are returned, we are publishing a message on the _update-final-table_ topic to trigger the last step of our pipeline.
+BigQuery allows us to run queries and save the results into a table. The main thing that we are doing here is making a query, running an asynchronous job and waiting for the results. After the results are returned, we are publishing a message on the **update-final-table** topic to trigger the last step of our pipeline.
 
 <img src="/images/blog/2019-11-22/function2.png">
 
