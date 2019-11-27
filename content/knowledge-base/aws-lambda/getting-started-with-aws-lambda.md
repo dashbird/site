@@ -4,6 +4,7 @@ title: "Getting Started with AWS Lambda."
 description: "Learn the first steps of writing, deploying and running Lambda functions"
 learning: ["BAWS Lambda"]
 learning_weight: 300
+draft: true
 ---
 
 # Overview
