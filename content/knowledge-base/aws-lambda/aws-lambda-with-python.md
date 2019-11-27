@@ -22,17 +22,17 @@ https://github.com/nficano/python-lambda -->
 Lambda supports Python versions 2.7[^1], 3.6 and 3.7. The way it works is[^2]:
 
 1. Create a file called `lambda_function.py`
-2. Declare a function called `lambda_handler`, which should receive two arguments: `event` and `context` (in that order)
+2. Declare a function called `lambda_handler`, which should receive two arguments: `event` and `context`[^3] (in that order)
 3. The function returns a JSON-serializable object (a dictionary is recommended) containing anything the requester should expect from the function (this is an optional step)
 4. Create a deployment package: a ZIP file containing all project files (the `lambda_function.py` must be in the root of the ZIP archive)
 
-All libraries and dependencies (except for Python native modules[^3]) must be added to the ZIP archive as well.
+All libraries and dependencies (except for Python native modules[^4]) must be added to the ZIP archive as well.
 
-AWS already includes the latest version of the boto3[^4] library in all Python functions. It is not a good practice to rely on this version of boto3[^5]. Developers should override the default Lambda boto3 with their own version in the deployment package.
+AWS already includes the latest version of the boto3[^5] library in all Python functions. It is not a good practice to rely on this version of boto3[^6]. Developers should override the default Lambda boto3 with their own version in the deployment package.
 
 # Hands-on Demo
 
-We will create a simple Lambda service that can return the Wonders of the World[^6] in multiple lists.
+We will create a simple Lambda service that can return the Wonders of the World[^7] in multiple lists.
 
 * Lambda function: contains the entry point handler to respond to Lambda invocations
 * Dataset: provides information about the seven wonders
@@ -106,7 +106,7 @@ def handle_error(response, error, status, msg):
 
 ```
 
-We start by setting a logging object. It is important to log all relevant information, so that the development team has visibility over the execution and is able to debug issues, if needed. For more information on logging and Lambda errors, check our [dedicated pages](/knowledge-base/logging/lambda-invocation-function-and-runtime-errors/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda).
+We start by setting a logging object. It is important to log all relevant information, so that the development team has visibility over the Lambda execution and is able to debug issues, if needed[^8]. For more information on logging and Lambda errors, check our [dedicated pages](/knowledge-base/logging/lambda-invocation-function-and-runtime-errors/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda).
 
 Our `lambda_handler` sets a default response dictionary containing:
 
@@ -120,7 +120,7 @@ Our `lambda_handler` sets a default response dictionary containing:
 We then wrap our logic in a `try-except` statement that catches any kind of code exception. This is good practice for a couple of reasons:
 
 1. Ensures consistency in Lambda responses
-1. Avoids leaking internal implementation details[^7], which is a security risk
+1. Avoids leaking internal implementation details[^9], which is a security risk
 
 The `response` object is properly updated depending on whether the processing was successful or not. There is an auxiliary function called `handle_error` that allows to wrap logging and response update routines.
 
@@ -259,7 +259,7 @@ WONDERS = {
 
 ## Generate the ZIP deployment package
 
-Zip the `lambda_function.py` and `datasets.py` into a single ZIP file, in the same directory.
+Zip the `lambda_function.py` and `datasets.py` into a single ZIP file, in the same directory[^10].
 
 ```shell
 sudo apt install zip unzip
@@ -327,7 +327,7 @@ ZIP the package and deploy normally to Lambda. It will automatically add all fol
 
 # Final considerations
 
-Lambda works almost exactly like any other environment running Python. One exception is when parallelism is necessary[^8], which requires a specific approach.
+Lambda works almost exactly like any other environment running Python. One exception is when parallelism is necessary[^11], which requires a specific approach.
 
 It is possible to query databases, invoke third-party HTTP APIs, or virtually anything else needed by your application.
 
@@ -342,19 +342,28 @@ In order to master AWS Lambda and all its benefits, keep reading other pages in 
      [AWS Lambda Function Handler in Python](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model-handler-types.html)
 
 [^3]:
-     [Python Module Index](https://docs.python.org/3/py-modindex.html)
+     [Lambda Context Object in Python](https://docs.aws.amazon.com/lambda/latest/dg/python-context-object.html)
 
 [^4]:
-     [Boto3](https://aws.amazon.com/sdk-for-python/) is an API wrapper library that makes it easier for Python developers to interact with all AWS services.
+     [Python Module Index](https://docs.python.org/3/py-modindex.html)
 
 [^5]:
-     When a new Boto3 version is released, AWS will automatically upgrade the package to all functions. The problem is that developers don't get the chance to test their systems properlly with the new library, which leads to an unreliable and unstable production environment.
+     [Boto3](https://aws.amazon.com/sdk-for-python/) is an API wrapper library that makes it easier for Python developers to interact with all AWS services.
 
 [^6]:
-     [Wikipedia: Wonders of the World](https://en.wikipedia.org/wiki/Wonders_of_the_World)
+     When a new Boto3 version is released, AWS will automatically upgrade the package to all functions. The problem is that developers don't get the chance to test their systems properlly with the new library, which leads to an unreliable and unstable production environment.
 
 [^7]:
-     If Python runtime raises an unhandled exception, Lambda will return details about the exception and its trace to the requester. This could leak internal implementation details that can compromise security and should not be available externally.
+     [Wikipedia: Wonders of the World](https://en.wikipedia.org/wiki/Wonders_of_the_World)
 
 [^8]:
+     [Lambda Function Logging in Python](https://docs.aws.amazon.com/lambda/latest/dg/python-logging.html)
+
+[^9]:
+     If Python runtime raises an unhandled exception, Lambda will [return details about the exception](https://docs.aws.amazon.com/lambda/latest/dg/python-exceptions.html) and its trace to the requester. This could leak internal implementation details that can compromise security and should not be available externally.
+
+[^10]:
+      [Lambda Deployment Package in Python](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
+
+[^11]:
      [Parallel Processing in Python with AWS Lambda](https://aws.amazon.com/blogs/compute/parallel-processing-in-python-with-aws-lambda/)
