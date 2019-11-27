@@ -35,6 +35,7 @@
 * :white_check_mark: [Function versioning](https://dashbird.io/knowledge-base/aws-lambda/lambda-versioning/)
 * :white_check_mark: [Resource allocation & performance](https://dashbird.io/knowledge-base/aws-lambda/resource-allocation-and-performance/)
 * :black_square_button: Methods for automating deployment
+* :white_check_mark: [AWS Lambda with Python: Getting Started](https://dashbird.io/knowledge-base/aws-lambda/aws-lambda-with-python/)
 
 ### API Gateway
 
