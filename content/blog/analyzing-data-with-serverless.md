@@ -28,7 +28,7 @@ We took the decision of using Google as our cloud provider, although everything 
 
 In this article we will see how we can take advantage of serverless functions in order to build a _Processing Data Pipeline_ for analyzing and processing data.
 
-Let’s imagine that we are working at an IT Company and every couple of weeks we receive files that contain information about issues (tasks) from our projects. Our managers looks from time to time into our application where they want to see statistics from all projects. 
+Let’s imagine that we are working at an IT Company and every couple of weeks we receive files that contain information about issues (tasks) from our projects. Our managers look from time to time into our application where they want to see statistics from all projects. 
 
 The project managers look every month to see what is the status of the projects from the company, like seeing the number of issues that were done in total from when the project was started and the number of story points done on that project. Sometimes they also want to see all the issues that were not of type bugs and were finished when the file was received.
 
