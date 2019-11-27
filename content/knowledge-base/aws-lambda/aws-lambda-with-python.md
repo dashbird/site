@@ -7,15 +7,7 @@ learning_weight: 310
 draft: true
 ---
 
-<!-- https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model.html
-https://stackify.com/aws-lambda-with-python-a-complete-getting-started-guide/
-https://towardsdatascience.com/introduction-to-amazon-lambda-layers-and-boto3-using-python3-39bd390add17
-https://towardsdatascience.com/make-data-acquisition-easy-with-aws-lambda-python-in-12-steps-33fe201d1bb4
-https://medium.com/faun/aws-lambda-serverless-framework-python-part-1-a-step-by-step-hello-world-4182202aba4a
-https://github.com/nficano/python-lambda -->
-
-
-> The [code examples]() used below are licensed under [MIT License](https://github.com/dashbird/knowledge-base-examples/blob/master/LICENSE)
+> The code examples used below are available in our [Github repository](https://github.com/dashbird/knowledge-base-examples/tree/master/python/lambda-getting-started) licensed under [MIT License](https://github.com/dashbird/knowledge-base-examples/blob/master/LICENSE)
 
 # Overview
 
