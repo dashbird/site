@@ -63,11 +63,6 @@ CloudWatch Logs [charges](https://aws.amazon.com/cloudwatch/pricing/) per amount
 
 When a function invocation results in an error, AWS Lambda may retry the request with the same parameters for a few times. This is called the **Retry Behavior**[^5]. Each retry will be charged as a normal request. Depending on how many errors the application may experience during transient failures or during all the time, it may add up to the total Lambda execution costs.
 
-# Saving money on Lambda
-
-Improving memory allocation
-
-
 # AWS Lambda vs. EC2 Pricing
 
 Consider an application running on the AWS US-East (Ohio) region. It serves 1 Million requests per month, each during on average 250 milliseconds. The workload requires 2 GB of RAM.
