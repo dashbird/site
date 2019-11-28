@@ -30,7 +30,7 @@ Response times are also influenced by the distance of the function from the user
 
 ### Suboptimal architecture patterns
 
-Often times, user requests require actions and information from multiple databases and different microservices. Lambda-based serices can exaggerate this problem when logic is distributed to a large number of small functions, requiring many to be executed to service the request. This can often lead a single request to hit 3 or 4 Lambda functions, API Gateway, databases and external services. If you're designing a new service, you should always keep in mind the request path you are
+Often times, user requests require actions and information from multiple databases and different microservices. Lambda-based services can exaggerate this problem when logic is distributed to a large number of small functions, requiring many to be executed to service the request. This can often lead a single request to hit 3 or 4 Lambda functions, API Gateway, databases and external services. If you're designing a new service, you should always keep in mind the request path you are
 building to keep the latency to a minimum.
 
 ### Runtime configurations
