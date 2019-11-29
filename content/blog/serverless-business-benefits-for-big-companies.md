@@ -69,7 +69,7 @@ Serverless technology is not in its infancy anymore and yet it's not fully matur
 
 There are also some unique challenges that come with this new computing paradigm - slow cold starts, short-lived functions, a closed set of triggers and lack of observability and debugging options. There are workarounds and viable solutions for solving these though thanks to a growing community that works on documenting use cases and best practices.
 
-One of the biggest problems - lack of observability for the distributed serverless systems - is solved by several newly emerged third party tools, the most notable one being <a href="https://dashbird.io" target="_blank">Dashbird.</a> It gathers CloudWatch logs along with X-Ray and API Gateway data and gives general overview of all your functions - along with error alerts, tracing, live tailing and much more.
+One of the biggest problems - lack of observability for the distributed <a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">serverless systems</a> - is solved by several newly emerged third party tools, the most notable one being <a href="https://dashbird.io" target="_blank">Dashbird.</a> It gathers CloudWatch logs along with X-Ray and API Gateway data and gives general overview of all your functions - along with error alerts, tracing, live tailing and much more.
 
 ### Conclusion
 

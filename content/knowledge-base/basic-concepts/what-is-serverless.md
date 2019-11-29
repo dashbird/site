@@ -10,7 +10,7 @@ learning_weight: 100
 
 Serverless is a cloud architectural model that **abstracts away** from developers the need to **handle server** provisioning and maintenance.
 
-It is commonly associated with **Functions-as-a-Service** (Faas), a form of computing service that was the pioneer of all serverless systems. FaaS executes self-contained code on-demand. It is stateless, not keeping any data persisted after an execution.
+It is commonly associated with **Functions-as-a-Service** (Faas), a form of computing service that was the pioneer of all <a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">serverless systems</a>. FaaS executes self-contained code on-demand. It is stateless, not keeping any data persisted after an execution.
 
 Most types of traditional cloud services have a serverless version available nowadays: **database, queue buffer, pub/sub, stream processing, etc**. It is possible to build an entire application in the cloud relying solely on serverless platforms.
 
