@@ -14,7 +14,7 @@ blog: ["Serverless", "C#", "Lambda"]
 Back in 2014, AWS Lambda was the first serverless implementation provided by a major cloud player and, at the time this article is written, you can use to run your code in JavaScript, Python, Java, C# and Go. With AWS Lambda you are even free to include the 3rd party libraries.
 Starting with 15th of January 2018, AWS Lambda added support for .Net Core 2.0. Along with it, Amazon provides the AWS Toolkit for Visual Studio which lets you easily build, debug and deploy .Net Core 2.0 projects to the AWS cloud platform.
 
-With so many important programming languages available in AWS Lambda, one might ask why use .Net Core? First, I’m not going to preach that C# and .Net Core are the best choices, no matter what your problem is. Instead, I will only highlight its most important advantages:
+With so many important programming languages available in AWS Lambda, one might ask why use .Net Core? First, I’m not going to preach that C# and .Net Core are the best choices, no matter what your problem is. Instead, I will only highlight its most important <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">advantages</a>:
 
   - Platform independent
   - Improved performance due to a new modularized design (.Net Core 2.0 was released through NuGet in smaller assembly packages)

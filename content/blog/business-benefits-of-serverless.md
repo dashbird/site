@@ -24,7 +24,7 @@ The first is Back-End as a Service or BaaS. This applies to any application that
 
 On the other end of the stick, there is <a href="https://dashbird.io/blog/what-is-faas-function-as-a-service/">Function as a Service or FaaS</a>. FaaS features an application that runs parts of their code through event triggers. The serverless architecture allows apps to evoke functions on demand. This is useful as it provides flexibility for server-side applications.
 
-Now that we've broken down the use cases of serverless architecture, let's dive deeper. Here are 9 benefits to using a serverless architecture for your project.
+Now that we've broken down the use cases of serverless architecture, let's dive deeper. Here are 9 <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">benefits to using a serverless architecture</a> for your project.
 
 <h2>1. Easy To Deploy</h2>
 A serverless approach for your application could be perfect. If you need to spin up an app fast, serverless might be your solution. Instead of weeks and months to deploy an app, you can do it within hours and days. The reason behind this is that you don't have to concern yourself with infrastructure. You can focus on the code and release it immediately. Scalability is automatic and you don't have to worry about any provisioning needs.

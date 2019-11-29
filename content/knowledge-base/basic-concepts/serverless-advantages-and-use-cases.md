@@ -8,7 +8,7 @@ learning_weight: 300
 
 ## Why use serverless?
 
-Serverless computing has numerous advantages over classical server-centric infrastructure. Developers are usually able to release products faster, benefit from inherent scaling and reduce infrastructure costs. Serverless also requires less know-how of infrastructure management and is easier to get started with.
+Serverless computing has numerous <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">advantages</a> over classical server-centric infrastructure. Developers are usually able to release products faster, benefit from inherent scaling and reduce infrastructure costs. Serverless also requires less know-how of infrastructure management and is easier to get started with.
 
 
 ## Advantages of serverless computing

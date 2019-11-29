@@ -32,7 +32,7 @@ Another downside to this type of architecture is the fact that running your appl
 
 <h2>Serverless Architectures</h2>
 
-Serverless Architectures are a relatively new method to cloud computing since Amazon first brought it to light in 2014. In the last five years, Amazon has been steadily developing this new method as well as Microsoft, IBM, and Google. All these companies have seen the significant benefits that Serverless Architectures can bring, and that is why they have joined the world of cloud computing as Cloud Service Providers(CSP). 
+Serverless Architectures are a relatively new method to cloud computing since Amazon first brought it to light in 2014. In the last five years, Amazon has been steadily developing this new method as well as Microsoft, IBM, and Google. All these companies have seen the <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">significant benefits that Serverless Architectures can bring</a>, and that is why they have joined the world of cloud computing as Cloud Service Providers(CSP). 
 
 Just like any other new technology, serverless cloud computing can seem like magic if you don’t take the time to understand it. And so, that brings us to explain its name. Contrary to what some might think when they read, “serverless” in the title, serverless cloud computing is not actually serverless. What it refers to is the fact that you do not need to own servers to use and benefit from a serverless architecture. 
 
