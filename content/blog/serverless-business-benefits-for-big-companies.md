@@ -8,7 +8,7 @@ author: Annika Helendi
 author_image: '/images/team/annika1.jpg'
 blog: ["Serverless", "Business", "Startups"]
 ---
-What is serverless? Serverless is a cloud computing model that was first introduced by AWS in 2014 (AWS Lambda is the market leader to this day). It abstracts away most of the server operations to the cloud provider so developers can only focus on writing code and shipping new features. Serverless adoption is rapidly growing and it's mostly due to it's promise of providing significant cost and time efficiency for technology companies.
+<a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">What is serverless</a>? Serverless is a cloud computing model that was first introduced by AWS in 2014 (AWS Lambda is the market leader to this day). It abstracts away most of the server operations to the cloud provider so developers can only focus on writing code and shipping new features. Serverless adoption is rapidly growing and it's mostly due to it's promise of providing significant cost and time efficiency for technology companies.
 
 For new startups, just starting to build their first product, it's a no-brainer to build it on serverless. It's very cheap and quick to get started. You don't have to have that much knowledge about the backend processes, since the cloud providers handle all that and you can just focus on building your product and it's functionality. The go-to-market time is much shorter than with previous computing models and it scales automatically when you get successful and have tons of users pouring on your site. See, a no-brainer!
 
