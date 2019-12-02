@@ -52,7 +52,7 @@ Here you can see a nice overview. Virtual machines use something called a hyperv
 
 ## Container pros and cons
 
-When comparing containers to serverless, based on your developer background and personal profile, the advantages and drawbacks may not be the same. However, I believe a set amount can be agreed upon, with keeping both camps happy.
+When comparing containers to serverless, based on your developer background and personal profile, the <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">advantages and drawbacks</a> may not be the same. However, I believe a set amount can be agreed upon, with keeping both camps happy.
 
 Using containers means you won't have any auto-scaling by default. It's something you need to set up yourself. Luckily, vendor-specific tools like AWS Auto Scaling make it rather painless. The advantage here is that you have full control of your resources, and you are in charge of the scaling, meaning you can theoretically have infinite scalability. Well, as close as your provider allows you.
 

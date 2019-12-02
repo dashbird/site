@@ -177,4 +177,4 @@ With one line of code we **reduced our billing by 50%**, and we are constantly m
 
 ## Conclusion ##
 
-Serverless architecture has undoubtedly many advantages to both small and big companies. Nevertheless, you should always take into account the unexpected debugging/monitoring time that you wouldn't have with traditional server-based systems. By using [Dashbird](https://dashbird.io), some of that hurdle can be reduced and maybe even eliminated, so that you end up with only the benefits of serverless and AWS Lambda.
+<Serverless architecture has undoubtedly many <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">advantages</a> to both small and big companies. Nevertheless, you should always take into account the unexpected debugging/monitoring time that you wouldn't have with traditional server-based systems. By using [Dashbird](https://dashbird.io), some of that hurdle can be reduced and maybe even eliminated, so that you end up with only the <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">benefits of serverless</a> and AWS Lambda.

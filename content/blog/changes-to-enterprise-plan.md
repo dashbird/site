@@ -9,7 +9,7 @@ author_image: '/images/team/taavi.jpg'
 blog: ["Product", "Other"]
 ---
 
-Last week, we raised the limit of our <a href='/pricing' target='_blank'>enterprise plan</a> to **100 million requests per month**. This is the first step towards improving our value offering for large-scale serverless systems.
+Last week, we raised the limit of our <a href='/pricing' target='_blank'>enterprise plan</a> to **100 million requests per month**. This is the first step towards improving our value offering for large-scale <a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">serverless systems</a>.
 
 ### More bang for the buck
 Previously, the default limit for enterprise customers was 30 million a month. At the time, this was the range we could promise to import from CloudWatch without getting throttled and also it seemed to be more than enough for basically all of our users. Lately, we have made significant improvements to our log importer system, which now is able to easily import a hundred million request per month. That is, without running into throttling issues with CloudWatch.

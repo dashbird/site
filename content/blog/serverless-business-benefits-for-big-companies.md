@@ -8,7 +8,7 @@ author: Annika Helendi
 author_image: '/images/team/annika1.jpg'
 blog: ["Serverless", "Business", "Startups"]
 ---
-What is serverless? Serverless is a cloud computing model that was first introduced by AWS in 2014 (AWS Lambda is the market leader to this day). It abstracts away most of the server operations to the cloud provider so developers can only focus on writing code and shipping new features. Serverless adoption is rapidly growing and it's mostly due to it's promise of providing significant cost and time efficiency for technology companies.
+<a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">What is serverless</a>? Serverless is a cloud computing model that was first introduced by AWS in 2014 (AWS Lambda is the market leader to this day). It abstracts away most of the server operations to the cloud provider so developers can only focus on writing code and shipping new features. Serverless adoption is rapidly growing and it's mostly due to it's promise of providing significant cost and time efficiency for technology companies.
 
 For new startups, just starting to build their first product, it's a no-brainer to build it on serverless. It's very cheap and quick to get started. You don't have to have that much knowledge about the backend processes, since the cloud providers handle all that and you can just focus on building your product and it's functionality. The go-to-market time is much shorter than with previous computing models and it scales automatically when you get successful and have tons of users pouring on your site. See, a no-brainer!
 
@@ -69,7 +69,7 @@ Serverless technology is not in its infancy anymore and yet it's not fully matur
 
 There are also some unique challenges that come with this new computing paradigm - slow cold starts, short-lived functions, a closed set of triggers and lack of observability and debugging options. There are workarounds and viable solutions for solving these though thanks to a growing community that works on documenting use cases and best practices.
 
-One of the biggest problems - lack of observability for the distributed serverless systems - is solved by several newly emerged third party tools, the most notable one being <a href="https://dashbird.io" target="_blank">Dashbird.</a> It gathers CloudWatch logs along with X-Ray and API Gateway data and gives general overview of all your functions - along with error alerts, tracing, live tailing and much more.
+One of the biggest problems - lack of observability for the distributed <a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">serverless systems</a> - is solved by several newly emerged third party tools, the most notable one being <a href="https://dashbird.io" target="_blank">Dashbird.</a> It gathers CloudWatch logs along with X-Ray and API Gateway data and gives general overview of all your functions - along with error alerts, tracing, live tailing and much more.
 
 ### Conclusion
 

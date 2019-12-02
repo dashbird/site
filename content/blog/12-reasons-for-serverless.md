@@ -43,7 +43,7 @@ Serverless differs in this way, as you don't need to worry about underlying serv
 
 This is one less thing to worry about. Hence, why they're so popular.  
 
-So, what are the specific benefits of opting for serverless? We explore them below.  
+So, what are the specific <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">benefits of opting for serverless</a>? We explore them below.  
 
   
 

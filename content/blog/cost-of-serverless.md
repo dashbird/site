@@ -17,7 +17,7 @@ So what is AWS Lambda and how can it help your business? Find out more by readin
 <h2>Working with Amazon</h2>
 AWS meaning Amazon Web Services is Amazon's cloud computing business. AWS serverless is just going into its fifth year in use.
 
-Because outsourcing computing power is still so new, it still has many tech workers asking, "What is serverless?" How could using someone else's servers be efficient or cost effective? Let's talk about the top reason businesses are switching to serverless infrastructure.
+Because outsourcing computing power is still so new, it still has many tech workers asking, "<a href="https://dashbird.io/knowledge-base/basic-concepts/what-is-serverless/">What is serverless?</a>" How could using someone else's servers be efficient or cost effective? Let's talk about the top reason businesses are switching to serverless infrastructure.
 
 <h2>No More Paying for Idle Servers</h2>
 The best part of the serverless framework is that you only pay when your users are online. Your business will have as much computing power as it needs without having to buy new equipment when you grow. A new app can handle the same amount of traffic as if it had a fully equipped server room.

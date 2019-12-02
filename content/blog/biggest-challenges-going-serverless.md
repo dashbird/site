@@ -8,7 +8,7 @@ author: Irfan Khan
 blog: ["Serverless", "Security", "Other"]
 ---
 
-With the advent of various serverless computing services such as AWS Lambda, Google and Azure functions, Spotinst etc, developers now, more than ever, are reaping numerous benefits that serverless computing offers; top of which includes less responsibility to manage your app's backend, improved automation and effortless scaling.
+With the advent of various serverless computing services such as AWS Lambda, Google and Azure functions, Spotinst etc, developers now, more than ever, are reaping numerous <a href="https://dashbird.io/knowledge-base/basic-concepts/serverless-advantages-and-use-cases/">benefits that serverless computing offers</a>; top of which includes less responsibility to manage your app's backend, improved automation and effortless scaling.
 
 
 All these benefits let the developers focus more on innovation and product itself instead of spending time around admin tasks and infrastructure. Additionally, serverless computing, being a good fit for event-driven applications, is playing a significant role in boosting the rising category of event driven applications which are likely to represent bigger fraction of future corporate applications portfolio.
