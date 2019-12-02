@@ -4,7 +4,6 @@ title: "Scalability and Concurrency"
 description: "Understand how Lambda scales and deals with concurrency"
 learning: ["BAWS Lambda"]
 learning_weight: 710
-draft: true
 ---
 
 # Overview
