@@ -14,7 +14,6 @@ $(function () {
   const $registerForm = $formArray[0]
   const emailElement = $('#registerEmail')
   const firstNameElement = $('input[name="firstName"]') // for honeypot
-  const firstNameHoneyElement = $('input[name="firstname"]')
   const passwordElement = $('input[name="password"]')
   const confirmPasswordElement = $('input[name="confirmPassword"]')
 
@@ -27,7 +26,7 @@ $(function () {
     setTimeout(submitForm, 1000)
     var formSubmitted = false
     function submitForm () {
-      if (!formSubmitted && !firstNameHoneyElement.val()) {
+      if (!formSubmitted) {
         formSubmitted = true
         $registerForm.submit()
       } else {
