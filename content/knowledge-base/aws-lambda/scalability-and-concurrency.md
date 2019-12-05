@@ -41,6 +41,15 @@ The concurrency limit discussed in the previous topic is shared across **all** f
 This can be done by setting the _Reserved Concurrency_ parameter in the AWS Lambda configuration. For more information, please follow the AWS documentation about [Reserving Concurrency for a Lambda Function](https://docs.aws.amazon.com/lambda/latest/dg/per-function-concurrency.html).
 
 
+# Provisioned Concurrency
+
+AWS Lambda allows developers to anticipate how many instances of a function should be provisioned and warm to serve requests. By setting a minimal provisioned concurrency level, the performance of all requests are guaranteed to stay below double-digit milliseconds.
+
+Using this feature is highly recommended for workloads that are time-sensitive, such as customer-facing endpoints.
+
+Learn more about this feature in the [dedicated Knowledge Base page](/knowledge-base/aws-lambda/provisioned-concurrency/?utm_source=dashbird-site&utm_medium=blog&utm_campaign=reinvent&utm_content=lambda-provisioned-concurrency).
+
+
 # Security Considerations
 
 Reserved concurrency setting is recommended to be used whenever possible in all Lambda functions. Since it prevents _Low & Slow DoS_ attacks[^4].
