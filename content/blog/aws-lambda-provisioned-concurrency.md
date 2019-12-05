@@ -1,9 +1,9 @@
 ---
 title: Solve The Cold Start Issue with Lambda Provisioned Concurrency
 description: With Provisioned Concurrency, AWS will provide sub double-digit millisecond performance for function startup for a level of concurrency you set.
-date: 2019-04-19T00:00:00.000Z
-frontImage: "2019-12-04/lambda-provisioned-concurrency.jpg"
-thumbnail: "images/blog/2019-12-04/lambda-provisioned-concurrency.jpg"
+date: 2019-12-05T00:00:00.000Z
+frontImage: "2019-12-05/lambda-provisioned-concurrency.jpg"
+thumbnail: "images/blog/2019-12-05/lambda-provisioned-concurrency.jpg"
 author: Renato Byrro
 blog: ["Lambda", "Cold Start", "Concurrency", "Serverless", "FaaS"]
 ---
