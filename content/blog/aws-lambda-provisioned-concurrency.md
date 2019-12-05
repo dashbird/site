@@ -14,8 +14,10 @@ Many [efforts](https://dashbird.io/blog/can-we-solve-serverless-cold-starts/?utm
 
 AWS has just made a great progress on the area with the Provisioned Capacity feature announcement. As the function scales up, instead of waiting new requests to come in before provisioning resources to serve them, AWS will proactively provision new instances of the function in advance.
 
-This behavior guarantees the performance of **every request** will stay within **double digit milliseconds**, up to the Provisioned Concurrency threshold set to the function. There are some caveats that developers should be aware though.
+This behavior guarantees the performance of **every request** will stay within **double digit milliseconds**, up to the Provisioned Concurrency threshold set to the function. There are some caveats that developers should be aware though. For example: it makes your functions inelligible to the Lambda Free Tier.
 
 Learn everything about this feature and follow a step-by-step guide in our [Knowledge Base](https://dashbird.io/knowledge-base/aws-lambda/provisioned-concurrency/?utm_source=dashbird-site&utm_medium=blog&utm_campaign=reinvent&utm_content=lambda-provisioned-concurrency).
 
 Lambda Provisioned Concurrency is [generally available in several regions](https://aws.amazon.com/pt/about-aws/whats-new/2019/12/aws-lambda-announces-provisioned-concurrency/) and already integrated with AWS SAM, CodeDeploy and other serverless frameworks.
+
+_Image credits to [Denys Nevozhai](https://unsplash.com/@dnevozhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/traffic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_.

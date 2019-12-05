@@ -45,9 +45,9 @@ This can be done by setting the _Reserved Concurrency_ parameter in the AWS Lamb
 
 AWS Lambda allows developers to anticipate how many instances of a function should be provisioned and warm to serve requests. By setting a minimal provisioned concurrency level, the performance of all requests are guaranteed to stay below double-digit milliseconds.
 
-Using this feature is highly recommended for workloads that are time-sensitive, such as customer-facing endpoints.
+Using this feature can be beneficial for workloads that are time-sensitive, such as customer-facing endpoints. Nevermind, it is a step back in the serverless model and comes with several financial caveats.
 
-Learn more about this feature in the [dedicated Knowledge Base page](/knowledge-base/aws-lambda/provisioned-concurrency/?utm_source=dashbird-site&utm_medium=blog&utm_campaign=reinvent&utm_content=lambda-provisioned-concurrency).
+Learn more about this feature and its caveats in its [dedicated Knowledge Base page](/knowledge-base/aws-lambda/provisioned-concurrency/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=aws-lambda).
 
 
 # Security Considerations
