@@ -6,6 +6,8 @@ learning: ["CDynamoDB"]
 learning_weight: 5000
 ---
 
+> Check [DynamoDB vs MongoDB Atlas](/knowledge-base/dynamodb/dynamodb-vs-mongodb.md?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=dynamodb), in case you are looking for a comparison against he managed MongoDB deployment service.
+
 # Overview
 
 Both DynamoDB and Mongo are NoSQL databases, but the similarities probably end there.
