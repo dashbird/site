@@ -22,7 +22,7 @@ When these systems do fail, having different Regions and AZs enables AWS to cont
 
 # Availability Zone (AZ)
 
-A collection of data centers representing a partition of the AWS infrastructure and services. Each data center is hosted in a separate facility and may have hundreds of thousands of machines.
+A collection of data centers representing a partition of the <a href="https://dashbird.io/knowledge-base/aws-cloud/global-infrastructure/">AWS infrastructure</a> and services. Each data center is hosted in a separate facility and may have hundreds of thousands of machines.
 
 AZs are interconnected within each Region with maximum throughput and low-latency communications. AWS uses a fully redundant network with dedicated metro fiber[^3]. By replicating application resources across different AZs, AWS provides redundancy against from natural events and disasters (lightning strikes, tornadoes, flooding, etc).
 

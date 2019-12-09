@@ -147,7 +147,7 @@ And then in the resource list, you can select this new resource (named *greeting
 ![AWS Lambda GET request](/images/blog/19-03-2018/lambda-GET-request.png)
 
 
-The method will have a Lambda integration option, select that and then enter function name chosen by you in the Step 2. Also from Step 2’s screenshot make note of the function’s ARN (top-right corner) it has the string *eu-central-1* indicating the region it is at. Make sure that the same region is selected as Lambda region as shown above. It would then ask permission for invoking the function, grant that and now we are ready for the final modification.
+The method will have a Lambda integration option, select that and then enter function name chosen by you in the Step 2. Also from Step 2’s screenshot make note of the function’s <a href="https://dashbird.io/knowledge-base/aws-cloud/arn-amazon-resource-names/">ARN</a> (top-right corner) it has the string *eu-central-1* indicating the region it is at. Make sure that the same region is selected as Lambda region as shown above. It would then ask permission for invoking the function, grant that and now we are ready for the final modification.
 
 
 The GET method execution is explained in this neat and diagram.
