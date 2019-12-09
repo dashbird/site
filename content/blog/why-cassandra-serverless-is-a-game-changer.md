@@ -22,8 +22,8 @@ As an example: each node in Cassandra can serve requests directly. Without the n
 
 Cassandra is an open-source database system and can be deployed virtually anywhere, in the cloud or on-premise. Migrating an application relying on Cassandra would be greatly faster and cheaper in comparison to one tied to the proprietary DynamoDB API.
 
-Up until now, there hasn't been a truly serverless offering like it, but that is about to change.
+The only downside so far is [pricing](https://aws.amazon.com/mcs/pricing/): ~16% more expensive than [DynamoDB on-demand mode costs](https://aws.amazon.com/dynamodb/pricing/on-demand/). But considering the flexibility offered by Cassandra, that might be worth paying for.
 
 [Serverless Cassandra](https://aws.amazon.com/mcs/) is still in preview mode. At Dashbird, we are testing it to really confirm it can scale to cope with high throughput of a Lambda application, for example.
 
-The only downside so far is [pricing](https://aws.amazon.com/mcs/pricing/): ~16% more expensive than [DynamoDB on-demand mode costs](https://aws.amazon.com/dynamodb/pricing/on-demand/). But considering the flexibility offered by Cassandra, that might be worth paying for.
+> We're publishing a thorough comparison of Cassandra Serverless and DynamoDB this week. [Subscribe here](https://dashbird.io/subscribe-knowledge-base/?utm_source=dashbird-site&utm_medium=blog&utm_campaign=reinvent&utm_content=cassandra-serverless) to receive an alert when it's live!
