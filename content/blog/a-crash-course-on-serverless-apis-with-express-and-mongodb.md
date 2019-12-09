@@ -91,7 +91,7 @@ Hit enter! Now your Serverless installation knows what account to connect to whe
 
 Create a new directory to house your Serverless application services. Fire up a terminal in there. Now you’re ready to create a new service. 
 
-What’s a service you ask? View it like a project. But not really. It's where you define AWS Lambda Functions, the events that trigger them and any AWS infrastructure resources they require, all in a file called **serverless.yml**.
+What’s a service you ask? View it like a project. But not really. It's where you define AWS Lambda Functions, the events that trigger them and any <a href="https://dashbird.io/knowledge-base/aws-cloud/global-infrastructure/">AWS infrastructure</a> resources they require, all in a file called **serverless.yml**.
 
 Back in your terminal type:
 
@@ -486,7 +486,7 @@ Everything you need to do is just keep on pressing next until you reach a checkb
 
 ![tick the checkbox](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/checkbox.png)
 
-Once the CloudFormation stack is created you'll see it in the console. Here you'll just copy the ARN of the **DashbirdIntegrationRole**.
+Once the CloudFormation stack is created you'll see it in the console. Here you'll just copy the <a href="https://dashbird.io/knowledge-base/aws-cloud/arn-amazon-resource-names/">ARN</a> of the **DashbirdIntegrationRole**.
 
 ![cloudformation](https://raw.githubusercontent.com/adnanrahic/cdn/master/a-crash-course-on-serverless-apis-with-express-and-mongodb/cloudformation.png)
 
