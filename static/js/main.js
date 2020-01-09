@@ -7,25 +7,25 @@ var $overlay = document.querySelector('#overlay')
 var hashTriggers = ['#menu', '#login', '#register']
 var prices = {
   1: {
-    annual: 99,
+    annual: 115,
     monthly: 115,
     invocations: 10,
     volume: 25
   },
   2: {
-    annual: 299,
+    annual: 350,
     monthly: 350,
     invocations: 30,
     volume: 100
   },
   3: {
-    annual: 595,
+    annual: 700,
     monthly: 700,
     invocations: 100,
     volume: 200
   },
   4: {
-    annual: 990,
+    annual: 1150,
     monthly: 1150,
     invocations: 200,
     volume: 300
