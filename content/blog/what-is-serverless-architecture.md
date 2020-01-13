@@ -16,7 +16,7 @@ Serverless architecture or better yet, serverless computing as it's also known, 
 
 Considering its name, **serverless architecture doesn’t mean that it runs its code without servers**. The name it has, _“serverless computing”_, is used only because the person or a company owning the system does not have to purchase or rent servers/virtual machines for the back-end code to be able to run. Simply put, serverless architecture is a way of building and running applications and services with no need, whatsoever, for infrastructure management. 
 
-Your application will still be running on servers, but bare in mind that [AWS Lambda](https://aws.amazon.com/lambda/) or other hosts do all of the server management. We conclude that the user no longer needs to scale, provision, and maintain servers to run his application, database or storage system.
+Your application will still be running on servers, but bear in mind that [AWS Lambda](https://aws.amazon.com/lambda/) or other hosts do all of the server management. We conclude that the user no longer needs to scale, provision, and maintain servers to run his application, database or storage system.
 
 ## Why Should I Choose Serverless Architecture?
 
