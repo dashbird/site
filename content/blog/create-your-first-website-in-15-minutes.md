@@ -145,7 +145,7 @@ You can create js files, css files, basically whatever you want at this stage.
 
 # Create your service #
 
-Almost done, bare with me. Open up your serverless.yml file and paste the following:
+Almost done, bear with me. Open up your serverless.yml file and paste the following:
 
 ```
 service: awesomesauce
