@@ -3,7 +3,7 @@ date: 2020-01-10T00:00:00+03:00
 title: "Asynchronous Messaging"
 description: "Achieving loosely-coupled architectures with the asynchronous messaging pattern"
 learning: ["QArchitectural Patterns"]
-learning_weight: 100
+learning_weight: 200
 ---
 
 A common anti-pattern in serverless projects is the extensive tight coupling between services. Having [Lambda functions]() invoking eachother directly usually leads to a project that is difficult to deploy, maintain and extend.
@@ -110,6 +110,10 @@ Having each step working independently improves resource utilization and reduces
 
 Another benefit is being able to replace of modify one service without having to touch others. Consider the system was only sending a confirmation e-mail to the customer. Now, sending an SMS message becomes a requirement. In the tightly coupled architecture, it would be harded to introduce any changes independently. With an asynchronous messaging architecture, we only need to add one message consumer.
 
+Lastly, ensuring scalability and reliability of a decoupled architecture is much easier. Consider Service A publishes a message for Service B to get a task done. In case Service B relies on a database, for instance, that poses scalability difficulties, Service A can still scale up without a problem. Messages may start to pile up for some time, but Service B will eventually catch up.
+
+Even if this situation is undesirable (a list of messages piling up and taking more time to process than usual), it is better than having Service B crashing due to a peak demand coming from tight coupling with Service A.
+
 # Message handling options
 
 Below is a brief introduction to the main options for handling asynchronous messages in a distributed serverless environment. We plan to cover each of them and their respective AWS services with a dedicated page in this Knowledge Base.
@@ -120,7 +124,7 @@ We mentioned a "message queue" in the example for loosely-coupled architecture a
 
 ## Pub/Sub
 
-Pub/Sub is relatively similar to the Observer Pattern in object-oriented programming. The main components are:
+The main components of a Pub/Sub system are:
 
 * **Publisher**: publishes a message to a given topic (e.g. "Send confirmation message about purchase order #123456 to customer XYZ" to the topic "customer notifications")
 * **Topic**: receives messages and distributes to consumers
