@@ -13,9 +13,9 @@ A strong and mature trend in modern cloud software development is to implement c
 * Deployed independently
 * Easily testable
 
-These component services are then composed (or orchestrated) into a cohesive and organized workflow to fulfill higher level tasks and accomplish the business or practical purposes expected from the system.
+These component services are then composed (or orchestrated) into a cohesive and organized workflow to fulfill higher-level tasks and accomplish the business or practical purposes expected from the system.
 
-Having independent components enables software reusability and enables decoupling of the software architecture. As a result, the entire system can be easier to test, extend and maintain.
+Having independent components enables software reusability and decoupling of the software architecture. As a result, the entire system can be easier to test, extend and maintain.
 
 # How about composition in Serverless?
 
@@ -41,11 +41,11 @@ Let's consider a trivial situation: a user creates a free account (no payments i
 
 * Persist the user data in a database store
 * Send a message to validate the user e-mail address
-* Notify a webhook to track marketing campaign performance (conversion from lead to subscribed user)
+* Notify a webhook to track marketing campaign performance (conversion from lead to a subscribed user)
 
 If each of these _tasks_ should be performed by isolated and independent components, how should we coordinate them together?
 
-A flat, simple implementation would be having a function running behind an API and coordinating all other tasks sequentially. We will se next why this implementation is sub-optimal, but please check the diagram below first:
+A flat, simple implementation would be having a function running behind an API and coordinating all other tasks sequentially. We will see next why this implementation is sub-optimal, but please check the diagram below first:
 
 ![Sequential Composition](/images/knowledge-base/architecture/composition-sequential-architecture.png)
 
@@ -63,7 +63,7 @@ First, it makes it difficult to replace and extend components. Suppose this syst
 
 ## Breaks Isolation
 
-Second, the `CreateUser` function must be aware of other services and at least some of their implementation details. For example: it must be aware that these services are implemented as a Lambda function. This breaks the _isolation_ property.
+Second, the `CreateUser` function must be aware of other services and at least some of their implementation details. For example, it must be aware that these services are implemented as a Lambda function. This breaks the _isolation_ property.
 
 ## Breaks Zero-waste
 
@@ -72,7 +72,7 @@ Finally, there is a lot of double-billing going on. While the `StoreUserData` is
 
 # Considering options
 
-Let's find-out whether we can meet all three desired principles while orchestrating our functions. We will cover several different approaches to function composition below, both in the client and in the backend.
+Let's find out whether we can meet all three desired principles while orchestrating our functions. We will cover several different approaches to function composition below, both in the client and in the backend.
 
 Some of these patterns should be avoided, others are recommended, but have their strong sides and weaknesses and should be considered depending on the context and use case.
 
@@ -83,9 +83,9 @@ For processes that have some sort of interaction with a UI (user interface), the
 
 In the user subscription example above, this could be structured as such:
 
-![Client-side Composition](/images/knowledge-base/architecture/composition-sequential-architecture.png)
+![Client-side Composition](/images/knowledge-base/architecture/composition-client-side.png)
 
-The client-side software is responsible for invoking each of the endpoints needed for fulfilling the user creation process. All invocations can be executed in parallel to speed up the overall processing time for the end user.
+The client-side software is responsible for invoking each of the endpoints needed for fulfilling the user creation process. All invocations can be executed in parallel to speed up the overall processing time for the end-user.
 
 There are a few downsides and caveats to this model, though:
 
@@ -97,9 +97,9 @@ The orchestration process is implemented for one single type of client: a web br
 
 What happens if, for instance, we would like to support programmatic account creation through an API or CLI (Command Line Interface), instead of a browser UI?
 
-One could argue: _the same Javascript code running in the browser could be used in a NodeJS serverless function_. While that is technically true, from an architectural perspective it may lead to a bad implementation.
+One could argue: _the same Javascript code running in the browser could be used in a NodeJS serverless function_. While that is technically true, from an architectural perspective it may lead to bad implementation.
 
-By moving this client-side diagram architecture to a backend serverless function, we would be back to a situation similar to the _sequential model_ described above. In this model, our composition fails to meet all of the three design principles we are looking for.
+By moving this client-side diagram architecture to a backend serverless function, we would be back in a situation similar to the _sequential model_ described above. In this model, our composition fails to meet all of the three design principles we are looking for.
 
 ### Difficult to handle consistency
 
@@ -108,27 +108,27 @@ What happens if the `StoreUserData` function could not reach the database at the
 * Should the client still request the validation e-mail?
 * How about the webhook, should it still be notified?
 
-These decisions will all have to be made in the client, increasing the complexity of the software running on the client-side. Depending on the answers to the questions above, it won't be possible to request all three endpoints in parallel. But responding the user only after a three-step sequential API interaction might be too long.
+These decisions will all have to be made in the client, increasing the complexity of the software running on the client-side. Depending on the answers to the questions above, it won't be possible to request all three endpoints in parallel. But responding to the user only after a three-step sequential API interaction might be too long.
 
 ### Exposes internal business rules
 
-Some business rules that would ideally be kept private have to be exposed in the client-side for the orchestration to run there. This is inherent to running code in the client-side and can't really be solved.
+Some business rules that would ideally be kept private have to be exposed on the client-side for the orchestration to run there. This is inherent to running code on the client-side and can't really be solved.
 
 
 ## Asynchronous Messaging
 
 We covered asynchronous messaging more extensively [in another page](/knowledge-base/architectural-patterns/asynchronous-messaging/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=architectural-patterns), so we won't go into details about the concept here.
 
-It is possible to satisfy all thre principles with this architecture: substitution, isolation, zero-waste.
+It is possible to satisfy all three principles with this architecture: substitution, isolation, zero-waste.
 
-The disdvantages of this approach is when we need more fine-grained control over the workflow logic. The same questions related to handling consistency in the Client-side model also apply here. If one step fails, for example, it is very difficult - if not impossible - to control how other steps of the process should behave.
+The disadvantages of this approach are when we need more fine-grained control over the workflow logic. The same questions related to handling consistency in the Client-side model also apply here. If one step fails, for example, it is very difficult - if not impossible - to control how other steps of the process should behave.
 
-That doesn't mean this pattern shouldn't be used. As a matter of fact, it is perhaps one of the most comonly and successfully used patterns for a serverless composition strategy that is both scalable and maintainable. It's just not a good fit for all use cases.
+That doesn't mean this pattern shouldn't be used. As a matter of fact, it is perhaps one of the most commonly and successfully used patterns for a serverless composition strategy that is both scalable and maintainable. It's just not a good fit for all use cases.
 
 
 ## Chaining
 
-Each function could be wired up, having one invoking the next after the end of each task execution. End user waiting time could be reduced by having the API responding early with a confirmation message that the request was received and is being processed.
+Each function could be wired up, having one invoking the next after the end of each task execution. The end-user waiting time could be reduced by having the API responding early with a confirmation message that the request was received and is being processed.
 
 ![Chaining Composition](/images/knowledge-base/architecture/composition-chaining.png)
 
@@ -145,10 +145,10 @@ The last principle, **Zero-waste** is satisfied, since there would be no double-
 
 This pattern involves the usage of a concept called Finite-state Machine (FSM). If you are not familiar, please take a look at [this introductory article](https://dashbird.io/blog/introduction-to-step-functions/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=architectural-patterns) we published recently before moving forward.
 
-In a FSM, it is possible to:
+In an FSM, it is possible to:
 
 * Easily replace components without breaking the rest of the system
-* Have components acting as complete black-boxes, without knowledge of eachother or implementation details leakage
+* Have components acting as complete black-boxes, without knowledge of each other or implementation details leakage
 * Avoid double-billing
 
 Some additional advantages to this pattern:
