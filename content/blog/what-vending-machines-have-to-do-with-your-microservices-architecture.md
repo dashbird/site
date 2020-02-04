@@ -7,6 +7,7 @@ thumbnail: "images/blog/2019-06-03/aron-visuals-322314-unsplash.jpg"
 author: Renato Byrro
 author_image: "/images/team/renato.jpg"
 authorlink: "https://medium.com/@byrro"
+author: Renato Byrro
 blog: ["Microservices", "Architectural Patterns", "Step Functions"]
 ---
 
