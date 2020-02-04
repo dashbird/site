@@ -122,6 +122,8 @@ Below is a brief introduction to the main options for handling asynchronous mess
 
 We mentioned a "message queue" in the example for loosely-coupled architecture above. This is exactly what the name suggests: messages are received and piled up by the messaging system in a queue. A consumer can pull messages from the queue for processing. When processing is finished, the messaging system is notified to delete the message. If it fails, the message goes back to the queue.
 
+Read our [detailed page about the Message Queue pattern](/knowledge-base/architectural-patterns/message-queue/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=architecture-and-best-practices).
+
 ## Pub/Sub
 
 The main components of a Pub/Sub system are:
@@ -132,9 +134,11 @@ The main components of a Pub/Sub system are:
 
 In the "confirmation message" example, if we had only an e-mail sending mechanism and wanted to add SMS messaging as well, it would be a matter of deploying an SMS sender service and subscribing it to the "_customer notifications_" topic. The rest of the system remains unaware of this change. This makes the overall project a lot more manageable and extensible.
 
+Read our [detailed page about the Pub/Sub pattern](/knowledge-base/architectural-patterns/pub-sub-messaging/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=architecture-and-best-practices).
+
 ## Event Bridge
 
-An Event Bridge is somewhat similar to the above two, but with a difference: messages are matched to subscribers depending on a rule mechanism. It could be, for example, a REGEX pattern. Messages matching a certain pattern would be forwarded to a particular subscriber responsible for processing it.
+An Event Bridge is somewhat similar to the above two, but with a difference: messages (called events) are matched to subscribers depending on a fine-grained pattern matching mechanism. Events that match a certain pattern would be forwarded to a particular subscriber responsible for processing it.
 
 ## Stream Processing
 
