@@ -1,7 +1,7 @@
 ---
 date: 2020-02-02T00:00:00+03:00
-title: "What is AWS Step Functions"
-description: "Introduction to Step Functions and its features"
+title: "Why use Step Functions"
+description: "What makes Step Functions a useful resource in a cloud developer toolkit"
 learning: ["FStep Functions"]
 learning_weight: 200
 ---
