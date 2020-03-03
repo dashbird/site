@@ -73,6 +73,7 @@ date: 2019-04-30T17:50:03+02:00
                 <ul class='pricing-features pb-3'>
                     <li>X-ray support</li>
                     <li>Full-text search</li>
+                    <li>Live tailing</li>
                     <li>14-day data retention</li>
                     <li>Technical support</li>
                   </ul>
