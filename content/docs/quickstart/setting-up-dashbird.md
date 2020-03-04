@@ -2,7 +2,7 @@
 date: 2017-06-05
 title: Setting up of Dashbird
 linktitle: Setting up of Dashbird
-description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented. 
+description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented.
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 100
 alias:
@@ -82,7 +82,3 @@ Another incredibly convenient feature is the ability to have an **overview of al
   </div>
 </div>
 By toggling this to `on`, you'll have enabled the auto reload feature for all graphs across your entire account. **No need to hit** `F5`, just **let Dashbird reload everything automagically for you!**
-
----
-
-Learn more about account configuration by checking out the [next section](/docs/get-started/step-by-step-guide/), or take a look at the [account overview](/docs/account-settings/overview/) for a complete guide.
