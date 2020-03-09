@@ -30,6 +30,5 @@ Dashbird relies on CloudWatch logs to gather data of your Lambda functions.
 
 AWS charges data transferred out of CloudWatch equivalently to data transferred out of an EC2 server. Check it out at <a href="https://aws.amazon.com/cloudwatch/pricing/">AWS CloudWatch pricing</a>. The amount added to your bill is insignificant. <a href="https://dashbird.io/blog/saving-money-switching-serverless/">Here</a> is an article explaining it in more detail.
 
-### How to I invite my team members?
+### How do I invite my team members?
 In the top right corner of the screen, go to your “Profile”. In the left side of the page, under “Organization”, go to “Users”. Click on the “Add user” button on the top-right corner to invite anyone you would like to your Dashbird account.
-
