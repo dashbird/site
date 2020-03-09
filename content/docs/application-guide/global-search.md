@@ -7,11 +7,15 @@ kbSeries: ["CApplication Guide"]
 kbSeries_weight: 700
 ---
 
-It usually takes an average of 30 seconds for **Lambda** logs to display in the Dashbird interface. Also, after opening a list of invocation logs, it won’t get automatically updated with new incoming logs.
+Dashbird indexes all logs retrieved from the monitored Lambda functions and provides a full-text search. We call it "**Global** Search" because users can search across multiple Lambdas at once.
 
-![Live Tailing](/images/docs/lambda-live-tailing.gif)
+These are the filters available in Global Search:
 
-With Live Tailing, Dashbird will poll Lambda logs in shorter time intervals and interactively update the user interface as new data is available from AWS. That is helpful when you are running tests and need to watch results right away, speeding up the debugging process.
+* Keywords
+* Lambda function(s) or [Project(s)](/docs/quickstart/projects/)
+* Invocation status (success or error)
+* Datetime period
 
+Matching results are highlighted for fast browsing. Each logline is linked to the respective invocation, making it easier to expand all logs from the request, as well as visualize traces from AWS X-Ray, for example.
 
-Live Tailing takes more resources on the Dashbird’s end, and usually isn’t a requirement for all Lambdas. For that reason, we will allow developers to choose a subset of Lambdas to watch in a live fashion. Live Tailing can be enabled or disabled for any Lambda at any moment.
+![Global Search](/images/docs/global-search.png)
