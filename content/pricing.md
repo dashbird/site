@@ -79,6 +79,7 @@ date: 2019-04-30T17:50:03+02:00
                   </ul>
                 <a class="btn cta-btn w-100" href='#register'>Start Free Trial</a>
                 <p class="text-center text-secondary small p-1 m-0">No credit card needed</p>
+                <p class="text-center text-secondary small p-1 m-0">14-day Trial Period</p>
               </div>
             </div>
           </div>
