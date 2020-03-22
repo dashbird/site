@@ -5,6 +5,8 @@ linktitle: Enable X-Ray tracing
 description: Enable X-Ray tracing
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 500
+aliases:
+  - /docs/user-guide/tracing/
 ---
 
 To configure X-Ray integration on an AWS Lambda function:
@@ -25,4 +27,3 @@ Dashbird automatically detects X-Ray-enabled functions. When opening an invocati
 ![](/images/docs/x-ray-traces.png)
 
 **X-Ray** also supports custom traces, meaning data you want to manually track. Dashbird shows all this and gives you a really easy way to understand where time is lost and what actually failed.
-
