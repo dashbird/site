@@ -5,6 +5,8 @@ linktitle: Enabling alerting
 description: Enabling alerting
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 300
+aliases:
+  - /docs/user-guide/alerting/
 ---
 
 
