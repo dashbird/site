@@ -2,7 +2,7 @@
 date: 2020-01-16T00:00:00+03:00
 title: "Serverless Functions Composition Strategies"
 description: "Strategies to compose functions into flexible, scalable and maintainable systems"
-learning: ["QArchitectural Patterns"]
+learning: ["AWell Architected"]
 learning_weight: 100
 ---
 

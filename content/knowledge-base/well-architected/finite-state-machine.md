@@ -2,7 +2,7 @@
 date: 2020-02-02T00:00:00+03:00
 title: "Finite-State Machine"
 description: "A software pattern to control workflows and state transitions on complex processes"
-learning: ["QArchitectural Patterns"]
+learning: ["AWell Architected"]
 learning_weight: 400
 ---
 

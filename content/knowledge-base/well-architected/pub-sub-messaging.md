@@ -2,7 +2,7 @@
 date: 2020-01-16T00:00:00+03:00
 title: "Pub/Sub Messaging"
 description: "Asynchronous message and task processing with Pub/Sub"
-learning: ["QArchitectural Patterns"]
+learning: ["AWell Architected"]
 learning_weight: 220
 ---
 

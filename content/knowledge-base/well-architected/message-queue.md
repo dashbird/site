@@ -2,7 +2,7 @@
 date: 2020-01-16T00:00:00+03:00
 title: "Queue and Asynchronous Processing"
 description: "Using message queues to manage task processing asynchronously"
-learning: ["QArchitectural Patterns"]
+learning: ["AWell Architected"]
 learning_weight: 210
 ---
 
