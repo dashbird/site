@@ -292,3 +292,40 @@ tl.set('.hero-info', {autoAlpha: 1})
     y: 0,
     ease: Power4.easeOut
   }, 0.1)
+
+// Randomize promo messages at the top bar
+function promoMessage () {
+  const messages = [
+    {
+      'text': 'Watch Tech Talks on AWS Lambda: Debugging, Security, and more!',
+      'url': 'https://github.com/dashbird/techtalks'
+    },
+    {
+      'text': 'Download our free e-book now: "Serverless Best Practices"',
+      'url': 'https://dashbird.io/serverless-benefits/?utm_source=dashbird-site&utm_medium=top-bar-promo&utm_campaign=case-study'
+    },
+    {
+      'text': 'Case Study: Migrating Legacy and Going Serverless',
+      'url': 'https://dashbird.io/shamrock-case-study/?utm_source=dashbird-site&utm_medium=top-bar-promo&utm_campaign=case-study'
+    },
+    {
+      'text': 'Case Study: Improve Visibility and Application Health',
+      'url': 'https://dashbird.io/blow-ltd-case-study/?utm_source=dashbird-site&utm_medium=top-bar-promo&utm_campaign=case-study'
+    },
+    {
+      'text': 'Check out the Cloud Knowledge Base',
+      'url': 'https://dashbird.io/knowledge-base/?utm_source=dashbird-site&utm_medium=top-bar-promo&utm_campaign=knowledge-base'
+    }
+  ]
+
+  let $message = document.querySelector('p.top-bar-promo span')
+  let $anchor = document.querySelector('p.top-bar-promo a')
+  let pickedMsg = messages[ Math.floor(Math.random() * messages.length) ]
+
+  if ($message && $anchor && pickedMsg) {
+    $message.textContent = pickedMsg.text
+    $anchor.href = pickedMsg.url
+  }
+}
+
+// promoMessage()
