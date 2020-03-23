@@ -7,6 +7,6 @@ learning_weight: 90
 ---
 
 <video width="780" height="auto" controls>
-    <source src="d1enm3zt1hbvj4.cloudfront.net/serverless-trilemma-v5.mp4" type="video/mp4">
+    <source src="https://d1enm3zt1hbvj4.cloudfront.net/serverless-trilemma-v5.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
