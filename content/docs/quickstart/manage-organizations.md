@@ -16,7 +16,7 @@ In this section you can:
 
 * Details:
     * Change organization name
-    * Delete the organization (will not delete your Dashbird account)
+    * Delete the organization (will not delete your user unless it is your last organization)
 * Users
     * View list of users associated
     * Add or deactivate users
