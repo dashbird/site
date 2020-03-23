@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
 }
 h1.display-4 {
   letter-spacing: -.5rem;
+  font-size: 3rem;
   @media (max-width: 768px) {
     font-size: 2.5rem;
     letter-spacing: -.25rem;

@@ -17,7 +17,7 @@
       </li>
       {{ end }}
       <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
-      <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+      <li class="nav-item"><a class="nav-link" href="#register">Free Trial</a></li>
     </div>
     <div class="login-container">
       <div class="register">
@@ -67,33 +67,38 @@
   </div>
 </div>
 
-<nav class="container navbar-expand">
+<nav class="container-fluid top-menu navbar-expand">
   <div class="row">
-    <div class="col-12 mt-4">
+    <div class="col-12 d-flex mt-4 align-items-center">
+
       {{ if not .Params.exclude_menu }}
-      <a class="navbar-brand float-left" href="/">
-        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
+      <a class="navbar-brand" href="/">
+        <img src="/images/v2/logo-dashbird-withtext.svg" alt="Dashbird">
       </a>
-      <div class="float-right align-right d-block d-lg-none">
+
+      <div class="ml-auto align-right d-block d-lg-none">
         <a href="#menu">
           <img src="/images/v2/navbar-burger-icon.svg" alt="">
         </a>
       </div>
-      <ul class="nav float-left d-none d-lg-inline-flex">
+
+      <ul class="nav float-left d-none d-lg-inline-flex flex-end flex-fill">
         {{ range .Site.Menus.main }}
         <li class="nav-item">
           <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
+
       <ul class="nav float-right align-right d-none d-lg-inline-flex">
         <li class='nav-item'>
-          <a class="nav-link" href="https://app.dashbird.io">Log in</a>
+          <a class="cta cta-btn" href="https://app.dashbird.io">Log in</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link primary" href="#register">Sign Up</a>
+          <a class="cta cta-btn register" href="#register">Free Trial</a>
         </li>
       </ul>
+
       {{ else }}
       <a class="navbar-brand float-left" href="#">
         <img src="/images/v2/logo-dashbird-withtext.svg" alt="">

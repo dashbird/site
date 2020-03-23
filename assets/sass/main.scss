@@ -7,7 +7,7 @@ $accent-color: #4B45C6;
 @import 'footer';
 
 .row.full-height {
-  min-height: 92vh;
+  min-height: 97vh;
 }
 body {
   color: $primary-color;
@@ -19,31 +19,29 @@ body {
   overflow-x: hidden;
 }
 
-
-button {
+button, a.cta {
   position: relative;
   border-radius: 99rem;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, .25);
+  border: 1px solid #4A45C6;
   color: white;
   cursor: pointer;
   transition: all .3s;
   font-family: 'Reno Mono', monospace;
-  line-height: 0;
-  padding: 1.2rem 2rem 1.1rem;
+  padding: 0.8rem 2rem 0.6rem;
   @media (max-width: 768px) {
     font-size: 1rem;
     padding: 1.3rem 1.6rem 1.1rem;
   }
   &.cta-btn {
-    background: white;
-    color: black;
+    background: #4A45C6;
+    color: white;
     min-width: 10rem;
   }
   &.cta-btn:hover {
-    background: #4B45C6;
-    color: white;
-    border: 1px solid #4B45C6;
+    background: white;
+    color: black;
+    border: 1px solid white;
   }
   &.cta-btn:active {
     background: rgb(51, 46, 134);
@@ -65,12 +63,24 @@ button {
   }
 }
 
-a {
+a.cta {
   &.cta-btn {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 8px 8px 8px;
+    margin-left: 15px;
+    border-radius: 99rem;
+    padding: 10px 18px 10px 18px;
     line-height: 33px;
+    background: transparent;
+    &:hover {
+      text-decoration: none;
+    }
+    &.register {
+      background: #4A45C6;
+      &:hover {
+        color: black;
+        background: white;
+        border: 1px solid white;
+      }
+    }
   }
 }
 
