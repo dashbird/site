@@ -107,7 +107,7 @@ $border: 25px;
   box-shadow: inset 0 0 40px 20px #2c1f3a;
   padding: 35px 25px;
 
-  
+
 }
 
 .pro-box {
@@ -115,7 +115,7 @@ $border: 25px;
   padding: 15px 1em;
   border-radius: 1em;
   z-index:9;
-  
+
   padding: 35px 25px;
 
   &:before {
@@ -135,7 +135,7 @@ $border: 25px;
 }
 
 .custom-box {
- 
+
   margin: 5% auto;
   color: #FFF;
   border-radius: .75em;
@@ -172,7 +172,7 @@ ul.pricing-features {
 }
 
 
-.cost {    
+.cost {
   height: 60px;
   color: #FFFFFF;
   font-family: "Reno Mono";
@@ -258,25 +258,15 @@ p.price-vat {
   height: auto;
 }
 
-.blog-item {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; 
-  // background-color: #4A45C6;
-  // background-color: black;
-  background-color: #0d0d0d;
-  border-radius: .75em;
-  border: 1px solid #615ae3;
-  // -webkit-box-shadow: inset 0 0 40px 20px #1f1f1f;
-  // box-shadow: inset 0 0 40px 20px #1f1f1f;
+.mt-block {
+  margin-top: 8rem;
 }
 
-.blog-tag-item {
-  background: #FFFFFF;
-  border-radius: 4px;
-  text-transform: uppercase;
-  color: black;
-  padding: 6px 8px;
-  font-size: 0.7rem;
+.my-block {
+  margin: 6rem 0;
 }
 
+.a-block { 
+  p { color: white; }
+  &:hover { text-decoration: none; }
+}

@@ -228,3 +228,26 @@ section.landing-content .row:nth-child(2n) .landing-img{
     color: black;
   }
 }
+
+.blog-item {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-tag-item {
+  background: #FFFFFF;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: black;
+  padding: 6px 8px;
+  font-size: 0.7rem;
+  line-height: 2.2rem;
+}
+
+.blog-item-header {
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.2rem;
+}

@@ -1,18 +1,22 @@
 {{ if .Params.include_blog}}
-<div class='container mt-5'>
+<div class='container mt-block'>
   <div class="row">
     <div class='col-11 mx-auto d-flex justify-content-between'>
       {{ range where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog" | first 3 }}
         <div class="col-4 ">
+          <a class='a-block' href="{{ .Permalink }}">
           <div class='col-12 blog-item d-flex justify-content-end align-items-end pb-3' style='height: 200px; background-image: url(/images/blog/{{.Params.frontImage}})'>
-            <div class='tags'>
-              <span class='blog-tag-item'>case study</span>
+            <div class='tags text-right'>
+            {{ range $categ :=  .Params.blog }}
+              <span class='blog-tag-item'>{{ $categ }}</span>
+            {{ end }}
             </div>
           </div>
-          <div class='col-12'>
-            <a href="{{ .Permalink }}"><h6 class='text-white'>{{ .Title }}</h6></a>
-            <p class='subtitle'>{{ .Description }}</p>
+          <div class='col-12 p-0 pt-3'>
+            <h6 class='blog-item-header text-white'>{{ .Title }}</h6>
+            <p class='compressed text-justify p-0'>{{ .Description }}</p>
           </div>
+        </a>
         </div>
       {{ end }}
       </div>
@@ -75,9 +79,9 @@
           </button>
         </div>
         <div class="_form-thank-you" style="display:none;margin-left: -15px;font-weight: bold;"></div>
-       
+
       </form>
-      
+
       <!-- <form class="form-inline" style="width: 100%;display: inline-block; max-width: 260px;">
         <input type="email" class="form-control" id="newsletter-email" placeholder="Email...">
         <button type="submit" id="newsletter-submit" class="btn btn-primary">join</button>

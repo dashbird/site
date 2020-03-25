@@ -218,3 +218,12 @@ dashbird-graph {
     text-align: left;
   }
 }
+
+.quote { 
+  background-image: url('/images/quote.svg');
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  display: block;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
