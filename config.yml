@@ -13,22 +13,23 @@
     home: ['HTML', 'RSS']
   menu:
     main:
-      - name: 'Product'
-        identifier: 'product'
+      - name: 'Platform'
+        identifier: 'platform'
         URL: '/features/'
         weight: 100
-      - name: 'Documentation'
-        identifier: 'documentation'
-        URL: '/docs/'
-        weight: 200
       - name: 'Pricing'
         identifier: 'pricing'
         URL: '/pricing/'
         weight: 300
-      - name: 'Knowledge Base'
-        identifier: 'knowledge-base'
+      - name: 'Learning Center'
+        identifier: 'cloud-learning-center'
         URL: '/knowledge-base/'
         weight: 400
+      - name: 'About'
+        identifier: 'about-us'
+        URL: '/team/'
+        weight: 600
+
   params:
     thumbnail: "images/screens/slogan.jpg"
     blog:

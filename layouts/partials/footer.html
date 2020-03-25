@@ -1,3 +1,25 @@
+{{ if .Params.include_blog}}
+<div class='container mt-5'>
+  <div class="row">
+    <div class='col-11 mx-auto d-flex justify-content-between'>
+      {{ range where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog" | first 3 }}
+        <div class="col-4 ">
+          <div class='col-12 blog-item d-flex justify-content-end align-items-end pb-3' style='height: 200px; background-image: url(/images/blog/{{.Params.frontImage}})'>
+            <div class='tags'>
+              <span class='blog-tag-item'>case study</span>
+            </div>
+          </div>
+          <div class='col-12'>
+            <a href="{{ .Permalink }}"><h6 class='text-white'>{{ .Title }}</h6></a>
+            <p class='subtitle'>{{ .Description }}</p>
+          </div>
+        </div>
+      {{ end }}
+      </div>
+  </div>
+</div>
+{{ end }}
+
 {{ if not .Params.exclude_menu }}
 <section id="footer" class="container">
   <div class="row">
