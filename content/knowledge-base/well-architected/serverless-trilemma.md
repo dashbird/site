@@ -3,7 +3,7 @@ date: 2020-03-23T00:00:00+03:00
 title: "Serverless Trilemma"
 description: "Learn the three basic concepts to build scalable and maintainable applications on serverless backends"
 learning: ["AWell Architected"]
-learning_weight: 90
+learning_weight: 100
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4E9qUGdOd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
