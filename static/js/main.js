@@ -1,37 +1,17 @@
 /* eslint-env jquery */
 
+$('.card-title').on('click', function() {
+  console.log($(this).parents('.card'));
+  $(this).parents('.card').toggleClass('blue-active');
+  console.log('test')
+
+})
+
 /* signup popup */
 
 var $sideMenu = document.querySelector('#side-menu')
 var $overlay = document.querySelector('#overlay')
 var hashTriggers = ['#menu', '#login', '#register']
-var prices = {
-  1: {
-    annual: 115,
-    monthly: 115,
-    invocations: 10,
-    volume: 25
-  },
-  2: {
-    annual: 350,
-    monthly: 350,
-    invocations: 30,
-    volume: 100
-  },
-  3: {
-    annual: 700,
-    monthly: 700,
-    invocations: 100,
-    volume: 200
-  },
-  4: {
-    annual: 1150,
-    monthly: 1150,
-    invocations: 200,
-    volume: 300
-  }
-}
-
 checkHash()
 
 $sideMenu.classList.add('register')
@@ -134,129 +114,6 @@ $(document).ready(function () {
     $(this).css('margin-right', margin)
   })
 
-  $('#custom').hide()
-  $('#price-selector').on('change', function (e) {
-    var selectedValue = $(this).val()
-    if (selectedValue === 'custom') {
-      $('#custom').show()
-      $('#priced').hide()
-    } else {
-      $('#custom').hide()
-      $('#priced').show()
-      var priceLevel = prices[selectedValue]
-      $('#annual-cost').html(priceLevel.annual)
-      $('#monthly-cost').html(priceLevel.monthly)
-      $('#volume').html(priceLevel.volume)
-    }
-  })
-
-  // Allows bootstrap carousels to display 3 items per page rather than just one
-
-  $('#carouselCaseStudies').on('slide.bs.carousel', function (e) {
-    var $e = $(e.relatedTarget)
-    var idx = $e.index()
-    var itemsPerSlide = 3
-    var totalItems = $('#carouselCaseStudies .carousel-item').length
-    if (idx >= totalItems - (itemsPerSlide - 1)) {
-      var it = itemsPerSlide - (totalItems - idx)
-      for (var i = 0; i < it; i++) {
-        // append slides to end
-        if (e.direction == 'left') {
-          $(this).find('.carousel-item').eq(i).appendTo('.carousel-inner')
-        } else {
-          $(this).find('.carousel-item').eq(0).appendTo('.carousel-inner')
-        }
-      }
-    }
-  })
-
-  // Allows bootstrap carousels to display 3 items per page rather than just one
-  $('#carousel-example-multi').on('slide.bs.carousel', (e) => {
-    const $e = $(e.relatedTarget)
-    const idx = $e.index()
-    const itemsPerSlide = 4
-    const totalItems = $('.carousel-item').length
-    if (idx >= totalItems - (itemsPerSlide - 1)) {
-      var it = itemsPerSlide - (totalItems - idx)
-      for (var i = 0; i < it; i++) {
-        // append slides to end
-        if (e.direction === 'left') {
-          $('.carousel-item').eq(i).appendTo('.carousel-inner')
-        } else {
-          $('.carousel-item').eq(0).appendTo('.carousel-inner')
-        }
-      }
-    }
-  })
-
-  $('.smart-tabs a').click(function (event) {
-    $(this).closest('.smart-tabs').find('dt').removeClass('current')
-    $(this).closest('.smart-tabs').find('dd').removeClass('current')
-    $(this).parent().addClass('current')
-    $(this).parent().parent().find('dd').addClass('current')
-    return false
-  })
-
-  if ($(window).width() > 767) {
-    $('#carousel-example-multi').carousel({ interval: 4000 })
-  }
-
- 
-
-
-
-  if( $('#price-slider').length > 0 ){
-    var slider = new Slider('#price-slider', {
-      ticks: [1, 2, 3, 4],
-      ticks_snap_bounds: 4,
-      ticks_labels: ['25GB', '100GB', '200GB', '300GB'],
-      formatter: function (value) {
-        var priceLevel = prices[value]
-        if (priceLevel) {
-          if (value == 1) {
-            $('.tooltip-main').addClass('first')
-          } else {
-            $('.tooltip-main').removeClass('first')
-          }
-          if (value == 4) {
-            $('.tooltip-main').addClass('last')
-          } else {
-            $('.tooltip-main').removeClass('last')
-          }
-
-          if (priceLevel.annual == '0') {
-            $('.no-price').removeClass('d-none')
-            $('.has-price').addClass('d-none')
-          } else {
-            $('.has-price').removeClass('d-none')
-            $('.no-price').addClass('d-none')
-          }
-
-          $('.custom-tooltip').remove()
-          $('.tooltip-main').append('<div class="custom-tooltip"><span class="tooltip-value">' + priceLevel.volume + ' GB</span><span class="tooltip-desc">of ingested data</span><div>')
-          $('#annual-cost').html(priceLevel.annual)
-          $('#invocations').html(priceLevel.invocations)
-          $('#logsize').html(priceLevel.volume)
-          // return ;
-        }
-      },
-      step: 1
-    })
-  }
-  $('#price-slider').on('change', function (e) {
-    var selectedValue = $(this).val()
-    if (selectedValue === 'custom') {
-      $('#custom').show()
-      $('#priced').hide()
-    } else {
-      $('#custom').hide()
-      $('#priced').show()
-      var priceLevel = prices[selectedValue]
-      $('#annual-cost').html(priceLevel.annual)
-      $('#monthly-cost').html(priceLevel.monthly)
-      $('#volume').html(priceLevel.volume)
-    }
-  })
   // acordion - add collapse class for all items
   $.each($('.accordion .card'), function (index, value) {
     if ($(this).find('.collapse').hasClass('hide')) {

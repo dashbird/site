@@ -67,8 +67,8 @@ a.cta {
   &.cta-btn {
     margin-left: 15px;
     border-radius: 99rem;
-    padding: 1rem 2rem;
-    line-height: 33px;
+    padding: 1rem 2rem 0.8rem;
+    line-height: 20px;
     background: transparent;
     &:hover {
       text-decoration: none;
@@ -93,126 +93,6 @@ a.cta {
 
   }
 }
-
-// START PRICING STYLE
-$border: 25px;
-
-.free-box {
-  margin: 5% auto;
-  color: #FFF;
-  border-radius: .75em;
-  // margin-top: 55px !important;
-  background: #140c1e;
-  -webkit-box-shadow: inset 0 0 40px 20px #2c1f3a;
-  box-shadow: inset 0 0 40px 20px #2c1f3a;
-  padding: 35px 25px;
-
-
-}
-
-.pro-box {
-  margin: auto;
-  padding: 15px 1em;
-  border-radius: 1em;
-  z-index:9;
-
-  padding: 35px 25px;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0px; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    border: 1px solid #615ae3;
-    margin: -$border; /* !importanté */
-    border-radius: inherit; /* !importanté */
-    background: radial-gradient(#05020a 65%, #241931 115%);
-
-    background: #0d0d0d;
-    -webkit-box-shadow: inset 0 0 40px 20px #17172a;
-    box-shadow: inset 0 0 40px 20px #17172a;
-  }
-}
-
-.custom-box {
-
-  margin: 5% auto;
-  color: #FFF;
-  border-radius: .75em;
-  // margin-top: 55px !important;
-  background: #0d0d0d;
-  -webkit-box-shadow: inset 0 0 40px 20px #1f1f1f;
-  box-shadow: inset 0 0 40px 20px #1f1f1f;
-  padding: 35px 25px;
-
- }
-
- .pricing-val-spec
- {
-  color: #FFFFFF;	font-family: "Reno Mono";	font-size: 11.2px;	line-height: 19px;	text-align: center;
- }
-
-ul.pricing-features {
-  list-style: none;
-  padding-left: 0px;
-  opacity: 0.5;
-  color: #FFFFFF;
-  font-family: "SF UI Text";
-  font-size: 12px;
-  line-height: 30px;
-  text-align: center;
-}
-
-
-
-.slider.slider-horizontal .slider-track
-{
-  height: 1px !important;
-  margin-top: 0px !important;
-}
-
-
-.cost {
-  height: 60px;
-  color: #FFFFFF;
-  font-family: "Reno Mono";
-  font-size: 56px;
-  letter-spacing: -3px;
-  line-height: 60px;
-  text-align: center;
-}
-
-.contact-us-title {	height: 40px;	color: #FFFFFF;	font-family: "Reno Mono";	font-size: 43px;	letter-spacing: -4.61px;	line-height: 40px;	text-align: center;}
-
-.pricing-title {
-	height: 31px;
-	color: #FFFFFF;
-	font-size: 19px;
-	letter-spacing: -0.26px;
-	line-height: 31px;
-	text-align: center;
-}
-
-p.price-vat {
-  margin-top: 25px;
-}
-
-.video-frame {
-  width: 100%;
-  height: 80vmin;
-}
-
-.product-feature {
-  border-radius: 10px;
-  border: 5px solid #7373e2;
-  &:before {
-    box-shadow: inset 0 0 8px rgba(0,0,0,.6);
-    -moz-box-shadow: inset 0 0 8px rgba(0,0,0,.6);
-    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,.6);
-  }
-}
-
-// END PRICING STYLE
 
 .caption {
   font-size: .8em;
@@ -266,7 +146,77 @@ p.price-vat {
   margin: 6rem 0;
 }
 
-.a-block { 
+.a-block {
   p { color: white; }
   &:hover { text-decoration: none; }
 }
+
+// pricing
+.box-light {
+  background-color: rgba(74, 69, 198, 0.16);
+  border-radius: 0 20px;
+  padding: 4.5rem 0;
+  margin-top: 6rem;
+}
+.box-darker{
+  background-color: rgba(74, 69, 198, 0.44);
+  border-radius: 0 20px;
+  h2 {
+    margin-top: 3rem;
+  }
+  .badge {
+    background: #4A45C6;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 9px 15px;
+    position: relative;
+    top: -12px;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.box-light, .box-darker {
+  h6 {
+    margin: 1rem 0 0;
+    font-weight: 900;
+    line-height: 1.4rem;
+  }
+  ul {
+    list-style-position: inside;
+    list-style-image: url(/images/check.svg);
+    padding: 30px 0 0 0;
+    li {  
+      font-size: 1rem;
+      letter-spacing: -.1rem;
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.details-table {
+  margin-top: 100px;
+  .header-row > td {
+    padding-top: 15px;
+  }
+  td {
+    padding-left: 10px;
+  }
+  tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    line-height: 2.5rem;
+  }
+  col.pro-column {
+    padding-top: 20px;
+    background-color: rgba(74, 69, 198, 0.2);
+    border-radius: 0px 20px;
+    border: 1px solid black;
+  }
+}
+.check-white { 
+  content: url(/images/check-white.svg)
+}
+
+
