@@ -6,7 +6,7 @@ learning: ["AWell Architected"]
 learning_weight: 100
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4E9qUGdOd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" style="width: 100%; max-height: 100%; height: auto;" src="https://www.youtube.com/embed/Q4E9qUGdOd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Video Script
 
