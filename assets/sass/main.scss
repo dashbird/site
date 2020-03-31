@@ -1,6 +1,6 @@
 $primary-color: white;
 $accent-color: #4B45C6;
-
+$blue-accent: rgba(74, 69, 198, 0.44);
 @import 'typography';
 @import 'menu';
 @import 'landing-page';
@@ -9,6 +9,7 @@ $accent-color: #4B45C6;
 .row.full-height {
   min-height: 97vh;
 }
+
 body {
   color: $primary-color;
   background-color: black;
@@ -19,116 +20,14 @@ body {
   overflow-x: hidden;
 }
 
-button, a.cta {
-  position: relative;
-  border-radius: 99rem;
-  background: transparent;
-  border: 1px solid #4A45C6;
-  color: white;
-  cursor: pointer;
-  transition: all .3s;
-  font-family: 'Reno Mono', monospace;
-  padding: 0.8rem 2rem 0.6rem;
-  @media (max-width: 768px) {
-    font-size: 1rem;
-    padding: 1.3rem 1.6rem 1.1rem;
-  }
-  &.cta-btn {
-    background: #4A45C6;
-    color: white;
-    min-width: 10rem;
-  }
-  &.cta-btn:hover {
-    background: white;
-    color: black;
-    border: 1px solid white;
-  }
-  &.cta-btn:active {
-    background: rgb(51, 46, 134);
-    color: white;
-    border: 1px solid rgb(51, 46, 134);
-  }
-  &:hover {
-    transition: all .1s;
-    background: rgba(255, 255, 255, 0.2);
-  }
-  &:active {
-    transition: all 0s;
-    background: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.2);
-  }
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
-  }
-}
-
-a.cta {
-  &.cta-btn {
-    margin-left: 15px;
-    border-radius: 99rem;
-    padding: 1rem 2rem 0.8rem;
-    line-height: 20px;
-    background: transparent;
-    &:hover {
-      text-decoration: none;
-    }
-    &.blue-btn{
-      background: #4A45C6;
-      &:hover {
-        color: black;
-        background: white;
-        border: 1px solid white;
-      }
-    }
-    &.white-btn{
-      background: white;
-      color: black;
-      &:hover {
-        color: black;
-        background: white;
-        border: 1px solid white;
-      }
-    }
-
-  }
-}
-
-.caption {
-  font-size: .8em;
-  font-style: italic;
-  margin-top: 2px;
-  padding-top: 0px;
-  text-align: center;
-}
-
-.team-management img, .team-team img {
-  max-width: 275px;
-}
-
-.ohnohoney{
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  z-index: -1;
-}
-
-.mh-300 {
-  min-height: 300px;
-  background: red;
-}
-
 .blue-box {
-  background-color: rgba(74, 69, 198, 0.55);
+  background-color: $blue-accent;
   border-radius: 0px 20px;
   padding: 80px 0px;
 }
 
 .blue-icon {
-  background-color: rgba(74, 69, 198, 0.55);
+  background-color: $blue-accent;
   border-radius: 99rem;
   padding-top: 1px;
 }
@@ -139,11 +38,7 @@ a.cta {
 }
 
 .mt-block {
-  margin-top: 8rem;
-}
-
-.my-block {
-  margin: 6rem 0;
+  margin-top: 10rem;
 }
 
 .a-block {
@@ -151,20 +46,25 @@ a.cta {
   &:hover { text-decoration: none; }
 }
 
+.pl-10 {
+  padding-left: 3rem;
+}
+
 // pricing
 .box-light {
-  background-color: rgba(74, 69, 198, 0.16);
+  background-color: $blue-accent;
   border-radius: 0 20px;
   padding: 4.5rem 0;
   margin-top: 6rem;
 }
+
 .box-darker{
-  background-color: rgba(74, 69, 198, 0.44);
+  background-color: $blue-accent;
   border-radius: 0 20px;
   h2 {
     margin-top: 3rem;
   }
-  .badge {
+  .reccomended-badge {
     background: #4A45C6;
     border-radius: 4px;
     text-transform: uppercase;
@@ -175,24 +75,11 @@ a.cta {
     color: rgba(255, 255, 255, 0.8);
   }
 }
-
 .box-light, .box-darker {
   h6 {
     margin: 1rem 0 0;
     font-weight: 900;
     line-height: 1.4rem;
-  }
-  ul {
-    list-style-position: inside;
-    list-style-image: url(/images/check.svg);
-    padding: 30px 0 0 0;
-    li {  
-      font-size: 1rem;
-      letter-spacing: -.1rem;
-      span {
-        padding-left: 5px;
-      }
-    }
   }
 }
 
@@ -215,8 +102,14 @@ a.cta {
     border: 1px solid black;
   }
 }
-.check-white { 
-  content: url(/images/check-white.svg)
+
+.br-blue-shadow {
+  -webkit-box-shadow: 30px 30px 0px 0px $blue-accent;
+  -moz-box-shadow: 30px 30px 0px 0px $blue-accent;
+  box-shadow: 30px 30px 0px 0px $blue-accent;
 }
-
-
+.bl-blue-shadow {
+  -webkit-box-shadow: -30px 30px 0px 0px $blue-accent;
+  -moz-box-shadow: -30px 30px 0px 0px $blue-accent;
+  box-shadow: -30px 30px 0px 0px $blue-accent;
+}

@@ -16,14 +16,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4:not(.normal) {
-  letter-spacing: -.1rem;
-}
-
-h1, h2, h3, h4, h5:not(.normal) {
+h1, h2 {
   font-family: 'Reno Mono', monospace !important;
   font-weight: 400;
   line-height: 1.15;
+  letter-spacing: -.1rem;
 }
 
 h1.display-4 {
@@ -44,18 +41,24 @@ p {
   line-height: 200%;
 }
 
-ul li {
-  font-family: 'Reno Mono', monospace;
+ul.white-check-list { // lists in pricing and features page
+  list-style-position: inside;
+  list-style-image: url(/images/check.svg);
+  padding: 0 0 0;
+  li {
+    font-size: 1rem;
+    line-height: 2.1rem;
+    span {
+      padding-left: 10px;
+    }
+  }
 }
+
 p.subtitle {
-  font-family: 'Reno Mono', monospace;
+  // font-family: 'Reno Mono', monospace;
   opacity: .5;
   margin-bottom: .5rem;
 }
-.font-reno {
-  font-family: 'Reno Mono', monospace !important;
-}
-
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -70,7 +73,7 @@ p.subtitle {
   font-weight: 900;
 }
 
-span.extra { 
+span.extra {
   display: block;
   color: white;
   opacity: 0.4 !important;
@@ -83,8 +86,97 @@ span.secondary {
   font-size: .8rem;
 }
 
-.compressed {
+span.check-white {
+  content: url(/images/check-white.svg)
+}
+
+.subtle {
  line-height: 1.4rem;
  font-size: 0.9rem;
  opacity: 0.8;
+}
+
+.caption {
+  font-size: .8em;
+  font-style: italic;
+  margin-top: 2px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+// CTA buttons
+button, a.cta {
+  position: relative;
+  border-radius: 99rem;
+  background: transparent;
+  border: 1px solid #4A45C6;
+  color: white;
+  cursor: pointer;
+  transition: all .3s;
+  font-family: 'Reno Mono', monospace;
+  padding: 0.8rem 2rem 0.6rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 1.3rem 1.6rem 1.1rem;
+  }
+  &.cta-btn {
+    background: #4A45C6;
+    color: white;
+    border-color: white;
+    min-width: 10rem;
+  }
+  &.cta-btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+  }
+  &.cta-btn:active {
+    background: rgb(51, 46, 134);
+    color: white;
+    border: 1px solid rgb(51, 46, 134);
+  }
+  &:hover {
+    transition: all .1s;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  &:active {
+    transition: all 0s;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.2);
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
+  }
+}
+
+a.cta {
+  &.cta-btn {
+    margin-left: 15px;
+    border-radius: 99rem;
+    padding: 1rem 2rem 0.8rem;
+    line-height: 20px;
+    background: transparent;
+    &:hover {
+      text-decoration: none;
+    }
+    &.blue-btn{
+      background: #4A45C6;
+      &:hover {
+        color: black;
+        background: white;
+        border: 1px solid white;
+      }
+    }
+    &.white-btn{
+      background: white;
+      color: black;
+      &:hover {
+        color: black;
+        background: white;
+        border: 1px solid white;
+      }
+    }
+
+  }
 }
