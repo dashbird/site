@@ -5,7 +5,6 @@ date: 2020-03-30T00:00:00.000Z
 frontImage: "2020-03-30/how-professional-serverless-teams-manage-software-issues-1.jpg"
 thumbnail: "images/blog/2020-03-30/how-professional-serverless-teams-manage-software-issues-1.jpg"
 author: Renato Byrro
-draft: true
 blog: ["AWS", "AWS Lambda", "CloudWatch", "Monitoring", "Debugging", "Issue Management"]
 ---
 
