@@ -2,8 +2,8 @@
 title: How Professional Serverless Teams Manage Software Issues
 description: Understand the key metrics and most efficient ways to manage issues in modern distributed applications
 date: 2020-03-30T00:00:00.000Z
-frontImage: "2020-03-30/how-professional-serverless-teams-manage-software-issues-1.jpg"
-thumbnail: "images/blog/2020-03-30/how-professional-serverless-teams-manage-software-issues-1.jpg"
+frontImage: "2020-03-30/whats-the-ideal-retention-period-for-application-logs.jpg"
+thumbnail: "images/blog/2020-03-30/whats-the-ideal-retention-period-for-application-logs.jpg"
 author: Renato Byrro
 blog: ["AWS", "AWS Lambda", "CloudWatch", "Monitoring", "Debugging", "Issue Management"]
 ---

@@ -863,6 +863,10 @@ html{
     text-align: center;
   }
 
+  div.article-blog-content > h2 {
+    text-align: left;
+  }
+
   .blog-font h3 {
     font-family: -apple-system,BlinkMacSystemFont,Roboto,‘Helvetica Neue’,‘Segoe UI’,Oxygen,Ubuntu,‘Fira Sans’,‘Droid Sans’,sans-serif;
     margin-top: 40px;
