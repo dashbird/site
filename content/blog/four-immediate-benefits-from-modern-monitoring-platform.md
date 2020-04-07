@@ -21,7 +21,7 @@ Any cloud application with minimal complexity will generate a reasonable amount 
 The development teams behind such applications need a way to **manage** these issues. As an illustration point, the team should be able to visualize and control in a user-friendly way: issues that are open, which ones were already resolved and which have been temporarily muted, for example.
 
 
-![Issue Management Screenshot](../images/blog/2020-04-02/dashbird-screenshot-issue-management.png "Issue Management Screenshot")
+![Issue Management Screenshot](/images/blog/2020-04-02/dashbird-screenshot-issue-management.png "Issue Management Screenshot")
 
 
 
@@ -31,7 +31,7 @@ Quickly visualizing past occurrences of the same issue can be important, as thes
 
 
 
-![Past Occurrences of Issues Screenshot](../images/blog/2020-04-02/dashbird-screenshot-past-occurrences.png "Past Occurrences of Issues Screenshot")
+![Past Occurrences of Issues Screenshot](/images/blog/2020-04-02/dashbird-screenshot-past-occurrences.png "Past Occurrences of Issues Screenshot")
 
 
 
@@ -41,7 +41,7 @@ Developers won't have the time to keep monitoring application logs for themselve
 
 
 
-![New Error Alert Configuration Screenshot](../images/blog/2020-04-02/dashbird-screenshot-alert-new-errors.png "New Error Alert Configuration Screenshot")
+![New Error Alert Configuration Screenshot](/images/blog/2020-04-02/dashbird-screenshot-alert-new-errors.png "New Error Alert Configuration Screenshot")
 
 
 An automated alerting system may sound something trivial that any service provider can offer. The key, though, is to know what to look for. In an immense amount of application logs, it's easy for the monitor to miss relevant signals.
@@ -50,14 +50,14 @@ The alerting mechanism should detect not only application errors, but also infra
 
 
 
-![Alert All Issues Configuration Screenshot](../images/blog/2020-04-02/dashbird-screenshot-alert-all-issues.png "Alert All Issues Configuration Screenshot")
+![Alert All Issues Configuration Screenshot](/images/blog/2020-04-02/dashbird-screenshot-alert-all-issues.png "Alert All Issues Configuration Screenshot")
 
 
 For parts of the system that are more tolerant to faults, developers may disable individual issue alerting and set up aggregation metrics. This allows to shift attention from development to debugging only when it's really required.
 
 
 
-![Alert High Error Count Configuration Screenshot](../images/blog/2020-04-02/dashbird-screenshot-alert-high-error-count.png "Alert High Error Count Configuration Screenshot")
+![Alert High Error Count Configuration Screenshot](/images/blog/2020-04-02/dashbird-screenshot-alert-high-error-count.png "Alert High Error Count Configuration Screenshot")
 
 
 
@@ -69,7 +69,7 @@ Nowadays, most development teams are using instant messaging services such as Sl
 
 
 
-![Notification Channels Screenshot](../images/blog/2020-04-02/dashbird-screenshot-notification-channels.png "Notification Channels Screenshot")
+![Notification Channels Screenshot](/images/blog/2020-04-02/dashbird-screenshot-notification-channels.png "Notification Channels Screenshot")
 
 
 All of the features discussed above and much more are available on Dashbird, the leading monitoring platform for serverless and managed cloud services. Thousands of smart developers are already using it and you can too by [signing up for our 14-day free trial](https://dashbird.io/register?utm_source=dashbird-blog&utm_medium=article&utm_campaign=small-teams&utm_content=four-immediate-benefits-from-monitoring-platform). **No credit-card required**!
