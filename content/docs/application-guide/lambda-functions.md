@@ -5,6 +5,8 @@ linktitle: Lambda Functions
 description: Lambda Functions
 kbSeries: ["CApplication Guide"]
 kbSeries_weight: 200
+aliases:
+  - /docs/user-guide/monitoring/
 ---
 
 In this section, developers can browse all Lambdas monitored by Dashbird, view metrics, errors and debug logs.

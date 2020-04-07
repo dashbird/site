@@ -5,6 +5,8 @@ linktitle: Dashbird Notification channels
 description: Dashbird Notification channels
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 800
+aliases:
+  - /docs/user-guide/integrations/
 ---
 
 <p>Notification channels provide a way for users to configure how alerts are sent. Dashbird currently supports Slack and email.</p>

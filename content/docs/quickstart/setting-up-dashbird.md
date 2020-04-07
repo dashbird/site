@@ -5,9 +5,10 @@ linktitle: Setting up of Dashbird
 description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented.
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 100
-alias:
+aliases:
   - /help/settings/configuring-dashbird/
   - /docs/settings/configuring-dashbird/
+  - /docs/get-started/quickstart/
 ---
 
 ### Register your account
