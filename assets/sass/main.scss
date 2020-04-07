@@ -1,6 +1,7 @@
 $primary-color: white;
 $accent-color: #4B45C6;
 $blue-accent: rgba(74, 69, 198, 0.44);
+$blue-accent-light: rgba(74, 69, 198, 0.16);
 @import 'typography';
 @import 'menu';
 @import 'landing-page';
@@ -52,7 +53,7 @@ body {
 
 // pricing
 .box-light {
-  background-color: $blue-accent;
+  background-color: $blue-accent-light;
   border-radius: 0 20px;
   padding: 4.5rem 0;
   margin-top: 6rem;
@@ -89,12 +90,16 @@ body {
     padding-top: 15px;
   }
   td {
-    padding-left: 10px;
+    padding-left: 25px;
   }
   tr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.14);
     line-height: 2.5rem;
+    &:last-child {
+      border-bottom: none;
+    }
   }
+
   col.pro-column {
     padding-top: 20px;
     background-color: rgba(74, 69, 198, 0.2);

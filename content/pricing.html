@@ -52,7 +52,7 @@ date: 2019-04-30T17:50:03+02:00
   </div>
 </section>
 
-<section class="container" >
+<section class="container-fluid p-0">
     <div class="row">
       <div class="col-12">
         <table class='w-100 details-table'>
@@ -71,10 +71,40 @@ date: 2019-04-30T17:50:03+02:00
             <td>unlimited</td>
           </tr>
           <tr>
-            <td><b>Data ingestion</b></td>
+            <td><b>Log ingestion</b></td>
+            <td>up to 50 MB/day</td>
+            <td>up to 10GB/day</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td><b>Data retention</b></td>
             <td>1 day</td>
-            <td>14 days</td>
+            <td>from 14 days</td>
             <td>custom</td>
+          </tr>
+          <tr>
+            <td><b>Failure detection</b></td>
+            <td>Errors</td>
+            <td><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Event monitoring</b></td>
+            <td></td>
+            <td><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Service dashboards</b></td>
+            <td><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Live tailing</b></td>
+            <td></td>
+            <td><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
           </tr>
           <tr>
             <td><b>Alerting</b></td>
@@ -82,16 +112,28 @@ date: 2019-04-30T17:50:03+02:00
             <td><span class='check-white'></span></td>
             <td><span class='check-white'></span></td>
           </tr>
+          <tr>
+            <td><b>Alerting integrations</b></td>
+            <td>Slack + Email</td>
+            <td>All (read more)</td>
+            <td>All (read more)</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a class="cta cta-btn" href='#register'>Get started</a></td>
+            <td><a class="cta cta-btn blue-btn" href='#register'>Start Free Trial</a></td>
+            <td><a class="cta cta-btn" href='/contact-us'>Start Free Trial</a></td>
+          </tr>
         </table>
       </div>
     </div>
 </section>
 
 
-<section class="container" >
+<section class="container mt-block" >
     <div class="row">
-      <div class="col-lg-10 col-12 pb-5 m-auto">
-      <h3 class='text-center mb-5 roboto-mono' style='margin-top: 80px;'>Frequently Asked Questions</h3>
+      <div class="col-lg-11 col-12 mx-auto">
+      <h2 class='text-center mb-5'>Frequently Asked Questions</h3>
       <div class='accordion' id='faqs'>
         <div class='card'>
           <div class="card-header" id="headingOne">
@@ -99,7 +141,7 @@ date: 2019-04-30T17:50:03+02:00
                 How do I know how many GB I'm using and what plan to choose?
             </h5>
           </div>
-          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionParent">
             <div class="card-body">
               Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.
             </div>
@@ -111,7 +153,7 @@ date: 2019-04-30T17:50:03+02:00
                 What features do I get to use during the free trial?
             </h5>
           </div>
-          <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordionParent">
             <div class="card-body font-reno">
             All of them!
             </div>
@@ -123,7 +165,7 @@ date: 2019-04-30T17:50:03+02:00
                How much data volume do I get allocated during my 14 day trial?
             </h5>
           </div>
-          <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionExample">
+          <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordionParent">
             <div class="card-body font-reno">
             The default data ingeston limit during the 14 day trial is 5GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
             </div>
@@ -135,7 +177,7 @@ date: 2019-04-30T17:50:03+02:00
                 What happens when I have to upgrade in the middle of the pricing cycle?
             </h5>
           </div>
-          <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordionParent">
             <div class="card-body font-reno">
               Dashbird billing is transparent and fair. If you upgrade your plan in the middle of the billing cycle, you will be charged for the prorated amount.
             </div>
@@ -147,7 +189,7 @@ date: 2019-04-30T17:50:03+02:00
                 Do you offer refunds?
             </h5>
           </div>
-          <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordionParent">
             <div class="card-body font-reno">
               No, we don't do refunds. When you are on a monthly or annual subscription, you can cancel that any time and won't be charged again, but you will still have access to your account until the end of that billing period.
             </div>
@@ -159,7 +201,7 @@ date: 2019-04-30T17:50:03+02:00
                 Do you offer any discounts?
             </h5>
           </div>
-          <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordionParent">
             <div class="card-body font-reno">
               You will get a discount on all plans when you sign up for an annual subscription.
             </div>
@@ -187,9 +229,6 @@ date: 2019-04-30T17:50:03+02:00
 .card-header [type=button] {
     -webkit-appearance: unset;
     color: #FFFFFF;
-    font-family: "SF UI Text";
-    font-size: 14px;
-    letter-spacing: 0.5px;
     line-height: 42px;
 }
 
@@ -203,14 +242,14 @@ date: 2019-04-30T17:50:03+02:00
     line-height: 21px;
 }
 
-.card-header h5:after {
+.card-header :after {
     font-family: 'FontAwesome';
     font-style: normal;
     font-size: 1rem;
     content: url('/images/arrow-down.svg');
     float: right;
 }
-.card-header h5.collapsed:after {
+.card-header .collapsed:after {
     content: url('/images/arrow-up.svg');
 }
 </style>
