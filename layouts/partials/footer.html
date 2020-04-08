@@ -1,4 +1,24 @@
-{{ if not .Params.exclude_menu }}
+{{ if .Params.exclude_menu }}
+<div class="landing-bottom-cta">
+	<a href="/signup" class="btn btn-primary">Start using <strong>Dashbird</strong> for free</a>
+	<p style="text-align: center; color: #333;">No credit card required</p>
+</div>
+<section id="footer" class="container">
+    <div class="col-6 col-md-12 text-center ">
+        <span>Dashbird is available on </span>
+      <a target="_blank" href="https://aws.amazon.com/marketplace/pp/B07HFKB9VK"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/awsmarketplace.png' width="140px"></a>
+      <span><br/> and is an AWS <a href="https://aws.amazon.com/partners/find/partnerdetails/?n=Dashbird&id=0010L00001rCurgQAC">Advanced Technology Partner</a>.</span>
+    </div>
+</section>
+{{ else if .Params.exclude_everything }}
+<section class="container" style='position: absolute; bottom: 0;'>
+  <div class="row">
+    <div class="col-12">
+    </div>
+  </div>
+</section>
+
+{{ else }}
 <section id="footer" class="container">
   <div class="row">
     <div class="col-12 col-md-3 text-center text-md-left">
@@ -53,9 +73,9 @@
           </button>
         </div>
         <div class="_form-thank-you" style="display:none;margin-left: -15px;font-weight: bold;"></div>
-       
+
       </form>
-      
+
       <!-- <form class="form-inline" style="width: 100%;display: inline-block; max-width: 260px;">
         <input type="email" class="form-control" id="newsletter-email" placeholder="Email...">
         <button type="submit" id="newsletter-submit" class="btn btn-primary">join</button>
@@ -66,17 +86,5 @@
       <span><br/> and is an AWS Advanced Technology Partner.</span>
     </div>
   </div>
-</section>
-{{ else }}
-<div class="landing-bottom-cta">
-	<a href="/signup" class="btn btn-primary">Start using <strong>Dashbird</strong> for free</a>
-	<p style="text-align: center; color: #333;">No credit card required</p>
-</div>
-<section id="footer" class="container">
-    <div class="col-6 col-md-12 text-center ">
-        <span>Dashbird is available on </span>
-      <a target="_blank" href="https://aws.amazon.com/marketplace/pp/B07HFKB9VK"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src='/images/awsmarketplace.png' width="140px"></a>
-      <span><br/> and is an AWS <a href="https://aws.amazon.com/partners/find/partnerdetails/?n=Dashbird&id=0010L00001rCurgQAC">Advanced Technology Partner</a>.</span>
-    </div>
 </section>
 {{ end }}

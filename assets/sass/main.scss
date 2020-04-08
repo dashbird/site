@@ -87,7 +87,7 @@ $border: 25px;
   box-shadow: inset 0 0 40px 20px #2c1f3a;
   padding: 35px 25px;
 
-  
+
 }
 
 .pro-box {
@@ -95,7 +95,7 @@ $border: 25px;
   padding: 15px 1em;
   border-radius: 1em;
   z-index:9;
-  
+
   padding: 35px 25px;
 
   &:before {
@@ -115,7 +115,7 @@ $border: 25px;
 }
 
 .custom-box {
- 
+
   margin: 5% auto;
   color: #FFF;
   border-radius: .75em;
@@ -152,7 +152,7 @@ ul.pricing-features {
 }
 
 
-.cost {    
+.cost {
   height: 60px;
   color: #FFFFFF;
   font-family: "Reno Mono";
@@ -219,4 +219,18 @@ p.price-vat {
 .mh-300 {
   min-height: 300px;
   background: red;
+}
+
+.landing-cta {
+
+  width: 350px;
+  display: inline-block;
+}
+
+.mt-block {
+  margin-top: 7rem;
+}
+
+.vh-85 {
+  height: 85vh;
 }
