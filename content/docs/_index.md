@@ -37,6 +37,21 @@ These metrics support not only function health analysis, but also resource and c
 
 ![AWS Lambda Function View](images/docs/dashbird/getting-started/aws-lambda-function-view.png "AWS Lambda Function View")
 
+<br>
+
+
+### Insights
+
+Dashbird monitors cloud components in serverless applications and cross-reference against well-architected best practices. Services monitored by Dashbird Insights include SQS queues, ECS containers, DynamoDB tables, API Gateways.
+
+Insights are automatically generated when:
+
+* Your infrastructure is likely to fail
+* Our system identifies opportunities for improvement
+
+![Dashbird Insights: Queue Delay Alert Example](images/docs/dashbird/getting-started/insights.png "Dashbird Insights: Queue Delay Alert Example")
+
+<br>
 
 ### Error Tracking & Alerting
 
