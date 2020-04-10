@@ -279,6 +279,38 @@ $(document).ready(function () {
   $('#demoModal').on('hide.bs.modal', function (e) {
     $("#video").attr('src', $videoSrc)
   })
+
+  // blog-detailed CTA form
+  if ($(window).width() < 1023) {
+    $('body .blog-cta').insertBefore('.blog-cta__mobile')
+
+    $('body .blog-cta__mobile').on('click', '.blog-cta__mobile-close', function (e) {
+      $(this).parents('.blog-cta__mobile').addClass('inactive')
+    })
+
+    $('body .blog-cta__mobile').on('click', '.blog-cta__btn-modal', function (e) {
+      $('body').find('.blog-cta').toggleClass('modal')
+      $('body').toggleClass('overflow-hidden')
+    })
+
+    $(document).click(function (event) {
+      if (!$(event.target).closest('.blog-cta__form, .blog-cta__btn-modal').length) {
+        if ($('body').find('.blog-cta').hasClass('modal')) {
+          $('body').find('.blog-cta').toggleClass('modal')
+          $('body').toggleClass('overflow-hidden')
+        }
+      }
+    })
+  }
+
+  $('body .blog-cta').on('click', '.blog-cta__btn-close', function (e) {
+    if ($(window).width() > 1023) {
+      $(this).parents('.blog-cta').addClass('inactive')
+    } else {
+      $('body').find('.blog-cta').toggleClass('modal')
+      $('body').toggleClass('overflow-hidden')
+    }
+  })
 })
 
 //hello
