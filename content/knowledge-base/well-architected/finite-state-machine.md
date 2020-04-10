@@ -2,8 +2,8 @@
 date: 2020-02-02T00:00:00+03:00
 title: "Finite-State Machine"
 description: "A software pattern to control workflows and state transitions on complex processes"
-learning: ["QArchitectural Patterns"]
-learning_weight: 400
+learning: ["AWell Architected"]
+learning_weight: 1400
 ---
 
 Think of Finite-State Machine (also called Step Machine) as being a workflow or process with multiple steps that can be in a finite number of states at any given time.

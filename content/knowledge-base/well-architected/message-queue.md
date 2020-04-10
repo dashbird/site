@@ -2,8 +2,8 @@
 date: 2020-01-16T00:00:00+03:00
 title: "Queue and Asynchronous Processing"
 description: "Using message queues to manage task processing asynchronously"
-learning: ["QArchitectural Patterns"]
-learning_weight: 210
+learning: ["AWell Architected"]
+learning_weight: 1210
 ---
 
 In a previous topic we covered the [Asynchronous Messaging](/knowledge-base/architectural-patterns/asynchronous-messaging/?utm_source=dashbird-site&utm_medium=article&utm_campaign=knowledge-base&utm_content=architectural-patterns) architectural pattern, its advantages and some high-level examples.

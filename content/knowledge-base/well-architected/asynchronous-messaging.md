@@ -2,8 +2,8 @@
 date: 2020-01-10T00:00:00+03:00
 title: "Asynchronous Messaging"
 description: "Achieving loosely-coupled architectures with the asynchronous messaging pattern"
-learning: ["QArchitectural Patterns"]
-learning_weight: 200
+learning: ["AWell Architected"]
+learning_weight: 1200
 ---
 
 A common anti-pattern in serverless projects is the extensive tight coupling between services. Having [Lambda functions]() invoking eachother directly usually leads to a project that is difficult to deploy, maintain and extend.

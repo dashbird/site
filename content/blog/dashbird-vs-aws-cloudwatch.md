@@ -16,6 +16,7 @@ For applications running on AWS, CloudWatch might have been enough so far. In ou
 
 We have compiled this feature comparison list between Dashbird and AWS CloudWatch to help you decide on the most efficient tool for your specific needs:
 
-If you haven’t yet, you can <a href='https://dashbird.io/register' target='_blank'>start your free 14-day trial with Dashbird</a> today and test out the premium features yourself. No credit card required.
+If you haven't yet, you can <a href='https://dashbird.io/register' target='_blank'>start your free 14-day trial with Dashbird</a> today and test out the premium features yourself. No credit card required.
 
 ![Comparison Table: Dashbird vs. CloudWatch](/images/blog/2020-03-20/dashbird-vs-cloudwatch-comparison-table.png)
+

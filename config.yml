@@ -51,3 +51,7 @@
     changefreq: "monthly"
     priority: 1
     filename: "sitemap.xml"
+  markup:
+    goldmark:
+      renderer:
+        unsafe: true
