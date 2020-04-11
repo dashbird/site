@@ -1,5 +1,5 @@
 ---
-date: 2017-06-05
+date: 2020-04-11
 title: Setting up of Dashbird
 linktitle: Setting up of Dashbird
 description: Setting up your Dashbird account takes only a few minutes and doesn't need any code changes or wrappers getting implemented.

@@ -1,5 +1,5 @@
 ---
-date: 2017-06-05
+date: 2020-04-11
 title: Notification channels
 linktitle: Notification channels
 description: Notification channels

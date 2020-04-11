@@ -1,5 +1,5 @@
 ---
-date: 2017-06-05
+date: 2020-04-11
 title: Dashbird Security
 linktitle: Security
 description: Dashbird is taking security very seriously. Our clients' data is encrypted and stored in AWS S3 buckets.

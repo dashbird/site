@@ -1,5 +1,5 @@
 ---
-date: 2017-06-05
+date: 2020-04-11
 title: How does it work?
 linktitle: How does it work?
 description: Dashbird connects with AWS public APIs and collects logs from CloudWatch. We turn these logs into actionable metrics that can be used for monitoring serverless functions. 
