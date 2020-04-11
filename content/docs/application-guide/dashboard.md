@@ -1,5 +1,5 @@
 ---
-date: 2019-01-15
+date: 2020-04-11
 title: Dashboard
 linktitle: Dashboard
 description: Dashboard
@@ -14,9 +14,8 @@ The application dashboard will provide an aggregated view across all your Lambda
 * Number of errors identified
 * Total and average duration time
 * Average memory consumed
-* And more…
+* And more...
 
 <img src="/images/docs/dahsboard-view.gif">
 
-The dashboard will also contain a summary of the errors and their current state: active (pending for resolution), resolved and muted. See more about it in the * “Errors & Policies” * section of this documentation.
-
+The dashboard will also contain a summary of the errors and their current state: active (pending for resolution), resolved and muted.

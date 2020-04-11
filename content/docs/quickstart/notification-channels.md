@@ -1,12 +1,13 @@
 ---
-date: 2017-06-05
-title: Dashbird Notification channels
-linktitle: Dashbird Notification channels
-description: Dashbird Notification channels
+date: 2020-04-11
+title: Notification channels
+linktitle: Notification channels
+description: Notification channels
 kbSeries: ["BQuickstart"]
 kbSeries_weight: 800
 aliases:
   - /docs/user-guide/integrations/
+  - /docs/quickstart/integrations/
 ---
 
 <p>Notification channels provide a way for users to configure how alerts are sent. Dashbird currently supports Slack and email.</p>
@@ -52,17 +53,3 @@ aliases:
 </code></pre>
 
 <p>If the remote endpoint fails to respond with this payload, the request will be retried with 30 second intervals for 3 times. After which, you can manually retry the webhook with the refresh button.</p>
-
-<h3 id="supported-events">Supported events</h3>
-
-<p>You can choose the events on which the requests are triggered. We will add more in the future.</p>
-
-<p><code>INVOCATION_ERROR</code> - triggers each time a lambda execution fails</p>
-
-<p><code>ERROR_GROUP_CREATED</code> - triggers each time a new error has occurred</p>
-
-<p><code>ERROR_GROUP_UPDATED</code> - triggers if a new error occurrence was found in importing patch. A new importing patch is imported about every minute, given that the lambda function is active enough.</p>
-
-<hr>
-
-<p>Check out how you can <a href="https://dashbird.io/docs/application-guide/errors-and-policies/">set up error alerting and daily account summaries via email</a> too!</p>

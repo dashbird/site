@@ -1,7 +1,7 @@
 ---
 date: 2019-09-04
 title: Alerting & Policies
-linktitle: Alerting & Policies
+linktitle: Alerting
 description: Alerting & Policies
 kbSeries: ["CApplication Guide"]
 kbSeries_weight: 400
