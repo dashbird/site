@@ -18,6 +18,9 @@ Dashbird monitors various components of your cloud stack:
 
 > Our cloud resource coverage is being extended constantly. [Subscribe](https://dashbird.io/subscribe/) to receive updates.
 
+Inventory provides visibility over the entire cloud stack in one single place. Several metrics can be tracked easily for each type of resource. It is simple and straightforward to identify, for example, resources that are underutilized or overburdened.
+
+
 ![Inventory Overview](/images/docs/application-guide/inventory/inventory-overview.png "Inventory Overview")
 
 
