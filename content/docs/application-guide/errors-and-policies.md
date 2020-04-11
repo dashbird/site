@@ -1,7 +1,7 @@
 ---
 date: 2017-06-05
 title: Errors & Policies
-linktitle: Errors & Policies
+linktitle: Lambda Errors
 description: Errors & Policies
 kbSeries: ["CApplication Guide"]
 kbSeries_weight: 400
