@@ -1072,6 +1072,12 @@ html{
   img {
     opacity: 1;
     transition: opacity 0.3s;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
   }
 
   img[data-src] {
