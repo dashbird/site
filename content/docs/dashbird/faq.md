@@ -57,40 +57,32 @@ For other cloud components (SQS, ECS, DynamoDB, etc), the cost will depend on ho
 
 In the Inventory section of Dashbird, click on the Settings icon on the top-right corner of the component card:
 
-![SQS Settings Icon](images/docs/dashbird/faq/inventory-sqs-settings-icon.png "SQS Settings Icon")
+![SQS Settings Icon](/images/docs/dashbird/faq/inventory-sqs-settings-icon.png "SQS Settings Icon")
 
 At the top of the page, select the polling interval that suits your needs and budget:
 
-![SQS Polling Interval Configuration](images/docs/dashbird/faq/inventory-polling-interval-customization.png "SQS Polling Interval Configuration")
+![SQS Polling Interval Configuration](/images/docs/dashbird/faq/inventory-polling-interval-customization.png "SQS Polling Interval Configuration")
 
 
 
 ### How to select which AWS Regions to monitor in my Cloud Inventory?
 
-In the Inventory section of Dashbird, click on the Settings icon on the top-right corner of the component card:
+In the Inventory settings, there is a **Regions** section. Click on the region of your choice to toggle whether it will be monitored or not:
 
-![SQS Settings Icon](images/docs/dashbird/faq/inventory-sqs-settings-icon.png "SQS Settings Icon")
-
-In the **Regions** section of the page, click on the region of your choice to toggle whether it will be monitored or not:
-
-![Inventory Region Selection](images/docs/dashbird/faq/inventory-select-regions.png "Inventory Region Selection")
+![Inventory Region Selection](/images/docs/dashbird/faq/inventory-select-regions.png "Inventory Region Selection")
 
 
 
 ### How to select which resources to monitor in my Cloud Inventory?
 
-In the Inventory section of Dashbird, click on the Settings icon on the top-right corner of the component card:
-
-![SQS Settings Icon](images/docs/dashbird/faq/inventory-sqs-settings-icon.png "SQS Settings Icon")
-
-At the bottom of the page, you will see two sections:
+In the Inventory settings, you will see two sections:
 
 * Include resources by tags
 * Exclude resources by tags
 
 Specify a key-value pair in the first one to select which resources Dashbird should monitor. Include key-value pairs in the second one to determine resources that should be excluded from Dashbird monitoring. Make sure your AWS resources are tagged appropriately according to the key-valur pairs selected in our system.
 
-![Include and exclude resources by tag](images/docs/dashbird/faq/inventory-include-exclude-resources-by-tag.png "Include and exclude resources by tag")
+![Include and exclude resources by tag](/images/docs/dashbird/faq/inventory-include-exclude-resources-by-tag.png "Include and exclude resources by tag")
 
 
 
