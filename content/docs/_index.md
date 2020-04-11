@@ -17,7 +17,7 @@ Dashbird monitors multiple cloud components in AWS cloud, such as [Lambda functi
 
 Developers can track the **Inventory** of cloud components in one single place. This allows for an effective and effortless observability process over the entire serverless cloud stack.
 
-![Inventory](images/docs/dashbird/getting-started/inventory.png "Inventory of Cloud Components")
+![Inventory](/images/docs/dashbird/getting-started/inventory.png "Inventory of Cloud Components")
 
 <br>
 
@@ -35,7 +35,7 @@ Aggregated metrics are also provided for each function. Detailed statistics incl
 
 These metrics support not only function health analysis, but also resource and cost improvements.
 
-![AWS Lambda Function View](images/docs/dashbird/getting-started/aws-lambda-function-view.png "AWS Lambda Function View")
+![AWS Lambda Function View](/images/docs/dashbird/getting-started/aws-lambda-function-view.png "AWS Lambda Function View")
 
 <br>
 
@@ -49,7 +49,7 @@ Insights are automatically generated when:
 * Your infrastructure is likely to fail
 * Our system identifies opportunities for improvement
 
-![Dashbird Insights: Queue Delay Alert Example](images/docs/dashbird/getting-started/insights.png "Dashbird Insights: Queue Delay Alert Example")
+![Dashbird Insights: Queue Delay Alert Example](/images/docs/dashbird/getting-started/insights.png "Dashbird Insights: Queue Delay Alert Example")
 
 <br>
 
@@ -63,7 +63,7 @@ Dashbird automatically detects all types of application errors and exceptions, i
 
 Other cloud components also have their own set of monitors. SQS queues are checked for growing number of pending messages, DynamoDB tables have throttling and resource capacity consumption verified, ECS containers have resource-usage tracked (e.g. memory, CPU utilization level).
 
-![AWS Lambda error tracking](images/docs/dashbird/getting-started/lambda-error-tracking.png "AWS Lambda Error Tracking")
+![AWS Lambda error tracking](/images/docs/dashbird/getting-started/lambda-error-tracking.png "AWS Lambda Error Tracking")
 
 <br>
 
@@ -71,7 +71,7 @@ Other cloud components also have their own set of monitors. SQS queues are check
 
 Dashbird also integrates with AWS X-Ray, so that Lambda functions logs can be analyzed in connection with application traces and errors in a single interface.
 
-!["X-Ray Traces"](images/docs/x-ray-traces.png "X-Ray Traces")
+!["X-Ray Traces"](/images/docs/x-ray-traces.png "X-Ray Traces")
 
 ### Policies
 
