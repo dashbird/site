@@ -3,7 +3,7 @@ title: Why Serverless Apps Fail and How to Design Resilient Architectures
 description: The main challenges of scaling modern cloud applications and implementing well-architected practices
 date: 2020-04-14T00:00:00.000Z
 frontImage: "2020-04-14/why-serverless-apps-fail.png"
-thumbnail: "images/blog/2020-04-07/why-serverless-apps-fail.png"
+thumbnail: "images/blog/2020-04-14/why-serverless-apps-fail.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Well-Architected", "Scalability", "Resilience"]
