@@ -2,6 +2,7 @@ $primary-color: white;
 $accent-color: #4B45C6;
 $blue-accent: rgba(74, 69, 198, 0.44);
 $blue-accent-light: rgba(74, 69, 198, 0.16);
+$blue-accent-lightest: rgba(74, 69, 198, 0.2);
 @import 'typography';
 @import 'menu';
 @import 'landing-page';
@@ -146,6 +147,9 @@ ul.pricing-features {
 
 .mt-block {
   margin-top: 10rem;
+  @media (max-width: 768px) {
+    margin-top: 5rem;
+  }
 }
 
 .cost {
@@ -158,20 +162,26 @@ ul.pricing-features {
   text-align: center;
 }
 
-.pl-10 {
-  padding-left: 3rem;
+.pl-md-10 {
+  @media(min-width: 768px) {
+    padding-left: 3rem;    
+  }
 }
 
 // pricing
 .box-light {
   background-color: $blue-accent-light;
   border-radius: 0 20px;
+  border: 1px solid $blue-accent-lightest;
   padding: 4.5rem 0;
+}
+.mt-6 {
   margin-top: 6rem;
 }
 
 .box-darker{
   background-color: $blue-accent;
+  border: 1px solid $blue-accent-lightest;
   border-radius: 0 20px;
   h2 {
     margin-top: 3rem;
@@ -220,14 +230,46 @@ ul.pricing-features {
 }
 
 .br-blue-shadow {
-  -webkit-box-shadow: 30px 30px 0px 0px $blue-accent;
-  -moz-box-shadow: 30px 30px 0px 0px $blue-accent;
-  box-shadow: 30px 30px 0px 0px $blue-accent;
+  @media (min-width: 768px) {
+    -webkit-box-shadow: 30px 30px 0px 0px $blue-accent;
+    -moz-box-shadow: 30px 30px 0px 0px $blue-accent;
+    box-shadow: 30px 30px 0px 0px $blue-accent;
+  }
 }
 .bl-blue-shadow {
-  -webkit-box-shadow: -30px 30px 0px 0px $blue-accent;
-  -moz-box-shadow: -30px 30px 0px 0px $blue-accent;
-  box-shadow: -30px 30px 0px 0px $blue-accent;
+  @media (min-width: 768px) {
+    -webkit-box-shadow: -30px 30px 0px 0px $blue-accent;
+    -moz-box-shadow: -30px 30px 0px 0px $blue-accent;
+    box-shadow: -30px 30px 0px 0px $blue-accent;
+  }
+}
+
+.blue-accent-light {
+  background-color: $blue-accent-light;
+}
+.rounded-bottom-left {
+  border-radius: 0px 0 0 20px;
+  height: 20px;
+}
+
+.rounded-top-right {
+  border-radius: 0 20px 0 0;
+  height: 30px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.nav-link {
+  padding-left: 5px;
+  padding-right: 5px;
+  // padding: 0 auto;
+}
+.nav-link.active {
+  border-bottom: 2px solid $blue-accent !important;
 }
 
 .landing-cta {

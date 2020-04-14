@@ -9,7 +9,7 @@
     width: 100%;
     position: unset;
   }
-  img { 
+  img {
     opacity: .4;
     height: 4rem;
   }
@@ -24,12 +24,10 @@
 }
 dashbird-graph {
   width: 100%;
-  // max-width: 500px;
   height: auto;
   margin: auto;
   opacity: 1;
   @media (max-width: 768px) {
-    margin-top: -7rem;
     &::part(label) {
       display: none;
     }
@@ -46,13 +44,13 @@ dashbird-graph {
 .mobile-cta-block {
   display: flex;
   flex-direction: column;
+  // margin-top: -5rem;
   align-items: center;
   justify-content: center;
-  margin-top: -10rem;
   text-align: center;
 }
 .mobile-cta-block small {
-  margin-top: 3rem;
+  // margin-top: 3rem;
 }
 
 .hero img.aws-small {
@@ -172,7 +170,7 @@ dashbird-graph {
       margin-bottom: 25px;
     }
     .closer { font-size: 0.7em; }
-    
+
   }
   img {
     width:100%;
@@ -219,7 +217,7 @@ dashbird-graph {
   }
 }
 
-.quote { 
+.quote {
   background-image: url('/images/quote.svg');
   background-repeat: no-repeat;
   padding-top: 20px;

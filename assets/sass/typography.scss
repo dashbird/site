@@ -23,8 +23,13 @@ h1, h2 {
   letter-spacing: -.1rem;
 }
 
-h1.display-4 {
-  letter-spacing: -.5rem;
+h4 {
+  letter-spacing: -.01rem;
+  font-weight: 600;
+}
+
+h1, h1.display-4 {
+  letter-spacing: -.4rem;
   font-size: 3rem;
   @media (max-width: 768px) {
     font-size: 2.5rem;
@@ -39,6 +44,9 @@ a {
 p {
   margin-bottom: 1.25em;
   line-height: 200%;
+  @media (max-width: 768px) {
+    line-height: 1.4rem;
+  }
 }
 
 ul.white-check-list { // lists in pricing and features page
@@ -124,11 +132,14 @@ button, a.cta {
     color: white;
     border-color: white;
     min-width: 10rem;
+    &:hover {
+      background: white;
+      // color: black;
+      border: 1px solid white;
+    }
   }
   &.cta-btn:hover {
-    background: white;
-    color: black;
-    border: 1px solid white;
+
   }
   &.cta-btn:active {
     background: rgb(51, 46, 134);
@@ -179,4 +190,7 @@ a.cta {
     }
 
   }
+}
+.wrap-text {
+  white-space: normal !important;
 }

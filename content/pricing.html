@@ -4,32 +4,211 @@ description: Free and paid plans avaliable! Dashbird subscriptions are priced by
 date: 2019-04-30T17:50:03+02:00
 ---
 
-<script>
-  // document
-  //   .querySelector('#navigation ul li.nav-item.pricing')
-  //   .classList
-  //   .add('active')
+<section class='container d-md-none'>
+  <div class='cold-12 mt-5'>
+    <h1>Our plans work at any scale</h1>
+  </div>
 
-</script>
+  <div class="nav justify-content-between m-0 p-0 mb-4" id="pills-tab" role="tablist">
+    <a class="nav-link" id="community-tab" data-toggle="tab" href="#community" role="tab" aria-controls="community" aria-selected="false">Community</a>
+    <a class="nav-link active" id="professional-tab" data-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="true">Professional</a>
+    <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="false">Enterprise</a>
+  </div>
 
-<section class="container-fluid triangle-bg pricing-page" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mt-5 mb-3">
-        <h1 class="roboto-mono"></h1>
-        <p class="h5 mt-3 mb-5 sf-ui-text"></p>
+  <div class='tab-content'>
+    <div class='tab-pane fade col-sm box-light text-center px-4 mr-0 mr-md-2' id="community" role="tabpanel" aria-labelledby="community-tab">
+      <h2>Community</h2>
+      <h6>Free</h6>
+      <a href="#register" class='cta cta-btn d-block mx-0 mt-3'>Get Started</a>
+      <ul class='white-check-list mt-3 mx-auto text-left'>
+        <li><span>Up to 15 resources</span></li>
+        <li><span>50 MB/daily</span></li>
+        <li><span>Automated alerting</span></li>
+      </ul>
+    </div>
+
+    <div class='tab-pane active fade show col-sm box-darker text-center mx-1 px-4' id="professional" role="tabpanel" aria-labelledby="professional-tab">
+        <span class='reccomended-badge'>Recommended</span>
+        <h2>Professional</h2>
+        <h6>$4 / resource *</br>$3 / GB log ingest *</h6>
+        <span class='small'>* Billed annually</span>
+        <a href="#register" class='w-100 cta cta-btn mx-0 white-btn d-block mt-3'>Start Free Trial</a>
+        <span class='secondary'>No credit card required</span>
+        <div>
+          <ul class='white-check-list mt-3 mx-auto text-left'>
+            <li><span>Unlimited resources</span></li>
+            <li><span>Automatic insights (<a href='/features/'>Learn more</a>)</span></li>
+            <li><span>Custom event tracking</span></li>
+            <li><span>Log analytics</span></li>
+            <li><span>Live tailing</span></li>
+          </ul>
+        </div>
+    </div>
+
+    <div class='tab-pane fade col-sm box-light text-center px-4 mr-0 mr-md-2' id="business" role="tabpanel" aria-labelledby="business-tab">
+        <h2>Enterprise</h2>
+        <h6>Contact Us</h6>
+        <a href="/contact-us" class='cta cta-btn d-block mx-0 mt-3'>Contact Us</a>
+        <ul class='white-check-list mt-3 mx-auto text-left'>
+          <li><span>Advanced insights</span></li>
+          <li><span>Enterprise support</span></li>
+          <li><span>SSO</span></li>
+        </ul>
+      </div>
+  </div>
+</section>
+
+<section class='d-none d-md-block container px-5'>
+  <div class='row d-flex justify-content-around mt-5'>
+    <h1>Our plans for at any scale</h1>
+  </div>
+
+  <div class='row'>
+    <div class='col-sm box-light text-center px-4 mr-2 mt-6'>
+      <h2>Community</h2>
+      <h6>Free</h6>
+      <a href="#register" class='cta cta-btn d-block mx-0 mt-3'>Get Started</a>
+      <ul class='white-check-list mt-3 mx-auto text-left'>
+        <li><span>Up to 15 resources</span></li>
+        <li><span>50 MB/daily</span></li>
+        <li><span>Automated alerting</span></li>
+      </ul>
+    </div>
+
+    <div class='col-sm box-darker text-center mx-1 px-4'>
+      <span class='reccomended-badge'>Recommended</span>
+      <h2>Professional</h2>
+      <h6>$4 / resource *</br>$3 / GB log ingest *</h6>
+      <span class='small'>* Billed annually</span>
+      <a href="#register" class='w-100 cta cta-btn mx-0 white-btn d-block mt-3'>Start Free Trial</a>
+      <span class='secondary'>No credit card required</span>
+      <div>
+        <ul class='white-check-list mt-3 mx-auto text-left'>
+          <li><span>Unlimited resources</span></li>
+          <li><span>Automatic insights (<a href='/features/'>Learn more</a>)</span></li>
+          <li><span>Custom event tracking</span></li>
+          <li><span>Log analytics</span></li>
+          <li><span>Live tailing</span></li>
+        </ul>
       </div>
     </div>
-    <div class="row justify-content-md-center align-items-center sf-ui-text">  
-      <div class="col-sm-12 col-md-12 mb-5">
-        <div class="row">
-          <div class="col-12 col-md-4 mw-240 mt-4 flex-order-2 free-box">
-            <div class="pricing-box  top-lgreen text-center p-4 pb-md-0">
-              
-              <p class="pricing-val pricing-title">Basic</p>
-              <h4 class="mt-md-2 mb-md-3 lgreen roboto-mono cost">Free</h4>
-              <p class="pricing-val-spec">up to 1 million invocations</p>
 
+    <div class='col-sm box-light text-center px-4 ml-2 mt-6'>
+      <h2>Enterprise</h2>
+      <h6>Contact Us</h6>
+      <a href="/contact-us" class='cta cta-btn d-block mx-0 mt-3'>Contact Us</a>
+      <ul class='white-check-list mt-3 mx-auto text-left'>
+        <li><span>Advanced insights</span></li>
+        <li><span>Enterprise support</span></li>
+        <li><span>SSO</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="scrolling-wrapper container p-0">
+    <div class="row">
+      <div class="col-12">
+        <table class='w-100 details-table'>
+          <col /><col />
+          <col ></col>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class='blue-accent-light rounded-top-right'></td>
+            <td></td>
+          </tr>
+          <tr class='header-row'>
+            <td><h3>Plan details</h3></td>
+            <td><h3>Community</h3></td>
+            <td class='blue-accent-light'><h3>Professional</h3></td>
+            <td><h3>Enterprise</h3></td>
+          </tr>
+          <tr>
+            <td><b>Resources</b></td>
+            <td>up to 15</td>
+            <td class='blue-accent-light'>unlimited</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td><b>Log ingestion</b></td>
+            <td>up to 50 MB/day</td>
+            <td class='blue-accent-light'>up to 10GB/day</td>
+            <td>unlimited</td>
+          </tr>
+          <tr>
+            <td><b>Data retention</b></td>
+            <td>1 day</td>
+            <td class='blue-accent-light'>from 14 days</td>
+            <td>custom</td>
+          </tr>
+          <tr>
+            <td><b>Failure detection</b></td>
+            <td>Errors</td>
+            <td class='blue-accent-light'><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Event monitoring</b></td>
+            <td></td>
+            <td class='blue-accent-light'><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Service dashboards</b></td>
+            <td><span class='check-white'></span></td>
+            <td class='blue-accent-light'><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Live tailing</b></td>
+            <td></td>
+            <td class='blue-accent-light'><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Alerting</b></td>
+            <td><span class='check-white'></span></td>
+            <td class='blue-accent-light'><span class='check-white'></span></td>
+            <td><span class='check-white'></span></td>
+          </tr>
+          <tr>
+            <td><b>Alerting integrations</b></td>
+            <td>Slack + Email</td>
+            <td class='blue-accent-light'>All (read more)</td>
+            <td>All (read more)</td>
+          </tr>
+          <tr style='border-bottom: none;'>
+            <td></td>
+            <td><a class="cta cta-btn" href='#register'>Get started</a></td>
+            <td class='blue-accent-light'><a class="cta cta-btn blue-btn" href='#register'>Start Free Trial</a></td>
+            <td><a class="cta cta-btn" href='/contact-us'>Start Free Trial</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class='blue-accent-light rounded-bottom-left'><span> </span></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+</section>
+
+<section class="container-fluid container-md mt-block" >
+    <div class="row">
+      <div class="col-12 col-lg-11 mx-0 p-0 mx-md-auto">
+      <h2 class='text-center mb-5'>Frequently Asked Questions</h3>
+      <div class='accordion' id='faqs'>
+        <div class='card'>
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0 card-title" class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How do I know how many GB I'm using and what plan to choose?
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionParent">
+            <div class="card-body">
+              Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.
             </div>
             <div class='text-center p-4 pt-0 '>
               <ul class='pricing-features pb-3'>
