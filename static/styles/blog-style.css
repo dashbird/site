@@ -1072,6 +1072,9 @@ html{
   img {
     opacity: 1;
     transition: opacity 0.3s;
+  }
+
+  #non-results img {
     margin-top: 10px;
     margin-bottom: 25px;
     box-shadow: 10px 10px 5px #ccc;
@@ -2544,4 +2547,24 @@ section.landing-content .row:nth-child(2n) .landing-img{
   .video-btn-container a:hover {
     color: white;
     text-decoration: underline;
+  }
+
+  /* Responsive Table */
+  #non-results table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 15px 0 25px 0;
+  }
+
+  #non-results thead, tr, th, td {
+    border: 1px solid black;
+  }
+
+  #non-results thead {
+    background-color: #4B45C6;
+    color: white;
+  }
+
+  #non-results th, td, tr {
+    padding: 10px;
   }

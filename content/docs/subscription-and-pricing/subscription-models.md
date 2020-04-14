@@ -7,26 +7,47 @@ kbSeries: ["FSubscription & Pricing"]
 kbSeries_weight: 100
 ---
 
-### Free Plan
+Dashbird offers a **Free** plan and per-usage basis **Pro** and **Enterprise** plans. The total cost of the paid plans depends on two dimensions:
 
-**Dashbird is free to use for up to 1 million invocations per month**. You can monitor as many Lambdas as you need, but some advanced features are missing, such as X-Ray integration and global full-text search.
+* Volume of application logs generated (GB)
+* Number of cloud resources being monitored (AWS Lambda functions, SQS queues, DynamoDB tables, etc)
 
-Dashbird will suspend free accounts that are inactive for a certain period of time. An account is considered inactive if no users signed in for more than 30 days.
+Some features are only available in the Pro and/or Enterprise plans. Below is a detailed breakdown.
 
-### Professional Plan
+| Feature     | Free        | Pro         | Enterprise  |
+|-------------|-------------|-------------|-------------|
+| Daily data ingestion[^1] limit | 50 MB | 10 GB | 10 GB or custom |
+| Monthly data ingestion[^2] limit | 1 GB | 300 GB | 300 GB or custom |
+| Data ingestion (on-demand[^3]) | N/A | $6 per GB | $8 per GB |
+| Data ingestion (reserved[^4]) | N/A | $4 per GB | $6 per GB |
+| Cloud Resource (on-demand) | N/A | $6   | $8          |
+| Cloud Resource (reserved) | N/A | $4    | $6          |
+| AWS Accounts | 1           | Unlimited   | Unlimited   |
+| Delegations | 1           | Unlimited   | Unlimited   |
+| [Inventory](/docs/application-guide/inventory/) resources | 15  | Unlimited   | Unlimited   |
+| Error tracking | Yes      | Yes         | Yes         |
+| [Insights](/docs/application-guide/insights/)    | No          | Basic       | Advanced    |
+| [Alarms](/docs/application-guide/alerting-and-policies/)      | No          | Yes         | Yes         |
+| Custom log events | No    | No          | Yes         |
+| [Notifications](/docs/quickstart/notification-channels/) | E-mail    | E-mail/Slack | All        |
+| [Live Tailing](/docs/application-guide/live-tailing/) | No         | Yes         | Yes         |
+| [Global Search](/docs/application-guide/global-search/)  | No          | Yes         | Yes         |
+| Single Sign-On | No       | No          | Yes         |
+| Log retention | 1 day     | 14 days     | 14 days or custom |
+| Support     | Knowledge Base | Chat / Email | Chat / Email / Slack |
 
-This plan includes support to advanced features, such as X-Ray integration, global full-text search, longer data retention policy and dedicated technical support.
+<hr>
 
-Dashbird charges depending on how much log data your Lambdas generate (in gigabytes per month). In the Professional plan, you will choose how much data your application needs in order to determine the final monthly or annual subscription price.
+**Footnotes:**
 
-### Enterprise Plan
+[^1]:
+    Reserved price for yearly contracts
 
-In the Enterprise plan, you and your team will count on:
+[^2]:
+    Data ingestion of application logs produced by AWS Lambda on CloudWatch Logs
 
-* Enhanced scalability power
-* Custom data retention periods
-* Dashbird experience to advise on the monitoring implementation for your projects
-* Training and onboarding for your team
-* Custom SLA’s
+[^3]:
+    On-demand pricing for monthly payments variable to what is needed
 
-Get in touch with our team in case you are interested in the Enterprise plan.
+[^4]:
+    Reserved pricing for contracts with yearly commitments
