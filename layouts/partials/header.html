@@ -111,12 +111,24 @@
 
       <ul class="nav float-right align-right d-none d-lg-inline-flex">
         <li class='nav-item'>
-          <a class="cta cta-btn" href="https://app.dashbird.io">Log in</a>
+          <a class="cta-btn blue-empty-btn" href="https://app.dashbird.io">Log in</a>
         </li>
         <li class="nav-item">
-          <a class="cta cta-btn blue-btn" href="#register">Free Trial</a>
+          <a class="ml-3 cta-btn blue-btn" href="#register">Free Trial</a>
         </li>
       </ul>
+      {{ else }}
+      <a class="navbar-brand float-left" href="#">
+        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
+      </a>
+        <ul class="nav float-right align-right d-none d-lg-inline-flex">
+          <li class="nav-item">
+            <!-- <a class="nav-link primary" href="#register">Sign Up</a> -->
+            <a href="#register" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);" class="cta-btn" data-note="Zero code integration">Sign Up</a>
+
+          </li>
+        </ul>
+        <!-- <a href="/register" class='ml-md-auto corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>Get Started Free<img src="/images/ic-arrow.svg" class="ic-arrow"></a> -->
       {{ end }}
     </div>
   </div>

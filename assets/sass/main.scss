@@ -164,7 +164,7 @@ ul.pricing-features {
 
 .pl-md-10 {
   @media(min-width: 768px) {
-    padding-left: 3rem;    
+    padding-left: 3rem;
   }
 }
 
@@ -263,10 +263,9 @@ ul.pricing-features {
   white-space: nowrap;
 }
 
-.nav-link {
+.pricing > .nav-link {
   padding-left: 5px;
   padding-right: 5px;
-  // padding: 0 auto;
 }
 .nav-link.active {
   border-bottom: 2px solid $blue-accent !important;
