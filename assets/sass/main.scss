@@ -129,20 +129,22 @@ ul.pricing-features {
 }
 
 .mt-block {
-  margin-top: 10rem;
+  margin-top: 7rem;
   @media (max-width: 768px) {
     margin-top: 5rem;
   }
 }
 
-.cost {
-  height: 60px;
-  color: #FFFFFF;
-  font-family: "Reno Mono";
-  font-size: 56px;
-  letter-spacing: -3px;
-  line-height: 60px;
-  text-align: center;
+.mb-block {
+  margin-bottom: 7rem;
+  @media (max-width: 768px) {
+    margin-bottom: 5rem;
+  }
+}
+
+.a-block {
+  p { color: white; }
+  &:hover { text-decoration: none; }
 }
 
 .pl-md-10 {

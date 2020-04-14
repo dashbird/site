@@ -13,8 +13,8 @@
     home: ['HTML', 'RSS']
   menu:
     main:
-      - name: 'Platform'
-        identifier: 'platform'
+      - name: 'Features'
+        identifier: 'features'
         URL: '/features/'
         weight: 100
       - name: 'Pricing'
@@ -25,6 +25,10 @@
         identifier: 'cloud-learning-center'
         URL: '/knowledge-base/'
         weight: 400
+      - name: 'Careers'
+        identifier: 'careers'
+        URL: '/careers/'
+        weight: 500
       - name: 'About'
         identifier: 'about-us'
         URL: '/team/'
