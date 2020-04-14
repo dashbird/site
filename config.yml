@@ -29,10 +29,6 @@
         identifier: 'careers'
         URL: '/careers/'
         weight: 500
-      - name: 'About'
-        identifier: 'about-us'
-        URL: '/team/'
-        weight: 600
 
   params:
     thumbnail: "images/screens/slogan.jpg"

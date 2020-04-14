@@ -101,20 +101,20 @@
         </a>
       </div>
 
-      <ul class="nav float-left d-none d-lg-inline-flex flex-end flex-fill">
+      <ul class="nav float-left d-none d-lg-inline-flex flex-end flex-fill flex-nowrap">
         {{ range .Site.Menus.main }}
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link text-nowrap" href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
 
-      <ul class="nav float-right align-right d-none d-lg-inline-flex">
+      <ul class="nav float-right align-right d-none d-lg-inline-flex flex-nowrap">
         <li class='nav-item'>
-          <a class="cta-btn blue-empty-btn" href="https://app.dashbird.io">Log in</a>
+          <a class="cta-btn blue-empty-btn short" href="https://app.dashbird.io">Log in</a>
         </li>
         <li class="nav-item">
-          <a class="ml-3 cta-btn blue-btn" href="#register">Free Trial</a>
+          <a class="ml-3 cta-btn blue-btn short" href="#register">Free Trial</a>
         </li>
       </ul>
       {{ else }}

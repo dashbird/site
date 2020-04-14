@@ -1,13 +1,13 @@
 #footer {
   min-height: 300px;
   padding-top: 75px;
-  letter-spacing: -.05rem;
+  // letter-spacing: -.05rem;
 
   @mixin text {
-    font-family: 'Reno Mono';
+    // font-family: 'Reno Mono';
     font-weight: 100;
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.5);
+    // color: rgba(255, 255, 255, 0.5);
   }
   span { @include text; }
   a {
@@ -17,12 +17,16 @@
   h6{
     @include text;
     font-size: 1rem;
-    //padding-left: 14px;
-    // font-size: 0.5rem;
-    background-image: url(/images/landing-graphics/separator.svg);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    padding-bottom: 12px;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    @media (max-width: 768px) {
+      background-image: none;
+      margin-bottom: 0.3rem;
+      margin-top: 1rem;
+    }
+  }
+  li {
+    margin-bottom: 0.2rem;
   }
 }
 @mixin background-gradient {
