@@ -5,6 +5,8 @@ linktitle: Getting Started
 description: Dashbird is a monitoring and intelligence platform for operating serverless applications on AWS
 kbSeries: ["ADashbird"]
 kbSeries_weight: 100
+aliases:
+  - /docs/getting-started/quick-start/
 ---
 
 Dashbird is a service to **monitor**, **debug** and **improve** serverless applications.
