@@ -5,7 +5,7 @@ date: 2020-04-15T00:00:00.000Z
 frontImage: "2020-04-15/dashbird-raises-2.1m.png"
 thumbnail: "images/blog/2020-04-15/dashbird-raises-2.1m.png"
 author: "Taavi Rehemägi"
-author_image: "/images/team/renato.jpg"
+author_image: "/images/team/taavi.jpg"
 blog: ["Serverless", "Observability", "Capital Raise", "Launch", "Announcement"]
 ---
 
