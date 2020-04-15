@@ -31,7 +31,7 @@ workflows:
       - deploy-staging:
           filters:
             branches:
-              only: develop
+              only: staging 
 
 version: 2
 jobs:
@@ -63,8 +63,8 @@ jobs:
       - run:
           name: "Build Website"
           command: hugo -b https://staging.dashbird.io
-      - run:
-          <<: *post_build
+      # - run:
+      #     <<: *post_build
       - run:
           name: "Disallow robots"
           command: |

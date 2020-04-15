@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partial "headerblog.html" .}}
 <section class="container sf-ui-text">
-  <div class="row">  
-    <div class="col-12 mt-3"> 
+  <div class="row">
+    <div class="col-12 mt-3">
       <div class="row">
         <h1 class="col text-left mt-125 mb-125 blog-news"><span class="h4 underlined">Recent posts</span></h1>
         <div class="pull-right posts-filter mt-125">
@@ -19,7 +19,7 @@
           </ul>
         </div>
       </div>
-      <div class="row"> 
+      <div class="row">
         {{ if eq .Kind "taxonomyTerm" }}
           {{$.Scratch.Set "pages" ( where ( where .Site.Pages.ByDate.Reverse ".Kind" "page")  ".Section" "blog") }}
         {{ else }}
@@ -32,12 +32,12 @@
           {{ $.Scratch.Set "pages" (after 1 $pages) }}
         {{ end }}
         {{ $paginator := .Paginate ( $.Scratch.Get "pages" )  12 }}
-        {{ range $paginator.Pages }}        
+        {{ range $paginator.Pages }}
         <div class="col-md-4 col-sm-6 col-12 blog-item mb-125 mt-125">
           <a href="{{ .Permalink  }}" class="bg-white">
             <div class="blog-thumb-wrap">
               <img class="b-lazy blog-thumb" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/blog/{{.Params.frontImage}}" width='340'>
-            </div> 
+            </div>
             <div class="blog-content-wrap col-12 p-sm-50 px-4 py-3_5">
               <div class='blog-category mb-2 {{ if isset .Params "blog"}} d-none{{end}} d-sm-block'>
                 {{ range $categ :=  .Params.blog }}
@@ -52,7 +52,7 @@
               </div>
             </div>
           </a>
-        </div> 
+        </div>
         {{ end }}
       </div>
 
@@ -70,5 +70,3 @@
 
 
 {{ end }}
-
-

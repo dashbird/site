@@ -14,10 +14,10 @@ In this section, developers can browse all Lambdas monitored by Dashbird, view m
 Our system will aggregate performance and resource usage metrics for easy analysis, such as:
 
 * Invocations
-  * Total count
-  * # of successful requests
-  * # of errors
-  * # of cold starts
+  * Total count of:
+  * * Successful requests
+  * * Errors
+  * * Cold starts
 * Memory usage
   * Average
   * Maximum
@@ -33,15 +33,42 @@ Our system will aggregate performance and resource usage metrics for easy analys
 
 It is possible to customize a time period and visualize performance metrics per hour or day.
 
-### Improving Lambdas with Performance Metrics
-
-The memory usage is very helpful in order to optimize resource allocation, for example. Suppose a particular Lambda was assigned 1,024 MB of memory but have used at maximum 40% over the last 30 days. In this case, the memory allocated could be reduced to 512 MB, potentially reducing costs of running the application.
 
 
-Duration metrics are also helpful in identifying execution outliers. When minimum and maximum durations are too far from the average, the function presents a high variability in terms of how long it takes to answer a request. In many cases that will be expected, but when it isn’t normal, Dashbird can help in identifying which areas of your Lambda stack deserve more attention.
+### Navigating Lambdas
+
+Navigate your Lambda functions from the list in the left side of the window. Also check which Lambdas are being actively monitored or not by filtering at the top of the list.
+
+![Lambda Functions Navigation](/images/docs/application-guide/lambda-functions/lambdas-active-inactive.png "Lambda Functions Navigation")
 
 
-It is quite common for SaaS businesses to consider cloud costs when determining pricing for their services. Sometimes the price is a multiple of the cloud costs (markup). Especially in those cases, monitoring closely the underlying service infrastructure costs is paramount. Dashbird will provide costs broken down by Lambda aggregated with a resolution of an hour or a day.
+
+### Visualizing Metrics and Invocations
+
+By clicking on a Lambda function, you will be able to see a set of aggregated metrics (mentioned above), a list of recent invocations and opened events (issues detected in your Lambda).
+
+![Lambda Function Metrics and Invocations](/images/docs/application-guide/lambda-functions/lambda-metrics-invocations.png "Lambda Function Metrics and Invocations")
 
 
-Analyzed together with the invocations count metrics, aggregated costs can provide a measure of how much your application is performing in comparison with the cost expected in the company’s financial projections.
+### Navigating Invocations
+
+In the "Recent Invocations" panel, click on the down arrow icon to select which types of invocations to show:
+
+![Navigating Lambda Invocations](/images/docs/application-guide/lambda-functions/navigating-lambda-invocations.png "Navigating Lambda Invocations")
+
+On the top-right corner of the panel, there are short links to searching logs within this Lambda and to [tailing logs in real time](/docs/application-guide/live-tailing/).
+
+
+
+### Analyzing Logs
+
+Simply click on any invocation to open all logs generated from its execution. Any JSON objects logged will be formatted in a rich and easy to navigate way, as the screenshot below shows.
+
+At the top, we will show basic metrics and meta data about the invocation, such as memory consumed, duration, whether there was an error.
+
+![Lambda Logs View](/images/docs/application-guide/lambda-functions/lambda-logs-view.png "Lambda Logs View")
+
+There are links to copy the log information and to view it in AWS Cloudwatch.
+
+![View Logs in CloudWatch](/images/docs/application-guide/lambda-functions/lambda-view-logs-in-cloudwatch.png "View Logs in CloudWatch")
+

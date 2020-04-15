@@ -1,13 +1,13 @@
 #footer {
   min-height: 300px;
   padding-top: 75px;
-  letter-spacing: -.05rem;
+  // letter-spacing: -.05rem;
 
   @mixin text {
-    font-family: 'Reno Mono';
+    // font-family: 'Reno Mono';
     font-weight: 100;
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.5);
+    // color: rgba(255, 255, 255, 0.5);
   }
   span { @include text; }
   a {
@@ -17,24 +17,27 @@
   h6{
     @include text;
     font-size: 1rem;
-    //padding-left: 14px;
-    // font-size: 0.5rem;
-    background-image: url(/images/landing-graphics/separator.svg);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    padding-bottom: 12px;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    @media (max-width: 768px) {
+      background-image: none;
+      margin-bottom: 0.3rem;
+      margin-top: 1rem;
+    }
+  }
+  li {
+    margin-bottom: 0.2rem;
   }
 }
 @mixin background-gradient {
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  height: 90vh;
   z-index: -100;
-  background-image: url(/images/bg-gradient-top-left.svg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: auto;
-
+  top: 0;
+  left: 0;
+  background: linear-gradient(150.71deg, rgba(109, 57, 255, 0.311707) -20%, rgba(140, 0, 255, 0) 59%);
 }
+
 .background-gradient-bottom { @include background-gradient; }
 
 .bg-white{
@@ -85,6 +88,9 @@ button.cta-btn.dark {
 
 #register-form .input-group {
   padding-top: 30px;
+  .cta-btn {
+    color: #000;
+  }
 }
 
 .landing-content .row .absolute-center {
@@ -160,8 +166,8 @@ section.landing-content .row:nth-child(2n) .landing-img{
 
 .background-gradient-top {
   @include background-gradient;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+  // -webkit-transform: rotate(180deg);
+  // transform: rotate(180deg);
   position: absolute;
   top: 0;
   left: 0;
@@ -228,4 +234,28 @@ section.landing-content .row:nth-child(2n) .landing-img{
     background: white;
     color: black;
   }
+}
+
+.blog-item {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  white-space: normal !important;
+}
+
+.blog-tag-item {
+  background: #FFFFFF;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: black;
+  padding: 6px 8px;
+  font-size: 0.7rem;
+  line-height: 2.2rem;
+}
+
+.blog-item-header {
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.2rem;
 }
