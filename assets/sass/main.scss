@@ -22,49 +22,10 @@ body {
   overflow-x: hidden;
 }
 
-button {
-  position: relative;
-  border-radius: 99rem;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, .25);
-  color: white;
-  cursor: pointer;
-  transition: all .3s;
-  font-family: 'Reno Mono', monospace;
-  line-height: 0;
-  padding: 1.2rem 2rem 1.1rem;
-  @media (max-width: 768px) {
-    font-size: 1rem;
-    padding: 1.3rem 1.6rem 1.1rem;
-  }
-  &.cta-btn {
-    background: white;
-    color: black;
-    min-width: 10rem;
-  }
-  &.cta-btn:hover {
-    background: #4B45C6;
-    color: white;
-    border: 1px solid #4B45C6;
-  }
-  &.cta-btn:active {
-    background: rgb(51, 46, 134);
-    color: white;
-    border: 1px solid rgb(51, 46, 134);
-  }
-  &:hover {
-    transition: all .1s;
-    background: rgba(255, 255, 255, 0.2);
-  }
-  &:active {
-    transition: all 0s;
-    background: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.2);
-  }
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
-  }
+.blue-box {
+  background-color: $blue-accent;
+  border-radius: 0px 20px;
+  padding: 80px 0px;
 }
 
 .blue-icon {
@@ -75,57 +36,9 @@ button {
   width: auto;
 }
 
-.pro-box {
-  margin: auto;
-  padding: 15px 1em;
-  border-radius: 1em;
-  z-index:9;
-
-  padding: 35px 25px;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0px; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    border: 1px solid #615ae3;
-    margin: -$border; /* !importanté */
-    border-radius: inherit; /* !importanté */
-    background: radial-gradient(#05020a 65%, #241931 115%);
-
-    background: #0d0d0d;
-    -webkit-box-shadow: inset 0 0 40px 20px #17172a;
-    box-shadow: inset 0 0 40px 20px #17172a;
-  }
-}
-
-.custom-box {
-
-  margin: 5% auto;
-  color: #FFF;
-  border-radius: .75em;
-  // margin-top: 55px !important;
-  background: #0d0d0d;
-  -webkit-box-shadow: inset 0 0 40px 20px #1f1f1f;
-  box-shadow: inset 0 0 40px 20px #1f1f1f;
-  padding: 35px 25px;
-
- }
-
- .pricing-val-spec
- {
-  color: #FFFFFF;	font-family: "Reno Mono";	font-size: 11.2px;	line-height: 19px;	text-align: center;
- }
-
-ul.pricing-features {
-  list-style: none;
-  padding-left: 0px;
-  opacity: 0.5;
-  color: #FFFFFF;
-  font-family: "SF UI Text";
-  font-size: 12px;
-  line-height: 30px;
-  text-align: center;
+.imgs-fluid img {
+  max-width: 100%;
+  height: auto;
 }
 
 .mt-block {

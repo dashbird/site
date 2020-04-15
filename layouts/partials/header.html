@@ -1,12 +1,8 @@
-{{ if not .Params.hide_menu }}
-<div class="announcement">
+<div class="announcement d-none">
   <p class="top-bar-promo"><a href="" target="_blank"><span></span></a></p>
 </div>
-{{ end }}
-
 <div class='background-gradient-top'></div>
 <div id="overlay" onclick="removeHash();"></div>
-{{ if not .Params.hide_menu }}
 <div id="side-menu">
   <div class="close" onclick="removeHash();">✕</div>
   <div class="menu-container">
@@ -70,29 +66,14 @@
     </div>
   </div>
 </div>
-{{ end }}
-<nav class="container navbar-expand">
-  <div class="row">
-    <div class="col-12 mt-4">
-      {{ if .Params.exclude_menu }}
-      <a class="navbar-brand float-left" href="/">
-        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
-      </a>
-        <ul class="nav float-right align-right d-none d-lg-inline-flex">
-          <li class="nav-item">
-            <!-- <a class="nav-link primary" href="#register">Sign Up</a> -->
-            <a href="#register" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><button class="cta-btn" data-note="Zero code integration">Sign Up</button></a>
 
-          </li>
-        </ul>
-        <!-- <a href="/register" class='ml-md-auto corner-btn blue text-white bold pl-4 pr-4 d-none d-md-block sign-up'>Get Started Free<img src="/images/ic-arrow.svg" class="ic-arrow"></a> -->
-      {{ else if .Params.hide_menu }}
-      <a class="navbar-brand float-left" href="/">
-        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
-      </a>
-      {{ else }}
-      <a class="navbar-brand float-left" href="/">
-        <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
+<nav class="container-fluid top-menu navbar-expand">
+  <div class="row">
+    <div class="col-12 d-flex mt-4 align-items-center">
+
+      {{ if not .Params.exclude_menu }}
+      <a class="navbar-brand" href="/">
+        <img src="/images/v2/logo-dashbird-withtext.svg" alt="Dashbird">
       </a>
 
       <div class="ml-auto align-right d-block d-lg-none">
@@ -117,6 +98,7 @@
           <a class="ml-3 cta-btn blue-btn short" href="#register">Free Trial</a>
         </li>
       </ul>
+
       {{ else }}
       <a class="navbar-brand float-left" href="#">
         <img src="/images/v2/logo-dashbird-withtext.svg" alt="">
