@@ -1,16 +1,15 @@
 ---
 title: Why Serverless Apps Fail and How to Design Resilient Architectures
 description: The main challenges of scaling modern cloud applications and implementing well-architected practices
-date: 2020-04-14T00:00:00.000Z
-frontImage: "2020-04-14/why-serverless-apps-fail.png"
-thumbnail: "images/blog/2020-04-14/why-serverless-apps-fail.png"
+date: 2020-04-16T00:00:00.000Z
+frontImage: "2020-04-16/why-serverless-apps-fail.png"
+thumbnail: "images/blog/2020-04-16/why-serverless-apps-fail.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Well-Architected", "Scalability", "Resilience"]
-draft: true
 ---
 
-We've been monitoring 100,000’s of serverless backend components for 2+ years at Dashbird. In our experience, Serverless infrastructure failures boil down to:
+We've been monitoring 100,000's of serverless backend components for 2+ years at Dashbird. In our experience, Serverless infrastructure failures boil down to:
 
 *   Throughput and concurrency limitations;
 *   Increased latency;
@@ -22,12 +21,12 @@ You may think this is just a fact of life, but we can dodge or at least mitigate
 
 Serverless is not a magical silver bullet. These services have their limitations, especially to [scalability](https://dashbird.io/knowledge-base/basic-concepts/scalability/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=launch-q2-2020&utm_content=serverless-at-scale) capacities. [AWS Lambda](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=launch-q2-2020&utm_content=serverless-at-scale), for example, can increase concurrency level up to [a certain level per minute](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/#concurrency-limits-and-scalability?utm_source=dashbird-blog&utm_medium=article&utm_campaign=launch-q2-2020&utm_content=serverless-at-scale). Throw in 10,000 concurrent requests out of thin air and it will throttle.
 
-A typical architecture goes like this:
+A typical architecture looks like this:
 
 ![Typical Architecture](images/blog/2020-04-14/when-serverless-apps-will-fail-typical-architecture.png "Typical Architecture")
 
 
-It usually works well under a low scale. Put in more load a single component’s fault can bring the whole implementation to its knees.
+It usually works well under a low scale. Put in more load a single component's fault can bring the whole implementation to its knees.
 
 Consider this scenario: due to market reasons, _API Endpoint 1_ starts receiving an unusual amount of requests. Your clients are generating more data and your backend needs to store it in the _RDS instance_. Relational databases usually don’t scale linearly to I/O level, so we can expect an increase in query latency during this peak demand. _API Endpoint 1_ or _Lambda function 1_ will start timing out at some point due to the database delays.
 
