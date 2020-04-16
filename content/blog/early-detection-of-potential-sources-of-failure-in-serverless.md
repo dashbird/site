@@ -2,8 +2,8 @@
 title: Early-detection of Potential Sources of Failure in Serverless
 description: How to set up proper monitoring to ensure smooth operations and quality for applications running in production
 date: 2020-04-14T00:00:00.000Z
-frontImage: "2020-04-14/early-stage-detection.png"
-thumbnail: "images/blog/2020-04-14/early-stage-detection.png"
+frontImage: "2020-04-16/early-stage-detection.png"
+thumbnail: "images/blog/2020-04-16/early-stage-detection.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Well-Architected", "Monitoring", "Failure"]
@@ -18,12 +18,12 @@ The main challenge is that, even though Serverless abstracts away most tradition
 
 The number and variety of cloud resources we use in serverless applications are growing. Each service has its own intricacies and limitations. Interactions between services increase complexity in rapid proportions. It is difficult to track everything and keep on top of all aspects of such architecture.
 
-![SQS queue monitoring](images/blog/2020-04-14/early-detection-failure-queue-delay-insights.png "SQS queue monitoring")
+![SQS queue monitoring](/images/blog/2020-04-16/early-detection-failure-queue-delay-insights.png "SQS queue monitoring")
 
 
 Take Queues, for instance. They have to be verified constantly for latency causing high delays, an unusual accumulation of messages in the queue, etc. Compute services, such as AWS Lambda functions or ECS containers have to be monitored for a variety of possible faults, such as high resource (e.g. memory) consumption.
 
-![ECS Monitoring](images/blog/2020-04-14/early-detection-failure-ecs-high-memory-insights.png "ECS Monitoring")
+![ECS Monitoring](/images/blog/2020-04-16/early-detection-failure-ecs-high-memory-insights.png "ECS Monitoring")
 
 
 It is also important to have all monitoring metrics, performance and architectural insights in one place so that developers can be efficient to discover and act upon potential issues. Most monitoring platforms, though, still apply a server-based mindset, which doesn’t fit well the serverless paradigm.

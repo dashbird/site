@@ -23,7 +23,7 @@ Serverless is not a magical silver bullet. These services have their limitations
 
 A typical architecture looks like this:
 
-![Typical Architecture](images/blog/2020-04-14/when-serverless-apps-will-fail-typical-architecture.png "Typical Architecture")
+![Typical Architecture](/images/blog/2020-04-16/when-serverless-apps-will-fail-typical-architecture.png "Typical Architecture")
 
 
 It usually works well under a low scale. Put in more load a single component's fault can bring the whole implementation to its knees.
@@ -36,7 +36,7 @@ Not only _API Endpoint 1_ will become unavailable to clients, but also the secon
 
 We can avoid this by decoupling the _API Endpoint 1_ and _Lambda function 1_. In the example, our clients are only sending information that needs to be stored, but no processing and customized response are needed. Here is an alternative architecture:
 
-![Using a queue to off-load peak demand](images/blog/2020-04-14/when-serverless-apps-will-fail-typical-architecture-solution.png "Using a queue to off-load peak demand")
+![Using a queue to off-load peak demand](/images/blog/2020-04-16/when-serverless-apps-will-fail-typical-architecture-solution.png "Using a queue to off-load peak demand")
 
 
 Instead of sending requests directly from _API Endpoint 1_ to the _Lambda function 1_, we first store all requests in a highly-scalable _SQS queue_. The API can immediately return a 200 message to clients. The _Lambda function 1_ will later pull messages from the queue in a rate that is manageable for its own concurrency limits and the _RDS instance_ capabilities.
