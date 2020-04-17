@@ -7,7 +7,6 @@ thumbnail: "images/blog/2020-04-16/early-stage-detection.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Well-Architected", "Monitoring", "Failure"]
-draft: true
 ---
 
 We recently wrote about [why serverless applications fail and how to design resilient architectures](https://dashbird.io/blog/why-serverless-apps-fail-and-how-to-design-resilient-architectures/). Being able to detect early-stage failure indicators can be invaluable.
@@ -30,4 +29,4 @@ It is also important to have all monitoring metrics, performance and architectur
 
 Cloud resources cannot be monitored isolated, we must start thinking about our serverless backends as a whole, and almost as living organisms. Otherwise, issues arising from the interaction of services are difficult to track and detect early on.
 
-In case you are interested in these topics and would like to dive deeper, we are hosting a webinar to cover. [Click here to reserve your spot for free](https://zoom.us/webinar/register/8015867838556/WN_GsUbkv7pQdqL9Og6f9IlVA).
+Dashbird comes embedded with dozens of algorithms for early-detection and alerting of issues in Serverless platforms: software exceptions, infrastructure faults, platform errors. [Try it for 14 days free, no credit card required](https://dashbird.io/#register).
