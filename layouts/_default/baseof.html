@@ -6,6 +6,11 @@
     {{ partial "inline-scripts.html" }}
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCGWP66"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class='background-gradient-bottom min-vh-100'>
       {{ partial "header.html" . }}
       {{ block "main" . }}{{ end }}
@@ -15,5 +20,8 @@
     {{ range .Page.Params.scripts  }}
     <script async src="{{ .  }}" type="text/javascript"></script>
     {{ end  }}
+    <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7459473.js"></script>
+<!-- End of HubSpot Embed Code -->
   </body>
 </html>
