@@ -1,5 +1,5 @@
 ---
-title: What Serverless has to do with Nutella and Why it is Here to Stay
+title: What does Serverless have in common with Nutella and Why it is Here to Stay
 description: Despite being relatively new, Serverless is built upon a decades-old, mature trend in the software industry
 date: 2020-04-21T00:00:00.000Z
 frontImage: "2020-04-21/cover-image-nutella.png"
