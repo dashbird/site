@@ -1,5 +1,5 @@
 ---
-title: What Serverless has to do with Nutella and Why it is Here to Stay
+title: What does Serverless have in common with Nutella and why it’s here to stay
 description: Despite being relatively new, Serverless is built upon a decades-old, mature trend in the software industry
 date: 2020-04-21T00:00:00.000Z
 frontImage: "2020-04-21/cover-image-nutella.png"
@@ -7,6 +7,7 @@ thumbnail: "images/blog/2020-04-21/cover-image-nutella.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["serverless", "trend", "cloud"]
+draft: true
 ---
 
 There is an interesting discussion going on around how Serverless is more of a [spectrum](https://read.acloud.guru/the-serverless-spectrum-147b02cb2292) rather than a binary choice.
