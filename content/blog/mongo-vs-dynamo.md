@@ -22,7 +22,7 @@ Below we outline the eight basic differences in how they perform in several cate
 
 Dynamo **follows a key-value store data model** with tables and items. Data is organized in tables, which contains items. Each item contains a set of key-value pairs of attributes. Only indexed key-values can be queried and there is a limit in how many indexes can be built. Performance remains practically unchanged regardless of the query structure and database size.
 
-Mongo, on the other hand,** is centered around collections of documents**. Virtually any data point can be queried on Mongo. Performance can vary a lot depending on query complexity and database size.
+Mongo, on the other hand,**is centered around collections of documents**. Virtually any data point can be queried on Mongo. Performance can vary a lot depending on query complexity and database size.
 
 Both databases support ACID transactions.
 
@@ -36,14 +36,14 @@ This difference can be positive or negative depending on your use case.
 
 3) Integrations
 
-As part of the AWS ecosystem, DynamoDB provides great **integration with other cloud services**. Integrating MongoDB** requires considerably higher development and maintenance efforts**.
+As part of the AWS ecosystem, DynamoDB provides great **integration with other cloud services**. Integrating MongoDB **requires considerably higher development and maintenance efforts**.
 
 Building event-driven architectures using queues and serverless functions, for example, in connection with your data storage is much easier with Dynamo in AWS.
 
 
 4) Scalability
 
-DynamoDB offers **high scalability **by relying on HTTPs API endpoints. Mongo, on the other way, still **requires socket connections**, which can be an additional source of bottlenecks in your database infrastructure.
+DynamoDB offers **high scalability** by relying on HTTPs API endpoints. Mongo, on the other way, still **requires socket connections**, which can be an additional source of bottlenecks in your database infrastructure.
 
 The **concurrency model is relatively simple** in DynamoDB and **performance is predictable** no matter how you use the database. It is much **easier to cross-check the database capacity** versus your application demand.
 
