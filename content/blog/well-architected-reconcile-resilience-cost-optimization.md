@@ -15,7 +15,7 @@ Some of these architectural designs can become expensive if we don’t consider 
 
 Being able to reconcile these two aspects of the architectural decision-making process will not only make you a better architect and/or developer but also your services will be more valuable in the market place. Especially large projects can save thousands to millions of dollars with simple cost optimizations.
 
-In an illustrative example, we ended up with the following architecture idea. Since _Endpoint 1 _sometimes scales to a level higher than the underlying resources can handle, we placed a queue in front of _Lambda function 1 _to smooth demand peaks.
+In an illustrative example, we ended up with the following architecture idea. Since _Endpoint 1_ sometimes scales to a level higher than the underlying resources can handle, we placed a queue in front of _Lambda function 1_ to smooth demand peaks.
 
 ![Initial Architecture](/images/blog/2020-04-23/architecture-1.png "Initial Architecture")
 
@@ -43,7 +43,7 @@ With a CloudWatch alarm, we can monitor when Lambda or the API starts failing du
 
 ![Cost-optimized Architecture](/images/blog/2020-04-23/architecture-animated.gif "Cost-optimized Architecture")
 
-The role of_ function 3_ is to turn SQS on/off depending on demand. During low demand, this Lambda would temporarily detach SQS from _Endpoint 1_, and route API requests directly to _Lambda function 1_. When the alarm identifies concurrency errors, it will reestablish SQS as the destination for API requests to avoid contamination from the backend faults.
+The role of _Function 3_ is to turn SQS on/off depending on demand. During low demand, this Lambda would temporarily detach SQS from _Endpoint 1_, and route API requests directly to _Lambda function 1_. When the alarm identifies concurrency errors, it will reestablish SQS as the destination for API requests to avoid contamination from the backend faults.
 
 A Dead-Letter-Queue could be configured in _Lambda function 1_ so that it never misses a request, even in the meanwhile during demand peak and SQS is not up yet.
 
