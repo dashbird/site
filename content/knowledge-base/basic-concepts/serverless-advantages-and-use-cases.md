@@ -38,7 +38,7 @@ Serverless can be used for a wide variety of use cases, including *batch process
 
 #### Web and Mobile Applications
 
-One of the most common use cases for serverless tends to be building backend APIs that service web and mobile applications. Serverless APIs are generally easy to build and manage and work well in fluctuating load scenarious.
+One of the most common use cases for serverless tends to be building backend APIs that service web and mobile applications. Serverless APIs are generally easy to build and manage and work well in fluctuating load scenarios.
 
 #### Stream and batch processing
 
