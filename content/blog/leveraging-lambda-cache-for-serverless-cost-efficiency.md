@@ -1,7 +1,7 @@
 ---
 title: Leveraging Lambda Cache for Serverless Cost-Efficiency
 description: Learn how read-intensive applications can save money and improve efficiency by using a simple AWS Lambda cache mechanism
-date: 2020-04-16T00:00:00.000Z
+date: 2020-04-29T00:00:00.000Z
 frontImage: "2020-04-29/header-lambda-cache.png"
 thumbnail: "images/blog/2020-04-29/header-lambda-cache.png"
 author: "Renato Byrro"
