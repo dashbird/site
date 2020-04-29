@@ -18,7 +18,7 @@ Achieving the AWS Lambda Ready designation differentiates Dashbird as an AWS Par
 
 To receive an AWS Service Ready designation for AWS Lambda, Dashbird went through validation to verify following the AWS best practices for integrating with AWS Lambda and that our product is being used in customers’ production workloads. “Dashbird is delighted to achieve AWS Service Ready status. It’s important for us to be recognized for our team’s hard work of helping companies build and operate complex serverless workloads,” said Taavi Rehemägi, CEO at Dashbird. “We have recently launched an additional range of advanced tools to enable even more detailed insights and guarantee a more proactive and secure approach to app performance on AWS.”
 
-To support the seamless integration and deployment of these solutions, AWS established the[ ](https://aws.amazon.com/partners/service-ready/)AWS Service Ready Program to help customers identify products integrated with AWS services and spend less time evaluating new tools, and more time scaling their use of products that are integrated with AWS Services. 
+To support the seamless integration and deployment of these solutions, AWS established the [AWS Service Ready Program](https://aws.amazon.com/partners/service-ready/) to help customers identify products integrated with AWS services and spend less time evaluating new tools, and more time scaling their use of products that are integrated with AWS Services. 
 
 Customers value Dashbird’s automated alerting system, comprehensive dashboards and search capabilities, and in-depth debugging data for the whole range of managed cloud services, enabling developers to deliver high-quality experiences for their end-user.
 
@@ -27,3 +27,6 @@ Dashbird helps companies, including [Shamrock](https://dashbird.io/shamrock-case
 Dashbird features advanced issue management for teams with its proactive notifications and pre-set automated alerts, resulting in seamless cooperation and allowing even the smallest teams to tackle the potential issues quickly before they impact the application and the end-user.
 
 "Customer success is deeply rooted in our core values. We're excited to keep working with AWS and find ways to help further improve the all-around experience and benefits for AWS users", says Marek Tihkan, CTO at Dashbird.
+
+
+Find out more about the launch of the Lambda Ready Program [here](https://aws.amazon.com/blogs/apn/level-up-your-serverless-applications-with-aws-lambda-ready-partners/).
