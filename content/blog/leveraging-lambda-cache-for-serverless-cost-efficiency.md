@@ -9,9 +9,9 @@ author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "AWS Lambda", "Caching", "Well-Architected"]
 ---
 
-Cost-efficiency is one of the main pillars of the Serverless Well-Architected framework. Read-intensive applications can save money and improve efficiency by using cache systems. [AWS Lambda's](?utm_source=dashbird-blog&utm_medium=article&utm_campaign=well-architected&utm_content=lambda-caching) internal memory could be used as a caching mechanism.
+Cost-efficiency is one of the main pillars of the Serverless Well-Architected framework. Read-intensive applications can save money and improve efficiency by using cache systems. [AWS Lambda's](https://dashbird.io/knowledge-base/aws-lambda/introduction-to-aws-lambda/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=well-architected&utm_content=lambda-caching) internal memory could be used as a caching mechanism.
 
-A Lambda container remains alive after an invocation is served, even if it stays idle for some time. Whatever was loaded in the container’s memory will remain there for the next invocations. And that can be used as a caching mechanism as we demonstrate below. In some cases, this could be an alternative to external caches such as Redis or Memcached.
+A Lambda container remains alive after an invocation is served, even if it stays idle for some time. Whatever was loaded in the container's memory will remain there for the next invocations. And that can be used as a caching mechanism as we demonstrate below. In some cases, this could be an alternative to external caches such as Redis or Memcached.
 
 
 ## Basic structure of a Lambda function
@@ -45,9 +45,9 @@ This is obviously an oversimplification of the problem. We would likely need to 
 
 In the example above, the function isn't really doing anything with the cached data other then returning it. In these cases, we could cache in a higher level part of the infrastructure by using CloudFront with API Gateway, for example. This would avoid requests from even reaching the Lambda function.
 
-Another aspect is cache size and resource usage. How much memory does the Lambda function need and how much is allocated? The difference is roughly what we have available for caching. If the cache starts to grow further, it may cause memory exhaustion errors and prevent the function from working altogether. Thus, it’s a good idea to run a benchmark and avoid this potential failure point.
+Another aspect is cache size and resource usage. How much memory does the Lambda function need and [how much is allocated](https://dashbird.io/knowledge-base/aws-lambda/resource-allocation-and-performance/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=well-architected&utm_content=lambda-caching)? The difference is roughly what we have available for caching. If the cache starts to grow further, it may cause memory exhaustion errors and prevent the function from working altogether. Thus, it’s a good idea to run a benchmark and avoid this potential failure point.
 
-Another thing to consider is the lack of synchronization between Lambda containers. When multiple invocations are running concurrently, Lambda has to spin up one container for each. They will not have the exact same usernames in their caches, as invocation arguments hitting each container will hardly be the same.
+Another thing to consider is the lack of synchronization between Lambda containers. When [multiple invocations are running concurrently](https://dashbird.io/knowledge-base/aws-lambda/scalability-and-concurrency/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=well-architected&utm_content=lambda-caching), Lambda has to spin up one container for each. They will not have the exact same usernames in their caches, as invocation arguments hitting each container will hardly be the same.
 
 For that reason, we can't ensure consistent caching performance across all Lambda invocations. Depending on the number of concurrent requests and the variability of usernames requested, the cache might end up having to hit the database most of the time in practice.
 
