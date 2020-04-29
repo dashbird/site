@@ -29,4 +29,4 @@ Dashbird features advanced issue management for teams with its proactive notific
 "Customer success is deeply rooted in our core values. We're excited to keep working with AWS and find ways to help further improve the all-around experience and benefits for AWS users", says Marek Tihkan, CTO at Dashbird.
 
 
-Find out more about the launch of the Lambda Ready Program [here](https://aws.amazon.com/blogs/apn/level-up-your-serverless-applications-with-aws-lambda-ready-partners/)
+Find out more about the launch of the Lambda Ready Program [here](https://aws.amazon.com/blogs/apn/level-up-your-serverless-applications-with-aws-lambda-ready-partners/).
