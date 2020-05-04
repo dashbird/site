@@ -1,7 +1,7 @@
 ---
 title: Can AWS API Gateway Act as a Load Balancer?
 description: API Gateway can replace what a Load Balancer would usually provide, with a simpler interface and many more serverless features on top of it. The downside is that it doesn’t come cheap.
-date: 2020-04-16T00:00:00.000Z
+date: 2020-05-04T00:00:00.000Z
 frontImage: "2020-05-04/api-gateway-load-balancer-header.png"
 thumbnail: "images/blog/2020-05-04/api-gateway-load-balancer-header.png"
 author: "Renato Byrro"
