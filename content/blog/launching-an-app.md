@@ -67,12 +67,5 @@ Below we share the perspectives from our team members, in no particular order:
 
 Dashbird is the most widely adopted serverless monitoring platform, with over 600,000 cloud resources being tracked. It provides observability over several managed services, such as AWS Lambda, SQS, DynamoDB, API Gateway, ECS clusters and containers.
 
-### [Go check Dashbird for free](https://dashbird.io/#register), no credit card required.
+### [Go check out Dashbird's newly launched features now for free](https://dashbird.io/#register), no credit card required.
 
-<br>
-
-<hr>
-
-<br>
-
-_Header image credits: Photo by [Bill Jelen](https://unsplash.com/@billjelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/spacex-launch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
