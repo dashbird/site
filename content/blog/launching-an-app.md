@@ -59,6 +59,16 @@ Below we share the perspectives from our team members, in no particular order:
     </div>
     Marek, our CTO, was maintaining a roadmap of features, which we had decided beforehand. One top priority was to fix existing bugs and make the system as stable as possible. There was a scalability problem in one internal service that is a central part of the system. Improving this service architecture was a priority and paid off well. For me, it didn't feel like too much pressure. Although I had to put extra effort into my work, it was actually fun fixing different bugs etc. My advice would be to collaborate more and tackle problems together with colleagues. We had some changes from previous month still pending to be pushed into production. In the future, I would push anything pending first, then start working on a new launch version.
 </div>
+
+## Toomas (Software Developer)
+
+<div class="text-justify">
+    <div style="float: left; max-width: 150px; margin: 10px 20px 10px 0px;">
+        <img style="border-radius: 50%; max-width: 140px;" src="/images/team/toomas.jpg" alt="Toomas (Softwaare Developer)">
+    </div>
+    We planed our tasks on a weekly basis. Personally, I started the week by selecting the more difficult ones assigned to me. That is because those tasks are harder to estimate, so getting them done early would help identify any deviations from our plans. I was new to the team, so one thing I did was to get familiar with the system and the code already in place, which helped me work with more confidence on the new features. Although I haven't felt any extraordinary pressure, I see the team accomplished a lot, because everyone was collaborative and motivated to get as much as possible done for the scheduled launch. We didn't have any major issues after launching. Nevetheless, I would invest more time in testing in future releases.
+</div>
+
 <br>
 
 <hr>
