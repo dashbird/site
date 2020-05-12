@@ -30,7 +30,7 @@ Below we share the perspectives from our team members, in no particular order:
     <div style="float: left; max-width: 180px; margin: 10px 20px 10px 0px;">
         <img style="border-radius: 50%; max-width: 170px;" src="/images/team/dmitrijs.png" alt="Dmitrijs (Software Architect)">
     </div>
-    We created a check-in plan for the pipeline of tasks, with a toggle to enable new features and disable old ones. We continued to use Jira to handle our devleopment lifecycle. There was a bit of pressure with bug fixes closer to the launch, but nothing extraordinary. The responsibility of making big changes that would affect all customers was high. In future iterations, I would leave the last week to polish the new features and make sure they will deliver the best experience.
+    We created a check-in plan for the pipeline of tasks, with a toggle to enable new features and disable old ones. We continued to use Jira to handle our develeopment lifecycle. There was a bit of pressure with bug fixes closer to the launch, but nothing extraordinary. The responsibility of making big changes that would affect all customers was high. In future iterations, I would leave the last week to polish the new features and make sure they will deliver the best experience.
 </div>
 
 ## Jelena (Software Developer)
