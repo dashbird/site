@@ -156,11 +156,9 @@ body {
 }
 
 .scrolling-wrapper {
-  @media (max-width: 768px) {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-  }
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 .pricing > .nav-link {
