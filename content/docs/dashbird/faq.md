@@ -25,6 +25,19 @@ Dashbird [imports logs and metrics from AWS CloudWatch APIs](dashbird/how-it-wor
 
 
 
+### What does a 'resource' mean for Dashbird?
+
+Dashbird tracks multiple cloud resources in your AWS account. Currently, the services covered are listed on the Inventory section. A resource is a fundamental unit within each AWS service. Below are examples of cloud resources:
+
+* A Lambda function
+* a DynamoDB table
+* An SQS queue
+* An ECS container
+
+[Learn how to control](dashbird/faq/#how-to-select-which-resources-to-monitor-in-my-cloud-inventory) which resources are monitored by Dashbird in your AWS account.
+
+
+
 ### What if things fail?
 
 We have over-provisioned our data importing stacks to a point that if half of our cloud infrastructure fails for any reason, we could still carry on serving the whole production load for all our customers. Currently, our main importing workflow is being hosted on the **us-east-1** region, but we also have idle backups ready on **us-east-2**.
@@ -82,7 +95,7 @@ In the Inventory settings, you will see two sections:
 
 Specify a key-value pair in the first one to select which resources Dashbird should monitor. Include key-value pairs in the second one to determine resources that should be excluded from Dashbird monitoring. Make sure your AWS resources are tagged appropriately according to the key-valur pairs selected in our system.
 
-![Include and exclude resources by tag](/images/docs/dashbird/faq/inventory-include-exclude-resources-by-tag.png "Include and exclude resources by tag")
+![Include and exclude resources by tag](/images/docs/dashbird/faq/inventory-include-exclude-resources-by-tag-.png "Include and exclude resources by tag")
 
 
 

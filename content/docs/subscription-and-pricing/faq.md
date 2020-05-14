@@ -12,15 +12,22 @@ kbSeries_weight: 200
 Just sign up for the free trial and check the Subscription page inside the webapp to get an overview of your usage. Don't worry, we don't require credit card information until the end of your trial.
 
 <br>
-### What features do I get to use during the free trial?
 
-**All of them!**
+### What features do I get access to during the free trial?
+
+All of them!
 
 <br>
 
 ### How much data volume do I get allocated during my 14 day trial?
 
-The default data ingeston limit during the 14 day trial is 5GB. For complex proof of concept pilots of Dashbird, please contact the sales team to cater a greater data volume need for your trial.
+The default data ingeston limit during the 14 day trial is 5GB. For complex proof of concept pilots of Dashbird, please contact the sales team - use the support icon on the bottom-right corner - to cater a greater data volume need for your trial.
+
+<br>
+
+### What counts as a resource for billing purposes?
+
+A resource could be a Lambda function, a DynamoDB table, an SQS queue, or an ECS container, for example. Dashbird charges a small price per resource per month in two different tiers: Professional and Enterprise. The Community tier is free and enables monitoring of up to 15 resources. Visit our [pricing page](../pricing) to learn more about resource-based charges. Check the [product FAQ](dashbird/faq/#what-does-a-resource-mean-for-dashbird) to learn more about Dashbird resources.
 
 <br>
 
