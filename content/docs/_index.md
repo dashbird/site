@@ -19,7 +19,7 @@ Dashbird monitors multiple cloud components in AWS cloud, such as [Lambda functi
 
 Developers can track the **Inventory** of cloud components in one single place. This allows for an effective and effortless observability process over the entire serverless cloud stack.
 
-![Inventory](/images/docs/dashbird/getting-started/inventory.png "Inventory of Cloud Components")
+![Inventory](/images/docs/dashbird/getting-started/inventory-.png "Inventory of Cloud Components")
 
 <br>
 
@@ -51,7 +51,7 @@ Insights are automatically generated when:
 * Your infrastructure is likely to fail
 * Our system identifies opportunities for improvement
 
-![Dashbird Insights: Queue Delay Alert Example](/images/docs/dashbird/getting-started/insights.png "Dashbird Insights: Queue Delay Alert Example")
+![Dashbird Insights: Queue Delay Alert Example](/images/docs/dashbird/getting-started/insights-.png "Dashbird Insights: Queue Delay Alert Example")
 
 <br>
 
