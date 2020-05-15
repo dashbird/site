@@ -14,7 +14,7 @@ A Lambda function's _concurrency level_ is the number of invocations being serve
 
 As stated below, concurrency is the total number of simultaneous requests in a given time. Below is a visual representation of this concept, to make it easier to understand.
 
-![Concurrency Visual Representation](/images/knowledge-base/concurrency-visual-representation.png)
+![Concurrency Visual Representation](/images/knowledge-base/aws-lambda/concurrency-visual-representation.png)
 
 Key takeaways from the diagram above:
 
