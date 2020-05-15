@@ -34,7 +34,7 @@ Dashbird tracks multiple cloud resources in your AWS account. Currently, the ser
 * An SQS queue
 * An ECS container
 
-[Learn how to control](dashbird/faq/#how-to-select-which-resources-to-monitor-in-my-cloud-inventory) which resources are monitored by Dashbird in your AWS account.
+[Learn how to control](#how-to-select-which-resources-to-monitor-in-my-cloud-inventory) which resources are monitored by Dashbird in your AWS account.
 
 
 
