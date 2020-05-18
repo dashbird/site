@@ -7,7 +7,6 @@ thumbnail: "images/blog/2020-05-vacation-buffer/serverless-most-popular-programm
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "AWS Lambda", "Nodejs", "Python"]
-draft: true
 ---
 
 About [90% of all Lambda functions monitored by Dashbird](https://dashbird.io/blog/state-of-lambda-functions-2019/#ok-pretty-cool-but-what-about-their-runtime) on AWS Lambda are running Nodejs and Python runtimes.
