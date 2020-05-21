@@ -151,52 +151,6 @@ title: "Subscribe to Serverless Updates"
 <section id="feature2" class="section feature feature-2 feature-left bg-white">
     <div class="container">
         <div class="row" style="padding-bottom: 25px;">
-            <form method="POST" action="https://dashbird.activehosted.com/proc.php" id="_form_27_" class="_form _form_27 _inline-form  " novalidate>
-                <input type="hidden" name="u" value="27" />
-                <input type="hidden" name="f" value="27" />
-                <input type="hidden" name="s" />
-                <input type="hidden" name="c" value="0" />
-                <input type="hidden" name="m" value="0" />
-                <input type="hidden" name="act" value="sub" />
-                <input type="hidden" name="v" value="2" />
-                <div class="_form-content">
-                    <div class="_form_element _x66865696 _full_width _clear" >
-                    <div class="_form-title">
-                        Subscribe to our fortnightly updates
-                    </div>
-                    </div>
-                    <div class="_form_element _x63621351 _full_width _clear" >
-                    <div class="_html-code">
-                        <p>
-                        Keep on top of everything serverless and stay updated on our latest developments.
-                        </p>
-                    </div>
-                    </div>
-                    <div class="_form_element _x04328346 _full_width " >
-                    <label class="_form-label">
-                    </label>
-                    <div class="_field-wrapper">
-                        <input type="text" name="fullname" placeholder="Name" required/>
-                    </div>
-                    </div>
-                    <div class="_form_element _x70483411 _full_width " >
-                    <label class="_form-label">
-                    </label>
-                    <div class="_field-wrapper">
-                        <input type="text" name="email" placeholder="Your best email" required/>
-                    </div>
-                    </div>
-                    <div class="_button-wrapper _full_width">
-                    <button id="_form_27_submit" class="_submit" type="submit">
-                        Subscribe Now
-                    </button>
-                    </div>
-                    <div class="_clear-element">
-                    </div>
-                </div>
-                <div class="_form-thank-you" style="display:none;">
-                </div>
-                </form>
         </div>
     </div>
 </section>
