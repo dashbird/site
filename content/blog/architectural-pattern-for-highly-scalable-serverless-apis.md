@@ -7,7 +7,6 @@ thumbnail: "images/blog/2020-05-vacation-buffer/architectural-pattern-for-highly
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Lambda", "Architectural Patterns", "Scalability", "API Gateway", "SQS"]
-draft: true
 ---
 
 The most common API architecture on Serverless backends is not necessarily the most scalable and resilient option. Many developers take for granted that an AWS Lambda processing external requests will require an API Gateway endpoint connected directly to it.
