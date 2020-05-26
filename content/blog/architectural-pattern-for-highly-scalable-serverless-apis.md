@@ -1,7 +1,7 @@
 ---
 title: Architectural Pattern for Highly Scalable Serverless APIs
 description: Learn how to combine API Gateway, Lambda and SQS to produce highly scalable API architectures
-date: 2020-06-10T00:00:00.000Z
+date: 2020-05-26T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/architectural-pattern-for-highly-scalable-serverless-apis.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/architectural-pattern-for-highly-scalable-serverless-apis.png"
 author: "Renato Byrro"
