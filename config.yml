@@ -21,13 +21,13 @@
         identifier: 'pricing'
         URL: '/pricing/'
         weight: 300
-      - name: 'Learning Center'
-        identifier: 'cloud-learning-center'
-        URL: '/knowledge-base/'
-        weight: 400
-      - name: 'Careers'
-        identifier: 'careers'
+      - name: 'Blog'
+        identifier: 'blog'
         URL: '/careers/'
+        weight: 400
+      - name: 'About Us'
+        identifier: 'about'
+        URL: '/about/'
         weight: 500
 
   params:
