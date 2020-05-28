@@ -12,7 +12,7 @@ draft: true
 
 We recently wrote about whether [API Gateway can act as a Load Balancer](https://dashbird.io/blog/can-api-gateway-act-load-balancer/). The answer is yes and, in many cases, they are substitutes for each other. But how should we choose which one to use?
 
-In this article, we will dive into more details on how these two types of HTTP networking services compare, using the AWS services as a base level: API Gateway and ALB (Application Load Balancer).
+In this article, we will dive into more details on how these two types of HTTP networking services compare, using the AWS services as a base level: API Gateway and Application Load Balancer (ALB).
 
 
 ## Scalability
@@ -21,9 +21,9 @@ Both are highly-scalable services to a point that scalability should not be a co
 
 [API Gateway has a limit](https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html#api-gateway-limits) of 10,000 RPS (requests per second), which might not be enough for some cases. When we look at Regional and Edge APIs, the limit is a lot more concerning: 600 and 120, respectively. More troublesome is that the last two can’t be increased, while the larger quota can on a per-request basis.
 
-The 10,000 limit also benefits from burst capacity - up to 5,000 additional RPS - in peak demand moments. AWS does not take any hard commitments, though, and developers can’t control or predict how the burst capacity will be allocated. In practice, it’s risky to rely on it for purposes that involve user-facing endpoints.
+The 10,000 limit also benefits from burst capacity - up to 5,000 additional RPS - in peak demand moments. However, AWS does not take any hard commitments, and developers can’t control or predict how the burst capacity will be allocated. In practice, it’s risky to rely on it for purposes that involve user-facing endpoints.
 
-ALB, on the other hand, is virtually unlimited. In fact, AWS specifies no limits in terms of connections per second or concurrently in the [service quotas page](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html). It can easily scale to handle +100,000’s RPS in a second and, in principle, could go beyond millions of RPS as well At these levels, it’s probably a good idea to pre-warm the Load Balancer with the help from the AWS support team, as well as to conduct stress tests and make sure the architecture is well optimized for the load.
+ALB, on the other hand, is virtually unlimited. In fact, AWS specifies no limits in terms of connections per second or concurrently in the [service quotas page](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html). It can easily scale to handle +100,000’s RPS in a second and, in principle, could go beyond millions of RPS as well at these levels, it’s probably a good idea to pre-warm the Load Balancer with the help from the AWS support team, as well as to conduct stress tests and make sure the architecture is well optimized for the load.
 
 
 ## Reliability and Availability
