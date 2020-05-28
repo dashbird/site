@@ -23,11 +23,11 @@
         weight: 300
       - name: 'Blog'
         identifier: 'blog'
-        URL: '/careers/'
+        URL: '/blog/'
         weight: 400
       - name: 'About Us'
         identifier: 'about'
-        URL: '/about/'
+        URL: '/team/'
         weight: 500
 
   params:
