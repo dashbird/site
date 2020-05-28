@@ -1,13 +1,12 @@
 ---
 title: AWS API Gateway vs. Application Load Balancer (ALB)
 description: "In this full comparison: pros and cons of each service, scalability capabilities, costs, feature set, and more"
-date: 2020-05-25T00:00:00.000Z
+date: 2020-05-28T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/aws-api-gateway-vs-application-load-balancer.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/aws-api-gateway-vs-application-load-balancer.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "API Gateway", "Application Load Balancer", "ALB", "Load Balancer"]
-draft: true
 ---
 
 We recently wrote about whether [API Gateway can act as a Load Balancer](https://dashbird.io/blog/can-api-gateway-act-load-balancer/). The answer is yes and, in many cases, they are substitutes for each other. But how should we choose which one to use?
