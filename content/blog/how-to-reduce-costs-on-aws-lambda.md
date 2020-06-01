@@ -51,7 +51,7 @@ Software projects are changing constantly, which makes cost optimization a movin
 
 AWS offers spending alerts and expenditure information, but not on the granular level of a Lambda function, for example.
 
-With services like [Dashbird](https://dashbird.io), you can set custom policies for one or more functions with very granular details. In the example below, it will send an email and slack message whenever the selected functions cost more than $10 over the past hour.
+With services like [Dashbird](https://dashbird.io), you can set custom policies for one or more functions with very granular details. In the example below, it will send an email and Slack message whenever the selected functions cost more than $10 over the past hour.
 
 ![lambda alert cost](/images/blog/2020-05-vacation-buffer/lambda-alert-cost.png "lambda alert cost")
 
