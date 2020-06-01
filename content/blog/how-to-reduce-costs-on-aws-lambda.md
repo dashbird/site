@@ -7,11 +7,10 @@ thumbnail: "images/blog/2020-05-vacation-buffer/how-to-reduce-costs-on-aws-lambd
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Cost-Efficiency", "Well-Architected"]
-draft: true
 ---
 
 
-As a Serverless computing service, Lambda already [saves hundreds of thousands of dollars](https://dashbird.io/shamrock-case-study/) for many companies out there. While traditional server-based infrastructures usually lead to overprovisioning and waste, the Serverless pay-per-use model enables cost-effective cloud spending.
+As a Serverless computing service, Lambda already [saves hundreds of thousands of dollars](https://sls.dashbird.io/going-serverless-case-study) for many companies out there. While traditional server-based infrastructures usually lead to overprovisioning and waste, the Serverless pay-per-use model enables cost-effective cloud spending.
 
 Nevertheless, there are still more cost-saving opportunities that many development teams miss on AWS Lambda.
 
@@ -43,7 +42,7 @@ We [published a sample benchmarker](https://medium.com/hackernoon/lower-your-aws
 
 The Lambda internal memory can be used as a cheap and fast caching mechanism. As it’s widely known, anything loaded outside the handler function remains in memory for the next invocations.
 
-We can keep a copy of information retrieved from a database, for example, so that in future requests the data can be pulled from the Lambda internal memory. [This article](https://dashbird.io/blog/leveraging-lambda-cache-for-serverless-cost-efficiency/) we published recently illustrates with a few basic examples and covers a few points to pay attention to when implementing this strategy.
+We can keep a copy of information retrieved from a database, for example, so that in future requests the data can be pulled from the Lambda internal memory. [This article](https://dashbird.io/blog/leveraging-lambda-cache-for-serverless-cost-efficiency/) we published recently illustrates this with a couple of basic examples and covers a few points to pay attention to when implementing this strategy.
 
 
 ## Constant monitoring is essential
