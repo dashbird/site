@@ -1,6 +1,6 @@
 ---
 title: How to Reduce Costs on AWS Lambda
-description: 
+description: Find out about the less known ways to save on AWS Lambda.
 date: 2020-06-01T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/how-to-reduce-costs-on-aws-lambda.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/how-to-reduce-costs-on-aws-lambda.png"
