@@ -66,6 +66,6 @@ For that reason, an ALB is more suitable for low-cost/undifferentiated applicati
 
 ## Conclusion
 
-Both API Gateway and Application Load Balancer can be very useful. The former is simpler and cheaper, which makes a good option for internal APIs to connect microservices architectures based on AWS Lambda, for example. API Gateway is more suitable especially for APIs that require fine-grained access control and other features not available in ALB.
+Both API Gateway and Application Load Balancer can be very useful. The latter is simpler and cheaper, which makes a good option for internal APIs to connect microservices architectures based on AWS Lambda, for example. API Gateway is more suitable especially for APIs that require fine-grained access control and other features not available in ALB.
 
 In case you would like to learn more about cloud architecture and serverless, you might want to check this [Cloud Knowledge Base](https://dashbird.io/knowledge-base?utm_source=dashbird-blog&utm_medium=article&utm_campaign=well-architected&utm_content=api-gateway-vs-alb).
