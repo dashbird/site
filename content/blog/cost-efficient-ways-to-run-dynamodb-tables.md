@@ -25,7 +25,7 @@ The built-in auto-scaling feature is an option but requires benchmarking. It usu
 
 If you are considering the On-demand capacity for a read-intensive table, maybe the cache service, DAX, can be a more economical alternative
 
-But it really depends on the level of usage. A relatively small DAX instance (t2.medium) would cost the equivalent of more than 200 Million read operations in On-demand mode. In this case, the costs savings are only possible in high-throughput scenarios.
+But it really depends on the level of usage. A relatively small DAX instance (t2.medium) would cost the equivalent of more than 200 Million read operations in On-demand mode. In this case, the cost savings are only possible in high-throughput scenarios.
 
 
 ## Queue-load leveling for write-intensive tables
