@@ -1,6 +1,6 @@
 ---
 title: Cost-Efficient Ways to Run DynamoDB Tables
-description: 
+description: Four tips on how to save money on running DynamoDB tables.
 date: 2020-06-08T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
