@@ -1,18 +1,17 @@
 ---
 title: Cost-Efficient Ways to Run DynamoDB Tables
 description: 
-date: 2020-06-05T00:00:00.000Z
+date: 2020-06-08T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Cost-Efficiency", "Well-Architected", "DynamoDB"]
-draft: true
 ---
 
-As we all know, the [on-demand capacity mode](https://dashbird.io/knowledge-base/dynamodb/capacity-modes/#on-demand-capacity-mode) of DynamoDB is great but can be cost-prohibitive in some cases (up to 7x more expensive than the Provisioned Capacity mode).
+As we all know, the [on-demand capacity mode](https://dashbird.io/knowledge-base/dynamodb/capacity-modes/#on-demand-capacity-mode) of DynamoDB is great but can be cost-prohibitive in some cases (up to seven times more expensive than the Provisioned Capacity mode).
 
-The Provisioned mode, on the other hand, shifts to the development team the burden of predicting what level of capacity will be required by the application. And it’s not quite straightforward to achieve the same level of scalability in the Provisioned mode as we enjoy in the On-demand one.
+The Provisioned mode, on the other hand, shifts to the development team the burden of predicting what level of capacity will be required by the application. And it’s not quite as straightforward to achieve the same level of scalability in the Provisioned mode as we enjoy in the On-demand one.
 
 
 ## Improving Provisioned mode scalability while cutting costs
