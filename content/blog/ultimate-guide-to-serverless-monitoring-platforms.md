@@ -1,6 +1,6 @@
 ---
 title: The Ultimate Guide to Serverless Monitoring Platforms
-description: A comparison table between some of the most prominent serverless monitoring tools to help you pick the best one for your specific needs.
+description: This comparison table between some of the most prominent serverless monitoring platforms will help you pick the best one for your specific needs.
 date: 2020-06-09T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/ultimate-guide-to-serverless-monitoring-platforms-2020.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/ultimate-guide-to-serverless-monitoring-platforms-2020.png"
