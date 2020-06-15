@@ -1,5 +1,5 @@
 ---
-title: The great serverless cost debate  (Serverless != Costless)
+title: The great serverless cost debate  (Serverless = Costless)
 description: Is having a serverless framework cheaper than having a server? It just might be. Let's have a look and findout.
 date: 2019-01-09T12:00:00.000Z
 frontImage: "2019-01-10/banking-business-cent-332304.jpg"
@@ -10,7 +10,7 @@ author_image: '/images/team/john.jpg'
 blog: ["serverless", "Lambda"]
 ---
 
-If you're worried about switching to a serverless framework being too expensive for your business, you're not alone. Total spending on cloud services will top $411 billion by 2020. The good news is there are many ways to track and lower the costs of your serverless operation without slowing down your business.
+If you're worried about switching to a serverless framework being too expensive for your business, you're not alone. Total spending on cloud services will top $284 billion by 2024. The good news is there are many ways to track and lower the costs of your serverless operation without slowing down your business.
 
 So what is AWS Lambda and how can it help your business? Find out more by reading these <a href="https://dashbird.io/blog/aws-lambda-faq-for-dummies/">frequently asked questions</a>.
 
