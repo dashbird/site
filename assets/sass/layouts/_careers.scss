@@ -18,3 +18,16 @@
   min-height: 340px;
 }
 
+// Stats area
+.stat {
+  &-nr {
+    color: $db-primary;
+    font-size: 72px;
+    text-transform: uppercase;
+  }
+  &-data {
+    color: black;
+    text-transform: uppercase;
+    font-family: $base-family;
+  }
+}
