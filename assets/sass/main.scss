@@ -18,6 +18,10 @@
   padding: $container-padding 0;
 }
 
+.text-black {
+  color: black;
+}
+
 body {
   color: $primary-color;
   background-color: black;
@@ -181,3 +185,4 @@ body {
   width: 100%;
   height: 200px;
 }
+
