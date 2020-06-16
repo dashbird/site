@@ -1,5 +1,5 @@
 
-
+@import 'variables';
 @import 'typography';
 @import 'menu';
 @import 'landing-page';
@@ -14,8 +14,8 @@
   min-height: 75vh !important;
 }
 
-.container-padding: {
-
+.container-padding {
+  padding: $container-padding 0;
 }
 
 body {
