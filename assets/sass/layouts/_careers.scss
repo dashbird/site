@@ -1,9 +1,19 @@
+// General settings
 .db-bg-primary {
   background-color: $db-primary;
 }
 
+.careers-subheading {
+  font-family: 'Reno mono';
+}
 
 //Partners area classes
 .careers-partners {
   padding: $base-spacing 0;
+}
+
+
+// Job ads area
+.job-ad {
+  min-height: 340px;
 }
