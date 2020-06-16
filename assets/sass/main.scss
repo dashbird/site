@@ -12,6 +12,10 @@ $blue-accent-lightest: rgba(74, 69, 198, 0.2);
   min-height: 97vh;
 }
 
+.min-vh-75 {
+  min-height: 75vh !important;
+}
+
 body {
   color: $primary-color;
   background-color: black;
