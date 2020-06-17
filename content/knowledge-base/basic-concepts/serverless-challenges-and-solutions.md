@@ -66,7 +66,7 @@ Arguments can be made however, that the speed of development outweighs the extra
 
 ## When should you avoid using serverless?
 
-The main scenarious where server-centric architectures win over serverless is commonly associated with architectural or cost questions. In cases where the system load is large and fairly constant, using containers can be less expensive. On top of that, it can be easier to cram some complex logic into one container and have everything in one place.
+The main scenarios where server-centric architectures win over serverless is commonly associated with architectural or cost questions. In cases where the system load is large and fairly constant, using containers can be less expensive. On top of that, it can be easier to cram some complex logic into one container and have everything in one place.
 
 ## Final notes
 

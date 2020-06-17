@@ -23,11 +23,16 @@ h1, h2 {
   letter-spacing: -.1rem;
 }
 
-h1.display-4 {
-  letter-spacing: -.5rem;
+h4 {
+  letter-spacing: -.01rem;
+  font-weight: 600;
+}
+
+h1, h1.display-4 {
+  letter-spacing: -.4rem;
   font-size: 3rem;
   @media (max-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: -.25rem;
   }
 }
@@ -39,6 +44,9 @@ a {
 p {
   margin-bottom: 1.25em;
   line-height: 200%;
+  @media (max-width: 768px) {
+    line-height: 1.4rem;
+  }
 }
 
 ul.white-check-list { // lists in pricing and features page
@@ -104,79 +112,71 @@ span.check-white {
   text-align: center;
 }
 
+@mixin blue-button-state {
+  background: #4A45C6;
+  color: white;
+  border-color: #4A45C6;
+  text-decoration: none;
+}
+@mixin white-button-state {
+  background: white;
+  color: black;
+  border-color: white;
+  text-decoration: none;
+}
+@mixin white-empty-button-state {
+  background: transparent;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
+@mixin blue-empty-button-state {
+  border: 1px solid $accent-color;
+  color: white;
+  text-decoration: none;
+}
+
 // CTA buttons
-button, a.cta {
+.cta-btn {
   position: relative;
   border-radius: 99rem;
-  background: transparent;
-  border: 1px solid #4A45C6;
+  border: 1px solid $accent-color;
   color: white;
   cursor: pointer;
   transition: all .3s;
   font-family: 'Reno Mono', monospace;
-  padding: 0.8rem 2rem 0.6rem;
+  padding: 1.2rem 2rem 1rem;
+  display: inline-block;
+  white-space: nowrap;
   @media (max-width: 768px) {
     font-size: 1rem;
     padding: 1.3rem 1.6rem 1.1rem;
+    display:inline-block;
   }
-  &.cta-btn {
-    background: #4A45C6;
-    color: white;
-    border-color: white;
-    min-width: 10rem;
+  &:hover { text-decoration: none;  }
+
+  &.blue-btn {
+    @include blue-button-state;
+    &:hover { @include white-button-state; }
   }
-  &.cta-btn:hover {
-    background: white;
-    color: black;
-    border: 1px solid white;
+  &.white-btn {
+    @include white-button-state;
+    &:hover { @include blue-button-state; }
   }
-  &.cta-btn:active {
-    background: rgb(51, 46, 134);
-    color: white;
-    border: 1px solid rgb(51, 46, 134);
+  &.blue-empty-btn {
+    @include blue-empty-button-state;
+    &:hover {
+      @include blue-button-state;
+    }
   }
-  &:hover {
-    transition: all .1s;
-    background: rgba(255, 255, 255, 0.2);
+  &.white-empty-btn {
+    @include white-empty-button-state;
+    &:hover { @include white-button-state; }
   }
-  &:active {
-    transition: all 0s;
-    background: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.2);
-  }
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgba(103, 38, 255, 0.4);
+  &.short {
+    padding: 0.5rem 2rem;
   }
 }
-
-a.cta {
-  &.cta-btn {
-    margin-left: 15px;
-    border-radius: 99rem;
-    padding: 1rem 2rem 0.8rem;
-    line-height: 20px;
-    background: transparent;
-    &:hover {
-      text-decoration: none;
-    }
-    &.blue-btn{
-      background: #4A45C6;
-      &:hover {
-        color: black;
-        background: white;
-        border: 1px solid white;
-      }
-    }
-    &.white-btn{
-      background: white;
-      color: black;
-      &:hover {
-        color: black;
-        background: white;
-        border: 1px solid white;
-      }
-    }
-
-  }
+.wrap-text {
+  white-space: normal !important;
 }

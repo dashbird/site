@@ -87,5 +87,5 @@ Strong and supportive community. It thus makes it simple to use.
 
 Ruby is a relatively new addition to the AWS Lambda roaster but there is a lot of interest around it already. I look forward to seeing how far we can push Ruby using AWS Lambda.
 
-##Conclusion
+## Conclusion
 At first glance performance in a controlled, similar environment, running the same kind of functions isn’t all that different and until you get these to production you won’t be able to get a definitive conclusion. Stay tuned for the follow up for this article which will contain an updated benchmark of all the Languages supported by AWS Lambda in 2019.

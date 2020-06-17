@@ -18,135 +18,94 @@
   </div>
 </section>
 <section class="container sf-ui-text br-7 blog-font bg-white z-index-1 position-relative article-blog-wrap">
-  <!-- Blog CTA | Wrapper -->
-  <div class="row blog-cta--wrapper">
-    <!-- Blog CTA | Wrapper 2 -->
-    <div class="col-9 sf-ui-text br-7 blog-font bg-white  article-blog-wrap blog-cta__sibling">
-      <div class="post-author-icon-wrap position-absolute row z-index-1">
-        <div class="post-author-icon">
-          {{ if isset .Params "author_image" }}
-          <img src="{{ .Params.author_image }}" class="w-100">
-          {{ else }}
-          <img src="/images/avatar-default.png" class="w-100">
-          {{ end }}
-        </div>
-        <div class="text-center post-author-det st-ui-text">
-          Written by
-          {{ if isset .Params "authorlink" }}
-            <a href='{{ .Params.authorlink }}' target='_blank'>{{ .Params.author }}</a>
-          {{ else }}
-            {{ .Params.author }}
-          {{ end }}
-          <br>on {{ .Date.Format "Mon, Jan 2, 2006" }}
-        </div>
+  <div class="post-author-icon-wrap position-absolute row z-index-1">
+    <div class="post-author-icon">
+      {{ if isset .Params "author_image" }}
+      <img src="{{ .Params.author_image }}" class="w-100">
+      {{ else }}
+      <img src="/images/avatar-default.png" class="w-100">
+      {{ end }}
+    </div>
+    <div class="text-center post-author-det st-ui-text">
+      Written by
+      {{ if isset .Params "authorlink" }}
+        <a href='{{ .Params.authorlink }}' target='_blank'>{{ .Params.author }}</a>
+      {{ else }}
+        {{ .Params.author }}
+      {{ end }}
+      <br>on {{ .Date.Format "Mon, Jan 2, 2006" }}
+    </div>
+  </div>
+
+ <div class="col-2 text-center d-none d-md-block position-absolute pt-10 hight-100">
+    <div class="sticky-top pt-5 pb-10 social-icons">
+      <div class="col-12 mb-3 mt-3">
+        <a rel="nofollow"
+           class="twitter m-d-s"
+           title="Share to Twitter"
+           href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
       </div>
 
-    <div class="col-2 text-center d-none d-md-block position-absolute pt-10 hight-100">
-        <div class="sticky-top pt-5 pb-10 social-icons">
-          <div class="col-12 mb-3 mt-3">
-            <a rel="nofollow"
-              class="twitter m-d-s"
-              title="Share to Twitter"
-              href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
-              onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
-          </div>
-
-          <div class="col-12 mb-3">
-            <a rel="nofollow"
-              class="facebook m-d-s"
-              title="Share to Facebook"
-              href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
-              onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
-          </div>
-
-          <div class="col-12">
-            <a rel="nofollow"
-              class="linkedin m-d-s"
-              href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
-              title="Share to LinkedIn"
-              onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div> 
-
-      <div class="col col-md-8 pt-10 pt-md-40 mb-5 imgs-fluid justify-content-center m-0-auto">
-        <div class='article-blog-content'>{{ .Content }}</div>
+      <div class="col-12 mb-3">
+        <a rel="nofollow"
+           class="facebook m-d-s"
+           title="Share to Facebook"
+           href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
       </div>
-      <div class="row justify-content-center lato lh-3">
-        <div class="col-8 mt-5 mb-5">
-          {{ partial "disqus" . }}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col d-block d-md-none social-icons">
-          <span class="h4">share on:</span>
-          <a rel="nofollow"
-            class="h1 ml-3 mr-3 twitter text-center"
-            title="Share to Twitter"
-            href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
-            onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
-          <a rel="nofollow"
-            class="h1 mr-3 facebook text-center"
-            title="Share to Facebook"
-            href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
-            onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
 
-          <a rel="nofollow"
-            class="h1 linkedin text-center"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
-            title="Share to LinkedIn"
-            onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
-        </div>
+      <div class="col-12">
+        <a rel="nofollow"
+           class="linkedin m-d-s"
+           href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
+           title="Share to LinkedIn"
+           onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
       </div>
-      <!-- <div class="col-2 pt-3 d-none d-md-block" style='margin-top: 160px;'>
-        <div class="sticky-top pt-4">
-          <div class="pt-4 border rounded text-center">
-          <img src="/images/dashbird-logo.png" class='align-center' style='border: 0; box-shadow: none; width: 80px;'>
-          <p classsda='m-3 mt-4 mb-4' style='font-size: 10pt;'>End-to-end serverless monitoring and error reporting.</p>
-          <a href='https://dashbird.io' class='btn btn-primary btn-sm mb-3' role='button' >Dashbird</a>
-        </div>
-      </div> 
-      </div>-->
-    </div><!-- END OF: Blog CTA | Wrapper 2 -->
+    </div>
+  </div>
 
-    <!-- Blog CTA | Sticky Right Panel -->
-    <div class="blog-cta col-3 z-index-1 position-absolute hight-100">
-      <div class="card blog-cta--card sticky-top">
-        <form class="blog-cta__form card-body sf-ui-text br-7 blog-font bg-white article-blog-wrap">
-          <div class="blog-cta__title pb-3 blog-title">Free E-book Download</div>
-          <div class="blog-cta__img">
-            <img src="/images/best-practice-book.png">
-          </div>
-          <div class="blog-cta__desc">
-            <p>A compilation of best practicies, learned by the Dashbird team from years of experience monitoring 250,000 serverless functions</p>
-          </div>
-          <input class="blog-cta__input form-control" type="text" placeholder="Your best email">
-          <button type="button" class="blog-cta__btn btn btn-lg btn-block btn-primary">Download now!</button>
-          <button type="button" class="btn blog-cta__btn-close" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </form>
-      </div>
-    </div><!-- END OF: Blog CTA | Sticky Right Panel -->
+  <div class="col col-md-8 pt-10 pt-md-40 mb-5 imgs-fluid justify-content-center m-0-auto">
+    <div class='article-blog-content'>{{ .Content }}</div>
+  </div>
+  <div class="row justify-content-center lato lh-3">
+    <div class="col-8 mt-5 mb-5">
+      {{ partial "disqus" . }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col d-block d-md-none social-icons">
+      <span class="h4">share on:</span>
+      <a rel="nofollow"
+         class="h1 ml-3 mr-3 twitter text-center"
+         title="Share to Twitter"
+         href="https://twitter.com/intent/tweet?text={{ .Title }} {{ .Permalink }} by @thedashbird"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-twitter'></i></a>
+      <a rel="nofollow"
+         class="h1 mr-3 facebook text-center"
+         title="Share to Facebook"
+         href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;src=sdkpreparse"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class='fa fa-facebook'></i></a>
 
-  </div><!-- END OF: Blog CTA | Wrapper -->
-</section> 
+      <a rel="nofollow"
+         class="h1 linkedin text-center"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;source=https://blog.toggl.com/"
+         title="Share to LinkedIn"
+         onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </div>
+  <!-- <div class="col-2 pt-3 d-none d-md-block" style='margin-top: 160px;'>
+    <div class="sticky-top pt-4">
+      <div class="pt-4 border rounded text-center">
+      <img src="/images/dashbird-logo.png" class='align-center' style='border: 0; box-shadow: none; width: 80px;'>
+      <p classsda='m-3 mt-4 mb-4' style='font-size: 10pt;'>End-to-end serverless monitoring and error reporting.</p>
+      <a href='https://dashbird.io' class='btn btn-primary btn-sm mb-3' role='button' >Dashbird</a>
+    </div>
+  </div>
+  </div>-->
+</section>
 
   {{ partial "newsletter.html" .}}
   {{ partial "mostpopular.html" .}}
   {{ partial "freetrial.html" .}}
-
-<!-- Blog CTA | bottom bar on mobile -->
-<section class="blog-cta__mobile container-fluid">
-  <div class="blog-cta__mobile--wrapper container">
-    <div class="row">
-      <button type="button" class="blog-cta__btn blog-cta__btn-modal btn btn-lg btn-block">Download free e-book:
-        Serverless Best Practices</button>
-      <button type="button" class="btn blog-cta__mobile-close" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-  </div>
-</section><!-- END OF: Blog CTA | bottom bar on mobile -->
-
 {{ end }}

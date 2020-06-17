@@ -5,6 +5,8 @@ linktitle: Getting Started
 description: Dashbird is a monitoring and intelligence platform for operating serverless applications on AWS
 kbSeries: ["ADashbird"]
 kbSeries_weight: 100
+aliases:
+  - /docs/getting-started/quick-start/
 ---
 
 Dashbird is a service to **monitor**, **debug** and **improve** serverless applications.
@@ -17,7 +19,7 @@ Dashbird monitors multiple cloud components in AWS cloud, such as [Lambda functi
 
 Developers can track the **Inventory** of cloud components in one single place. This allows for an effective and effortless observability process over the entire serverless cloud stack.
 
-![Inventory](/images/docs/dashbird/getting-started/inventory.png "Inventory of Cloud Components")
+![Inventory](/images/docs/dashbird/getting-started/inventory-.png "Inventory of Cloud Components")
 
 <br>
 
@@ -45,11 +47,11 @@ These metrics support not only function health analysis, but also resource and c
 Dashbird monitors cloud components in serverless applications and cross-reference against well-architected best practices. Services monitored by Dashbird Insights include SQS queues, ECS containers, DynamoDB tables, API Gateways.
 
 Insights are automatically generated when:
-
+git st
 * Your infrastructure is likely to fail
 * Our system identifies opportunities for improvement
 
-![Dashbird Insights: Queue Delay Alert Example](/images/docs/dashbird/getting-started/insights.png "Dashbird Insights: Queue Delay Alert Example")
+![Dashbird Insights: Queue Delay Alert Example](/images/docs/dashbird/getting-started/insights-.png "Dashbird Insights: Queue Delay Alert Example")
 
 <br>
 
