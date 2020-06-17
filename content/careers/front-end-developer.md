@@ -6,7 +6,7 @@ role: 'Front End Developer'
 location: 'Tallinn, Estonia'
 ---
 
-#### Hey, Front End Developer, we’ve been looking for you. This is your chance to join the super awesome Team Dashbird at our vibrant central Tallinn head offices. Read on if you’ re ready to join a fast-paced startup and accelerate your career.   
+**Hey, Front End Developer, we’ve been looking for you. This is your chance to join the super awesome Team Dashbird at our vibrant central Tallinn head offices. Read on if you’ re ready to join a fast-paced startup and accelerate your career.**
 #### You’ll spend your time:
 - Designing and building frontend systems
 - Hands on with React and Redux
