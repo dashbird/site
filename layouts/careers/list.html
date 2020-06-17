@@ -1,5 +1,5 @@
 {{ define "main"}}
-<div class="container-fluid">
+<div class="container-fluid careers-hero" style="background-image: url('{{ .Params.hero_image }}')">
   <div class="row align-items-center justify-content-center min-vh-75">
     <div class="col text-center">
       <h1>Main heading for careers page</h1>
@@ -17,44 +17,26 @@
     </div>
   </div>
 </div>
-<div class="bg-white p-0">
+<div class="large-border-bottom p-0">
   <div class="container container-padding">
     <div class="row">
+      {{range .Pages}}
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
         <div class="card job-ad">
           <div class="card-body justify-content-end d-flex flex-column">
-            <a href="/careers/sample-career" class="stretched-link">
-              <h3>Open position title</h3>
+            <a href="{{ .Permalink }}" class="stretched-link">
+              <h3>{{ .Params.role }}</h3>
             </a>
-            <p>Position text</p>
+            <p class="text-black">{{ .Params.location }}</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-        <div class="card job-ad">
-          <div class="card-body justify-content-end d-flex flex-column">
-            <a href="/careers/sample-career" class="stretched-link">
-              <h3>Open position title</h3>
-            </a>
-            <p>Position text</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-        <div class="card job-ad">
-          <div class="card-body justify-content-end d-flex flex-column">
-            <a href="/careers/sample-career" class="stretched-link">
-              <h3>Open position title</h3>
-            </a>
-            <p>Position text</p>
-          </div>
-        </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </div>
 
-<div class="bg-light">
+<div class="">
   <div class="container container-padding">
     <div class="row justify-content-center">
       <div class="col-12 col-md mb-4 mb-md-0 stat text-center">
@@ -124,7 +106,7 @@
   <div class="container container-padding">
     <div class="row py-5">
       <div class="col text-center">
-      <h2 class="text-black mb-4">Join the team</h2>
+      <h2 class="mb-4">Join the team</h2>
       <button class="cta-btn text-black">
         View job openings
       </button>

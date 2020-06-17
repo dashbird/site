@@ -7,6 +7,11 @@
   font-family: 'Reno mono';
 }
 
+// Hero
+.careers-hero {
+  background-size: cover;
+}
+
 //Partners area classes
 .careers-partners {
   padding: $base-spacing 0;
@@ -28,22 +33,15 @@
     font-weight: 700;
   }
   &-data {
-    color: black;
     text-transform: uppercase;
     font-family: $base-family;
   }
 }
 
 // Introduction area
-.careers-introduction {
-  p {
-    color: black;
-  }
-}
 
 // Values area
 .careers-values {
-  color: black;
   h3 {
     font-family: $base-family;
   }
