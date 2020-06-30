@@ -1,5 +1,5 @@
 ---
-title: Roadmap to Backend Developer on Serverless Infrastructures
+title: Roadmap to Backend Developer on Cost Effective API Serverless Infrastructures
 description: Some contribution insights to the popular Backend Developer community roadmap
 date: 2020-05-22T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/cost-effective-api-infrastructures-for-serverless-backends.png"
@@ -7,7 +7,6 @@ thumbnail: "images/blog/2020-05-vacation-buffer/cost-effective-api-infrastructur
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "API Gateway", "Cost Optimization"]
-draft: true
 ---
 
 AWS API Gateway is a great service but can be quite expensive, and even cost-prohibitive in some cases.
