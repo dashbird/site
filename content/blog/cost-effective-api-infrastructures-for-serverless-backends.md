@@ -1,7 +1,7 @@
 ---
 title: Roadmap to Backend Developer on Cost Effective API Serverless Infrastructures
 description: Some contribution insights to the popular Backend Developer community roadmap
-date: 2020-05-22T00:00:00.000Z
+date: 2020-06-30T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/cost-effective-api-infrastructures-for-serverless-backends.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/cost-effective-api-infrastructures-for-serverless-backends.png"
 author: "Renato Byrro"
