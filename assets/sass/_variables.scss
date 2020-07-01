@@ -11,11 +11,12 @@ $db-accent: #8B92E3;
 // Size variables
 $extra-small-spacing: 15px;
 $small-spacing: 25px;
-$base-spacing: 50px;
-$double-spacing: 100px;
+$spacing: 50px;
+$spacing-lg: 100px;
+
 
 // Paddings and margins
-$container-padding: $base-spacing;
+$container-padding: $spacing;
 
 // Typography
 $base-family: 'Reno Mono';

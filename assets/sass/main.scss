@@ -5,13 +5,19 @@
 @import 'landing-page';
 @import 'footer';
 @import 'layouts';
+@import 'modules';
 
 .row.full-height {
   min-height: 97vh;
 }
 
-.min-vh-75 {
-  min-height: 75vh !important;
+.block-spacing {
+  padding-top: $spacing;
+  padding-bottom: $spacing;
+  &-lg {
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+  }
 }
 
 .container-padding {
