@@ -1,5 +1,5 @@
 {{ define "main"}}
-<div class="container-fluid careers-hero" style="background-image: url('{{ .Params.hero_image }}')">
+<div class="container-fluid careers-hero">
   <div class="row align-items-center justify-content-center min-vh-75">
     <div class="col-8 text-center">
       <h1>{{ .Params.hero_heading }}</h1>
@@ -60,7 +60,12 @@
   </div>
   <div class="container container-padding">
     <div class="row">
-      <div class="col-12 col-sm-6 offset-sm-6 careers-introduction">
+      <div class="col-12 col-sm-6">
+        <div class="careers-introduction-image">
+          <img src="{{ .Params.hero_image }}" class="img-fluid p-4">
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 careers-introduction">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero et lacus sagittis semper vel eget erat. Vivamus vel fermentum augue, vitae luctus ligula.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero et lacus sagittis semper vel eget erat. Vivamus vel fermentum augue, vitae luctus ligula.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero et lacus sagittis semper vel eget erat. Vivamus vel fermentum augue, vitae luctus ligula.</p>
