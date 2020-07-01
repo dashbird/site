@@ -24,7 +24,7 @@
 </div>
 <div class="p-0">
   <div class="container container-padding">
-    <div class="row">
+    <div class="row" id="ads">
       {{ range .Pages }}
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
         <div class="card job-ad" style="background-image: linear-gradient(to right, white 35%, rgba(255,255,255,.25) 90%), url('{{ .Params.cardBackground }}'); background-size: cover;">
@@ -104,9 +104,9 @@
     <div class="row py-5">
       <div class="col text-center">
       <h2 class="mb-4">Join the team</h2>
-      <button class="cta-btn text-black">
+      <a class="cta-btn" href="#ads">
         View job openings
-      </button>
+      </a>
       </div>
     </div>
   </div>
