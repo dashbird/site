@@ -59,7 +59,7 @@ Introduction of GO language was a significant move forward for AWS Lambda. Altho
 
 **Go has a remarkable tenacity of 1.x**. Unlike other languages like Java, C++, and others, Go has the highest tenacity. Such tenacity rate is a promise of a correct compilation of programs without constant alterations.
 
-**Go uses statistic binaries**. It implies that the need for statistic linking is no more. Besides programming, AWS Lambda programs with Go would help enjoy forward compatibility.
+**Go uses static binaries**. It implies that the need for static linking is no more. Besides programming, AWS Lambda programs with Go would help enjoy forward compatibility.
 
 **Go offers stability** It’s unique tooling, language design, and ecosystem makes the programming language shine.
 
