@@ -12,7 +12,7 @@ blog: ["serverless", "best practices"]
 
 While we know the many benefits of going serverless - reduced costs via pay-per-use pricing models, less operational burden/overhead, instant scalability, increased automation - the challenges are often not addressed as comprehensively. The understandable concerns over migrating can stop any architectural decisions and actions being made for fear of getting it wrong and not having the right resources. This article discusses the common concerns around going serverless and our advice to minimise their impact. 
 
-If you'd like to learn more about the challenges of going serverless and other contepts more in depth, make sure to check out our [Knowledge Base](https://dashbird.io/knowledge-base/basic-concepts/serverless-challenges-and-solutions/). We've also written about the [threats and opportunities of going serverless](https://dashbird.io/blog/threats-opportunities-of-going-serverless/) a while back but as serverless is evolving at the speed of light, we thougt we'd put together a little refresher.
+If you'd like to learn more about the challenges of going serverless and other concepts more in depth, make sure to check out our [Knowledge Base](https://dashbird.io/knowledge-base/basic-concepts/serverless-challenges-and-solutions/). We've also written about the [threats and opportunities of going serverless](https://dashbird.io/blog/threats-opportunities-of-going-serverless/) a while back but as serverless is evolving at the speed of light, we thought we'd put together a little refresher.
 
 ## Security Risks Caused By Misconfiguration and Premature Deployment
 
