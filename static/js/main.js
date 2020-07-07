@@ -6,6 +6,7 @@ $('.card-title').on('click', function() {
 
 $('.pricing-resources-link').on('click', function() {
   $('#headingResources').parents('.card').addClass('blue-active');
+  $( "#collapseResources" ).scroll();
   $('#collapseResources').collapse('show');
 })
 
@@ -120,9 +121,6 @@ $(document).ready(function () {
   $.each($('.accordion .card'), function (index, value) {
     if ($(this).find('.collapse').hasClass('hide')) {
       $(this).find('.card-header').find('h5').addClass('collapsed')
-    }
-    if (index == 0) {
-      $(this).find('.card-header').find('h5').click()
     }
   })
 
