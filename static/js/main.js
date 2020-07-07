@@ -1,10 +1,11 @@
 /* eslint-env jquery */
 
 $('.card-title').on('click', function() {
-  console.log($(this).parents('.card'));
   $(this).parents('.card').toggleClass('blue-active');
-  console.log('test')
+})
 
+$('.resources-link').on('click', function() {
+  $('#headingResources').parents('.card').addClass('blue-active');
 })
 
 /* signup popup */
