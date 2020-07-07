@@ -4,8 +4,9 @@ $('.card-title').on('click', function() {
   $(this).parents('.card').toggleClass('blue-active');
 })
 
-$('.resources-link').on('click', function() {
+$('.pricing-resources-link').on('click', function() {
   $('#headingResources').parents('.card').addClass('blue-active');
+  $('#collapseResources').collapse('show');
 })
 
 /* signup popup */
