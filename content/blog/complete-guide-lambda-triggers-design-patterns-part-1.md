@@ -123,7 +123,7 @@ An API Gateway can also be used in front of Kinesis Firehose with the [AWS-type
 
 This was the first article in a series about Lambda triggers and architectural design patterns. We've covered some patterns within the **Orchestration & Aggregation** category. In the coming weeks, we'll cover more patterns in the same category, such as Fan-in/Fan-out, Queue-bases Load Leveling, Finite-state Machine.
 
-Other categories of patterns will come as well, such as **Event-Management**, **Availability**, **Communication, **and **Authorization patterns**.
+Other categories of patterns will come as well, such as **Event-Management**, **Availability**, **Communication**, and **Authorization patterns**.
 
 [Subscribe to our newsletter](https://sls.dashbird.io/newsletter-sign-up) to stay tuned for the next parts in this series!
 
