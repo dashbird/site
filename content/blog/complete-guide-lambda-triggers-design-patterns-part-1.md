@@ -4,10 +4,10 @@ description: Part 1 of the Complete Guide to Lambda Triggers and Design Patterns
 date: 2020-08-06T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
+canonical: https://serverless.com/blog/complete-guide-lambda-triggers-design-patterns-part-1
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Tutorial", "Well-Architected", "AWS Lambda"]
-draft: true
 ---
 
 A while ago, we [covered the invocation (trigger) methods supported by Lambda and the integrations available](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/) with the AWS catalog.
