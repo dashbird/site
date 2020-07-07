@@ -2,7 +2,7 @@
 title: Complete Guide to Lambda Triggers and Design Patterns (Part 1)
 description: Part 1 of the Complete Guide to Lambda Triggers and Design Patterns - Orchestration & Aggregation. In this series we will be digging deeper into the correlation of Lambda integration possibilities with common serverless architectural patterns.
 date: 2020-07-07T00:00:00.000Z
-frontImage: "2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
+frontImage: "2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
 canonical: https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1
 author: "Renato Byrro"
