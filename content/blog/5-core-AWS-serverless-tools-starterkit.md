@@ -4,6 +4,7 @@ description: A breakdown of the 5 key AWS serverless tools needed to make up the
 date: 2020-07-09T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/5-aws-serverless-core-services-starter-toolkit.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/5-aws-serverless-core-services-starter-toolkit.png"
+canonical: https://dashbird.io/blog/5-core-aws-serverless-tools-starterkit/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
 canonical: https://dashbird.io/blog/challenges-of-going-serverless-2020
