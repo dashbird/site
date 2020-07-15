@@ -1,13 +1,13 @@
 ---
 title: Complete Guide to Lambda Triggers and Design Patterns (Part 1)
 description: Part 1 of the Complete Guide to Lambda Triggers and Design Patterns - Orchestration & Aggregation. In this series we will be digging deeper into the correlation of Lambda integration possibilities with common serverless architectural patterns.
-date: 2020-08-06T00:00:00.000Z
-frontImage: "2020-05-vacation-buffer/cost-efficient-ways-to-run-dynamodb-tables.png"
+date: 2020-07-07T00:00:00.000Z
+frontImage: "2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
+canonical: https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Tutorial", "Well-Architected", "AWS Lambda"]
-draft: true
 ---
 
 A while ago, we [covered the invocation (trigger) methods supported by Lambda and the integrations available](https://dashbird.io/knowledge-base/aws-lambda/invocation-methods-and-integrations/) with the AWS catalog.
@@ -123,7 +123,7 @@ An API Gateway can also be used in front of Kinesis Firehose with the [AWS-type
 
 This was the first article in a series about Lambda triggers and architectural design patterns. We've covered some patterns within the **Orchestration & Aggregation** category. In the coming weeks, we'll cover more patterns in the same category, such as Fan-in/Fan-out, Queue-bases Load Leveling, Finite-state Machine.
 
-Other categories of patterns will come as well, such as **Event-Management**, **Availability**, **Communication, **and **Authorization patterns**.
+Other categories of patterns will come as well, such as **Event-Management**, **Availability**, **Communication**, and **Authorization patterns**.
 
 [Subscribe to our newsletter](https://sls.dashbird.io/newsletter-sign-up) to stay tuned for the next parts in this series!
 

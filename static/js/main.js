@@ -1,10 +1,13 @@
 /* eslint-env jquery */
 
 $('.card-title').on('click', function() {
-  console.log($(this).parents('.card'));
   $(this).parents('.card').toggleClass('blue-active');
-  console.log('test')
+})
 
+$('.pricing-resources-link').on('click', function() {
+  $('#headingResources').parents('.card').addClass('blue-active');
+  $( "#collapseResources" ).scroll();
+  $('#collapseResources').collapse('show');
 })
 
 /* signup popup */
@@ -118,9 +121,6 @@ $(document).ready(function () {
   $.each($('.accordion .card'), function (index, value) {
     if ($(this).find('.collapse').hasClass('hide')) {
       $(this).find('.card-header').find('h5').addClass('collapsed')
-    }
-    if (index == 0) {
-      $(this).find('.card-header').find('h5').click()
     }
   })
 
