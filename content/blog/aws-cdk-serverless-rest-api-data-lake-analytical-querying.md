@@ -6,6 +6,7 @@ frontImage: "2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-l
 "
 thumbnail: "images/blog/2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying (1).png
 "
+canonical: https://dashbird.io/blog/aws-cdk-serverless-rest-api-data-lake-analytical-querying
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 blog: ["Serverless", "Crash Course", "CDK"]
