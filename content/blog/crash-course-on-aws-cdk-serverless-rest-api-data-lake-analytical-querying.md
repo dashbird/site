@@ -7,6 +7,7 @@ thumbnail: "images/blog/2020-07-14/MARILIIS_IMAGE_GOES_HERE"
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 blog: ["Serverless", "Crash Course", "CDK"]
+draft: true
 ---
 
 This is a hands-on course on how to deploy a fully Serverless web app using the [AWS CDK](https://aws.amazon.com/cdk/). You will learn how to:
