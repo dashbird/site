@@ -184,7 +184,7 @@ Next a `LambdaRestApi` is declared, using `my_lambda` as the handler (not to con
 
 <h1>Our Project App & Stacks</h1>
 
-[This project](https://d1qmte5oc6ndq5.cloudfront.net/) comprises one application with three Stacks. They're all declared in the `[app.py](https://github.com/byrro/serverless-website-demo/blob/master/app.py)` and `[sls_website_stack.py](https://github.com/byrro/serverless-website-demo/blob/master/sls_website/sls_website_stack.py)` files.
+[This project](https://d1qmte5oc6ndq5.cloudfront.net/) comprises one application with three Stacks. They're all declared in the [`app.py` file](https://github.com/byrro/serverless-website-demo/blob/master/app.py) and [`sls_website_stack.py` file](https://github.com/byrro/serverless-website-demo/blob/master/sls_website/sls_website_stack.py).
 
 Below we'll walk through all Stacks in a high level. I encourage you to inspect the [stacks file](https://github.com/byrro/serverless-website-demo/blob/master/sls_website/sls_website_stack.py) to learn how these resources are declared and also integrated. For example: a Kinesis Firehose is created in one Stack and referenced in another to include its name as an environment variable for the Lambda function that will interact with it.
 
@@ -357,7 +357,7 @@ cdk deploy sls-blog-api
 
 Since all Stacks involve some type of permission granting, CDK asks for confirmation before deploying those resources. You can review the permissions requested and hit `y` when it's good to go.
 
-![CDK security confirmation message](/images/blog/2020-07-14/cdk-deploy-confirmation.png "CDK security confirmation message")
+![CDK security confirmation message](/images/blog/2020-07-14/cdk-deploy-confirmation-message.png "CDK security confirmation message")
 
 <h1>Wrapping up</h1>
 
