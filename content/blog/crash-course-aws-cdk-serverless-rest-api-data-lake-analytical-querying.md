@@ -184,7 +184,7 @@ We first declare a Lambda function `my_lambda`. We point its code to the `my_lam
 
 Next a `LambdaRestApi` is declared, using `my_lambda` as the handler (not to confuse with the Lambda's handler function). This will create a new API Gateway REST API integrated with `my_lambda` using an [`AWS_PROXY` integration type](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-integration-types.html). All HTTP requests will be routed to the Lambda function.
 
-<h1>Our Project App & Stacks</h1>
+<h2>Our Project App & Stacks</h2>
 
 [This project](https://d1qmte5oc6ndq5.cloudfront.net/) comprises one application with three Stacks. They're all declared in the `[app.py](https://github.com/byrro/serverless-website-demo/blob/master/app.py)` and `[sls_website_stack.py](https://github.com/byrro/serverless-website-demo/blob/master/sls_website/sls_website_stack.py)` files.
 
@@ -361,7 +361,7 @@ Since all Stacks involve some type of permission granting, CDK asks for confirma
 
 ![CDK security confirmation message](/images/blog/2020-07-14/cdk-deploy-confirmation.png "CDK security confirmation message")
 
-<h1>Wrapping up</h1>
+<h2>Wrapping up</h2>
 
 
 We've covered how to structure CDK apps and add a bunch of AWS Resources to deploy with a simple `cdk deploy` command. If you're new to the CDK - and as suggested early in the article -, it's strongly recommended to follow AWS [CDK workshop](https://cdkworkshop.com/) and [documentation](https://docs.aws.amazon.com/cdk/latest/guide/home.html).
