@@ -2,9 +2,9 @@
 title: Crash Course on AWS CDK and Serverless with REST API and Data Lake Analytical Querying 
 description: A hands-on course on how to deploy a fully serverless app using AWS CDK
 date: 2020-07-16T12:00:00.000Z
-frontImage: "2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying (1).png
+frontImage: "2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying.png
 "
-thumbnail: "images/blog/2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying (1).png
+thumbnail: "images/blog/2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying.png
 "
 canonical: https://dashbird.io/blog/crash-course-aws-cdk-serverless-rest-api-data-lake-analytical-querying
 author: Renato Byrro
