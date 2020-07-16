@@ -216,7 +216,7 @@ class SlsBlogApiStack(core.Stack):
         # Continues with other resources...
 ```
 
-Notice it takes another Stack object (`static_stack`) as an argument to its initialization. In the `[app.py](https://github.com/byrro/serverless-website-demo/blob/master/app.py)` file, you can see that the `SlsBlogApiStack` is initialized passing the `SlsBlogStack` as an argument.
+Notice it takes another Stack object (`static_stack`) as an argument to its initialization. In the [`app.py` file](https://github.com/byrro/serverless-website-demo/blob/master/app.py), you can see that the `SlsBlogApiStack` is initialized passing the `SlsBlogStack` as an argument.
 
 We use it to reference the CloudFront distribution domain ([d1qmte5oc6ndq5.cloudfront.net](https://d1qmte5oc6ndq5.cloudfront.net)) in the Lambda environment variables. This variable can be used to customize the HTTP response header `Access-Control-Allow-Origin` to comply with [CORS standards](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors.html). This illustrates one way to easily integrate and reference information from one Stack into another within a CDK project.
 
