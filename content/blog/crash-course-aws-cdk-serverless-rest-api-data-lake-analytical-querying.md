@@ -1,13 +1,13 @@
 ---
 title: Crash Course on AWS CDK and Serverless with REST API and Data Lake Analytical Querying 
-description: A hands-on course on how to deploy a fully serverless app using the AWS CDK
-date: 2020-07-15T12:00:00.000Z
-frontImage: "2020-07-14/MARILIIS_IMAGE_GOES_HERE"
-thumbnail: "images/blog/2020-07-14/MARILIIS_IMAGE_GOES_HERE"
+description: A hands-on course on how to deploy a fully serverless app using AWS CDK
+date: 2020-07-16T00:00:00.000Z
+frontImage: "2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying.png"
+thumbnail: "images/blog/2020-07-14/hands-on-crash-course-AWS-CDK-Serverless-REST-api-Data-lake-querying.png"
+canonical: https://dashbird.io/blog/crash-course-aws-cdk-serverless-rest-api-data-lake-analytical-querying
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 blog: ["Serverless", "Crash Course", "CDK"]
-draft: true
 ---
 
 This is a hands-on course on how to deploy a fully Serverless web app using the [AWS CDK](https://aws.amazon.com/cdk/). You will learn how to:
@@ -182,7 +182,7 @@ We first declare a Lambda function `my_lambda`. We point its code to the `my_lam
 
 Next a `LambdaRestApi` is declared, using `my_lambda` as the handler (not to confuse with the Lambda's handler function). This will create a new API Gateway REST API integrated with `my_lambda` using an [`AWS_PROXY` integration type](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-integration-types.html). All HTTP requests will be routed to the Lambda function.
 
-<h1>Our Project App & Stacks</h1>
+<h2>Our Project App & Stacks</h2>
 
 [This project](https://d1qmte5oc6ndq5.cloudfront.net/) comprises one application with three Stacks. They're all declared in the [`app.py` file](https://github.com/byrro/serverless-website-demo/blob/master/app.py) and [`sls_website_stack.py` file](https://github.com/byrro/serverless-website-demo/blob/master/sls_website/sls_website_stack.py).
 
@@ -359,7 +359,7 @@ Since all Stacks involve some type of permission granting, CDK asks for confirma
 
 ![CDK security confirmation message](/images/blog/2020-07-14/cdk-deploy-confirmation-message.png "CDK security confirmation message")
 
-<h1>Wrapping up</h1>
+<h2>Wrapping up</h2>
 
 
 We've covered how to structure CDK apps and add a bunch of AWS Resources to deploy with a simple `cdk deploy` command. If you're new to the CDK - and as suggested early in the article -, it's strongly recommended to follow AWS [CDK workshop](https://cdkworkshop.com/) and [documentation](https://docs.aws.amazon.com/cdk/latest/guide/home.html).
