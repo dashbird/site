@@ -1,13 +1,13 @@
 /* eslint-env jquery */
 
-$('.card-title').on('click', function() {
-  $(this).parents('.card').toggleClass('blue-active');
+$('.card-title').on('click', function () {
+  $(this).parents('.card').toggleClass('blue-active')
 })
 
-$('.pricing-resources-link').on('click', function() {
-  $('#headingResources').parents('.card').addClass('blue-active');
-  $( "#collapseResources" ).scroll();
-  $('#collapseResources').collapse('show');
+$('.pricing-resources-link').on('click', function () {
+  $('#headingResources').parents('.card').addClass('blue-active')
+  $('#collapseResources').scroll()
+  $('#collapseResources').collapse('show')
 })
 
 /* signup popup */
@@ -22,12 +22,10 @@ $sideMenu.classList.add('register')
 window.onpopstate = checkHash
 
 function checkHash () {
-  const hash = window.location.hash;
-  if(document.querySelector('#side-menu')==null)
-  {
-    $sideMenu = document.querySelector('#navigation');
-  }
-  else{
+  const hash = window.location.hash
+  if (document.querySelector('#side-menu') == null) {
+    $sideMenu = document.querySelector('#navigation')
+  } else {
     if (hashTriggers.find(function (str) { return str === hash })) {
       $sideMenu.className = 'show'
       $overlay.classList.add('show')
@@ -43,10 +41,8 @@ function checkHash () {
           break
       }
     } else if (hash === '') {
-      if($sideMenu!=null)
-      $sideMenu.className = '';
-      if($overlay!=null)
-      $overlay.className = ''
+      if ($sideMenu != null) { $sideMenu.className = '' }
+      if ($overlay != null) { $overlay.className = '' }
     }
   }
 }
@@ -56,6 +52,10 @@ function removeHash () {
   var popStateEvent = new PopStateEvent('popstate', { state: state })
   history.pushState(state, document.title, window.location.pathname + window.location.search)
   dispatchEvent(popStateEvent)
+}
+
+function onSubmit (token) {
+  document.getElementById('register-form').submit()
 }
 
 $(document).ready(function () {
@@ -124,17 +124,17 @@ $(document).ready(function () {
     }
   })
 
-  var $videoSrc;
-  $('.video-btn').click(function() {
-    $videoSrc = $(this).data("src")
+  var $videoSrc
+  $('.video-btn').click(function () {
+    $videoSrc = $(this).data('src')
   })
 
   $('#demoModal').on('shown.bs.modal', function (e) {
-    $("#video").attr('src', $videoSrc + "?rel=0&showinfo=0&modestbranding=1&amp;autoplay=1")
+    $('#video').attr('src', $videoSrc + '?rel=0&showinfo=0&modestbranding=1&amp;autoplay=1')
   })
 
   $('#demoModal').on('hide.bs.modal', function (e) {
-    $("#video").attr('src', $videoSrc)
+    $('#video').attr('src', $videoSrc)
   })
 
   // blog-detailed CTA form
@@ -170,7 +170,7 @@ $(document).ready(function () {
   })
 })
 
-//hello
+// hello
 let tl = new TimelineMax()
 tl.set('.hero-info', {autoAlpha: 1})
   .staggerFromTo('.hero-info div > *', 1, {

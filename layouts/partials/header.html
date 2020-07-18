@@ -30,7 +30,13 @@
             <input type="text" name='phoneNumber' placeholder="Phone Number"><br>
             <input type="text" name='companyName' placeholder="Company" required><br>
             <input type="password" name='password' placeholder="Password" required><br>
-            <input type="submit" class="cta-btn mt-3" value="Create your account"/><br>
+            <input 
+              type="submit"
+              class="cta-btn mt-3 g-recaptcha" 
+              data-sitekey="6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV"
+              data-callback="onSubmit"
+              data-action="submit"
+              value="Create your account"/><br>
           </form>
           <button class="github d-none">
             <img src="/images/landing-graphics/icon-github.svg" alt="">
