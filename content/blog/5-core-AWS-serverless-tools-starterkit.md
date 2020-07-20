@@ -7,7 +7,6 @@ thumbnail: "images/blog/2020-05-vacation-buffer/5-aws-serverless-core-services-s
 canonical: https://dashbird.io/blog/5-core-aws-serverless-tools-starterkit/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
-canonical: https://dashbird.io/blog/challenges-of-going-serverless-2020
 blog: ["serverless", "aws", "business"]
 ---
 
