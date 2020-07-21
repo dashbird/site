@@ -49,3 +49,7 @@ Reduced packaging and deployment complexity is yet another example of how packag
 ## Conclusion
 
 Serverless architecture is something you implement if you are in need of it. If not, learn more about it, and you might discover that you need it, but you weren’t aware of that fact, yet. If you'd like to learn more about a real life example of Shamrock Trading Corp successfully migrating from a traditional cluster to serverless architecture, and find out more about their winning strategy in doing so, dowload this [free case study](https://sls.dashbird.io/going-serverless-case-study).
+
+___
+
+_Editor's note: This blog has been refreshed and updated for accuracy in July 2020. Originally published in September 2018_
