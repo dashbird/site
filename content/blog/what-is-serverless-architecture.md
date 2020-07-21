@@ -1,16 +1,17 @@
 ---
 title: What Is Serverless Architecture?
-description: Money is the one thing that turns the world around. Unfortunately, it is the necessity in almost all spheres of life. You can live without it or with lesser amounts of it, but it makes it all harder...
-date: 2018-09-01T00:00:00.000Z
+description: In this article we take it back to the basics and explain what really is serverless architecture, what are the advantages and disadvantages of serverless, and who would really benefit from adapting this new way of computing.
+date: 2020-07-21T00:00:00.000Z
 frontImage: "2018-09-01/header.jpeg"
 thumbnail: "images/blog/2018-09-01/header.jpeg"
+canonical: https://dashbird.io/blog/what-is-serverless-architecture/
 author: Nemanja Novkovic
 blog: ["Serverless", "Other"]
 ---
 
-This just might be the beginning of the end of an era in the world as we know it? Are the machines already talking over? Not literally the “Terminator” movie scenario, but indeed, serverless architecture is getting us a step closer to independence from humans while it brings us much closer to the machine dependency. Let’s roll back a little and start at the beginning.
+Serverless has been around for a minute now but it's safe to say that it's still in its infancy in 2020 and definitely has a long way to go. But serverless architecture is a major step away from to dependence on humans and towards reliance on machines. Are the machines already talking over? Not literally the “Terminator” movie scenario quite yet but is this the beginning of the end of an era in the world as we know it? Let’s roll back a little and start at the beginning.
 
-## What Is Serverless Architecture?
+## What is Serverless Architecture?
 
 Serverless architecture or better yet, serverless computing as it's also known, refers to applications that are dependent on third-party services and custom code that’s running in ephemeral containers.
 
@@ -18,25 +19,25 @@ Considering its name, **serverless architecture doesn’t mean that it runs its 
 
 Your application will still be running on servers, but bear in mind that [AWS Lambda](https://aws.amazon.com/lambda/) or other hosts do all of the server management. We conclude that the user no longer needs to scale, provision, and maintain servers to run his application, database or storage system.
 
-## Why Should I Choose Serverless Architecture?
+## Why should I choose Serverless Architecture over traditional?
 
 Using serverless architecture will significantly help developers focus more on their core product. If not for serverless, developers would still be worrying about managing and operating servers or runtimes, whether managing them on the cloud or on-site. This way, the developer’s focus will solely be on individual functions in their application code. Services like AWS Lambda, Google Cloud Functions, Firebase and Microsoft Azure Functions will take care of the physical hardware, virtual machine operating system as well as the web server, while you would only need to worry about one thing - **your code**.
 
-## Who Are The Ones That Should Be Using Serverless Architecture?
+## Who should be using Serverless Architecture?
 
 In case you have a small number of functions that you need to be hosted, you should consider switching to a serverless provider. Considering that your application is more complex, serverless architecture can still be a good choice since it comes with lots of benefits, but you’d need to architect your application quite differently. Some clear benefits are easier concurrency management at scale and optimizing resource usage. If you already have an existing application, this might not be the best solution. Consider migrating smaller pieces of the application into serverless functions over time.
 
-## The Drawbacks Of Serverless Architecture
+## The drawbacks of Serverless Architecture
 
 Since everything else in life has downsides and drawbacks, it would be unwise to believe that serverless architecture is flawless. Let’s talk about what we can expect regarding the disadvantages. 
 
 Problems that occur are vendor control and vendor lock-in, but also security concerns as well as multitenancy problems. Considering that you give up system control while implementing APIs, it can cause system downtime, forced API upgrades, functionality loss, as well as unexpected limits and cost changes.
 
-Serious drawbacks though are the essential tools to work with we seem to be missing. Developers depend on vendors for debugging and monitoring tools. Luckily, [Dashbird](/) has an [observability solution](/features/) to ease the pain. 
+Serious drawbacks though are the essential tools to work with we seem to be missing. Developers depend on vendors for debugging and monitoring tools. Luckily, [Dashbird](/) is offering an [observability solution](/features/) to ease the pain. 
 
 While fighting a fight without operational tools, there is another problem causing the flawed usage of serverless architecture, and it's the architectural complexity. To decide how small a function should be, it takes quite some time to assess, implement and perform a test. The easiest way to perform such a test is with this [Step Functions state machine](https://github.com/alexcasalboni/aws-lambda-power-tuning) by AWS Sr. Technical Evangelist [Alex Casalboni](https://mobile.twitter.com/alex_casalboni).
 
-## Serverless Architecture And Its Advantages
+## Serverless Architecture and its advantages
 
 Keeping it simple, serverless architecture is an outsourcing solution allowing you to pay someone else to manage your servers, databases, and even application logic that you might manage yourself otherwise. You would pay less for your managed database because a vendor that hosts you is running thousands of very similar databases.
 
@@ -47,8 +48,4 @@ Reduced packaging and deployment complexity is yet another example of how packag
 
 ## Conclusion
 
-Serverless architecture is something you implement if you are in need of it. If not, learn more about it, and you might discover that you need it, but you weren’t aware of that fact, yet. Feel free to comment in the comment section below or visit our [blog](/blog/) and find an article of interest to start a discussion with other readers! Feel free send us a question, and we’ll gladly help you out with any doubts that might concern you. 
-
-___
-
-_We aim to improve [Dashbird](https://dashbird.io/) every day and user feedback is extremely important for that, so [please let us know](mailto:support@dashbird.io) if you have any feedback about these improvements and new features! We would really appreciate it!_
+Serverless architecture is something you implement if you are in need of it. If not, learn more about it, and you might discover that you need it, but you weren’t aware of that fact, yet. If you'd like to learn more about a real life example of Shamrock Trading Corp successfully migrating from a traditional cluster to serverless architecture, and find out more about their winning strategy in doing so, dowload this [free case study](https://sls.dashbird.io/going-serverless-case-study).
