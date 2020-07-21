@@ -1,6 +1,6 @@
 ---
 title: What Is Serverless Architecture?
-description: In this article we take it back to the basics and explain what really is serverless architecture, what are the advantages and disadvantages of serverless, and who would really benefit from adapting this new way of computing.
+description: In this article we take it back to the basics and explain what is serverless architecture, what are its advantages and disadvantages, and who would really benefit from adapting this new way of computing.
 date: 2020-07-21T00:00:00.000Z
 frontImage: "2018-09-01/header.jpeg"
 thumbnail: "images/blog/2018-09-01/header.jpeg"
