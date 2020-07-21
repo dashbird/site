@@ -26,13 +26,16 @@ aliases:
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 register-form">
         <div class="pt-2">
-            <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
+            <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register" class="needs-validation" novalidate>
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
                     <span>Work Email: </label></span>
                   </div>
                   <div class='col-md-9'>
-                    <input type="email" class="form-control cta-input w-100-percent" placeholder='dashbird@example.com' name="email" required>
+                    <input type="email" id="registration-form-email" class="form-control cta-input w-100-percent" placeholder='dashbird@example.com' name="email" required>
+                    <div class="invalid-feedback email-error">
+                      Please provide business e-mail.
+                    </div>
                   </div>
                 </div>
 
@@ -43,6 +46,7 @@ aliases:
                   <div class='col-md-9'>
                     <input type="text" class="form-control cta-input w-100-percent" placeholder='Michael' name="firstName" required>
                   </div>
+
                 </div>
 
                 <div class="row align-items-center mb-15px">
@@ -104,3 +108,14 @@ aliases:
     content_ids: 'register',
   });
 </script>
+<script src="/js/registration-form/mailservers-blacklist.js"></script>
+<script src="/js/registration-form/registration-form-validate.js"></script>
+<style>
+  .is-invalid-override {
+    border-color: #dc3545 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+  }
+  .email-error.show {
+    display: block;
+  }
+</style>
