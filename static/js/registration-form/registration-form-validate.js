@@ -1,28 +1,36 @@
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        var formEmail = $('#registration-form-email').val()
-        var splitFormEmail = formEmail.split('@')
-        var isForbiddenEmail = blacklist.includes(splitFormEmail[1])
-        console.log(isForbiddenEmail)
-        if (form.checkValidity() === false && isForbiddenEmail === true ) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        if (isForbiddenEmail) {
-          $('#registration-form-email').addClass('is-invalid-override')
-          $('.email-error').addClass('show')
-        } else {
-          $('#registration-form-email').removeClass('is-invalid-override')
-          $('.email-error').removeClass('show')
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
+let emailInput = document.getElementById('registration-form-email')
+let emailInput.addEventListener('input', updateInputValue)
+
+function addErrorClasses() {
+  emailInput.classList.add('is-invalid')
+}
+
+function remove errorClasses() {
+  emailInput.classList.remove('is-invalid')
+}
+
+function updateInputValue(e) {
+  console.log(e.target.value)
+}
+
+//Get value from email input
+
+
+//Check if domain is in blacklist
+function checkEmailFromBlacklist () {
+  let splitFormEmail = emailInput.split('@')
+  let isForbiddenEmail = blacklist.includes(splitFormEmail[1])
+  console.log(isForbiddenEmail)
+}
+
+function testValidation() {
+  console.log('tervist')
+}
+// Add error classes if domain is in blacklist
+
+
+// Remove errors if changing field
+
+
+//Prevent submitting before email is okay
+let registerSubmit = document.getElementById('register-form')
