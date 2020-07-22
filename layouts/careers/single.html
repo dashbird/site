@@ -1,0 +1,37 @@
+{{ define "main"}}
+<section class="container">
+  <div class="row text-center">
+    <div class="col-12 col-md-9 mx-auto text-center team-hero justify-content-md-center mt-block">
+      <h1 class="mt-5 roboto-mono">We're on a mission to make software better for everyone. </h1>
+      <p class='text-center mt-3 mt-md-0'></p>
+    </div>
+  </div>
+
+  <div class="row imgs-fluid mt-md-5 mb-block">
+    <div class="col-12 mx-auto">
+      <div class='row'>
+        <div class="col-md-6 mt-5">
+          {{ .Content }}
+        </div>
+        <div class='d-none d-md-block col-md-6 justify-content-center imgs-fluid'>
+          <img src='{{ .Params.featured_image }}' class='br-blue-shadow'>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col col-sm-6 text-center">
+      <!--[if lte IE 8]>
+      <script charset=“utf-8" type=“text/javascript" src=“//js.hsforms.net/forms/v2-legacy.js"></script>
+      <![endif]-->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+        portalId: "7459473",
+        formId: "64e1ae50-96e5-4dd8-86ff-8c90d426c11f"
+      });
+      </script>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,46 @@
+// General settings
+.db-bg-primary {
+  background-color: $db-primary;
+}
+
+.careers-subheading {
+  font-family: 'Reno mono';
+}
+
+// Hero
+.careers-hero {
+  background-size: cover;
+}
+
+//Partners area classes
+.careers-partners {
+  padding: $spacing 0;
+}
+
+
+// Job ads area
+.job-ad {
+  min-height: 340px;
+}
+
+// Stats area
+.stat {
+  &-nr {
+    color: $db-primary;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-family: $base-family;
+    font-weight: 700;
+  }
+  &-data {
+    text-transform: uppercase;
+    font-family: $base-family;
+  }
+}
+
+// Values area
+.careers-values {
+  h3 {
+    font-family: $base-family;
+  }
+}

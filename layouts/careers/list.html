@@ -1,0 +1,115 @@
+{{ define "main"}}
+<div class="container-fluid careers-hero">
+  <div class="row align-items-center justify-content-center block-spacing-lg">
+    <div class="col-8 text-center">
+      <h1>{{ .Params.hero_heading }}</h1>
+      <h3 class="careers-subheading">{{ .Params.hero_subheading }}</h3>
+    </div>
+  </div>
+</div>
+<div class="db-bg-primary">
+  <div class="container careers-partners">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2>You’ll be working with some of the leading organisations in the world</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center careers-partners-logos">
+      <div class="col-12 col-sm text-center">Logo 1</div>
+      <div class="col-12 col-sm text-center">Logo 2</div>
+      <div class="col-12 col-sm text-center">Logo 3</div>
+      <div class="col-12 col-sm text-center">Logo 4</div>
+    </div>
+  </div>
+</div>
+<div class="p-0">
+  <div class="container container-padding">
+    <div class="row" id="ads">
+      {{ range .Pages }}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card job-ad" style="background-image: linear-gradient(to right, white 35%, rgba(255,255,255,.25) 90%), url('{{ .Params.cardBackground }}'); background-size: cover;">
+          <div class="card-body justify-content-end d-flex flex-column">
+            <a href="{{ .Permalink }}" class="stretched-link">
+              <h3>{{ .Params.role }}</h3>
+            </a>
+            <p class="text-black">{{ .Params.location }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="">
+  <div class="container container-padding">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md mb-4 mb-md-0 stat text-center">
+        <div class="stat-nr">250</div>
+        <div class="stat-data">new ideas per sec</div>
+      </div>
+      <div class="col-12 col-md mb-4 mb-md-0 stat text-center">
+        <div class="stat-nr">1</div>
+        <div class="stat-data">brilliant idea</div>
+      </div>
+      <div class="col-12 col-md mb-4 mb-md-0 stat text-center">
+        <div class="stat-nr">54</div>
+        <div class="stat-data">is just a random number</div>
+      </div>
+    </div>
+  </div>
+  <div class="container container-padding">
+    <div class="row align-items-center">
+      <div class="col-12 col-sm-6">
+        <div class="careers-introduction-image">
+          <img src="{{ .Params.hero_image }}" class="img-fluid p-4">
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 careers-values">
+          <h3>Keep it lean</h3>
+          <p>Everything is an experiment. We test, we measure, we execute, we review and then do it all over again but better.</p>
+        
+          <h3>Ownership</h3>
+          <p>We take accountability in what we do. Both in good times and in bad.</p>
+        
+          <h3>Be a honey badger</h3>
+          <p>We always get things done, no matter what. But we also have fun along the way, no matter what.</p>
+        
+          <h3>Storm your brain</h3>
+          <p>We want to know what you think. Raise your hand (ask questions and be curious). Ask and give feedback. Everyone’s opinion counts.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container container-padding">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 mt-4">
+        <img src="https://dummyimage.com/600x400/000/fff" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mt-4">
+        <img src="https://dummyimage.com/600x400/000/fff" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mt-4">
+        <img src="https://dummyimage.com/600x400/000/fff" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-6 mt-4">
+        <img src="https://dummyimage.com/600x400/000/fff" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-6 mt-4">
+        <img src="https://dummyimage.com/600x400/000/fff" class="img-fluid">
+      </div>
+    </div>
+  </div> -->
+  
+  <div class="container container-padding">
+    <div class="row py-5">
+      <div class="col text-center">
+      <h2 class="mb-4">Join the team</h2>
+      <a class="cta-btn" href="#ads">
+        View job openings
+      </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
