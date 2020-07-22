@@ -26,8 +26,7 @@ aliases:
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 register-form">
         <div class="pt-2">
-            <button onclick="testValidation()">Teet</button>
-            <form id="register-form" name="register-form" method="post" action="https://api.dashbird.io/redirects/register">
+            <form id="register-form" name="register-form" method="post" class="needs-validation" action="https://api.dashbird.io/redirects/register" novalidate>
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
                     <span>Work Email: </label></span>
@@ -98,6 +97,7 @@ aliases:
                     <input type="submit" class="cta-btn cta-pink mx-auto w-50" id="register-btn" value="Sign up" />
                 </div>
             </form>
+            <div id="log"></div>
             <p class="text-center gray small">No credit card required</p>
         </div>
     </div>
