@@ -23,7 +23,7 @@ $('#register-form').submit(function(e) {
   console.log('hit register-form')
   event.preventDefault();
   grecaptcha.ready(function() {
-    grecaptcha.execute('6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV', {action: 'subscribe_newsletter'}).then(function(token) {
+    grecaptcha.execute('6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV', {action: 'submit'}).then(function(token) {
         console.log('Triggered execute')
     });;
 });
