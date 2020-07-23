@@ -54,10 +54,6 @@ function removeHash () {
   dispatchEvent(popStateEvent)
 }
 
-function onSubmit (token) {
-  document.getElementById('register-form').submit()
-}
-
 $(document).ready(function () {
   const openArrow = '↑'
   const closeArrow = '↓'
