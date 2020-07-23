@@ -3,7 +3,7 @@ title: "Developer Advocate (Remote)"
 date: 2020-07-23T16:11:09+03:00
 featured_image: '/images/reigo-rocky-dashbird.jpg'
 role: 'Developer Advocate (Remote)'
-location: 'Tallinn, Estonia'
+location: ''
 cardBackground: '/images/card/batman.jpg'
 ---
 ### Developer Advocate (Remote)

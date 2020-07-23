@@ -20,6 +20,15 @@
   padding: $spacing 0;
 }
 
+.partner-logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-width: 80%;
+  }
+}
+
 
 // Job ads area
 .job-ad {
