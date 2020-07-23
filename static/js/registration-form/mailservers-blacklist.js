@@ -1,4 +1,4 @@
-const blacklist = [
+const mailserversBlacklist = [
   '123mail.org',
   '150mail.com',
   '150ml.com',
