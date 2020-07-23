@@ -35,13 +35,3 @@
 function onSubmit(token) {
   document.getElementById('register-form').submit();
 }
-
-function onClick(e) {
-  e.preventDefault();
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV', {action: 'submit'}).then(function(token) {
-        console.log(token)
-        console.log('triggered click')
-    });
-  });
-}
