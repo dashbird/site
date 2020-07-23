@@ -1,6 +1,9 @@
 // General settings
 .db-bg-primary {
   background-color: $db-primary;
+  &-transparent {
+    background-color: rgba($db-primary, 0.6)
+  }
 }
 
 .careers-subheading {

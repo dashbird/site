@@ -8,6 +8,12 @@ cardBackground: '/images/card/hiker.jpg'
 ---
 
 **Hey, Front End Developer, we’ve been looking for you. This is your chance to join the super awesome Team Dashbird at our vibrant central Tallinn head offices. Read on if you’ re ready to join a fast-paced startup and accelerate your career.**
+- Tallinn, Estonia (our HQ with a view)
+- Start ASAP
+- Competitive salary
+- Regular team socials and cool off-site hackathons
+- Friendly and dynamic work environment
+
 #### You’ll spend your time:
 - Designing and building frontend systems
 - Hands on with React and Redux
