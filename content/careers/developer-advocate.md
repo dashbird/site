@@ -4,7 +4,7 @@ date: 2020-07-23T16:11:09+03:00
 featured_image: '/images/reigo-rocky-dashbird.jpg'
 role: 'Developer Advocate (Remote)'
 location: 'Tallinn, Estonia'
-cardBackground: '/images/card/starwars.jpg'
+cardBackground: '/images/card/batman.jpg'
 ---
 ### Developer Advocate (Remote)
 **Hey awesome developer with a passion for writing, testing out and reviewing cool new stuff, networking with and educating fellow devs, presenting your cool ideas and advocating for a brand in general, look no further because this is your chance to join the super cool Team Dashbird.**
