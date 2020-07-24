@@ -3,7 +3,6 @@
   <div class="row align-items-center justify-content-center block-spacing-lg">
     <div class="col-8 text-center">
       <h1>{{ .Params.hero_heading }}</h1>
-      <h3 class="careers-subheading">{{ .Params.hero_subheading }}</h3>
     </div>
   </div>
 </div>
@@ -16,10 +15,10 @@
       </div>
     </div>
     
-    <div class="row" id="ads">
+    <div class="row" id="positions">
       {{ range .Pages }}
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-        <div class="card job-ad" style="background-image: linear-gradient(to right, white 35%, rgba(255,255,255,.25) 90%), url('{{ .Params.cardBackground }}'); background-size: cover;">
+        <div class="card job-ad" style="background-image: linear-gradient(to right, rgba(175, 175, 175, .5) 35%, rgba(255,255,255,.25) 90%), url('{{ .Params.cardBackground }}'); background-size: cover;">
           <div class="card-body justify-content-end d-flex flex-column">
             <a href="{{ .Permalink }}" class="stretched-link">
               <h3>{{ .Params.role }}</h3>
@@ -33,22 +32,16 @@
   </div>
 </div>
 
-<div class="">
-  <div class="db-bg-primary-transparent">
-    <div class="container careers-partners">
-      <div class="row mb-5">
-        <div class="col text-center">
-          <h2>You’ll be working with some of the leading organisations in the world</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center careers-partners-logos">
-        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/daysmart.png" class="img-fluid"></div>
-        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/newstore.png" class="img-fluid"></div>
-        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/onfleet.png" class="img-fluid"></div>
-        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/shamrock.png" class="img-fluid"></div>
-      </div>
+<div class="container-fluid careers-hero">
+  <div class="row align-items-center justify-content-center block-spacing-lg">
+    <div class="col-8 text-center">
+      <h3 class="careers-subheading">{{ .Params.hero_subheading }}</h3>
     </div>
   </div>
+</div>
+
+<div class="">
+  
   <div class="container container-padding">
     <div class="row align-items-center">
       <div class="col-12 col-sm-6">
@@ -68,6 +61,21 @@
         
           <h3>Storm your brain</h3>
           <p>We want to know what you think. Raise your hand (ask questions and be curious). Ask and give feedback. Everyone’s opinion counts.</p>
+      </div>
+    </div>
+  </div>
+  <div class="db-bg-primary-transparent">
+    <div class="container careers-partners">
+      <div class="row mb-5">
+        <div class="col text-center">
+          <h2>You’ll be working with some of the leading organisations in the world</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center careers-partners-logos">
+        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/daysmart.png" class="img-fluid"></div>
+        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/newstore.png" class="img-fluid"></div>
+        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/onfleet.png" class="img-fluid"></div>
+        <div class="col-12 col-sm text-center partner-logo-img"><img src="/images/partners/shamrock.png" class="img-fluid"></div>
       </div>
     </div>
   </div>
@@ -95,7 +103,7 @@
     <div class="row py-5">
       <div class="col text-center">
       <h2 class="mb-4">Join the team</h2>
-      <a class="cta-btn" href="#ads">
+      <a class="cta-btn" href="#positions">
         View job openings
       </a>
       </div>
