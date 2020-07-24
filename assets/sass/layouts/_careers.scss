@@ -8,13 +8,14 @@
 
 .careers-subheading {
   font-family: 'Reno mono';
-  font-size: 1.5rem;
-  color: darken(white, 20%);
 }
 
 // Hero
 .careers-hero {
   background-size: cover;
+  h1 {
+    margin-bottom: 0;
+  }
 }
 
 //Partners area classes
