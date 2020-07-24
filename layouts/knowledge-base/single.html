@@ -108,7 +108,12 @@
             </div>
             <input type="text" name='companyName' class='form-control mt-2' placeholder="Company" required>
             <input type="password" name='password' class='form-control mt-2' placeholder="Password" required>
-            <button class="btn btn-primary mt-3" style='width: 100%;'>Create Free Account</button><br>
+            <button 
+              class="btn btn-primary mt-3 g-recaptcha"
+              style='width: 100%;'
+              data-sitekey="6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV"
+              data-callback="onSubmit"
+              data-action="submit">Create Free Account</button><br>
           </form>
 
         </div>
