@@ -1,10 +1,11 @@
 ---
 title: Serverless Case Study - Coca-Cola
 description: See how Coca-Cola North America has made use of the serverless framework
-date: 2018-07-04T12:00:00.000Z
+date: 2020-07-16T12:00:00.000Z
 frontImage: "2018-07-04/pexels-photo-844875.jpeg"
 thumbnail: "images/blog/2018-07-04/pexels-photo-844875.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
+canonical: https://dashbird.io/blog/serverless-case-study-coca-cola/
 author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["Serverless", "Other"]
@@ -46,7 +47,7 @@ Ater moving to a serverless framework, adding up the costs for all the features 
 </br><br>
 <center><h4><i>Coca-cola went from $13000 per year to $4.500 per year after switching to serverless</i></h4></center>
 <br><br>
-![Coca-Cola Serverless case study](/images/blog/2018-07-04/coca-cola-serverless.jpg)
+![Coca-Cola Serverless case study](/images/blog/2018-07-04/coca-cola-serverless-new.jpg)
 
 <h2>So how does it actually work</h2>
 
@@ -65,3 +66,6 @@ Right now they are forced into using both the EC2 instances and the newly develo
 With Serverless this will never happen. Imagine for a second ten or twenty years from now when they'll switch a different system(not sure they'll ever do that but for the sake of the argument let's imagine a scenario like that). As the serverless vending machine die off the cost will decrease to the point where if they have less than 1 million requests per month they will get their cost down by 99%. 
 
 I personally look forward to hearing more from Coca-Cola and how they implemented serverless within their organization. And while I'd love to keep writing this article but I have to run down to the store because, for some reason I have this unexplainable urge to drink a crisp cold bottle of Coke.
+___
+
+_Editor's note: This blog has been refreshed and updated for accuracy in July 2020. Originally published in July 2018_
