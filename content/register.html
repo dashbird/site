@@ -13,8 +13,6 @@ aliases:
   sig.forEach(function (el) {
     el.classList.add('active')
   })
-
-    // .classList
 </script>
 
 <section class="container-fluid dark-bg pt-5 pb-5">
@@ -26,7 +24,14 @@ aliases:
     <div class="row justify-content-md-center align-items-center">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12 register-form">
         <div class="pt-2">
-            <form id="register-form" name="register-form" method="post" class="needs-validation" action="https://api.dashbird.io/redirects/register" novalidate>
+            <form 
+              id="register-form" 
+              name="register-form" 
+              method="post" 
+              class="needs-validation" 
+              action="https://api.dashbird.io/redirects/register" 
+              novalidate
+            >
                 <div class="row align-items-center mb-15px">
                   <div class='col-md-3 text-center'>
                     <span>Work Email: </label></span>
@@ -94,15 +99,17 @@ aliases:
                     
                 </div>
                 <div class="input-group flex-column mt-40px"> 
-                    <input
-                      type="submit"
-                      class="cta-btn cta-pink mx-auto w-50 g-recaptcha"
-                      id="register-btn"
-                      value="Sign up"
-                      data-sitekey="6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV"
-                      data-callback="onSubmit"
-                      data-action="submit"
-                      />
+                  <div id="g-recaptcha-error"></div>
+                  <button 
+                    type="submit" 
+                    class="cta-btn cta-pink mx-auto w-50 g-recaptcha"
+                    id="register-btn"
+                    data-sitekey="6LfJ_LIZAAAAAD-3eadaF9hzHlHIp-btwtSi85bV" 
+                    data-callback='onSubmit' 
+                    data-action='submit'
+                  >
+                    Sign up
+                      </button>
                 </div>
             </form>
             <div id="log"></div>
@@ -117,5 +124,3 @@ aliases:
     content_ids: 'register',
   });
 </script>
-<script src="/js/registration-form/mailservers-blacklist.js"></script>
-<script src="/js/registration-form/registration-form-validate.js"></script>
