@@ -1,7 +1,3 @@
-/*reCaptcha*/
-function onSubmit(token) {
-  document.getElementById('register-form').submit();
-}
 
 /* eslint-env jquery */
 
