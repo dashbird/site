@@ -43,4 +43,4 @@ Instead of sending requests directly from _API Endpoint 1_ to the _Lambda functi
 
 With this modification, the potential for widespread failure is minimized by having a queue absorbing peaks in demand. SQS standard queues can handle nearly unlimited throughput. At the same time, all components serving _Endpoint 2_ can continue to work normally, since data consumption by the _Lambda function 1_ is smoothed out.
 
-This is a simplified example, there are several aspects to consider in terms of potential failure points and architectural improvements. We are hosting a webinar to cover these topics in much more depth. If this is something that interests you, [reserve your spot here for free](https://zoom.us/webinar/register/8015867838556/WN_GsUbkv7pQdqL9Og6f9IlVA).
+This is a simplified example, there are several aspects to consider in terms of potential failure points and architectural improvements. We are hosted a webinar to cover these topics in much more depth. You can rewatch it [here](https://youtu.be/Bcq98zi40-s) to find out more.
