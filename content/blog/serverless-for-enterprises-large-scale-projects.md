@@ -1,5 +1,5 @@
 ---
-title: Serverless for Enterprises: Scale big or go home
+title: "Serverless for Enterprises: Scale big or go home"
 description: Migrating to serverless might sound daunting to enterprises with an already huge infrastructure. In this article, you'll find some best practices and insights on the serverless designs that can scale massively and represent enterprise models. 
 date: 2020-07-28T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/serverless-for-enterprises.png"
