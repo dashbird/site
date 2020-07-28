@@ -19,7 +19,7 @@ As AWS says, the most important foundation to keep in mind is that no matter the
 
 While [monolith designs can still suit some functionalities](https://dashbird.io/knowledge-base/well-architected/monolith-vs-microservices/), with a business and application that is going serverless, moving away from this traditional style will save a huge amount of time. By grouping common functionalities together into smaller services and creating separate code repositories and microservices, the evolution of an application including new features will be more straightforward. This design also reduces security risks, deployment issues and bugs that can cross-contaminate.
 
-So, what's the best way to group these?
+So, what is the best way to group these?
 
 Often, the best way to consider this is through the functions and resources that define a microservice. The design itself is also important; we don't want to build a large repository that'll end up as a monolith, however too many of them will mean duplicate code and difficulties in sharing resources. The aim here is to have one single piece of functionality that does that one thing very well.
 
