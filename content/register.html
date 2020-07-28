@@ -97,14 +97,14 @@ aliases:
                 </div>
                 <div class="input-group flex-column mt-40px"> 
                   <div id="g-recaptcha-error"></div>
-                  <input type="hidden" id="gRecaptchaResponse" name="gRecaptchaResponse">
+                  <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                   <button
                   type="submit"
                   class="cta-btn cta-pink mx-auto w-50 g-recaptcha"
                   id="register-btn"
                   class="g-recaptcha" 
                   data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" 
-                  data-callback='checkFormInputs' 
+                  data-callback='submitRegistrationForm' 
                   data-action='submit'
                   >Sign up</button>
                 </div>
