@@ -1,14 +1,13 @@
 ---
 title: Complete Guide to Lambda Triggers and Design Patterns (Part 2)
 description: Part 2 of the Complete Guide to Lambda Triggers and Design Patterns - Orchestration & Aggregation. In this series we will be digging deeper into the correlation of Lambda integration possibilities with common serverless architectural patterns.
-date: 2020-07-23T00:00:00.000Z
-frontImage: "2020-07-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
-thumbnail: "images/blog/2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns.png"
+date: 2020-07-24T00:00:00.000Z
+frontImage: "2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns-part-2.png" 
+thumbnail: "images/blog/2020-05-vacation-buffer/complete-guide-to-lambda-triggers-design-patterns-part-2.png"
 canonical: https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-2
 author: "Renato Byrro"
 author_image: "/images/team/renato.jpg"
 blog: ["Serverless", "Tutorial", "Well-Architected", "AWS Lambda"]
-draft: true
 ---
 
 This is part of a series of articles discussing strategies to implement serverless architectural design patterns. We continue to follow this [literature review](https://drive.google.com/file/d/1yji7M877yDIgIvqAJ8EhdjrgV1_5oSUr/view). Although we use AWS serverless services to illustrate concepts, they can be applied in different cloud providers.

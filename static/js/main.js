@@ -1,3 +1,8 @@
+/*reCaptcha*/
+function onSubmit(token) {
+  document.getElementById('register-form').submit();
+}
+
 /* eslint-env jquery */
 
 $('.card-title').on('click', function () {
@@ -52,10 +57,6 @@ function removeHash () {
   var popStateEvent = new PopStateEvent('popstate', { state: state })
   history.pushState(state, document.title, window.location.pathname + window.location.search)
   dispatchEvent(popStateEvent)
-}
-
-function onSubmit (token) {
-  document.getElementById('register-form').submit()
 }
 
 $(document).ready(function () {

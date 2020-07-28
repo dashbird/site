@@ -1,15 +1,35 @@
-$primary-color: white;
-$accent-color: #4B45C6;
-$blue-accent: rgba(74, 69, 198, 0.44);
-$blue-accent-light: rgba(74, 69, 198, 0.16);
-$blue-accent-lightest: rgba(74, 69, 198, 0.2);
+
+@import 'variables';
 @import 'typography';
 @import 'menu';
 @import 'landing-page';
 @import 'footer';
+@import 'layouts';
+@import 'modules';
 
 .row.full-height {
   min-height: 97vh;
+}
+
+.block-spacing {
+  padding-top: $spacing;
+  padding-bottom: $spacing;
+  &-lg {
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+  }
+  &-xl {
+    padding-top: $spacing-xl;
+    padding-bottom: $spacing-xl;
+  }
+}
+
+.container-padding {
+  padding: $container-padding 15px;
+}
+
+.text-black {
+  color: black;
 }
 
 body {
@@ -174,6 +194,10 @@ body {
   background-position: center;
   width: 100%;
   height: 200px;
+}
+
+.large-border-bottom {
+  border-bottom: 15px solid #8b8fe9;
 }
 
 .btn-link {
