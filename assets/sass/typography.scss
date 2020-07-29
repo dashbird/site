@@ -165,9 +165,6 @@ span.check-white {
   }
   &.blue-empty-btn {
     @include blue-empty-button-state;
-    &:hover {
-      @include blue-button-state;
-    }
   }
   &.white-empty-btn {
     @include white-empty-button-state;
