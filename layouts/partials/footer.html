@@ -7,6 +7,11 @@
           <div class="col-auto col-md-4">
             <a class='a-block' href="{{ .Permalink }}">
             <div class='col-12 blog-item d-flex justify-content-end align-items-end pb-3' style='height: 200px; background-image: url(/images/blog/{{.Params.frontImage}})'>
+              <div class='text-right text-md-left'>
+              {{ range $categ :=  .Params.blog }}
+                <span class='blog-tag-item'>{{ $categ }}</span>
+              {{ end }}
+              </div>
             </div>
             <div class='col-12 p-0 pt-3'>
               <h6 class='blog-item-header text-wrap text-white'>{{ .Title }}</h6>
