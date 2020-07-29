@@ -13,7 +13,7 @@
     home: ['HTML', 'RSS']
   menu:
     main:
-      - name: 'Features'
+      - name: 'Product'
         identifier: 'features'
         URL: '/features/'
         weight: 100
@@ -21,7 +21,7 @@
         identifier: 'pricing'
         URL: '/pricing/'
         weight: 300
-      - name: 'Blog'
+      - name: 'Resources'
         identifier: 'blog'
         URL: '/blog/'
         weight: 400
