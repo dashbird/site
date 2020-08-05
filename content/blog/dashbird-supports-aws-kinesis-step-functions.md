@@ -26,6 +26,6 @@ The platform will automatically generate alerts when a Kinesis Stream is experie
 
 Since its inception, Dashbird has committed to providing full visibility for developers over their serverless stacks. This is another step towards this goal, moved by our vision for well-architected and reliable serverless systems.
 
-Step Functions is a powerful orchestration tool for developers to handle the implementation of complex workflows. Kinesis is a key service for large-scale, data-intensive applications. We are thrilled with the addition of these two great services in our Serverless Insights engine.\
+Step Functions is a powerful orchestration tool for developers to handle the implementation of complex workflows. Kinesis is a key service for large-scale, data-intensive applications. We are thrilled with the addition of these two great services in our Serverless Insights engine.
 
 We digress, try out the new services yourself and start receiving architectural and security insights and alerts tailored to your cloud stack, [subscribe to a free account on Dashbird](https://dashbird.io/register/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=insights&utm_content=kinesis-stepfunctions). It only takes 3 minutes, no code changes and no credit card required.
