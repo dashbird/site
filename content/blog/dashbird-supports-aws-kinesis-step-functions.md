@@ -10,7 +10,7 @@ author_image: "/images/team/mari.png"
 blog: ["serverless", "aws", "aws-lambda"]
 ---
 
-August 2020 marks 3 years of Dashbird and empowering serverless DevOps teams to fully understand their complex serverless infrastructures by enabling them to get full observability and insights into its performance.
+We’re very proud to say August 2020 marks three years of Dashbird empowering Serverless DevOps teams to regain control over their distributed application through full observability, actionable insights and instant monitoring alerts. 
 
 This birthday month, we have plenty of surprises, giveaways, and goodies in our sleeve over the next few weeks, so [sign up for our newsletter](https://sls.dashbird.io/newsletter-sign-up) to be the first one to know.
 
