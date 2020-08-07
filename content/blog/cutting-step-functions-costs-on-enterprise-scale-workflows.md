@@ -4,10 +4,10 @@ description: AWS Step Functions is a great orchestration service, but can be qui
 date: 2020-08-06T00:00:00.000Z
 frontImage: "1mariliis/cutting-step-functions-costs-on-enterprise-scale-workflows-header.png"
 thumbnail: "images/blog/1mariliis/cutting-step-functions-costs-on-enterprise-scale-workflows-header.png"
+canonical: https://dashbird.io/blog/cutting-step-functions-costs-on-enterprise-scale-workflows
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 blog: ["Step Functions", "EventBridge", "DynamoDB", "Orchestration"]
-draft: true
 ---
 
 AWS Step Functions is a great service for orchestrating multi-step workflows with complex logic. It’s fast to implement, relatively easy to use and just works. The problem is its price.
@@ -80,5 +80,5 @@ Unfortunately, Lambda Destinations does not support delivering responses to Dyna
 
 We’ve covered in a high-level two possible alternative architectures to using Step Functions for large-scale, enterprise-level workflows. Both are 100% serverless and take advantage of event-driven and asynchronous communication to improve resource utilization, reduce waste and overall costs in comparison to Step Functions. We also propose using some of the latest features offered by AWS on other services, such as EventBridge Schema Registry and Lambda Destinations.
 
-As we mentioned earlier, in case you’d like to receive code examples as well as [CloudFormation](https://aws.amazon.com/cloudformation/) and [CDK](https://dashbird.io/blog/crash-course-aws-cdk-serverless-rest-api-data-lake-analytical-querying/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=enterprise&utm_content=step-functions-alternatives) templates for implementing these architectural ideas, sign up here.
+As we mentioned earlier, in case you’d like to receive code examples as well as [CloudFormation](https://aws.amazon.com/cloudformation/) and [CDK](https://dashbird.io/blog/crash-course-aws-cdk-serverless-rest-api-data-lake-analytical-querying/?utm_source=dashbird-blog&utm_medium=article&utm_campaign=enterprise&utm_content=step-functions-alternatives) templates for implementing these architectural ideas, [sign up to our newsletter](https://sls.dashbird.io/newsletter-sign-up).
 
