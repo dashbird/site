@@ -8,6 +8,7 @@ authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
 blog: ["step-functions", "Lambda"]
+draft: true
 ---
 
 We are going to talk about an essential part of AWS Lambda called “AWS Step Functions.” What are Step Functions? Why are they important for AWS Lambda users? What are they used for, and what can we expect to get by using them? Bare with us, and discover more critical information on Step Functions throughout this article.

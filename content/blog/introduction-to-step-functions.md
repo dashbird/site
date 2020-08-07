@@ -4,24 +4,25 @@ description: A quick overview of what Step functions are and a few examples.
 date: 2019-10-26T12:00:00.000Z
 frontImage: "2019-06-03/aron-visuals-322314-unsplash.jpg"
 thumbnail: "images/blog/2019-06-03/aron-visuals-322314-unsplash.jpg"
+canonical: https://dashbird.io/blog/introduction-to-step-functions/
 authorlink: 'https://medium.com/@byrro'
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 featpop: most-popular
-blog: ["AWS", "Serverless", ]
+blog: ["AWS", "Serverless"]
 ---
 
 Let's cut to the point and not lose your scarse time.
 
-# Quick (I promise) intro
+## Quick (I promise) intro
 
-[Step Functions](https://aws.amazon.com/step-functions/) is a managed service by AWS that implements the Finite State Machine (FSM) model.
+[Step Functions](https://aws.amazon.com/step-functions/) is a managed service by AWS that implements the Finite-state Machine (FSM) model.
 
 You coordinate multiple AWS services into serverless workflows so you can build and update apps quickly. Using Step Functions, you can design and run workflows that stitch together services such as AWS Lambda and Amazon ECS into feature-rich applications.
 
-A FSM, according to [Wikip](https://en.wikipedia.org/wiki/Finite-state_machine) is "a finite-state machine (FSM) or finite-state automaton (FSA, plural: automata), finite automaton, or simply a state machine, is a mathematical model of computation. It is an abstract machine that can be in exactly one of a finite number of states at any given time."
+You can read [Wikipedia's](https://en.wikipedia.org/wiki/Finite-state_machine) definition of a Finite-state Machine, but I think you'll like the next section more. Keep on reading.
 
-### By example, we learn 
+## By example, we learn 
 
 Have you noticed that intersection traffic lights never turn green simultaneously for crossing directions? Not even once in a Million times?
 
@@ -31,11 +32,11 @@ It never bugs down! How come?
 
 > Thank FSM Gods next time you drive through it safely. 
 
-The FSM model ensures that, when a traffic light is about to go green for one direction, all the others turned red before. :traffic_light:
+The FSM model ensures that, when a traffic light is about to go green for one direction, all the others turned red before.
 
 It does that by managing `states` and `transitions`. Mark those two words. They're **pivotal**.
 
-Right, let's clarify. :bulb:
+Right, let's clarify.
 
 For one light to `transition` into the green `state`, all other lights must have `transitioned` to the red `state` before. Simple, right?
 
@@ -60,7 +61,7 @@ FSM is a mature and proven model that can be trusted. Implementing correctly isn
 
 ---
 
-# FSM implementations
+## FSM implementations
 
 As a mature, battle-tested model, there are implementations in many programming languages, such as [Python](https://github.com/pytransitions/transitions), [Javascript](https://www.npmjs.com/package/xstate), [Java](https://sourceforge.net/projects/java-easyfsm/), etc.
 
@@ -72,7 +73,7 @@ Wouldn't there be a way to use FSM without having to implement anything programm
 
 YES! Enters AWS Step Functions.
 
-# Step Functions: a managed FSM service
+## Step Functions: a managed FSM service
 
 <img src="https://usercontent2.hubstatic.com/14703367_f520.jpg">
 
@@ -82,9 +83,9 @@ Following FSM concepts, AWS Step Functions also has [states](https://docs.aws.am
 
 ---
 
-# Let's skip straight to the point.
+## Straight to the point
 
-We'll staret with some [examples](https://docs.aws.amazon.com/step-functions/latest/dg/create-sample-projects.html) and go from there.
+We'll start with some [examples](https://docs.aws.amazon.com/step-functions/latest/dg/create-sample-projects.html) and go from there.
 
 Consider a huge number of entries in a database. They all need to move to another storage location.
 
@@ -117,7 +118,7 @@ In the AWS example, this `Task` is accomplished by a [Lambda function](https://d
 
 ---
 
-# Advantages of Step Functions
+## Advantages of Step Functions
 
 ### Auto-retry failures
 
@@ -142,7 +143,7 @@ _Adapted from: [elprocus.com](https://www.elprocus.com/finite-state-machine-meal
 
 As we discussed previously, we can avoid the hassle of implementing an FSM library in our own environment.
 
-AWS will manage everything. Make sure servers are provisioned to run our state machines. Scale the infrastructure when needed. Up and down. Horizontally. In the fourth dimension. Kidding. :smile: :blush:
+AWS will manage everything. Make sure servers are provisioned to run our state machines. Scale the infrastructure when needed. Up and down. Horizontally. In the fourth dimension. Kidding.
 
 No, but really, scalability is difficult to get done right, this is a big plus.
 
@@ -150,7 +151,23 @@ No, but really, scalability is difficult to get done right, this is a big plus.
 
 Step Functions will seamlessly integrate with [various other AWS services](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-service-integrations.html).
 
-If AWS is your cloud partner, you may be able to immediately start coordinating your current resources in an FSM fashion. Just like that. :zap:
+It's possible to connect your Step Functions workflow with other AWS services or even other workflows. That's right, you can compose workflows to create higher-level processes. Here are some examples of what you can do:
+
+* Invoke a Lambda function
+* Run Amazon Fargate task or Amazon ECS
+* Submit an AWS batch job
+* Publish a message to an SNS Topic
+* Interact with SageMaker machine learning model training, inference and classification
+* Send a message to an SQS queue
+* Put or get items from a DynamoDB table
+
+## Monitoring & Debugging
+
+You must be asking: ok, this all too good, but how do I monitor my workflows, make sure they're running as expected or debug issues?
+
+Step Functions publishes events and metrics to [CloudTrail](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cloud-trail.html) and [CloudWatch](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cw-metrics.html), and is also monitored by [the Serverless Insights platform](https://dashbird.io/blog/dashbird-supports-aws-kinesis-step-functions/) which contributes to better architectural practices.
+
+In these services, you can set alarms and monitor the health of workflows throught various indicators. The underlying services orchestrated by Step Functions (e.g. Lambda functions) can be [monitored normally by any appropriate solution](https://dashbird.io/blog/ultimate-guide-to-serverless-monitoring-platforms/).
 
 ---
 
@@ -162,7 +179,7 @@ Therefore, stay tuned. We're preparing a hands-on, _techy_ article showing how t
 
 Leave your [contact here](https://dashbird.io/?utm_source=dev.to&utm_medium=referral&utm_campaign=article&utm_content=educational#mc-embedded-subscribe-form) (bottom-right corner) to get notified when we do.
 
---- 
+---
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are step functions?","acceptedAnswer":{"@type":"Answer","text":"Step Functions is a managed service by AWS that implements the Finite State Machine (FSM) model."}},{"@type":"Question","name":"What is a Finite State Machine model?","acceptedAnswer":{"@type":"Answer","text":"A Finite State Machine, or FSM, is a computation model that can be used to simulate sequential logic, or, in other words, to represent and control execution flow."}},{"@type":"Question","name":"Advantages of step functions","acceptedAnswer":{"@type":"Answer","text":"Serverless: We do not have to manage the running of the source code. AWS step functions provides the infrastructure for it.\nVisual nature: The state machine can be seen and is easy to understand. This is a big plus months later.\nNative constructs: Some useful native constructs like re-try logic with exponential back-off.\nParallelization: You can parallelize the work declaratively. Procedural code is not hard to parallelize with threads, but it can be harder to debug later visually."}}]}</script>
 
