@@ -12,9 +12,7 @@ featpop: most-popular
 blog: ["AWS", "Serverless", "Step Functions", "Orchestration"]
 ---
 
-Let's cut to the point and not lose your scarse time.
-
-## Quick (I promise) intro
+## Quick intro
 
 [Step Functions](https://aws.amazon.com/step-functions/) is a managed service by AWS that implements the Finite-state Machine (FSM) model.
 
@@ -59,7 +57,6 @@ FSM will also manage the transition to delivering the snack after payment, and a
 
 FSM is a mature and proven model that can be trusted. Implementing correctly isn't hard. When done right, rest assured it is going to fulfill its promises.
 
----
 
 ## FSM implementations
 
@@ -81,7 +78,6 @@ Following FSM concepts, AWS Step Functions also has [states](https://docs.aws.am
 
 [Tasks](https://docs.aws.amazon.com/step-functions/latest/dg/amazon-states-language-task-state.html) are also part of the package, but more on that later.
 
----
 
 ## Straight to the point
 
@@ -116,7 +112,6 @@ In our example, when a DB entry comes from the loop, it gotta go to the new stor
 
 In the AWS example, this `Task` is accomplished by a [Lambda function](https://dashbird.io/blog/what-is-a-lambda-function/?utm_source=dev.to&utm_medium=referral&utm_campaign=article&utm_content=educational).
 
----
 
 ## Advantages of Step Functions
 
@@ -165,19 +160,7 @@ It's possible to connect your Step Functions workflow with other AWS services or
 
 You must be asking: ok, this all too good, but how do I monitor my workflows, make sure they're running as expected or debug issues?
 
-Step Functions publishes events and metrics to [CloudTrail](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cloud-trail.html) and [CloudWatch](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cw-metrics.html), and is also monitored by [the Serverless Insights platform](https://dashbird.io/blog/dashbird-supports-aws-kinesis-step-functions/) which contributes to better architectural practices.
-
-In these services, you can set alarms and monitor the health of workflows throught various indicators. The underlying services orchestrated by Step Functions (e.g. Lambda functions) can be [monitored normally by any appropriate solution](https://dashbird.io/blog/ultimate-guide-to-serverless-monitoring-platforms/).
-
----
-
-# Stay tunned
-
-I won't even ask. You're smart enough to see the value.
-
-Therefore, stay tuned. We're preparing a hands-on, _techy_ article showing how to actually put all of these concepts in practice, for real-world use cases.
-
-Leave your [contact here](https://dashbird.io/?utm_source=dev.to&utm_medium=referral&utm_campaign=article&utm_content=educational#mc-embedded-subscribe-form) (bottom-right corner) to get notified when we do.
+Step Functions publishes events and metrics to [CloudTrail](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cloud-trail.html) and [CloudWatch](https://docs.aws.amazon.com/step-functions/latest/dg/procedure-cw-metrics.html), and is also monitored by [Dashbird's Serverless Insights platform](https://dashbird.io/blog/dashbird-supports-aws-kinesis-step-functions/) which contributes to better architectural practices. With Dashbird you can set alarms and monitor the health of workflows throught various indicators.  
 
 ---
 
