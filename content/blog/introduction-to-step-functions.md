@@ -1,7 +1,7 @@
 ---
-title: A simple introduction to Step Functions
-description: A quick overview of what Step functions are and a few examples.
-date: 2019-10-26T12:00:00.000Z
+title: A Simple Introduction to AWS Step Functions
+description: A quick overview illustrated with examples of what Step functions is and how it works
+date: 2020-08-07T12:00:00.000Z
 frontImage: "2019-06-03/aron-visuals-322314-unsplash.jpg"
 thumbnail: "images/blog/2019-06-03/aron-visuals-322314-unsplash.jpg"
 canonical: https://dashbird.io/blog/introduction-to-step-functions/
@@ -9,7 +9,7 @@ authorlink: 'https://medium.com/@byrro'
 author: Renato Byrro
 author_image: '/images/team/renato.jpg'
 featpop: most-popular
-blog: ["AWS", "Serverless"]
+blog: ["AWS", "Serverless", "Step Functions", "Orchestration"]
 ---
 
 Let's cut to the point and not lose your scarse time.
