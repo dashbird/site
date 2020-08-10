@@ -18,6 +18,7 @@ blog: ["business"]
 
 </div>
 
+
 Today's interview is with Marek Tihkan, CTO at Dashbird talking all about Dev team leadership and management.
 
 _Hey Marek, so can you tell us how long you've been at Dashbird and where you were before?_
