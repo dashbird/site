@@ -36,7 +36,11 @@ Let us take you through this beast of a powerful real-time observability tool no
 
 Dashbird Atlas visualizes individual components of your serverless environment and the connections and dependencies between them, entirely in real-time! All of your existing resources and their states are displayed in their live state in this 3D map.
 
-INSERT VIDEO 1 - CONNECTION JUICE FLOWING
+
+<video width="100%" height="auto" controls style="width: 100%; max-height: 100%; height: auto;">
+    <source src="/videos/blog/2020-08-10/introducing-atlas-video-juice.mp4" type="video/mp4">
+    Your browser does not support the HTML video tag.
+</video>
 
 
 >Did you know...humans process images and visual data 60,000 times faster than words?*
@@ -60,7 +64,11 @@ Blue boxes indicate informational (non-critical) messages about your resources c
 
 Zoom into each box to see what resources it consists of, or to see your Lambda memory usage fill up in real-time.
 
-INSERT VIDEO 2 - LAMBDA MEMORY FILL VIDEO
+
+<video width="100%" height="auto" controls style="width: 100%; max-height: 100%; height: auto;">
+    <source src="/videos/blog/2020-08-10/introducing-atlas-video-memory-fill-up.mp4" type="video/mp4">
+    Your browser does not support the HTML video tag.
+</video>
 
 
 Go ahead and give it a try yourself on [Dashbird app](https://bit.ly/2Pr5tQy) now!
