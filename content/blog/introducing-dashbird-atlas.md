@@ -11,9 +11,14 @@ blog: ["serverless", "debugging"]
 draft: true
 ---
 
-_Introducing Dashbird Atlas: Real-time 3D map view of your entire serverless environment_
+<div class="text-justify">
+    <div style="float: left; max-width: 160px; margin: 10px 20px 10px 0px;">
+        <img style="border-radius: 50%; max-width: 170px;" src="/images/team/taavi1.jpg" alt="Marek (CTO)">
+    </div>
+    <p>_Introducing Dashbird Atlas: Real-time 3D map view of your entire serverless environment_</p>
 
-We're pleased and honored to be part of the Serverless revolution - continuously innovating to make processes and day-to-day tasks for serverless users more efficient, seamless and enjoyable.
+    <p>We're pleased and honored to be part of the Serverless revolution - continuously innovating to make processes and day-to-day tasks for serverless users more efficient, seamless and enjoyable.</p>
+</div>
 
 
 So let's get right into the new and exciting stuff now! Earlier this year, Dashbird [launched the very well-received Insights Engine](https://bit.ly/2PtXbaz) designed to encourage a proactive approach when building and operating serverless applications. It works by cross-referencing your cloud resources, such as functions, queues, databases, against well-architected industry practices to detect potential issues and security concerns before they impact your application health.
