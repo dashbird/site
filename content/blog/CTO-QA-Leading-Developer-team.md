@@ -3,7 +3,7 @@ title: "Q&A with Marek Tihkan, CTO at Dashbird: Leading and managing a Developer
 description: We sat down with our CTO, Marek Tihkan, to have a chat about managing a team of developers to product development and lessons learned and, of course, serverless.
 date: 2020-08-10T00:00:00.000Z
 frontImage: "1mariliis/qanda-with-marek.png"
-thumbnail: "1mariliis/qanda-with-marek.png"
+thumbnail: "images/blog/1mariliis/qanda-with-marek.png"
 canonical: https://dashbird.io/blog/CTO-QA-Leading-Developer-team/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
