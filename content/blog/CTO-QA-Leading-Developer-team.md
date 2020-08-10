@@ -94,4 +94,4 @@ _Sounds exciting, and finally, how would you sum up the past year in one sentenc
 M: Plenty of growth and preparation leading to successful execution.
 
 
-[Get your free account with Dashbird](https://dashbird.io/#register) to check out the new features Marek and the team have been working on yourself. (Psst, we're announcing another awesome powerful feature this week, so get your foot in the door now to be the first one to try it out.)
+_[Get your free account with Dashbird](https://dashbird.io/#register) to check out the new features Marek and the team have been working on yourself. (Psst, we're announcing another awesome powerful feature this week, so get your foot in the door now to be the first one to try it out.)_
