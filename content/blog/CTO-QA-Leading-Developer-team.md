@@ -4,7 +4,7 @@ description: We sat down with our CTO, Marek Tihkan, to talk all things CTO: fro
 date: 2020-08-10T00:00:00.000Z
 frontImage: "1mariliis/qanda-with-marek.png"
 thumbnail: "1mariliis/qanda-with-marek.png"
-canonical: https://dashbird.io/blog/5-core-aws-serverless-tools-starterkit/
+canonical: https://dashbird.io/blog/CTO-QA-Leading-Developer-team/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
 blog: ["business"]
