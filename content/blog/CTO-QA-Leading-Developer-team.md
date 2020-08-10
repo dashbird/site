@@ -8,13 +8,16 @@ canonical: https://dashbird.io/blog/5-core-aws-serverless-tools-starterkit/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
 blog: ["business"]
-draft: true
 ---
 
-As we enter into our 4th year, we've decided to get up close and personal with our team to share with you their passion, drivers, lessons learned and significant moments of the past year. We're a young company dedicated to adding value in all corners that we reach, so we hope you find the upcoming series useful!
+<div class="text-justify">
+    <div style="float: left; max-width: 180px; margin: 10px 20px 10px 0px;">
+        <img style="border-radius: 50%; max-width: 170px;" src="/images/team/marek1.png" alt="Marek (CTO)">
+    </div>
+    As we enter into our 4th year, we've decided to get up close and personal with our team to share with you their passion, drivers, lessons learned and significant moments of the past year. We're a young company dedicated to adding value in all corners that we reach, so we hope you find the upcoming series useful!
 
-Today's interview is with Marek Tihkan, CTO at Dashbird talking all about DevOps team leadership and management.
-
+    Today's interview is with Marek Tihkan, CTO at Dashbird talking all about DevOps team leadership and management.
+</div>
 
 _Hey Marek, so can you tell us how long you've been at Dashbird and where you were before?_
 
