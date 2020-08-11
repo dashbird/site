@@ -5,10 +5,9 @@ date: 2020-08-11T00:00:00.000Z
 frontImage: "1mariliis/dashbird-turns-3.png"
 thumbnail: "1mariliis/dashbird-turns-3.png"
 canonical: https://dashbird.io/blog/Dashbird-turns-three-reflecting-on-year/
-author: "Mariliis Retter"
-author_image: "/images/team/mari.png"
+author: "Taavi Rehemägi"
+author_image: "/images/team/taavi.jpg"
 blog: ["business"]
-draft: true
 ---
 
 Another year of empowering DevOps teams has passed and what a year it's been! I'd like to take a moment to reflect on the journey, the milestones and challenges this past year encompassed.
@@ -16,7 +15,7 @@ Another year of empowering DevOps teams has passed and what a year it's been! I'
 The last year has been our most transformational to date. We've had a huge amount of ups and downs and I'm incredibly proud to say that we got through it and our organization is more resilient, more aligned in our vision and closer as a result.
 
 
-In April, we[ launched Dashbird 2.0](https://dashbird.io/blog/serveless-monitoring-startup-raises-2-million/), which was the biggest achievement of the year. Starting three years ago initially with a single vision for Lambda support, we've evolved towards an holistic approach for managed cloud services enabling deeper and wider support for more AWS services.
+In April, we [launched Dashbird 2.0](https://dashbird.io/blog/serveless-monitoring-startup-raises-2-million/), which was the biggest achievement of the year. Starting three years ago initially with a single vision for Lambda support, we've evolved towards an holistic approach for managed cloud services enabling deeper and wider support for more AWS services.
 
 
 Our learnings showed that no matter the organization size or industry, a similar pattern emerges when it comes to the challenges and needs within the serverless universe. Using this knowledge, we've actively shifted away from a dedicated focus on low-level information gathering to a centralized platform taking advantage of and enabling automation, actionable insights and alerting. This means we are able to support a greater surface area in terms of customer base and AWS services. The use of alerting is key to successful monitoring and with our new data, we're able to double down and dig deeper into the areas in greater need of support.
