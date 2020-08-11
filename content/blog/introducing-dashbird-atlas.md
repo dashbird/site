@@ -2,8 +2,8 @@
 title: "Introducing, Dashbird Atlas"
 description: Dashbird Atlas, real-time 3D map view of your entire serverless environment, is finally here.
 date: 2020-08-11T00:00:00.000Z
-frontImage: "1mariliis/introducing-Dasbird-Atlas.png"
-thumbnail: "1mariliis/introducing-Dasbird-Atlas.png"
+frontImage: "2020-05-vacation-buffer/introducing-Dasbird-Atlas.png"
+thumbnail: "2020-05-vacation-buffer/introducing-Dasbird-Atlas.png"
 canonical: https://dashbird.io/blog/introducing-dashbird-atlas/
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
