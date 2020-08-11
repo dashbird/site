@@ -23,7 +23,7 @@ Our users found this new feature highly valuable so we really wanted to take it 
 Enter: Dashbird Atlas.
 
 
-![Dashbird Atlas, real-time 3D map view of serverless environment](/2020-05-vacation-buffer/introducing-Dasbird-Atlas.png "Dashbird Atlas, real-time 3D map view of serverless environment")
+![Dashbird Atlas, real-time 3D map view of serverless environment](/images/blog/2020-05-vacation-buffer/introducing-Dasbird-Atlas.png "Dashbird Atlas, real-time 3D map view of serverless environment")
 
 
 Let us take you through this beast of a powerful real-time observability tool now. Get ready to see your serverless infrastructure in a whole different light and...dimension.
