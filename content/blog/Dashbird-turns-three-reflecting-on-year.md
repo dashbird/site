@@ -2,8 +2,8 @@
 title: "Dashbird turns 3: reflecting on the journey, challenges and milestones of the past year"
 description: "Another year of empowering DevOps teams and what a year it's been! It's time to reflect on the journey, challenges and milestones."
 date: 2020-08-11T00:00:00.000Z
-frontImage: "1mariliis/dashbird-turns-3.png"
-thumbnail: "1mariliis/dashbird-turns-3.png"
+frontImage: "2020-05-vacation-buffer/dashbird-turns-3.png"
+thumbnail: "2020-05-vacation-buffer/dashbird-turns-3.png"
 canonical: https://dashbird.io/blog/Dashbird-turns-three-reflecting-on-year/
 author: "Taavi Rehemägi"
 author_image: "/images/team/taavi.jpg"
