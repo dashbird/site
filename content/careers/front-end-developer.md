@@ -28,9 +28,8 @@ cardBackground: '/images/card/hiker.jpg'
 #### Benefits:
 - Great compensation – motivational base pay and company stock options
 - Regular team socials and PS nights
-- Friendly, dynamic and international work environment
+- Friendly and international work environment
 - Pretty obvious but we’ll throw in the free coffee as well
-- Start: ASAP
 
 #### A little bit about us:
 We are a friendly international team helping the worlds’ leading tech companies in building cutting-edge cloud applications. If this looks like the dream job for you and you’d be interested in joining us, fill in the form below and we’ll get in touch. 
