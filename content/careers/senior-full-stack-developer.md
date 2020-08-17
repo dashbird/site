@@ -12,7 +12,7 @@ cardBackground: '/images/card/starwars.jpg'
 **We are looking for cross-language engineers for whom a specific stack is just a tool to solve a problem, not the solution itself**
 - Tallinn, Estonia (our HQ with a view)
 - Start ASAP
-- Competitive salary
+- Competitive salary + stock options
 - Regular team socials and cool off-site hackathons
 - Friendly and dynamic work environment
 
