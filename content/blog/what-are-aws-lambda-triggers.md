@@ -1,14 +1,14 @@
 ---
-title: What Are AWS Lambda Triggers? (Explained for Dummies)
-description: Events can be anything, really. For a lambda function to execute, an event must occur.
-date: 2018-08-24T12:00:00.000Z
+title: What Are AWS Lambda Triggers?
+description: Find out everything you need to know about AWS Lambda triggers, from Dynamo DB integration to how to trigger a Lambda, in this simple introduction.
+date: 2020-08-18T12:00:00.000Z
 frontImage: "2018-08-24/header.jpeg"
 thumbnail: "images/blog/2018-08-24/header.jpeg"
 author: Nemanja Novkovic
 blog: ["AWS", "Lambda", "Events"]
 ---
 
-Like in every aspect of life, we tend to learn new things straightforward. Skipping some steps when learning something new might get you confused, it tends to get annoying, or it can even make you frustrated. Why? Well, to be able to understand how something works appropriately and later on to know how to implement your knowledge practically without any kind of stress involved, you must master everything about there is regarding the particular subject in particular order. Let me put it this way...
+We talk a lot about more advanced level of Lambda triggers in our popular "Complete Guide to Lambda Triggers" ((Part 1)[https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1/] and (Part 2)[https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-2/] out now) series but, this time, we're bringing it back to the basics. Skipping some steps when learning something new might get you confused, it tends to get annoying, or it can even make you frustrated. Why? Well, to be able to understand how something works appropriately and later on to know how to implement your knowledge practically without any kind of stress involved, you must master everything about there is regarding the particular subject in particular order. Let me put it this way...
 
 > You can’t calculate how fast is subatomic particle moving in space if its 300 light-years away from the closest planet if you don’t know the basic math like 3.14 times 42, right?
 
@@ -48,4 +48,4 @@ Essentially, AWS Lambda triggers are merely actions caused by specific events th
 
 Once you have finished reading about triggers you will probably start to wonder about the observability aspect of your serverless app or to better put it, the lack thereof. You wouldn't be the first one to think like that, but luckily there are a number of services that can help you in that regard.
 
-Take <a href="http://dashbird.io" target="_blank" rel="noreferrer noopener">Dashbird.io</a> for example, they can help you monitor your serverless environment, set up alerts and keep track of costs without adding any strain to your application. Furthermore, they have a pretty decent free tier that is more than enough to get you started. You can <a href="https://dashbird.io/register/">sign up</a> right now to start monitoring your serverless app for free!
+<a href="http://dashbird.io" target="_blank" rel="noreferrer noopener">Dashbird.io</a> can help you monitor your serverless environment all in one easy to understand dashboard. Set up alerts, get insights on what to improve and keep track of costs without adding any strain to your application. You can <a href="https://dashbird.io/register/">sign up</a> right now to start monitoring your serverless app for free! No code changes and no credit card required.
