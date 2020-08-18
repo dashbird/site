@@ -1,7 +1,7 @@
 ---
 title: What Are AWS Lambda Triggers?
 description: Find out everything you need to know about AWS Lambda triggers, from Dynamo DB integration to how to trigger a Lambda, in this simple introduction.
-date: 2020-08-18T12:00:00.000Z
+date: 2020-08-18T00:00:00.000Z
 frontImage: "2018-08-24/header.jpeg"
 thumbnail: "images/blog/2018-08-24/header.jpeg"
 author: Nemanja Novkovic
