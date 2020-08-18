@@ -15,6 +15,7 @@ cardBackground: '/images/card/starwars.jpg'
 - Competitive salary + stock options
 - Regular team socials and cool off-site hackathons
 - Friendly and dynamic work environment
+- Get hands on experience with cutting edge cloud technology
 
 #### You’ll spend your time:
 - Designing and building serverless systems
