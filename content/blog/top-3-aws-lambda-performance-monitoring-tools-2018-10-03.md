@@ -7,6 +7,7 @@ thumbnail: "images/blog/2018-07-20/lambda-performance-monitoring.jpeg"
 author: Ranvir Singh
 blog: ["Serverless", "Lambda", "Monitoring"]
 featloc: blog-header
+draft: true
 ---
 
 Serverless is often described as the abstraction to end all abstractions. VMs and standalone containers pale in comparison stateless functions. That pristine distinction between the application's code and its stateful data is something we all dream of. Scalability, observability and high availability can now be realized on a global scale. That said, just running your app on serverless doesn’t make it bullet-proof, neither should we believe that a Lambda function can make inefficient code run faster for us. Throwing resources at the problem doesn't solve it efficiently anymore.
