@@ -1,7 +1,7 @@
 ---
 title: Ten amazing benefits of serverless technology
-description: Serverless architecture offers the possibility of ideal business implementations by doing the hard work for you. Here are some pros and cons.
-date: 2019-02-04T12:00:00.000Z
+description: Serverless architecture offers the possibility of ideal business implementations by doing the hard work for you. Here are some pros and cons you should consider.
+date: 2020-08-25T00:00:00.000Z
 frontImage: "2019-02-05/bundo-kim-1343291-unsplash.jpg"
 thumbnail: "images/blog/2019-02-05/bundo-kim-1343291-unsplash.jpg"
 authorlink: 'https://twitter.com/@johndemian'
@@ -59,4 +59,7 @@ Look, I'm going to level with you.  I could only think of 9 awesome benefits of 
 <div style="width:100%;height:0;padding-bottom:58%;position:relative;"><iframe src="https://giphy.com/embed/8VrtCswiLDNnO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 <h3>Is serverless the way to go?</h3>
-Going with a request-driven, serverless architecture could be the right move. It could also be a poor choice for your company, depending on what sort of app you're building. Be sure to dive into serverless what components your application will have and how large it'll be. If serverless seems like a great fit, there's no reason why you shouldn't try it. 
+Going with a request-driven, serverless architecture could be the right move. It could also be a poor choice for your company, depending on what sort of app you're building. Be sure to dive into serverless what components your application will have and how large it'll be. If serverless seems like a great fit, there's no reason why you shouldn't try it. Just don't forget to monitor your serverless environment. Dashbird offers easy and fast (monitoring solutions)[https://dashbird.io/features/] to make serverless apps reliable at any scale, all in one easy to understand dashboard. Set up (alerts)[https://dashbird.io/features/automated-alerting/], get (insights)[https://dashbird.io/features/insights-engine/] on what to improve and keep track of costs without adding any strain to your application. You can sign up right now to start monitoring your serverless app for free! No code instrumentation, no security or performance implications and no credit card required.
+
+---
+_Editor’s note: This blog has been refreshed and updated for accuracy in August 2020. Originally published in February 2019._
