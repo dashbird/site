@@ -166,7 +166,7 @@ Quickly visualizing past occurrences of the same issue can be important as some 
 
 In all, this can help avoid making the same mistakes in both initial development and error remediation, and improve expertise and knowledge by creating a continuous learning and assessment approach. 
 
-![Past Occurrences of Issues]!(/images/blog/2020-05-vacation-buffer/7image2.png "Past Occurrences of Issues")
+![Past Occurrences of Issues](/images/blog/2020-05-vacation-buffer/7image2.png" Past Occurrences of Issues")
 
 ### Event-Driven Debugging
 
