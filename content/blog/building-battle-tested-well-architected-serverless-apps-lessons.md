@@ -1,7 +1,7 @@
 ---
-title: Building Battle-Tested Well-Architected Apps: Learnings from Real Life
+title: "Building Battle-Tested Well-Architected Apps: Learnings from Real Life"
 description: Dashbird's lessons learned in building reliable Well-Architected serverless applications and the highest impact areas to focus on no matter where you are in the Serverless journey.
-date: 2020-07-20T00:00:00.000Z
+date: 2020-09-07T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
 canonical: https://dashbird.io/blog/building-battle-tested-well-architected-serverless-apps-lessons/
