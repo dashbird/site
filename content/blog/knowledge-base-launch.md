@@ -2,8 +2,8 @@
 title: Launching our knowledge base
 description: A place where you can find anything from simple definitions to advanced serverless tips.
 date: 2019-11-15
-frontImage: "2019-11-15/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg"
-thumbnail: "images/blog/2019-11-15/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg"
+frontImage: "2020-05-vacation-buffer/knowledge-base-new-photo.png"
+thumbnail: "images/blog/2020-05-vacation-buffer/knowledge-base-new-photo.png"
 authorlink: 'https://twitter.com/@johndemian'
 author: John Demian
 author_image: '/images/team/john.jpg'
