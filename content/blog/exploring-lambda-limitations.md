@@ -10,7 +10,7 @@ author_image: '/images/team/john.jpg'
 blog: ["Serverless", "E-commerce"]
 ---
 
-We have explored how we can (deploy Machine Learning models using AWS Lambda)[https://dashbird.io/blog/machine-learning-in-aws-lambda/]. Deploying ML models with AWS Lambda is suitable for early-stage projects as there are certain limitations in using Lambda function. However, this is not a reason to worry if you need to utilize AWS Lambda to its full potential for your Machine Learning project.
+We have explored how we can [deploy Machine Learning models using AWS Lambda](https://dashbird.io/blog/machine-learning-in-aws-lambda/). Deploying ML models with AWS Lambda is suitable for early-stage projects as there are certain limitations in using Lambda function. However, this is not a reason to worry if you need to utilize AWS Lambda to its full potential for your Machine Learning project.
 When working with Lambda functions its a constant worry about the size of deployment packages for a developer.  
 
 Let's first have a look at the AWS Lambda deployment limits and address the 50 MB package size in the AWS official documentation which is kind of delusive as you can make larger deployments of uncompressed files. 
@@ -134,10 +134,10 @@ The error describes that the size of the unzipped package should be smaller than
 
 The important thing to notice here is that your code and its dependencies should be within <strong>250 MB</strong> size limit when in uncompressed state. Even if we consider a larger package size it may seriously affect Lambda function’s cold start time. Consequently, the Lambda function will take longer time to execute with larger package size. 
 
-If you're looking to get a quicker and easier understanding of the performance of your serverless website or application, check out Dashbird's (monitoring, insights and alerts features)[https://dashbird.io/features/] or hit the ground running and (get your free account now)[https://dashbird.io/register/].
+If you're looking to get a quicker and easier understanding of the performance of your serverless website or application, check out Dashbird's [monitoring, insights and alerts features](https://dashbird.io/features/) or hit the ground running and [get your free account now](https://dashbird.io/register/).
 
 
-<italic>* The (maximum execution time was increased)[https://aws.amazon.com/about-aws/whats-new/2018/10/aws-lambda-supports-functions-that-can-run-up-to-15-minutes/#:~:text=You%20can%20now%20configure%20your,Lambda%20function%20was%205%20minutes] from 5 minutes to 15 in October 2018.</italic>
+<italic>* The [maximum execution time was increased](https://aws.amazon.com/about-aws/whats-new/2018/10/aws-lambda-supports-functions-that-can-run-up-to-15-minutes/#:~:text=You%20can%20now%20configure%20your,Lambda%20function%20was%205%20minutes) from 5 minutes to 15 in October 2018.</italic>
 
 
 ---
