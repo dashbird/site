@@ -39,7 +39,7 @@ We’ll be working with a Machine Learning model as our deployment package, crea
 <strong>50 MB</strong>: Maximum deployment package size
 <strong>250 MB</strong>: Size of code/dependencies that you can zip into a deployment package (uncompressed .zip/.jar size)
 
-For this test, we’ll be using our machine learning model that we created in our <a href="https://dashbird.io/blog/machine-learning-in-aws-lambda/">last article</a>. It’s an image recognition deep learning model based on TensorFlow Inception-v3 model. Although our data is not so compressed. The overall file size is about 150 MB which is much beyond the specified limit of 50 MB.
+For this test, we’ll be using our machine learning model that we created in <a href="https://dashbird.io/blog/machine-learning-in-aws-lambda/">this article</a>. It’s an image recognition deep learning model based on TensorFlow Inception-v3 model. Although our data is not so compressed. The overall file size is about 150 MB which is much beyond the specified limit of 50 MB.
 
 <h2>Testing</h2>
 Let’s test it by directly uploading to Lambda function. Here are the main steps to be followed:
