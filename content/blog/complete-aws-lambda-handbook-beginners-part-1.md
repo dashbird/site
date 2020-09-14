@@ -1,13 +1,13 @@
 ---
 title: "The Complete AWS Lambda Handbook for Beginners (Part 1)"
-description: In the first part of our Complete AWS Lambda Handbook for Beginners, we explain the terminology you will be seeing when you first start out with AWS Lambda and show you how to create a simple AWS Lambda function.
+description: "In the first part of our Complete AWS Lambda Handbook for Beginners, we explain the terminology you will be seeing when you first start out with AWS Lambda and show you how to create a simple AWS Lambda function."
 date: 2020-09-14T00:00:00.000Z
 frontImage: "2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
 thumbnail: "images/blog/2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
 canonical: https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-1/
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
-authorLink: https://twitter.com/rehemagi
+authorLink: "https://twitter.com/rehemagi"
 blog: ["AWS Lambda", "serverless"]
 draft:true
 ---
