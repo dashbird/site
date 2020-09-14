@@ -2,14 +2,13 @@
 title: "The Complete AWS Lambda Handbook for Beginners (Part 1)"
 description: "In the first part of our Complete AWS Lambda Handbook for Beginners, we explain the terminology you will be seeing when you first start out with AWS Lambda and show you how to create a simple AWS Lambda function."
 date: 2020-09-14T00:00:00.000Z
-frontImage: "2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
-thumbnail: "images/blog/2020-05-vacation-buffer/building-battle-tested-reliable-serverless-applications.png"
-canonical: https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-1/
+frontImage: "2020-05-vacation-buffer/complete-aws-lambda-handbook-beginners.png"
+thumbnail: "images/blog/2020-05-vacation-buffer/complete-aws-lambda-handbook-beginners.png"
+canonical: "https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-1/"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
 authorLink: "https://twitter.com/rehemagi"
 blog: ["AWS Lambda", "serverless"]
-draft:true
 ---
 
 Welcome to the Serverless world. One of the first things you'll hear about is AWS Lambda - and you'll continue to keep hearing about it! While architecture can be serverless without Lambdas involved, it's very often the key component within a serverless application. In the first post of this 3-part AWS Lambda Handbook series, we run through what is AWS Lambda, dialling back to basics with the various terminology, how to create a Lambda function and how to run it. 
