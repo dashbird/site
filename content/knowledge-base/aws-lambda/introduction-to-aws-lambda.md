@@ -8,12 +8,12 @@ learning_weight: 100
 
 # What is AWS Lambda?
 
-AWS Lambda is a Function-as-a-service (FaaS) computing platform provided by AWS. FaaS provides a computing platform to execute code in the cloud. As in any serverless system, it abstracts away the complexities of provisioning and managing a cloud infrastructure.
+AWS Lambda is a Function-as-a-service (FaaS) computing platform provided by Amazon Web Services (AWS). As a FaaS, it provides a computing platform to execute code in the cloud. As in any serverless system, it abstracts away the complexities of provisioning and managing a cloud infrastructure.
 
-It is commonly used when building microservices applications, but also serves monolithic and other types of architectures as well. There are several [use cases and multiple benefits](/knowledge-base/aws-lambda/aws-lambda-benefits-and-use-cases/) from using AWS Lambda.
+It is commonly used when building microservices applications, but also serves monolithic and other types of architectures as well. There are several [use cases](https://dashbird.io/blog/best-aws-lambda-serverless-use-cases/) and multiple benefits from using AWS Lambda.
 
 
-# Execution environment and available runtimes
+# Lambda execution environment and available runtimes
 
 * Container with a 64-bit Amazon Linux AMI[^1]
 * RAM: 128MB to 3008MB, in 64 MB increments
@@ -52,7 +52,7 @@ All Lambda functions consist of three key elements:
   * Provides a method that returns the remaining miliseconds left before the function times out
 
 
-# Pricing and free tier
+# AWS Lambda pricing and free tier
 
 Lambda functions are billed by the time it takes to execute your function, being rounded up to the nearest 100ms and the GB-seconds based on the memory consumption. It also comes with a free tier of 1 million requests and 400,00 GB-seconds of compute time each month.
 
