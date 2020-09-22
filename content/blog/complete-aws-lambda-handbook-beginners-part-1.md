@@ -14,7 +14,7 @@ blog: ["AWS Lambda", "serverless"]
 Welcome to the Serverless world. One of the first things you'll hear about is AWS Lambda - and you'll continue to keep hearing about it! While architecture can be serverless without Lambdas involved, it's very often the key component within a serverless application. In the first post of this 3-part AWS Lambda Handbook series, we run through what is AWS Lambda, dialling back to basics with the various terminology, how to create a Lambda function and how to run it. 
 
 
-# What is AWS Lambda, and what does it do?
+## What is AWS Lambda, and what does it do?
 
 AWS Lambda is an event-driven serverless compute platform, spinning up the service in response to an event - find out more about Lambda triggers in [part 1](https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1/) and [part 2](https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-2/) of our Complete Guide to Lambda Triggers series. Your code simply sits there as a file while AWS keeps a lookout for the trigger event you've set. When that event occurs, your code is executed and the required operations are carried out. It's deemed 'serverless' because the server doesn't exist until the user goes out to look for it - this is the epitome of [Function-as-a-Service (FaaS)](https://dashbird.io/blog/what-is-faas-function-as-a-service/).
 
