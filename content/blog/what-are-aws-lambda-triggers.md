@@ -1,14 +1,19 @@
 ---
 title: What Are AWS Lambda Triggers?
 description: Find out everything you need to know about AWS Lambda triggers, from Dynamo DB integration to how to trigger a Lambda, in this simple introduction.
-date: 2020-08-18T00:00:00.000Z
+date: 2020-08-18T00:00:00.000Zmages/blog/2018-08-24/header.jpeg"
+author: Nemanja Novkovic
 frontImage: "2018-08-24/header.jpeg"
 thumbnail: "images/blog/2018-08-24/header.jpeg"
 author: Nemanja Novkovic
 blog: ["AWS", "Lambda", "Events"]
 ---
 
-We talk a lot about more advanced level of Lambda triggers in our popular "Complete Guide to Lambda Triggers" series, <a href="https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1/" target="_blank">Part 1</a> and <a href="https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-2/" target="_blank">Part 2</a> out now. So, this time, we're bringing it back to the basics because skipping some steps when learning something new might get you confused, it tends to get annoying, or it can even make you frustrated. Why? Well, to be able to understand how something works appropriately and later on to know how to implement your knowledge practically without any kind of stress involved, you must master everything about there is regarding the particular subject in particular order. Let me put it this way...
+Find out everything you need to know about AWS Lambda triggers, from AWS Dynamo DB integration to how to trigger a Lambda, in this simple introduction.
+
+We talk a lot about more advanced level of Lambda triggers in our popular "Complete Guide to Lambda Triggers" series, <a href="https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-1/" target="_blank">Part 1</a> and <a href="https://dashbird.io/blog/complete-guide-lambda-triggers-design-patterns-part-2/" target="_blank">Part 2</a> out now. 
+
+This time, we're bringing it back to the basics because skipping some steps when learning something new might get you confused, it tends to get annoying, or it can even make you frustrated. Why? Well, to be able to understand how something works appropriately and later on to know how to implement your knowledge practically without any kind of stress involved, you must master everything about there is regarding the particular subject in particular order. Let me put it this way...
 
 > You can’t calculate how fast is subatomic particle moving in space if its 300 light-years away from the closest planet if you don’t know the basic math like 3.14 times 42, right?
 
