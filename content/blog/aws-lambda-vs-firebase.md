@@ -12,7 +12,7 @@ blog: ["Firebase", "Lambda"]
 
 Now that you've chosen to go the serverless route, which vendor option should you go for? That's one of the major questions that anybody asks themselves when they make the switch.
 
-Should you choose <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a>, which is a mature service that will serve you well, or should you go with e <a href="https://firebase.google.com/">Google's younger Firebas</a>?
+Should you choose <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a>, which is a mature service that will serve you well, or should you go with e <a href="https://firebase.google.com/">Google's younger Firebase</a>?
 
 Before the comparison of AWS vs Firebase, we should understand what serverless really means.
 
