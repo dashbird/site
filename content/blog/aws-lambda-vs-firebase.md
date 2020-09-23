@@ -1,7 +1,7 @@
 ---
 title: AWS vs Firebase - Is It Even a Fair Fight?
 description: Switching to serverless? Here's a simple comparison between Amazon Web Services (AWS) and Google Firebase to help you make the decision on the best vendor platform for your needs.
-date: 2020-09-23T12:00:00.000Z
+date: 2020-09-23T00:00:00.000Z
 frontImage: "2018-08-15/photo-1495555775484-97f7c56a7ba9.jpeg"
 thumbnail: "images/blog/2018-08-15/photo-1495555775484-97f7c56a7ba9.jpeg"
 authorlink: 'https://twitter.com/@johndemian'
