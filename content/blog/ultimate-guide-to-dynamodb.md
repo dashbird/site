@@ -22,25 +22,25 @@ A keyword you'll often hear with DynamoDB is that it is a NoSQL database, which 
 
 ## Key Concepts:
 
-Table: as a collection that can hold a virtually infinite number of items, it may also have secondary indexes associated
+__Table__: as a collection that can hold a virtually infinite number of items, it may also have secondary indexes associated
 
-Secondary Index: duplicates table items using a different primary-key and sort-key
+__Secondary Index__: duplicates table items using a different primary-key and sort-key
 
-Primary Key: a special form of attribute that is used to reference items, similarly to an item ID
+__Primary Key__: a special form of attribute that is used to reference items, similarly to an item ID
 
-Sort Key: another special form of attribute that is used to organize items in a different sorting order
+__Sort Key__: another special form of attribute that is used to organize items in a different sorting order
 
-Item: the most basic unit in AWS DynamoDB, it holds the data attributes structured in a JSON
+__Item__: the most basic unit in AWS DynamoDB, it holds the data attributes structured in a JSON
 
-Attribute: a key value pair that contains informational data-points about an item in the database table
+__Attribute__: a key value pair that contains informational data-points about an item in the database table
 
-Streams: a constant stream of state-changing operations executed against a table
+__Streams__: a constant stream of state-changing operations executed against a table
 
-Query: operation to retrieve a particular item (or set of items)
+__Query__: operation to retrieve a particular item (or set of items)
 
-Scan: operation to scan the entire table or a section of it
+__Scan__: operation to scan the entire table or a section of it
 
-Filter: rules to apply after a query or scan has executed, but before results are returned to the requester
+__Filter__: rules to apply after a query or scan has executed, but before results are returned to the requester
 
 
 ## Relational Database Systems (RDBMS) vs NoSQL Database
