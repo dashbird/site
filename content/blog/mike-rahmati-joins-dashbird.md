@@ -11,7 +11,12 @@ blog: ["serverless", "news"]
 draft: true
 ---
 
-Mike Rahmati joined as Head of Advisory Board at Dashbird on 18 June 2020, bringing with him a wealth of firsthand experience and knowledge from the cloud and serverless world. Mike is the Co-Founder and CTO of [Cloud Conformity](https://www.cloudconformity.com/) (acquired by Trend Micro), a Cloud Security Posture Management Solution, and is an active AWS Community Hero.
+<div class="text-justify">
+    <div style="float: left; max-width: 180px; margin: 10px 20px 10px 0px;">
+        <img style="border-radius: 50%; max-width: 170px;" src="/images/blog/2020-05-vacation-buffer/mike-rahmati.png" alt="Mike Rahmati">
+    </div>
+    <p>Mike Rahmati joined as Head of Advisory Board at Dashbird on 18 June 2020, bringing with him a wealth of firsthand experience and knowledge from the cloud and serverless world. Mike is the Co-Founder and CTO of <a href="https://www.cloudconformity.com/">Cloud Conformity</a> (acquired by Trend Micro), a Cloud Security Posture Management Solution, and is an active AWS Community Hero.</p>
+</div>
 
 
 With an already extensive background in security and cloud architecture, it was an easy match to go Serverless at Cloud Conformity. _"As cloud security is a very competitive area, we needed to build fast - from inception to delivery - and get to market quickly"_, Mike says, _"and with AWS, we were able to offload most of the DevOps activities so we could focus on business logic."_ Mike's interest and personal experience in Serverless has only grown since then as Cloud Conformity became one of the earliest and largest adopters of the technology, with now over 3000 Lambda functions in their infrastructure.
