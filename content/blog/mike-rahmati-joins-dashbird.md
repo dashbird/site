@@ -8,7 +8,6 @@ canonical: https://dashbird.io/blog/mike-rahmati-joins-dashbird
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
 blog: ["serverless", "news"]
-draft: true
 ---
 
 <div class="text-justify">
@@ -33,5 +32,6 @@ Dashbird works by giving cross-account access to your environment, including AWS
 
 _"At scale, you need the right tools for Serverless for good, easy management....Dashbird immediately stood out when we were trialling various tools. It wasn't intrusive, didn't need additional code changes and the dashboard summarizes and highlights problems in your architecture giving much needed quick observability,"_ says Mike.
 
+![Real-time serverless observability in Dashbird](/images/blog/2020-05-vacation-buffer/Dashbird-Atlas.png "Real-time serverless observability in Dashbird")
 
 _"Ever since our trial a few years ago, I've been very interested in Dashbird and am so pleased to be able to introduce an ever-evolving tool to my network and community that will solve Serverless-at-Scale issues,"_ he continues. Being onboard as the Head of the Advisory Board and looking to the future, _"I'd love to see Dashbird become an end-to-end monitoring solution for Serverless, and to provide a tool to enable a developer-friendly ecosystem where there is no differentiation between Dev, Ops or Security but all are intertwined seamlessly. We want something similar to the 'Shift Left' idea for the Serverless world. I'm very excited to be a part of that journey with Dashbird."_
