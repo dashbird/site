@@ -8,13 +8,14 @@ canonical: https://dashbird.io/blog/mike-rahmati-joins-dashbird
 author: "Mariliis Retter"
 author_image: "/images/team/mari.png"
 blog: ["serverless", "news"]
+draft: true
 ---
 
 <div class="text-justify">
     <div style="float: left; max-width: 180px; margin: 10px 20px 10px 0px;">
         <img style="border-radius: 50%; max-width: 170px;" src="/images/blog/2020-05-vacation-buffer/mike-rahmati.png" alt="Mike Rahmati">
     </div>
-    <p>Mike Rahmati joined as Head of Advisory Board at Dashbird on 18 June 2020, bringing with him a wealth of firsthand experience and knowledge from the cloud and serverless world. Mike is the Co-Founder and CTO of <a href="https://www.cloudconformity.com/">Cloud Conformity</a> (acquired by Trend Micro), a Cloud Security Posture Management Solution, and is an active <a href="https://aws.amazon.com/developer/community/heroes/mike-rahmati/">AWS Community Hero</a>.</p>
+    <p>Mike Rahmati has joined as Head of Advisory Board at Dashbird, bringing with him a wealth of firsthand experience and knowledge from the cloud and serverless world. Mike is the Co-Founder and CTO of <a href="https://www.cloudconformity.com/">Cloud Conformity</a> (acquired by Trend Micro), a Cloud Security Posture Management Solution, and is an active <a href="https://aws.amazon.com/developer/community/heroes/mike-rahmati/">AWS Community Hero</a>.</p>
 </div>
 
 
