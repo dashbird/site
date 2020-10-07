@@ -1,15 +1,14 @@
 ---
 title: "The Complete AWS Lambda Handbook for Beginners (Part 3)"
-description: "In the first part of our Complete AWS Lambda Handbook for Beginners, we explain the terminology you will be seeing when you first start out with AWS Lambda and show you how to create a simple AWS Lambda function."
+description: In the final installment of our Complete AWS Lambda Handbook series we cover Lambda deployment limits, cold starts, observability, debugging and error detection.
 date: 2020-10-07T00:00:00.000Z
-frontImage: "2020-05-vacation-buffer/complete-aws-lambda-handbook-beginners.png"
-thumbnail: "images/blog/2020-05-vacation-buffer/complete-aws-lambda-handbook-beginners.png"
+frontImage: "2020-05-vacation-buffer/complete-aws-lambda-handbook-3.png"
+thumbnail: "images/blog/2020-05-vacation-buffer/complete-aws-lambda-handbook-3.png"
 canonical: "https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-3/"
 author: Taavi Rehemägi
 author_image: '/images/team/taavi.jpg'
 authorLink: "https://twitter.com/rehemagi"
 blog: ["AWS Lambda", "serverless"]
-draft: true
 ---
 
 Welcome to the final installment of our Complete AWS Lambda Handbook series!
