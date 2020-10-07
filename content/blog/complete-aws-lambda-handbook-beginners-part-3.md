@@ -101,21 +101,21 @@ Even after compressing and zipping the overall package size is about 132 MB.
 
 Replace XXXXXXXXXXXX with your AWS Account id. However since our package size is greater than the 50MB specified limit, it throws an error.
 
-An error occurred (RequestEntityTooLargeException) when calling the UpdateFunctionCode operation: Request must be smaller than 69905067 bytes for the UpdateFunctionCode operation
+`An error occurred (RequestEntityTooLargeException) when calling the UpdateFunctionCode operation: Request must be smaller than 69905067 bytes for the UpdateFunctionCode operation`
 
 6.  Since our deployment package is quite large we will load it again during an AWS Lambda inference execution from AWS S3. For this we need to create an AWS S3 bucket from AWS CLI:
 
-aws s3 mb s3://mlearn-test --region ap-south-1
+`aws s3 mb s3://mlearn-test --region ap-south-1`
 
 
 This will create an S3 bucket for us. Now we'll upload our package to this bucket and update our Lambda function with the S3 object key.
 
-aws s3 cp ./ s3://mlearn-test/ --recursive --exclude "*" --include "MachineLearning.zip"
+`aws s3 cp ./ s3://mlearn-test/ --recursive --exclude "*" --include "MachineLearning.zip"`
 
 
 Once our package is uploaded into the bucket we'll update our Lambda function with the package's object key.
 
-aws lambda update-function-code --function-name mlearn-test --region ap-south-1 --s3-bucket mlearn-test --s3-key MachineLearning.zip
+`aws lambda update-function-code --function-name mlearn-test --region ap-south-1 --s3-bucket mlearn-test --s3-key MachineLearning.zip`
 
 
 This time it shows no error even after updating our Lambda function and we're able to upload our package successfully.
@@ -134,13 +134,13 @@ fsutil file createnew sample300.txt 350000000
 
 2.  This will create a sample file of about 300 MB. We'll zip the file and upload it again through S3.
 
-aws s3 cp ./ s3://mlearn-test/ --recursive --exclude "*" --include "sample300.zip"
+`aws s3 cp ./ s3://mlearn-test/ --recursive --exclude "*" --include "sample300.zip"`
 
-aws lambda update-function-code --function-name mlearn-test --region ap-south-1 --s3-bucket mlearn-test --s3-key sample300.zip
+`aws lambda update-function-code --function-name mlearn-test --region ap-south-1 --s3-bucket mlearn-test --s3-key sample300.zip`
 
 3.  After updating our Lambda function we get the following error:
 
-An error occurred (InvalidParameterValueException) when calling the UpdateFunctionCode operation: Unzipped size must be smaller than 262144000 bytes
+`An error occurred (InvalidParameterValueException) when calling the UpdateFunctionCode operation: Unzipped size must be smaller than 262144000 bytes`
 
 The error describes that the size of the unzipped package should be smaller than 262144000 bytes, which is about 262MB. This size is just a little more than the specified limit of 250MB size of code/dependences that can be zipped into a deployment package (uncompressed .zip/.jar size).
 
