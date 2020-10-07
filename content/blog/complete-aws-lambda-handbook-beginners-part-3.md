@@ -78,13 +78,12 @@ TensorFlow: [official release](https://github.com/tensorflow/models/tree/master/
 
 2.  Name package MachineLearning.zip.
 
-zip MachineLearning.zip MachineLearning
+`zip MachineLearning.zip MachineLearning`
 
 3.  Check if the file can be compressed.
 
-$ ls -lhtr | grep zip
-
--rw-r--r-- 1 john staff 123M Nov 4 13:05 MachineLearning.zip
+`$ ls -lhtr | grep zip `
+`-rw-r--r-- 1 john staff 123M Nov 4 13:05 MachineLearning.zip`
 
 
 Even after compressing and zipping the overall package size is about 132 MB.
@@ -98,7 +97,7 @@ Even after compressing and zipping the overall package size is about 132 MB.
 
 5.  Create a Lambda function via [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) and upload our deployment package directly to the function.
 
-aws lambda create-function --function-name mlearn-test --runtime nodejs6.10 --role arn:aws:iam::XXXXXXXXXXXX:role/Test-role --handler tensorml --region ap-south-1 --zip-file fileb://./MachineLearning.zip
+`aws lambda create-function --function-name mlearn-test --runtime nodejs6.10 --role arn:aws:iam::XXXXXXXXXXXX:role/Test-role --handler tensorml --region ap-south-1 --zip-file fileb://./MachineLearning.zip`
 
 Replace XXXXXXXXXXXX with your AWS Account id. However since our package size is greater than the 50MB specified limit, it throws an error.
 
