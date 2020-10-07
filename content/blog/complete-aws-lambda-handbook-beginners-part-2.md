@@ -13,6 +13,8 @@ blog: ["AWS Lambda", "serverless"]
 
 In [Part 1 of our Complete AWS Lambda Handbook for Beginners](https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-1/), we gave a refresher on the fundamentals of AWS Lambda and what is AWS Lambda. In this post, we'll look at AWS Lambda pricing, some interesting Lambda facts and examples of great AWS Lambda use cases in your serverless application. 
 
+> Read [Part 3](https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-3/)
+
 ## AWS Lambda Pricing
 
 
