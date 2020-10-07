@@ -13,6 +13,8 @@ blog: ["AWS Lambda", "serverless"]
 
 Welcome to the Serverless world. One of the first things you'll hear about is AWS Lambda - and you'll continue to keep hearing about it! While architecture can be serverless without Lambdas involved, it's very often the key component within a serverless application. In the first post of this 3-part AWS Lambda Handbook series, we run through what is AWS Lambda, dialling back to basics with the various terminology, how to create a Lambda function and how to run it. 
 
+> Read [Part 2](https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-2/) and [Part 3](https://dashbird.io/blog/complete-aws-lambda-handbook-beginners-part-3/)
+
 
 ## What is AWS Lambda, and what does it do?
 
