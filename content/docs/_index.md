@@ -47,7 +47,6 @@ These metrics support not only function health analysis, but also resource and c
 Dashbird monitors cloud components in serverless applications and cross-reference against well-architected best practices. Services monitored by Dashbird Insights include SQS queues, ECS containers, DynamoDB tables, API Gateways.
 
 Insights are automatically generated when:
-git st
 * Your infrastructure is likely to fail
 * Our system identifies opportunities for improvement
 
