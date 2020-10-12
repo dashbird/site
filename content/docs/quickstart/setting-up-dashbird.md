@@ -13,7 +13,7 @@ aliases:
 
 ### Register your account
 
-If you haven’t already, start by filling out the <a href="/register">registration form</a>. In case you’ve already done that plese <a href="https://app.dashbird.io/auth/login" target="_blank">sign in here</a> and continue to the next step.
+If you haven’t already, start by filling out the <a href="/register">registration form</a>. In case you’ve already done that, please <a href="https://app.dashbird.io/auth/login" target="_blank">sign in here</a> and continue to the next step.
 
 
 
